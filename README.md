@@ -11,7 +11,3 @@ Documentation site for NovelWorks (Astro Starlight). Languages: English (root), 
 ## Add a translation
 
 Copy a page from `src/content/docs/` to `src/content/docs/<lang>/` with the same path, then translate it. Keep button and menu names exactly as they appear in the editor.
-
-## Footer on every page
-
-"No AI-generated content. AI tools were used to help write the code." (src/components/Footer.astro)
