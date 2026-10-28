@@ -1,0 +1,23 @@
+---
+title: "NovelWorks 使用文档"
+description: "无需编程，制作自己的视觉小说。"
+template: splash
+hero:
+  tagline: "直接在画面中制作视觉小说：选择背景、放入角色、编写对话、添加选择，然后点击 Play。"
+  actions:
+    - text: "制作第一部视觉小说"
+      link: /novelworks-docs/zh-cn/getting-started/first-visual-novel/
+      icon: right-arrow
+    - text: "安装 NovelWorks"
+      link: /novelworks-docs/zh-cn/getting-started/install-and-activate/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+<CardGrid stagger>
+  <Card title="写作" icon="pencil">在同一画面中管理场景、对话、角色与图片。</Card>
+  <Card title="设计分支" icon="random">用选择改变变量，用条件通向不同结局。</Card>
+  <Card title="探索" icon="puzzle">一键启用点击探索、背包和地图。</Card>
+  <Card title="发布" icon="rocket">导出网页游戏并上传到 itch.io。</Card>
+</CardGrid>

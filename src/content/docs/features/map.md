@@ -15,7 +15,11 @@ Turn on **Map** in [Features](/novelworks-docs/features/features-panel/), then c
 
 ## When can players open the map?
 
-In the map settings, choose: from the start, after the map has first been opened in the story, or never (the story decides when to show it).
+In the map settings, choose when players can use its button:
+
+- **From the start**: the Map button is available from the beginning.
+- **After first shown**: the button appears after the story first reaches a **Show map** moment.
+- **Story only**: there is no Map button; only **Show map** moments open the map.
 
 ## Show map moments
 

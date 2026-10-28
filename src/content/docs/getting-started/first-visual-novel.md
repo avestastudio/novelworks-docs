@@ -5,9 +5,6 @@ description: A step-by-step tutorial, from an empty project to a game you can pl
 
 You will make a tiny story with a background, one character, a few lines and a choice. You need three pictures: a background and two expressions of one character (for example happy and surprised).
 
-:::note
-Don't have pictures yet? [Download the free starter pack] — [Link to add: a small pack of free-to-use pictures]. Any PNG or JPG works.
-:::
 
 ## 1. Create the project
 

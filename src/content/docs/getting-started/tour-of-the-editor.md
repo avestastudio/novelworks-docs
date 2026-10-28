@@ -3,6 +3,11 @@ title: Tour of the editor
 description: The four areas of the NovelWorks window.
 ---
 
+:::note
+The language selector on this site changes the documentation language only. The editor is currently in English, so button and menu names stay in English in every guide.
+:::
+
+
 [Screenshot: the full editor with the four areas numbered]
 
 ## The top bar

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check:translations": "node scripts/check-translations.mjs",
+    "prebuild": "npm run check:translations"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.7",

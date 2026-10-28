@@ -1,6 +1,6 @@
 /* NovelWorks brand: violet #6E5CE6, Manrope */
 :root {
-  --sl-font: 'Manrope', system-ui, sans-serif;
+  --sl-font: 'Manrope', system-ui, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
   --sl-color-accent-low: #2a2561;
   --sl-color-accent: #6e5ce6;
   --sl-color-accent-high: #c9c2ff;

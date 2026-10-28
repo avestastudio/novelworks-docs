@@ -1,0 +1,23 @@
+---
+title: "Documentación de NovelWorks"
+description: "Crea novelas visuales sin programar."
+template: splash
+hero:
+  tagline: "Construye tu novela visual tal como se verá en el juego: elige un fondo, coloca un personaje, escribe, añade elecciones y pulsa Play."
+  actions:
+    - text: "Crea tu primera novela visual"
+      link: /novelworks-docs/es/getting-started/first-visual-novel/
+      icon: right-arrow
+    - text: "Instala NovelWorks"
+      link: /novelworks-docs/es/getting-started/install-and-activate/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+<CardGrid stagger>
+  <Card title="Escribe" icon="pencil">Escenas, diálogos, personajes e imágenes en una sola pantalla.</Card>
+  <Card title="Crea ramas" icon="random">Elecciones que cambian variables y condiciones que llevan a distintos finales.</Card>
+  <Card title="Explora" icon="puzzle">Activa con un clic escenas point-and-click, un inventario y un mapa.</Card>
+  <Card title="Publica" icon="rocket">Exporta un juego web y súbelo a itch.io.</Card>
+</CardGrid>

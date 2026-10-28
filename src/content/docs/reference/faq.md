@@ -12,5 +12,3 @@ description: Quick answers.
 **Can I use the demo to make a full game?** Yes. Only exporting needs the full version.
 
 **I lost a change.** Try **Undo**, then **File → Restore from Backup…**.
-
-**Does NovelWorks use AI?** No AI-generated content. AI tools were used to help write the code.
