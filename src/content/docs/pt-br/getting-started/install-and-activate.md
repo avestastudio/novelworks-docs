@@ -42,4 +42,4 @@ O NovelWorks ainda não é assinado com um certificado pago da Apple ou Microsof
 - Para liberar um computador, por exemplo antes de vendê-lo, use **Deactivate this device** na mesma janela.
 - Ao atingir o limite, use **Contact us**.
 
-[Captura pendente: janela Activate NovelWorks]
+![Janela Activate NovelWorks com o campo de chave vazio](/novelworks-docs/screenshots/activate-novelworks.png)

@@ -44,4 +44,4 @@ Good to know:
 - To free a computer (for example before you sell it), open the same dialog and click **Deactivate this device**.
 - If you hit the 3-computer limit, use **Contact us** in the dialog.
 
-[Screenshot: the Activate NovelWorks dialog]
+![Activate NovelWorks dialog with an empty download key field](/novelworks-docs/screenshots/activate-novelworks.png)

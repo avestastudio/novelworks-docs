@@ -11,4 +11,4 @@ Añade un momento **Choice** desde la línea de tiempo.
 
 Se elige con ratón, pantalla táctil o las teclas **1** a **6**.
 
-[Captura pendiente: elección con dos opciones y un efecto]
+![Elección con dos opciones; la primera suma 1 a Mei affection](/novelworks-docs/screenshots/choice-options.png)

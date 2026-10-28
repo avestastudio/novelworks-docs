@@ -12,4 +12,4 @@ Cada cena é um cartão com resumo e andamento da escrita. As setas representam 
 - Use o **botão direito** nas cenas e setas para outras ações.
 - A barra de progresso e o filtro mostram o que ainda está **To write**.
 
-[Captura pendente: Story map]
+![Mapa da história com cenas, ramificações e finais](/novelworks-docs/screenshots/story-map.png)

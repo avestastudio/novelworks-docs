@@ -3,7 +3,6 @@
 ## Not written yet
 - Quick menu page (E2 step 5 is not built yet). Add it when the step is done.
 - Tutorial: a real run-through of the steps.
-- Screenshots: every [Screenshot: …] placeholder.
 - Translation review: all 35 pages now exist in fr, es, pt-br, zh-cn and ru. Keep editor button names in English until the editor is translated. Native-speaker review remains welcome.
 
 ## Written from the code but not checked in the running app
@@ -19,3 +18,7 @@
 ## Validation and publication
 - `npm run build` checks translation coverage and internal source links before building.
 - Confirm the Pages workflow after an explicitly authorized push.
+
+## Screenshots completed
+- Replaced all 24 screenshot placeholders across six languages with four captures from the running editor, using an isolated copy of Sketches of Spring.
+- Checked the two-option choice and its Mei affection +1 effect, the Story map and the empty activation form.

@@ -11,4 +11,4 @@ Ajoutez un moment **Choice** depuis la timeline.
 
 Les joueurs choisissent à la souris, au toucher ou avec les touches **1** à **6**.
 
-[Capture à ajouter : un choix avec deux options et un effet]
+![Choix à deux options : la première ajoute 1 à Mei affection](/novelworks-docs/screenshots/choice-options.png)

@@ -42,4 +42,4 @@ Necesitas la **clave de descarga** de tu compra en itch.io. Sin activación pued
 - Para liberar un ordenador antes de venderlo, por ejemplo, usa **Deactivate this device** en la misma ventana.
 - Si llegas al límite, utiliza **Contact us**.
 
-[Captura pendiente: ventana Activate NovelWorks]
+![Ventana Activate NovelWorks con el campo de clave vacío](/novelworks-docs/screenshots/activate-novelworks.png)

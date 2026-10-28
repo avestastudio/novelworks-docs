@@ -11,4 +11,4 @@ description: "让玩家的决定产生影响。"
 
 玩家可使用鼠标、触屏或数字键 **1** 至 **6** 选择。
 
-[待补充截图：包含两个选项和一个效果的选择时刻]
+![包含两个选项的选择：第一个选项将 Mei affection 增加 1](/novelworks-docs/screenshots/choice-options.png)

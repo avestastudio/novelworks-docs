@@ -8,7 +8,7 @@ description: "认识 NovelWorks 窗口的主要区域。"
 :::
 
 
-[待补充截图：标注各区域的编辑器全图]
+![NovelWorks 编辑器中的场景列表、舞台、时间线和检查器](/novelworks-docs/screenshots/editor-overview.png)
 
 ## 顶部栏
 

@@ -12,4 +12,4 @@ Cada escena es una tarjeta con su resumen y estado de escritura. Las flechas rep
 - Haz **clic derecho** en escenas y flechas para otras acciones.
 - La barra de progreso y el filtro muestran lo que sigue **To write**.
 
-[Captura pendiente: Story map]
+![Mapa de la historia con escenas, ramificaciones y finales](/novelworks-docs/screenshots/story-map.png)

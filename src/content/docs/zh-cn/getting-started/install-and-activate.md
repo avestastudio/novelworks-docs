@@ -42,4 +42,4 @@ NovelWorks 暂未使用付费的 Apple 或 Microsoft 证书签名，因此首次
 - 要释放某台电脑的名额，例如出售前，在同一窗口点击 **Deactivate this device**。
 - 达到上限时，可点击 **Contact us** 联系我们。
 
-[待补充截图：Activate NovelWorks 窗口]
+![下载密钥字段为空的 Activate NovelWorks 窗口](/novelworks-docs/screenshots/activate-novelworks.png)

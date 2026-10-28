@@ -12,4 +12,4 @@ Chaque scène est une carte portant son résumé et son état d’écriture. Des
 - Faites un **clic droit** sur les scènes et les flèches pour d’autres actions.
 - La barre de progression et le filtre permettent de repérer ce qui reste **To write**.
 
-[Capture à ajouter : la Story map]
+![Carte de l’histoire montrant les scènes, les branches et les fins](/novelworks-docs/screenshots/story-map.png)

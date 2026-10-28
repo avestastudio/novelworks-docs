@@ -8,7 +8,7 @@ The language selector on this site changes the documentation language only. The 
 :::
 
 
-[Screenshot: the full editor with the four areas numbered]
+![NovelWorks editor showing the scene list, stage, timeline and inspector](/novelworks-docs/screenshots/editor-overview.png)
 
 ## The top bar
 

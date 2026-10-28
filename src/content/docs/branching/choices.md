@@ -11,4 +11,4 @@ Add a **Choice** moment from the timeline.
 
 Players pick with the mouse, touch, or the number keys **1** to **6**.
 
-[Screenshot: a choice moment with two options and an effect]
+![Choice with two options; the first adds 1 to Mei affection](/novelworks-docs/screenshots/choice-options.png)

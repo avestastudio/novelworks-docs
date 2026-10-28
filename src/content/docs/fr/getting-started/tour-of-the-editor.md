@@ -8,7 +8,7 @@ Le sélecteur de langue de ce site change uniquement la langue de la documentati
 :::
 
 
-[Capture à ajouter : l’éditeur avec ses zones numérotées]
+![Éditeur NovelWorks : liste des scènes, scène visuelle, chronologie et inspecteur](/novelworks-docs/screenshots/editor-overview.png)
 
 ## La barre du haut
 

@@ -8,7 +8,7 @@ El selector de idioma de este sitio solo cambia el idioma de la documentación. 
 :::
 
 
-[Captura pendiente: editor completo con las zonas numeradas]
+![Editor de NovelWorks con lista de escenas, escenario, línea de tiempo e inspector](/novelworks-docs/screenshots/editor-overview.png)
 
 ## Barra superior
 

@@ -8,7 +8,7 @@ O seletor de idioma deste site muda apenas o idioma da documentação. O editor 
 :::
 
 
-[Captura pendente: editor completo com as áreas numeradas]
+![Editor do NovelWorks com lista de cenas, palco, linha do tempo e inspetor](/novelworks-docs/screenshots/editor-overview.png)
 
 ## Barra superior
 

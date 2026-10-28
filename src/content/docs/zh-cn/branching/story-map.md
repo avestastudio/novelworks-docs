@@ -12,4 +12,4 @@ description: "用流程图规划整个故事。"
 - **右键点击**场景或箭头查看更多操作。
 - 用进度条和筛选功能查看仍为 **To write** 的内容。
 
-[待补充截图：Story map]
+![显示场景、分支和结局的故事地图](/novelworks-docs/screenshots/story-map.png)

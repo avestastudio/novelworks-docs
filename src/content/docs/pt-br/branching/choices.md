@@ -11,4 +11,4 @@ Adicione um momento **Choice** na linha do tempo.
 
 Os jogadores escolhem com o mouse, toque ou teclas **1** a **6**.
 
-[Captura pendente: escolha com duas opções e um efeito]
+![Escolha com duas opções; a primeira adiciona 1 a Mei affection](/novelworks-docs/screenshots/choice-options.png)

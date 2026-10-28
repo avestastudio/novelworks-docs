@@ -12,4 +12,4 @@ Each scene is a card, linked by arrows made from choices, conditions, jumps and 
 - **Right-click** scenes and arrows for more actions.
 - Use the progress bar and filter to see what is still **To write**.
 
-[Screenshot: the Story map]
+![Story map showing scenes, branches and endings](/novelworks-docs/screenshots/story-map.png)

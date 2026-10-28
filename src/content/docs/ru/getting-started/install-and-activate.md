@@ -42,4 +42,4 @@ description: "Скачайте NovelWorks и разблокируйте эксп
 - Чтобы освободить место, например перед продажей компьютера, нажмите **Deactivate this device** в том же окне.
 - При достижении лимита воспользуйтесь **Contact us**.
 
-[Скриншот будет добавлен: окно Activate NovelWorks]
+![Окно Activate NovelWorks с пустым полем ключа](/novelworks-docs/screenshots/activate-novelworks.png)

@@ -44,4 +44,4 @@ La version complète demande la **clé de téléchargement** de votre achat itch
 - Pour libérer un ordinateur, notamment avant de le vendre, cliquez sur **Deactivate this device** dans la même fenêtre.
 - Si vous atteignez la limite, utilisez **Contact us**.
 
-[Capture à ajouter : la fenêtre Activate NovelWorks]
+![Fenêtre Activate NovelWorks avec le champ de clé vide](/novelworks-docs/screenshots/activate-novelworks.png)
