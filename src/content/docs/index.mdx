@@ -1,0 +1,23 @@
+---
+title: NovelWorks Docs
+description: Make visual novels without writing code.
+template: splash
+hero:
+  tagline: Build your visual novel the way it looks in the game. Pick a background, drop a character, write, add choices, press Play.
+  actions:
+    - text: Make your first visual novel
+      link: /novelworks-docs/getting-started/first-visual-novel/
+      icon: right-arrow
+    - text: Install NovelWorks
+      link: /novelworks-docs/getting-started/install-and-activate/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+<CardGrid stagger>
+  <Card title="Write" icon="pencil">Scenes, dialogue, characters and pictures, all on one screen.</Card>
+  <Card title="Branch" icon="random">Choices that change variables, conditions that lead to different endings.</Card>
+  <Card title="Explore" icon="puzzle">Point-and-click scenes, an inventory and a map, switched on in one click.</Card>
+  <Card title="Publish" icon="rocket">Export a web game and upload it to itch.io.</Card>
+</CardGrid>

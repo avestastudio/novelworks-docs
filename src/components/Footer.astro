@@ -1,0 +1,14 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro'
+---
+
+<Default {...Astro.props}><slot /></Default>
+<p class="ai-note">No AI-generated content. AI tools were used to help write the code.</p>
+
+<style>
+  .ai-note {
+    margin-top: 1rem;
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+  }
+</style>
