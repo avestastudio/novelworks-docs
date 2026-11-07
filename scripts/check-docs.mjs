@@ -102,6 +102,7 @@ const skeleton = (text) => {
     code: code.join('\n'),
     headings: (noCode.match(/^#{2,4} /gm) ?? []).length,
     rows: (noCode.match(/^\|/gm) ?? []).length,
+    inline: [...noCode.matchAll(/`([^`\n]+)`/g)].map((m) => m[1]).sort().join(' | '),
     items: (noCode.match(/^\s*(?:[-*]|\d+\.) /gm) ?? []).length
   }
 }
@@ -111,7 +112,7 @@ for (const page of pages) for (const lang of page.translated ?? []) {
   let trText
   try { trText = await read(tr) } catch { errors.push(`${lang}/${page.slug}: listed as translated but the file is missing`); continue }
   const a = skeleton(await read(en)), b = skeleton(trText)
-  for (const key of Object.keys(a)) if (a[key] !== b[key]) errors.push(`${lang}/${page.slug}: ${key} differ from the English page (${key === 'code' || key === 'markers' || key === 'links' ? 'must be identical' : `${a[key]} vs ${b[key]}`})`)
+  for (const key of Object.keys(a)) if (a[key] !== b[key]) errors.push(`${lang}/${page.slug}: ${key} differ from the English page (${key === 'code' || key === 'markers' || key === 'links' || key === 'inline' ? 'must be identical' : `${a[key]} vs ${b[key]}`})`)
 }
 
 // 3b. A published page never links to a stub (it would be a 404 on the live site).

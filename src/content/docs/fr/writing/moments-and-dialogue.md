@@ -1,44 +1,63 @@
 ---
-title: "Moments et dialogues"
-description: "Les étapes d’une scène et l’écriture des dialogues."
+title: Moments et dialogues
+description: Écrivez des répliques, ajoutez des moments, réordonnez-les et utilisez le menu du moment.
 ---
 
-Une scène est une suite de **moments** dans la timeline, comme des diapositives. Chaque moment contient une mise en scène — décor et personnages — et un type de contenu.
+Un **moment** est une étape d'une scène : une réplique, un choix, un saut… Cette page parle du plus courant, le moment **{ui.moments.dialogue}**. Les autres sortes sont décrites dans [Scènes, moments et chronologie](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
 
-## Types de moments
+## Écrire une réplique
 
-| Type | Fonction |
+Cliquez sur la boîte de dialogue de l'écran du jeu et tapez. Le texte se tape directement dans la boîte, et vous pouvez aussi utiliser **{ui.momentInspector.text}** dans l'inspecteur.
+
+- **Enter** commence la **ligne suivante** : un nouveau moment de dialogue après celui-ci, avec la même mise en scène et le même personnage qui parle, prêt à taper.
+- **Shift+Enter** ajoute une nouvelle ligne **dans la même boîte**.
+- Un long texte qui ne tient pas dans la boîte affiche un avertissement : appuyez sur **Enter** pour continuer dans un nouveau moment.
+
+## Qui parle
+
+Au-dessus du texte, sur la plaque de nom, ou avec **{ui.momentInspector.speaker}** dans l'inspecteur, choisissez :
+
+- **{ui.stageControls.narrator}** : personne ne parle, il y a seulement du texte ;
+- un personnage. Les personnages en scène sont listés en premier, puis les autres.
+
+Une nouvelle réplique garde le locuteur de la réplique précédente. Si vous supprimez un personnage, les répliques qu'il disait deviennent de la narration.
+
+## Ajouter des moments
+
+Dans la chronologie, les boutons au-dessus des cartes ajoutent un moment de chaque sorte **après celui qui est sélectionné** : {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} et, quand ces fonctionnalités sont activées, {ui.moments.item} et {ui.moments.showMap}. Le bouton **+** au bout de la bande ajoute une réplique. Dans une scène vide, **{ui.timeline.writeTheFirstLine}** fait la même chose.
+
+Un nouveau moment ne change rien à l'écran : il montre ce que montrait le moment précédent (voir [La scène](/novelworks-docs/fr/concepts/stage/)).
+
+## Réordonner les moments
+
+Faites glisser une carte vers la gauche ou la droite. Les flèches **←** et **→** déplacent la sélection vers le moment précédent et le suivant, **Home** et **End** vers le premier et le dernier, et **Cmd+[** / **Cmd+]** (**Ctrl+[** / **Ctrl+]**) font de même pendant que vous tapez.
+
+## Ce que montre une carte
+
+Une carte montre le nom du personnage qui parle dans sa couleur (ou « Narrateur », ou la sorte de moment avec une bande de couleur), le début du texte et son numéro dans le coin. Elle peut aussi montrer :
+
+- une icône de note autocollante si le moment a une [note](/novelworks-docs/fr/writing/notes/) ;
+- un triangle d'avertissement : pointez-le pour lire ce qui demande votre attention, par exemple un choix sans option, un lien vers une scène supprimée, ou un moment que les joueurs ne pourront jamais voir parce qu'une fin ou un saut le précède ;
+- de petites pastilles pour ce que le moment change en scène, et sous les cartes le graphique de qui est en scène.
+
+## Le menu du moment
+
+Faites un clic droit sur une carte :
+
+| Entrée | Ce qu'elle fait |
 |---|---|
-| **Dialogue** | Réplique ou narration |
-| **Choice** | Choix du joueur, pouvant modifier des variables et mener à une autre scène |
-| **Condition** | Vérification invisible pour le joueur, qui choisit entre deux scènes |
-| **Jump** | Passage direct à une autre scène, invisible pour le joueur |
-| **Ending** | Affichage du nom de la fin, puis retour à l’écran titre |
-| **Exploration** | Zones cliquables sur une image, sans boîte de dialogue |
-| **Item** | Ajout ou retrait d’objets ; nécessite Inventory |
-| **Show map** | Ouverture de la carte ; nécessite Map |
+| {ui.contextMenus.insertBefore} | Ajoute un moment de dialogue avant celui-ci. Il prend le locuteur du moment devant lequel il est placé, et montre l'écran du moment précédent. |
+| {ui.contextMenus.insertAfter} | En ajoute un après (**Cmd+Enter** / **Ctrl+Enter**). |
+| {ui.contextMenus.duplicate} | Copie le moment juste après lui-même, avec le même écran (**Cmd+D** / **Ctrl+D**). |
+| {ui.contextMenus.changeType} | Transforme le moment en une autre sorte. Le texte d'un dialogue, d'un choix ou d'une fin est conservé ; si certains réglages ne peuvent pas l'être, NovelWorks demande et vous pouvez annuler. |
+| {ui.contextMenus.addNote} / {ui.contextMenus.editNote} | Ouvre la note du moment. |
+| {ui.contextMenus.playFromHere} | Joue à partir de ce moment (**Cmd+Shift+P** / **Ctrl+Shift+P**). |
+| {ui.contextMenus.delete} | Supprime le moment. |
 
-## Écrire un dialogue
+## Supprimer un moment
 
-1. Sélectionnez un moment et cliquez dans sa boîte de dialogue, ou utilisez **+ Dialogue**.
-2. Choisissez qui parle dans l’étiquette du nom, ou laissez **Narrator**.
-3. Écrivez la réplique.
+Utilisez l'icône de corbeille au-dessus de la chronologie, **{ui.momentInspector.delete}** dans l'inspecteur, **{ui.contextMenus.delete}** dans le menu, ou la touche `Delete`. NovelWorks demande confirmation, sauf pour une réplique vide. Ce que le moment supprimé changeait en scène passe au suivant, si bien que les autres moments continuent de montrer la même chose.
 
-**Enter** crée le moment suivant avec la même mise en scène. **Shift+Enter** ajoute un retour à la ligne dans la même boîte. **Cmd/Ctrl+Enter** ajoute un moment de dialogue même pendant la saisie.
+## L'inspecteur d'un moment de dialogue
 
-## Mise en scène
-
-Chaque moment conserve sa propre mise en scène. Au-dessus de l’écran :
-
-- Choisissez le décor. **Apply to the following moments** le copie aux moments suivants.
-- **+ Character** ajoute un personnage.
-
-Cliquez sur un personnage pour le déplacer, le redimensionner avec les poignées d’angle, le retourner, changer son expression ou son ordre d’affichage. **Left**, **Center** et **Right** le positionnent en un clic.
-
-## Notes
-
-Chaque moment peut contenir une note privée. Elle n’apparaît jamais dans le jeu ni dans les exports.
-
-## Navigation
-
-Utilisez **← →**, **Home**, **End** ou cliquez sur une carte.
+De haut en bas : les éventuels avertissements, le **{ui.momentInspector.speaker}** et **{ui.momentInspector.text}**, le **{ui.momentInspector.background}**, qui est **{ui.momentInspector.onStage}**, la **{ui.momentInspector.note}**, et **{ui.momentInspector.script}**, qui montre comment ce moment s'écrit en [mode Script](/novelworks-docs/fr/writing/script-mode/) pour que vous puissiez le copier. Un moment de dialogue n'a pas de réglage de son, de musique ni de transition.

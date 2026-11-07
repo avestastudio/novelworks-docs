@@ -18,3 +18,9 @@ Short sentences, plain words, "you" addressed to a beginner who does not code. N
 
 ## What is judged by humans
 Keep a list of anything you were unsure about (a term, a tone, an idiom) in your final message: it goes into TRADUCTIONS-A-RELIRE.md.
+
+## Menus and messages quoted from the application (important)
+The application is translated too, so **never invent a translation of a menu name or of a message the app shows**:
+- **Menu names** such as File, Edit, View, Window, Help and their items (« File → Open Project… »): use exactly the words of `data/glossary/<language>.md` (section "Menu …"), which come from the app's own menus. Write paths with the arrow `→` as in English.
+- **Messages and labels quoted in quotation marks** (for example "NovelWorks couldn't reach the activation server." or "Nothing has been said yet."): look up the English text in `data/ui/editor-en.json` or `data/ui/runtime-en.json` to find its key, then copy the text of the **same key** from `data/ui/editor-<language>.json` / `data/ui/runtime-<language>.json` (editor-fr.json, editor-es.json, editor-pt-BR.json, editor-zh-CN.json, editor-ru.json, editor-ja.json). If a quoted text has no key (for example it comes from a page of this site), translate it. Texts with `{name}` placeholders: keep the quote with "…" where the English has a value.
+- **The word for the stage** (the screen with the background and characters): use the editor's own words from the glossary (section "On stage"), not an invented one.

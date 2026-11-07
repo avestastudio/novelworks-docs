@@ -52,6 +52,25 @@ Use these words in the translated documentation: they are what the buttons say.
 | Expression | Expression |
 | Name color | Couleur du nom |
 | Backups | Restaurer depuis une sauvegarde de secours… |
+| Menu File | Fichier |
+| Menu Edit | Édition |
+| Menu View | Affichage |
+| Menu Window | Fenêtre |
+| Menu Help | Aide |
+| Menu item Documentation | Documentation |
+| Menu item Keyboard Shortcuts | Raccourcis clavier |
+| Menu item Report a Bug | Signaler un bug… |
+| Menu item Activate | Activer NovelWorks… |
+| Menu item Export the Script | Exporter le script… |
+| Menu item Import Script | Importer un script… |
+| Menu item Find and Replace | Rechercher et remplacer… |
+| Menu item Theme | Thème |
+| Menu item Language | Langue |
+| Menu item Close Project | Fermer le projet |
+| Menu item New Project | Nouveau projet… |
+| Menu item Open Project | Ouvrir un projet… |
+| Menu item Undo | Annuler |
+| Menu item Redo | Rétablir |
 | Inventory (feature) | Inventaire |
 | Map (feature) | Carte |
 | Quick menu | Menu rapide |

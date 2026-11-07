@@ -52,6 +52,25 @@ Use these words in the translated documentation: they are what the buttons say.
 | Expression | 表情 |
 | Name color | 名前の色 |
 | Backups | バックアップから復元… |
+| Menu File | ファイル |
+| Menu Edit | 編集 |
+| Menu View | 表示 |
+| Menu Window | ウインドウ |
+| Menu Help | ヘルプ |
+| Menu item Documentation | ドキュメント |
+| Menu item Keyboard Shortcuts | キーボードショートカット |
+| Menu item Report a Bug | 不具合を報告… |
+| Menu item Activate | NovelWorks を認証… |
+| Menu item Export the Script | スクリプトを書き出す… |
+| Menu item Import Script | スクリプトを読み込み… |
+| Menu item Find and Replace | 検索と置換… |
+| Menu item Theme | テーマ |
+| Menu item Language | 言語 |
+| Menu item Close Project | プロジェクトを閉じる |
+| Menu item New Project | 新規プロジェクト… |
+| Menu item Open Project | プロジェクトを開く… |
+| Menu item Undo | 取り消す |
+| Menu item Redo | やり直す |
 | Inventory (feature) | インベントリ |
 | Map (feature) | マップ |
 | Quick menu | クイックメニュー |

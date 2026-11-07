@@ -52,6 +52,25 @@ Use these words in the translated documentation: they are what the buttons say.
 | Expression | 表情 |
 | Name color | 姓名颜色 |
 | Backups | 从备份恢复… |
+| Menu File | 文件 |
+| Menu Edit | 编辑 |
+| Menu View | 视图 |
+| Menu Window | 窗口 |
+| Menu Help | 帮助 |
+| Menu item Documentation | 文档 |
+| Menu item Keyboard Shortcuts | 键盘快捷键 |
+| Menu item Report a Bug | 报告问题… |
+| Menu item Activate | 激活 NovelWorks… |
+| Menu item Export the Script | 导出剧本… |
+| Menu item Import Script | 导入剧本… |
+| Menu item Find and Replace | 查找和替换… |
+| Menu item Theme | 主题 |
+| Menu item Language | 语言 |
+| Menu item Close Project | 关闭项目 |
+| Menu item New Project | 新建项目… |
+| Menu item Open Project | 打开项目… |
+| Menu item Undo | 撤销 |
+| Menu item Redo | 重做 |
 | Inventory (feature) | 物品栏 |
 | Map (feature) | 地图 |
 | Quick menu | 快捷菜单 |

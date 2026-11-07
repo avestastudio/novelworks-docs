@@ -13,7 +13,8 @@ const skeleton = (text) => {
   const body = text.replace(/^---[\s\S]*?\n---\n/, '')
   const code = [...body.matchAll(/```[\s\S]*?```/g)].map((m) => m[0])
   const noCode = body.replace(/```[\s\S]*?```/g, '')
-  return { body: noCode, markers: [...noCode.matchAll(MARKER)].map((m) => m[0]).sort().join(' '), links: [...noCode.matchAll(/\]\(\/novelworks-docs\/(?:(?:fr|es|pt-br|zh-cn|ru|ja)\/)?([^)#\s]*)/g)].map((m) => m[1]).sort().join(' '), code: code.join('\n'), headings: (noCode.match(/^#{2,4} /gm) ?? []).length, rows: (noCode.match(/^\|/gm) ?? []).length, items: (noCode.match(/^\s*(?:[-*]|\d+\.) /gm) ?? []).length, images: (noCode.match(/!\[/g) ?? []).length }
+  return { body: noCode, markers: [...noCode.matchAll(MARKER)].map((m) => m[0]).sort().join(' '), links: [...noCode.matchAll(/\]\(\/novelworks-docs\/(?:(?:fr|es|pt-br|zh-cn|ru|ja)\/)?([^)#\s]*)/g)].map((m) => m[1]).sort().join(' '), code: code.join('\n'), headings: (noCode.match(/^#{2,4} /gm) ?? []).length, rows: (noCode.match(/^\|/gm) ?? []).length, inline: [...noCode.matchAll(/`([^`\n]+)`/g)].map((m) => m[1]).sort().join(' | '),
+    inline: [...noCode.matchAll(/`([^`\n]+)`/g)].map((m) => m[1]).sort().join(' | '), items: (noCode.match(/^\s*(?:[-*]|\d+\.) /gm) ?? []).length, images: (noCode.match(/!\[/g) ?? []).length }
 }
 let bad = 0
 for (const slug of slugs) {
@@ -21,7 +22,7 @@ for (const slug of slugs) {
   if (!existsSync(tr)) { console.log(`${slug}: MISSING FILE ${tr}`); bad++; continue }
   const enText = readFileSync(en, 'utf8'), trText = readFileSync(tr, 'utf8')
   const a = skeleton(enText), b = skeleton(trText), errs = []
-  for (const k of ['markers', 'links', 'code', 'headings', 'rows', 'items', 'images']) if (a[k] !== b[k]) errs.push(`${k} differ (English ${typeof a[k] === 'number' ? a[k] : 'x'} vs ${typeof b[k] === 'number' ? b[k] : 'y'})`)
+  for (const k of ['markers', 'links', 'code', 'inline', 'headings', 'rows', 'items', 'images']) if (a[k] !== b[k]) errs.push(`${k} differ (English ${typeof a[k] === 'number' ? a[k] : 'x'} vs ${typeof b[k] === 'number' ? b[k] : 'y'})`)
   if (!/^title: .+/m.test(trText) || !/^description: .+/m.test(trText)) errs.push('front matter needs title and description')
   const noMarkers = b.body.replace(/\*{0,2}\{(?:ui|rt)\.[^}]+\}\*{0,2}/g, '')
   for (const m of noMarkers.matchAll(/\*\*([^*\n]+)\*\*/g)) if (labels.has(m[1].trim()) && !['Enter', 'Esc', 'Ctrl', 'Cmd', 'Shift', 'Space'].includes(m[1].trim())) errs.push(`"${m[1]}" is a button name typed by hand: use its {ui.…}/{rt.…} marker`)

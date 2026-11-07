@@ -1,58 +1,59 @@
 ---
-title: "Votre premier visual novel en 15 minutes"
-description: "Un tutoriel pas à pas, du projet vide au jeu jouable."
+title: Votre premier roman visuel
+description: Un tutoriel pas à pas, d'un projet vide à un jeu auquel vous pouvez jouer.
 ---
 
-Vous allez créer une courte histoire avec un décor, un personnage, quelques répliques et un choix. Prévoyez trois images : un décor et deux expressions d’un personnage, par exemple joyeux et surpris.
-
+Vous allez créer une toute petite histoire avec un décor, un personnage à deux expressions, quelques lignes de dialogue et un choix menant à deux fins. Il vous faut trois images : un décor, et deux images du **même personnage** avec des expressions différentes (par exemple content et surpris).
 
 ## 1. Créer le projet
 
-1. Ouvrez NovelWorks et cliquez sur **New project** dans l’écran des projets.
-2. Saisissez un nom, choisissez le dossier avec **Browse…**, puis cliquez sur **Create project**. Laissez les fonctionnalités optionnelles décochées.
+1. Ouvrez NovelWorks. Sur l'[écran des projets](/novelworks-docs/fr/getting-started/projects-screen/), cliquez sur **{ui.projectHub.newProject}**.
+2. Tapez un nom, vérifiez l'emplacement (ou cliquez sur **{ui.newProjectScreen.browse}**), laissez les fonctionnalités décochées et cliquez sur **{ui.newProjectScreen.createProject}**.
 
-Votre projet est un dossier contenant `project.json` et un sous-dossier `assets`.
+Le projet s'ouvre avec une scène, « Scene 1 », et une ligne de dialogue vide.
 
-## 2. Ajouter les images
+## 2. Ajouter vos images
 
-1. Ouvrez l’onglet **Assets** dans le panneau gauche.
-2. Glissez vos images dans la fenêtre ou utilisez le bouton d’importation.
-3. Choisissez la catégorie de chaque image : **Background** pour un décor, **Sprite** pour un personnage, etc.
+1. Dans le panneau de gauche, ouvrez l'onglet **{ui.leftPanel.assets}**.
+2. Cliquez sur **{ui.assetsTab.import}**, ou déposez vos images sur la fenêtre.
+3. Pour chaque image, choisissez son type. Choisissez **{ui.assetTypes.background}** pour l'image du lieu, et **{ui.assetTypes.characterSprite}** pour les deux images de votre personnage.
 
 ## 3. Créer un personnage
 
-1. Dans **Characters**, ajoutez un personnage, donnez-lui un nom et choisissez sa **Name color**.
-2. Ajoutez une expression par sprite, par exemple « Joyeux » et « Surpris », puis choisissez son image. L’étoile indique l’expression par défaut.
+1. Ouvrez l'onglet **{ui.leftPanel.characters}** et cliquez sur **{ui.charactersTab.newCharacter}**.
+2. Dans l'inspecteur, tapez le **{ui.characterInspector.characterName}** et choisissez une **{ui.characterInspector.nameColor}**.
+3. Sous **{ui.characterInspector.expressions}**, cliquez sur **{ui.characterInspector.addExpression}** pour chaque image (seules les images de type « Sprite de personnage » sont proposées), donnez-lui un nom (« Content », « Surpris ») et choisissez son image. L'expression marquée d'une étoile est celle qui s'affiche par défaut.
 
 ## 4. Écrire la première scène
 
-1. Dans **Scenes**, sélectionnez la première scène et renommez-la par un double-clic.
-2. La **timeline**, sous l’écran, affiche les moments de la scène. Cliquez sur **+ Dialogue** pour ajouter une réplique.
-3. Choisissez un décor, cliquez sur **+ Character** pour placer le personnage et déplacez-le à votre convenance.
-4. Cliquez dans la boîte de dialogue et écrivez. **Enter** crée la réplique suivante en conservant la mise en scène ; **Shift+Enter** insère un retour à la ligne dans la même boîte.
+1. Ouvrez l'onglet **{ui.leftPanel.scenes}** et sélectionnez votre scène.
+2. Choisissez le décor du moment avec le bouton de décor au-dessus de l'écran du jeu (« {ui.stage.chooseTheBackgroundOfThisMoment} »).
+3. Placez votre personnage en scène avec le bouton **{ui.stageControls.putACharacterOnStage}**, puis faites-le glisser où vous voulez.
+4. Cliquez sur la boîte de dialogue à l'écran et tapez. Appuyez sur **Enter** pour passer à la ligne suivante : un nouveau moment commence, avec la **même mise en scène**, parce que [les personnages restent en scène](/novelworks-docs/fr/concepts/stage/). Appuyez sur **Shift+Enter** pour aller à la ligne dans la même boîte.
+5. Cliquez sur le personnage à l'écran pour changer son expression dans un moment suivant.
 
 ## 5. Ajouter un choix
 
-1. Cliquez sur **Choice** dans la timeline.
-2. Écrivez la question et ajoutez deux options.
-3. Pour chaque option, choisissez la scène de destination. Créez-en une au besoin avec **New scene** dans **Scenes**.
+1. Dans la ligne de temps, ajoutez un moment **{ui.moments.choice}**.
+2. Dans l'inspecteur, écrivez la question et le texte de deux options.
+3. Pour chaque option, choisissez la scène où elle mène dans **{ui.branchInspectors.then}**. Créez d'abord les scènes avec **{ui.scenesTab.newScene}** dans l'onglet Scènes.
+
+Vous pouvez déjà donner du poids à un choix : voyez [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/).
 
 ## 6. Ajouter une fin
 
-Sélectionnez le dernier moment de chaque branche et cliquez sur **Ending**. Donnez un nom à la fin, par exemple « Bonne fin ».
+À la fin de chaque branche, ajoutez un moment **{ui.moments.ending}**. Il s'appelle d'abord « Good ending » : changez le nom si vous le souhaitez. Après une fin, le joueur retourne à l'écran-titre.
 
-## 7. Lancer le jeu
+## 7. Appuyer sur Jouer
 
-Cliquez sur **Play** dans la barre du haut. Cliquez ou appuyez sur **Space** pour avancer ; **Esc** revient à l’éditeur.
-
-Pour tester au milieu de l’histoire, sélectionnez un moment et cliquez sur **Play from here**.
+Cliquez sur **{ui.topBar.play}** dans la barre du haut pour jouer depuis l'écran-titre. Pour tester depuis le milieu, sélectionnez un moment et cliquez sur **{ui.topBar.playFromHere}**. Appuyez sur **Esc** pour revenir à l'éditeur (si un menu du jeu est ouvert, **Esc** le ferme d'abord).
 
 ## 8. Enregistrer
 
-Appuyez sur **Cmd+S** sur Mac ou **Ctrl+S** sur Windows. NovelWorks enregistre aussi automatiquement.
+Appuyez sur **Cmd+S** (Mac) ou **Ctrl+S** (Windows). NovelWorks enregistre aussi tout seul toutes les deux minutes. Voir [Enregistrer, sauvegardes de secours et annuler](/novelworks-docs/fr/getting-started/saving-and-undo/).
 
 ## Et ensuite ?
 
-- Donnez des conséquences aux choix avec les [variables](/novelworks-docs/fr/branching/variables/) et les [conditions](/novelworks-docs/fr/branching/conditions/).
-- Personnalisez l’apparence dans [Game UI](/novelworks-docs/fr/game-ui/game-ui-editor/).
-- [Exportez votre jeu](/novelworks-docs/fr/publish/web-export/) pour le partager.
+- Donnez du poids aux choix avec les [variables](/novelworks-docs/fr/branching/variables/) et les [conditions](/novelworks-docs/fr/branching/conditions/).
+- Changez l'apparence de votre jeu dans l'[éditeur d'interface du jeu](/novelworks-docs/fr/game-ui/game-ui-editor/).
+- [Exportez-le](/novelworks-docs/fr/publish/web-export/) et partagez-le.
