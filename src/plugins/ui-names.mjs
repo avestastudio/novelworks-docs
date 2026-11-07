@@ -16,7 +16,7 @@ export const labelOf = (marker, key, language) => {
   const kind = marker === 'ui' ? 'editor' : 'runtime'
   const value = catalog(kind, language)[key]
   if (typeof value !== 'string') throw new Error(`Unknown {${marker}.${key}} for ${language}`)
-  return value
+  return value.trim()
 }
 
 export default function uiNames() {
@@ -30,7 +30,9 @@ export default function uiNames() {
         let last = 0
         for (const match of child.value.matchAll(MARKER)) {
           if (match.index > last) parts.push({ type: 'text', value: child.value.slice(last, match.index) })
-          parts.push({ type: 'strong', children: [{ type: 'text', value: labelOf(match[1], match[2], language) }] })
+          const label = labelOf(match[1], match[2], language)
+          // Inside **…** the label is plain text (no double bold); on its own it is bold.
+          parts.push(node.type === 'strong' ? { type: 'text', value: label } : { type: 'strong', children: [{ type: 'text', value: label }] })
           last = match.index + match[0].length
         }
         if (!parts.length) return [child]

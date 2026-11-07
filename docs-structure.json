@@ -14,47 +14,47 @@
         {
           "slug": "getting-started/welcome",
           "title": "Welcome to NovelWorks",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "getting-started/install-and-activate",
           "title": "Install and activate",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "getting-started/demo-edition",
           "title": "Demo and full edition",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "getting-started/projects-screen",
           "title": "The projects screen and new projects",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "getting-started/tour-of-the-editor",
           "title": "Tour of the editor",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "getting-started/first-visual-novel",
           "title": "Your first visual novel",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "getting-started/saving-and-undo",
           "title": "Saving, backups and undo",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "getting-started/editor-settings",
           "title": "Editor and project settings",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "getting-started/guided-tour",
           "title": "The guided tour",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },
@@ -71,22 +71,22 @@
         {
           "slug": "concepts/stage",
           "title": "The stage: characters stay in place",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "concepts/scenes-moments-timeline",
           "title": "Scenes, moments and the timeline",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "concepts/game-memory",
           "title": "The game’s memory",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "concepts/how-stories-branch",
           "title": "How a story branches",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },

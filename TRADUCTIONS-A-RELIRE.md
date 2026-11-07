@@ -18,4 +18,5 @@ Les **noms de boutons** ne sont pas traduits à la main : ils viennent des catal
 - Les termes du théâtre (reste en scène / hors scène, le décor) : voir NOUVEAUTES-A-DOCUMENTER.md.
 
 ## Journal (ajouter une ligne par lot traduit : date · langue · pages · ce qui est incertain)
-_(vide)_
+- 2026-11-07 · toutes langues · D1 : 13 pages anglaises réécrites (Premiers pas, Idées clés). **Les traductions des 5 pages déjà traduites** (install-and-activate, demo-edition, tour-of-the-editor, first-visual-novel, saving-and-undo) **sont maintenant périmées** (elles décrivent l'ancienne version) ; les 8 autres pages n'ont pas de traduction. Rien n'est à relire avant D7.
+- Titre de page ajouté par Claude : « Your first visual novel » (l'ancien titre était « Make your first visual novel in 15 minutes »).
