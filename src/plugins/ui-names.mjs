@@ -19,7 +19,9 @@ export const labelOf = (marker, key, language) => {
   const entry = marker === 'ui' ? overlayEntry(key) : null
   const value = catalog(kind, language)[key] ?? entry?.[language] ?? entry?.en
   if (typeof value !== 'string') throw new Error(`Unknown {${marker}.${key}} for ${language}`)
-  return value.trim()
+  // A label with a placeholder ({count}, {scene}…) is shown with … where the value goes; {part1}/{value} are inline
+  // fragments of the interface (a number, an icon) and are dropped.
+  return value.replace(/\{(?:part1|value)\}/g, '').replace(/\{[A-Za-z0-9_]+\}/g, '…').trim()
 }
 
 export default function uiNames() {
