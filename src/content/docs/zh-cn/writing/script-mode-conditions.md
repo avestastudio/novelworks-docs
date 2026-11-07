@@ -100,7 +100,7 @@ if Affection >= 3 and item Key -> Park
 if MetMia = true or item Letter -> Library
 ```
 
-所有测试都必须成立时用 `and`，只要一个成立就够时用 `or`。**不要在同一行里混用 `and` 和 `or`：**NovelWorks 会标出，并且只使用第一种。
+所有测试都必须成立时用 `and`，只要一个成立就够时用 `or`。**不要在同一行里混用 `and` 和 `or`**：NovelWorks 会标出，并且只使用第一种。
 
 ## 如果某个名字还不存在
 
