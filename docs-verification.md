@@ -106,12 +106,17 @@ Ces points sont repris comme `à vérifier` et seront contrôlés page par page 
 ## Divergence entre branches (à trancher avant D8)
 - Les pages décrivent l'appli de la branche **docs-plan** (refonte terminée) **sauf** la démo, décrite d'après **demo-build** (limite de 5 scènes à l'export, marque dans le jeu exporté). `demo-build` n'est pas fusionnée dans `docs-plan` : le libellé du menu d'export y est « Export for Web… » (démo) / « Export for Web (itch.io)… » alors que `docs-plan` dit « Export for browser… ». Quand les branches seront fusionnées, relancer `npm run sync:ui` et revoir ces libellés.
 
-## Défauts constatés dans les textes de l'appli (à corriger côté éditeur, pas dans la doc)
-Constatés en lisant les catalogues anglais de docs-plan ; les pages décrivent le **vrai** comportement.
-1. Aide du Script (`script.help.*`, anglais) : l'exemple de position cite « à gauche / au centre / à droite » (mots français) au lieu de `left / center / right`.
-2. Message `script.problem.badCondition` (anglais) : propose « si Affection >= 3 », « si objet Key », « si sans Key » (mots français) au lieu de `if`, `item`, `without`.
-3. `scriptImport.help` dit « Help → Script format help » : **cet élément de menu n'existe pas** ; l'aide s'ouvre avec le bouton « ? » de la barre du Script.
-4. Texte d'aide `script.help.hide` : « (hide : everyone: everyone) », phrase mal formée.
-5. Indice de recherche vide (`searchPanel.dialogueChoicesEndingsNotesCharactersAndScene`) : oublie les objets, résumés et zones, qui sont pourtant cherchés.
-6. `scriptMode.hint` (anglais) : « Mia : Hello, décor : Park » (mot français).
-7. `script.problem.unknownLine` ne peut jamais s'afficher (tout ce qui n'est pas reconnu devient narration).
+## Défauts constatés dans les textes de l'appli
+Constatés en lisant les catalogues de docs-plan pendant D2. Les pages décrivent le **vrai** comportement.
+**Corrigés** sur la branche `fix-script-help-text` du dépôt de l'éditeur (3 commits après `20c408b`, 1325 tests + typecheck verts, **non fusionnée, non poussée**) :
+1. ✅ Aide du Script en anglais : « à gauche / au centre / à droite » → les lieux viennent maintenant des mots-clés de la langue (`{left} / {center} / {right}`), dans les 7 langues.
+2. ✅ `script.problem.badCondition` : « si objet Key » etc. → `{if}`, `{item}`, `{without}` de la langue ; l'exemple japonais utilisait un mauvais mot (« なし » au lieu de « 未所持 »).
+3. ✅ `scriptImport.help` : ne cite plus « Help → Script format help » ; pointe vers le bouton « ? » de la barre du Script, en 7 langues.
+4. ✅ Phrase `script.help.hide` mal formée : réécrite (« hide : everyone » fait partir tout le monde).
+5. ✅ `scriptMode.hint` : « décor : Park » → `{background}` de la langue.
+6. ✅ **Trouvé en plus pendant la correction** : en es, pt-BR, zh-CN, ru, ja, plusieurs exemples de l'aide étaient restés en français ou en anglais (conditions à plusieurs cas, « et/ou », option verrouillée ; en japonais presque tous). Traduits.
+Tests ajoutés : `packages/shared/src/script/helpText.test.ts` (30 tests : chaque exemple est lu par l'analyseur comme la bonne ligne, dans chaque langue ; les mots-clés sont ceux de la langue ; plus de mots d'exemple d'une autre langue ; la phrase d'import cite le bouton « ? »). Vérifié : 15 de ces tests échouent sur les anciens textes.
+**Restent à décider** (non corrigés, hors de la demande) :
+- L'indice de recherche vide (`searchPanel.dialogueChoicesEndingsNotesCharactersAndScene`) oublie les objets, les résumés et les zones, qui sont pourtant cherchés.
+- `script.problem.unknownLine` ne peut jamais s'afficher (tout ce qui n'est pas reconnu devient narration).
+Les pages de documentation ne citent aucun de ces textes ; elles restent vraies avec ou sans la correction.
