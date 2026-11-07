@@ -1,7 +1,44 @@
 ---
-title: "Fonts and colors"
-description: TODO
-draft: true
+title: Fonts and colors
+description: The font, text color, primary color and button style every screen uses.
 ---
 
-TODO (see PLAN-documentation.md).
+**{ui.gameUI.fontsColors}** holds what every screen shares. Each other screen can override part of it.
+
+## Text
+
+- **{ui.gameUIInspector.font}**: four fonts, each shown in its own style.
+
+| Name | Style | Font | License |
+|---|---|---|---|
+| {ui.gameUIInspector.fontClean} (default) | Modern sans-serif | Inter | SIL Open Font License 1.1 |
+| {ui.gameUIInspector.fontClassic} | Serif, for a literary look | Lora | SIL Open Font License 1.1 |
+| {ui.gameUIInspector.fontRounded} | Soft, friendly | Nunito | SIL Open Font License 1.1 |
+| {ui.gameUIInspector.fontTypewriter} | Typewriter | Courier Prime | SIL Open Font License 1.1 |
+
+  The font files and their license texts are included in every exported game.
+
+- **{ui.gameUIInspector.textColor}**: the text color of the whole game. The default is white. Screens that say "Same as the text color" follow it.
+
+### Languages and fonts
+
+The four fonts cover Latin letters with accents, and Cyrillic and Vietnamese. Only **{ui.gameUIInspector.fontClean}** also covers Greek, and **{ui.gameUIInspector.fontTypewriter}** covers Latin letters only. For characters a font does not have, such as Chinese and Japanese, the game uses the player's system fonts (and, when the game language is Japanese, Japanese system fonts first).
+
+You cannot import your own font yet.
+
+Players who turn on the dyslexia-friendly font in the player options get a dedicated font, whatever you chose here.
+
+## Colors and buttons
+
+- **{ui.gameUIInspector.primaryColor}**: "Buttons, highlights and the 'continue' arrow." It also gives the title screen its glow. The default is a pink.
+- **{ui.gameUIInspector.buttonStyle}**: **{ui.gameUIInspector.pill}** (fully rounded, the default), **{ui.gameUIInspector.rounded}** (soft corners), **{ui.gameUIInspector.square}** (sharp corners) or **{ui.gameUIInspector.text}** (no box, only the words). It is "used by every menu and choice, unless a screen picks its own".
+
+There is no global background color: backgrounds are set per screen.
+
+## The preview
+
+The preview of this page shows the dialogue box over your first background. Use **{ui.gameUIMode.longTextAvatar}** to check long lines.
+
+## Reset
+
+**Reset to default** on this page only resets the fonts and colors. The other screens keep their settings.

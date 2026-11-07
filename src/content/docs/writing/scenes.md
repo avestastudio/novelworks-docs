@@ -19,7 +19,7 @@ Drag a scene up or down in the list. The order of the list does not change how t
 
 ## Duplicate a scene
 
-Use **{ui.scenesTab.duplicateScene}** on the row, or **{ui.contextMenus.duplicate}** in the right-click menu, or **Cmd+D** / **Ctrl+D** with the scene selected. The copy goes right after the original and is named "Copy of …". It keeps the summary and the writing status, its moments get new identities, and its place on the story map is chosen again.
+Use **{ui.scenesTab.duplicateScene}** on the row, or **{ui.contextMenus.duplicate}** in the right-click menu, or **Cmd+D** / **Ctrl+D** with the scene selected. The copy goes right after the original and is named like "A helping hand (copy)". It keeps the summary and the writing status, its moments get new identities, and its place on the story map is chosen again.
 
 ## Delete a scene
 

@@ -1,15 +1,56 @@
 ---
-title: Save and load
-description: What players can save.
+title: Saving and loading
+description: How players save and load, where saves are kept, and what happens when you update your game.
 ---
 
-Every game has **Save** and **Load** screens with **12 slots**. Each slot shows a small picture of the moment, the scene name, the date and the play time.
+This page describes what **players** experience. For the look of the screens, see [Save and load screen](/novelworks-docs/game-ui/save-load-screen/).
 
-- **Quick save** with **F5**, **quick load** with **F9**, or use the pause menu.
-- An **Autosave** is written each time a new scene starts.
-- **Continue** on the title screen loads the most recent save. It is hidden when there are none.
-- Overwriting or deleting a save asks first. Arrows, Enter, Delete and Esc work on the slots.
+## Where saves are kept
 
-A save keeps the position, variables, inventory, used zones, map state, history and play time. Saves from an older version of your game still load.
+Saves are kept **in the player's browser** (its local storage), for your game only. Each project has a game identifier created with it that never changes. It is part of every save's name, so:
 
-In a web game, saves stay in the **player's browser**. Change the screens in **Game UI → Save & load**.
+- two different games never share saves, even on the same web site;
+- if you export the same game again, or update it, **players keep their saves**;
+- saves belong to one browser on one computer: they do not follow the player to another browser or device.
+
+Saves made while you test in the editor are separate (see [Play mode tools](/novelworks-docs/testing/test-saves-and-read-lines/)).
+
+## Slots
+
+- **12 manual slots**, a **quick save** and an **autosave**.
+- The **{rt.game.save}** screen shows slots 1 to 12. The **{rt.game.load}** screen shows the Autosave and the Quick save first, then slots 1 to 12.
+- Each slot shows a picture of the moment, the scene name, the date and the play time ("12:34" or "1:02:03").
+- Saving over a used slot asks "Overwrite …?". Deleting a slot asks "Delete …? This can't be undone."
+
+## Quick save and quick load
+
+- **F5** quick-saves while playing ("Quick saved"). The browser's own "reload" is blocked while the game is playing.
+- **F9** quick-loads, even from the title screen. If there is no quick save, the game says "No quick save yet. Press F5 to make one." Loading while playing asks "Load this save? Unsaved progress will be lost."
+- The same actions are buttons of the pause menu and, if you show them, of the quick menu.
+
+## Autosave
+
+The game autosaves each time the player **enters a different scene**, when a new game starts, and when a game is loaded. It does not autosave inside a scene. A failed autosave is silent.
+
+## Continue
+
+On the title screen, **{rt.game.continue}** loads the newest save of any kind (manual, quick or auto). It does not show when there is no save.
+
+## What a save contains
+
+The scene and the moment, the values of variables, the inventory, the zones already used, the map state, the play time, and the last 200 lines of the [History](/novelworks-docs/player/history/). It does **not** contain which lines were read (that is kept separately for Skip), or the text being typed: a loaded line appears whole.
+
+## When you update your game
+
+Saves point at scenes and moments by their identity, so they keep working when you edit text, add scenes or reorder things.
+
+- A variable that no longer exists, or whose kind changed (Score to Fact), loses its saved value. New variables start at their starting value.
+- An item that no longer exists is dropped.
+- If the saved **moment** was deleted, the game resumes at the start of its scene. If the **scene** was deleted, it resumes at the start scene.
+- A save that is damaged, or from a newer version of NovelWorks, shows as an empty slot.
+
+## When the browser does not allow saving
+
+In private browsing, or with site data turned off, the browser may block storage. The Save screen then says "Saving is not available in this browser (private browsing, or site data turned off).", and the Load screen says there is nothing to load. A quick save explains that "You can keep playing, but your progress will not be kept." If the storage is full: "The save could not be written: the browser storage is full. Delete an old save and try again."
+
+Players' options and read lines then only last for the session.

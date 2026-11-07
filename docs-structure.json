@@ -222,22 +222,22 @@
         {
           "slug": "features/features-panel",
           "title": "The features library",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "features/exploration",
           "title": "Exploration",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "features/inventory",
           "title": "Inventory",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "features/map",
           "title": "Map",
-          "status": "old"
+          "status": "written"
         }
       ]
     },
@@ -254,82 +254,82 @@
         {
           "slug": "game-ui/game-ui-editor",
           "title": "Game UI overview",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "game-ui/fonts-and-colors",
           "title": "Fonts and colors",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/title-screen",
           "title": "Title screen",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/dialogue-box",
           "title": "Dialogue box",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/choices-screen",
           "title": "Choices",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/pause-menu",
           "title": "Pause menu",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/ending-screen",
           "title": "Ending screen",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/history-screen",
           "title": "History screen",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/save-load-screen",
           "title": "Save and load screen",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/quick-menu",
           "title": "Quick menu",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/options",
           "title": "Player options",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/intro",
           "title": "Intro",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/content-warning",
           "title": "Content warning",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/inventory-ui",
           "title": "Inventory screen",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/map-button",
           "title": "Map button",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "game-ui/notifications",
           "title": "Notifications",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },
@@ -346,37 +346,37 @@
         {
           "slug": "player/save-and-load",
           "title": "Saving and loading",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "player/history",
           "title": "History",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "player/auto-and-skip",
           "title": "Auto and Skip",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "player/text-reveal",
           "title": "Text reveal",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "player/quick-menu",
           "title": "Quick menu",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "player/options-and-accessibility",
           "title": "Options and accessibility",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "player/keys-and-touch",
           "title": "Keys and touch screens",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },
@@ -393,17 +393,17 @@
         {
           "slug": "testing/play",
           "title": "Play, Play from here, Test the map",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "testing/test-saves-and-read-lines",
           "title": "Play mode tools",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "testing/problems",
           "title": "Problems: every warning",
-          "status": "old"
+          "status": "written"
         }
       ]
     },
@@ -420,12 +420,12 @@
         {
           "slug": "publish/web-export",
           "title": "Web export",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "publish/itch-io",
           "title": "Publish on itch.io",
-          "status": "old"
+          "status": "written"
         }
       ]
     },

@@ -8,7 +8,7 @@ description: Copy moments, scenes and characters, paste them elsewhere, and dupl
 **Cmd+D** / **Ctrl+D** duplicates what is selected, even while you type:
 
 - a **moment**: the copy goes right after the original, with a new identity. It changes nothing on screen, so it shows the same picture as the original, and its note is copied;
-- a **scene**: the copy goes right after the original and is named "Copy of …" (see [Scenes](/novelworks-docs/writing/scenes/));
+- a **scene**: the copy goes right after the original and is named like "A helping hand (copy)" (see [Scenes](/novelworks-docs/writing/scenes/));
 - an exploration **zone**.
 
 The right-click menu has **{ui.contextMenus.duplicate}** for a moment and a scene, and **{ui.contextMenus.duplicateZone}** for a zone. The inspector of a moment has a **{ui.momentInspector.duplicate}** button.
@@ -33,7 +33,16 @@ The right-click menus have no Copy or Paste entries: use the keys.
 
 ### Between projects and windows
 
-The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The clipboard holds the moment, scene or character itself, not the pictures, characters, scenes or variables it refers to. Paste into a project that has them, and check the warnings (the triangle on a card, the Problems panel) after pasting into one that does not.
+The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The clipboard holds the moment, scene or character itself, **not** the pictures, characters, scenes or variables it refers to.
+
+What you see when the other project does not have them (checked by pasting a moment from one project into another):
+
+- a speaker that does not exist there becomes the **{ui.stageControls.narrator}**;
+- a background that does not exist there is dropped (the moment shows "No background");
+- a character who does not exist there is not drawn, and may show as an "Unnamed" row in the stage chart, or as `?` in [Script mode](/novelworks-docs/writing/script-mode-lines/);
+- **no warning is shown**, so check the pasted moment yourself.
+
+Paste into a project that has the same characters, pictures, scenes and variables for the best result.
 
 ## Delete
 

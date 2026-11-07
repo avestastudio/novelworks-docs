@@ -37,4 +37,4 @@ Type the new text in **{ui.searchPanel.replaceWith}**.
 - The icon on a result row (**{ui.searchPanel.replaceThisOne}**) replaces only that one, and does not move on.
 - **{ui.searchPanel.replaceAll}** replaces every match in your game. NovelWorks first asks you to confirm, telling you how many matches there are, and that you can undo. An empty replacement removes the text.
 
-A replacement is skipped if the text changed since the match was found. Replacing in the whole game is done in a single action, and Undo is available. (Whether one **{ui.native.menu.undo}** reverses all of a Replace all at once has not been checked in the app.)
+A replacement is skipped if the text changed since the match was found. Replacing in the whole game is done in a single action, and one **{ui.native.menu.undo}** reverses all of it. A message tells you how many matches were replaced ("31 matches replaced.").

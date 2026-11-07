@@ -115,6 +115,20 @@ Les noms de boutons ne sont **jamais** recopiés : on écrit `{ui.clé}` ou `{rt
 | branching/reach | Limites : ordre et chemin ignorés ; options conditionnelles comptées | `scoreRange.ts` (commentaires en tête) | code |
 | branching/reach | Rendu de « ce test ne sera jamais vrai » quand un côté est ouvert | non vérifié | **non écrit** (la page ne dit pas ce cas) |
 
+| features/* | Fonctions : 2 existantes (Inventaire, Carte) ; ce que fait l'activation/désactivation (rien n'est perdu, avertissements, confirmations) | `shared/src/features.ts:25-66`, `FeaturesDialog.tsx`, `E/features.ts:43-71` | code + **appli** (fenêtre Features comparée à l'écran) |
+| features/exploration | Dessin (rectangle min 2 %, forme ≥ 3 points), poignées, actions (6), conditions Caché/Verrouillé, accessoires, comportement du joueur (zones invisibles tant qu'on ne survole pas, 2 touchers avec étiquette), « pas de sortie auto » | `ExplorationCanvas.tsx`, `ExplorationInspectors.tsx`, `runtime/player.ts:288-346`, `game.ts:873-1003` | code (survol non revu en capture) |
+| features/inventory | Onglet Objets, Simple/Empilable, suppression, notifications, panneau du jeu (touche I, pas de bouton « utiliser »), panneau Variables & objets du test | `ItemsTab.tsx`, `ItemInspector.tsx`, `runtime/game.ts:720-822`, `PlayOverlay.tsx` | code + **appli** (onglet Items) |
+| features/map | Espace Carte, lieux, 3 disponibilités, moment « Show map », bouton Retour, avertissements | `MapMode.tsx`, `S/map.ts`, `runtime/player.ts:219-409` | code |
+| game-ui/* | 15 écrans dans l'ordre ; tous les réglages de chaque écran | `gameUI.ts:7-23`, `GameUIInspector.tsx`, `schema.ts` | code + **appli** (liste des 15 écrans identique ; réglages relevés à l'écran et comparés aux libellés des pages : tout trouvé, sauf les contrôles conditionnels non affichés par défaut) |
+| game-ui/fonts-and-colors | 4 polices (Inter, Lora, Nunito, Courier Prime), couverture des alphabets | `schema.ts:301`, `runtime/fonts`, `theme.ts:17-56` | code (couverture déduite de la liste des fichiers : prudente) |
+| player/* | Sauvegardes (clés, 12 + rapide + auto, contenu, compatibilité), Historique (200), Auto (délai 1 s + 55 ms/car., 1,5–10 s), Passer (lignes lues, FNV-1a), vitesses du texte, options (5), touches, tactile | `runtime/saves.ts`, `reading.ts`, `playerOptions.ts`, `game.ts:925-1015`, `player.ts:438-509` | code |
+| player/auto-and-skip | Pas de voix/son | aucun champ de son sur un moment de dialogue (`MomentInspector.tsx`) | code (formulé prudemment) |
+| testing/play | Façons de lancer, jouer le projet non enregistré, arrêt (Échap) | `store.ts:419`, `PlayOverlay.tsx` | code + **appli** (barre de jeu vue : Playing, Variables & items, Open map, Show splash, Restart, Clear test saves, Reset read lines, Stop) |
+| testing/problems | Liste complète des avertissements (choix, Si, saut, objet, exploration, carte, jeu entier) ; où ils s'affichent | `shared/src/problems.ts`, `reach.ts`, `exploration.ts`, `map.ts`, `export.ts` | code + **appli** (avertissement « variable supprimée » vu à l'écran) |
+| testing/* | Il n'y a **pas** de panneau « Problèmes » ni de compteur : seule la fenêtre d'export liste tout | recherche dans le code ; écrit tel quel | code |
+| publish/web-export | Étapes, fichiers produits, nom du dossier `-web`, `withoutWriterData`, images utilisées, erreurs, « Test in browser », file:// fonctionne | `webExport.ts`, `exportIpc.ts`, `shared/src/export.ts` | code (**export non lancé dans l'appli** : voir plus bas) |
+| publish/itch-io | Étapes itch.io (type HTML, viewport…) | **connaissance générale d'itch.io, pas du code** : encadré « pas NovelWorks » dans la page | prudence |
+
 
 Légende : tout est « code » : aucune de ces pages n'a encore été suivie pas à pas dans l'appli (étape D1, partie « contrôle à la main »).
 
@@ -151,3 +165,15 @@ Tests ajoutés : `packages/shared/src/script/helpText.test.ts` (30 tests : chaqu
 - L'indice de recherche vide (`searchPanel.dialogueChoicesEndingsNotesCharactersAndScene`) oublie les objets, les résumés et les zones, qui sont pourtant cherchés.
 - `script.problem.unknownLine` ne peut jamais s'afficher (tout ce qui n'est pas reconnu devient narration).
 Les pages de documentation ne citent aucun de ces textes ; elles restent vraies avec ou sans la correction.
+
+## Vérifié dans l'appli (copie de « Sketches of Spring », 2026-11-07)
+- ✅ Si une condition d'un « Si… » vérifie une variable supprimée : l'éditeur affiche « This condition checks a variable that was deleted. » (carte du moment + encadré de l'inspecteur) ; **le jeu saute tout le « Si… »** et continue : avec les deux « Si… » cassés, il arrive à l'écran de fin de l'histoire (« To be continued… », « The End »), pas à « Friends First ».
+- ✅ Fenêtre de suppression d'une variable, listes « Changed by / Checked by », liste des 15 écrans du Game UI, fenêtre Features, onglet Items, barre du mode Jouer, bandeau « Show the copy » après migration : tous conformes aux pages.
+- ❌→✅ **Erreurs trouvées dans mes pages par ces essais et corrigées** : dupliquer une scène donne « A helping hand (copy) » (la page disait « Copy of … ») ; un titre `# …` d'import portant le nom d'une scène existante crée une **nouvelle scène du même nom** (la page disait qu'il pouvait la remplacer) ; l'import demande **deux** Annuler (la fenêtre promet une étape) ; coller un moment dans un autre projet : l'orateur inconnu devient Narrateur, le décor manquant est retiré, le personnage manquant laisse une ligne « Unnamed » dans le tableau, **sans aucun avertissement**.
+- ✅ « Remplacer tout » : un seul Annuler le défait entièrement (« 31 matches replaced. »).
+- Pas encore revu en vrai : l'export (je ne l'ai pas lancé), le survol d'une zone d'exploration (ma capture n'a pas montré la surbrillance : à refaire), le menu clic droit d'une flèche de la carte, les 14 étapes du tour.
+
+## Défauts d'éditeur trouvés par ces essais (non corrigés)
+- L'import d'un script dit « One undo step » mais il en faut deux.
+- Coller un moment dans un autre projet laisse des références mortes sans avertissement (orateur → Narrateur, personnage absent « Unnamed » dans le tableau).
+- Un titre `#` d'import qui reprend le nom d'une scène crée un doublon silencieux.

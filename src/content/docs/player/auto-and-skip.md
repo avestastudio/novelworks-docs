@@ -1,16 +1,36 @@
 ---
 title: Auto and Skip
-description: Let the game read by itself, or skip what you have read.
+description: Let the game read by itself, or skip lines already read.
 ---
 
-<span class="badge-new">New in 0.7.0</span>
+## Turn them on
+
+- **A** turns **{rt.game.auto}** on or off, and **S** turns **{rt.game.skip}** on or off.
+- The **{rt.game.auto}** and **{rt.game.skip}** buttons of the [quick menu](/novelworks-docs/game-ui/quick-menu/) do the same, if you show them. They look pressed while a mode is on. Hiding a button never removes its key.
+- Holding the **Ctrl** key skips while it is held.
+- Only one mode is on at a time. They are ignored while paused or when a screen is open.
 
 ## Auto
 
-Press **A** or click **Auto**. The game advances by itself after a delay that grows with the length of the line. It stops when the player clicks or presses a key, opens a panel, pauses, or reaches a choice, an exploration moment or an ending.
+Auto turns to the next line by itself, after a delay that depends on the length of the line, **once the line has finished appearing**:
+
+- about 1 second plus 55 milliseconds per character, never less than 1.5 seconds and never more than 10 seconds. For example a short "Yes." waits 1.5 seconds, and a line of 100 characters about 6.5 seconds;
+- multiplied by the player's **Auto speed**: Slow (x1.5), Normal, Fast (x0.6).
+
+Auto stops at a moment that is not a line of dialogue: a choice, an exploration or an ending.
 
 ## Skip
 
-Press **S** or click **Skip**, or **hold Ctrl**. Skip fast-forwards only through lines the player has **already read**, and stops on the first unread line, a choice, an exploration moment or an ending. If you edit a line, it counts as unread again.
+Skip speeds through lines **the player has already read**, finishing text at once and shortening animations. It stops on the first line they have not read, and at a choice, an exploration or an ending.
 
-Auto and Skip can't run together: turning one on turns the other off.
+- A line counts as read as soon as it appears, and the record is kept **per game, in the browser**, not per save. It stays across new games.
+- If you change the text or the speaker of a line, that line counts as unread again.
+- Players cannot reset the record themselves, other than by clearing the site data. In the editor, **Reset read lines** does it for your tests.
+
+## What stops them
+
+A click or a key that moves the story (**Space**, **Enter**, **1** to **6**), opening any screen (History, Options, Save, Load, the inventory, the pause menu), and loading a game. A new scene does not stop them.
+
+## Voice
+
+A dialogue moment has no voice or sound setting, so Auto waits only for the text.

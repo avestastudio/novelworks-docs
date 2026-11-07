@@ -23,11 +23,11 @@ NovelWorks cleans the text first: curly quotes become straight quotes, and `•`
 - There is no preview step and no question about speakers: speakers are recognized by the rule `Name : text` and your existing characters.
 - The import **adds** text. It does not replace what is already there.
 
-:::caution
-When your text has `# headings`, headings are matched with the scenes of your game, first by their identity, then by their name. A heading with the same name as an existing scene may be treated as that scene instead of a new one. Until this is checked in the app, import into a copy of your project if you are unsure, and use **{ui.native.menu.undo}** to go back.
+:::note
+With `# headings`, **each heading always makes a new scene**, even when your game already has a scene with that name: you then get two scenes with the same name, and the existing one is not changed. Rename or delete the extra scene if you did not want it.
 :::
 
-The window says that the import is one undo step. In practice, the text is applied like typing: it joins one undo step with typing done within about a second.
+The window says the import is one undo step. In practice, an import took **two** presses of **{ui.native.menu.undo}** to remove: if the new scenes are still there after the first one, press it again.
 
 ## Export the script
 
