@@ -3,7 +3,7 @@ title: Options and accessibility
 description: What each player option does, and how the game supports accessibility.
 ---
 
-Players open **{rt.game.options}** from the title screen, the pause menu, or the quick menu (if you show its Options button). Esc closes it. Every change applies at once and is kept **per game, in the browser**. If the browser blocks storage, it lasts only for the session. A sample line shows the text as it will look. **Default settings** puts all five options back.
+Players open **{rt.game.options}** from the title screen, the pause menu, or the quick menu (if you show its Options button). Esc closes it. Every change applies at once and is kept **per game, in the browser**. If the browser blocks storage, it lasts only for the session. A sample line shows the text as it will look. **{rt.optionsScreen.defaults}** puts all five options back.
 
 The look of the screen is yours to set: [Player options](/novelworks-docs/game-ui/options/). You cannot hide any option.
 

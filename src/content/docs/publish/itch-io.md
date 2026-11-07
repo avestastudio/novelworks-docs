@@ -26,4 +26,4 @@ These steps describe itch.io's own web site, not NovelWorks, and itch.io may cha
 
 ## Test before you publish
 
-Use **Test in browser** at the end of the export, or play the unzipped folder by opening `index.html`.
+Use **{ui.exportDialog.testInBrowser}** at the end of the export, or play the unzipped folder by opening `index.html`.

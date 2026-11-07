@@ -45,6 +45,6 @@ There is no fullscreen key in the game: the browser's own (**F11**) works, or th
 A small group of buttons at the top right (faint until touched or hovered):
 
 - **{ui.gameUIInspector.menu}**, on touch devices only: opens the pause menu, since there is no right click or Esc.
-- **Fullscreen** / **Exit fullscreen**, when the browser supports it (not on iPhone).
+- **{rt.player.fullscreen}** / **{rt.player.exitFullscreen}**, when the browser supports it (not on iPhone).
 
 There is no Quit button in the web game. The game is scaled to fit the window with black bars around it, keeping its shape. It needs JavaScript, and a browser that allows local storage to keep saves. See [Web export](/novelworks-docs/publish/web-export/).

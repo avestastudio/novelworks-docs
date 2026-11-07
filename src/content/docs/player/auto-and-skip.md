@@ -15,7 +15,7 @@ description: Let the game read by itself, or skip lines already read.
 Auto turns to the next line by itself, after a delay that depends on the length of the line, **once the line has finished appearing**:
 
 - about 1 second plus 55 milliseconds per character, between 1.5 and 10 seconds. For example a short "{tx.numberInput.yes}" waits 1.5 seconds, and a line of 100 characters about 6.5 seconds;
-- then multiplied by the player's **Auto speed**: Slow (x1.5, so up to 15 seconds), Normal (x1), Fast (x0.6, so as little as 0.9 seconds).
+- then multiplied by the player's **{rt.optionsScreen.autoSpeed}**: Slow (x1.5, so up to 15 seconds), Normal (x1), Fast (x0.6, so as little as 0.9 seconds).
 
 Auto stops at a moment that is not a line of dialogue: a choice, an exploration or an ending.
 
@@ -25,7 +25,7 @@ Skip speeds through lines **the player has already read**, finishing text at onc
 
 - A line counts as read as soon as it appears, and the record is kept **per game, in the browser**, not per save. It stays across new games.
 - If you change the text or the speaker of a line, that line counts as unread again.
-- Players cannot reset the record themselves, other than by clearing the site data. In the editor, **Reset read lines** does it for your tests.
+- Players cannot reset the record themselves, other than by clearing the site data. In the editor, **{ui.playOverlay.resetReadLines}** does it for your tests.
 
 ## What stops them
 

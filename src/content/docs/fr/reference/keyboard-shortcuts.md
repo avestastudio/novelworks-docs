@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: Tous les raccourcis de l’éditeur et des jeux, sur Mac et sur Windows.
 ---
 
-Dans l’éditeur, **Aide → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** sur Mac, **Ctrl+/** sous Windows) ouvre la même liste. Un raccourci marqué « pendant la saisie » fonctionne aussi quand une zone de texte a le focus ; les autres non.
+Dans l’éditeur, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** sur Mac, **Ctrl+/** sur Windows) ouvre la même liste. Un raccourci marqué « pendant la saisie » fonctionne aussi quand une zone de texte a le focus ; les autres non.
 
 ## Dans l’éditeur
 
@@ -14,9 +14,9 @@ Dans l’éditeur, **Aide → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** su
 |---|---|---|
 | {ui.shortcuts.save} | ⌘S | Ctrl+S |
 | {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
-| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y ou Ctrl+Maj+Z |
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
-| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
+| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Maj+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
 | {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
 | {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
@@ -25,15 +25,15 @@ Dans l’éditeur, **Aide → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** su
 
 | Action | Mac | Windows |
 |---|---|---|
-| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Enter | Ctrl+Enter |
+| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Entrée | Ctrl+Entrée |
 | {ui.shortcuts.duplicateMomentOrTheSelectedZone} | ⌘D | Ctrl+D |
 | {ui.shortcuts.copySelected} | ⌘C | Ctrl+C |
 | {ui.shortcuts.cutSelected} | ⌘X | Ctrl+X |
 | {ui.shortcuts.pasteSelected} | ⌘V | Ctrl+V |
-| {ui.shortcuts.deleteMomentOrTheSelectedCharacterZone} | Delete / Backspace | Delete / Backspace |
+| {ui.shortcuts.deleteMomentOrTheSelectedCharacterZone} | Suppr / Retour arrière | Suppr / Retour arrière |
 | {ui.shortcuts.previousNextMoment} | ← / → | ← / → |
 | {ui.shortcuts.previousNextMomentAlsoWhileTyping} | ⌘[ / ⌘] | Ctrl+[ / Ctrl+] |
-| {ui.shortcuts.firstLastMoment} | Home / End | Home / End |
+| {ui.shortcuts.firstLastMoment} | Début / Fin | Début / Fin |
 
 ### Panneaux
 
@@ -50,28 +50,27 @@ Dans l’éditeur, **Aide → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** su
 
 | Action | Mac | Windows |
 |---|---|---|
-| {ui.shortcuts.nextLineANewMomentWithThe} | Enter | Enter |
-| {ui.shortcuts.newLineInTheSameBox} | ⇧Enter | Shift+Enter |
+| {ui.shortcuts.nextLineANewMomentWithThe} | Entrée | Entrée |
+| {ui.shortcuts.newLineInTheSameBox} | ⇧Entrée | Maj+Entrée |
 <!-- shortcuts:end -->
-
 Notes :
 
-- **Couper, copier et coller** fonctionnent sur un moment, une scène (dans l’onglet Scènes) ou un personnage de l’écran du jeu, dans la vue Visuel. Voir [Copier, coller et dupliquer](/novelworks-docs/fr/writing/copy-paste-duplicate/).
-- Les raccourcis **jouer**, **dupliquer**, **nouveau moment**, **moment précédent/suivant** (avec **Cmd+[** / **Cmd+]**) et **panneaux** fonctionnent pendant la saisie. Supprimer, les flèches, **Home** et **End** non.
-- Les raccourcis des panneaux basculent vers le mode Histoire, sauf Interface du jeu (**Cmd+5**) et Carte de l’histoire (**Cmd+6**), qui basculent vers ces modes.
+- **Couper, copier et coller** fonctionnent sur un moment, une scène (dans l’onglet Scènes) ou un personnage sur l’écran du jeu, dans la vue Visuel. Voir [Copier, coller et dupliquer](/novelworks-docs/fr/writing/copy-paste-duplicate/).
+- Les raccourcis **jouer**, **dupliquer**, **nouveau moment**, **moment précédent/suivant** (avec **Cmd+[** / **Cmd+]**) et **panneaux** fonctionnent pendant la saisie. Supprimer, les flèches, **Début** et **Fin** non.
+- Les raccourcis de panneaux passent en mode Histoire, sauf Interface du jeu (**Cmd+5**) et Carte de l’histoire (**Cmd+6**), qui passent à ces modes.
 - Tous les raccourcis sont ignorés pendant que vous jouez, et tant qu’une fenêtre, un menu ou une fenêtre contextuelle est ouvert.
-- Dans l’espace Carte, `Delete` et **Cmd+D** agissent sur le lieu sélectionné.
-- Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Enter** / **Ctrl+Enter** signifie « Jouer à partir du curseur » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
+- Dans l’espace de travail Carte, `Delete` et **Cmd+D** agissent sur le lieu sélectionné.
+- Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Enter** / **Ctrl+Enter** est « {tx.scriptMode.playFromCursor} » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
 
 ## Dans un jeu
 
-Ces raccourcis fonctionnent dans les jeux exportés et dans le mode Jouer.
+Ces raccourcis fonctionnent dans les jeux exportés et en mode Jouer.
 
 | Action | Touches |
 |---|---|
-| Passer à la suite (termine d’abord le texte) | Clic, **Space** ou **Enter** |
+| Passer à la suite (termine d’abord le texte) | Clic, **Espace** ou **Entrée** |
 | Choisir une option | **1** à **6** (la Nᵉ option à l’écran) |
-| Menu pause | **Esc** ou clic droit |
+| Menu pause | **Échap** ou clic droit |
 | Sauvegarde rapide / chargement rapide | **F5** / **F9** |
 | Historique | **H** ou molette vers le haut |
 | Auto | **A** |

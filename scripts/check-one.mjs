@@ -25,7 +25,11 @@ for (const slug of slugs) {
   if (!existsSync(tr)) { console.log(`${slug}: MISSING FILE ${tr}`); bad++; continue }
   const enText = readFileSync(en, 'utf8'), trText = readFileSync(tr, 'utf8')
   const a = skeleton(enText), b = skeleton(trText), errs = []
-  for (const k of ['markers', 'links', 'code', 'inline', 'headings', 'rows', 'items', 'images']) if (a[k] !== b[k]) errs.push(`${k} differ (English ${typeof a[k] === 'number' ? a[k] : 'x'} vs ${typeof b[k] === 'number' ? b[k] : 'y'})`)
+  for (const k of ['markers', 'links', 'code', 'inline', 'headings', 'rows', 'items', 'images']) if (a[k] !== b[k]) {
+    if (typeof a[k] === 'number') errs.push(`${k} differ (English ${a[k]} vs ${b[k]})`)
+    else if (k === 'markers' || k === 'links') { const A = a[k].split(' ').filter(Boolean), B = b[k].split(' ').filter(Boolean), cnt = (arr, x) => arr.filter((y) => y === x).length; const diff = [...new Set([...A, ...B])].filter((x) => cnt(A, x) !== cnt(B, x)).map((x) => `${x} (English ${cnt(A, x)}, yours ${cnt(B, x)})`); errs.push(`${k} differ: ${diff.join('; ')}`) }
+    else errs.push(`${k} differ from the English page`)
+  }
   if (!/^title: .+/m.test(trText) || !/^description: .+/m.test(trText)) errs.push('front matter needs title and description')
   const noMarkers = b.body.replace(/\*{0,2}\{(?:ui|rt)\.[^}]+\}\*{0,2}/g, '')
   for (const m of noMarkers.matchAll(/\*\*([^*\n]+)\*\*/g)) if (labels.has(m[1].trim()) && !isKeys(m[1].trim())) errs.push(`"${m[1]}" is a button name typed by hand: use its {ui.…}/{rt.…} marker`)

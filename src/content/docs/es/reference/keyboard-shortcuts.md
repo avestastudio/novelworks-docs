@@ -1,42 +1,83 @@
 ---
-title: "Atajos de teclado"
-description: "Atajos del editor y de los juegos."
+title: Atajos de teclado
+description: Todos los atajos del editor y de los juegos, en Mac y en Windows.
 ---
 
-Se muestran teclas Mac. En Windows, usa **Ctrl** en lugar de **Cmd**. También puedes consultar **Help → Keyboard Shortcuts** (**Cmd/Ctrl+/**).
+En el editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** en Mac, **Ctrl+/** en Windows) abre la misma lista. Un atajo marcado como «al escribir» también funciona cuando un cuadro de texto tiene el foco; los demás no.
 
-## Editor
+## En el editor
+
+<!-- shortcuts:start -->
+### Proyecto
+
+| Acción | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.save} | ⌘S | Ctrl+S |
+| {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
+| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
+| {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
+| {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
+| {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
+
+### Momentos y escenas
+
+| Acción | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Enter | Ctrl+Enter |
+| {ui.shortcuts.duplicateMomentOrTheSelectedZone} | ⌘D | Ctrl+D |
+| {ui.shortcuts.copySelected} | ⌘C | Ctrl+C |
+| {ui.shortcuts.cutSelected} | ⌘X | Ctrl+X |
+| {ui.shortcuts.pasteSelected} | ⌘V | Ctrl+V |
+| {ui.shortcuts.deleteMomentOrTheSelectedCharacterZone} | Delete / Backspace | Delete / Backspace |
+| {ui.shortcuts.previousNextMoment} | ← / → | ← / → |
+| {ui.shortcuts.previousNextMomentAlsoWhileTyping} | ⌘[ / ⌘] | Ctrl+[ / Ctrl+] |
+| {ui.shortcuts.firstLastMoment} | Home / End | Home / End |
+
+### Paneles
+
+| Acción | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.scenes} | ⌘1 | Ctrl+1 |
+| {ui.shortcuts.assets} | ⌘2 | Ctrl+2 |
+| {ui.shortcuts.characters} | ⌘3 | Ctrl+3 |
+| {ui.shortcuts.variables} | ⌘4 | Ctrl+4 |
+| {ui.shortcuts.gameUI} | ⌘5 | Ctrl+5 |
+| {ui.shortcuts.storyMap} | ⌘6 | Ctrl+6 |
+
+### Escritura
+
+| Acción | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.nextLineANewMomentWithThe} | Enter | Enter |
+| {ui.shortcuts.newLineInTheSameBox} | ⇧Enter | Shift+Enter |
+<!-- shortcuts:end -->
+
+Notas:
+
+- **Cortar, copiar y pegar** funcionan sobre un momento, una escena (en la pestaña Escenas) o un personaje de la pantalla del juego, en la vista Visual. Mira [Copiar, pegar y duplicar](/novelworks-docs/es/writing/copy-paste-duplicate/).
+- Los atajos de **jugar**, **duplicar**, **nuevo momento**, **momento anterior/siguiente** (con **Cmd+[** / **Cmd+]**) y de **paneles** funcionan al escribir. Suprimir, las flechas, **Inicio** y **Fin** no.
+- Los atajos de los paneles cambian al modo Historia, salvo Interfaz del juego (**Cmd+5**) y Mapa de la historia (**Cmd+6**), que cambian a esos modos.
+- Todos los atajos se ignoran mientras juegas, y mientras hay una ventana, un menú o una ventana emergente abiertos.
+- En el espacio de trabajo Mapa, `Delete` y **Cmd+D** actúan sobre el lugar seleccionado.
+- En la vista Guion, copiar y pegar momentos no se aplica: el editor de texto conserva lo suyo. Allí, **Cmd+Enter** / **Ctrl+Enter** es «{tx.scriptMode.playFromCursor}» y **Cmd+.** / **Ctrl+.** crea todo lo que falta.
+
+## En un juego
+
+Esto funciona en los juegos exportados y en el modo Jugar.
 
 | Acción | Teclas |
 |---|---|
-| Guardar | Cmd+S |
-| Deshacer / rehacer | Cmd+Z / Shift+Cmd+Z (Windows: Ctrl+Y) |
-| Jugar desde el título | Cmd+P |
-| Jugar desde el momento seleccionado | Shift+Cmd+P |
-| Buscar y reemplazar | Cmd+F |
-| Exportar para web | Cmd+E |
-| Nuevo proyecto / abrir | Cmd+N / Cmd+O |
-| Nuevo diálogo tras el momento | Cmd+Enter |
-| Duplicar momento | Cmd+D |
-| Eliminar momento, personaje, zona u objeto de escena | Delete o Backspace |
-| Momento anterior / siguiente | ← / → (Cmd+[ y Cmd+] también al escribir) |
-| Primer / último momento | Home / End |
-| Scenes, Assets, Characters, Variables | Cmd+1, 2, 3, 4 |
-| Game UI | Cmd+5 |
-| Story map | Cmd+6 |
-| Siguiente diálogo al escribir | Enter |
-| Nueva línea en el mismo cuadro | Shift+Enter |
+| Avanzar (primero termina el texto) | Clic, **Espacio** o **Enter** |
+| Elegir una opción | **1** a **6** (la opción número N en pantalla) |
+| Menú de pausa | **Esc** o clic derecho |
+| Guardado rápido / carga rápida | **F5** / **F9** |
+| Historial | **H** o rueda del ratón hacia arriba |
+| Auto | **A** |
+| Saltar | **S**, o mantén **Ctrl** |
+| Inventario | **I** (función Inventario) |
+| Mapa | **M** (cuando se muestra el botón Mapa) |
+| Moverse entre botones y zonas | **Tab** |
 
-## Juego
-
-| Acción | Teclas |
-|---|---|
-| Avanzar | Clic, Space o Enter |
-| Elegir opción | 1 a 6 |
-| Menú de pausa | Esc o clic derecho |
-| Guardado / carga rápidos | F5 / F9 |
-| History | H o rueda hacia arriba |
-| Auto | A |
-| Skip | S o mantener Ctrl |
-| Inventory | I |
-| Map | M |
+Más detalles, con pantallas táctiles: [Teclas y pantallas táctiles](/novelworks-docs/es/player/keys-and-touch/).

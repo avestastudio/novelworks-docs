@@ -32,4 +32,4 @@ You play like a player: click or press **Space** / **Enter** to advance, **1** t
 
 ## What this does not test
 
-Play mode is not the exported game: the "Made with NovelWorks" screen is hidden unless you switch it on, and your tests use their own saves, separate from those of an exported game. To try the real thing in a browser, use [Web export](/novelworks-docs/publish/web-export/) and **Test in browser**.
+Play mode is not the exported game: the "Made with NovelWorks" screen is hidden unless you switch it on, and your tests use their own saves, separate from those of an exported game. To try the real thing in a browser, use [Web export](/novelworks-docs/publish/web-export/) and **{ui.exportDialog.testInBrowser}**.

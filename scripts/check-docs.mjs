@@ -17,6 +17,9 @@ const localeFolders = ['fr', 'es', 'pt-br', 'zh-cn', 'ru', 'ja']
 // Bold words that are not editor buttons even if a catalog happens to contain the same word: keyboard keys and
 // the buttons of the operating system (macOS / Windows warnings) or plain words.
 const SYSTEM_WORDS = new Set(['Enter', 'Esc', 'Ctrl', 'Cmd', 'Shift', 'character', 'Done', 'Open Anyway', 'Run anyway', 'More info', 'Open', 'Left', 'Right', 'Center', 'Bottom', 'Top'])
+// Names of keyboard keys as keyboards of each language label them: never "button names typed by hand".
+const KEYS = new Set('Enter Esc Escape Ctrl Cmd Shift Alt Space Tab Home End Delete Backspace Page Up Down Entrée Échap Maj Espace Suppr Retour arrière Début Fin Intro Mayús Espacio Supr Retroceso Inicio Espaço Pausa Пробел Ввод 回车 空格 删除 退格 スペース 削除 バックスペース エスケープ ホーム エンド ページ 上 下 ou o и или または 或 et y e'.split(' '))
+const isKeys = (t) => t.split(/[+\s/,]+/).filter(Boolean).every((w) => KEYS.has(w) || /^F\d+$/.test(w) || /^\d$/.test(w) || /^[←→↑↓\[\]]$/.test(w))
 const errors = []
 const pending = new Set()
 
@@ -85,8 +88,17 @@ for (const file of all) {
   const pageEntry = pages.find((page) => join(root, page.slug + '.md') === english)
   if (['written', 'validated'].includes(statusOf.get(english)) && (!lang || (pageEntry?.translated ?? []).includes(lang))) {
     for (const match of body.replace(/\*{0,2}\{(?:ui|rt)\.[^}]+\}\*{0,2}/g, '').matchAll(/\*\*([^*\n]+)\*\*/g)) {
-      if (englishLabels.has(match[1].trim()) && !SYSTEM_WORDS.has(match[1].trim())) errors.push(`${name}: "${match[1]}" is a button name typed by hand; use its {ui.key}`)
+      if (englishLabels.has(match[1].trim()) && !SYSTEM_WORDS.has(match[1].trim()) && !isKeys(match[1].trim())) errors.push(`${name}: "${match[1]}" is a button name typed by hand; use its {ui.key}`)
     }
+  }
+}
+
+// 0. Front matter must be valid YAML: an unquoted title/description containing ": " breaks the build.
+for (const file of all) {
+  const head = (await read(file)).match(/^---\n([\s\S]*?)\n---\n/)?.[1] ?? ''
+  for (const line of head.split('\n')) {
+    const m = line.match(/^(title|description): (.*)$/)
+    if (m && !/^["']/.test(m[2]) && /: |#/.test(m[2])) errors.push(`${relative(root, file)}: quote the ${m[1]} (it contains ": ")`)
   }
 }
 

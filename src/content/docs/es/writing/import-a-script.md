@@ -1,28 +1,41 @@
 ---
-title: "Importar un guion"
-description: "Convierte un texto en escenas, diálogos y personajes."
+title: Importar y exportar un guion
+description: Trae un archivo de texto a tu proyecto como escenas, y guarda todo tu juego como texto.
 ---
 
-Si ya tienes la historia escrita, abre **File → Import Script…**.
+Puedes escribir tu historia en cualquier editor de texto e importarla a NovelWorks, o guardar todo el juego como un archivo de texto. El texto usa el formato del [modo Guion](/novelworks-docs/es/writing/script-mode/).
 
-## Formato
+## Importar un guion
 
-```
-# Mañana de primavera
-Mia: ¡Hola!
-Estaba lloviendo.
-Aoi: Oye… ¿estás bien?
-```
+Elige **{ui.native.menu.file} → {ui.native.menu.importScript}**. (No hay atajo de teclado. El menú necesita un proyecto abierto.) Se abre la ventana **{ui.scriptImport.title}**.
 
-- **#** al principio de una línea inicia una escena.
-- **Nombre: texto** crea una intervención de ese personaje.
-- Sin nombre, habla el **Narrator**.
-- Se ignoran las líneas vacías.
+1. Pega tu texto en el cuadro, o haz clic en **{ui.scriptImport.openFile}** y elige un archivo `.txt` o `.md`. Solo se lee texto sin formato, no archivos de Word.
+2. Haz clic en el botón de abajo:
+   - si tu texto tiene líneas `# Heading`, **{ui.scriptImport.importAsScenes}**: cada encabezado se convierte en una escena de tu juego;
+   - si no, **{ui.scriptImport.importInto}** la escena seleccionada: las líneas se añaden al final de esa escena.
 
-## Pasos
+Primero NovelWorks limpia el texto: las comillas dobles curvas (“ ”) pasan a comillas rectas, y un `•` o un `·` seguido de un espacio al principio de una línea pasa a `-`. Después cambia a la vista Guion y añade tu texto **como si lo hubieras escrito tú**. Se aplica tras la espera habitual de medio segundo.
 
-1. Pega el guion a la izquierda. **Preview** muestra las escenas, líneas y nuevos personajes.
-2. Desmarca los nombres que no deban convertirse en personajes: permanecen en el texto del narrador.
-3. Elige dónde insertar las líneas e importa.
+### Lo que obtienes
 
-**Undo** permite deshacer la importación.
+- Una línea `Name : text` es diálogo si un personaje tiene ese nombre. Si no, es narración, el nombre aparece subrayado y una corrección rápida crea el personaje.
+- Los fondos, escenas, variables y objetos desconocidos también aparecen subrayados. El botón **{ui.scriptMode.createMissing_other}** los crea todos con un clic.
+- No hay paso de vista previa ni pregunta sobre quién habla: los hablantes se reconocen con la regla `Name : text` y tus personajes existentes.
+- La importación **añade** texto. No reemplaza lo que ya hay.
+
+:::note
+Con los `# headings`, **cada encabezado siempre crea una escena nueva**, incluso cuando tu juego ya tiene una escena con ese nombre: entonces tienes dos escenas con el mismo nombre, y la existente no cambia. Cambia el nombre de la escena de más o bórrala si no la querías.
+:::
+
+La ventana dice que la importación es un solo paso de deshacer. En la práctica, para quitar una importación hicieron falta **dos** pulsaciones de **{ui.native.menu.undo}**: si las escenas nuevas siguen ahí tras la primera, púlsalo otra vez.
+
+## Exportar el guion
+
+Elige **{ui.native.menu.file} → {ui.native.menu.exportScript}**. NovelWorks te pregunta dónde guardar, con el título **{ui.native.exportIpc.saveTheScript}**, y escribe un archivo `.txt`.
+
+- El archivo contiene **todo el juego**: cada escena bajo un encabezado `# Name`, con una línea en blanco entre escenas. La escena oculta del Mapa no se incluye. No puedes exportar una sola escena.
+- Se escribe en UTF-8, con las palabras del idioma actual de tu editor.
+- El nombre de archivo por defecto es el título de tu proyecto, con los caracteres que un nombre de archivo no admite sustituidos por `-`.
+- Exportar no cambia nada en tu proyecto.
+
+Puedes volver a importar el archivo exportado con **{ui.native.menu.importScript}**.

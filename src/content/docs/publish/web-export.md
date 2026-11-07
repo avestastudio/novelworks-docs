@@ -47,7 +47,7 @@ Your private writing data is blanked before export: moment **notes**, scene **su
 
 - A short **NovelWorks splash** first: the logo and "{tx.splash.tagline}", about 3 seconds, skippable. (The editor calls it the "Made with NovelWorks" screen.)
 - The page title is your game's title, and the page is in your game language. The page icon is the first letter of the title on your primary color.
-- A game that scales to the window, keeping its shape, with black bars around it, on computers and phones. A **Fullscreen** button where the browser allows it, and a **{ui.gameUIInspector.menu}** button on touch screens. See [Keys and touch screens](/novelworks-docs/player/keys-and-touch/).
+- A game that scales to the window, keeping its shape, with black bars around it, on computers and phones. A **{rt.player.fullscreen}** button where the browser allows it, and a **{ui.gameUIInspector.menu}** button on touch screens. See [Keys and touch screens](/novelworks-docs/player/keys-and-touch/).
 - Saves in their browser, kept when you update the game. See [Saving and loading](/novelworks-docs/player/save-and-load/).
 - It needs JavaScript. Without it, the page says "{tx.export.javascriptRequired}"
 

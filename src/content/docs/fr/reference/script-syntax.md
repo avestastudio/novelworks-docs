@@ -1,11 +1,11 @@
 ---
-title: La syntaxe du script en 7 langues
+title: Syntaxe du script en 7 langues
 description: Les mots du format Script dans chaque langue de l’éditeur, et ce qu’ils signifient.
 ---
 
-Le [mode Script](/novelworks-docs/fr/writing/script-mode/) lit un script avec les mots de **toutes les langues de l’éditeur en même temps**, plus quelques formes courtes en anglais. Un script écrit avec des mots français fonctionne donc dans un éditeur en anglais, et inversement. Quand NovelWorks **écrit** un script (en mode Script, ou avec **Fichier → Exporter le script…**), il utilise les mots de la langue actuelle de votre éditeur.
+Le [mode Script](/novelworks-docs/fr/writing/script-mode/) lit un script avec les mots de **toutes les langues de l’éditeur à la fois**, plus quelques formes courtes en anglais. Un script écrit avec des mots français fonctionne donc dans un éditeur anglais, et l’inverse aussi. Quand NovelWorks **écrit** un script (en mode Script, ou avec **{ui.native.menu.file} → Exporter le script…**), il utilise les mots de la langue actuelle de votre éditeur.
 
-Les majuscules, les accents et les espaces en trop n’ont pas d’importance quand un mot-clé est lu : `Decor` se lit comme `décor`.
+Les majuscules, les accents et les espaces en trop n’ont pas d’importance quand un mot-clé est lu : `Decor` se lit comme `décor`.
 
 ## Les mots
 
@@ -38,20 +38,20 @@ Les majuscules, les accents et les espaces en trop n’ont pas d’importance qu
 | No (value of a Fact) | `false` | `faux` | `falso` | `falso` | `假` | `ложь` | `偽` |
 <!-- script-kw:end -->
 
-Toujours compris, dans toutes les langues : `bg` pour le mot du décor, `centre` pour center, `take` pour remove, `ending` pour end, `yes` pour true et `no` pour false.
+Toujours compris, dans n’importe quelle langue : `bg` pour le mot du décor, `centre` pour center, `take` pour remove, `ending` pour end, `yes` pour true et `no` pour false.
 
-Certains de ces mots comptent plusieurs parties, comme « à gauche » : ils sont lus comme des mots entiers.
+Certains de ces mots comptent plusieurs parties, comme « à gauche » : ils sont lus comme des mots entiers.
 
 ## Les symboles
 
-Ils sont les mêmes dans toutes les langues : `?` (une question de choix), `-` (une option), `->` (un saut ou une destination), `+` et `=` (un changement sous une option), `//` (une note), `>` (une ligne gardée telle quelle), `#` (une scène), `:` (après une commande) et `x` ou `×` (une quantité).
+Ils sont les mêmes dans toutes les langues : `?` (une question de choix), `-` (une option), `->` (un saut ou une destination), `+` et `=` (un changement sous une option), `//` (une note), `>` (une ligne gardée telle quelle), `#` (une scène), `:` (après une commande) et `x` ou `×` (une quantité).
 
 Les comparaisons utilisent `=` (ou `==`), `!=` (ou `≠`), `>`, `>=` (ou `≥`), `<` et `<=` (ou `≤`).
 
 ## Un personnage qui porte le nom d’un mot-clé
 
-Si un personnage s’appelle, par exemple, « End », une ligne `End : Hello` est une ligne de dialogue, et l’éditeur vous avertit que la commande ne peut pas être utilisée. Écrivez une commande entre crochets pour en faire une commande : `[end : Good ending]`. Les crochets sont facultatifs partout ailleurs.
+Si un personnage s’appelle, par exemple, « End », une ligne `End : Hello` est une ligne de dialogue, et l’éditeur vous avertit que la commande ne peut pas être utilisée. Écrivez une commande entre crochets pour en faire une commande : `[end : Good ending]`. Les crochets sont facultatifs partout ailleurs.
 
 ## Où apprendre le format
 
-Les lignes elles-mêmes sont expliquées dans [Mode Script : chaque ligne](/novelworks-docs/fr/writing/script-mode-lines/) et [Mode Script : conditions et choix](/novelworks-docs/fr/writing/script-mode-conditions/).
+Les lignes elles-mêmes sont expliquées dans [Mode Script : chaque ligne](/novelworks-docs/fr/writing/script-mode-lines/) et [Mode Script : conditions et choix](/novelworks-docs/fr/writing/script-mode-conditions/).

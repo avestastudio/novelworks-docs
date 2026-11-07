@@ -1,9 +1,9 @@
 ---
-title: "Instalar e ativar"
-description: "Baixe o NovelWorks e libere a exportação com sua chave do itch.io."
+title: Instalar e ativar
+description: Baixe o NovelWorks, abra pela primeira vez e libere a exportação com sua chave de download.
 ---
 
-## Qual arquivo baixar?
+## Qual arquivo devo baixar?
 
 | Computador | Arquivo |
 |---|---|
@@ -11,35 +11,44 @@ description: "Baixe o NovelWorks e libere a exportação com sua chave do itch.i
 | Mac com Intel | `Novelworks-<version>-mac-x64.dmg` |
 | Windows 10 / 11 | `Novelworks-<version>-win-x64.exe` |
 
-Para identificar seu Mac, abra o menu Apple → **Sobre Este Mac**. «Chip: Apple M…» indica Apple Silicon.
+A demo gratuita tem os mesmos três arquivos, com `-demo` depois do número da versão (por exemplo `Novelworks-<version>-demo-win-x64.exe`). Veja [a demo gratuita](/novelworks-docs/pt-br/getting-started/demo-edition/).
 
-## Primeira abertura
+Não sabe qual Mac você tem? Abra o menu Apple → **Sobre este Mac**. "Chip: Apple M…" significa Apple Silicon.
 
-O NovelWorks ainda não é assinado com um certificado pago da Apple ou Microsoft. Por isso, pode aparecer um aviso na primeira abertura.
+## Na primeira vez que você abrir
 
-### Mac
+### No Mac
 
-1. Abra o `.dmg` e arraste **Novelworks** para **Aplicativos**.
-2. Abra o aplicativo. Se o macOS não conseguir verificá-lo, clique em **Concluído**.
-3. No macOS 15 Sequoia ou posterior, abra **Ajustes do Sistema → Privacidade e Segurança**, encontre o aviso do Novelworks e clique em **Abrir Mesmo Assim**. Em versões anteriores, clique com o botão direito no aplicativo e escolha **Abrir**.
+O aplicativo para Mac ainda **não é assinado com um Apple Developer ID** (tem só uma assinatura ad-hoc), então o macOS pode se recusar a abri-lo na primeira vez e mostrar um aviso. Os passos exatos dependem da sua versão do macOS.
 
-### Windows
+1. Abra o `.dmg` e arraste o **Novelworks** para **Aplicativos**.
+2. Abra-o a partir de Aplicativos.
+3. Se o macOS bloquear, procure em **Ajustes do Sistema → Privacidade e Segurança** uma mensagem sobre o Novelworks, com um botão para abrir mesmo assim. Em versões mais antigas do macOS, o jeito usual é clicar no aplicativo com o botão direito e escolher a opção de abrir.
 
-1. Execute o `.exe`.
-2. Se aparecer **O Windows protegeu o computador**, clique em **Mais informações** e depois em **Executar assim mesmo**.
-3. Siga o instalador.
+### No Windows
 
-## Ativar a versão completa
+Execute o `.exe`. O instalador deixa você escolher a pasta de instalação, instala só para o seu usuário e adiciona um atalho na área de trabalho. Se o Windows mostrar um aviso de segurança ao executar, ele normalmente oferece um jeito de executar mesmo assim. O texto depende da sua versão do Windows.
 
-É necessária a **chave de download** da compra no itch.io. Sem ativação, você pode abrir, editar e testar projetos, mas **File → Export for Web** fica bloqueado.
+## Escolha o idioma do editor
 
-1. Abra **Help → Activate NovelWorks…**, também disponível na tela inicial e em **About**.
-2. Cole a chave da compra no itch.io.
-3. Clique em **Activate**.
+Na primeira vez, o NovelWorks pergunta **{ui.languageDialog.title}**. Escolha um idioma e clique em **{ui.languageDialog.continue}**. Se você fechar a janela, o NovelWorks segue o idioma do seu computador. Você pode mudar depois em **{ui.menu.view} → {ui.native.menu.language}**. Em seguida você verá a [tela de projetos](/novelworks-docs/pt-br/getting-started/projects-screen/).
 
-- Cada chave permite até **3 computadores**.
-- Após a ativação, o aplicativo funciona **offline**.
-- Para liberar um computador, por exemplo antes de vendê-lo, use **Deactivate this device** na mesma janela.
-- Ao atingir o limite, use **Contact us**.
+## Ative o NovelWorks (versão completa)
 
-![Janela Activate NovelWorks com o campo de chave vazio](/novelworks-docs/screenshots/activate-novelworks.png)
+A versão completa pede a **chave de download** que vem com a sua compra. Sem ela, você ainda pode abrir, editar e jogar seus projetos. Só a **exportação** fica bloqueada: o comando de exportar do menu Arquivo abre a janela de ativação.
+
+1. Abra **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}**. A mesma janela abre pela tela de projetos e pela janela Sobre.
+2. Cole sua chave de download em **{ui.activateDialog.downloadKey}**. Você também pode colar o endereço completo da sua página de download.
+3. Clique em **{ui.activateDialog.activate}**.
+
+Onde encontrar a chave: abra o e-mail da sua compra no navegador, abra a página de download do NovelWorks e copie a chave de download ou o endereço da página.
+
+![Janela Ativar o NovelWorks com o campo da chave de download vazio](/novelworks-docs/screenshots/activate-novelworks.png)
+
+Bom saber:
+
+- A ativação contata o servidor de ativação, então precisa de conexão com a internet. Depois de ativado, o NovelWorks verifica sua licença no seu computador a cada inicialização, então você pode exportar sem internet.
+- A janela de ativação diz que **uma chave funciona em até 3 computadores** e que você pode desativar um computador para usar sua chave em outro. Para isso, abra a mesma janela e clique em **{ui.activateDialog.deactivateThisDevice}**. Isso também contata o servidor, então precisa de conexão com a internet.
+- Se a janela disser que a chave já está ativada no número máximo de computadores, desative o NovelWorks em outro computador ou use **{ui.activateDialog.contactUs}** na janela.
+
+Se a ativação falhar, a janela mostra uma mensagem dizendo o que fazer. Veja também as [Perguntas frequentes](/novelworks-docs/pt-br/reference/faq/).

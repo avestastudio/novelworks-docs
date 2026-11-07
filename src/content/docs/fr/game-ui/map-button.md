@@ -1,5 +1,5 @@
 ---
-title: Bouton de carte
+title: Bouton de la carte
 description: Le bouton qui ouvre la carte, et son apparence.
 ---
 
@@ -7,9 +7,9 @@ L’écran **{ui.gameUI.mapButton}** règle l’apparence du bouton qui ouvre la
 
 ## Ce que vous pouvez changer
 
-- **{ui.gameUIInspector.label}** : le texte du bouton et de l’entrée du menu pause. Par défaut, « Carte ».
-- **{ui.gameUIInspector.cornerOfTheScreen}** : en haut à gauche (par défaut), en haut à droite, en bas à gauche ou en bas à droite.
-- **{ui.gameUIInspector.buttonStyle}** : « Identique à Polices et couleurs » par défaut.
+- **{ui.gameUIInspector.label}** : le texte du bouton et de l’entrée du menu pause. « {tx.theme.map} » par défaut.
+- **{ui.gameUIInspector.cornerOfTheScreen}** : en haut à gauche (par défaut), en haut à droite, en bas à gauche ou en bas à droite.
+- **{ui.gameUIInspector.buttonStyle}** : « {tx.gameUIInspector.sameAsFontsColors} » par défaut.
 
 Le bouton utilise les couleurs de la boîte de dialogue, et sa couleur ne peut pas être réglée séparément.
 
@@ -17,4 +17,4 @@ Le bouton utilise les couleurs de la boîte de dialogue, et sa couleur ne peut p
 
 Les joueurs ouvrent aussi la carte depuis le menu pause, ou avec la touche **M**. Sur la carte, un bouton **{rt.game.back}** de même apparence les ramène là où ils étaient.
 
-Le moment où le bouton s’affiche est un réglage de la carte (toujours, ou après que l’histoire a montré la carte pour la première fois). Voir [Carte](/novelworks-docs/fr/features/map/).
+Le moment où le bouton s’affiche est un réglage de la carte (toujours, ou après que l’histoire a montré la carte une première fois). Voir [Carte](/novelworks-docs/fr/features/map/).

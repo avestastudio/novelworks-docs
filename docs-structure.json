@@ -1,5 +1,5 @@
 {
-  "note": "Source of truth for the page list. status: old = short page waiting for its rewrite; stub = draft, not published; written = rewritten and checked in the app; validated = approved by the author (translations required).",
+  "note": "Source of truth for the page list. status: old = short page waiting for its rewrite; stub = draft, not published; written = rewritten and checked in the app; validated = approved by the author (translations required). translated: languages whose translation is current (same skeleton as the English page, checked by npm run check:docs).",
   "sections": [
     {
       "label": "Getting started",
@@ -15,47 +15,119 @@
         {
           "slug": "getting-started/welcome",
           "title": "Welcome to NovelWorks",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/install-and-activate",
           "title": "Install and activate",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/demo-edition",
           "title": "Demo and full edition",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/projects-screen",
           "title": "The projects screen and new projects",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/tour-of-the-editor",
           "title": "Tour of the editor",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/first-visual-novel",
           "title": "Your first visual novel",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/saving-and-undo",
           "title": "Saving, backups and undo",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/editor-settings",
           "title": "Editor and project settings",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "getting-started/guided-tour",
           "title": "The guided tour",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -73,22 +145,54 @@
         {
           "slug": "concepts/stage",
           "title": "The stage: characters stay in place",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "concepts/scenes-moments-timeline",
           "title": "Scenes, moments and the timeline",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "concepts/game-memory",
           "title": "The game’s memory",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "concepts/how-stories-branch",
           "title": "How a story branches",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -106,62 +210,158 @@
         {
           "slug": "writing/scenes",
           "title": "Scenes",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/moments-and-dialogue",
           "title": "Moments and dialogue",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/characters",
           "title": "Characters and expressions",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/assets",
           "title": "Images",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/staging",
           "title": "Staging a scene",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/script-mode",
           "title": "Script mode: the basics",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/script-mode-lines",
           "title": "Script mode: every line",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/script-mode-conditions",
           "title": "Script mode: conditions and choices",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/import-a-script",
           "title": "Import and export a script",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/search",
           "title": "Find and replace",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/copy-paste-duplicate",
           "title": "Copy, paste and duplicate",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/notes",
           "title": "Notes",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -179,37 +379,93 @@
         {
           "slug": "branching/choices",
           "title": "Choices",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/variables",
           "title": "Variables",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/conditions",
           "title": "If… conditions",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/jumps",
           "title": "Jumps",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/endings",
           "title": "Endings",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/story-map",
           "title": "The story map",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "branching/reach",
           "title": "Where your choices can lead (up to +5)",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -227,22 +483,54 @@
         {
           "slug": "features/features-panel",
           "title": "The features library",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "features/exploration",
           "title": "Exploration",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "features/inventory",
           "title": "Inventory",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "features/map",
           "title": "Map",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -260,82 +548,210 @@
         {
           "slug": "game-ui/game-ui-editor",
           "title": "Game UI overview",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/fonts-and-colors",
           "title": "Fonts and colors",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/title-screen",
           "title": "Title screen",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/dialogue-box",
           "title": "Dialogue box",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/choices-screen",
           "title": "Choices",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/pause-menu",
           "title": "Pause menu",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/ending-screen",
           "title": "Ending screen",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/history-screen",
           "title": "History screen",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/save-load-screen",
           "title": "Save and load screen",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/quick-menu",
           "title": "Quick menu",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/options",
           "title": "Player options",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/intro",
           "title": "Intro",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/content-warning",
           "title": "Content warning",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/inventory-ui",
           "title": "Inventory screen",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/map-button",
           "title": "Map button",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/notifications",
           "title": "Notices (notifications)",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -353,37 +769,93 @@
         {
           "slug": "player/save-and-load",
           "title": "Saving and loading",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/history",
           "title": "History",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/auto-and-skip",
           "title": "Auto and Skip",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/text-reveal",
           "title": "Text reveal",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/quick-menu",
           "title": "Quick menu",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/options-and-accessibility",
           "title": "Options and accessibility",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "player/keys-and-touch",
           "title": "Keys and touch screens",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -401,17 +873,41 @@
         {
           "slug": "testing/play",
           "title": "Play, Play from here, Test the map",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "testing/test-saves-and-read-lines",
           "title": "Play mode tools",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "testing/problems",
           "title": "Problems: every warning",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -429,12 +925,28 @@
         {
           "slug": "publish/web-export",
           "title": "Web export",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "publish/itch-io",
           "title": "Publish on itch.io",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     },
@@ -452,47 +964,119 @@
         {
           "slug": "reference/keyboard-shortcuts",
           "title": "Keyboard shortcuts",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/menus",
           "title": "All menus",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/script-syntax",
           "title": "Script syntax in 7 languages",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/glossary",
           "title": "Glossary",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/project-format",
           "title": "Project format, compatibility and backups",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/faq",
           "title": "FAQ",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/troubleshooting",
           "title": "Troubleshooting and messages",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/report-a-bug",
           "title": "Report a bug",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "reference/licenses-and-editions",
           "title": "Licenses and editions",
-          "status": "written"
+          "status": "written",
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         }
       ]
     }

@@ -23,7 +23,7 @@ Under **{ui.gameUIInspector.screen}**:
 | Dyslexia-friendly font | On, Off |
 | High contrast | On, Off |
 
-A sample line shows the text as it will look, and **Default settings** puts everything back. Changes apply at once. They apply **over** your Game UI, only for that player, and are kept for your game in their browser.
+A sample line shows the text as it will look, and **{rt.optionsScreen.defaults}** puts everything back. Changes apply at once. They apply **over** your Game UI, only for that player, and are kept for your game in their browser.
 
 If a player has not chosen a text speed and their system asks for reduced motion, the text appears instantly.
 

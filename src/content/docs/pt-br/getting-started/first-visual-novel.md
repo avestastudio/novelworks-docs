@@ -1,58 +1,59 @@
 ---
-title: "Sua primeira visual novel em 15 minutos"
-description: "Do projeto vazio a um jogo que você pode testar."
+title: Seu primeiro visual novel
+description: Um tutorial passo a passo, de um projeto vazio até um jogo que você pode jogar.
 ---
 
-Você criará uma história curta com um cenário, um personagem, algumas falas e uma escolha. Separe três imagens: um fundo e duas expressões do mesmo personagem, por exemplo feliz e surpreso.
-
+Você vai fazer uma historinha com um cenário, um personagem com duas expressões, algumas falas de diálogo e uma escolha com dois finais. Você precisa de três imagens: um cenário e duas imagens do **mesmo personagem** com expressões diferentes (por exemplo, feliz e surpreso).
 
 ## 1. Crie o projeto
 
-1. Abra o NovelWorks e clique em **New project** na tela de projetos.
-2. Digite um nome, escolha a pasta com **Browse…** e clique em **Create project**. Deixe as funções opcionais desmarcadas.
+1. Abra o NovelWorks. Na [tela de projetos](/novelworks-docs/pt-br/getting-started/projects-screen/), clique em **{ui.projectHub.newProject}**.
+2. Digite um nome, confira o local (ou clique em **{ui.newProjectScreen.browse}**), deixe os recursos desmarcados e clique em **{ui.newProjectScreen.createProject}**.
 
-O projeto é uma pasta com `project.json` e uma subpasta `assets`.
+O projeto abre com uma cena, "{tx.shared.project.firstScene}", e uma linha de diálogo vazia.
 
-## 2. Adicione as imagens
+## 2. Adicione suas imagens
 
-1. Abra **Assets** no painel esquerdo.
-2. Arraste as imagens para a janela ou use o botão de importação.
-3. Escolha a categoria de cada imagem: **Background** para cenários, **Sprite** para personagens, entre outras.
+1. No painel esquerdo, abra a aba **{ui.leftPanel.assets}**.
+2. Clique em **{ui.assetsTab.import}**, ou solte suas imagens sobre a janela.
+3. Para cada imagem, escolha o tipo. Escolha **{ui.assetTypes.background}** para a imagem do lugar e **{ui.assetTypes.characterSprite}** para as duas imagens do seu personagem.
 
 ## 3. Crie um personagem
 
-1. Em **Characters**, adicione um personagem, dê um nome e escolha **Name color**.
-2. Adicione uma expressão para cada sprite, como «Feliz» e «Surpreso», e escolha a imagem correspondente. A estrela marca a expressão padrão.
+1. Abra a aba **{ui.leftPanel.characters}** e clique em **{ui.charactersTab.newCharacter}**.
+2. No inspetor, digite o **{ui.characterInspector.characterName}** e escolha uma **{ui.characterInspector.nameColor}**.
+3. Em **{ui.characterInspector.expressions}**, clique em **{ui.characterInspector.addExpression}** para cada imagem (só as imagens do tipo "{tx.assetTypes.characterSprite}" aparecem), dê um nome a ela ("Feliz", "Surpreso") e escolha a imagem. A expressão com a estrela é a mostrada por padrão.
 
 ## 4. Escreva a primeira cena
 
-1. Em **Scenes**, selecione a primeira cena e dê um clique duplo para renomeá-la.
-2. A linha do tempo abaixo da tela mostra os momentos. Clique em **+ Dialogue** para adicionar uma fala.
-3. Escolha o fundo, use **+ Character** e arraste o personagem até a posição desejada.
-4. Clique na caixa de diálogo e escreva. **Enter** cria a próxima fala com a mesma composição de cena. **Shift+Enter** insere uma quebra de linha na mesma caixa.
+1. Abra a aba **{ui.leftPanel.scenes}** e selecione sua cena.
+2. Escolha o cenário do momento com o botão de cenário acima da tela do jogo ("{ui.stage.chooseTheBackgroundOfThisMoment}").
+3. Coloque seu personagem em cena com o botão **{ui.stageControls.putACharacterOnStage}** e depois arraste o personagem para onde quiser.
+4. Clique na caixa de diálogo na tela e digite. Aperte **Enter** para começar a próxima fala: um novo momento começa, com o **mesmo palco**, porque [os personagens ficam em cena](/novelworks-docs/pt-br/concepts/stage/). Aperte **Shift+Enter** para uma nova linha na mesma caixa.
+5. Clique no personagem na tela para mudar a expressão dele em um momento posterior.
 
 ## 5. Adicione uma escolha
 
-1. Clique em **Choice** na linha do tempo.
-2. Escreva a pergunta e adicione duas opções.
-3. Escolha a cena de destino de cada opção. Se precisar de outra cena, use **New scene** em **Scenes**.
+1. Na linha do tempo, adicione um momento **{ui.moments.choice}**.
+2. No inspetor, escreva a pergunta e o texto de duas opções.
+3. Para cada opção, escolha a cena para a qual ela leva em **{ui.branchInspectors.then}**. Crie as cenas antes com **{ui.scenesTab.newScene}** na aba Cenas.
+
+Você já pode fazer uma escolha importar: veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/).
 
 ## 6. Adicione um final
 
-Selecione o último momento de cada ramificação e clique em **Ending**. Dê um nome, como «Final bom».
+No fim de cada ramificação, adicione um momento **{ui.moments.ending}**. No começo ele se chama "{tx.shared.scenes.goodEnding}": mude o nome se quiser. Depois de um final, o jogador volta para a tela de título.
 
-## 7. Teste o jogo
+## 7. Aperte Jogar
 
-Clique em **Play** na barra superior. Clique ou pressione **Space** para avançar; **Esc** volta ao editor.
-
-Para testar do meio da história, selecione um momento e clique em **Play from here**.
+Clique em **{ui.topBar.play}** na barra superior para jogar a partir da tela de título. Para testar do meio, selecione um momento e clique em **{ui.topBar.playFromHere}**. Aperte **Esc** para voltar ao editor (se um menu do jogo estiver aberto, **Esc** fecha o menu primeiro).
 
 ## 8. Salve
 
-Pressione **Cmd+S** no Mac ou **Ctrl+S** no Windows. O NovelWorks também salva automaticamente.
+Aperte **Cmd+S** (Mac) ou **Ctrl+S** (Windows). O NovelWorks também salva sozinho a cada dois minutos. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).
 
-## Próximos passos
+## E agora?
 
-- Dê consequências às escolhas com [variáveis](/novelworks-docs/pt-br/branching/variables/) e [condições](/novelworks-docs/pt-br/branching/conditions/).
-- Personalize a aparência em [Game UI](/novelworks-docs/pt-br/game-ui/game-ui-editor/).
-- [Exporte o jogo](/novelworks-docs/pt-br/publish/web-export/) para compartilhá-lo.
+- Faça as escolhas importarem com [variáveis](/novelworks-docs/pt-br/branching/variables/) e [condições](/novelworks-docs/pt-br/branching/conditions/).
+- Mude a aparência do seu jogo no [editor de interface do jogo](/novelworks-docs/pt-br/game-ui/game-ui-editor/).
+- [Exporte-o](/novelworks-docs/pt-br/publish/web-export/) e compartilhe.

@@ -1,0 +1,23 @@
+---
+title: "NovelWorks ドキュメント"
+description: "コードを書かずにビジュアルノベルを作ろう。"
+template: splash
+hero:
+  tagline: "ゲームで見える画面のまま、ビジュアルノベルを作れます。背景を選び、キャラクターを置き、文章を書き、選択肢を加えて、再生を押すだけです。"
+  actions:
+    - text: "はじめてのビジュアルノベルを作る"
+      link: /novelworks-docs/ja/getting-started/first-visual-novel/
+      icon: right-arrow
+    - text: "NovelWorks をインストールする"
+      link: /novelworks-docs/ja/getting-started/install-and-activate/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+<CardGrid stagger>
+  <Card title="書く" icon="pencil">シーン、セリフ、キャラクター、画像を、ひとつの画面で扱えます。</Card>
+  <Card title="分岐させる" icon="random">選択肢で変数を変え、条件で別のエンディングへつなげます。</Card>
+  <Card title="探索する" icon="puzzle">ポイント＆クリックのシーン、アイテム、マップを、ワンクリックで有効にできます。</Card>
+  <Card title="公開する" icon="rocket">Web ゲームとして書き出し、itch.io に公開できます。</Card>
+</CardGrid>

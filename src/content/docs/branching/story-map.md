@@ -16,7 +16,7 @@ Each card shows:
 - its writing status (**{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** or **{ui.shared.outline.done}**) and its number of words, or "Empty". Point at the word count to see the number of moments;
 - a sticky-note badge with the number of moments that have a [note](/novelworks-docs/writing/notes/);
 - a warning badge with the number of problems. Point at it to read each one ("Moment 4: …");
-- tags: a flag with the name of each ending, **Unreachable** (nothing leads here from the start scene; it is not shown when the project has only one scene), "{tx.storyMap.gameEndsHere}" (nothing comes after this scene and it has no ending) and "{tx.storyMap.backToTheMap}".
+- tags: a flag with the name of each ending, **{ui.storyMap.unreachable}** (nothing leads here from the start scene; it is not shown when the project has only one scene), "{tx.storyMap.gameEndsHere}" (nothing comes after this scene and it has no ending) and "{tx.storyMap.backToTheMap}".
 
 An unreachable card has a dashed border and is dimmed.
 

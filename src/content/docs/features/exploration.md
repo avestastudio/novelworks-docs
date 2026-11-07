@@ -13,10 +13,10 @@ In the timeline, add an **{ui.moments.exploration}** moment. It starts empty and
 
 ## Draw zones
 
-Above the game screen, choose **{ui.explorationCanvas.drawZonesAs}**: **Rectangle** or **Shape**. (On a narrow window, they are in the **{ui.stage.more}** menu.)
+Above the game screen, choose **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** or **{ui.explorationCanvas.shape}**. (On a narrow window, they are in the **{ui.stage.more}** menu.)
 
-- **Rectangle**: drag on the picture. A plain click makes nothing, and a zone smaller than 2 % of the screen is not created.
-- **Shape**: click point by point around an object. Close the shape by clicking the first point again, or by pressing **Enter**. **Esc** cancels. At least three points are needed.
+- **{ui.explorationCanvas.rectangle}**: drag on the picture. A plain click makes nothing, and a zone smaller than 2 % of the screen is not created.
+- **{ui.explorationCanvas.shape}**: click point by point around an object. Close the shape by clicking the first point again, or by pressing **Enter**. **Esc** cancels. At least three points are needed.
 
 A zone is selected right after you draw it. Drag it to move it. A rectangle has eight handles to resize it, and a shape has a handle on every point. You can also use **+ Zone** to add a rectangle in the middle of the screen.
 

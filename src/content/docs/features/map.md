@@ -17,7 +17,7 @@ With no map yet, **{ui.mapMode.createYourMap}** says: "{tx.mapMode.chooseAPictur
 
 ## Add locations
 
-Click **{ui.mapMode.addLocation}** and drag on the map to draw a location. For a custom shape, choose **Shape**, click its corners, then press **Enter**. Drag a location to move it, or its handles to resize it. Select a location to edit it.
+Click **{ui.mapMode.addLocation}** and drag on the map to draw a location. For a custom shape, choose **{ui.explorationCanvas.shape}**, click its corners, then press **Enter**. Drag a location to move it, or its handles to resize it. Select a location to edit it.
 
 ### What a location has
 

@@ -21,9 +21,9 @@ Choose **{ui.gameUIInspector.color}** or **{ui.gameUIInspector.image}**.
 Only the **{ui.gameUIInspector.buttonStyle}** can be changed. The buttons and their words are fixed:
 
 - **{rt.game.continue}**: shown only when the player has a save, and loads the latest one;
-- **New Game**;
+- **{rt.game.newGame}**;
 - **{rt.game.load}**: shown when saving is possible;
 - **{rt.game.options}**;
-- **Quit**: only in a host that has a way to quit (not in the browser).
+- **{rt.game.quit}**: only in a host that has a way to quit (not in the browser).
 
 The words of these buttons follow the [game language](/novelworks-docs/getting-started/editor-settings/) of your project.

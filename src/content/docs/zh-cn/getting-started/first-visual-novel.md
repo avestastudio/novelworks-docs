@@ -1,58 +1,59 @@
 ---
-title: "15 分钟制作第一部视觉小说"
-description: "从空白项目开始，逐步制作可玩的游戏。"
+title: 你的第一部视觉小说
+description: 一步一步的教程，从空项目到一个可以试玩的游戏。
 ---
 
-你将制作一段包含背景、一个角色、几句对话和一个选项的短故事。准备三张图片：一张背景，以及同一角色的两种表情，例如开心和惊讶。
-
+你将做一个很小的故事：有一个背景，一个有两种表情的角色，几句对话，以及一个带两个结局的选择。你需要三张图片：一张背景，以及同一个角色的两张不同表情的图片（例如开心和惊讶）。
 
 ## 1. 创建项目
 
-1. 打开 NovelWorks，在项目页面点击 **New project**。
-2. 输入名称，用 **Browse…** 选择文件夹，再点击 **Create project**。暂时不要勾选可选功能。
+1. 打开 NovelWorks。在[项目界面](/novelworks-docs/zh-cn/getting-started/projects-screen/)上，点击**{ui.projectHub.newProject}**。
+2. 输入名称，检查位置（或点击**{ui.newProjectScreen.browse}**），保持功能不勾选，然后点击**{ui.newProjectScreen.createProject}**。
 
-项目是一个文件夹，内含 `project.json` 文件和 `assets` 子文件夹。
+项目打开后有一个场景“{tx.shared.project.firstScene}”，以及一句空的对话。
 
-## 2. 导入图片
+## 2. 添加你的图片
 
-1. 在左侧打开 **Assets**。
-2. 将图片拖入窗口，或使用导入按钮。
-3. 为每张图片选择类别：背景选 **Background**，角色立绘选 **Sprite**，其他图片按用途分类。
+1. 在左侧面板里，打开**{ui.leftPanel.assets}**标签页。
+2. 点击**{ui.assetsTab.import}**，或者把图片拖到窗口上。
+3. 为每张图片选择类型。地点的图片选择**{ui.assetTypes.background}**，你的角色的两张图片选择**{ui.assetTypes.characterSprite}**。
 
 ## 3. 创建角色
 
-1. 在 **Characters** 中添加角色，填写姓名并设置 **Name color**。
-2. 为每张立绘添加一个表情，例如“开心”和“惊讶”，然后指定对应图片。星标表示默认表情。
+1. 打开**{ui.leftPanel.characters}**标签页，点击**{ui.charactersTab.newCharacter}**。
+2. 在检查器里输入**{ui.characterInspector.characterName}**，并选择一种**{ui.characterInspector.nameColor}**。
+3. 在**{ui.characterInspector.expressions}**下，为每张图片点击一次**{ui.characterInspector.addExpression}**（只有类型为“{tx.assetTypes.characterSprite}”的图片可选），给它起个名字（“开心”、“惊讶”），再选择它的图片。带星标的表情就是默认显示的那个。
 
-## 4. 编写第一场戏
+## 4. 写第一个场景
 
-1. 在 **Scenes** 中选择第一个场景，双击修改名称。
-2. 屏幕下方的时间轴显示场景中的各个时刻。点击 **+ Dialogue** 添加一句对话。
-3. 选择背景，点击 **+ Character** 放入角色，再拖动到合适位置。
-4. 点击对话框输入文字。**Enter** 新建下一句并保留舞台布置；**Shift+Enter** 在同一对话框内换行。
+1. 打开**{ui.leftPanel.scenes}**标签页，选中你的场景。
+2. 用游戏画面上方的背景按钮（“{ui.stage.chooseTheBackgroundOfThisMoment}”）选择这个片段的背景。
+3. 用按钮**{ui.stageControls.putACharacterOnStage}**把你的角色放到台上，然后把角色拖到你想要的位置。
+4. 点击画面上的对话框并输入文字。按 **Enter** 开始下一句：会开始一个新片段，它有**相同的舞台**，因为[角色会留在台上](/novelworks-docs/zh-cn/concepts/stage/)。按 **Shift+Enter** 可以在同一个框里换行。
+5. 点击画面上的角色，可以在之后的片段里更换它的表情。
 
-## 5. 添加选项
+## 5. 添加选择
 
-1. 在时间轴点击 **Choice**。
-2. 写下问题，添加两个选项。
-3. 为每个选项指定目标场景。如需新场景，先在 **Scenes** 中点击 **New scene**。
+1. 在时间线里，添加一个**{ui.moments.choice}**片段。
+2. 在检查器里，写下问题和两个选项的文字。
+3. 为每个选项，在**{ui.branchInspectors.then}**里选择它通向的场景。请先在场景标签页里用**{ui.scenesTab.newScene}**创建这些场景。
+
+你已经可以让选择产生影响了：请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 6. 添加结局
 
-选择每条分支的最后一个时刻，点击 **Ending**，填写结局名称，例如“美好结局”。
+在每个分支的末尾，添加一个**{ui.moments.ending}**片段。它一开始叫“{tx.shared.scenes.goodEnding}”：你想改的话可以改名。结局之后，玩家会回到标题画面。
 
-## 7. 运行游戏
+## 7. 点击试玩
 
-点击顶部的 **Play**。单击或按 **Space** 推进，按 **Esc** 返回编辑器。
-
-如果要从故事中途开始测试，选中一个时刻，再点击 **Play from here**。
+点击顶部栏里的**{ui.topBar.play}**，从标题画面开始试玩。想从中间开始测试，请选中一个片段，再点击**{ui.topBar.playFromHere}**。按 **Esc** 回到编辑器（如果游戏菜单是打开的，**Esc** 会先关闭它）。
 
 ## 8. 保存
 
-Mac 按 **Cmd+S**，Windows 按 **Ctrl+S**。NovelWorks 也会自动保存。
+按 **Cmd+S**（Mac）或 **Ctrl+S**（Windows）。NovelWorks 也会每两分钟自动保存一次。请看[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
 
 ## 接下来做什么？
 
-- 使用[变量](/novelworks-docs/zh-cn/branching/variables/)和[条件](/novelworks-docs/zh-cn/branching/conditions/)让选择产生后果。
-- 在 [Game UI](/novelworks-docs/zh-cn/game-ui/game-ui-editor/) 中调整游戏外观。
-- [导出游戏](/novelworks-docs/zh-cn/publish/web-export/)并分享。
+- 用[变量](/novelworks-docs/zh-cn/branching/variables/)和[条件](/novelworks-docs/zh-cn/branching/conditions/)让选择产生影响。
+- 在[游戏界面编辑器](/novelworks-docs/zh-cn/game-ui/game-ui-editor/)里改变游戏的外观。
+- [导出](/novelworks-docs/zh-cn/publish/web-export/)并分享它。

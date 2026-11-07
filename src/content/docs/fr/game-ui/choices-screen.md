@@ -7,10 +7,10 @@ L’écran **{ui.gameUI.choices}** règle l’apparence des boutons d’un [choi
 
 ## Boutons
 
-- **{ui.gameUIInspector.buttonStyle}** : « Identique à Polices et couleurs » par défaut.
-- **{ui.gameUIInspector.buttonColor}** : « Identique à la boîte de dialogue » par défaut (la couleur de la boîte avec son opacité).
-- **{ui.gameUIInspector.textColor}** : « Identique à la couleur du texte » par défaut.
+- **{ui.gameUIInspector.buttonStyle}** : « {tx.gameUIInspector.sameAsFontsColors} » par défaut.
+- **{ui.gameUIInspector.buttonColor}** : « {tx.gameUIInspector.sameAsTheDialogueBox} » par défaut (la couleur de la boîte avec son opacité).
+- **{ui.gameUIInspector.textColor}** : « {tx.gameUIInspector.sameAsTheTextColor} » par défaut.
 
 Le texte des options vient de votre histoire. Les joueurs cliquent sur une option ou appuient sur sa touche numérique.
 
-Une option verrouillée (voir [Choix](/novelworks-docs/fr/branching/choices/)) est dessinée en grisé et ne peut pas être choisie.
+Une option verrouillée (voir [Choix](/novelworks-docs/fr/branching/choices/)) est grisée et ne peut pas être choisie.

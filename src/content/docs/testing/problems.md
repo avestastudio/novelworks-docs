@@ -10,7 +10,7 @@ The editor warns you when something in your story is incomplete or can never wor
 - **On a moment card** in the timeline, a warning triangle. Point at it to read all the problems of that moment.
 - **In the inspector** of the moment, a box "{tx.branchInspectors.thisMomentNeedsYourAttention}" lists them.
 - **In the Scenes tab**, a red **{ui.scenesTab.unreachable}** tag on a scene nothing leads to.
-- **On the [story map](/novelworks-docs/branching/story-map/)**, a warning badge with a count on a scene card, and the **Unreachable** tag. The **{ui.storyMap.problems}** filter highlights the scenes that have warnings or are unreachable. The tag "{tx.storyMap.gameEndsHere}" is information, not a warning.
+- **On the [story map](/novelworks-docs/branching/story-map/)**, a warning badge with a count on a scene card, and the **{ui.storyMap.unreachable}** tag. The **{ui.storyMap.problems}** filter highlights the scenes that have warnings or are unreachable. The tag "{tx.storyMap.gameEndsHere}" is information, not a warning.
 - **In the Map workspace**, a "Check your map" box.
 - **When you export**, a list of "things to check first" for the whole game. See [Web export](/novelworks-docs/publish/web-export/).
 - **In [Script mode](/novelworks-docs/writing/script-mode/)**, a separate set of yellow underlines on lines.
