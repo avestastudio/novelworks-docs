@@ -18,6 +18,8 @@ background : Station
 
 Above the game screen, the switch **{ui.topBar.storyView}** has two buttons: **{ui.topBar.visual}** (the game screen and the timeline) and **{ui.topBar.script}** (the scene as text). The same switch is in the Script view, so you can go back.
 
+![Script mode: the scene as text on the left, the moment under the cursor on the right.](/novelworks-docs/screenshots/script-mode.png)
+
 ## What the text shows
 
 The Script toolbar has a switch **{ui.scriptMode.scope}**:

@@ -5,6 +5,8 @@ description: Change how your game looks, screen by screen, with a live preview.
 
 The **{ui.topBar.gameUI}** mode changes how your game looks: its font and colors, the title screen, the dialogue box, the choice buttons, the menus and the small messages. Switch to it in the top bar, or with **Cmd+5** / **Ctrl+5**.
 
+![The Game UI mode: the list of screens, the live preview, and the settings of the dialogue box.](/novelworks-docs/screenshots/game-ui-dialogue.png)
+
 ## The three parts of the window
 
 - **Left: the list of screens.** Click one to work on it.

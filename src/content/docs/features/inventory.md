@@ -9,6 +9,8 @@ With the **{ui.shared.features.inventory}** feature on, players can collect **it
 
 The **{ui.leftPanel.items}** tab lists your items, each with its picture (or a backpack), its name and **{ui.itemInspector.single}** or **{ui.itemInspector.stackable}**. Click **{ui.itemsTab.newItem}**. A new item is named "Item 1", "Item 2"… and selected.
 
+![The Items tab, with the inspector of an item.](/novelworks-docs/screenshots/items-tab.png)
+
 In the inspector:
 
 - **{ui.itemInspector.name}**;

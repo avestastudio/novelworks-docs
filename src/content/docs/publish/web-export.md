@@ -17,6 +17,8 @@ In the **demo**, exporting is limited to games of 5 scenes or fewer: see [The fr
    - **{ui.exportDialog.testInBrowser}**, which plays the exported game from a local address in your default browser;
    - **{ui.exportDialog.done}**.
 
+![The window shown when the export is done.](/novelworks-docs/screenshots/export-done.png)
+
 If some pictures were not found in your project's assets folder, the window lists them ("N pictures were not found… and could not be included"). The export still succeeds.
 
 The window also tells you the **recommended game size** (the resolution of your project), and to check the game in desktop and mobile browsers.

@@ -9,6 +9,8 @@ A **{ui.moments.choice}** moment shows the player two to six buttons. Each optio
 
 In the timeline, add a **{ui.moments.choice}** moment. It starts with two empty options. You can write in the inspector, or directly on the game screen.
 
+![A choice with two options: what each one changes, and the scene it leads to.](/novelworks-docs/screenshots/choice-options.png)
+
 ## The question
 
 **{ui.branchInspectors.questionOptional}** is shown in the text box above the options, as narration with no speaker. Leave it empty if you do not need it.

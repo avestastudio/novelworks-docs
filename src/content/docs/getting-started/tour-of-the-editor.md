@@ -5,6 +5,8 @@ description: The areas of the NovelWorks window and what each control does.
 
 The editor has a **top bar** and, in {ui.topBar.story} mode, three more areas: the **left panel**, the center and the bottom, plus the **inspector** on the right.
 
+![The NovelWorks editor: scene list on the left, the game screen in the middle, the timeline and the chart of who is on stage at the bottom, and the inspector on the right.](/novelworks-docs/screenshots/editor-overview.png)
+
 ## The top bar
 
 From left to right:

@@ -9,6 +9,8 @@ An **{ui.moments.exploration}** moment has **no text box**: the player looks at 
 
 In the timeline, add an **{ui.moments.exploration}** moment. It starts empty and uses the background of the moment before it. Select it: the inspector shows **{ui.explorationInspectors.zones}** and **{ui.explorationInspectors.props}** with **+ Zone** and **+ Prop**.
 
+![An Exploration moment: the zones drawn on the picture, and the list of zones and props in the inspector.](/novelworks-docs/screenshots/exploration-editor.png)
+
 ## Draw zones
 
 Above the game screen, choose **{ui.explorationCanvas.drawZonesAs}**: **Rectangle** or **Shape**. (On a narrow window, they are in the **{ui.stage.more}** menu.)

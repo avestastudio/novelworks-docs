@@ -5,6 +5,8 @@ description: "The bar above the game when you play: variables and items, splash,
 
 When you play in the editor, a bar at the top holds the testing tools. Bar buttons never take the keyboard focus, so **Space** and **Enter** keep going to the game.
 
+![Play mode: the tool bar at the top, and the panel of variables and items on the right.](/novelworks-docs/screenshots/play-bar.png)
+
 | Tool | What it does |
 |---|---|
 | **{ui.playOverlay.playing}** and where you are | The scene and the moment, kept up to date. |

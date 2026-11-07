@@ -5,6 +5,8 @@ description: See every scene and how they connect, link scenes by dragging, and 
 
 The **{ui.topBar.storyMap}** shows every scene of your game as a card, and every choice, condition, jump and zone as an arrow between them. Open it from the top bar, or with **Cmd+6** / **Ctrl+6**.
 
+![The story map: every scene as a card, with arrows for choices, conditions and jumps. With no scene selected, the right panel lists the endings.](/novelworks-docs/screenshots/story-map.png)
+
 ## The scene cards
 
 Each card shows:

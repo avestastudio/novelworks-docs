@@ -36,6 +36,8 @@ Under the timeline, one row shows the **{ui.timeline.chartBackground}** and one 
 
 The chart shows up to 5 rows and scrolls beyond that (fewer on a small window).
 
+![Under the timeline cards, the chart shows one bar for each character, as long as they are on stage.](/novelworks-docs/screenshots/stage-chart.png)
+
 ### Small chips on each moment
 
 Under each moment card, small chips list what that moment changes: the background, a character who arrives, leaves, changes expression or is placed differently, or a change in the drawing order. At most four are shown, then "+N".

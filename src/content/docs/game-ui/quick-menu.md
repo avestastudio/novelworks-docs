@@ -5,6 +5,8 @@ description: "The reading controls shown over the story: position, look and whic
 
 The **{ui.quickMenu.title}** is a small bar of "reading controls over the story". Players can click its buttons instead of using keys.
 
+![The quick menu settings, with the preview of the bar at the top of the game.](/novelworks-docs/screenshots/game-ui-quick-menu.png)
+
 ## Show it, place it
 
 - **{ui.quickMenu.enabled}**: on by default. Turn it off to hide the whole bar.

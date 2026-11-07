@@ -13,6 +13,8 @@ Some parts of a visual novel are not needed by every game. NovelWorks lets you a
 
 The **{ui.featuresDialog.features}** window says: "Add ready-made parts to your game in one click. You can turn them off at any time: nothing you made is lost." It has one card per feature, with a switch and a description. Close it with **{ui.featuresDialog.done}**.
 
+![The Features window, with the Inventory and Map cards.](/novelworks-docs/screenshots/features-dialog.png)
+
 ## The two features
 
 | Feature | What it adds |

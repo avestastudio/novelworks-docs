@@ -16,6 +16,8 @@ After the last case comes *otherwise*: where the story goes when no case holds.
 
 A new If… has one case with one empty condition. With a single case it is shown plainly. With two or more, each case is a card titled "Case 1", "Case 2"…
 
+![The inspector of an If… moment, with a condition, "go to" and "otherwise".](/novelworks-docs/screenshots/if-conditions.png)
+
 - **{ui.conditionCases.addCase}** adds a case at the end.
 - The arrows on a card move the case up or down. Order matters, because the first case that holds wins.
 - A button on the card removes the case. An If… always keeps at least one.

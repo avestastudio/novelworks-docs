@@ -5,6 +5,8 @@ description: Search your whole game, jump to each result and replace text everyw
 
 Open the search with **Edit → {ui.native.menu.findAndReplace}** or **Cmd+F** / **Ctrl+F**. The search panel replaces the tabs of the left panel, and the cursor is in the first box. Close it with the X, or press **Esc** in one of its boxes. It works in the whole project, never in a single scene.
 
+![The search panel, with the results grouped by scene.](/novelworks-docs/screenshots/search-panel.png)
+
 ## What is searched
 
 - dialogue, choice questions and options, ending names and texts;

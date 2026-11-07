@@ -34,6 +34,8 @@ Go to **{ui.topBar.storyMap}** and click an empty spot so that **no scene is sel
 
 Click the ending's name to open it, or a line to open the moment that leads there.
 
+![The "Game endings" panel of the story map, with what leads to each ending.](/novelworks-docs/screenshots/endings-panel.png)
+
 If nothing leads to an ending (and it is not in the start scene), the card shows a warning: **"Nothing leads here yet: players can't reach this ending."**
 
 If your story has no ending yet, the panel says so, and suggests adding one at the end of a scene, for example one for each result of an If….
