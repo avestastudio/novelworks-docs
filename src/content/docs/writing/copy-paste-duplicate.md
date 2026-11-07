@@ -29,7 +29,7 @@ A pasted moment carries its own stage changes: if it was the moment where Mia ar
 
 Copy, cut and paste work only in the {ui.topBar.story} mode, **{ui.topBar.visual}** view. They do nothing in Script view, and when a text box has the focus (the box keeps its own copy and paste), when a window or menu is open, or when text is selected on the page. A picture, a variable, a zone or a prop cannot be copied.
 
-The right-click menus have no Copy or Paste entries: use the keys.
+The right-click menus have no Copy or Paste entries: use the keys, or the Cut, Copy and Paste items of the Edit menu.
 
 ### Between projects and windows
 

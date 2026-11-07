@@ -23,12 +23,12 @@ NovelWorks looks at **the whole project**, not at one path:
 
 - The Score starts at its start value.
 - For every **choice** moment, a player takes one option. NovelWorks adds the **best** option (the most it can add) to the highest value, and the **worst** option (the most it can remove) to the lowest value.
-- Every exploration zone that changes the Score counts **once**.
-- A **"set to"** change makes the range wide on purpose: the lowest value is the smallest value it can be set to, and the highest is the largest.
+- An exploration zone set to **{ui.explorationInspectors.onceOnly}** that changes the Score counts once. A zone set to **{ui.explorationInspectors.everyTime}** (the default) can be used again and again, so it leaves that side without limit: see "When nothing is said".
+- A **"set to"** change makes the range wide on purpose: the lowest value is the smaller of the start value and the values it can be set to, and the highest is the larger one. Additions that come later still count.
 
 ## When nothing is said
 
-If a part of your story can loop (a scene that leads back to itself, a map location the player can visit again, a zone that can be used again and again), the total can grow without limit on that side. NovelWorks then says nothing about that side, because it prefers to say nothing than something wrong. Only the line "Nothing changes … yet" is still shown when nothing changes the Score at all.
+If a part of your story can repeat (a scene that leads back to itself, a map location the player can visit again, or **any exploration zone that works "{ui.explorationInspectors.everyTime}", which is the default**), the total can grow without limit on that side. So a Score changed by a default zone gets no sentence at all: set the zone to "{ui.explorationInspectors.onceOnly}" if you want NovelWorks to count it. NovelWorks then says nothing about that side, because it prefers to say nothing than something wrong. Only the line "Nothing changes … yet" is still shown when nothing changes the Score at all.
 
 ## What it does not know
 

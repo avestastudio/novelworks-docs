@@ -14,7 +14,7 @@ Choose **File → {ui.native.menu.importScript}**. (There is no keyboard shortcu
    - if your text has `# Heading` lines, **{ui.scriptImport.importAsScenes}**: each heading becomes a scene of your game;
    - otherwise, **{ui.scriptImport.importInto}** the selected scene: the lines are added at the end of that scene.
 
-NovelWorks cleans the text first: curly quotes become straight quotes, and `•` or `·` at the start of a line becomes `-`. Then it switches to the Script view and adds your text **as if you had typed it**. It is applied after the usual half-second delay.
+NovelWorks cleans the text first: curly double quotes (“ ”) become straight quotes, and a `•` or `·` followed by a space at the start of a line becomes `-`. Then it switches to the Script view and adds your text **as if you had typed it**. It is applied after the usual half-second delay.
 
 ### What you get
 

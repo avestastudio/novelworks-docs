@@ -14,7 +14,7 @@ Each card shows:
 - its writing status (**{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** or **{ui.shared.outline.done}**) and its number of words, or "Empty". Point at the word count to see the number of moments;
 - a sticky-note badge with the number of moments that have a [note](/novelworks-docs/writing/notes/);
 - a warning badge with the number of problems. Point at it to read each one ("Moment 4: …");
-- tags: a flag with the name of each ending, **Unreachable** (nothing leads here from the start scene), "Game ends here" (nothing comes after this scene and it has no ending) and "Back to the map".
+- tags: a flag with the name of each ending, **Unreachable** (nothing leads here from the start scene; it is not shown when the project has only one scene), "Game ends here" (nothing comes after this scene and it has no ending) and "Back to the map".
 
 An unreachable card has a dashed border and is dimmed.
 
@@ -37,14 +37,14 @@ The **{ui.storyMap.arrows}** legend in the right panel recalls these.
 
 - **Scroll** or use two fingers to move the map. **Drag an empty spot**, hold **Space** and drag, or use the middle mouse button, to pan.
 - **Pinch**, or hold **Cmd** / **Ctrl** while scrolling, to zoom around the pointer. The buttons zoom out and in (x0.8 and x1.25), between 20 % and 200 %.
-- **{ui.storyMap.fit}** shows the whole story (**Shift+1**). **Shift+0** goes back to 100 %.
+- The **{ui.gameUIInspector.fit}** button (with the zoom percentage) shows the whole story (**Shift+1**). **Shift+0** goes back to 100 %.
 - **+** and **-** zoom in and out.
 
 The map remembers where you were while NovelWorks is open, and shows the whole story the first time.
 
 ## Place the scenes
 
-- **Drag a card** to move it. Its place is saved in the project. A card never lands on another one.
+- **Drag a card** to move it. Its place is saved in the project. You can drop a card on top of another one, so move it again if that happens. A **new** or **copied** scene always lands on a free spot.
 - Scenes you have not placed get an automatic place: columns by distance from the start scene, and unreachable scenes together below.
 - **{ui.storyMap.tidyUp}** forgets every place you chose and places all scenes automatically again, starting from the start scene. It is disabled when everything is already automatic.
 

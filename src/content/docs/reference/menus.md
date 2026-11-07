@@ -53,7 +53,7 @@ Minimize, Zoom and Bring All to Front on a Mac; Minimize and Close on Windows.
 | {ui.menu.documentation} | Opens this documentation in your browser. |
 | {ui.native.menu.replayTutorial} | Replays the [guided tour](/novelworks-docs/getting-started/guided-tour/). |
 | {ui.native.menu.keyboardShortcuts} (**Cmd+/**) | Shows the list of shortcuts. |
-| {ui.native.menu.activateNovelWorks} | Full version only. See [Install and activate](/novelworks-docs/getting-started/install-and-activate/). |
+| {ui.native.menu.activateNovelWorks} | In the itch.io full version only. See [Install and activate](/novelworks-docs/getting-started/install-and-activate/). |
 | {ui.native.menu.reportABug} | Opens the contact form. See [Report a bug](/novelworks-docs/reference/report-a-bug/). |
 | About Novelworks | Windows only: the About window. |
 

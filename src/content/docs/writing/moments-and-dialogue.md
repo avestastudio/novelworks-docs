@@ -46,7 +46,7 @@ Right-click a card:
 
 | Entry | What it does |
 |---|---|
-| {ui.contextMenus.insertBefore} | Adds a dialogue moment before this one. |
+| {ui.contextMenus.insertBefore} | Adds a dialogue moment before this one. It takes the speaker of the moment it is placed before, and shows the screen of the moment before it. |
 | {ui.contextMenus.insertAfter} | Adds one after (**Cmd+Enter** / **Ctrl+Enter**). |
 | {ui.contextMenus.duplicate} | Copies the moment right after itself, showing the same screen (**Cmd+D** / **Ctrl+D**). |
 | {ui.contextMenus.changeType} | Turns the moment into another kind. The text of a dialogue, choice or ending is kept; if some settings cannot be kept, NovelWorks asks and you can undo. |

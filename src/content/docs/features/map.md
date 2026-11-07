@@ -29,7 +29,7 @@ Click **{ui.mapMode.addLocation}** and drag on the map to draw a location. For a
 - **{ui.mapMode.appearanceAndVisits}**: a **{ui.mapMode.labelOnHover}**, a **{ui.mapMode.highlight}** (**{ui.mapMode.glow}**, **{ui.mapMode.outline}** or **{ui.mapMode.none}**) and **{ui.mapMode.visitOnlyOnce}** (a location visited once stays visible but cannot be used again).
 - **{ui.mapMode.duplicate}** and **{ui.mapMode.delete}**.
 
-A location is an exploration zone, so a location that keeps a custom interaction from an older project is edited like a zone (see [Exploration](/novelworks-docs/features/exploration/)). A "Check your map" box at the bottom of the settings lists problems.
+A location is an exploration zone, so a location that keeps a custom interaction from an older project is edited like a zone (see [Exploration](/novelworks-docs/features/exploration/)). The list on the left also has collapsible **Decorations** (props placed on the map) and **{ui.leftPanel.characters}** sections. A "Check your map" box at the bottom of the settings lists problems.
 
 ## When can players open the map?
 
@@ -61,5 +61,6 @@ The game goes to the location's scene. If **{ui.mapMode.returnToMapWhenFinished}
 - The Map feature is off: a "Show map" moment does nothing.
 - Create your map and add a background; the map moment was deleted or is no longer an exploration.
 - Players can never open the map: the game has no start scene, or the button is waiting for a "Show map" moment that cannot be reached.
+- Add a background image in Map.
 - A location goes to a scene but none is picked, or to a scene that was deleted.
 - Draw at least one zone for the player to click.

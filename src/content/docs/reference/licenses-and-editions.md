@@ -5,7 +5,7 @@ description: The editions of NovelWorks, what each can do, what your games inclu
 
 ## Your games are yours
 
-NovelWorks says it in its About window: "Make visual novels without code. Your games belong to you, with no royalties."
+The About window of NovelWorks says: "Make visual novels without code. Your games belong to you, with no royalties." The fonts included in your games keep their own open licenses (see below).
 
 ## Editions
 
@@ -13,7 +13,7 @@ NovelWorks says it in its About window: "Make visual novels without code. Your g
 |---|---|---|
 | The whole editor, Play mode, Script mode, Game UI | yes | yes |
 | Export for the web | up to 5 scenes, with a mark in the exported game | any size, no mark |
-| Needs a download key | no | yes, to export |
+| Needs a download key | no | yes, to export (itch.io full version) |
 
 See [The free demo](/novelworks-docs/getting-started/demo-edition/) and [Install and activate](/novelworks-docs/getting-started/install-and-activate/). Both editions read and write the same project format.
 

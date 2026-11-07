@@ -33,6 +33,8 @@ A single item can never be more than one, and a stackable item never goes below 
 
 In an [If…](/novelworks-docs/branching/conditions/), in the condition of an option or of a zone, choose **{ui.moments.item}** in **{ui.branchInspectors.whatToCheck}**: the player **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** or **{ui.conditionTests.hasAtLeast}** a number of that item. A test on a deleted item never passes.
 
+If you turn the Inventory feature off, players lose the button, the menu entry and the **I** key, but moments that give or check items keep running; the editor warns you. See [The features library](/novelworks-docs/features/features-panel/).
+
 ## What players see
 
 - A button in a corner of the screen (top right by default, and set in the [Inventory screen](/novelworks-docs/game-ui/inventory-ui/)), an entry in the pause menu, and the **I** key.

@@ -7,7 +7,7 @@ A **character** is a person in your story. Each character has a name, a name col
 
 ## Create a character
 
-Click **{ui.charactersTab.newCharacter}**. The character is named "Character 1", "Character 2"… and gets a name color from a set of eight. Select it to edit it in the inspector.
+Click **{ui.charactersTab.newCharacter}**. The character is named "Character N", where N is the number of characters you already have plus one (two characters can end up with the same name, so rename them) and gets a name color from a set of eight. Select it to edit it in the inspector.
 
 You can also create a character while importing pictures: see [Images](/novelworks-docs/writing/assets/).
 

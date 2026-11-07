@@ -20,7 +20,7 @@ An empty scene shows **{ui.stage.chooseBackground}** on the game screen.
 
 Click **{ui.stageControls.character}** above the game screen ("{ui.stageControls.putACharacterOnStage}"), or **{ui.momentInspector.add}** in the **{ui.momentInspector.onStage}** section of the inspector. The list shows your characters; those already on stage are disabled. If you have none, **{ui.stageControls.newCharacter}** creates one.
 
-The character goes on the first free place among center, left and right, at the bottom edge. The **{ui.stage.castTitle}** bar above the game screen also puts characters on and off stage with one click.
+The character goes on the first free place among center, left and right, at the bottom edge. If all three places are taken, the new character is placed near the middle, a little to the side of the others, and characters can overlap: drag them where you want. The **{ui.stage.castTitle}** bar above the game screen also puts characters on and off stage with one click.
 
 ## Select, move and resize
 

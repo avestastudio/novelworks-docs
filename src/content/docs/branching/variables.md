@@ -11,7 +11,7 @@ Things the player carries (keys, coins…) are not variables. They are **items**
 
 The **{ui.leftPanel.variables}** tab lists every variable with its kind and where it starts ("Score · starts at 0"). Click **{ui.variablesTab.newVariable}** to add one. In an empty project the tab explains what variables are.
 
-A new variable is called "Variable 1", "Variable 2"… (the first free number). It is a Score that starts at 0. Select it to edit it in the inspector.
+A new variable is called "Variable N", where N is the number of variables you already have plus one (or the next number if that name exists). It is a Score that starts at 0. Select it to edit it in the inspector.
 
 You can also create a variable at the moment you need it, with **{ui.memory.remember}** in a choice. See [Choices](/novelworks-docs/branching/choices/).
 

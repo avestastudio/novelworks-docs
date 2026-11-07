@@ -61,7 +61,7 @@ Notes:
 - The panel shortcuts switch to the Story mode, except Game UI (**Cmd+5**) and Story map (**Cmd+6**), which switch to those modes.
 - All shortcuts are ignored while you play, and while a window, a menu or a pop-up is open.
 - In the Map workspace, `Delete` and **Cmd+D** act on the selected location.
-- In the Script view, copy and paste of moments do not apply: the text editor keeps its own.
+- In the Script view, copy and paste of moments do not apply: the text editor keeps its own. There, **Cmd+Enter** / **Ctrl+Enter** is "Play from the cursor" and **Cmd+.** / **Ctrl+.** creates everything that is missing.
 
 ## In a game
 

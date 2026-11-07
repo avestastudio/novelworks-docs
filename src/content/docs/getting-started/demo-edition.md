@@ -14,7 +14,7 @@ If your project has more, **{ui.native.menu.exportForWeb}** (in the File menu) o
 - **{ui.demoExportDialog.getTheFullVersion}** opens the NovelWorks page where you can get the full version.
 - **{ui.demoExportDialog.notNow}** closes the window.
 
-Nothing else is limited: scenes, moments, characters and pictures are unlimited while you edit and play. Delete or merge scenes, or get the full version, to export a longer game.
+Nothing else is limited: scenes, moments, characters and pictures are unlimited while you edit and play. Delete scenes, or get the full version, to export a longer game.
 
 ## What an exported demo game shows
 

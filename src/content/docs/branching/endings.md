@@ -40,7 +40,7 @@ If your story has no ending yet, the panel says so, and suggests adding one at t
 
 Good to know:
 
-- Only exits count: a scene that simply continues into the next one does not.
+- Only exits count: a scene that simply continues into the next one does not, and a scene that loops back to itself is not listed as leading to its own ending. Map locations that lead to the scene count as exits (shown as "Map · …").
 - The warning only checks that something leads to the ending. An ending in a scene that is itself unreachable can show no warning if another unreachable scene leads to it. Look for the "Unreachable" tags on the [story map](/novelworks-docs/branching/story-map/) too.
 - The filter **{ui.storyMap.endingsFilter}** at the top of the map fades the scenes that contain no ending.
 - Each ending also appears as a small flag with its name on its scene's card.

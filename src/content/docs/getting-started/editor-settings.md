@@ -17,9 +17,11 @@ All of them are in the **{ui.menu.view}** and **{ui.native.menu.edit}** menus.
 
 **{ui.menu.view} → {ui.native.menu.language}**: **{ui.native.menu.languageAuto}** or one of the seven languages, each written in its own name. The menus and the editor change right away in every open window. This setting is only about the editor. It does not change your story or your game's language.
 
-### Spelling language
+### Spelling language (saved in the project)
 
-**{ui.native.menu.edit} → {ui.native.spelling.spellingLanguage}**. On Windows, the default is your computer's languages plus English, and you can pick another language. On a Mac, macOS detects the language of your text by itself, so the menu only says so. The choice is saved **in the project**, and you can undo it.
+This one is the exception: it is not shared by all your projects, because the choice is saved **in the project** (and you can undo it).
+
+**{ui.native.menu.edit} → {ui.native.spelling.spellingLanguage}**. On Windows, the default is your computer's languages plus English, and you can pick another language. On a Mac, macOS detects the language of your text by itself, so the menu only says so. 
 
 ### Full screen
 

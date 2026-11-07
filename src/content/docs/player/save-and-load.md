@@ -10,8 +10,8 @@ This page describes what **players** experience. For the look of the screens, se
 Saves are kept **in the player's browser** (its local storage), for your game only. Each project has a game identifier created with it that never changes. It is part of every save's name, so:
 
 - two different games never share saves, even on the same web site;
-- if you export the same game again, or update it, **players keep their saves**;
-- saves belong to one browser on one computer: they do not follow the player to another browser or device.
+- if you export the same game again, or update it, **players keep their saves**, as long as the game stays at the **same web address**;
+- saves belong to one browser, at one web address, on one computer: they do not follow the player to another browser or device, or to a new address (a new host or domain).
 
 Saves made while you test in the editor are separate (see [Play mode tools](/novelworks-docs/testing/test-saves-and-read-lines/)).
 
@@ -24,13 +24,13 @@ Saves made while you test in the editor are separate (see [Play mode tools](/nov
 
 ## Quick save and quick load
 
-- **F5** quick-saves while playing ("Quick saved"). The browser's own "reload" is blocked while the game is playing.
+- **F5** quick-saves while playing ("Quick saved"): it does not reload the page.
 - **F9** quick-loads, even from the title screen. If there is no quick save, the game says "No quick save yet. Press F5 to make one." Loading while playing asks "Load this save? Unsaved progress will be lost."
 - The same actions are buttons of the pause menu and, if you show them, of the quick menu.
 
 ## Autosave
 
-The game autosaves each time the player **enters a different scene**, when a new game starts, and when a game is loaded. It does not autosave inside a scene. A failed autosave is silent.
+The game autosaves each time the player **enters a different scene**, when a new game starts, and when a game is loaded from the title screen or into another scene. It does not autosave inside a scene. A failed autosave is silent.
 
 ## Continue
 

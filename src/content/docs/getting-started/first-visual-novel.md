@@ -16,13 +16,13 @@ The project opens with one scene, "Scene 1", and one empty line of dialogue.
 
 1. In the left panel, open the **{ui.leftPanel.assets}** tab.
 2. Click **{ui.assetsTab.import}**, or drop your pictures onto the window.
-3. For each picture, choose its type: a background, a character expression… Pick the right one.
+3. For each picture, choose its type. Choose **{ui.assetTypes.background}** for the picture of the place, and **{ui.assetTypes.characterSprite}** for the two pictures of your character.
 
 ## 3. Create a character
 
 1. Open the **{ui.leftPanel.characters}** tab and click **{ui.charactersTab.newCharacter}**.
 2. In the inspector, type the **{ui.characterInspector.characterName}** and choose a **{ui.characterInspector.nameColor}**.
-3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** for each picture, give it a name ("Happy", "Surprised") and choose its image. The expression with the star is the one shown by default.
+3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** for each picture (only pictures of type "Character sprite" are offered), give it a name ("Happy", "Surprised") and choose its image. The expression with the star is the one shown by default.
 
 ## 4. Write the first scene
 
@@ -42,11 +42,11 @@ You can already make a choice matter: see [How a story branches](/novelworks-doc
 
 ## 6. Add an ending
 
-At the end of each branch, add an **{ui.moments.ending}** moment and give it a name such as "Good ending". After an ending, the player goes back to the title screen.
+At the end of each branch, add an **{ui.moments.ending}** moment. It is called "Good ending" at first: change the name if you like. After an ending, the player goes back to the title screen.
 
 ## 7. Press Play
 
-Click **{ui.topBar.play}** in the top bar to play from the title screen. To test from the middle, select a moment and click **{ui.topBar.playFromHere}**. Press **Esc** to go back to the editor.
+Click **{ui.topBar.play}** in the top bar to play from the title screen. To test from the middle, select a moment and click **{ui.topBar.playFromHere}**. Press **Esc** to go back to the editor (if a game menu is open, **Esc** closes it first).
 
 ## 8. Save
 

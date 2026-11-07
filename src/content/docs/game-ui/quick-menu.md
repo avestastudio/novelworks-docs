@@ -38,4 +38,4 @@ Nine buttons, each with a switch. Their **order is fixed**: you can show or hide
 
 ## When the bar shows
 
-The bar is hidden on the title screen and the end screen, while a menu, History, Options, Save or Load is open, and when every button is hidden. The four save buttons are hidden when saving is not available. Auto and Skip show whether they are on.
+The bar is hidden on the title screen and the end screen, while a menu, History, Options, Save or Load is open, and when every button is hidden. **{rt.game.quickLoad}** is greyed out until a quick save exists. Auto and Skip show whether they are on.

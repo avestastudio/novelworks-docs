@@ -21,7 +21,7 @@ Shortcuts are ignored while **Ctrl**, **Cmd** or **Alt** is held (except holding
 | **I** | Opens or closes the inventory (with the Inventory feature). |
 | **M** | Opens the map (when the Map button is shown). |
 | **Tab** | Moves between buttons and exploration zones. It stays inside Save, History, Options and the content warning while they are open. |
-| Arrows, **Home**, **End**, **Page Up**, **Page Down** | Scroll the History, move between save slots, and move within Options. They do not move the story. |
+| Arrows, **Home**, **End**, **Page Up**, **Page Down** | In the History: scroll. In Save and Load: arrows, **Home** and **End** move between slots. In Options: the arrows change the value. They do not move the story. |
 | `Delete` / `Backspace` on a slot | Asks to delete the save. |
 
 There is no fullscreen key in the game: the browser's own (**F11**) works, or the fullscreen button of the page.

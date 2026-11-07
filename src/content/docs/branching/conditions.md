@@ -59,8 +59,12 @@ Under each case: the scene to go to. A case needs a scene (the editor warns when
 - Cases are tried top to bottom. The first one that holds wins.
 - If none holds, the game goes to *otherwise*, or continues if there is none.
 - A winning case with no scene, or a deleted one, continues with the next moment.
-- **If a case checks a variable or an item that was deleted or never picked, the game does not guess:** it skips the whole If… and continues with the next moment, without looking at the other cases or at *otherwise*. The editor warns you about it, so fix the warning.
+- **If the game reaches a case that checks a variable or an item that was deleted or never picked, it does not guess:** it skips the whole If… and continues with the next moment, without looking at the cases below or at *otherwise*. (A case above it that holds still wins first.) In a case where only one of several conditions is needed (**{ui.conditionCases.matchAny}**), one missing thing breaks the whole case. The editor warns you about it, so fix the warning.
 - Scores are compared with their current value, or their start value if the player has not changed them yet.
+
+## Loops
+
+If Ifs and jumps only lead back to each other (scene A goes to B, and B goes straight back to A), the game cannot go on. After 1000 automatic steps in a row it stops and shows the end screen, and the editor does not warn you. Make sure every loop contains something the player does, such as a line of dialogue or a choice.
 
 ## Try it
 

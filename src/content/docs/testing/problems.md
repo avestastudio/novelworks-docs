@@ -67,8 +67,10 @@ Remember that an If… with a broken condition is skipped by the game. See [If�
 | Warning | What to do |
 |---|---|
 | Draw at least one zone for the player to click. | Draw a zone. |
-| "Zone" goes to a scene, but none is picked. / goes to a scene that was deleted. | Pick a scene. |
-| "Zone" has nothing to say. | Type the line it shows. |
+| "Zone" goes to a scene, but none is picked. / goes to a scene that was deleted. (Also "… goes to a scene when the item is used, but none is picked.") | Pick a scene. |
+| "Zone" has nothing to say when examined. / … when the item is used. | Type the line it shows. |
+| "Zone" checks a variable or an item, but none is picked. / … that was deleted. / … but the Inventory feature is off. (its condition) | Fix the condition. |
+| "Zone" uses an item, but none is picked. / … that was deleted. / … but the Inventory feature is off. | Fix the item. |
 | "Zone" is examined by a character who was deleted. | Pick another speaker. |
 | "Zone" changes a variable, but none is picked. / … that was deleted. | Pick a variable. |
 | "Zone" needs an item that players can never get. | Give the item somewhere (an Item moment, a choice, or a pick-up zone). |
@@ -80,9 +82,8 @@ Remember that an If… with a broken condition is skipped by the game. See [If�
 
 | Warning | What to do |
 |---|---|
-| The Map feature is off: this moment does nothing. Turn it on in Features. | A "Show map" moment while the Map feature is off. |
-| Create your map in Map and add a background. | Create the map. |
-| The map moment was deleted. Pick another exploration moment. / The map moment is no longer an exploration. Pick another one. | Fix the map. |
+| The Map feature is off: this moment does nothing. Turn it on in Features. | Turn Map on in Features (this is the warning of a "Show map" moment). |
+| Create your map in Map and add a background. / The map moment was deleted. Pick another exploration moment. / The map moment is no longer an exploration. Pick another one. | Create or fix the map. On a "Show map" moment, these end with "Until then, this moment does nothing." |
 | Add a background image in Map. | Choose a background. |
 | Players can never open the map: the game has no start scene. | Set a start scene. |
 | Players can never open the map: the Map button is off / waiting for a "Show map" moment, and no "Show map" moment can be reached. Add one, or make the map available always. | Add a "Show map" moment, or change the map's availability. |
@@ -93,7 +94,7 @@ Remember that an If… with a broken condition is skipped by the game. See [If�
 |---|---|
 | The game has no scenes yet: players will only see the title screen. | Add a scene. |
 | No start scene is set: New Game will go straight to the end. | Set a start scene with the star. |
-| Players can never reach this scene: no choice, condition, jump or zone leads to it. | Link it, or delete it. |
+| Players can never reach this scene: no choice, condition, jump or zone leads to it. (Only when the game has more than one scene.) | Link it, or delete it. |
 | This scene has no moments. | Add a moment. |
 | Players never see these moments: an ending, a jump or an exploration with no Continue zone comes before them in this scene. | Move or delete them. |
 

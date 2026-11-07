@@ -14,7 +14,7 @@ Items the player carries (keys, letters, coins…) are a separate, optional part
 
 ## The Variables tab
 
-The **{ui.leftPanel.variables}** tab lists your variables, each with its kind and where it starts ("Score · starts at 0"). Click **{ui.variablesTab.newVariable}** to add a Score named "Variable 1", then rename it and set where it starts in the inspector (**{ui.variableInspector.startsAt}**). You can change the **{ui.variableInspector.type}**: if the variable is already used, NovelWorks asks for confirmation and resets the values.
+The **{ui.leftPanel.variables}** tab lists your variables, each with its kind and where it starts ("Score · starts at 0"). Click **{ui.variablesTab.newVariable}** to add a Score named "Variable N" (N counts your variables), then rename it and set where it starts in the inspector (**{ui.variableInspector.startsAt}**). You can change the **{ui.variableInspector.type}**: if the variable is already used, NovelWorks asks for confirmation and resets the values.
 
 If you delete a variable that is used somewhere, NovelWorks warns you. The places that used it stay, and show a warning.
 
@@ -40,6 +40,6 @@ Under a Score test, NovelWorks tells you what is possible, so you do not have to
 - "In total, your choices can bring Affection from 0 to 5."
 - "Nothing changes Affection yet: it stays at 0."
 
-When you type a number to compare with, it tells you "This can happen" or warns "This can never be true: Affection stays between 0 and 5". Nothing is shown when the story has a loop, because the total has no limit.
+When you type a number to compare with, it tells you "This can happen" or warns "This can never be true: Affection stays between 0 and 5". Nothing is said when NovelWorks cannot tell how high or low a Score can go (for example when a scene loops, or a zone works every time), because the total has no limit.
 
 Try an **{ui.moments.condition}** with the **{ui.memory.tryTitle}** box: pick a value to pretend, and it shows which case holds and where the story would go, without playing.

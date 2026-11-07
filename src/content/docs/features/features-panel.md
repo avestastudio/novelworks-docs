@@ -18,15 +18,17 @@ The **{ui.featuresDialog.features}** window says: "Add ready-made parts to your 
 | Feature | What it adds |
 |---|---|
 | **{ui.shared.features.inventory}** | Players collect items (keys, letters, coins, clues) and see them in an Inventory menu. An **{ui.leftPanel.items}** tab appears on the left, and moments, choices, conditions and zones can give, check and use items. See [Inventory](/novelworks-docs/features/inventory/). |
-| **{ui.shared.features.map}** | Players open a map and pick where to go. A **{ui.gameUIInspector.map}** button appears on the left, where you draw locations and link them to scenes, and a "Show map" moment opens it during the story. See [Map](/novelworks-docs/features/map/). |
+| **{ui.shared.features.map}** | Players open a map and pick where to go. A **{ui.leftPanel.map}** button appears on the left, where you draw locations and link them to scenes, and a "Show map" moment opens it during the story. See [Map](/novelworks-docs/features/map/). |
 
 When a feature is on, its card shows **{ui.featuresDialog.openItems}** (Inventory) or the map settings with **{ui.mapSettings.editMap}** (Map). When it is off, the card says "Off".
 
 ## What turning a feature off does
 
 - Nothing you made is deleted: the items, the map settings and every moment that uses them are kept. Turning the feature back on brings everything back.
-- The tab, the buttons and the moment types of the feature disappear from the editor, and the game shows no inventory or map button.
-- Moments that use the feature stay, do nothing in the game, and show a **warning** until you turn it back on.
+- The tab, the buttons and the moment types of the feature disappear from the editor.
+- **Map off**: the game has no Map button, and a "Show map" moment does nothing.
+- **Inventory off**: the game has no Inventory button, pause-menu entry or **I** key. Moments, choices and zones that give or check items **still run** in the game (and the editor warns you), so turn the feature back on if you use items.
+- Moments that use the feature stay, and show a **warning** until you turn it back on.
 - If your story uses items, NovelWorks asks first (**{ui.features.turnTheInventoryOff}**) and lists what will stop working. The same for the map when you have "Show map" moments (**{ui.features.turnTheMapOff}**).
 - If you were in the Map workspace, you go back to the Story mode. If you were on the Items tab, you go to the Variables tab.
 

@@ -7,7 +7,7 @@ description: Quick answers to the questions people ask most.
 
 **Do I need to know how to code?** No. NovelWorks is built for people who don't: you build the game the way it looks, and press Play.
 
-**Who owns my games?** You do, completely. There are no royalties.
+**Who owns my games?** You do: "Your games belong to you, with no royalties," says the About window. The free fonts included in your games keep their own open licenses.
 
 **Which languages does the editor speak?** English, French, Spanish, Brazilian Portuguese, Simplified Chinese, Russian and Japanese. Change it in **View → Language**. Your story stays in the language you write it in.
 

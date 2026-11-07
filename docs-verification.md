@@ -177,3 +177,22 @@ Les pages de documentation ne citent aucun de ces textes ; elles restent vraies 
 - L'import d'un script dit « One undo step » mais il en faut deux.
 - Coller un moment dans un autre projet laisse des références mortes sans avertissement (orateur → Narrateur, personnage absent « Unnamed » dans le tableau).
 - Un titre `#` d'import qui reprend le nom d'une scène crée un doublon silencieux.
+
+## Relecture indépendante (4 relecteurs, regard neuf, 2026-11-07)
+Quatre agents qui n'avaient pas vu l'écriture ont relu les 73 pages contre le code (un pour Premiers pas/Idées/Écrire, un pour Embranchements/Fonctions, un pour Game UI, un pour Joueur/Test/Export/Référence). Environ 60 constats ; **tous traités sauf ceux listés plus bas**. Erreurs de fond corrigées :
+- Inventory désactivé : j'avais écrit que les moments d'objets « ne font rien » ; faux, ils **continuent de tourner** (seuls le bouton, l'entrée du menu pause et la touche I disparaissent).
+- « Jusqu'à +5 » : une zone d'exploration réglée sur « Every time » (le réglage par défaut) **rend muette** la phrase pour ce Score ; seules les zones « Once only » comptent une fois.
+- « Si… » cassé : une case au-dessus qui est vraie gagne encore ; en « au moins un », un seul élément manquant casse la case.
+- Boucles : le jeu s'arrête après 1000 étapes automatiques (écran de fin) sans avertissement de l'éditeur (jumps/Si qui se renvoient la balle).
+- Carte : on peut déposer une carte sur une autre en la glissant ; les zones « Continuer » ne font pas de flèche.
+- Menu pause : « Quick load » seulement si une sauvegarde rapide existe ; le bouton Carte seulement si la carte est ouvrable ; dans le menu rapide « Quick load » est grisé (pas caché) ; les boutons de sauvegarde ne sont **pas** cachés quand le navigateur refuse (corrigé).
+- Polices : seul Typewriter n'a ni cyrillique ni vietnamien.
+- Noms automatiques : « Scene N », « Variable N », « Character N » = nombre existant + 1 (pas « premier numéro libre »).
+- Auto : le plancher de 1,5 s s'applique avant le coefficient de vitesse (0,9 s à 15 s selon le réglage).
+- Sauvegardes des joueurs : conservées **à la même adresse web** seulement.
+- Export : `project.js` est lisible par tout joueur ; un titre sans lettres latines devient `Game-web` ; fenêtre « Show in Finder » même sous Windows ; erreur « The demo exports games of up to N scenes… ».
+- Fenêtre d'export : « Test in browser », « Done » ; lien d'erreurs corrigé ; liste des avertissements complétée.
+**Non traités / décisions à prendre** :
+- Le libellé d'export : le code dit « Export for browser… » (docs-plan) ; sur demo-build, la **version complète** garde « Export for Web (itch.io)… » et seule la **démo** dit « Export for Web… ». Les pages disent « Export for Web… » comme demandé : à trancher (voir la liste finale).
+- L'édition Steam existe dans le code (sans clé, exporte toujours) : volontairement non documentée (pas de Steam sans demande).
+- Page « démo » : décrit demo-build (non fusionnée) comme demandé.

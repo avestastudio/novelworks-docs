@@ -49,8 +49,6 @@ Right-click a zone for **{ui.contextMenus.duplicateZone}** and **{ui.contextMenu
 - **{ui.explorationInspectors.forward}** and **{ui.explorationInspectors.backward}** change which prop is in front. **{ui.explorationInspectors.removeProp}** deletes it.
 - Props are drawn behind the characters and above the background.
 
-If the prop's zone is a second click: to select a prop that sits under a zone, click the zone, then click again.
-
 ## How players see it
 
 - Zones are **invisible** until the pointer is over them (or they are focused, or tapped once on a touch screen). Then the highlight shows, and the label appears in a small tag.
@@ -65,13 +63,16 @@ If the prop's zone is a second click: to select a prop that sits under a zone, c
 
 - Draw at least one zone for the player to click.
 - **Players can get stuck here**: no zone they can click leads to another scene or continues the story.
-- A zone goes to a scene but none is picked, or to a deleted scene; has nothing to say; is examined by a deleted character; changes a variable that is not picked or deleted.
+- A zone goes to a scene but none is picked, or to a deleted scene; has nothing to say (when examined, or when an item is used); is examined by a deleted character; changes a variable that is not picked or was deleted.
+- A zone's condition checks a variable or an item that is not picked, was deleted, or whose Inventory feature is off.
+- A pick-up or use-item zone uses an item that is not picked, was deleted, or whose Inventory feature is off.
 - A zone needs an item that players can never get, or can never be used because its condition is never true.
 - A prop has no picture, or is linked to a deleted zone.
 - Moments placed after an exploration with no Continue zone can never be reached.
+- On the map, "Add a background image in Map." and "Players can never open the map…" (see [Map](/novelworks-docs/features/map/)).
 
 ## Elsewhere
 
-- On the [story map](/novelworks-docs/branching/story-map/), zones that go to a scene or continue are arrows labeled with the zone's name.
+- On the [story map](/novelworks-docs/branching/story-map/), zones that go to a scene (including the result of "Use an item") are arrows labeled with the zone's name. A zone that only continues stays inside the scene: no arrow.
 - In [Script mode](/novelworks-docs/writing/script-mode-lines/), an exploration is a single line `exploration : 3 zones`. Zones and props are edited only in the Visual view, and are kept when you edit the text.
 - The [Map](/novelworks-docs/features/map/) uses the same zones, as locations.

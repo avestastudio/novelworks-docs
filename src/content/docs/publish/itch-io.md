@@ -19,7 +19,7 @@ These steps describe itch.io's own web site, not NovelWorks, and itch.io may cha
 
 ## Good to know
 
-- Players' saves live in their browser, for itch.io's address of your game. Updating the upload keeps them, as long as it is the same game (the same project).
+- Players' saves live in their browser, for the web address of your game. If the address stays the same when you update, they are kept (this depends on itch.io, which this documentation cannot promise).
 - Do not upload only `index.html`: every file of the export is needed.
 - Your game plays inside a frame. If you give the page a larger size than the recommended game size, the game is scaled to fit, with black bars.
 - NovelWorks games always start with the short "Made with NovelWorks" screen.

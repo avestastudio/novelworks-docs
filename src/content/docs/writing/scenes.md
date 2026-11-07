@@ -7,7 +7,7 @@ A scene is a chapter of your story: a series of [moments](/novelworks-docs/writi
 
 ## Create a scene
 
-Click **{ui.scenesTab.newScene}**. The scene is named "Scene 1", "Scene 2"… (the first number not used yet), contains one empty line of dialogue, and is selected. If your project had no start scene, the new scene becomes the start scene.
+Click **{ui.scenesTab.newScene}**. The scene is named "Scene N", where N is the number of scenes you already have plus one (or the next number if that name exists), contains one empty line of dialogue, and is selected. If your project had no start scene, the new scene becomes the start scene.
 
 ## Rename a scene
 

@@ -13,7 +13,7 @@ You can play your game at any time, inside the editor. It plays **what is in the
 | **{ui.topBar.playFromHere}** (top bar, **Cmd+Shift+P** / **Ctrl+Shift+P**) | The selected moment, without the title screen. It is disabled until a moment is selected. |
 | **{ui.contextMenus.playFromHere}** in the right-click menu of a moment or a scene | That moment, or the first moment of that scene. |
 | **{ui.scriptMode.playFromCursor}** in [Script mode](/novelworks-docs/writing/script-mode/) (**Cmd+Enter** / **Ctrl+Enter**) | The line under the cursor. |
-| **{ui.topBar.testMap}** in the Map workspace (and in the map settings) | The map. See [Map](/novelworks-docs/features/map/). |
+| **{ui.topBar.testMap}** in the Map workspace (and in the map settings) | The map. In the Map workspace, the **{ui.topBar.playFromHere}** button and **Cmd+Shift+P** / **Ctrl+Shift+P** become "Test map". See [Map](/novelworks-docs/features/map/). |
 
 Each play starts with fresh starting values for your variables and items: nothing is carried over from a previous test.
 
@@ -27,7 +27,7 @@ You play like a player: click or press **Space** / **Enter** to advance, **1** t
 
 ## Stop
 
-- Click **{ui.playOverlay.stop}**, or press **Esc**. If a game menu is open (the pause menu, Save, Load, History or Options), **Esc** closes that first.
+- Click **{ui.playOverlay.stop}**, or press **Esc**. If the pause menu, Save, Load, History, Options, the intro or the content warning is open, **Esc** closes that first. **Esc** does not close the inventory in Play mode: press **I** for that.
 - When you stop, the editor selects the scene and the moment where you were.
 
 ## What this does not test
