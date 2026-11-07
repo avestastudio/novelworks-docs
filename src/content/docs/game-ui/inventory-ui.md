@@ -13,9 +13,11 @@ The **{ui.gameUI.inventory}** screen is the button players use to open their ite
 
 The button is hidden on the title screen, the end screen and while paused.
 
-## The panel
+## Panel and button colors
 
-- **{ui.gameUIInspector.panelColor}**: "Same as the dialogue box" by default.
+These two colors paint **both the panel and the button**:
+
+- **{ui.gameUIInspector.panelColor}**: "Same as the dialogue box" by default (with "Text" button style, the button has no background).
 - **{ui.gameUIInspector.textColor}**: "Same as the text color" by default.
 
 ## What players get

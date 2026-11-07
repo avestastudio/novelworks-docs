@@ -22,7 +22,7 @@ description: The font, text color, primary color and button style every screen u
 
 ### Languages and fonts
 
-The four fonts cover Latin letters with accents, and Cyrillic and Vietnamese. Only **{ui.gameUIInspector.fontClean}** also covers Greek, and **{ui.gameUIInspector.fontTypewriter}** covers Latin letters only. For characters a font does not have, such as Chinese and Japanese, the game uses the player's system fonts (and, when the game language is Japanese, Japanese system fonts first).
+**{ui.gameUIInspector.fontClean}**, **{ui.gameUIInspector.fontClassic}** and **{ui.gameUIInspector.fontRounded}** cover Latin letters with accents, Cyrillic and Vietnamese. Only **{ui.gameUIInspector.fontClean}** also covers Greek. **{ui.gameUIInspector.fontTypewriter}** covers Latin letters (with accents) only. For characters a font does not have, such as Chinese and Japanese, the game uses the player's system fonts (and, when the game language is Japanese, Japanese system fonts first).
 
 You cannot import your own font yet.
 
@@ -41,4 +41,4 @@ The preview of this page shows the dialogue box over your first background. Use 
 
 ## Reset
 
-**Reset to default** on this page only resets the fonts and colors. The other screens keep their settings.
+**{ui.gameUIInspector.resetToDefault}** on this page only resets the fonts and colors. The other screens keep their settings.

@@ -15,12 +15,12 @@ The **{ui.gameUI.pauseMenu}** is "opened with a right-click or Esc". On a touch 
 
 They cannot be edited here, and they follow the game language:
 
-- **Resume**;
-- **{rt.game.save}**, **{rt.game.load}**, **{rt.game.quickSave}** (F5) and **{rt.game.quickLoad}** (F9): only when saving is available;
-- the **{rt.theme.inventory}** button, when the Inventory feature is on (its label is set on the [Inventory screen](/novelworks-docs/game-ui/inventory-ui/));
+- **{rt.game.resume}**;
+- **{rt.game.save}**, **{rt.game.load}**, **{rt.game.quickSave}** (F5) and **{rt.game.quickLoad}** (F9): only when saving is available. **{rt.game.quickLoad}** also waits until a quick save exists;
+- the Inventory button (labeled "{rt.theme.inventory}" unless you changed it on the [Inventory screen](/novelworks-docs/game-ui/inventory-ui/)), when the Inventory feature is on;
 - **{rt.game.history}** (H);
 - **{rt.game.options}**;
-- the **{rt.theme.map}** button, when the Map feature is on (its label is set on the [Map button screen](/novelworks-docs/game-ui/map-button/));
-- **Back to title**.
+- the Map button (labeled "{rt.theme.map}" unless you changed it on the [Map button screen](/novelworks-docs/game-ui/map-button/)), when the map can be opened at that moment (always, or after the story has first shown it);
+- **{rt.game.backToTitle}**.
 
 The title of the panel is "Paused".

@@ -1,5 +1,5 @@
 ---
-title: Notifications
+title: Notices (notifications)
 description: "The short messages like \"You got: Key\", and how long they stay."
 ---
 

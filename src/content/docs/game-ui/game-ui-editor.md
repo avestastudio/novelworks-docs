@@ -9,7 +9,7 @@ The **{ui.topBar.gameUI}** mode changes how your game looks: its font and colors
 
 - **Left: the list of screens.** Click one to work on it.
 - **Center: the preview.** It is the real game, drawn with your settings, on a small sample (your first background and your first character, or a sample character). It is not interactive: press **{ui.topBar.play}** to try the game with these settings. A line under it says so.
-- **Right: the settings of the screen.** Every screen ends with a **Reset to default** button.
+- **Right: the settings of the screen.** Every screen ends with a **{ui.gameUIInspector.resetToDefault}** button.
 
 ## The screens
 
@@ -37,11 +37,11 @@ For Fonts and colors, the Dialogue box, Choices and the Pause menu, the button *
 
 ## Settings that work the same everywhere
 
-- **Colors.** A swatch opens a color picker, and a box takes a code (`#rgb` or `#rrggbb`). When a color is "Same as …" (for example "Same as the text color"), nothing is stored: it follows the other color. Once you choose a color, a small arrow next to it goes back to "Same as …".
+- **Colors.** A swatch opens a color picker, and a box takes a code (`#rgb` or `#rrggbb`). When a color is "Same as …" (for example "Same as the text color"), nothing is stored: it follows the other color. Once you choose a color, a small circular arrow next to it goes back to "Same as …".
 - **Button style.** A drop-down with **{ui.gameUIInspector.sameAsFontsColors}**, **{ui.gameUIInspector.pill}**, **{ui.gameUIInspector.rounded}**, **{ui.gameUIInspector.square}** and **{ui.gameUIInspector.text}** (no box, just the words). "Same as Fonts & colors" follows the global style.
 - **Sliders** show their value with its unit, usually %. Percentages are relative to the screen, so your design holds at any size.
-- **Pictures.** A picture field shows a thumbnail with **{ui.gameUIInspector.choose_c7f937}** or **{ui.gameUIInspector.change}**, and an X to remove it. You can pick any of your images (backgrounds, CGs, UI, sprites, avatars, props) or import a new one on the spot. If a picture is deleted, the game falls back to the plain color or text.
-- **Reset to default.** The button at the bottom of a screen asks you to confirm, then puts **that screen only** back to how a new game looks. The other screens are not changed.
+- **Pictures.** A picture field shows a thumbnail with **{ui.gameUIInspector.choose_c7f937}** or **{ui.gameUIInspector.change}**, and an X to remove it. You can usually pick any of your images, or import a new one on the spot. (The title screen's background only offers backgrounds, CGs and UI pictures.) If a picture is deleted, the game falls back to the plain color or text.
+- **{ui.gameUIInspector.resetToDefault}.** The button at the bottom of a screen asks you to confirm, then puts **that screen only** back to how a new game looks. The other screens are not changed.
 
 ## Undo
 

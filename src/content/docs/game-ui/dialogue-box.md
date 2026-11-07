@@ -3,7 +3,7 @@ title: Dialogue box
 description: "Where names and lines appear: position, size, background, text and avatar."
 ---
 
-The **{ui.gameUI.dialogueBox}** is the box that shows the speaker's name and the text. Its size and place are in percentages of the screen, so it keeps its look at any resolution.
+The **{ui.gameUI.dialogueBox}** is the box that shows the speaker's name and the text. Its size and place are in percentages of the screen (mostly of its height), so it keeps its look at any resolution.
 
 ## Position and size
 
@@ -15,7 +15,7 @@ The **{ui.gameUI.dialogueBox}** is the box that shows the speaker's name and the
 
 Choose **{ui.gameUIInspector.color}** or **{ui.gameUIInspector.image}**.
 
-- **{ui.gameUIInspector.color}**: a color and an **{ui.gameUIInspector.opacity}** (0 to 100 %, default 80). This color is also the default color of the choice buttons, the pause menu and other panels ("Same as the dialogue box").
+- **{ui.gameUIInspector.color}**: a color and an **{ui.gameUIInspector.opacity}** (0 to 100 %, default 80). This color is also the default color of the choice buttons, the pause menu and other panels ("Same as the dialogue box"), and of the name tab. That stays true when the box itself uses a picture: the color and opacity then no longer show on the box, but they still color those buttons and panels.
 - **{ui.gameUIInspector.image}**: any picture. Transparent parts stay transparent, so you can use bubbles, scrolls or any shape. Choose how it fits:
   - **{ui.gameUIInspector.stretch}**: fills the whole box (the picture may look squashed);
   - **{ui.gameUIInspector.fit}**: the whole picture, keeping its shape;
