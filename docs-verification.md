@@ -51,7 +51,7 @@ Les noms de boutons ne sont **jamais** recopiés : on écrit `{ui.clé}` ou `{rt
 | concepts/how-stories-branch | Choix : 2 à 6 options, touches 1 à 6, option conditionnelle (Cacher / Griser, toujours une issue) | `BranchInspectors.tsx:76-155`, catalogue `optionCondition.*` | code |
 | concepts/how-stories-branch | « Si… » : cas de haut en bas, tous/au moins un, sinon, joueurs ne le voient pas | `BranchInspectors.tsx:336-460`, `conditionCases.*` | code |
 | concepts/how-stories-branch | Ligne « Branches » (icônes, +N, rouge si cible manquante, repli) ; barre « Où ça mène » (4 max, Retour sur 20 pas) | `branchMarks.ts`, `Timeline.tsx:360-394`, `FlowStrip.tsx:11`, `scenes.ts TRAIL_LIMIT` | code |
-| concepts/how-stories-branch | Panneau « Fins du jeu » quand aucune scène n'est sélectionnée | texte du tutoriel (étape 11) ; condition « aucune scène » non lue dans `EndingsList.tsx` | **à vérifier dans l'appli** |
+| concepts/how-stories-branch | Panneau « Fins du jeu » quand aucune scène n'est sélectionnée | texte du tutoriel (étape 11) ; **confirmé en D3** : `StoryMap.tsx:64-71,915` (visible quand aucune scène n'est sélectionnée) | code |
 | writing/scenes | Créer (« Scene N », un moment vide, devient départ si aucune), renommer (double-clic, Entrée/Échap), glisser pour réordonner, dupliquer (« Copy of »), supprimer (confirmation, liens restent avec avertissement) | `ScenesTab.tsx:37-84`, `scenes.ts:65-110`, `shared/src/scenes.ts:95-135` | code |
 | writing/scenes | Scène de départ, « unreachable », « Branches : N », état d'écriture automatique, entrées | `ScenesTab.tsx:120`, `problems.ts:106-125`, `outline.ts:13-20` | code |
 | writing/scenes | Libellé exact de « Copy of … » | clé `shared.scenes.copy` non lue | **à vérifier dans l'appli** |
