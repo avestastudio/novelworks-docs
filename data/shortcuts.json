@@ -83,7 +83,7 @@
   },
   {
     "group": "Project",
-    "label": "shortcuts.exportForWebItchIo",
+    "label": "shortcuts.exportForWeb",
     "combos": [
       {
         "key": "e",

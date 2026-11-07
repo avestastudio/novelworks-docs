@@ -24,10 +24,10 @@ O NovelWorks limpa o texto primeiro: aspas duplas curvas (“ ”) viram aspas r
 - A importação **acrescenta** texto. Ela não substitui o que já existe.
 
 :::note
-Com `# headings`, **cada título sempre cria uma nova cena**, mesmo quando o seu jogo já tem uma cena com esse nome: você então fica com duas cenas com o mesmo nome, e a que já existia não muda. Renomeie ou exclua a cena extra se não era isso que você queria.
+Com `# headings`, **cada título cria uma nova cena**. Se o seu jogo já tem uma cena com esse nome, a nova recebe o nome como uma cena duplicada: “Nome (cópia)”, depois “Nome (cópia) 2”, e assim por diante (acentos e maiúsculas são ignorados na comparação dos nomes). A cena que já existia nunca é alterada. Um título que aparece duas vezes no texto importado é renomeado do mesmo jeito. Um link `-> Name` no texto importado continua apontando para a cena original, então confira.
 :::
 
-A janela diz que a importação é um único passo de desfazer. Na prática, uma importação precisou de **duas** vezes **{ui.native.menu.undo}** para ser removida: se as novas cenas ainda estiverem lá depois da primeira, use de novo.
+A importação é **um único passo de desfazer**: um só **{ui.native.menu.undo}** remove tudo o que ela acrescentou, mesmo que você saia do modo Roteiro depois.
 
 ## Exportar o roteiro
 

@@ -18,7 +18,7 @@ description: Все горячие клавиши редактора и игр, 
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
 | {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
-| {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
+| {ui.shortcuts.exportForWeb} | ⌘E | Ctrl+E |
 | {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
 
 ### Моменты и сцены

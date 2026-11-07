@@ -33,14 +33,15 @@ The right-click menus have no Copy or Paste entries: use the keys, or the Cut, C
 
 ### Between projects and windows
 
-The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The clipboard holds the moment, scene or character itself, **not** the pictures, characters, scenes or variables it refers to.
+The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The copy carries the moment, scene or character itself and the **names** of the characters, expressions, pictures, variables, items and scenes it refers to, but not those things.
 
-What you see when the other project does not have them (checked by pasting a moment from one project into another):
+When you paste, NovelWorks looks each reference up in the project you paste into:
 
-- a speaker that does not exist there becomes the **{ui.stageControls.narrator}**;
-- a background that does not exist there is dropped (the moment shows "{tx.stage.noBackground}");
-- a character who does not exist there is not drawn, and may show as an "Unnamed" row in the stage chart, or as `?` in [Script mode](/novelworks-docs/writing/script-mode-lines/);
-- **no warning is shown**, so check the pasted moment yourself.
+- if it exists there (same identity), it is kept;
+- otherwise it is looked for **by name**: a picture of the same kind, a variable of the same type, an expression of the matching character;
+- otherwise it is **left out**: a character leaves the stage, a speaker becomes the **{ui.stageControls.narrator}**, a background shows "{tx.stage.noBackground}", and a link, an item or a variable becomes "not picked".
+
+A message lists what was left out ("Pasted, but some things from the other project do not exist in this one and were left out: …"), up to 8 entries and then "and N more". It stays for about 15 seconds. Pasting in the same project shows no message. A copy made with an older version of NovelWorks has no names, so its references are cleared and listed as "unnamed".
 
 Paste into a project that has the same characters, pictures, scenes and variables for the best result.
 

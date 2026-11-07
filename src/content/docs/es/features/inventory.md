@@ -35,7 +35,7 @@ Un objeto único nunca puede ser más de uno, y un objeto acumulable nunca baja 
 
 En un [Si…](/novelworks-docs/es/branching/conditions/), en la condición de una opción o de una zona, elige **{ui.moments.item}** en **{ui.branchInspectors.whatToCheck}**: el jugador **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** o **{ui.conditionTests.hasAtLeast}** una cantidad de ese objeto. Una prueba sobre un objeto eliminado nunca se cumple.
 
-Si desactivas la función Inventario, los jugadores pierden el botón, la entrada del menú y la tecla **I**, pero los momentos que dan o comprueban objetos se siguen ejecutando; el editor te avisa. Consulta [La biblioteca de funciones](/novelworks-docs/es/features/features-panel/).
+Si desactivas la función Inventario, los jugadores pierden el botón, la entrada del menú y la tecla **I**, pero los momentos que dan o comprueban objetos se siguen ejecutando; el editor te avisa. El aviso se muestra para cada uso de un objeto: un momento de objeto (dar o quitar), un efecto de elección, una opción bloqueada por un objeto, una prueba de condición sobre un objeto, y una zona que recoge, usa o está bloqueada por un objeto. Lo ves en el cuadro de Problemas del momento, en la línea de tiempo y en la ventana de exportación (la vista Guion no lo subraya). Consulta [La biblioteca de funciones](/novelworks-docs/es/features/features-panel/).
 
 ## Qué ven los jugadores
 

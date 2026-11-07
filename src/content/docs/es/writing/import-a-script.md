@@ -24,10 +24,10 @@ Primero NovelWorks limpia el texto: las comillas dobles curvas (“ ”) pasan a
 - La importación **añade** texto. No reemplaza lo que ya hay.
 
 :::note
-Con los `# headings`, **cada encabezado siempre crea una escena nueva**, incluso cuando tu juego ya tiene una escena con ese nombre: entonces tienes dos escenas con el mismo nombre, y la existente no cambia. Cambia el nombre de la escena de más o bórrala si no la querías.
+Con los `# headings`, **cada encabezado crea una escena nueva**. Si tu juego ya tiene una escena con ese nombre, la nueva se nombra como una escena duplicada: «Name (copia)», luego «Name (copia) 2», y así sucesivamente (al comparar nombres se ignoran los acentos y las mayúsculas). La escena existente nunca cambia. Un encabezado que aparece dos veces en el texto importado se renombra de la misma manera. Un enlace `-> Name` en el texto importado sigue apuntando a la escena original, así que revísalo.
 :::
 
-La ventana dice que la importación es un solo paso de deshacer. En la práctica, para quitar una importación hicieron falta **dos** pulsaciones de **{ui.native.menu.undo}**: si las escenas nuevas siguen ahí tras la primera, púlsalo otra vez.
+La importación es **un solo paso de deshacer**: una pulsación de **{ui.native.menu.undo}** quita todo lo que añadió, incluso si después sales del modo Guion.
 
 ## Exportar el guion
 

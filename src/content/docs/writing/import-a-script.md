@@ -24,10 +24,10 @@ NovelWorks cleans the text first: curly double quotes (“ ”) become straight 
 - The import **adds** text. It does not replace what is already there.
 
 :::note
-With `# headings`, **each heading always makes a new scene**, even when your game already has a scene with that name: you then get two scenes with the same name, and the existing one is not changed. Rename or delete the extra scene if you did not want it.
+With `# headings`, **each heading makes a new scene**. If your game already has a scene with that name, the new one is named like a duplicated scene: "Name (copy)", then "Name (copy) 2", and so on (accents and capital letters are ignored when comparing names). The existing scene is never changed. A heading that appears twice in the imported text is renamed the same way. A `-> Name` link in the imported text still points to the original scene, so check it.
 :::
 
-The window says the import is one undo step. In practice, an import took **two** presses of **{ui.native.menu.undo}** to remove: if the new scenes are still there after the first one, press it again.
+The import is **one undo step**: one press of **{ui.native.menu.undo}** removes everything it added, even if you leave Script mode afterwards.
 
 ## Export the script
 

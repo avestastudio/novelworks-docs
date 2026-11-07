@@ -18,7 +18,7 @@ Dans l’éditeur, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
 | {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Maj+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
-| {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
+| {ui.shortcuts.exportForWeb} | ⌘E | Ctrl+E |
 | {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
 
 ### Moments et scènes

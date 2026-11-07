@@ -25,7 +25,7 @@ function shortcutsTable() {
   let last = ''
   for (const row of shortcuts) {
     if (row.group !== last) { out.push('', `### ${group[row.group]}`, '', '| Action | Mac | Windows |', '|---|---|---|'); last = row.group }
-    const label = row.label === 'shortcuts.exportForWebItchIo' ? '{ui.native.menu.exportForWeb}' : `{ui.${row.label}}`
+    const label = `{ui.${row.label}}`
     let mac, win
     if (row.label === 'shortcuts.redo') { mac = '⇧⌘Z'; win = 'Ctrl+Y or Ctrl+Shift+Z' }
     else { mac = row.combos.map((c) => combo(c, true)).join(' / '); win = row.combos.map((c) => combo(c, false)).join(' / ') }

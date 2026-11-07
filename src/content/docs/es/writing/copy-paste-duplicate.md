@@ -33,14 +33,15 @@ Los menús del clic derecho no tienen entradas Copiar ni Pegar: usa las teclas, 
 
 ### Entre proyectos y ventanas
 
-La copia va al portapapeles de tu ordenador como texto, así que puedes pegar en **otro proyecto u otra ventana**. El portapapeles guarda el momento, la escena o el personaje en sí, **no** las imágenes, personajes, escenas o variables a las que hace referencia.
+La copia va al portapapeles de tu ordenador como texto, así que puedes pegar en **otro proyecto u otra ventana**. La copia lleva el momento, la escena o el personaje en sí y los **nombres** de los personajes, expresiones, imágenes, variables, objetos y escenas a los que hace referencia, pero no esas cosas.
 
-Lo que ves cuando el otro proyecto no los tiene (comprobado pegando un momento de un proyecto en otro):
+Al pegar, NovelWorks busca cada referencia en el proyecto donde pegas:
 
-- un hablante que no existe allí se convierte en el **{ui.stageControls.narrator}**;
-- un fondo que no existe allí se descarta (el momento muestra «{tx.stage.noBackground}»);
-- un personaje que no existe allí no se dibuja, y puede aparecer como una fila «Sin nombre» en el gráfico de la escena, o como `?` en el [modo Guion](/novelworks-docs/es/writing/script-mode-lines/);
-- **no se muestra ningún aviso**, así que revisa tú mismo el momento pegado.
+- si existe allí (misma identidad), se conserva;
+- si no, se busca **por nombre**: una imagen del mismo tipo, una variable del mismo tipo, una expresión del personaje que corresponda;
+- si no, se **deja fuera**: un personaje sale de escena, un hablante se convierte en el **{ui.stageControls.narrator}**, un fondo muestra «{tx.stage.noBackground}», y un enlace, un objeto o una variable pasa a «sin elegir».
+
+Un aviso lista lo que se dejó fuera («Pegado, pero algunos elementos del otro proyecto no existen en este y se han dejado fuera: …»), hasta 8 entradas y luego «y N más». Se queda unos 15 segundos. Pegar en el mismo proyecto no muestra ningún aviso. Una copia hecha con una versión anterior de NovelWorks no tiene nombres, así que sus referencias se borran y aparecen como «sin nombre».
 
 Pega en un proyecto que tenga los mismos personajes, imágenes, escenas y variables para obtener el mejor resultado.
 

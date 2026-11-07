@@ -33,14 +33,15 @@ Les menus du clic droit n’ont pas d’entrées Copier ou Coller : utilisez les
 
 ### Entre projets et fenêtres
 
-La copie va dans le presse-papiers de votre ordinateur sous forme de texte, donc vous pouvez coller dans **un autre projet ou une autre fenêtre**. Le presse-papiers contient le moment, la scène ou le personnage lui-même, **pas** les images, personnages, scènes ou variables auxquels il fait référence.
+La copie va dans le presse-papiers de votre ordinateur sous forme de texte, donc vous pouvez coller dans **un autre projet ou une autre fenêtre**. La copie contient le moment, la scène ou le personnage lui-même et les **noms** des personnages, expressions, images, variables, objets et scènes auxquels il fait référence, mais pas ces éléments.
 
-Voici ce que vous voyez quand l’autre projet ne les a pas (vérifié en collant un moment d’un projet dans un autre) :
+Quand vous collez, NovelWorks cherche chaque référence dans le projet où vous collez :
 
-- un personnage qui parle et qui n’existe pas là-bas devient le **{ui.stageControls.narrator}** ;
-- un décor qui n’existe pas là-bas est abandonné (le moment affiche « {tx.stage.noBackground} ») ;
-- un personnage qui n’existe pas là-bas n’est pas dessiné, et peut apparaître comme une ligne « Sans nom » dans le graphique de la scène, ou comme `?` dans le [mode Script](/novelworks-docs/fr/writing/script-mode-lines/) ;
-- **aucun avertissement n’est affiché**, donc vérifiez vous-même le moment collé.
+- si elle y existe (même identité), elle est conservée ;
+- sinon, elle est cherchée **par son nom** : une image du même type, une variable du même type, une expression du personnage correspondant ;
+- sinon, elle est **laissée de côté** : un personnage quitte le plateau, une personne qui parle devient le **{ui.stageControls.narrator}**, un décor affiche « {tx.stage.noBackground} », et un lien, un objet ou une variable devient « non choisi ».
+
+Un message liste ce qui a été laissé de côté (« Collé, mais certains éléments de l’autre projet n’existent pas dans celui-ci et ont été laissés de côté : … »), jusqu’à 8 entrées, puis « et N de plus ». Il reste affiché environ 15 secondes. Coller dans le même projet n’affiche aucun message. Une copie faite avec une ancienne version de NovelWorks n’a pas de noms : ses références sont donc effacées et listées comme « sans nom ».
 
 Collez dans un projet qui a les mêmes personnages, images, scènes et variables pour un meilleur résultat.
 

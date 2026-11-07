@@ -35,7 +35,7 @@ Un objet unique ne peut jamais dépasser un exemplaire, et un objet cumulable ne
 
 Dans un [Si…](/novelworks-docs/fr/branching/conditions/), dans la condition d’une option ou d’une zone, choisissez **{ui.moments.item}** dans **{ui.branchInspectors.whatToCheck}** : le joueur **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** ou **{ui.conditionTests.hasAtLeast}** un nombre de cet objet. Un test sur un objet supprimé ne réussit jamais.
 
-Si vous désactivez la fonctionnalité Inventaire, les joueurs perdent le bouton, l’entrée de menu et la touche **I**, mais les moments qui donnent ou vérifient des objets continuent de s’exécuter ; l’éditeur vous en avertit. Voir [La bibliothèque de fonctionnalités](/novelworks-docs/fr/features/features-panel/).
+Si vous désactivez la fonctionnalité Inventaire, les joueurs perdent le bouton, l’entrée de menu et la touche **I**, mais les moments qui donnent ou vérifient des objets continuent de s’exécuter ; l’éditeur vous en avertit. L’avertissement s’affiche pour chaque utilisation d’un objet : un moment Objet (donner ou retirer), un effet de choix, une option verrouillée par un objet, un test dans un moment « Si… » sur un objet, et une zone qui ramasse un objet, en utilise un ou est verrouillée par un objet. Vous le voyez dans la boîte des problèmes du moment, sur la chronologie et dans la fenêtre d’export (la vue Script ne le souligne pas). Voir [La bibliothèque de fonctionnalités](/novelworks-docs/fr/features/features-panel/).
 
 ## Ce que voient les joueurs
 

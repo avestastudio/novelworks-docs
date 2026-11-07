@@ -35,7 +35,7 @@ description: "玩家携带的物品：创建它们、给予和拿走、在条件
 
 在[如果…](/novelworks-docs/zh-cn/branching/conditions/)、选项的条件或区域的条件中，在{ui.branchInspectors.whatToCheck}里选择{ui.moments.item}：玩家{ui.conditionTests.has}、{ui.conditionTests.doesnTHave}或{ui.conditionTests.hasAtLeast}若干个该物品。对已删除物品的测试永远不会通过。
 
-如果你关闭物品栏功能，玩家会失去按钮、菜单项和 **I** 键，但给予或检查物品的片段仍会继续运行；编辑器会警告你。参见[功能库](/novelworks-docs/zh-cn/features/features-panel/)。
+如果你关闭物品栏功能，玩家会失去按钮、菜单项和 **I** 键，但给予或检查物品的片段仍会继续运行；编辑器会警告你。每一种用到物品的地方都会显示警告：物品片段（给予或移除）、选择的效果、被物品锁定的选项、对物品的“如果…”测试，以及拾取、使用物品或被物品锁定的区域。你可以在片段的问题框、时间线和导出窗口中看到它（剧本视图不会给它加下划线）。参见[功能库](/novelworks-docs/zh-cn/features/features-panel/)。
 
 ## 玩家看到什么
 

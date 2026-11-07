@@ -145,8 +145,7 @@ const shortcutsPage = pages.find((page) => page.slug === 'reference/keyboard-sho
 if (shortcutsPage && shortcutsPage.status !== 'old') {
   const text = await read(join(root, shortcutsPage.slug + '.md'))
   for (const row of data('data/shortcuts.json')) {
-    const exportRow = row.label === 'shortcuts.exportForWebItchIo' // shown with the demo-build name «Export for Web…»
-    if (!text.includes(exportRow ? '{ui.native.menu.exportForWeb}' : `{ui.${row.label}}`)) errors.push(`Shortcuts page misses ${row.label}`)
+    if (!text.includes(`{ui.${row.label}}`)) errors.push(`Shortcuts page misses ${row.label}`)
   }
 }
 

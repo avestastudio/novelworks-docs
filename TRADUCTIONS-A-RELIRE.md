@@ -43,6 +43,7 @@ Limite honnête : les relecteurs n'ont pas tout lu ligne à ligne (es ≈ 60 %, 
 « Key ideas » → fr « Les idées clés », es « Ideas clave », pt-BR « Ideias-chave », zh-CN « 核心概念 », ru « Ключевые идеи ». Titre « Your first visual novel » (ancien : « Make your first visual novel in 15 minutes »).
 
 ## Texte hors catalogue
-- « Export for Web… » : libellé de la branche demo-build, absent des catalogues non anglais (affiché en anglais partout, avertissement « pending merge » dans `check:docs`).
+- « Export for Web… » : désormais dans le catalogue de l'éditeur, identique en anglais dans les 7 langues (demande de l'utilisateur) ; plus d'avertissement « pending merge ».
+- Pages mises à jour le 2026-11-07 dans les 6 langues par un agent (import, collage entre projets, inventaire) : non relues par un second agent.
 - Les captures d'écran et schémas sont en anglais pour toutes les langues (décision de l'utilisateur).
 - Les mots du Script dans les exemples de code ne sont pas traduits (l'éditeur comprend tous les mots) ; la page « Script syntax in 7 languages » donne chaque langue.

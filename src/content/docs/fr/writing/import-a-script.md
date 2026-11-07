@@ -24,10 +24,10 @@ NovelWorks nettoie d’abord le texte : les guillemets doubles courbes (“ ”)
 - L’import **ajoute** du texte. Il ne remplace pas ce qui est déjà là.
 
 :::note
-Avec des `# headings`, **chaque titre crée toujours une nouvelle scène**, même si votre jeu a déjà une scène portant ce nom : vous obtenez alors deux scènes du même nom, et celle qui existait n’est pas modifiée. Renommez ou supprimez la scène en trop si vous n’en vouliez pas.
+Avec des `# headings`, **chaque titre crée une nouvelle scène**. Si votre jeu a déjà une scène portant ce nom, la nouvelle s’appelle comme une scène dupliquée : « Nom (copie) », puis « Nom (copie) 2 », et ainsi de suite (les accents et les majuscules sont ignorés quand on compare les noms). La scène qui existait n’est jamais modifiée. Un titre qui apparaît deux fois dans le texte importé est renommé de la même façon. Un lien `-> Name` dans le texte importé pointe toujours vers la scène d’origine : vérifiez-le.
 :::
 
-La fenêtre indique que l’import ne compte que pour une seule étape d’annulation. En pratique, il a fallu appuyer **deux** fois sur **{ui.native.menu.undo}** pour retirer un import : si les nouvelles scènes sont toujours là après le premier appui, appuyez à nouveau.
+L’import compte pour **une seule étape d’annulation** : un seul appui sur **{ui.native.menu.undo}** retire tout ce qu’il a ajouté, même si vous quittez ensuite le mode Script.
 
 ## Exporter le script
 

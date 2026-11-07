@@ -35,7 +35,7 @@ Um item único nunca pode passar de um, e um item acumulável nunca fica abaixo 
 
 Num [Se…](/novelworks-docs/pt-br/branching/conditions/), na condição de uma opção ou de uma zona, escolha **{ui.moments.item}** em **{ui.branchInspectors.whatToCheck}**: o jogador **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** ou **{ui.conditionTests.hasAtLeast}** uma quantidade desse item. Um teste sobre um item excluído nunca passa.
 
-Se você desativar o recurso Inventário, os jogadores perdem o botão, a entrada de menu e a tecla **I**, mas os momentos que dão ou verificam itens continuam funcionando; o editor avisa você. Veja [A biblioteca de recursos](/novelworks-docs/pt-br/features/features-panel/).
+Se você desativar o recurso Inventário, os jogadores perdem o botão, a entrada de menu e a tecla **I**, mas os momentos que dão ou verificam itens continuam funcionando; o editor avisa você. O aviso aparece para cada uso de um item: um momento de item (dar ou remover), um efeito de escolha, uma opção bloqueada por um item, um teste de um momento Se sobre um item e uma zona que pega, usa ou é bloqueada por um item. Você o vê na caixa de Problemas do momento, na linha do tempo e na janela de exportação (a visão Roteiro não o sublinha). Veja [A biblioteca de recursos](/novelworks-docs/pt-br/features/features-panel/).
 
 ## O que os jogadores veem
 
