@@ -3,31 +3,31 @@ title: 探索
 description: "ポイント&クリックのシーン:プレイヤーがクリックして見回したり、アイテムを集めたり、先へ進んだりするエリア。"
 ---
 
-**{ui.moments.exploration}** カットには**テキストボックスがありません**。プレイヤーは1枚の絵を見て、そこに描かれた「エリア」をクリックします。エリアは、1行のテキストを表示したり、変数を変えたり、アイテムを渡したり、別のシーンへ移動したりできます。常に使えるので、オンにする機能はありません。
+{ui.moments.exploration} カットには**テキストボックスがありません**。プレイヤーは1枚の絵を見て、そこに描かれた「エリア」をクリックします。エリアは、1行のテキストを表示したり、変数を変えたり、アイテムを渡したり、別のシーンへ移動したりできます。常に使えるので、オンにする機能はありません。
 
 ## 追加する
 
-タイムラインで、**{ui.moments.exploration}** カットを追加します。最初は空で、その前のカットの背景を使います。選ぶと、インスペクターに **{ui.explorationInspectors.zones}** と **{ui.explorationInspectors.props}**、そして **+ エリア** と **+ 小物** が表示されます。
+タイムラインで、{ui.moments.exploration} カットを追加します。最初は空で、その前のカットの背景を使います。選ぶと、インスペクターに {ui.explorationInspectors.zones} と {ui.explorationInspectors.props}、そして **+ エリア** と **+ 小物** が表示されます。
 
 ![探索のカット。絵の上に描かれたエリアと、インスペクターのエリアと小物の一覧。](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## エリアを描く
 
-ゲーム画面の上で、**{ui.explorationCanvas.drawZonesAs}** を選びます。**{ui.explorationCanvas.rectangle}**か**{ui.explorationCanvas.shape}**です。(ウインドウが狭いときは、**{ui.stage.more}** メニューの中にあります。)
+ゲーム画面の上で、{ui.explorationCanvas.drawZonesAs} を選びます。{ui.explorationCanvas.rectangle}か{ui.explorationCanvas.shape}です。(ウインドウが狭いときは、{ui.stage.more} メニューの中にあります。)
 
-- **{ui.explorationCanvas.rectangle}**:絵の上をドラッグします。ただクリックしただけでは何も作られず、画面の 2 % より小さいエリアは作られません。
-- **{ui.explorationCanvas.shape}**:物のまわりを、点を1つずつクリックして囲みます。最初の点をもう一度クリックするか、**Enter** を押すと図形を閉じます。**Esc** でキャンセルします。少なくとも3つの点が必要です。
+- {ui.explorationCanvas.rectangle}:絵の上をドラッグします。ただクリックしただけでは何も作られず、画面の 2 % より小さいエリアは作られません。
+- {ui.explorationCanvas.shape}:物のまわりを、点を1つずつクリックして囲みます。最初の点をもう一度クリックするか、**Enter** を押すと図形を閉じます。**Esc** でキャンセルします。少なくとも3つの点が必要です。
 
 エリアは、描いた直後に選ばれた状態になります。ドラッグして動かせます。長方形には大きさを変える8つのハンドルがあり、図形にはすべての点にハンドルがあります。**+ エリア** で、画面の中央に長方形を追加することもできます。
 
-エリアを右クリックすると **{ui.contextMenus.duplicateZone}** と **{ui.contextMenus.deleteZone}** が使えます。**Cmd+D** / **Ctrl+D** で複製、`Delete` で削除もできます。コピーは少し右下に置かれ、「…(コピー)」という名前になります。どの編集も、取り消すときは1回分です。
+エリアを右クリックすると {ui.contextMenus.duplicateZone} と {ui.contextMenus.deleteZone} が使えます。**Cmd+D** / **Ctrl+D** で複製、`Delete` で削除もできます。コピーは少し右下に置かれ、「…(コピー)」という名前になります。どの編集も、取り消すときは1回分です。
 
 ## エリアのインスペクター
 
-- **{ui.explorationInspectors.name}**:自分がエリアを見つけるためだけのものです。プレイヤーには決して見えません。新しいエリアは「エリア 1」「エリア 2」…となります。
-- **{ui.explorationInspectors.label}**:ポインターがエリアの上にあるときに表示されます(スマートフォンでは、最初のタップ)。
-- **{ui.explorationInspectors.highlight}**:なし、発光(初期設定)、輪郭のどれか。
-- **{ui.explorationInspectors.whenClicked}**(動作):
+- {ui.explorationInspectors.name}:自分がエリアを見つけるためだけのものです。プレイヤーには決して見えません。新しいエリアは「エリア 1」「エリア 2」…となります。
+- {ui.explorationInspectors.label}:ポインターがエリアの上にあるときに表示されます(スマートフォンでは、最初のタップ)。
+- {ui.explorationInspectors.highlight}:なし、発光(初期設定)、輪郭のどれか。
+- {ui.explorationInspectors.whenClicked}(動作):
 
 | 動作 | 内容 |
 |---|---|
@@ -36,19 +36,19 @@ description: "ポイント&クリックのシーン:プレイヤーがクリッ�
 | 続ける | 探索を終えて、このシーンの次のカットへ進みます。 |
 | 変数を変更 | スコアに加える、または変数を設定します。それに依存するほかのエリアは、すぐに現れたり、消えたり、ロック解除されたりします。 |
 | アイテムを拾う | アイテムをインベントリに入れ、通知を出します。そのエリアと小物は、そのまま消えます。(インベントリ機能。) |
-| アイテムを使う | インベントリを確認します。**{ui.explorationInspectors.itemToUse}**、使い切るかどうか、そして結果 **{ui.explorationInspectors.whenThePlayerHasIt}**(調べる、シーンへ移動、続ける、変数を変更のどれか)を選びます。**{ui.explorationInspectors.withoutItOptional}** は、プレイヤーが持っていないときに表示する1行です。空のままなら、何も起こりません。(インベントリ機能。) |
+| アイテムを使う | インベントリを確認します。{ui.explorationInspectors.itemToUse}、使い切るかどうか、そして結果 {ui.explorationInspectors.whenThePlayerHasIt}(調べる、シーンへ移動、続ける、変数を変更のどれか)を選びます。{ui.explorationInspectors.withoutItOptional} は、プレイヤーが持っていないときに表示する1行です。空のままなら、何も起こりません。(インベントリ機能。) |
 
-- **{ui.explorationInspectors.works}**:**{ui.explorationInspectors.everyTime}** または **{ui.explorationInspectors.onceOnly}**(最初に使った後は、このプレイ中、そのエリアは何もしなくなります)。
-- **条件**:「{tx.explorationInspectors.onlyAvailableWhenAVariableOrAn}」。条件が成り立たないときの **{ui.explorationInspectors.otherwise}** は、「非表示」(エリアとその小物は見えず、クリックもできません)か、「ロック」(ラベルは表示されますが使えず、クリックしたときに表示する1行を任意で設定できます)のどちらかです。
+- {ui.explorationInspectors.works}:{ui.explorationInspectors.everyTime} または {ui.explorationInspectors.onceOnly}(最初に使った後は、このプレイ中、そのエリアは何もしなくなります)。
+- **条件**:「{tx.explorationInspectors.onlyAvailableWhenAVariableOrAn}」。条件が成り立たないときの {ui.explorationInspectors.otherwise} は、「非表示」(エリアとその小物は見えず、クリックもできません)か、「ロック」(ラベルは表示されますが使えず、クリックしたときに表示する1行を任意で設定できます)のどちらかです。
 
 ## 小物
 
-**{ui.explorationInspectors.props}** は、舞台に置く物(鍵、手紙、花瓶)の絵です。クリックはできません。小物をエリアにひも付けると、一緒に非表示にできます。
+{ui.explorationInspectors.props} は、舞台に置く物(鍵、手紙、花瓶)の絵です。クリックはできません。小物をエリアにひも付けると、一緒に非表示にできます。
 
 - **+ 小物** で「{tx.explorationInspectors.chooseAProp}」が開きます(種類が小道具の画像で、読み込みもできます)。新しい小物は中央に置かれます。
-- 小物をドラッグして動かし、角をドラッグして大きさを変えます。インスペクターの **{ui.explorationInspectors.size}** は、画面の幅の 2 から 100 % です。
-- **{ui.explorationInspectors.hiddenWithZone}**:そのエリアが条件で非表示のとき、小物も非表示になります。**{ui.explorationInspectors.addAZoneAroundIt}** は、小物のまわりにエリアを追加します。
-- **{ui.explorationInspectors.forward}** と **{ui.explorationInspectors.backward}** で、どの小物が手前に来るかを変えます。**{ui.explorationInspectors.removeProp}** で削除します。
+- 小物をドラッグして動かし、角をドラッグして大きさを変えます。インスペクターの {ui.explorationInspectors.size} は、画面の幅の 2 から 100 % です。
+- {ui.explorationInspectors.hiddenWithZone}:そのエリアが条件で非表示のとき、小物も非表示になります。{ui.explorationInspectors.addAZoneAroundIt} は、小物のまわりにエリアを追加します。
+- {ui.explorationInspectors.forward} と {ui.explorationInspectors.backward} で、どの小物が手前に来るかを変えます。{ui.explorationInspectors.removeProp} で削除します。
 - 小物は、キャラクターの後ろ、背景の上に描かれます。
 
 ## プレイヤーに見えるもの

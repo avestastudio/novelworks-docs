@@ -7,8 +7,8 @@ description: "スコアとできごと: ゲームがプレイヤーの行動を�
 
 | 種類 | 持つ内容 | 例 |
 |---|---|---|
-| **{ui.variables.number}** | ゲームが増やしたり減らしたりできる数。 | ミアの好感度、所持金 |
-| **{ui.variables.yesNo}** | 何かが起きたかどうか: **{ui.variables.yes}** か **{ui.variables.no}** です。 | 「{tx.memory.factExample}」、「鍵を持っている」 |
+| {ui.variables.number} | ゲームが増やしたり減らしたりできる数。 | ミアの好感度、所持金 |
+| {ui.variables.yesNo} | 何かが起きたかどうか: {ui.variables.yes} か {ui.variables.no} です。 | 「{tx.memory.factExample}」、「鍵を持っている」 |
 
 プレイヤーが持ち歩くもの(鍵、手紙、コインなど)は、別の、なくてもよい機能です。[インベントリ](/novelworks-docs/ja/features/inventory/)を見てください。
 

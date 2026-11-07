@@ -16,7 +16,7 @@ description: 查看每个场景以及它们如何连接，通过拖动来连接�
 - 它的写作状态（{ui.shared.outline.toWrite}、{ui.shared.outline.draft}或{ui.shared.outline.done}）和字数，或者“空”。把指针放在字数上，可以看到片段的数量；
 - 一个便签徽章，显示带有[笔记](/novelworks-docs/zh-cn/writing/notes/)的片段数量；
 - 一个警告徽章，显示问题的数量。把指针放在上面可以读到每一条（“片段 4：……”）；
-- 标签：每个结局名称对应的旗子、**{ui.storyMap.unreachable}**（从起始场景出发没有任何路径通向这里；项目只有一个场景时不显示）、“{tx.storyMap.gameEndsHere}”（这个场景之后没有任何内容，也没有结局）以及“{tx.storyMap.backToTheMap}”。
+- 标签：每个结局名称对应的旗子、{ui.storyMap.unreachable}（从起始场景出发没有任何路径通向这里；项目只有一个场景时不显示）、“{tx.storyMap.gameEndsHere}”（这个场景之后没有任何内容，也没有结局）以及“{tx.storyMap.backToTheMap}”。
 
 无法到达的卡片边框是虚线，并且颜色变淡。
 

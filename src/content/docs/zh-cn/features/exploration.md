@@ -13,10 +13,10 @@ description: "点选式场景：玩家点击区域来四处查看、收集物品
 
 ## 绘制区域
 
-在游戏画面上方，选择{ui.explorationCanvas.drawZonesAs}：**{ui.explorationCanvas.rectangle}**或**{ui.explorationCanvas.shape}**。（窗口较窄时，它们在{ui.stage.more}菜单里。）
+在游戏画面上方，选择{ui.explorationCanvas.drawZonesAs}：{ui.explorationCanvas.rectangle}或{ui.explorationCanvas.shape}。（窗口较窄时，它们在{ui.stage.more}菜单里。）
 
-- **{ui.explorationCanvas.rectangle}**：在图片上拖动。只点一下不会创建任何东西，小于画面 2 % 的区域也不会被创建。
-- **{ui.explorationCanvas.shape}**：围绕一个物体逐点点击。再次点击第一个点，或按 **Enter**，即可封闭形状。按 **Esc** 取消。至少需要三个点。
+- {ui.explorationCanvas.rectangle}：在图片上拖动。只点一下不会创建任何东西，小于画面 2 % 的区域也不会被创建。
+- {ui.explorationCanvas.shape}：围绕一个物体逐点点击。再次点击第一个点，或按 **Enter**，即可封闭形状。按 **Esc** 取消。至少需要三个点。
 
 区域在绘制完成后会立刻被选中。拖动它可以移动。矩形有八个手柄用来调整大小，形状的每个点上都有一个手柄。你也可以用 **+ 区域** 在画面中央添加一个矩形。
 
@@ -59,7 +59,7 @@ description: "点选式场景：玩家点击区域来四处查看、收集物品
 - 在触屏上，有标签时，第一次点按显示标签，第二次点按执行动作。没有标签时，点一次就执行。
 - 使用键盘时，**Tab** 在区域之间移动，**Enter** 使用区域。屏幕阅读器会读出标签，或者“值得一看的东西 1”，锁定的区域还会加上“（已锁定）”。
 
-**没有“全部完成”的出口。**玩家会一直留在探索中，直到点击通向某个场景的区域，或者“继续”区域。请确保至少有一个区域能做到这一点。
+**没有“全部完成”的出口**。玩家会一直留在探索中，直到点击通向某个场景的区域，或者“继续”区域。请确保至少有一个区域能做到这一点。
 
 ## 警告
 

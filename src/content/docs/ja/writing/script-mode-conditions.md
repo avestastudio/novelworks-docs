@@ -104,4 +104,4 @@ if MetMia = true or item Letter -> Library
 
 ## まだ存在しない名前
 
-存在しないシーン、変数、アイテムには下線が引かれます。クイック修正、または「**{ui.scriptMode.createMissing_other}**」で作成できます。[スクリプトモード：基本](/novelworks-docs/ja/writing/script-mode/)を見てください。
+存在しないシーン、変数、アイテムには下線が引かれます。クイック修正、または「{ui.scriptMode.createMissing_other}」で作成できます。[スクリプトモード：基本](/novelworks-docs/ja/writing/script-mode/)を見てください。

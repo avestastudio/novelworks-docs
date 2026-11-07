@@ -9,13 +9,13 @@ description: ゲームを、コンピューターでもスマートフォンで�
 
 ## 手順
 
-1. **警告を確認します。**NovelWorks が確認すべき点を見つけると、一覧で表示します。「先に確認が必要な点が N 件あります。ゲームはプレイできますが、プレイヤーが気づく可能性があります。」各行に場所が書かれています（「公園、カット3 — …」）。このときボタンは**{ui.exportDialog.exportAnyway}**になります。[問題](/novelworks-docs/ja/testing/problems/)を見てください。
-2. **保存先を選びます。****{ui.exportDialog.saveTo}**にフォルダーが表示されます。NovelWorks は、このプロジェクトで最後に使ったフォルダーを覚えていて、なければプロジェクトを含むフォルダーを提案します。別のフォルダーを選ぶには**{ui.exportDialog.change}**を押します。
-3. **{ui.exportDialog.export}**をクリックします。終わるまで、ボタンには「{tx.exportDialog.exporting}」と表示されます。
+1. **警告を確認します**。NovelWorks が確認すべき点を見つけると、一覧で表示します。「先に確認が必要な点が N 件あります。ゲームはプレイできますが、プレイヤーが気づく可能性があります。」各行に場所が書かれています（「公園、カット3 — …」）。このときボタンは{ui.exportDialog.exportAnyway}になります。[問題](/novelworks-docs/ja/testing/problems/)を見てください。
+2. **保存先を選びます**。{ui.exportDialog.saveTo}にフォルダーが表示されます。NovelWorks は、このプロジェクトで最後に使ったフォルダーを覚えていて、なければプロジェクトを含むフォルダーを提案します。別のフォルダーを選ぶには{ui.exportDialog.change}を押します。
+3. {ui.exportDialog.export}をクリックします。終わるまで、ボタンには「{tx.exportDialog.exporting}」と表示されます。
 4. 「{tx.exportDialog.yourWebGameIsReady}」と表示されると、.zip の名前（共有やアップロード用。隣にあるフォルダーには、同じゲームが展開された状態で入っています）と、3つのボタンが表示されます。
-   - **{ui.exportDialog.showInFinder}**: ファイルをファイルマネージャーで表示します（どのコンピューターでも、名前は「Finder」のままです）。
-   - **{ui.exportDialog.testInBrowser}**: 書き出したゲームを、ローカルのアドレスで、既定のブラウザで再生します。
-   - **{ui.exportDialog.done}**。
+   - {ui.exportDialog.showInFinder}: ファイルをファイルマネージャーで表示します（どのコンピューターでも、名前は「Finder」のままです）。
+   - {ui.exportDialog.testInBrowser}: 書き出したゲームを、ローカルのアドレスで、既定のブラウザで再生します。
+   - {ui.exportDialog.done}。
 
 ![書き出しが終わったときに表示されるウインドウ。](/novelworks-docs/screenshots/export-done.png)
 
@@ -47,7 +47,7 @@ NovelWorks は、選んだフォルダーの中に次のものを作ります。
 
 - 最初に短い **NovelWorks のスプラッシュ**が表示されます。ロゴと「{tx.splash.tagline}」で、約3秒、スキップできます。（エディターでは「Made with NovelWorks」画面と呼ばれます。）
 - ページのタイトルはゲームのタイトルで、ページの言語はゲームの言語です。ページのアイコンは、メインカラーの地にタイトルの最初の文字を置いたものです。
-- ウィンドウに合わせて、縦横比を保ったまま拡大縮小され、周りに黒い帯が出るゲーム。コンピューターでもスマートフォンでも同じです。ブラウザが許す場合は**{rt.player.fullscreen}**ボタン、タッチ画面では**{ui.gameUIInspector.menu}**ボタンもあります。[キーとタッチ画面](/novelworks-docs/ja/player/keys-and-touch/)を見てください。
+- ウィンドウに合わせて、縦横比を保ったまま拡大縮小され、周りに黒い帯が出るゲーム。コンピューターでもスマートフォンでも同じです。ブラウザが許す場合は{rt.player.fullscreen}ボタン、タッチ画面では{ui.gameUIInspector.menu}ボタンもあります。[キーとタッチ画面](/novelworks-docs/ja/player/keys-and-touch/)を見てください。
 - セーブはそれぞれのブラウザに保存され、ゲームを更新しても残ります。[セーブとロード](/novelworks-docs/ja/player/save-and-load/)を見てください。
 - JavaScript が必要です。ない場合、ページに「{tx.export.javascriptRequired}」と表示されます。
 

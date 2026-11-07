@@ -3,14 +3,14 @@ title: "问题：所有警告"
 description: 编辑器会在哪些地方提醒你出了问题，以及完整的警告列表和应对办法。
 ---
 
-当你的剧情不完整或永远无法正常运行时，编辑器会提醒你，这样你可以在玩家看到之前修好它。**警告从不会阻止你：**你仍然可以试玩和导出。游戏本身绝不会因为这些问题而崩溃：缺少链接只会被当作“继续下一个片段”。
+当你的剧情不完整或永远无法正常运行时，编辑器会提醒你，这样你可以在玩家看到之前修好它。**警告从不会阻止你**：你仍然可以试玩和导出。游戏本身绝不会因为这些问题而崩溃：缺少链接只会被当作“继续下一个片段”。
 
 ## 警告出现在哪里
 
 - **在时间线的片段卡片上**，会有一个警告三角形。把鼠标指向它，可以看到该片段的所有问题。
 - **在片段的检查器中**，一个“{tx.branchInspectors.thisMomentNeedsYourAttention}”的框会列出它们。
-- **在“场景”标签页中**，没有任何内容通向的场景上，会有一个红色的**{ui.scenesTab.unreachable}**标记。
-- **在[剧情地图](/novelworks-docs/zh-cn/branching/story-map/)上**，场景卡片上有带数字的警告徽标，还有**{ui.storyMap.unreachable}**标记。**{ui.storyMap.problems}**筛选会高亮有警告或无法到达的场景。“{tx.storyMap.gameEndsHere}”这个标记只是信息，不是警告。
+- **在“场景”标签页中**，没有任何内容通向的场景上，会有一个红色的{ui.scenesTab.unreachable}标记。
+- **在[剧情地图](/novelworks-docs/zh-cn/branching/story-map/)上**，场景卡片上有带数字的警告徽标，还有{ui.storyMap.unreachable}标记。{ui.storyMap.problems}筛选会高亮有警告或无法到达的场景。“{tx.storyMap.gameEndsHere}”这个标记只是信息，不是警告。
 - **在地图工作区中**，有一个“检查你的地图”框。
 - **导出时**，会列出整个游戏的“需要先检查的事项”。见[网页导出](/novelworks-docs/zh-cn/publish/web-export/)。
 - **在[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)中**，行上会有另一套黄色下划线。

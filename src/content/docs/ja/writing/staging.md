@@ -34,11 +34,11 @@ description: 背景を選び、キャラクターを画面に出して、配置�
 
 | 操作 | できること |
 |---|---|
-| **{ui.stageCharacterInspector.expression}** | 表情を変えます。デフォルトの表情には星が付いています。キャラクターに表情がないときは、ボタンでキャラクタータブに移動できます。 |
+| {ui.stageCharacterInspector.expression} | 表情を変えます。デフォルトの表情には星が付いています。キャラクターに表情がないときは、ボタンでキャラクタータブに移動できます。 |
 | 左 / 中央 / 右 | キャラクターを、画面の下にある 3 か所のどれかに置きます。大きさと向きは変わりません。 |
-| **{ui.stage.flipHorizontally}** | キャラクターを反対向きにします。 |
-| **{ui.stage.bringForward}** / **{ui.stage.sendBackward}** | キャラクターを、ほかのキャラクターの前や後ろに動かします。ダイアログボックスは常に一番上です。 |
-| **{ui.stage.removeFromStage}** | このカットから先、キャラクターを舞台から外します。 |
+| {ui.stage.flipHorizontally} | キャラクターを反対向きにします。 |
+| {ui.stage.bringForward} / {ui.stage.sendBackward} | キャラクターを、ほかのキャラクターの前や後ろに動かします。ダイアログボックスは常に一番上です。 |
+| {ui.stage.removeFromStage} | このカットから先、キャラクターを舞台から外します。 |
 
 インスペクターには、「{ui.stageCharacterInspector.size}」のスライダーと、キャラクターの名前と表情を編集するボタンもあります。
 

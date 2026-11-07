@@ -9,11 +9,11 @@ description: 保存や書き出しをせずに、エディターの中で、最�
 
 | 方法 | 始まる場所 |
 |---|---|
-| **{ui.topBar.play}**（トップバー、**Cmd+P** / **Ctrl+P**） | タイトル画面。 |
-| **{ui.topBar.playFromHere}**（トップバー、**Cmd+Shift+P** / **Ctrl+Shift+P**） | 選択中のカット。タイトル画面は表示されません。カットを選ぶまでは使えません。 |
-| カットまたはシーンの右クリックメニューの**{ui.contextMenus.playFromHere}** | そのカット、またはそのシーンの最初のカット。 |
-| [スクリプトモード](/novelworks-docs/ja/writing/script-mode/)の**{ui.scriptMode.playFromCursor}**（**Cmd+Enter** / **Ctrl+Enter**） | カーソルがある行。 |
-| マップのワークスペース（とマップの設定）の**{ui.topBar.testMap}** | マップ。マップのワークスペースでは、**{ui.topBar.playFromHere}**ボタンと **Cmd+Shift+P** / **Ctrl+Shift+P** が「マップをテスト」になります。[マップ](/novelworks-docs/ja/features/map/)を見てください。 |
+| {ui.topBar.play}（トップバー、**Cmd+P** / **Ctrl+P**） | タイトル画面。 |
+| {ui.topBar.playFromHere}（トップバー、**Cmd+Shift+P** / **Ctrl+Shift+P**） | 選択中のカット。タイトル画面は表示されません。カットを選ぶまでは使えません。 |
+| カットまたはシーンの右クリックメニューの{ui.contextMenus.playFromHere} | そのカット、またはそのシーンの最初のカット。 |
+| [スクリプトモード](/novelworks-docs/ja/writing/script-mode/)の{ui.scriptMode.playFromCursor}（**Cmd+Enter** / **Ctrl+Enter**） | カーソルがある行。 |
+| マップのワークスペース（とマップの設定）の{ui.topBar.testMap} | マップ。マップのワークスペースでは、{ui.topBar.playFromHere}ボタンと **Cmd+Shift+P** / **Ctrl+Shift+P** が「マップをテスト」になります。[マップ](/novelworks-docs/ja/features/map/)を見てください。 |
 
 プレイを始めるたびに、変数とアイテムは最初の値に戻ります。前のテストの内容は引き継がれません。
 
@@ -27,9 +27,9 @@ description: 保存や書き出しをせずに、エディターの中で、最�
 
 ## 停止
 
-- **{ui.playOverlay.stop}**をクリックするか、**Esc** を押します。ポーズメニュー、セーブ、ロード、履歴、オプション、イントロ、コンテンツに関する警告のどれかが開いている場合は、**Esc** でまずそれが閉じます。プレイモードでは **Esc** でインベントリは閉じません。閉じるには **I** を押します。
+- {ui.playOverlay.stop}をクリックするか、**Esc** を押します。ポーズメニュー、セーブ、ロード、履歴、オプション、イントロ、コンテンツに関する警告のどれかが開いている場合は、**Esc** でまずそれが閉じます。プレイモードでは **Esc** でインベントリは閉じません。閉じるには **I** を押します。
 - 停止すると、エディターは、プレイしていたシーンとカットを選択します。
 
 ## テストできないこと
 
-プレイモードは、書き出したゲームそのものではありません。「Made with NovelWorks」画面は、オンにしない限り表示されません。また、テストには専用のセーブが使われ、書き出したゲームのセーブとは別です。実際のゲームをブラウザで試すには、[Web書き出し](/novelworks-docs/ja/publish/web-export/)の**{ui.exportDialog.testInBrowser}**を使います。
+プレイモードは、書き出したゲームそのものではありません。「Made with NovelWorks」画面は、オンにしない限り表示されません。また、テストには専用のセーブが使われ、書き出したゲームのセーブとは別です。実際のゲームをブラウザで試すには、[Web書き出し](/novelworks-docs/ja/publish/web-export/)の{ui.exportDialog.testInBrowser}を使います。

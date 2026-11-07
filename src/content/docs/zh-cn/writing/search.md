@@ -20,12 +20,12 @@ description: 搜索整个游戏，跳到每个结果，并在所有地方替换�
 
 ## 搜索
 
-在 **{ui.searchPanel.find}** 中输入。下面一行会显示“第 3 个，共 12 个”或“没有结果。”。再往下，结果按场景分组（然后是角色，再是物品）。每一行都显示匹配所在的位置（“片段 4 · 对白”、“{tx.characterInspector.characterName}”……），以及一小段摘录，匹配处会高亮。最多列出 500 个结果：输入更多文字可以缩小搜索范围。
+在 {ui.searchPanel.find} 中输入。下面一行会显示“第 3 个，共 12 个”或“没有结果。”。再往下，结果按场景分组（然后是角色，再是物品）。每一行都显示匹配所在的位置（“片段 4 · 对白”、“{tx.characterInspector.characterName}”……），以及一小段摘录，匹配处会高亮。最多列出 500 个结果：输入更多文字可以缩小搜索范围。
 
 两个选项可以缩小搜索范围：
 
-- **{ui.searchPanel.matchCase}**：“Aa”不等于“aa”。默认关闭。
-- **{ui.searchPanel.wholeWordsOnly}**：匹配“{tx.gameUIPreview.mia}”，但不匹配“Miami”。默认关闭。
+- {ui.searchPanel.matchCase}：“Aa”不等于“aa”。默认关闭。
+- {ui.searchPanel.wholeWordsOnly}：匹配“{tx.gameUIPreview.mia}”，但不匹配“Miami”。默认关闭。
 
 你输入的文字会按原样搜索。没有任何模式匹配。
 
@@ -33,10 +33,10 @@ description: 搜索整个游戏，跳到每个结果，并在所有地方替换�
 
 ## 替换
 
-在 **{ui.searchPanel.replaceWith}** 中输入新文字。
+在 {ui.searchPanel.replaceWith} 中输入新文字。
 
-- **{ui.searchPanel.replace}** 替换所选的结果，然后跳到下一个。
-- 结果行上的图标（**{ui.searchPanel.replaceThisOne}**）只替换那一个，并且不会往下跳。
-- **{ui.searchPanel.replaceAll}** 替换游戏中的每一处匹配。NovelWorks 会先请你确认，告诉你有多少处匹配，以及可以撤销。替换内容为空会删除该文字。
+- {ui.searchPanel.replace} 替换所选的结果，然后跳到下一个。
+- 结果行上的图标（{ui.searchPanel.replaceThisOne}）只替换那一个，并且不会往下跳。
+- {ui.searchPanel.replaceAll} 替换游戏中的每一处匹配。NovelWorks 会先请你确认，告诉你有多少处匹配，以及可以撤销。替换内容为空会删除该文字。
 
-如果文字在找到匹配之后发生了变化，这处替换会被跳过。在整个游戏中替换是作为一个操作完成的，一次 **{ui.native.menu.undo}** 就能全部还原。会有消息告诉你替换了多少处匹配（“已替换 31 处匹配。”）。
+如果文字在找到匹配之后发生了变化，这处替换会被跳过。在整个游戏中替换是作为一个操作完成的，一次 {ui.native.menu.undo} 就能全部还原。会有消息告诉你替换了多少处匹配（“已替换 31 处匹配。”）。

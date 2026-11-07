@@ -3,23 +3,23 @@ title: 選択肢
 description: プレイヤーに項目を選ばせ、ゲームが覚えることを変え、別のシーンへ導きます。
 ---
 
-「**{ui.moments.choice}**」カットは、プレイヤーに2〜6個のボタンを表示します。各項目は、ゲームが覚えることを変えたり、物語を別のシーンへ進めたりできます。ほかの要素とのつながりは、[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
+「{ui.moments.choice}」カットは、プレイヤーに2〜6個のボタンを表示します。各項目は、ゲームが覚えることを変えたり、物語を別のシーンへ進めたりできます。ほかの要素とのつながりは、[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
 
 ## 選択肢を追加する
 
-タイムラインで「**{ui.moments.choice}**」カットを追加します。最初は空の項目が2つあります。インスペクターで書くことも、ゲーム画面に直接書くこともできます。
+タイムラインで「{ui.moments.choice}」カットを追加します。最初は空の項目が2つあります。インスペクターで書くことも、ゲーム画面に直接書くこともできます。
 
 ![項目が2つある選択肢：各項目が変えるものと、向かうシーン。](/novelworks-docs/screenshots/choice-options.png)
 
 ## 質問
 
-「**{ui.branchInspectors.questionOptional}**」は、項目の上のテキスト枠に、話者のいないナレーションとして表示されます。不要なら空のままにしてください。
+「{ui.branchInspectors.questionOptional}」は、項目の上のテキスト枠に、話者のいないナレーションとして表示されます。不要なら空のままにしてください。
 
 ## 項目
 
 各項目は、番号とテキストがついたカードです。
 
-- 「**{ui.branchInspectors.addOption}**」で項目を1つ追加します。選択肢には**最大6個**の項目を置け、6個になるとボタンは使えなくなります。
+- 「{ui.branchInspectors.addOption}」で項目を1つ追加します。選択肢には**最大6個**の項目を置け、6個になるとボタンは使えなくなります。
 - X で項目を削除します。選択肢には**最低2個**必要なので、2個になると X は使えなくなります。
 - 項目はドラッグで並べ替えられません。順番を変えるには、テキストを編集してください。
 
@@ -27,37 +27,37 @@ description: プレイヤーに項目を選ばせ、ゲームが覚えること�
 
 ## 項目の行き先
 
-「**{ui.branchInspectors.then}**」で、項目を選んだあとに起こることを決めます。
+「{ui.branchInspectors.then}」で、項目を選んだあとに起こることを決めます。
 
-- 「**{ui.linkSelects.continueNextMoment}**」：同じシーンの次のカットへ物語が続きます。
-- 「**{ui.linkSelects.orGoToScene}**」の下のシーン：ゲームはそのシーンの最初のカットに入ります。
-- 「**{ui.linkSelects.newScene}**」：空のシーンを作って、リンクします。
+- 「{ui.linkSelects.continueNextMoment}」：同じシーンの次のカットへ物語が続きます。
+- 「{ui.linkSelects.orGoToScene}」の下のシーン：ゲームはそのシーンの最初のカットに入ります。
+- 「{ui.linkSelects.newScene}」：空のシーンを作って、リンクします。
 
-シーンが削除されていると、一覧に「**{ui.linkSelects.deletedScenePickAnother}**」と表示され、警告で説明されます。ゲームでは、存在しないシーンは「続ける」と同じ動きをします。
+シーンが削除されていると、一覧に「{ui.linkSelects.deletedScenePickAnother}」と表示され、警告で説明されます。ゲームでは、存在しないシーンは「続ける」と同じ動きをします。
 
 プレイヤーが項目を選ぶと、ゲームはまず変更を適用し、そのあとリンクをたどります。
 
 ## 項目が変えるもの
 
-「**{ui.branchInspectors.changes}**」の下に、各項目が選ばれたときにゲームが覚えることを並べます。最初のボタンは「**{ui.memory.remember}**」です。必要なら[スコアやできごと](/novelworks-docs/ja/concepts/game-memory/)を作り、変更の追加まで一度に行います。スコアは「1を加算」、できごとは「はいにする」から始まります。
+「{ui.branchInspectors.changes}」の下に、各項目が選ばれたときにゲームが覚えることを並べます。最初のボタンは「{ui.memory.remember}」です。必要なら[スコアやできごと](/novelworks-docs/ja/concepts/game-memory/)を作り、変更の追加まで一度に行います。スコアは「1を加算」、できごとは「はいにする」から始まります。
 
 各変更は1行です。
 
-- **変数。** 変数を選びます。スコアでは「**{ui.branchInspectors.add}**」または「**{ui.branchInspectors.setTo}**」を選び、数字を入力します。できごとでは、いつも「**{ui.branchInspectors.setTo}**」で、はいかいいえを選びます。X で変更を削除します。
-- 「アイテム」（インベントリ機能がオンのとき）：「**{ui.branchInspectors.giveRemoveAnItem}**」。アイテムを選び、「**{ui.branchInspectors.give_0895a5}**」または「**{ui.branchInspectors.remove_7e5608}**」を選び、積み重ねられるアイテムでは個数も決めます。
+- **変数。** 変数を選びます。スコアでは「{ui.branchInspectors.add}」または「{ui.branchInspectors.setTo}」を選び、数字を入力します。できごとでは、いつも「{ui.branchInspectors.setTo}」で、はいかいいえを選びます。X で変更を削除します。
+- 「アイテム」（インベントリ機能がオンのとき）：「{ui.branchInspectors.giveRemoveAnItem}」。アイテムを選び、「{ui.branchInspectors.give_0895a5}」または「{ui.branchInspectors.remove_7e5608}」を選び、積み重ねられるアイテムでは個数も決めます。
 
 ゲームは、変更を順番に適用します。削除された変数やアイテム、または選ばれていない変数やアイテムを指す変更はスキップされます（エディターが警告します）。できごとへの加算は何もしません。1個だけのアイテムは1個を超えることはなく、積み重ねられるアイテムは0より下がりません。
 
 ## ときどきだけ表示される項目
 
-「**{ui.optionCondition.add}**」をクリックします。「**{ui.optionCondition.title}**」のブロックが表示され、[もし…](/novelworks-docs/ja/branching/conditions/)のケースと同じエディターが使えます。条件を1つ以上置け、複数あるときは「**{ui.conditionCases.matchAll}**」または「**{ui.conditionCases.matchAny}**」を選びます。
+「{ui.optionCondition.add}」をクリックします。「{ui.optionCondition.title}」のブロックが表示され、[もし…](/novelworks-docs/ja/branching/conditions/)のケースと同じエディターが使えます。条件を1つ以上置け、複数あるときは「{ui.conditionCases.matchAll}」または「{ui.conditionCases.matchAny}」を選びます。
 
-そのあと、「**{ui.optionCondition.whenFalse}**」を選びます。
+そのあと、「{ui.optionCondition.whenFalse}」を選びます。
 
-- 「**{ui.optionCondition.hidden}**」：項目は表示されず、ほかのボタンがすき間を詰めます。
-- 「**{ui.optionCondition.locked}**」：項目はグレー表示になり、選べません。
+- 「{ui.optionCondition.hidden}」：項目は表示されず、ほかのボタンがすき間を詰めます。
+- 「{ui.optionCondition.locked}」：項目はグレー表示になり、選べません。
 
-「**{ui.optionCondition.remove}**」で、項目はまた常に選べる状態に戻ります。最後の条件を削除しても同じです。
+「{ui.optionCondition.remove}」で、項目はまた常に選べる状態に戻ります。最後の条件を削除しても同じです。
 
 **プレイヤーには、いつも先へ進む道が残ります。** すべての項目が隠れる、またはロックされることになる場合は、ゲームはすべての項目を通常どおり表示します。
 

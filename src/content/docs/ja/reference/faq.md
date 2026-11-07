@@ -17,9 +17,9 @@ description: よく聞かれる質問への、短い答え。
 
 **プロジェクトはどこにありますか？** 作成するときに選んだフォルダの中です。プロジェクト設定の「{tx.projectSettings.savedIn}」に表示されます。プロジェクトをコピーするには、フォルダ全体をコピーしてください。
 
-**変更が消えてしまいました。** まず **{ui.topBar.undo}**（最大 200 ステップ）を試し、次に **{ui.native.menu.file} → バックアップから復元…** を試してください。[保存、バックアップ、取り消し](/novelworks-docs/ja/getting-started/saving-and-undo/)を参照してください。
+**変更が消えてしまいました。** まず {ui.topBar.undo}（最大 200 ステップ）を試し、次に **{ui.native.menu.file} → バックアップから復元…** を試してください。[保存、バックアップ、取り消し](/novelworks-docs/ja/getting-started/saving-and-undo/)を参照してください。
 
-**画像、シーン、変数をうっかり削除してしまいました。** **{ui.topBar.undo}** を押してください。削除した画像は `backups/deleted-assets` に残っていて、取り消すと戻ります。削除したシーンや変数も取り消せます。それまでの間、それを使っていた場所には警告が表示されます。
+**画像、シーン、変数をうっかり削除してしまいました。** {ui.topBar.undo} を押してください。削除した画像は `backups/deleted-assets` に残っていて、取り消すと戻ります。削除したシーンや変数も取り消せます。それまでの間、それを使っていた場所には警告が表示されます。
 
 **プロジェクトを別のコンピュータに移せますか？** はい。フォルダをコピーして、**{ui.native.menu.file} → プロジェクトを開く…** で開いてください。
 
@@ -35,7 +35,7 @@ description: よく聞かれる質問への、短い答え。
 
 ## テストと公開
 
-**途中からテストするには？** カットを選んで **{ui.leftPanel.playFromHere}** を使います。[プレイ、ここからプレイ、マップのテスト](/novelworks-docs/ja/testing/play/)を参照してください。
+**途中からテストするには？** カットを選んで {ui.leftPanel.playFromHere} を使います。[プレイ、ここからプレイ、マップのテスト](/novelworks-docs/ja/testing/play/)を参照してください。
 
 **警告はどういう意味ですか？** [問題一覧](/novelworks-docs/ja/testing/problems/)を参照してください。警告が出ても、プレイや書き出しはできます。
 

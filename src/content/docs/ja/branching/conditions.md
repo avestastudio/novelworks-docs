@@ -3,7 +3,7 @@ title: 「もし…」条件
 description: ゲームが覚えていることに応じて、物語を別のシーンへ進めます。ケースはいくつでも作れます。
 ---
 
-「**{ui.moments.condition}**」カットは、ゲームが覚えていることを調べて、物語をあるシーンへ進めます。**プレイヤーにはこのカットは見えません。** ゲームが調べて、すぐに先へ進みます。図で見る考え方は、[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
+「{ui.moments.condition}」カットは、ゲームが覚えていることを調べて、物語をあるシーンへ進めます。**プレイヤーにはこのカットは見えません。** ゲームが調べて、すぐに先へ進みます。図で見る考え方は、[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
 
 ## ケース
 
@@ -18,7 +18,7 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 
 ![条件、「進む先」、「それ以外」がある「もし…」カットのインスペクター。](/novelworks-docs/screenshots/if-conditions.png)
 
-- 「**{ui.conditionCases.addCase}**」で、最後にケースを追加します。
+- 「{ui.conditionCases.addCase}」で、最後にケースを追加します。
 - カードの矢印で、ケースを上下に動かせます。最初に成り立ったケースが選ばれるので、順番は重要です。
 - カードのボタンで、ケースを削除します。「もし…」には、いつも最低1つのケースが残ります。
 
@@ -26,7 +26,7 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 
 ## 条件
 
-条件は「もし」という言葉で始まり、変数またはアイテムを調べます。インベントリ機能がオンのときは、「**{ui.branchInspectors.whatToCheck}**」（変数かアイテム）の選択が表示されます。
+条件は「もし」という言葉で始まり、変数またはアイテムを調べます。インベントリ機能がオンのときは、「{ui.branchInspectors.whatToCheck}」（変数かアイテム）の選択が表示されます。
 
 ### 変数
 
@@ -34,23 +34,23 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 
 | 種類 | 比較 |
 |---|---|
-| **{ui.variables.number}** | {ui.conditionTests.is}, {ui.moments.isNot}, {ui.moments.atLeast}, {ui.moments.atMost}, {ui.moments.moreThan}, {ui.moments.lessThan} |
-| **{ui.variables.yesNo}** | {ui.conditionTests.is}, {ui.moments.isNot} |
+| {ui.variables.number} | {ui.conditionTests.is}, {ui.moments.isNot}, {ui.moments.atLeast}, {ui.moments.atMost}, {ui.moments.moreThan}, {ui.moments.lessThan} |
+| {ui.variables.yesNo} | {ui.conditionTests.is}, {ui.moments.isNot} |
 
 スコアのテストの下には、選択肢の合計がどこまで届くか、そしてそのテストが成り立つことがあるかどうかを示す1行が表示されます。[選択肢が行き着く先](/novelworks-docs/ja/branching/reach/)を見てください。まだ変数がない場合は、エディターがそう伝え、変数タブで作るように案内します。
 
 ### アイテム
 
-「プレイヤーが」、**{ui.conditionTests.has}**、**{ui.conditionTests.doesnTHave}**、または（積み重ねられるアイテムの場合）そのアイテムを一定数**{ui.conditionTests.hasAtLeast}**。
+「プレイヤーが」、{ui.conditionTests.has}、{ui.conditionTests.doesnTHave}、または（積み重ねられるアイテムの場合）そのアイテムを一定数{ui.conditionTests.hasAtLeast}。
 
 ### 1つのケースに複数の条件
 
-「**{ui.conditionCases.addTest}**」をクリックします。そのあと、条件の組み合わせ方を選びます。
+「{ui.conditionCases.addTest}」をクリックします。そのあと、条件の組み合わせ方を選びます。
 
-- 「**{ui.conditionCases.matchAll}**」：すべての条件が成り立つ必要があります（「{tx.conditionCases.and}」）。
-- 「**{ui.conditionCases.matchAny}**」：どれか1つでよい（「または」）。
+- 「{ui.conditionCases.matchAll}」：すべての条件が成り立つ必要があります（「{tx.conditionCases.and}」）。
+- 「{ui.conditionCases.matchAny}」：どれか1つでよい（「または」）。
 
-この選択は、ケースに条件が2つ以上あるときに表示されます。条件を削除するには「**{ui.conditionCases.removeTest}**」を使います。これは条件が2つ以上あるときだけ表示されます。条件が1つになると、組み合わせの選択は消えます。
+この選択は、ケースに条件が2つ以上あるときに表示されます。条件を削除するには「{ui.conditionCases.removeTest}」を使います。これは条件が2つ以上あるときだけ表示されます。条件が1つになると、組み合わせの選択は消えます。
 
 ## 進む先
 
@@ -61,7 +61,7 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 - ケースは上から下へ試されます。最初に成り立ったものが選ばれます。
 - どれも成り立たない場合、ゲームは*それ以外*へ進みます。ない場合は続けます。
 - 選ばれたケースにシーンがない場合、またはシーンが削除されている場合は、次のカットに続きます。
-- **削除された、または一度も選ばれていない変数やアイテムを調べるケースにゲームが到達した場合、ゲームは推測しません。** 「もし…」全体をスキップし、下のケースや*それ以外*を見ずに、次のカットに続きます。（その上にあるケースが成り立っていれば、そちらが先に選ばれます。）複数の条件のうち1つだけが必要なケース（「**{ui.conditionCases.matchAny}**」）でも、足りないものが1つあるとケース全体が成り立たなくなります。エディターが警告するので、警告を直してください。
+- **削除された、または一度も選ばれていない変数やアイテムを調べるケースにゲームが到達した場合、ゲームは推測しません。** 「もし…」全体をスキップし、下のケースや*それ以外*を見ずに、次のカットに続きます。（その上にあるケースが成り立っていれば、そちらが先に選ばれます。）複数の条件のうち1つだけが必要なケース（「{ui.conditionCases.matchAny}」）でも、足りないものが1つあるとケース全体が成り立たなくなります。エディターが警告するので、警告を直してください。
 - スコアは現在の値と比較されます。プレイヤーがまだ変えていない場合は、初期値と比較されます。
 
 ## ループ
@@ -70,7 +70,7 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 
 ## 試してみる
 
-ケースの下の「**{ui.memory.tryTitle}**」を使うと、プレイせずに「もし…」を確認できます。スコアがある値だと仮定したり、プレイヤーがあるアイテムを何個か持っていると仮定したりすると、NovelWorks が物語の進む先を教えてくれます。
+ケースの下の「{ui.memory.tryTitle}」を使うと、プレイせずに「もし…」を確認できます。スコアがある値だと仮定したり、プレイヤーがあるアイテムを何個か持っていると仮定したりすると、NovelWorks が物語の進む先を教えてくれます。
 
 - 「ケース 2 が成立：「…」へ進みます」
 - 「それ以外：「…」へ進みます」、または「{tx.memory.tryContinue}」

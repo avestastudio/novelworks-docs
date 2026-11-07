@@ -16,16 +16,16 @@ background : Station
 
 ## 切换到剧本模式
 
-在游戏画面上方，开关**{ui.topBar.storyView}**有两个按钮：**{ui.topBar.visual}**（游戏画面和时间线）和**{ui.topBar.script}**（文字形式的场景）。剧本视图里也有同样的开关，所以你可以切换回去。
+在游戏画面上方，开关{ui.topBar.storyView}有两个按钮：{ui.topBar.visual}（游戏画面和时间线）和{ui.topBar.script}（文字形式的场景）。剧本视图里也有同样的开关，所以你可以切换回去。
 
 ![剧本模式：左边是文字形式的场景，右边是光标所在的片段。](/novelworks-docs/screenshots/script-mode.png)
 
 ## 文字显示什么
 
-剧本工具栏有一个开关**{ui.scriptMode.scope}**：
+剧本工具栏有一个开关{ui.scriptMode.scope}：
 
 - **场景的名称**：只显示所选的场景。
-- **{ui.scriptMode.wholeGame}**：游戏的每个场景都在一段文字里，每个场景都在一个 `# Name` 标题下面。你可以在标题上重命名场景，用新标题添加场景，也可以在场景之间移动行。如果你删除了某个场景的标题，这个场景会被保留，并移到其他场景之后。地图自己的隐藏场景不包括在内。
+- {ui.scriptMode.wholeGame}：游戏的每个场景都在一段文字里，每个场景都在一个 `# Name` 标题下面。你可以在标题上重命名场景，用新标题添加场景，也可以在场景之间移动行。如果你删除了某个场景的标题，这个场景会被保留，并移到其他场景之后。地图自己的隐藏场景不包括在内。
 
 单场景视图里的 `# heading` 会被忽略并标出。
 
@@ -33,7 +33,7 @@ background : Station
 
 右侧显示**光标所在的片段**，就是它在游戏里的样子（“第 3 个时刻，共 12 个”）。移动光标会选中那个片段，而在别处选中某个片段，光标会移到它所在的行。接着上一行继续的行，属于同一个片段。预览栏可以拖动它的边缘来调整大小；双击边缘可以重置。
 
-在预览上方，**{ui.branches.whereTitle}**行显示所选片段通向哪里，和可视化视图里一样（见[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。有一个按钮可以把它隐藏。
+在预览上方，{ui.branches.whereTitle}行显示所选片段通向哪里，和可视化视图里一样（见[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。有一个按钮可以把它隐藏。
 
 ## 编辑
 
@@ -48,20 +48,20 @@ background : Station
 - 在行首输入 `/`，可以从列表里选一个命令。输入时会建议角色、图片、场景、变量和物品的名称，在 `background :`、`show :`、`hide :`、`give`、`remove`、`->`、`+`、`=` 和 `if` 之后，列表里是对应种类的名称。
 - **Tab** 增加缩进，**Shift+Tab** 减少缩进。
 - 角色名会用角色的姓名颜色上色。
-- **?** 按钮（**{ui.scriptMode.help}**）会打开一个“{tx.script.help.title}”面板，里面有格式说明。
+- **?** 按钮（{ui.scriptMode.help}）会打开一个“{tx.script.help.title}”面板，里面有格式说明。
 
 ## 还不存在的名称
 
 不认识的名称会加下划线，快速修复可以一键创建它：
 
-- 工具栏里的按钮**{ui.scriptMode.createMissing_other}**会创建文字里提到的所有缺失的角色、表情、场景、变量和物品（**Cmd+.** / **Ctrl+.**）；
+- 工具栏里的按钮{ui.scriptMode.createMissing_other}会创建文字里提到的所有缺失的角色、表情、场景、变量和物品（**Cmd+.** / **Ctrl+.**）；
 - 在某一行上，快速修复只会创建那一个。
 
 新创建的表情还没有图片。如果这一行拿变量做比较，或把它设为真或假，变量会被创建为事实，否则创建为分数。如果这一行有 `x3` 这样的数量，物品就是可堆叠的。
 
 ## 从光标处试玩
 
-**{ui.scriptMode.playFromCursor}**会从光标所在的行开始播放游戏（**Cmd+Enter** / **Ctrl+Enter**）。
+{ui.scriptMode.playFromCursor}会从光标所在的行开始播放游戏（**Cmd+Enter** / **Ctrl+Enter**）。
 
 ## 剧本模式里的警告
 

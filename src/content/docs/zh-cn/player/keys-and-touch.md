@@ -37,14 +37,14 @@ description: 玩家在游戏中可以使用的所有按键、鼠标操作和触�
 
 - **轻点**会继续，和点击一样。
 - 在**带标签**的探索区域上，第一次轻点显示标签，第二次轻点才执行。没有标签时，轻点一次就执行。
-- 游戏中没有滑动、长按或双击。右键点击在触屏上没有对应的操作：页面会为触屏设备增加一个**{ui.gameUIInspector.menu}**按钮。
+- 游戏中没有滑动、长按或双击。右键点击在触屏上没有对应的操作：页面会为触屏设备增加一个{ui.gameUIInspector.menu}按钮。
 - 拖动可以滚动历史记录。
 
 ## 导出的网页还增加了什么
 
 右上角有一小组按钮（在被触摸或悬停之前是淡淡的）：
 
-- **{ui.gameUIInspector.menu}**，仅在触屏设备上：打开暂停菜单，因为触屏没有右键，也没有 Esc。
-- **{rt.player.fullscreen}** / **{rt.player.exitFullscreen}**，在浏览器支持时出现（iPhone 上没有）。
+- {ui.gameUIInspector.menu}，仅在触屏设备上：打开暂停菜单，因为触屏没有右键，也没有 Esc。
+- {rt.player.fullscreen} / {rt.player.exitFullscreen}，在浏览器支持时出现（iPhone 上没有）。
 
 网页版游戏中没有“退出”按钮。游戏会按窗口大小等比缩放，四周留有黑边。它需要 JavaScript，还需要允许本地存储的浏览器才能保存存档。见[网页导出](/novelworks-docs/zh-cn/publish/web-export/)。

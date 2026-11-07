@@ -9,13 +9,13 @@ description: 把你的游戏变成一个文件夹和一个 .zip，可在任何�
 
 ## 步骤
 
-1. **查看警告。**如果 NovelWorks 发现有需要检查的地方，会把它们列出来：“导出前有 N 件事需要检查。游戏仍可正常游玩，但玩家可能会注意到。”每一行都会说明位置（“公园，第 3 个片段 — …”）。这时按钮会变成**{ui.exportDialog.exportAnyway}**。见[问题](/novelworks-docs/zh-cn/testing/problems/)。
-2. **选择保存位置。****{ui.exportDialog.saveTo}**会显示一个文件夹。NovelWorks 会记住你为这个项目最后一次使用的文件夹，否则会建议放在包含你项目的文件夹里。**{ui.exportDialog.change}**可以选择另一个文件夹。
-3. 点击**{ui.exportDialog.export}**。在完成之前，按钮上显示“{tx.exportDialog.exporting}”。
+1. **查看警告**。如果 NovelWorks 发现有需要检查的地方，会把它们列出来：“导出前有 N 件事需要检查。游戏仍可正常游玩，但玩家可能会注意到。”每一行都会说明位置（“公园，第 3 个片段 — …”）。这时按钮会变成{ui.exportDialog.exportAnyway}。见[问题](/novelworks-docs/zh-cn/testing/problems/)。
+2. **选择保存位置**。{ui.exportDialog.saveTo}会显示一个文件夹。NovelWorks 会记住你为这个项目最后一次使用的文件夹，否则会建议放在包含你项目的文件夹里。{ui.exportDialog.change}可以选择另一个文件夹。
+3. 点击{ui.exportDialog.export}。在完成之前，按钮上显示“{tx.exportDialog.exporting}”。
 4. 当它显示“{tx.exportDialog.yourWebGameIsReady}”时，会给出 .zip 的名称（用于分享或上传；旁边的文件夹里是同一个游戏，只是没有压缩）和三个按钮：
-   - **{ui.exportDialog.showInFinder}**，在你的文件管理器中显示该文件（它的名称在所有电脑上都写着“Finder”）；
-   - **{ui.exportDialog.testInBrowser}**，在你的默认浏览器中，通过本地地址玩导出的游戏；
-   - **{ui.exportDialog.done}**。
+   - {ui.exportDialog.showInFinder}，在你的文件管理器中显示该文件（它的名称在所有电脑上都写着“Finder”）；
+   - {ui.exportDialog.testInBrowser}，在你的默认浏览器中，通过本地地址玩导出的游戏；
+   - {ui.exportDialog.done}。
 
 ![导出完成时显示的窗口。](/novelworks-docs/screenshots/export-done.png)
 
@@ -47,7 +47,7 @@ NovelWorks 会在你选择的文件夹中创建：
 
 - 首先是一段简短的 **NovelWorks 启动画面**：标志和“{tx.splash.tagline}”，约 3 秒，可以跳过。（编辑器把它叫作“Made with NovelWorks”画面。）
 - 页面标题就是你游戏的标题，页面语言就是你的游戏语言。页面图标是标题的第一个字母，底色是你的主色。
-- 游戏会按窗口大小缩放，保持原有比例，四周留有黑边，电脑和手机上都是如此。浏览器允许时有一个**{rt.player.fullscreen}**按钮，触屏上有一个**{ui.gameUIInspector.menu}**按钮。见[按键与触屏](/novelworks-docs/zh-cn/player/keys-and-touch/)。
+- 游戏会按窗口大小缩放，保持原有比例，四周留有黑边，电脑和手机上都是如此。浏览器允许时有一个{rt.player.fullscreen}按钮，触屏上有一个{ui.gameUIInspector.menu}按钮。见[按键与触屏](/novelworks-docs/zh-cn/player/keys-and-touch/)。
 - 存档保存在玩家的浏览器里，更新游戏后仍会保留。见[存档与读档](/novelworks-docs/zh-cn/player/save-and-load/)。
 - 它需要 JavaScript。没有 JavaScript 时，页面会显示“{tx.export.javascriptRequired}”
 

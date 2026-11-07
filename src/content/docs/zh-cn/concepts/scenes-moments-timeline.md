@@ -11,16 +11,16 @@ description: NovelWorks 如何组织一个故事，从场景到片段。
 
 | 种类 | 作用 | 玩家能看到吗 |
 |---|---|---|
-| **{ui.moments.dialogue}** | 一句对话或旁白。 | 能 |
-| **{ui.moments.choice}** | 玩家选一个选项。它可以改变变量，并通向另一个场景。 | 能 |
-| **{ui.moments.condition}** | 根据某个变量把故事带向别处。 | 看不到，游戏自己判断后继续 |
-| **{ui.moments.jump}** | 直接去另一个场景。 | 看不到 |
-| **{ui.moments.ending}** | 显示结局的名称，然后回到标题画面。 | 能 |
-| **{ui.moments.exploration}** | 没有文本框：玩家点击图片上的区域来四处查看、改变变量或前往另一个场景。 | 能 |
-| **{ui.moments.item}** | 给玩家物品或收走物品，并显示一条简短的提示。 | 只能看到提示 |
-| **{ui.moments.showMap}** | 立刻打开地图。 | 只能看到地图 |
+| {ui.moments.dialogue} | 一句对话或旁白。 | 能 |
+| {ui.moments.choice} | 玩家选一个选项。它可以改变变量，并通向另一个场景。 | 能 |
+| {ui.moments.condition} | 根据某个变量把故事带向别处。 | 看不到，游戏自己判断后继续 |
+| {ui.moments.jump} | 直接去另一个场景。 | 看不到 |
+| {ui.moments.ending} | 显示结局的名称，然后回到标题画面。 | 能 |
+| {ui.moments.exploration} | 没有文本框：玩家点击图片上的区域来四处查看、改变变量或前往另一个场景。 | 能 |
+| {ui.moments.item} | 给玩家物品或收走物品，并显示一条简短的提示。 | 只能看到提示 |
+| {ui.moments.showMap} | 立刻打开地图。 | 只能看到地图 |
 
-只有在打开物品栏和地图功能时，**{ui.moments.item}**和**{ui.moments.showMap}**才会出现在列表里。请看[探索](/novelworks-docs/zh-cn/features/exploration/)、[物品栏](/novelworks-docs/zh-cn/features/inventory/)和[地图](/novelworks-docs/zh-cn/features/map/)。
+只有在打开物品栏和地图功能时，{ui.moments.item}和{ui.moments.showMap}才会出现在列表里。请看[探索](/novelworks-docs/zh-cn/features/exploration/)、[物品栏](/novelworks-docs/zh-cn/features/inventory/)和[地图](/novelworks-docs/zh-cn/features/map/)。
 
 场景之间**只通过片段**相互连接：选择的选项、如果的各种情况、跳转，或者探索的区域。一个场景里的片段总是一个接一个地播放。
 
@@ -41,15 +41,15 @@ description: NovelWorks 如何组织一个故事，从场景到片段。
 
 ## 起始场景
 
-游戏从起始场景开始，它在场景标签页里用星标标出。想更换它，请在另一个场景上使用**{ui.scenesTab.makeStartScene}**。
+游戏从起始场景开始，它在场景标签页里用星标标出。想更换它，请在另一个场景上使用{ui.scenesTab.makeStartScene}。
 
 ## 玩家无法到达的场景
 
-从起始场景出发，如果没有任何选择、条件、跳转或区域通向某个场景，它在场景标签页里会被标为**{ui.scenesTab.unreachable}**，并带有一个警告。请看[问题](/novelworks-docs/zh-cn/testing/problems/)。
+从起始场景出发，如果没有任何选择、条件、跳转或区域通向某个场景，它在场景标签页里会被标为{ui.scenesTab.unreachable}，并带有一个警告。请看[问题](/novelworks-docs/zh-cn/testing/problems/)。
 
 ## 摘要和写作状态
 
-选中一个场景，可以给它写一段**{ui.sceneInspector.summary}**。它只给你自己看，并显示在剧情地图上。每个场景还有一个**{ui.sceneInspector.writingStatus}**：**{ui.shared.outline.toWrite}**、**{ui.shared.outline.draft}**或**{ui.shared.outline.done}**。如果你不设置，它在有对话行出现文字之前是**{ui.shared.outline.toWrite}**，之后是**{ui.shared.outline.draft}**。
+选中一个场景，可以给它写一段{ui.sceneInspector.summary}。它只给你自己看，并显示在剧情地图上。每个场景还有一个{ui.sceneInspector.writingStatus}：{ui.shared.outline.toWrite}、{ui.shared.outline.draft}或{ui.shared.outline.done}。如果你不设置，它在有对话行出现文字之前是{ui.shared.outline.toWrite}，之后是{ui.shared.outline.draft}。
 
 ## 关于场景的更多内容
 

@@ -7,12 +7,12 @@ description: NovelWorks 体験版でできること、できないこと、製�
 
 ## 制限：書き出したゲームは最大5シーン
 
-体験版でもゲームを書き出せますが、**シーンが5つ以下の場合だけ**です。数えられるのは、「**{ui.leftPanel.scenes}**」タブに並んでいるシーンです。（マップのワークスペース専用の隠しシーンは数えません。）
+体験版でもゲームを書き出せますが、**シーンが5つ以下の場合だけ**です。数えられるのは、「{ui.leftPanel.scenes}」タブに並んでいるシーンです。（マップのワークスペース専用の隠しシーンは数えません。）
 
-プロジェクトのシーンがそれより多いと、ファイルメニューの「**{ui.native.menu.exportForWeb}**」が「**{ui.demoExportDialog.exportYourGame}**」というウインドウを開きます。体験版で使えるシーン数とプロジェクトのシーン数が表示され、2つのボタンがあります。
+プロジェクトのシーンがそれより多いと、ファイルメニューの「{ui.native.menu.exportForWeb}」が「{ui.demoExportDialog.exportYourGame}」というウインドウを開きます。体験版で使えるシーン数とプロジェクトのシーン数が表示され、2つのボタンがあります。
 
-- 「**{ui.demoExportDialog.getTheFullVersion}**」を押すと、製品版を入手できる NovelWorks のページが開きます。
-- 「**{ui.demoExportDialog.notNow}**」を押すと、ウインドウが閉じます。
+- 「{ui.demoExportDialog.getTheFullVersion}」を押すと、製品版を入手できる NovelWorks のページが開きます。
+- 「{ui.demoExportDialog.notNow}」を押すと、ウインドウが閉じます。
 
 ほかに制限はありません。編集とプレイの間は、シーン、カット、キャラクター、画像の数に上限がありません。もっと長いゲームを書き出すには、シーンを削除するか、製品版を入手してください。
 

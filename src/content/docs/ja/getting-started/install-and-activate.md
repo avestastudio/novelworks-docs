@@ -31,15 +31,15 @@ Mac 版アプリには、まだ **Apple Developer ID の署名がありません
 
 ## エディターの言語を選ぶ
 
-初めて起動すると、NovelWorks が「**{ui.languageDialog.title}**」と聞いてきます。言語を選んで「**{ui.languageDialog.continue}**」をクリックしてください。選ばずにウインドウを閉じた場合は、お使いのコンピューターの言語になります。あとから **{ui.menu.view} → {ui.native.menu.language}** で変えられます。そのあと[プロジェクト画面](/novelworks-docs/ja/getting-started/projects-screen/)が表示されます。
+初めて起動すると、NovelWorks が「{ui.languageDialog.title}」と聞いてきます。言語を選んで「{ui.languageDialog.continue}」をクリックしてください。選ばずにウインドウを閉じた場合は、お使いのコンピューターの言語になります。あとから **{ui.menu.view} → {ui.native.menu.language}** で変えられます。そのあと[プロジェクト画面](/novelworks-docs/ja/getting-started/projects-screen/)が表示されます。
 
 ## NovelWorks を認証する（製品版）
 
 製品版では、購入時に届くダウンロードキーが必要です。キーがなくても、プロジェクトを開いたり、編集したり、プレイしたりはできます。ロックされるのは書き出しだけです。ファイルメニューの書き出しコマンドを選ぶと、代わりに認証ウインドウが開きます。
 
 1. **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** を開きます。同じウインドウは、プロジェクト画面と「NovelWorks について」ウインドウからも開けます。
-2. 「**{ui.activateDialog.downloadKey}**」にダウンロードキーを貼り付けます。ダウンロードページのアドレス全体を貼り付けてもかまいません。
-3. 「**{ui.activateDialog.activate}**」をクリックします。
+2. 「{ui.activateDialog.downloadKey}」にダウンロードキーを貼り付けます。ダウンロードページのアドレス全体を貼り付けてもかまいません。
+3. 「{ui.activateDialog.activate}」をクリックします。
 
 キーの見つけ方：購入時のメールをブラウザーで開き、NovelWorks のダウンロードページを開いて、ダウンロードキーかページのアドレスをコピーします。
 
@@ -48,7 +48,7 @@ Mac 版アプリには、まだ **Apple Developer ID の署名がありません
 知っておくと便利なこと：
 
 - 認証は認証サーバーに接続するので、インターネット接続が必要です。いったん認証すれば、NovelWorks は起動のたびにお使いのコンピューター上でライセンスを確認します。そのため、インターネットがなくても書き出せます。
-- 認証ウィンドウには、**1つのキーは最大3台のコンピューターで使える**こと、そして1台の認証を解除すれば別のコンピューターでキーを使えることが書かれています。解除するには、同じウインドウを開いて「**{ui.activateDialog.deactivateThisDevice}**」をクリックします。これもサーバーに接続するので、インターネット接続が必要です。
-- キーがすでに上限の台数で認証されていると表示されたら、別のコンピューターで NovelWorks の認証を解除するか、ウインドウの「**{ui.activateDialog.contactUs}**」を使ってください。
+- 認証ウィンドウには、**1つのキーは最大3台のコンピューターで使える**こと、そして1台の認証を解除すれば別のコンピューターでキーを使えることが書かれています。解除するには、同じウインドウを開いて「{ui.activateDialog.deactivateThisDevice}」をクリックします。これもサーバーに接続するので、インターネット接続が必要です。
+- キーがすでに上限の台数で認証されていると表示されたら、別のコンピューターで NovelWorks の認証を解除するか、ウインドウの「{ui.activateDialog.contactUs}」を使ってください。
 
 認証に失敗したときは、ウインドウに対処法を示すメッセージが表示されます。[FAQ](/novelworks-docs/ja/reference/faq/)もご覧ください。

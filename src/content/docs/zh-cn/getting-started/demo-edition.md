@@ -7,12 +7,12 @@ description: NovelWorks 试玩版能做什么、不能做什么，以及它与�
 
 ## 限制：导出的游戏最多 5 个场景
 
-在试玩版里你可以导出游戏，但**只有场景不超过 5 个时才行**。统计的场景就是**{ui.leftPanel.scenes}**标签页里列出的那些。（地图工作区自带的隐藏场景不计算在内。）
+在试玩版里你可以导出游戏，但**只有场景不超过 5 个时才行**。统计的场景就是{ui.leftPanel.scenes}标签页里列出的那些。（地图工作区自带的隐藏场景不计算在内。）
 
-如果你的项目场景更多，文件菜单里的**{ui.native.menu.exportForWeb}**会打开一个标题为**{ui.demoExportDialog.exportYourGame}**的窗口。它会告诉你试玩版允许多少个场景、你的项目有多少个，并提供两个按钮：
+如果你的项目场景更多，文件菜单里的{ui.native.menu.exportForWeb}会打开一个标题为{ui.demoExportDialog.exportYourGame}的窗口。它会告诉你试玩版允许多少个场景、你的项目有多少个，并提供两个按钮：
 
-- **{ui.demoExportDialog.getTheFullVersion}**会打开 NovelWorks 页面，你可以在那里获取完整版。
-- **{ui.demoExportDialog.notNow}**会关闭窗口。
+- {ui.demoExportDialog.getTheFullVersion}会打开 NovelWorks 页面，你可以在那里获取完整版。
+- {ui.demoExportDialog.notNow}会关闭窗口。
 
 其他方面都没有限制：编辑和试玩时，场景、片段、角色和图片的数量不受限制。想导出更长的游戏，请删除一些场景，或者获取完整版。
 
@@ -20,7 +20,7 @@ description: NovelWorks 试玩版能做什么、不能做什么，以及它与�
 
 用试玩版导出的游戏带有标记：
 
-- 开场画面显示**“Made with NovelWorks Demo”**，而不是通常的标语；
+- 开场画面显示“**Made with NovelWorks Demo**”，而不是通常的标语；
 - 游戏运行时，角落里会一直显示一个小小的 **NovelWorks Demo** 标志。
 
 你的项目文件本身不会有任何变化，用完整版导出的游戏则没有这两种标记。

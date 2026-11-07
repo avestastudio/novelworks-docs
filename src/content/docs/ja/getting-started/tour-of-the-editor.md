@@ -15,13 +15,13 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 - プロジェクト名（または「名称未設定のプロジェクト」）。クリックすると、インスペクターにプロジェクトの設定が表示されます（[エディターとプロジェクトの設定](/novelworks-docs/ja/getting-started/editor-settings/)をご覧ください）。
 - **保存の表示**：{ui.topBar.unsavedChanges}、{ui.topBar.savedAuto}、{ui.topBar.saved} のいずれかです。
 - **3つのモード**：
-  - **{ui.topBar.story}**：シーン、カット、キャラクター。物語を書く場所です。
-  - **{ui.topBar.storyMap}**：ゲームのすべてのシーンと、選択肢、条件、ジャンプがそれらをどうつないでいるか。
-  - **{ui.topBar.gameUI}**：ゲームの見た目（タイトル画面、ダイアログボックス、メニュー）。
-- 「**{ui.topBar.undo}**」と「**{ui.topBar.redo}**」の矢印。
-- 「**{ui.topBar.save}**」。
-- 「**{ui.topBar.playFromHere}**」は、選んだカットからプレイします。マップのワークスペースでは「**{ui.topBar.testMap}**」になります。
-- 「**{ui.topBar.play}**」は、タイトル画面からプレイします。
+  - {ui.topBar.story}：シーン、カット、キャラクター。物語を書く場所です。
+  - {ui.topBar.storyMap}：ゲームのすべてのシーンと、選択肢、条件、ジャンプがそれらをどうつないでいるか。
+  - {ui.topBar.gameUI}：ゲームの見た目（タイトル画面、ダイアログボックス、メニュー）。
+- 「{ui.topBar.undo}」と「{ui.topBar.redo}」の矢印。
+- 「{ui.topBar.save}」。
+- 「{ui.topBar.playFromHere}」は、選んだカットからプレイします。マップのワークスペースでは「{ui.topBar.testMap}」になります。
+- 「{ui.topBar.play}」は、タイトル画面からプレイします。
 
 ウインドウが狭いと、モード名と「{tx.leftPanel.playFromHere}」の文字はアイコンに縮みます。
 
@@ -29,13 +29,13 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 
 タブは次のとおりです。
 
-- **{ui.leftPanel.scenes}**：シーン。ドラッグで並べ替えられ、星印が開始シーンです。
-- **{ui.leftPanel.assets}**：画像。「**{ui.assetsTab.import}**」ボタンと、種類別のフィルターがあります。
-- **{ui.leftPanel.characters}**：キャラクターと、それぞれの表情の数。
-- **{ui.leftPanel.variables}**：ゲームが覚えていること。
-- **{ui.leftPanel.items}**：インベントリ機能がオンのときだけ表示されます。
+- {ui.leftPanel.scenes}：シーン。ドラッグで並べ替えられ、星印が開始シーンです。
+- {ui.leftPanel.assets}：画像。「{ui.assetsTab.import}」ボタンと、種類別のフィルターがあります。
+- {ui.leftPanel.characters}：キャラクターと、それぞれの表情の数。
+- {ui.leftPanel.variables}：ゲームが覚えていること。
+- {ui.leftPanel.items}：インベントリ機能がオンのときだけ表示されます。
 
-一番下には、「**{ui.leftPanel.map}**」（マップ機能がオンのときだけ）、「**{ui.leftPanel.features}**」（ゲームのオプションの部品の一覧を開きます）、30秒ごとに変わるヒントがあります。検索中（**{ui.native.menu.edit} → {ui.native.menu.findAndReplace}**）は、タブの代わりに検索パネルが表示されます。
+一番下には、「{ui.leftPanel.map}」（マップ機能がオンのときだけ）、「{ui.leftPanel.features}」（ゲームのオプションの部品の一覧を開きます）、30秒ごとに変わるヒントがあります。検索中（**{ui.native.menu.edit} → {ui.native.menu.findAndReplace}**）は、タブの代わりに検索パネルが表示されます。
 
 パネルの境目をドラッグするとサイズを変えられ、境目をダブルクリックすると初期の幅に戻ります。幅はこのコンピューターに記憶されます。
 
@@ -43,8 +43,8 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 
 プレイヤーに見えるとおりのゲーム画面で、ウインドウに合わせて拡大縮小されます。画面の上では、カットの背景を選んだり、キャラクターを追加したり、次の2つを切り替えたりできます。
 
-- **{ui.topBar.visual}** と **{ui.topBar.script}**：シーンを、タイムライン付きのゲーム画面として表示するか、脚本のように入力できるテキストとして表示するかを切り替えます。
-- **{ui.stage.scopeLabel}**：**{ui.stage.scopeFollowing}** または **{ui.stage.scopeOnlyHere}**。これは[舞台](/novelworks-docs/ja/concepts/stage/)で説明しています。
+- {ui.topBar.visual} と {ui.topBar.script}：シーンを、タイムライン付きのゲーム画面として表示するか、脚本のように入力できるテキストとして表示するかを切り替えます。
+- {ui.stage.scopeLabel}：{ui.stage.scopeFollowing} または {ui.stage.scopeOnlyHere}。これは[舞台](/novelworks-docs/ja/concepts/stage/)で説明しています。
 
 画面の上には小さなボタンが並び、選んだカットがどこへつながるかを示します（[物語の分岐](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください）。
 
@@ -56,16 +56,16 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 
 ## 右：インスペクター
 
-選んだもののプロパティが表示されます。カット、シーン、画像、キャラクター、変数、アイテム、舞台にいるキャラクターのどれかです。タイトルは選択に合わせて変わります。何も選んでいないときは「**{ui.inspector.projectSettings}**」が表示されます。
+選んだもののプロパティが表示されます。カット、シーン、画像、キャラクター、変数、アイテム、舞台にいるキャラクターのどれかです。タイトルは選択に合わせて変わります。何も選んでいないときは「{ui.inspector.projectSettings}」が表示されます。
 
 ## メニュー
 
 Mac では、アプリメニューに「NovelWorks について」、サービス、隠す、終了があります。Windows では、終了はファイルメニューにあります。
 
-- **{ui.native.menu.file}**：新規プロジェクト、プロジェクトを開く、保存、バックアップから復元、スクリプトを読み込み、スクリプトを書き出す、{ui.native.menu.exportForWeb}、プロジェクトを閉じる。
-- **{ui.native.menu.edit}**：取り消す、やり直す、検索と置換、切り取り、コピー、貼り付け、すべてを選択、スペルチェックの言語。
-- **{ui.menu.view}**：テーマ、言語、フルスクリーンの切り替え。
-- **{ui.native.role.window}**。
-- **{ui.native.role.help}**：ドキュメント、チュートリアルをもう一度見る、キーボードショートカット、NovelWorks を認証（製品版のみ）、不具合を報告、Windows では「NovelWorks について」。
+- {ui.native.menu.file}：新規プロジェクト、プロジェクトを開く、保存、バックアップから復元、スクリプトを読み込み、スクリプトを書き出す、{ui.native.menu.exportForWeb}、プロジェクトを閉じる。
+- {ui.native.menu.edit}：取り消す、やり直す、検索と置換、切り取り、コピー、貼り付け、すべてを選択、スペルチェックの言語。
+- {ui.menu.view}：テーマ、言語、フルスクリーンの切り替え。
+- {ui.native.role.window}。
+- {ui.native.role.help}：ドキュメント、チュートリアルをもう一度見る、キーボードショートカット、NovelWorks を認証（製品版のみ）、不具合を報告、Windows では「NovelWorks について」。
 
 ショートカットの一覧は[キーボードショートカット](/novelworks-docs/ja/reference/keyboard-shortcuts/)にあります。

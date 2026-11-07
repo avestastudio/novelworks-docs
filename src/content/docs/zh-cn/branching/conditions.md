@@ -3,7 +3,7 @@ title: "如果… 条件"
 description: 根据游戏记住的内容，把故事送往不同的场景，情况可以按需添加。
 ---
 
-一个 **{ui.moments.condition}** 片段会检查游戏记住的内容，并把故事送往某个场景。**玩家永远看不到它：**游戏检查完就立刻继续。用图来理解这个想法，请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
+一个 {ui.moments.condition} 片段会检查游戏记住的内容，并把故事送往某个场景。**玩家永远看不到它**：游戏检查完就立刻继续。用图来理解这个想法，请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 情况
 
@@ -18,7 +18,7 @@ description: 根据游戏记住的内容，把故事送往不同的场景，情�
 
 ![一个如果…片段的检查器，带有一个条件、“前往”和“否则”。](/novelworks-docs/screenshots/if-conditions.png)
 
-- **{ui.conditionCases.addCase}** 在末尾添加一个情况。
+- {ui.conditionCases.addCase} 在末尾添加一个情况。
 - 卡片上的箭头会把情况上移或下移。顺序很重要，因为第一个成立的情况获胜。
 - 卡片上的一个按钮会移除这个情况。一个如果…始终至少保留一个。
 
@@ -26,7 +26,7 @@ description: 根据游戏记住的内容，把故事送往不同的场景，情�
 
 ## 条件
 
-条件以“如果”一词开头，检查一个变量或一个物品。物品栏功能开启时，会出现选择 **{ui.branchInspectors.whatToCheck}**（变量或物品）。
+条件以“如果”一词开头，检查一个变量或一个物品。物品栏功能开启时，会出现选择 {ui.branchInspectors.whatToCheck}（变量或物品）。
 
 ### 一个变量
 
@@ -34,23 +34,23 @@ description: 根据游戏记住的内容，把故事送往不同的场景，情�
 
 | 类型 | 比较方式 |
 |---|---|
-| **{ui.variables.number}** | {ui.conditionTests.is}、{ui.moments.isNot}、{ui.moments.atLeast}、{ui.moments.atMost}、{ui.moments.moreThan}、{ui.moments.lessThan} |
-| **{ui.variables.yesNo}** | {ui.conditionTests.is}、{ui.moments.isNot} |
+| {ui.variables.number} | {ui.conditionTests.is}、{ui.moments.isNot}、{ui.moments.atLeast}、{ui.moments.atMost}、{ui.moments.moreThan}、{ui.moments.lessThan} |
+| {ui.variables.yesNo} | {ui.conditionTests.is}、{ui.moments.isNot} |
 
 在分数测试下面，有一行告诉你你的选择最多能累加到多少，以及这个测试是否可能成立。请看[你的选择能通向哪里](/novelworks-docs/zh-cn/branching/reach/)。如果你还没有任何变量，编辑器会这样说，并告诉你到变量标签页里创建一个。
 
 ### 一个物品
 
-“如果玩家” **{ui.conditionTests.has}**、**{ui.conditionTests.doesnTHave}**，或者（对可叠加的物品）**{ui.conditionTests.hasAtLeast}** 一定数量的该物品。
+“如果玩家” {ui.conditionTests.has}、{ui.conditionTests.doesnTHave}，或者（对可叠加的物品）{ui.conditionTests.hasAtLeast} 一定数量的该物品。
 
 ### 一个情况里有多个条件
 
-点击 **{ui.conditionCases.addTest}**。然后选择它们如何组合：
+点击 {ui.conditionCases.addTest}。然后选择它们如何组合：
 
-- **{ui.conditionCases.matchAll}**：每个条件都必须成立（“{tx.conditionCases.and}”）；
-- **{ui.conditionCases.matchAny}**：一个就够了（“或”）。
+- {ui.conditionCases.matchAll}：每个条件都必须成立（“{tx.conditionCases.and}”）；
+- {ui.conditionCases.matchAny}：一个就够了（“或”）。
 
-当一个情况有两个或更多条件时，才会出现这个选择。要移除一个条件，使用 **{ui.conditionCases.removeTest}**，它只在条件多于一个时出现。只剩一个条件时，组合方式的选择会消失。
+当一个情况有两个或更多条件时，才会出现这个选择。要移除一个条件，使用 {ui.conditionCases.removeTest}，它只在条件多于一个时出现。只剩一个条件时，组合方式的选择会消失。
 
 ## 去哪里
 
@@ -61,7 +61,7 @@ description: 根据游戏记住的内容，把故事送往不同的场景，情�
 - 情况从上到下依次尝试。第一个成立的获胜。
 - 如果没有一个成立，游戏会前往*否则*，如果没有*否则*就继续。
 - 获胜的情况如果没有场景，或者场景已被删除，会继续下一个片段。
-- **如果游戏遇到的情况检查了已被删除或从未选择的变量或物品，它不会猜测：**它会跳过整个如果…，继续下一个片段，既不看下面的情况，也不看*否则*。（它上面成立的情况仍然会先获胜。）在只需满足几个条件之一的情况中（**{ui.conditionCases.matchAny}**），缺少一样东西就会让整个情况失效。编辑器会就此警告你，所以请修复这个警告。
+- **如果游戏遇到的情况检查了已被删除或从未选择的变量或物品，它不会猜测**：它会跳过整个如果…，继续下一个片段，既不看下面的情况，也不看*否则*。（它上面成立的情况仍然会先获胜。）在只需满足几个条件之一的情况中（{ui.conditionCases.matchAny}），缺少一样东西就会让整个情况失效。编辑器会就此警告你，所以请修复这个警告。
 - 分数按当前值比较；如果玩家还没有改变过，就按它的初始值比较。
 
 ## 循环
@@ -70,7 +70,7 @@ description: 根据游戏记住的内容，把故事送往不同的场景，情�
 
 ## 试一试
 
-在这些情况下面，**{ui.memory.tryTitle}** 让你不用试玩就能检查你的如果…。假设某个分数有某个值，或者玩家有若干个某个物品，NovelWorks 就会告诉你故事会去哪里：
+在这些情况下面，{ui.memory.tryTitle} 让你不用试玩就能检查你的如果…。假设某个分数有某个值，或者玩家有若干个某个物品，NovelWorks 就会告诉你故事会去哪里：
 
 - “情况 2 成立：前往……”；
 - “否则：前往……”，或者“{tx.memory.tryContinue}”；

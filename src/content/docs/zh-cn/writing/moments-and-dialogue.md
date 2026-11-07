@@ -3,11 +3,11 @@ title: "片段与对话"
 description: "写对话台词、添加片段、重新排序，并使用片段菜单。"
 ---
 
-**片段**是场景的一个步骤：一句对话、一个选择、一次跳转……本页讲的是最常见的一种，**{ui.moments.dialogue}**片段。其他种类见[场景、片段和时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
+**片段**是场景的一个步骤：一句对话、一个选择、一次跳转……本页讲的是最常见的一种，{ui.moments.dialogue}片段。其他种类见[场景、片段和时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 
 ## 写一句台词
 
-点击游戏画面上的对话框，然后输入。文字直接在框里输入，你也可以使用检查器里的**{ui.momentInspector.text}**。
+点击游戏画面上的对话框，然后输入。文字直接在框里输入，你也可以使用检查器里的{ui.momentInspector.text}。
 
 - **Enter** 开始**下一句**：在这个片段之后新建一个对话片段，舞台和说话者都与它相同，可以直接输入。
 - **Shift+Enter** 在**同一个框里**换一行。
@@ -15,16 +15,16 @@ description: "写对话台词、添加片段、重新排序，并使用片段菜
 
 ## 谁在说话
 
-在文字上方、姓名牌上，或者用检查器里的**{ui.momentInspector.speaker}**，选择：
+在文字上方、姓名牌上，或者用检查器里的{ui.momentInspector.speaker}，选择：
 
-- **{ui.stageControls.narrator}**：没有说话者，只有文字；
+- {ui.stageControls.narrator}：没有说话者，只有文字；
 - 一个角色。在台上的角色排在最前面，然后是其他角色。
 
 新的一句台词会沿用上一句的说话者。如果你删除了一个角色，他说过的台词会变成旁白。
 
 ## 添加片段
 
-在时间线里，卡片上方的按钮会在**所选片段之后**添加各种片段：{ui.moments.dialogue}、{ui.moments.choice}、{ui.moments.condition}、{ui.moments.jump}、{ui.moments.ending}、{ui.moments.exploration}，以及在相应功能开启时的{ui.moments.item}和{ui.moments.showMap}。条带末尾的 **+** 会添加一句对话。在空场景里，**{ui.timeline.writeTheFirstLine}**也有同样的作用。
+在时间线里，卡片上方的按钮会在**所选片段之后**添加各种片段：{ui.moments.dialogue}、{ui.moments.choice}、{ui.moments.condition}、{ui.moments.jump}、{ui.moments.ending}、{ui.moments.exploration}，以及在相应功能开启时的{ui.moments.item}和{ui.moments.showMap}。条带末尾的 **+** 会添加一句对话。在空场景里，{ui.timeline.writeTheFirstLine}也有同样的作用。
 
 新片段不会改变屏幕上的任何东西：它显示的是它前一个片段所显示的内容（见[舞台](/novelworks-docs/zh-cn/concepts/stage/)）。
 
@@ -56,8 +56,8 @@ description: "写对话台词、添加片段、重新排序，并使用片段菜
 
 ## 删除片段
 
-使用时间线上方的垃圾桶图标、检查器里的**{ui.momentInspector.delete}**、菜单里的**{ui.contextMenus.delete}**，或者 `Delete` 键。NovelWorks 会请你确认，空的对话行除外。被删除的片段在台上做的更改会传给下一个片段，所以其他片段显示的内容保持不变。
+使用时间线上方的垃圾桶图标、检查器里的{ui.momentInspector.delete}、菜单里的{ui.contextMenus.delete}，或者 `Delete` 键。NovelWorks 会请你确认，空的对话行除外。被删除的片段在台上做的更改会传给下一个片段，所以其他片段显示的内容保持不变。
 
 ## 对话片段的检查器
 
-从上到下依次是：警告（如果有）、**{ui.momentInspector.speaker}**和**{ui.momentInspector.text}**、**{ui.momentInspector.background}**、谁**{ui.momentInspector.onStage}**、**{ui.momentInspector.note}**，以及**{ui.momentInspector.script}**，它显示这个片段在[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)里是怎么写的，你可以复制它。对话片段没有声音、音乐或转场设置。
+从上到下依次是：警告（如果有）、{ui.momentInspector.speaker}和{ui.momentInspector.text}、{ui.momentInspector.background}、谁{ui.momentInspector.onStage}、{ui.momentInspector.note}，以及{ui.momentInspector.script}，它显示这个片段在[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)里是怎么写的，你可以复制它。对话片段没有声音、音乐或转场设置。

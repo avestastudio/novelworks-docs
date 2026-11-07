@@ -17,7 +17,7 @@ description: 让玩家在由一张图片和可点击地点组成的地图上选�
 
 ## 添加地点
 
-点击{ui.mapMode.addLocation}，然后在地图上拖动来绘制一个地点。如果想要自定义形状，请选择**{ui.explorationCanvas.shape}**，点击它的各个角，然后按 **Enter**。拖动地点可以移动它，拖动它的手柄可以调整大小。选中一个地点就可以编辑它。
+点击{ui.mapMode.addLocation}，然后在地图上拖动来绘制一个地点。如果想要自定义形状，请选择{ui.explorationCanvas.shape}，点击它的各个角，然后按 **Enter**。拖动地点可以移动它，拖动它的手柄可以调整大小。选中一个地点就可以编辑它。
 
 ### 地点有什么
 

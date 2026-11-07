@@ -11,7 +11,7 @@ description: 复制片段、场景和角色，粘贴到别处，并用一个键�
 - 一个**场景**：副本紧跟在原场景之后，名字类似“A helping hand（副本）”（请看[场景](/novelworks-docs/zh-cn/writing/scenes/)）；
 - 一个探索**区域**。
 
-右键菜单中，片段和场景有 **{ui.contextMenus.duplicate}**，区域有 **{ui.contextMenus.duplicateZone}**。片段的检查器里有一个 **{ui.momentInspector.duplicate}** 按钮。
+右键菜单中，片段和场景有 {ui.contextMenus.duplicate}，区域有 {ui.contextMenus.duplicateZone}。片段的检查器里有一个 {ui.momentInspector.duplicate} 按钮。
 
 ## 复制、剪切和粘贴
 
@@ -27,7 +27,7 @@ description: 复制片段、场景和角色，粘贴到别处，并用一个键�
 
 ### 何时有效
 
-复制、剪切和粘贴只在{ui.topBar.story}模式的 **{ui.topBar.visual}** 视图中有效。在剧本视图中它们不起作用；在文本框获得焦点时（文本框有自己的复制和粘贴）、窗口或菜单打开时、或页面上选中了文字时，也不起作用。图片、变量、区域或道具不能被复制。
+复制、剪切和粘贴只在{ui.topBar.story}模式的 {ui.topBar.visual} 视图中有效。在剧本视图中它们不起作用；在文本框获得焦点时（文本框有自己的复制和粘贴）、窗口或菜单打开时、或页面上选中了文字时，也不起作用。图片、变量、区域或道具不能被复制。
 
 右键菜单中没有复制或粘贴的条目：请使用快捷键，或者使用编辑菜单中的剪切、复制和粘贴项。
 
@@ -37,7 +37,7 @@ description: 复制片段、场景和角色，粘贴到别处，并用一个键�
 
 当另一个项目里没有这些东西时，你会看到这些情况（已通过把一个片段从一个项目粘贴到另一个项目来验证）：
 
-- 那里不存在的说话人会变成 **{ui.stageControls.narrator}**；
+- 那里不存在的说话人会变成 {ui.stageControls.narrator}；
 - 那里不存在的背景会被丢弃（片段显示“{tx.stage.noBackground}”）；
 - 那里不存在的角色不会被画出来，可能在舞台图表中显示为“未命名”行，或在[剧本模式](/novelworks-docs/zh-cn/writing/script-mode-lines/)中显示为 `?`；
 - **不会显示任何警告**，所以请自己检查粘贴的片段。

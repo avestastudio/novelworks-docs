@@ -9,11 +9,11 @@ description: 在编辑器中试玩你的游戏，可以从头开始，也可以�
 
 | 方式 | 从哪里开始 |
 |---|---|
-| **{ui.topBar.play}**（顶栏，**Cmd+P** / **Ctrl+P**） | 标题画面。 |
-| **{ui.topBar.playFromHere}**（顶栏，**Cmd+Shift+P** / **Ctrl+Shift+P**） | 所选的片段，不经过标题画面。在选中片段之前，它是灰色不可用的。 |
-| 片段或场景右键菜单中的**{ui.contextMenus.playFromHere}** | 那个片段，或那个场景的第一个片段。 |
-| [剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)中的**{ui.scriptMode.playFromCursor}**（**Cmd+Enter** / **Ctrl+Enter**） | 光标所在的那一行。 |
-| 地图工作区中（以及地图设置中）的**{ui.topBar.testMap}** | 地图。在地图工作区中，**{ui.topBar.playFromHere}**按钮和 **Cmd+Shift+P** / **Ctrl+Shift+P** 会变成“测试地图”。见[地图](/novelworks-docs/zh-cn/features/map/)。 |
+| {ui.topBar.play}（顶栏，**Cmd+P** / **Ctrl+P**） | 标题画面。 |
+| {ui.topBar.playFromHere}（顶栏，**Cmd+Shift+P** / **Ctrl+Shift+P**） | 所选的片段，不经过标题画面。在选中片段之前，它是灰色不可用的。 |
+| 片段或场景右键菜单中的{ui.contextMenus.playFromHere} | 那个片段，或那个场景的第一个片段。 |
+| [剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)中的{ui.scriptMode.playFromCursor}（**Cmd+Enter** / **Ctrl+Enter**） | 光标所在的那一行。 |
+| 地图工作区中（以及地图设置中）的{ui.topBar.testMap} | 地图。在地图工作区中，{ui.topBar.playFromHere}按钮和 **Cmd+Shift+P** / **Ctrl+Shift+P** 会变成“测试地图”。见[地图](/novelworks-docs/zh-cn/features/map/)。 |
 
 每次试玩都使用你的变量和物品的全新初始值：不会保留上一次测试的任何内容。
 
@@ -27,9 +27,9 @@ description: 在编辑器中试玩你的游戏，可以从头开始，也可以�
 
 ## 停止
 
-- 点击**{ui.playOverlay.stop}**，或按 **Esc**。如果暂停菜单、存档、读档、历史记录、选项、片头或内容提示正开着，**Esc** 会先关闭它们。在试玩模式中，**Esc** 不会关闭物品栏：请按 **I** 来关闭。
+- 点击{ui.playOverlay.stop}，或按 **Esc**。如果暂停菜单、存档、读档、历史记录、选项、片头或内容提示正开着，**Esc** 会先关闭它们。在试玩模式中，**Esc** 不会关闭物品栏：请按 **I** 来关闭。
 - 停止时，编辑器会选中你刚才所在的场景和片段。
 
 ## 这里没有测试的内容
 
-试玩模式不等于导出的游戏：“Made with NovelWorks”画面默认是隐藏的，除非你把它打开；而且你的测试使用自己的存档，与导出游戏的存档互不相干。想在浏览器里试玩真正的成品，请使用[网页导出](/novelworks-docs/zh-cn/publish/web-export/)和导出结束时的**{ui.exportDialog.testInBrowser}**。
+试玩模式不等于导出的游戏：“Made with NovelWorks”画面默认是隐藏的，除非你把它打开；而且你的测试使用自己的存档，与导出游戏的存档互不相干。想在浏览器里试玩真正的成品，请使用[网页导出](/novelworks-docs/zh-cn/publish/web-export/)和导出结束时的{ui.exportDialog.testInBrowser}。

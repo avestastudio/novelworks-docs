@@ -36,7 +36,7 @@ description: "ストーリー上に表示される読み進めの操作です。
 | {ui.quickMenu.button.options} | オフ | | プレイヤーオプションを開きます。 |
 | {ui.quickMenu.button.menu} | オフ | Esc | ポーズメニューを開きます。 |
 
-**{ui.quickMenu.shortcutsHelp}**
+{ui.quickMenu.shortcutsHelp}
 
 ## バーが表示されるとき
 

@@ -3,25 +3,25 @@ title: 変数
 description: ゲームが覚えるスコアとできごとを作って管理し、それぞれがどこで使われているかを確認します。
 ---
 
-**変数**は、ゲームが覚えているものです。種類は2つあり、[ゲームの記憶](/novelworks-docs/ja/concepts/game-memory/)で説明しています。「**{ui.variables.number}**」（増えたり減ったりする数。Mia の好感度やお金など）と、「**{ui.variables.yesNo}**」（何かが起きたかどうか。はいかいいえ。「{tx.memory.factExample}」や「鍵を持っている」など）です。
+**変数**は、ゲームが覚えているものです。種類は2つあり、[ゲームの記憶](/novelworks-docs/ja/concepts/game-memory/)で説明しています。「{ui.variables.number}」（増えたり減ったりする数。Mia の好感度やお金など）と、「{ui.variables.yesNo}」（何かが起きたかどうか。はいかいいえ。「{tx.memory.factExample}」や「鍵を持っている」など）です。
 
 プレイヤーが持ち歩くもの（鍵、コインなど）は変数ではありません。それは「アイテム」で、[インベントリ](/novelworks-docs/ja/features/inventory/)機能の一部です。
 
 ## 変数タブ
 
-「**{ui.leftPanel.variables}**」タブには、すべての変数が種類と一緒に並びます（「スコア · 初期値 0」）。「**{ui.variablesTab.newVariable}**」をクリックすると追加できます。空のプロジェクトでは、タブに変数とは何かが説明されています。
+「{ui.leftPanel.variables}」タブには、すべての変数が種類と一緒に並びます（「スコア · 初期値 0」）。「{ui.variablesTab.newVariable}」をクリックすると追加できます。空のプロジェクトでは、タブに変数とは何かが説明されています。
 
 新しい変数は「変数N」という名前になります。N は、すでにある変数の数に1を足した数です（その名前がすでにある場合は、次の番号）。初期値が0のスコアです。選ぶと、インスペクターで編集できます。
 
-必要になったその場で、選択肢の「**{ui.memory.remember}**」から変数を作ることもできます。[選択肢](/novelworks-docs/ja/branching/choices/)を見てください。
+必要になったその場で、選択肢の「{ui.memory.remember}」から変数を作ることもできます。[選択肢](/novelworks-docs/ja/branching/choices/)を見てください。
 
 ## 変数のインスペクター
 
-- 「**{ui.variableInspector.name}**」：たとえば「{tx.variablesTab.miaAffection}」。名前を変えても安全です。その変数を使っているものすべてが新しい名前に従います。
-- 「**{ui.variableInspector.type}**」：スコアまたはできごと。
-- 「**{ui.variableInspector.startsAt}**」：新しいゲームがすべてこの値から始まります。
+- 「{ui.variableInspector.name}」：たとえば「{tx.variablesTab.miaAffection}」。名前を変えても安全です。その変数を使っているものすべてが新しい名前に従います。
+- 「{ui.variableInspector.type}」：スコアまたはできごと。
+- 「{ui.variableInspector.startsAt}」：新しいゲームがすべてこの値から始まります。
 - スコアの場合は、選択肢の合計がどこまで届くかを示す1文。[選択肢が行き着く先](/novelworks-docs/ja/branching/reach/)を見てください。
-- 「**{ui.memory.changedBy}**」と「**{ui.memory.checkedBy}**」：下に並ぶ一覧。
+- 「{ui.memory.changedBy}」と「{ui.memory.checkedBy}」：下に並ぶ一覧。
 
 ### 変数が使われている場所
 

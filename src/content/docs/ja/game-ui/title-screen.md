@@ -21,9 +21,9 @@ description: "ゲームの最初の画面です。背景、ロゴ、メニュー
 変えられるのは「{ui.gameUIInspector.buttonStyle}」だけです。ボタンとその文言は固定です。
 
 - 「{rt.game.continue}」:セーブがあるときだけ表示され、最新のセーブを読み込みます。
-- **{rt.game.newGame}**。
+- {rt.game.newGame}。
 - 「{rt.game.load}」:セーブできるときに表示されます。
 - 「{rt.game.options}」。
-- **{rt.game.quit}**:終了する手段のある環境(ブラウザ以外)でだけ表示されます。
+- {rt.game.quit}:終了する手段のある環境(ブラウザ以外)でだけ表示されます。
 
 これらのボタンの文言は、プロジェクトの[ゲームの言語](/novelworks-docs/ja/getting-started/editor-settings/)に従います。

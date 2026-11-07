@@ -17,9 +17,9 @@ description: 对大家最常问的问题的快速解答。
 
 **我的项目在哪里？** 在你创建它时选择的文件夹里。项目设置会在“{tx.projectSettings.savedIn}”下显示它。要复制项目，请复制整个文件夹。
 
-**我丢了一处更改。** 先试试 **{ui.topBar.undo}**（最多 200 步），再试 **{ui.native.menu.file} → 从备份恢复…**。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
+**我丢了一处更改。** 先试试 {ui.topBar.undo}（最多 200 步），再试 **{ui.native.menu.file} → 从备份恢复…**。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
 
-**我误删了一张图片、一个场景或一个变量。** 按 **{ui.topBar.undo}**。删除的图片会保存在 `backups/deleted-assets` 里，撤销后就会回来。删除的场景或变量也可以撤销，在此期间，用到它们的地方会显示警告。
+**我误删了一张图片、一个场景或一个变量。** 按 {ui.topBar.undo}。删除的图片会保存在 `backups/deleted-assets` 里，撤销后就会回来。删除的场景或变量也可以撤销，在此期间，用到它们的地方会显示警告。
 
 **我可以把项目搬到另一台电脑上吗？** 可以：复制它的文件夹，然后用 **{ui.native.menu.file} → 打开项目…** 打开。
 
@@ -35,7 +35,7 @@ description: 对大家最常问的问题的快速解答。
 
 ## 测试和发布
 
-**怎样从中间开始测试？** 选中一个片段，然后使用 **{ui.leftPanel.playFromHere}**。见[试玩、从此处试玩、测试地图](/novelworks-docs/zh-cn/testing/play/)。
+**怎样从中间开始测试？** 选中一个片段，然后使用 {ui.leftPanel.playFromHere}。见[试玩、从此处试玩、测试地图](/novelworks-docs/zh-cn/testing/play/)。
 
 **这些警告是什么意思？** 见[问题：所有警告](/novelworks-docs/zh-cn/testing/problems/)。警告绝不会阻止你试玩或导出。
 

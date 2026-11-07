@@ -104,4 +104,4 @@ if MetMia = true or item Letter -> Library
 
 ## 如果某个名字还不存在
 
-未知的场景、变量或物品会带下划线。快速修复，或者 **{ui.scriptMode.createMissing_other}**，可以创建它。请看[剧本模式：基础](/novelworks-docs/zh-cn/writing/script-mode/)。
+未知的场景、变量或物品会带下划线。快速修复，或者 {ui.scriptMode.createMissing_other}，可以创建它。请看[剧本模式：基础](/novelworks-docs/zh-cn/writing/script-mode/)。

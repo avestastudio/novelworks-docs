@@ -3,7 +3,7 @@ title: 选项与无障碍
 description: 每个玩家选项的作用，以及游戏如何支持无障碍。
 ---
 
-玩家可以在标题画面、暂停菜单或快捷菜单（如果你显示了它的“选项”按钮）中打开**{rt.game.options}**。按 Esc 关闭。每次更改都会立即生效，并且**按游戏分别保存在浏览器中**。如果浏览器禁止存储，更改只在本次会话中有效。一行示例文字会显示文字最终的样子。**{rt.optionsScreen.defaults}**会把五个选项全部还原。
+玩家可以在标题画面、暂停菜单或快捷菜单（如果你显示了它的“选项”按钮）中打开{rt.game.options}。按 Esc 关闭。每次更改都会立即生效，并且**按游戏分别保存在浏览器中**。如果浏览器禁止存储，更改只在本次会话中有效。一行示例文字会显示文字最终的样子。{rt.optionsScreen.defaults}会把五个选项全部还原。
 
 界面的外观由你来设置：[玩家选项](/novelworks-docs/zh-cn/game-ui/options/)。你不能隐藏任何一个选项。
 
@@ -34,5 +34,5 @@ description: 每个玩家选项的作用，以及游戏如何支持无障碍。
 - **键盘**：整个游戏不用鼠标也能玩。见[按键与触屏](/novelworks-docs/zh-cn/player/keys-and-touch/)。探索中的区域可以用 **Tab** 键选中。
 - **屏幕阅读器**：剧情文字每句只朗读一次，各个界面会作为对话框被播报，提示也会被播报，按钮上还标明了键盘快捷键。
 - **减少动态效果**：系统要求时，文字默认立即出现，片头幻灯片和启动画面则只做简单的淡入淡出。
-- **{rt.contentWarning.title}**：你可以就敏感话题向玩家发出提醒：[内容提示](/novelworks-docs/zh-cn/game-ui/content-warning/)。
+- {rt.contentWarning.title}：你可以就敏感话题向玩家发出提醒：[内容提示](/novelworks-docs/zh-cn/game-ui/content-warning/)。
 - **选择文字**：游戏不允许玩家选择或复制其中的文字。

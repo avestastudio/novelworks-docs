@@ -7,7 +7,7 @@ NovelWorks 使用你电脑的原生菜单。在 Windows 上，**Cmd** 对应 **C
 
 ## 应用菜单（仅限 Mac）
 
-**关于 Novelworks**、服务、**隐藏 Novelworks**（**Cmd+H**）、**{ui.native.role.hideOthers}**、**{ui.native.role.unhide}**、**退出 Novelworks**（**Cmd+Q**）。在 Windows 上，“退出”在“文件”菜单的末尾，“关于”在“帮助”菜单里。
+**关于 Novelworks**、服务、**隐藏 Novelworks**（**Cmd+H**）、{ui.native.role.hideOthers}、{ui.native.role.unhide}、**退出 Novelworks**（**Cmd+Q**）。在 Windows 上，“退出”在“文件”菜单的末尾，“关于”在“帮助”菜单里。
 
 ## 文件
 
@@ -36,9 +36,9 @@ NovelWorks 使用你电脑的原生菜单。在 Windows 上，**Cmd** 对应 **C
 
 ## 视图
 
-- **{ui.native.menu.theme}**：{ui.native.menu.dark}、{ui.native.menu.light}或{ui.native.menu.system}。
-- **{ui.native.menu.language}**：{ui.native.menu.languageAuto}，或七种语言之一。
-- **{ui.native.role.togglefullscreen}**（Mac 上是 **Control+Cmd+F**）。
+- {ui.native.menu.theme}：{ui.native.menu.dark}、{ui.native.menu.light}或{ui.native.menu.system}。
+- {ui.native.menu.language}：{ui.native.menu.languageAuto}，或七种语言之一。
+- {ui.native.role.togglefullscreen}（Mac 上是 **Control+Cmd+F**）。
 
 开发者菜单项（重新加载、切换开发者工具）只出现在开发版本中，正式发布的应用里没有。
 

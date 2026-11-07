@@ -3,25 +3,25 @@ title: 变量
 description: 创建和管理游戏记住的分数和事实，并查看每一个在哪里被使用。
 ---
 
-**变量**是游戏记住的东西。有两种，在[游戏的记忆](/novelworks-docs/zh-cn/concepts/game-memory/)中有说明：**{ui.variables.number}**（会增加或减少的数字，比如 Mia 的好感度或金钱）和 **{ui.variables.yesNo}**（某件事有没有发生：是或否，比如“{tx.memory.factExample}”或“有钥匙”）。
+**变量**是游戏记住的东西。有两种，在[游戏的记忆](/novelworks-docs/zh-cn/concepts/game-memory/)中有说明：{ui.variables.number}（会增加或减少的数字，比如 Mia 的好感度或金钱）和 {ui.variables.yesNo}（某件事有没有发生：是或否，比如“{tx.memory.factExample}”或“有钥匙”）。
 
 玩家携带的东西（钥匙、硬币……）不是变量。它们是**物品**，属于[物品栏](/novelworks-docs/zh-cn/features/inventory/)功能。
 
 ## 变量标签页
 
-**{ui.leftPanel.variables}** 标签页列出每个变量，以及它的类型和初始值（“分数 · 初始值 0”）。点击 **{ui.variablesTab.newVariable}** 添加一个。在空项目中，标签页会解释什么是变量。
+{ui.leftPanel.variables} 标签页列出每个变量，以及它的类型和初始值（“分数 · 初始值 0”）。点击 {ui.variablesTab.newVariable} 添加一个。在空项目中，标签页会解释什么是变量。
 
 新变量叫“变量 N”，N 是你已有变量的数量加一（如果这个名字已存在，就取下一个数字）。它是一个初始值为 0 的分数。选中它，就可以在检查器中编辑。
 
-你也可以在需要的时候创建变量，方法是在选择中使用 **{ui.memory.remember}**。请看[选择](/novelworks-docs/zh-cn/branching/choices/)。
+你也可以在需要的时候创建变量，方法是在选择中使用 {ui.memory.remember}。请看[选择](/novelworks-docs/zh-cn/branching/choices/)。
 
 ## 变量检查器
 
-- **{ui.variableInspector.name}**：例如“{tx.variablesTab.miaAffection}”。重命名是安全的：所有使用这个变量的地方都会跟着改成新名字。
-- **{ui.variableInspector.type}**：分数或事实。
-- **{ui.variableInspector.startsAt}**：每个新游戏开始时的值。
+- {ui.variableInspector.name}：例如“{tx.variablesTab.miaAffection}”。重命名是安全的：所有使用这个变量的地方都会跟着改成新名字。
+- {ui.variableInspector.type}：分数或事实。
+- {ui.variableInspector.startsAt}：每个新游戏开始时的值。
 - 对于分数，会有一句话说明你的选择最多能累加到多少。请看[你的选择能通向哪里](/novelworks-docs/zh-cn/branching/reach/)。
-- **{ui.memory.changedBy}** 和 **{ui.memory.checkedBy}**：下面的列表。
+- {ui.memory.changedBy} 和 {ui.memory.checkedBy}：下面的列表。
 
 ### 变量在哪里被使用
 

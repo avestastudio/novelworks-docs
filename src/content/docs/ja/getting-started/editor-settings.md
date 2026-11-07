@@ -7,15 +7,15 @@ description: エディターのテーマ、言語、スペルチェックと、�
 
 ## エディターの設定
 
-どれも「**{ui.menu.view}**」メニューと「**{ui.native.menu.edit}**」メニューにあります。
+どれも「{ui.menu.view}」メニューと「{ui.native.menu.edit}」メニューにあります。
 
 ### テーマ
 
-**{ui.menu.view} → {ui.native.menu.theme}**：「**{ui.native.menu.dark}**」（初期設定）、「**{ui.native.menu.light}**」、「**{ui.native.menu.system}**」（お使いのコンピューターに合わせます）。
+**{ui.menu.view} → {ui.native.menu.theme}**：「{ui.native.menu.dark}」（初期設定）、「{ui.native.menu.light}」、「{ui.native.menu.system}」（お使いのコンピューターに合わせます）。
 
 ### エディターの言語
 
-**{ui.menu.view} → {ui.native.menu.language}**：「**{ui.native.menu.languageAuto}**」か、7つの言語のどれか（それぞれ自分の言語の名前で表示されます）。メニューとエディターは、開いているすべてのウインドウですぐに切り替わります。この設定はエディターだけのものです。物語やゲームの言語は変わりません。
+**{ui.menu.view} → {ui.native.menu.language}**：「{ui.native.menu.languageAuto}」か、7つの言語のどれか（それぞれ自分の言語の名前で表示されます）。メニューとエディターは、開いているすべてのウインドウですぐに切り替わります。この設定はエディターだけのものです。物語やゲームの言語は変わりません。
 
 ### スペルチェックの言語（プロジェクトに保存）
 
@@ -29,7 +29,7 @@ description: エディターのテーマ、言語、スペルチェックと、�
 
 ## プロジェクトの設定
 
-上部バーのプロジェクト名をクリックするか、何も選ばない状態にすると、インスペクターに「**{ui.inspector.projectSettings}**」が表示されます。
+上部バーのプロジェクト名をクリックするか、何も選ばない状態にすると、インスペクターに「{ui.inspector.projectSettings}」が表示されます。
 
 | 設定 | 内容 |
 |---|---|
@@ -37,8 +37,8 @@ description: エディターのテーマ、言語、スペルチェックと、�
 | {ui.projectSettings.author} | 作者としてのあなたの名前。 |
 | {ui.project.gameLanguage} | ゲーム自身のボタンやメニューの言語。物語の文章は、あなたが書いたままです。ゲームで使えない言語を選ぶと、その部分には英語が使われます。 |
 | {ui.projectSettings.length} | 物語を読むのにかかる長さ。すべてのセリフ、選択肢、エンディングを1回ずつ読んだ場合です（語数と分数）。表示のみで、設定はできません。分岐のある物語を1周する長さは、これより短くなります。 |
-| {ui.projectSettings.features} | オンになっているオプションの部品。「**{ui.projectSettings.openFeatures}**」で、切り替えるための一覧が開きます。 |
+| {ui.projectSettings.features} | オンになっているオプションの部品。「{ui.projectSettings.openFeatures}」で、切り替えるための一覧が開きます。 |
 | {ui.projectSettings.screenSize} | ゲーム画面のサイズ。1280 × 720 ピクセルです。表示のみです。 |
 | {ui.projectSettings.savedIn} | プロジェクトのフォルダー。 |
 
-ここでの変更はすべて、「**{ui.native.menu.undo}**」で取り消せます。
+ここでの変更はすべて、「{ui.native.menu.undo}」で取り消せます。

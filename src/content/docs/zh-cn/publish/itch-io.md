@@ -12,7 +12,7 @@ description: 把导出的游戏上传到 itch.io，让大家可以在浏览器�
 ## 上传
 
 1. 在 itch.io 上，创建一个新项目（或打开一个已有的项目）。
-2. 项目类型选择**{ui.exportDialog.hTML}**（可在浏览器中玩的游戏）。
+2. 项目类型选择{ui.exportDialog.hTML}（可在浏览器中玩的游戏）。
 3. 上传 NovelWorks 生成的 `.zip`，并把它标记为**将在浏览器中玩**的文件。
 4. 把视口设置为导出完成时 NovelWorks 显示的**推荐游戏尺寸**（它就是你项目的分辨率）。全屏按钮之类的选项由你决定：游戏本身已经有自己的全屏按钮。
 5. 保存并打开页面，在电脑和手机上检查游戏。
@@ -26,4 +26,4 @@ description: 把导出的游戏上传到 itch.io，让大家可以在浏览器�
 
 ## 发布前先测试
 
-使用导出结束时的**{ui.exportDialog.testInBrowser}**，或者打开 `index.html` 来玩解压后的文件夹。
+使用导出结束时的{ui.exportDialog.testInBrowser}，或者打开 `index.html` 来玩解压后的文件夹。

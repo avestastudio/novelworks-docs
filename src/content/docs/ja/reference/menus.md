@@ -7,7 +7,7 @@ NovelWorks は、お使いのコンピュータ標準のメニューを使いま
 
 ## アプリケーションメニュー（Mac のみ）
 
-**Novelworks について**、サービス、**Novelworks を隠す**（**Cmd+H**）、**{ui.native.role.hideOthers}**、**{ui.native.role.unhide}**、**Novelworks を終了**（**Cmd+Q**）。Windows では、「終了」はファイルメニューの最後にあり、「バージョン情報」はヘルプメニューにあります。
+**Novelworks について**、サービス、**Novelworks を隠す**（**Cmd+H**）、{ui.native.role.hideOthers}、{ui.native.role.unhide}、**Novelworks を終了**（**Cmd+Q**）。Windows では、「終了」はファイルメニューの最後にあり、「バージョン情報」はヘルプメニューにあります。
 
 ## ファイル
 
@@ -36,9 +36,9 @@ NovelWorks は、お使いのコンピュータ標準のメニューを使いま
 
 ## 表示
 
-- **{ui.native.menu.theme}**：{ui.native.menu.dark}、{ui.native.menu.light}、または {ui.native.menu.system}。
-- **{ui.native.menu.language}**：{ui.native.menu.languageAuto}、または 7 つの言語のどれか。
-- **{ui.native.role.togglefullscreen}**（Mac では **Control+Cmd+F**）。
+- {ui.native.menu.theme}：{ui.native.menu.dark}、{ui.native.menu.light}、または {ui.native.menu.system}。
+- {ui.native.menu.language}：{ui.native.menu.languageAuto}、または 7 つの言語のどれか。
+- {ui.native.role.togglefullscreen}（Mac では **Control+Cmd+F**）。
 
 開発者向けの項目（再読み込み、開発者ツールの切り替え）は、開発用ビルドにだけ表示されます。公開されているアプリには表示されません。
 

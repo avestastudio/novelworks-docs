@@ -3,15 +3,15 @@ title: 游戏界面概览
 description: 逐个画面地修改游戏的外观，并实时预览。
 ---
 
-**{ui.topBar.gameUI}** 模式用来修改游戏的外观：字体和颜色、标题画面、对话框、选择按钮、菜单和小提示。在顶栏切换到它，或按 **Cmd+5** / **Ctrl+5**。
+{ui.topBar.gameUI} 模式用来修改游戏的外观：字体和颜色、标题画面、对话框、选择按钮、菜单和小提示。在顶栏切换到它，或按 **Cmd+5** / **Ctrl+5**。
 
 ![游戏界面模式：画面列表、实时预览和对话框的设置。](/novelworks-docs/screenshots/game-ui-dialogue.png)
 
 ## 窗口的三个部分
 
 - **左侧：画面列表。** 点击其中一项开始修改。
-- **中间：预览。** 这就是真正的游戏，按你的设置绘制，用一小段示例来展示（你的第一个背景和第一个角色，或一个示例角色）。预览不能操作：按 **{ui.topBar.play}** 才能用这些设置试玩游戏。预览下方有一行字这样提示。
-- **右侧：画面的设置。** 每个画面的末尾都有一个 **{ui.gameUIInspector.resetToDefault}** 按钮。
+- **中间：预览。** 这就是真正的游戏，按你的设置绘制，用一小段示例来展示（你的第一个背景和第一个角色，或一个示例角色）。预览不能操作：按 {ui.topBar.play} 才能用这些设置试玩游戏。预览下方有一行字这样提示。
+- **右侧：画面的设置。** 每个画面的末尾都有一个 {ui.gameUIInspector.resetToDefault} 按钮。
 
 ## 各个画面
 
@@ -35,14 +35,14 @@ description: 逐个画面地修改游戏的外观，并实时预览。
 
 ## 长文本和头像
 
-对于字体和颜色、对话框、选择和暂停菜单，预览上方的 **{ui.gameUIMode.longTextAvatar}** 按钮会显示一行长台词和一个带头像的角色，方便你检查所有内容是否放得下。
+对于字体和颜色、对话框、选择和暂停菜单，预览上方的 {ui.gameUIMode.longTextAvatar} 按钮会显示一行长台词和一个带头像的角色，方便你检查所有内容是否放得下。
 
 ## 各处通用的设置
 
 - **颜色。** 点击色块会打开取色器，输入框可以填写颜色代码（`#rgb` 或 `#rrggbb`）。当颜色显示为“与……相同”（例如“{tx.gameUIInspector.sameAsTheTextColor}”）时，不会保存任何值：它会跟随另一种颜色。一旦你选了颜色，旁边会出现一个小的圆形箭头，点击它就能回到“与……相同”。
-- **按钮样式。** 一个下拉菜单，包含 **{ui.gameUIInspector.sameAsFontsColors}**、**{ui.gameUIInspector.pill}**、**{ui.gameUIInspector.rounded}**、**{ui.gameUIInspector.square}** 和 **{ui.gameUIInspector.text}**（没有方框，只有文字）。“{tx.gameUIInspector.sameAsFontsColors}”会跟随全局样式。
+- **按钮样式。** 一个下拉菜单，包含 {ui.gameUIInspector.sameAsFontsColors}、{ui.gameUIInspector.pill}、{ui.gameUIInspector.rounded}、{ui.gameUIInspector.square} 和 {ui.gameUIInspector.text}（没有方框，只有文字）。“{tx.gameUIInspector.sameAsFontsColors}”会跟随全局样式。
 - **滑块** 会连同单位一起显示数值，通常是 %。百分比是相对于屏幕的，所以你的设计在任何尺寸下都不会走样。
-- **图片。** 图片栏会显示缩略图，旁边有 **{ui.gameUIInspector.choose_c7f937}** 或 **{ui.gameUIInspector.change}**，还有一个 X 用来移除图片。通常你可以选用任何一张素材，也可以当场导入新图片。（标题画面的背景只能选背景、CG 和界面图片。）如果图片被删除，游戏会退回到纯色或文字。
+- **图片。** 图片栏会显示缩略图，旁边有 {ui.gameUIInspector.choose_c7f937} 或 {ui.gameUIInspector.change}，还有一个 X 用来移除图片。通常你可以选用任何一张素材，也可以当场导入新图片。（标题画面的背景只能选背景、CG 和界面图片。）如果图片被删除，游戏会退回到纯色或文字。
 - **{ui.gameUIInspector.resetToDefault}。** 画面底部的这个按钮会先请你确认，然后只把**这个画面**恢复成新游戏的样子。其他画面不会改变。
 
 ## 撤销

@@ -3,13 +3,13 @@ title: 物品栏画面
 description: 物品栏按钮和物品面板。
 ---
 
-**{ui.gameUI.inventory}** 画面包括玩家用来打开自己物品的按钮，以及列出这些物品的面板。它需要[物品栏功能](/novelworks-docs/zh-cn/features/inventory/)。功能关闭时，这个页面会说明这一点，并提供打开功能库的入口。
+{ui.gameUI.inventory} 画面包括玩家用来打开自己物品的按钮，以及列出这些物品的面板。它需要[物品栏功能](/novelworks-docs/zh-cn/features/inventory/)。功能关闭时，这个页面会说明这一点，并提供打开功能库的入口。
 
 ## 按钮
 
-- **{ui.gameUIInspector.label}**：按钮上的文字、面板的标题和暂停菜单里这一项的名称。默认是“物品栏”。
-- **{ui.gameUIInspector.cornerOfTheScreen}**：左上、右上（默认）、左下或右下。
-- **{ui.gameUIInspector.buttonStyle}**：默认是“{tx.gameUIInspector.sameAsFontsColors}”。
+- {ui.gameUIInspector.label}：按钮上的文字、面板的标题和暂停菜单里这一项的名称。默认是“物品栏”。
+- {ui.gameUIInspector.cornerOfTheScreen}：左上、右上（默认）、左下或右下。
+- {ui.gameUIInspector.buttonStyle}：默认是“{tx.gameUIInspector.sameAsFontsColors}”。
 
 这个按钮在标题画面、结束画面和暂停时是隐藏的。
 
@@ -17,8 +17,8 @@ description: 物品栏按钮和物品面板。
 
 这两种颜色会同时给**面板和按钮**上色：
 
-- **{ui.gameUIInspector.panelColor}**：默认是“{tx.gameUIInspector.sameAsTheDialogueBox}”（按钮样式为“{tx.gameUIInspector.text}”时，按钮没有背景）。
-- **{ui.gameUIInspector.textColor}**：默认是“{tx.gameUIInspector.sameAsTheTextColor}”。
+- {ui.gameUIInspector.panelColor}：默认是“{tx.gameUIInspector.sameAsTheDialogueBox}”（按钮样式为“{tx.gameUIInspector.text}”时，按钮没有背景）。
+- {ui.gameUIInspector.textColor}：默认是“{tx.gameUIInspector.sameAsTheTextColor}”。
 
 ## 玩家能得到什么
 

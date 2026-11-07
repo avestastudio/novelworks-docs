@@ -47,7 +47,7 @@ Tus datos privados de escritura se vacían antes de exportar: las **notas** de l
 
 - Primero, una breve **pantalla de NovelWorks**: el logotipo y «{tx.splash.tagline}», unos 3 segundos, que se puede saltar. (El editor la llama la pantalla «Hecho con NovelWorks».)
 - El título de la página es el título de tu juego, y la página está en el idioma de tu juego. El icono de la página es la primera letra del título sobre tu color principal.
-- Un juego que se escala a la ventana, manteniendo su proporción, con barras negras alrededor, en ordenadores y móviles. Un botón de ****{rt.player.fullscreen}**** donde el navegador lo permite, y un botón **{ui.gameUIInspector.menu}** en las pantallas táctiles. Mira [Teclas y pantallas táctiles](/novelworks-docs/es/player/keys-and-touch/).
+- Un juego que se escala a la ventana, manteniendo su proporción, con barras negras alrededor, en ordenadores y móviles. Un botón de **{rt.player.fullscreen}** donde el navegador lo permite, y un botón **{ui.gameUIInspector.menu}** en las pantallas táctiles. Mira [Teclas y pantallas táctiles](/novelworks-docs/es/player/keys-and-touch/).
 - Partidas guardadas en su navegador, que se conservan cuando actualizas el juego. Mira [Guardar y cargar](/novelworks-docs/es/player/save-and-load/).
 - Necesita JavaScript. Sin él, la página dice «{tx.export.javascriptRequired}»
 

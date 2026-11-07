@@ -31,15 +31,15 @@ Mac 版应用目前**没有用 Apple Developer ID 签名**（只有临时签名�
 
 ## 选择编辑器语言
 
-第一次打开时，NovelWorks 会问你**{ui.languageDialog.title}**。选一种语言，然后点击**{ui.languageDialog.continue}**。如果你直接关掉这个窗口，NovelWorks 会跟随你电脑的语言。之后你可以在**{ui.menu.view} → {ui.native.menu.language}**里更改。接下来你会看到[项目界面](/novelworks-docs/zh-cn/getting-started/projects-screen/)。
+第一次打开时，NovelWorks 会问你{ui.languageDialog.title}。选一种语言，然后点击{ui.languageDialog.continue}。如果你直接关掉这个窗口，NovelWorks 会跟随你电脑的语言。之后你可以在**{ui.menu.view} → {ui.native.menu.language}**里更改。接下来你会看到[项目界面](/novelworks-docs/zh-cn/getting-started/projects-screen/)。
 
 ## 激活 NovelWorks（完整版）
 
 完整版需要你购买时附带的下载密钥。没有密钥时，你仍然可以打开、编辑和试玩你的项目。只有**导出**被锁定：文件菜单里的导出命令会打开激活窗口。
 
 1. 打开**{ui.native.role.help} → {ui.native.menu.activateNovelWorks}**。同一个窗口也可以从项目界面和“关于”窗口打开。
-2. 把你的下载密钥粘贴到**{ui.activateDialog.downloadKey}**里。你也可以粘贴整个下载页面的地址。
-3. 点击**{ui.activateDialog.activate}**。
+2. 把你的下载密钥粘贴到{ui.activateDialog.downloadKey}里。你也可以粘贴整个下载页面的地址。
+3. 点击{ui.activateDialog.activate}。
 
 在哪里找密钥：在浏览器里打开你的购买邮件，再打开 NovelWorks 下载页面，然后复制下载密钥或页面地址。
 
@@ -48,7 +48,7 @@ Mac 版应用目前**没有用 Apple Developer ID 签名**（只有临时签名�
 需要知道的几点：
 
 - 激活需要联系激活服务器，所以要连接互联网。激活之后，NovelWorks 每次启动都会在你的电脑上检查许可证，所以导出时不需要联网。
-- 激活窗口里写着：**一个密钥最多可在 3 台电脑上使用**，你可以停用一台电脑，把密钥用到另一台上。方法是打开同一个窗口，点击**{ui.activateDialog.deactivateThisDevice}**。这一步同样要联系服务器，所以需要联网。
-- 如果窗口提示这个密钥已在最多数量的电脑上激活，请在另一台电脑上停用 NovelWorks，或者使用窗口里的**{ui.activateDialog.contactUs}**。
+- 激活窗口里写着：**一个密钥最多可在 3 台电脑上使用**，你可以停用一台电脑，把密钥用到另一台上。方法是打开同一个窗口，点击{ui.activateDialog.deactivateThisDevice}。这一步同样要联系服务器，所以需要联网。
+- 如果窗口提示这个密钥已在最多数量的电脑上激活，请在另一台电脑上停用 NovelWorks，或者使用窗口里的{ui.activateDialog.contactUs}。
 
 如果激活失败，窗口会显示一条消息，告诉你该怎么做。另请参阅[常见问题](/novelworks-docs/zh-cn/reference/faq/)。
