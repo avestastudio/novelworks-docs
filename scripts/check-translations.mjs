@@ -15,12 +15,16 @@ async function files(folder) {
   return result
 }
 const all = await files(root)
+const structure = JSON.parse(await readFile(new URL('../docs-structure.json', import.meta.url), 'utf8'))
+const statusOf = new Map(structure.sections.flatMap((section) => section.pages.map((page) => [join(root, page.slug + '.md'), page.status])))
+// Stubs are drafts; 'written' pages wait for D7 (their translations are listed in TRADUCTIONS-A-RELIRE.md).
+const needsTranslation = (file) => ['old', 'validated'].includes(statusOf.get(file) ?? 'validated')
 const english = all.filter((file) => !locales.includes(relative(root, file).split('/')[0]))
 const route = (file) => '/novelworks-docs/' + relative(root, file).replace(/(?:^|\/)index\.mdx?$/, '').replace(/\.mdx?$/, '/').replace(/\/+/g, '/')
 const routes = new Set(all.map((file) => route(file).replace(/\/$/, '')))
 const errors = []
 for (const locale of locales) {
-  for (const source of english) {
+  for (const source of english.filter(needsTranslation)) {
     const target = join(root, locale, relative(root, source))
     if (!all.includes(target)) errors.push(`Missing translation: ${relative(root, target)}`)
     else if ((await readFile(source, 'utf8')) === (await readFile(target, 'utf8'))) errors.push(`Untranslated copy: ${relative(root, target)}`)

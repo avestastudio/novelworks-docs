@@ -8,9 +8,13 @@
     "build": "astro build",
     "preview": "astro preview",
     "check:translations": "node scripts/check-translations.mjs",
-    "prebuild": "npm run check:translations"
+    "check:docs": "node scripts/check-docs.mjs",
+    "test:ui": "node scripts/test-ui-names.mjs",
+    "sync:ui": "node scripts/sync-ui.mjs",
+    "prebuild": "npm run check:translations && npm run check:docs"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.6",
     "@astrojs/starlight": "^0.42.7",
     "@fontsource/manrope": "^5.3.0",
     "astro": "^7.4.2",

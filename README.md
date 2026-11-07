@@ -37,3 +37,9 @@ native-speaker review is welcome. Screenshot placeholders remain explicitly mark
 The existing GitHub Actions workflow builds and deploys pushes to main using Node 24.
 Only push when publication is explicitly authorized. Updating these local files alone
 does not change the live website.
+
+## Documentation exhaustive (branche `docs-exhaustive`)
+- `docs-structure.json` : liste de toutes les pages et leur état (`old`, `stub`, `written`, `validated`). La barre latérale en est générée ; les pages `stub` sont des brouillons non publiés.
+- Noms de boutons : écrire `{ui.clé}` (éditeur) ou `{rt.clé}` (jeu), jamais le nom à la main. `npm run sync:ui` recopie les catalogues de l'éditeur dans `data/ui/` et extrait le tableau des raccourcis dans `data/shortcuts.json`.
+- `npm run check:docs`, `npm run check:translations`, `npm run test:ui` : lancés avant chaque build.
+- Suivi : `docs-verification.md`, `docs-coverage.md`, `TRADUCTIONS-A-RELIRE.md`, `PLAN-documentation.md`.

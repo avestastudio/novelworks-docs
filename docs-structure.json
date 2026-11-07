@@ -1,0 +1,490 @@
+{
+  "note": "Source of truth for the page list. status: old = short page waiting for its rewrite; stub = draft, not published; written = rewritten and checked in the app; validated = approved by the author (translations required).",
+  "sections": [
+    {
+      "label": "Getting started",
+      "translations": {
+        "fr": "Premiers pas",
+        "es": "Primeros pasos",
+        "pt-BR": "Primeiros passos",
+        "zh-CN": "入门指南",
+        "ru": "Начало работы"
+      },
+      "pages": [
+        {
+          "slug": "getting-started/welcome",
+          "title": "Welcome to NovelWorks",
+          "status": "stub"
+        },
+        {
+          "slug": "getting-started/install-and-activate",
+          "title": "Install and activate",
+          "status": "old"
+        },
+        {
+          "slug": "getting-started/demo-edition",
+          "title": "Demo and full edition",
+          "status": "old"
+        },
+        {
+          "slug": "getting-started/projects-screen",
+          "title": "The projects screen and new projects",
+          "status": "stub"
+        },
+        {
+          "slug": "getting-started/tour-of-the-editor",
+          "title": "Tour of the editor",
+          "status": "old"
+        },
+        {
+          "slug": "getting-started/first-visual-novel",
+          "title": "Your first visual novel",
+          "status": "old"
+        },
+        {
+          "slug": "getting-started/saving-and-undo",
+          "title": "Saving, backups and undo",
+          "status": "old"
+        },
+        {
+          "slug": "getting-started/editor-settings",
+          "title": "Editor and project settings",
+          "status": "stub"
+        },
+        {
+          "slug": "getting-started/guided-tour",
+          "title": "The guided tour",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Key ideas",
+      "translations": {
+        "fr": "Les idées clés",
+        "es": "Ideas clave",
+        "pt-BR": "Ideias-chave",
+        "zh-CN": "核心概念",
+        "ru": "Ключевые идеи"
+      },
+      "pages": [
+        {
+          "slug": "concepts/stage",
+          "title": "The stage: characters stay in place",
+          "status": "stub"
+        },
+        {
+          "slug": "concepts/scenes-moments-timeline",
+          "title": "Scenes, moments and the timeline",
+          "status": "stub"
+        },
+        {
+          "slug": "concepts/game-memory",
+          "title": "The game’s memory",
+          "status": "stub"
+        },
+        {
+          "slug": "concepts/how-stories-branch",
+          "title": "How a story branches",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Writing your story",
+      "translations": {
+        "fr": "Écrire votre histoire",
+        "es": "Escribir tu historia",
+        "pt-BR": "Escrevendo sua história",
+        "zh-CN": "编写故事",
+        "ru": "Написание истории"
+      },
+      "pages": [
+        {
+          "slug": "writing/scenes",
+          "title": "Scenes",
+          "status": "old"
+        },
+        {
+          "slug": "writing/moments-and-dialogue",
+          "title": "Moments and dialogue",
+          "status": "old"
+        },
+        {
+          "slug": "writing/characters",
+          "title": "Characters and expressions",
+          "status": "old"
+        },
+        {
+          "slug": "writing/assets",
+          "title": "Images",
+          "status": "old"
+        },
+        {
+          "slug": "writing/staging",
+          "title": "Staging a scene",
+          "status": "stub"
+        },
+        {
+          "slug": "writing/script-mode",
+          "title": "Script mode: the basics",
+          "status": "stub"
+        },
+        {
+          "slug": "writing/script-mode-lines",
+          "title": "Script mode: every line",
+          "status": "stub"
+        },
+        {
+          "slug": "writing/script-mode-conditions",
+          "title": "Script mode: conditions and choices",
+          "status": "stub"
+        },
+        {
+          "slug": "writing/import-a-script",
+          "title": "Import and export a script",
+          "status": "old"
+        },
+        {
+          "slug": "writing/search",
+          "title": "Find and replace",
+          "status": "old"
+        },
+        {
+          "slug": "writing/copy-paste-duplicate",
+          "title": "Copy, paste and duplicate",
+          "status": "stub"
+        },
+        {
+          "slug": "writing/notes",
+          "title": "Notes",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Branching",
+      "translations": {
+        "fr": "Branches et choix",
+        "es": "Ramificaciones",
+        "pt-BR": "Ramificações",
+        "zh-CN": "故事分支",
+        "ru": "Ветвление"
+      },
+      "pages": [
+        {
+          "slug": "branching/choices",
+          "title": "Choices",
+          "status": "old"
+        },
+        {
+          "slug": "branching/variables",
+          "title": "Variables",
+          "status": "old"
+        },
+        {
+          "slug": "branching/conditions",
+          "title": "If… conditions",
+          "status": "old"
+        },
+        {
+          "slug": "branching/jumps",
+          "title": "Jumps",
+          "status": "old"
+        },
+        {
+          "slug": "branching/endings",
+          "title": "Endings",
+          "status": "old"
+        },
+        {
+          "slug": "branching/story-map",
+          "title": "The story map",
+          "status": "old"
+        },
+        {
+          "slug": "branching/reach",
+          "title": "Where your choices can lead (up to +5)",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Gameplay features",
+      "translations": {
+        "fr": "Fonctionnalités de jeu",
+        "es": "Funciones del juego",
+        "pt-BR": "Funcionalidades do jogo",
+        "zh-CN": "游戏功能",
+        "ru": "Игровые возможности"
+      },
+      "pages": [
+        {
+          "slug": "features/features-panel",
+          "title": "The features library",
+          "status": "old"
+        },
+        {
+          "slug": "features/exploration",
+          "title": "Exploration",
+          "status": "old"
+        },
+        {
+          "slug": "features/inventory",
+          "title": "Inventory",
+          "status": "old"
+        },
+        {
+          "slug": "features/map",
+          "title": "Map",
+          "status": "old"
+        }
+      ]
+    },
+    {
+      "label": "Game UI",
+      "translations": {
+        "fr": "Interface du jeu",
+        "es": "Interfaz del juego",
+        "pt-BR": "Interface do jogo",
+        "zh-CN": "游戏界面",
+        "ru": "Интерфейс игры"
+      },
+      "pages": [
+        {
+          "slug": "game-ui/game-ui-editor",
+          "title": "Game UI overview",
+          "status": "old"
+        },
+        {
+          "slug": "game-ui/fonts-and-colors",
+          "title": "Fonts and colors",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/title-screen",
+          "title": "Title screen",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/dialogue-box",
+          "title": "Dialogue box",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/choices-screen",
+          "title": "Choices",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/pause-menu",
+          "title": "Pause menu",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/ending-screen",
+          "title": "Ending screen",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/history-screen",
+          "title": "History screen",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/save-load-screen",
+          "title": "Save and load screen",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/quick-menu",
+          "title": "Quick menu",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/options",
+          "title": "Player options",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/intro",
+          "title": "Intro",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/content-warning",
+          "title": "Content warning",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/inventory-ui",
+          "title": "Inventory screen",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/map-button",
+          "title": "Map button",
+          "status": "stub"
+        },
+        {
+          "slug": "game-ui/notifications",
+          "title": "Notifications",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Player experience",
+      "translations": {
+        "fr": "Expérience de jeu",
+        "es": "Experiencia del jugador",
+        "pt-BR": "Experiência do jogador",
+        "zh-CN": "玩家体验",
+        "ru": "Возможности игрока"
+      },
+      "pages": [
+        {
+          "slug": "player/save-and-load",
+          "title": "Saving and loading",
+          "status": "old"
+        },
+        {
+          "slug": "player/history",
+          "title": "History",
+          "status": "old"
+        },
+        {
+          "slug": "player/auto-and-skip",
+          "title": "Auto and Skip",
+          "status": "old"
+        },
+        {
+          "slug": "player/text-reveal",
+          "title": "Text reveal",
+          "status": "old"
+        },
+        {
+          "slug": "player/quick-menu",
+          "title": "Quick menu",
+          "status": "stub"
+        },
+        {
+          "slug": "player/options-and-accessibility",
+          "title": "Options and accessibility",
+          "status": "stub"
+        },
+        {
+          "slug": "player/keys-and-touch",
+          "title": "Keys and touch screens",
+          "status": "stub"
+        }
+      ]
+    },
+    {
+      "label": "Testing",
+      "translations": {
+        "fr": "Tester le jeu",
+        "es": "Pruebas",
+        "pt-BR": "Testes",
+        "zh-CN": "游戏测试",
+        "ru": "Тестирование"
+      },
+      "pages": [
+        {
+          "slug": "testing/play",
+          "title": "Play, Play from here, Test the map",
+          "status": "old"
+        },
+        {
+          "slug": "testing/test-saves-and-read-lines",
+          "title": "Play mode tools",
+          "status": "old"
+        },
+        {
+          "slug": "testing/problems",
+          "title": "Problems: every warning",
+          "status": "old"
+        }
+      ]
+    },
+    {
+      "label": "Export & publish",
+      "translations": {
+        "fr": "Exporter et publier",
+        "es": "Exportar y publicar",
+        "pt-BR": "Exportar e publicar",
+        "zh-CN": "导出与发布",
+        "ru": "Экспорт и публикация"
+      },
+      "pages": [
+        {
+          "slug": "publish/web-export",
+          "title": "Web export",
+          "status": "old"
+        },
+        {
+          "slug": "publish/itch-io",
+          "title": "Publish on itch.io",
+          "status": "old"
+        }
+      ]
+    },
+    {
+      "label": "Reference",
+      "translations": {
+        "fr": "Référence",
+        "es": "Referencia",
+        "pt-BR": "Referência",
+        "zh-CN": "参考资料",
+        "ru": "Справочник"
+      },
+      "pages": [
+        {
+          "slug": "reference/keyboard-shortcuts",
+          "title": "Keyboard shortcuts",
+          "status": "old"
+        },
+        {
+          "slug": "reference/menus",
+          "title": "All menus",
+          "status": "stub"
+        },
+        {
+          "slug": "reference/script-syntax",
+          "title": "Script syntax in 7 languages",
+          "status": "stub"
+        },
+        {
+          "slug": "reference/glossary",
+          "title": "Glossary",
+          "status": "stub"
+        },
+        {
+          "slug": "reference/project-format",
+          "title": "Project format, compatibility and backups",
+          "status": "stub"
+        },
+        {
+          "slug": "reference/faq",
+          "title": "FAQ",
+          "status": "old"
+        },
+        {
+          "slug": "reference/troubleshooting",
+          "title": "Troubleshooting and messages",
+          "status": "stub"
+        },
+        {
+          "slug": "reference/report-a-bug",
+          "title": "Report a bug",
+          "status": "old"
+        },
+        {
+          "slug": "reference/licenses-and-editions",
+          "title": "Licenses and editions",
+          "status": "stub"
+        }
+      ]
+    }
+  ]
+}

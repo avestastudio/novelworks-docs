@@ -1,0 +1,332 @@
+[
+  {
+    "group": "Project",
+    "label": "shortcuts.save",
+    "combos": [
+      {
+        "key": "s",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 's', mod: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.undo",
+    "combos": [
+      {
+        "key": "z",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'z', mod: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.redo",
+    "combos": [
+      {
+        "key": "z",
+        "mod": true,
+        "shift": true
+      },
+      {
+        "key": "y",
+        "mod": true,
+        "shift": false
+      },
+      {
+        "key": "z",
+        "mod": true,
+        "shift": true
+      }
+    ],
+    "raw": "IS_MAC ? [{ key: 'z', mod: true, shift: true }] : [{ key: 'y', mod: true }, { key: 'z', mod: true, shift: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.playFromTheTitleScreen",
+    "combos": [
+      {
+        "key": "p",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'p', mod: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.playFromTheSelectedMoment",
+    "combos": [
+      {
+        "key": "p",
+        "mod": true,
+        "shift": true
+      }
+    ],
+    "raw": "[{ key: 'p', mod: true, shift: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.findAndReplace",
+    "combos": [
+      {
+        "key": "f",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'f', mod: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.exportForWebItchIo",
+    "combos": [
+      {
+        "key": "e",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'e', mod: true }]"
+  },
+  {
+    "group": "Project",
+    "label": "shortcuts.keyboardShortcuts",
+    "combos": [
+      {
+        "key": "/",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '/', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.newDialogueMomentAfterThisOne",
+    "combos": [
+      {
+        "key": "Enter",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'Enter', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.duplicateMomentOrTheSelectedZone",
+    "combos": [
+      {
+        "key": "d",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'd', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.copySelected",
+    "combos": [
+      {
+        "key": "c",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'c', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.cutSelected",
+    "combos": [
+      {
+        "key": "x",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'x', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.pasteSelected",
+    "combos": [
+      {
+        "key": "v",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'v', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.deleteMomentOrTheSelectedCharacterZone",
+    "combos": [
+      {
+        "key": "Delete",
+        "mod": false,
+        "shift": false
+      },
+      {
+        "key": "Backspace",
+        "mod": false,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'Delete' }, { key: 'Backspace' }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.previousNextMoment",
+    "combos": [
+      {
+        "key": "ArrowLeft",
+        "mod": false,
+        "shift": false
+      },
+      {
+        "key": "ArrowRight",
+        "mod": false,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'ArrowLeft' }, { key: 'ArrowRight' }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.previousNextMomentAlsoWhileTyping",
+    "combos": [
+      {
+        "key": "[",
+        "mod": true,
+        "shift": false
+      },
+      {
+        "key": "]",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '[', mod: true }, { key: ']', mod: true }]"
+  },
+  {
+    "group": "Moments",
+    "label": "shortcuts.firstLastMoment",
+    "combos": [
+      {
+        "key": "Home",
+        "mod": false,
+        "shift": false
+      },
+      {
+        "key": "End",
+        "mod": false,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'Home' }, { key: 'End' }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.scenes",
+    "combos": [
+      {
+        "key": "1",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '1', mod: true }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.assets",
+    "combos": [
+      {
+        "key": "2",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '2', mod: true }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.characters",
+    "combos": [
+      {
+        "key": "3",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '3', mod: true }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.variables",
+    "combos": [
+      {
+        "key": "4",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '4', mod: true }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.gameUI",
+    "combos": [
+      {
+        "key": "5",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '5', mod: true }]"
+  },
+  {
+    "group": "Panels",
+    "label": "shortcuts.storyMap",
+    "combos": [
+      {
+        "key": "6",
+        "mod": true,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: '6', mod: true }]"
+  },
+  {
+    "group": "Writing",
+    "label": "shortcuts.nextLineANewMomentWithThe",
+    "combos": [
+      {
+        "key": "Enter",
+        "mod": false,
+        "shift": false
+      }
+    ],
+    "raw": "[{ key: 'Enter' }]"
+  },
+  {
+    "group": "Writing",
+    "label": "shortcuts.newLineInTheSameBox",
+    "combos": [
+      {
+        "key": "Enter",
+        "mod": false,
+        "shift": true
+      }
+    ],
+    "raw": "[{ key: 'Enter', shift: true }]"
+  }
+]
