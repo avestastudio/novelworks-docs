@@ -196,3 +196,11 @@ Quatre agents qui n'avaient pas vu l'écriture ont relu les 73 pages contre le c
 - Le libellé d'export : le code dit « Export for browser… » (docs-plan) ; sur demo-build, la **version complète** garde « Export for Web (itch.io)… » et seule la **démo** dit « Export for Web… ». Les pages disent « Export for Web… » comme demandé : à trancher (voir la liste finale).
 - L'édition Steam existe dans le code (sans clé, exporte toujours) : volontairement non documentée (pas de Steam sans demande).
 - Page « démo » : décrit demo-build (non fusionnée) comme demandé.
+
+## État final (2026-11-07, avant la passe humaine)
+**Vérifié en direct dans l'appli** (copie de vos projets, via le pilote CDP) : visite guidée (14 étapes, textes et boutons identiques aux pages), lecture d'un jeu avec zones d'exploration (14 zones détectées, aria-label correct), copier/coller, import, annuler/refaire, recherche, Problèmes, panneau Variables et objets du mode Jouer, 15 captures.
+**Vérifié dans le code seulement** : fonctions D4–D6 non rejouées une à une (Interface du jeu, exportation, écran du joueur hors mode Jouer), comportements rares de l'import.
+**Non vérifié** : survol des zones d'exploration (la capture montre seulement le jeu, sans halo visible : à regarder), menu contextuel de la carte, Windows (raccourcis), limite de 3 ordinateurs par clé, messages d'installation, branche demo-build non fusionnée (édition Steam volontairement non documentée).
+**Traductions** : relues par agents indépendants (6 langues), jamais par des natifs : voir TRADUCTIONS-A-RELIRE.md.
+**Contrôles automatiques** : check:docs, check:translations, test:ui, build + check:dist : tous OK au dernier commit.
+**Environnement** : mon instance de l'appli (ports 9334/9230) n'a pas pu être arrêtée par moi (kill refusé) ; settings.json et recents.json de Novelworks restaurés depuis la sauvegarde.
