@@ -14,7 +14,7 @@ description: Deixe o jogo ler sozinho, ou pule as falas já lidas.
 
 O Auto passa para a próxima fala sozinho, depois de uma espera que depende do tamanho da fala, **assim que a fala termina de aparecer**:
 
-- cerca de 1 segundo mais 55 milissegundos por caractere, entre 1,5 e 10 segundos. Por exemplo, um "{tx.numberInput.yes}" curto espera 1,5 segundo, e uma fala de 100 caracteres cerca de 6,5 segundos;
+- cerca de 1 segundo mais 55 milissegundos por caractere, entre 1,5 e 10 segundos. Por exemplo, um “{tx.numberInput.yes}” curto espera 1,5 segundo, e uma fala de 100 caracteres cerca de 6,5 segundos;
 - depois multiplicado pela **{rt.optionsScreen.autoSpeed}** do jogador: Lenta (x1,5, ou seja, até 15 segundos), Normal (x1), Rápida (x0,6, ou seja, até 0,9 segundo).
 
 O Auto para em um momento que não é uma fala de diálogo: uma escolha, uma exploração ou um final.

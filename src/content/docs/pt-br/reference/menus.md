@@ -19,7 +19,7 @@ Sobre o Novelworks, Serviços, Ocultar Novelworks (**Cmd+H**), **{ui.native.role
 | {ui.native.menu.restoreFromBackup} | | Volta a uma versão anterior. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/). |
 | {ui.native.menu.importScript} | | Adiciona um arquivo de texto às suas cenas. Veja [Importar e exportar um roteiro](/novelworks-docs/pt-br/writing/import-a-script/). |
 | {ui.native.menu.exportScript} | | Salva o seu jogo inteiro como um arquivo de texto. |
-| {ui.native.menu.exportForWeb} | **Cmd+E** | Exporta o seu jogo para a web. Veja [Exportação para a web](/novelworks-docs/pt-br/publish/web-export/). |
+| {ui.native.menu.exportForWeb} | **Cmd+E** | Exporta o seu jogo para a web. Veja [Exportação para web](/novelworks-docs/pt-br/publish/web-export/). |
 | {ui.native.menu.closeProject} | **Cmd+Shift+W** | Volta à tela de projetos. |
 
 ## Editar

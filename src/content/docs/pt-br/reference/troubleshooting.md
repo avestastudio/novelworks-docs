@@ -7,11 +7,11 @@ description: O que as mensagens do NovelWorks significam e o que fazer, ao abrir
 
 | Mensagem | O que significa e o que fazer |
 |---|---|
-| "… não é um projeto do Novelworks: não tem um arquivo project.json." | A pasta escolhida não tem um `project.json`. Escolha a própria pasta do projeto. |
-| "project.json está danificado: não é um JSON válido." | O arquivo foi alterado ou cortado. Abra um backup: copie um arquivo de `backups` sobre o `project.json` (guarde o danificado à parte). |
-| "Este projeto foi salvo por uma versão mais nova do Novelworks (formato N). Atualize o Novelworks para abri-lo." | Instale o NovelWorks mais recente. Nada foi alterado. |
-| "O Novelworks não conseguiu salvar uma cópia de segurança deste projeto antes de atualizá-lo, então ele não foi aberto. Seu projeto não foi alterado." | Não é possível gravar na pasta. Verifique as permissões dela e o espaço livre, e abra de novo. |
-| "{tx.projectHub.folderNotFound}" (tela de projetos) | A pasta do projeto foi movida ou apagada. Clique em **{ui.projectHub.locate}** e escolha o novo local. |
+| “… não é um projeto do Novelworks: não tem um arquivo project.json.” | A pasta escolhida não tem um `project.json`. Escolha a própria pasta do projeto. |
+| “project.json está danificado: não é um JSON válido.” | O arquivo foi alterado ou cortado. Abra um backup: copie um arquivo de `backups` sobre o `project.json` (guarde o danificado à parte). |
+| “Este projeto foi salvo por uma versão mais nova do Novelworks (formato N). Atualize o Novelworks para abri-lo.” | Instale o NovelWorks mais recente. Nada foi alterado. |
+| “O Novelworks não conseguiu salvar uma cópia de segurança deste projeto antes de atualizá-lo, então ele não foi aberto. Seu projeto não foi alterado.” | Não é possível gravar na pasta. Verifique as permissões dela e o espaço livre, e abra de novo. |
+| “{tx.projectHub.folderNotFound}” (tela de projetos) | A pasta do projeto foi movida ou apagada. Clique em **{ui.projectHub.locate}** e escolha o novo local. |
 
 ## Ativação
 
@@ -26,7 +26,7 @@ description: O que as mensagens do NovelWorks significam e o que fazer, ao abrir
 
 ## Exportar
 
-Veja a tabela em [Exportação para a web](/novelworks-docs/pt-br/publish/web-export/). Os casos mais comuns: escolher outra pasta (Documentos ou Mesa), liberar espaço em disco ou ativar o NovelWorks.
+Veja a tabela em [Exportação para web](/novelworks-docs/pt-br/publish/web-export/). Os casos mais comuns: escolher outra pasta (Documentos ou Mesa), liberar espaço em disco ou ativar o NovelWorks.
 
 ## Salvar nos seus jogos
 
@@ -34,8 +34,8 @@ As mensagens que os jogadores veem quando o navegador bloqueia o armazenamento e
 
 ## Quando algo parece errado na história
 
-- Uma cena marcada como **{ui.scenesTab.unreachable}**, um triângulo em um cartão, ou uma caixa "{tx.branchInspectors.thisMomentNeedsYourAttention}": veja [Problemas: todos os avisos](/novelworks-docs/pt-br/testing/problems/).
-- Um personagem não aparece na tela: os personagens ficam em cena até que algo os mude, e saem quando um momento manda. Veja [Em cena](/novelworks-docs/pt-br/concepts/stage/).
+- Uma cena marcada como **{ui.scenesTab.unreachable}**, um triângulo em um cartão, ou uma caixa “{tx.branchInspectors.thisMomentNeedsYourAttention}”: veja [Problemas: todos os avisos](/novelworks-docs/pt-br/testing/problems/).
+- Um personagem não aparece na tela: os personagens ficam em cena até que algo os mude, e saem quando um momento manda. Veja [O palco: os personagens ficam em cena](/novelworks-docs/pt-br/concepts/stage/).
 - Uma opção de escolha não aparece: ela pode ter uma condição. Veja [Escolhas](/novelworks-docs/pt-br/branching/choices/).
 - A história pula um Se…: uma condição verifica algo que foi apagado. Veja [Condições Se…](/novelworks-docs/pt-br/branching/conditions/).
 

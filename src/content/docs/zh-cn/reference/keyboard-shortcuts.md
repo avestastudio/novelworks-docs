@@ -14,7 +14,7 @@ description: 编辑器和游戏中的所有快捷键，Mac 和 Windows 通用。
 |---|---|---|
 | {ui.shortcuts.save} | ⌘S | Ctrl+S |
 | {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
-| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y 或 Ctrl+Shift+Z |
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
 | {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
@@ -56,8 +56,8 @@ description: 编辑器和游戏中的所有快捷键，Mac 和 Windows 通用。
 
 说明：
 
-- **剪切、复制和粘贴**可用于片段、场景（在“场景”标签页中）或游戏画面上的角色，在可视化视图中使用。见[复制、粘贴和复制一份](/novelworks-docs/zh-cn/writing/copy-paste-duplicate/)。
-- **试玩**、**复制一份**、**新片段**、**上一个/下一个片段**（用 **Cmd+[** / **Cmd+]**）和**面板**快捷键在输入时也可用。Delete、方向键、**Home** 和 **End** 则不行。
+- **剪切、复制和粘贴**可用于片段、场景（在“场景”标签页中）或游戏画面上的角色，在可视化视图中使用。见[复制、粘贴和创建副本](/novelworks-docs/zh-cn/writing/copy-paste-duplicate/)。
+- **试玩**、**创建副本**、**新片段**、**上一个/下一个片段**（用 **Cmd+[** / **Cmd+]**）和**面板**快捷键在输入时也可用。Delete、方向键、**Home** 和 **End** 则不行。
 - 面板快捷键会切换到剧情模式，但游戏界面（**Cmd+5**）和剧情地图（**Cmd+6**）除外，它们会切换到各自的模式。
 - 试玩期间，以及窗口、菜单或弹出框打开时，所有快捷键都会被忽略。
 - 在地图工作区中，`Delete` 和 **Cmd+D** 作用于所选的地点。

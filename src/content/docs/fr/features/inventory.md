@@ -25,7 +25,7 @@ Dans l’inspecteur :
 
 ## Donner et retirer des objets
 
-- **Un moment Objet** : il donne des objets ou les retire, et les joueurs ne voient pas le moment lui-même. Choisissez **{ui.branchInspectors.give}** ou **{ui.branchInspectors.remove}**, l’objet, et la quantité pour un objet cumulable. Une case à cocher décide s’il faut afficher une notification (« Vous avez obtenu : … »). Voir [Scènes, moments et ligne du temps](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
+- **Un moment Objet** : il donne des objets ou les retire, et les joueurs ne voient pas le moment lui-même. Choisissez **{ui.branchInspectors.give}** ou **{ui.branchInspectors.remove}**, l’objet, et la quantité pour un objet cumulable. Une case à cocher décide s’il faut afficher une notification (« Vous avez obtenu : … »). Voir [Scènes, moments et chronologie](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
 - **Une option de choix** : **{ui.branchInspectors.giveRemoveAnItem}** ajoute un changement à une option. Une notification est toujours affichée. Voir [Choix](/novelworks-docs/fr/branching/choices/).
 - **Une zone d’exploration** : **{ui.explorationInspectors.pickUpAnItem}** (la zone et ses accessoires disparaissent définitivement) ou **{ui.shared.exploration.useAnItem}**. Voir [Exploration](/novelworks-docs/fr/features/exploration/).
 
@@ -46,7 +46,7 @@ Si vous désactivez la fonctionnalité Inventaire, les joueurs perdent le bouton
 
 ## Tester
 
-En mode Jeu, **{ui.playOverlay.variablesItems}** affiche chaque objet de votre jeu avec un **−** et un **+** pour en donner ou en retirer un pendant vos tests (sans notification). Avant le début du jeu, il indique « {tx.playOverlay.startPlayingToGiveOrRemoveItems} »
+En mode Jouer, **{ui.playOverlay.variablesItems}** affiche chaque objet de votre jeu avec un **−** et un **+** pour en donner ou en retirer un pendant vos tests (sans notification). Avant le début du jeu, il indique « {tx.playOverlay.startPlayingToGiveOrRemoveItems} »
 
 ## Avertissements
 

@@ -15,7 +15,7 @@ NovelWorks 的“关于”窗口写道：“{tx.aboutDialog.makeVisualNovelsWith
 | 导出为网页版 | 最多 5 个场景，导出的游戏中带标记 | 不限大小，无标记 |
 | 需要下载密钥 | 不需要 | 需要，用于导出（itch.io 完整版） |
 
-见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)和[安装和激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。两个版本读写的项目格式相同。
+见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)和[安装与激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。两个版本读写的项目格式相同。
 
 ## 激活
 
@@ -32,4 +32,4 @@ NovelWorks 的“关于”窗口写道：“{tx.aboutDialog.makeVisualNovelsWith
 
 ## Windows 和 macOS 安装包
 
-Mac 和 Windows 版应用目前还没有用付费的开发者证书签名。见[安装和激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。
+Mac 和 Windows 版应用目前还没有用付费的开发者证书签名。见[安装与激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。

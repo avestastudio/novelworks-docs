@@ -53,7 +53,7 @@ description: 用文字写选择、选项的效果、有多个情况的条件，�
   if item Key, locked
 ```
 
-选项下面缩进的 `if` 行说明它何时可用。加上 `, locked`，当选项不可用时会显示为灰色。不加的话，选项会被隐藏。请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)：玩家始终有路可走。
+选项下面缩进的 `if` 行说明它何时可用。加上 `, locked`，当选项不可用时会显示为灰色。不加的话，选项会被隐藏。请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)：玩家始终有路可走。
 
 ## 测试
 

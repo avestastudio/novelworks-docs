@@ -29,7 +29,7 @@ As cenas se ligam umas às outras **só por momentos**: as opções de uma escol
 Na parte de baixo da janela, a linha do tempo mostra os momentos da cena selecionada como cartões.
 
 - O cabeçalho tem o nome da cena, o número de momentos e de palavras, e o resumo da cena, se você escreveu um. Clique no resumo para editá-lo no inspetor.
-- Cada cartão mostra o tipo, quem fala (ou "Narrador") e um breve resumo do que ele diz ou faz. Um cartão pode ter uma nota ou um aviso.
+- Cada cartão mostra o tipo, quem fala (ou “Narrador”) e um breve resumo do que ele diz ou faz. Um cartão pode ter uma nota ou um aviso.
 - Clique em um cartão para selecioná-lo e editá-lo na tela do jogo e no inspetor. Arraste os cartões para reordenar.
 - Botões adicionam um momento **depois do selecionado**, um por tipo. Um cartão **+** no fim adiciona uma fala de diálogo.
 - Dois ícones duplicam e apagam o momento selecionado. Apagar pede confirmação, a menos que o momento seja uma linha de diálogo vazia.

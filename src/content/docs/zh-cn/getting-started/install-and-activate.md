@@ -11,7 +11,7 @@ description: 下载 NovelWorks，第一次打开它，并用下载密钥解锁�
 | Intel 芯片的 Mac | `Novelworks-<version>-mac-x64.dmg` |
 | Windows 10 / 11 | `Novelworks-<version>-win-x64.exe` |
 
-免费试玩版也有同样的三个文件，版本号后面多了 `-demo`（例如 `Novelworks-<version>-demo-win-x64.exe`）。请看[免费试玩版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。
+免费演示版也有同样的三个文件，版本号后面多了 `-demo`（例如 `Novelworks-<version>-demo-win-x64.exe`）。请看[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。
 
 不确定你的 Mac 是哪种？打开苹果菜单 → **关于本机**。如果显示“芯片：Apple M…”，就是 Apple 芯片。
 

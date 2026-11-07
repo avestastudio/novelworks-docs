@@ -1,25 +1,47 @@
 # Traductions à faire relire par des natifs
 
-Les traductions sont faites par Claude, page anglaise validée d'abord (D7). Rien n'est publié « relu » tant qu'une personne native ne l'a pas dit.
-Les **noms de boutons** ne sont pas traduits à la main : ils viennent des catalogues de l'éditeur (`data/ui/`), donc ils sont exacts. À relire : le ton, les mots « moment », « scène », « fin », « personnage restent en scène », les phrases d'explication.
+Les 73 pages anglaises sont traduites en 6 langues (fr, es, pt-BR, zh-CN, ru, ja) par Claude, puis relues par un second agent indépendant par langue (termes, liens, chiffres, anglais oublié). **Aucune n'a été relue par une personne native.**
+Les **noms de boutons** ne sont pas tapés à la main : ils viennent des catalogues de l'éditeur (`data/ui/`), donc ils sont exacts. À relire : le ton et les phrases d'explication.
 
 ## État par langue
-| Langue | Pages anciennes (35, résumés) | Pages réécrites traduites | Relue par un natif |
+| Langue | Pages | Relecture agent indépendant | Relue par un natif |
 |---|---|---|---|
-| fr | oui (anciennes, à remplacer) | 0 | non |
-| es | oui (anciennes) | 0 | non |
-| pt-BR | oui (anciennes) | 0 | non |
-| zh-CN | oui (anciennes) | 0 | non |
-| ru | oui (anciennes) | 0 | non |
-| ja | non (à créer en dernier) | 0 | non |
+| fr | 73/73 | oui | non |
+| es | 73/73 | oui | non |
+| pt-BR | 73/73 | oui | non |
+| zh-CN | 73/73 | oui | non |
+| ru | 73/73 | oui | non |
+| ja | 73/73 | oui | non |
 
-## À regarder en priorité
-- Titres de sections ajoutés par Claude en D0 (« Les idées clés » et ses équivalents) : « Key ideas » → fr « Les idées clés », es « Ideas clave », pt-BR « Ideias-chave », zh-CN « 核心概念 », ru « Ключевые идеи ». Non relus.
-- Les termes du théâtre (reste en scène / hors scène, le décor) : voir NOUVEAUTES-A-DOCUMENTER.md.
+Limite honnête : les relecteurs n'ont pas tout lu ligne à ligne (es ≈ 60 %, ja : surtout par scripts ; zh-CN lu en entier mais comparé à l'anglais seulement en cas de doute). Les chiffres et limites ont été comparés par script : identiques à l'anglais.
 
-## Journal (ajouter une ligne par lot traduit : date · langue · pages · ce qui est incertain)
-- 2026-11-07 · toutes langues · D1 : 13 pages anglaises réécrites (Premiers pas, Idées clés). **Les traductions des 5 pages déjà traduites** (install-and-activate, demo-edition, tour-of-the-editor, first-visual-novel, saving-and-undo) **sont maintenant périmées** (elles décrivent l'ancienne version) ; les 8 autres pages n'ont pas de traduction. Rien n'est à relire avant D7.
-- 2026-11-07 · toutes langues · D2 : 12 pages anglaises réécrites ou créées (Écrire). Traductions **périmées** : writing/scenes, moments-and-dialogue, characters, assets, import-a-script, search. Les 6 autres pages (staging, script-mode ×3, copy-paste-duplicate, notes) n'ont pas de traduction.
-- 2026-11-07 · toutes langues · D3 : 7 pages anglaises (Embranchements). Traductions **périmées** : choices, variables, conditions, jumps, endings, story-map. `reach` n'a pas de traduction.
-- À décider avec les relecteurs en D7 : les mots du Script (`if`, `else`, `and`, `show`…) ne sont **pas** traduits dans les exemples de code des pages, parce que l'éditeur comprend tous les mots de toutes les langues en même temps ; seule la page « Script syntax in 7 languages » (D6) donnera les mots de chaque langue.
-- Titre de page ajouté par Claude : « Your first visual novel » (l'ancien titre était « Make your first visual novel in 15 minutes »).
+## Mots choisis (une seule traduction par notion, tirée du catalogue de l'éditeur)
+| Notion | es | pt-BR | zh-CN | ja |
+|---|---|---|---|---|
+| scène | escena | cena | 场景 | シーン |
+| moment | momento | momento | 片段 | カット |
+| scène à l'écran (stage) | escenario / « en escena » | palco / « em cena » | 舞台 / 在台上 | ステージ |
+| décor | fondo | cenário | 背景 | 背景 |
+| zone | zona | zona | 区域 | エリア |
+| fin | Final | final | 结局 | エンディング |
+| mode Script | modo Guion | modo Roteiro | 剧本模式 | スクリプトモード |
+
+(fr et ru : voir `data/glossary/fr.md` et `data/glossary/ru.md`.)
+
+## Doutes à trancher avec un natif
+- **Vocabulaire « stage »** : le catalogue de l'éditeur mélange deux mots dans plusieurs langues (es escenario/en escena, zh 舞台/在台上, ja ステージ/舞台 corrigé). Un mot par langue a été imposé aux pages ; vérifier que les pages « Les personnages restent en scène » sonnent juste.
+- **es** : « Entrada » (élément de menu), « tira » (bande) peu usuels ; « recorrido guiado » (didacticiel) et « visita guiada por el editor » (page) très proches.
+- **pt-BR** : « recursos » désigne à la fois Assets et Fonctions (ambigu dans le catalogue) ; « Criado com » / « Feito com » pour le même écran, tels que dans le catalogue ; ton « te / seu » un peu familier ; « visual novel » au masculin.
+- **zh-CN** : 笔记 (prose) vs 备注 (messages du catalogue) mélangés ; 片段 vs 时刻 (messages cités tels quels) ; 玩家 vs 你 ; 游玩 vs 试玩.
+- **ja** : 小道具 (type de ressource) vs 小物 (inspecteur) ; 物語 vs ストーリー ; ton です・ます dense sur les pages Exploration et Script ; le catalogue mélange ゾーン et エリア (les messages cités du panneau Problèmes disent encore ゾーン) ; ：/: dans les titres.
+- **ru** : le catalogue mélange « на сцене » et « на площадке » (les pages disent « на сцене ») ; « Эмоция » (glossaire) vs « выражение » (messages du Script) ; « Сделано в / Создано в NovelWorks » (écran) à choisir ; « заставка » désigne à la fois splash et intro ; « Ресурсы » à côté de « картинки ».
+- **Liens** : les liens courts en milieu de phrase (« Si… », « mode Guion ») ne reprennent pas le titre complet de la page cible, volontairement.
+- **Tableaux générés** (raccourcis, mots du Script) : la page anglaise est générée par `scripts/gen-reference.mjs` ; les versions traduites sont maintenues à la main (le générateur ne les touche pas). Le mot « or » du raccourci Rétablir et les en-têtes « Word for » sont traduits dans les pages, pas dans le générateur.
+
+## Titres ajoutés par Claude (non relus)
+« Key ideas » → fr « Les idées clés », es « Ideas clave », pt-BR « Ideias-chave », zh-CN « 核心概念 », ru « Ключевые идеи ». Titre « Your first visual novel » (ancien : « Make your first visual novel in 15 minutes »).
+
+## Texte hors catalogue
+- « Export for Web… » : libellé de la branche demo-build, absent des catalogues non anglais (affiché en anglais partout, avertissement « pending merge » dans `check:docs`).
+- Les captures d'écran et schémas sont en anglais pour toutes les langues (décision de l'utilisateur).
+- Les mots du Script dans les exemples de code ne sont pas traduits (l'éditeur comprend tous les mots) ; la page « Script syntax in 7 languages » donne chaque langue.

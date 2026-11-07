@@ -3,7 +3,7 @@ title: 「もし…」条件
 description: ゲームが覚えていることに応じて、物語を別のシーンへ進めます。ケースはいくつでも作れます。
 ---
 
-「{ui.moments.condition}」カットは、ゲームが覚えていることを調べて、物語をあるシーンへ進めます。**プレイヤーにはこのカットは見えません。** ゲームが調べて、すぐに先へ進みます。図で見る考え方は、[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
+「{ui.moments.condition}」カットは、ゲームが覚えていることを調べて、物語をあるシーンへ進めます。**プレイヤーにはこのカットは見えません。** ゲームが調べて、すぐに先へ進みます。図で見る考え方は、[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。
 
 ## ケース
 
@@ -37,7 +37,7 @@ description: ゲームが覚えていることに応じて、物語を別のシ�
 | {ui.variables.number} | {ui.conditionTests.is}, {ui.moments.isNot}, {ui.moments.atLeast}, {ui.moments.atMost}, {ui.moments.moreThan}, {ui.moments.lessThan} |
 | {ui.variables.yesNo} | {ui.conditionTests.is}, {ui.moments.isNot} |
 
-スコアのテストの下には、選択肢の合計がどこまで届くか、そしてそのテストが成り立つことがあるかどうかを示す1行が表示されます。[選択肢が行き着く先](/novelworks-docs/ja/branching/reach/)を見てください。まだ変数がない場合は、エディターがそう伝え、変数タブで作るように案内します。
+スコアのテストの下には、選択肢の合計がどこまで届くか、そしてそのテストが成り立つことがあるかどうかを示す1行が表示されます。[選択肢がたどり着ける範囲(最大 +5)](/novelworks-docs/ja/branching/reach/)を見てください。まだ変数がない場合は、エディターがそう伝え、変数タブで作るように案内します。
 
 ### アイテム
 

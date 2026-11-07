@@ -39,7 +39,7 @@ Lo que ves cuando el otro proyecto no los tiene (comprobado pegando un momento d
 
 - un hablante que no existe allí se convierte en el **{ui.stageControls.narrator}**;
 - un fondo que no existe allí se descarta (el momento muestra «{tx.stage.noBackground}»);
-- un personaje que no existe allí no se dibuja, y puede aparecer como una fila «Sin nombre» en el esquema de la escena, o como `?` en el [modo Guion](/novelworks-docs/es/writing/script-mode-lines/);
+- un personaje que no existe allí no se dibuja, y puede aparecer como una fila «Sin nombre» en el gráfico de la escena, o como `?` en el [modo Guion](/novelworks-docs/es/writing/script-mode-lines/);
 - **no se muestra ningún aviso**, así que revisa tú mismo el momento pegado.
 
 Pega en un proyecto que tenga los mismos personajes, imágenes, escenas y variables para obtener el mejor resultado.

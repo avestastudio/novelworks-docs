@@ -40,7 +40,7 @@ Clique em **{ui.projectHub.newProject}**.
 3. Se quiser, marque os **{ui.newProjectScreen.features}** de que o seu jogo precisa: **{ui.shared.features.inventory}** e **{ui.shared.features.map}**. Todos começam desligados, e você pode ligá-los ou desligá-los depois sem perder nada.
 4. Clique em **{ui.newProjectScreen.createProject}** (ou aperte **Enter**). **Esc** cancela.
 
-O NovelWorks cria a pasta, com um arquivo `project.json` e uma pasta `assets` vazia, e abre o projeto com uma cena, "{tx.shared.project.firstScene}", que tem uma linha de diálogo vazia. Uma pasta `backups` aparece na primeira vez que um backup é feito.
+O NovelWorks cria a pasta, com um arquivo `project.json` e uma pasta `assets` vazia, e abre o projeto com uma cena, “{tx.shared.project.firstScene}”, que tem uma linha de diálogo vazia. Uma pasta `backups` aparece na primeira vez que um backup é feito.
 
 ## O que há em uma pasta de projeto
 

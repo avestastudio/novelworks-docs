@@ -44,7 +44,7 @@ Puedes arrastrar el borde entre paneles para cambiar su tamaño; haz doble clic 
 El juego tal como lo verán los jugadores, escalado para encajar. Encima puedes elegir el fondo del momento, añadir personajes y cambiar entre dos cosas:
 
 - **{ui.topBar.visual}** y **{ui.topBar.script}**: muestran la escena como la pantalla del juego con una línea de tiempo, o como texto que puedes escribir como un guion de cine.
-- **{ui.stage.scopeLabel}**: **{ui.stage.scopeFollowing}** o **{ui.stage.scopeOnlyHere}**. Se explica en [El escenario](/novelworks-docs/es/concepts/stage/).
+- **{ui.stage.scopeLabel}**: **{ui.stage.scopeFollowing}** o **{ui.stage.scopeOnlyHere}**. Se explica en [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 
 Encima de la pantalla, una fila de botones pequeños muestra adónde lleva el momento seleccionado (consulta [Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
 

@@ -9,9 +9,9 @@ description: よく聞かれる質問への、短い答え。
 
 **ゲームの権利は誰のものですか？** あなたのものです。バージョン情報のウインドウにも「ゲームはあなたのもので、ロイヤリティはかかりません」と書かれています。ゲームに含まれる無料のフォントには、それぞれのオープンライセンスが適用されます。
 
-**エディタは何語に対応していますか？** 英語、フランス語、スペイン語、ブラジルのポルトガル語、簡体字中国語、ロシア語、日本語です。**{ui.menu.view} → 言語** で変更できます。ストーリーは、あなたが書いた言語のままです。
+**エディターは何語に対応していますか？** 英語、フランス語、スペイン語、ブラジルのポルトガル語、簡体字中国語、ロシア語、日本語です。**{ui.menu.view} → 言語** で変更できます。ストーリーは、あなたが書いた言語のままです。
 
-**体験版でゲームを最後まで作れますか？** はい。すべてを作ってプレイできます。書き出しは、5 シーン以下のゲームに限られます。[無料の体験版](/novelworks-docs/ja/getting-started/demo-edition/)を参照してください。
+**体験版でゲームを最後まで作れますか？** はい。すべてを作ってプレイできます。書き出しは、5 シーン以下のゲームに限られます。[無料体験版](/novelworks-docs/ja/getting-started/demo-edition/)を参照してください。
 
 ## 作品について
 
@@ -25,21 +25,21 @@ description: よく聞かれる質問への、短い答え。
 
 ## 書くこと
 
-**次のカットでも、キャラクターが画面に残っているのはなぜですか？** キャラクターは、変更するまで舞台に残ります。[舞台](/novelworks-docs/ja/concepts/stage/)を参照してください。
+**次のカットでも、キャラクターが画面に残っているのはなぜですか？** キャラクターは、変更するまでステージに残ります。[ステージ](/novelworks-docs/ja/concepts/stage/)を参照してください。
 
-**選択を意味のあるものにするには？** 選択肢の中でゲームに何かを覚えさせ、そのあとで「もし…」や選択肢の条件を使います。[ストーリーが分岐するしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)を参照してください。
+**選択を意味のあるものにするには？** 選択肢の中でゲームに何かを覚えさせ、そのあとで「もし…」や選択肢の条件を使います。[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)を参照してください。
 
 **ストーリー全体をテキストで書けますか？** はい。[スクリプトモード](/novelworks-docs/ja/writing/script-mode/)と、[スクリプトの読み込みと書き出し](/novelworks-docs/ja/writing/import-a-script/)を参照してください。
 
-**自分のフォントを使えますか？** まだ使えません。4 つのフォントから選べます。[フォントと色](/novelworks-docs/ja/game-ui/fonts-and-colors/)を参照してください。
+**自分のフォントを使えますか？** まだ使えません。4 つのフォントから選べます。[フォントとカラー](/novelworks-docs/ja/game-ui/fonts-and-colors/)を参照してください。
 
 ## テストと公開
 
-**途中からテストするには？** カットを選んで {ui.leftPanel.playFromHere} を使います。[プレイ、ここからプレイ、マップのテスト](/novelworks-docs/ja/testing/play/)を参照してください。
+**途中からテストするには？** カットを選んで {ui.leftPanel.playFromHere} を使います。[プレイ、ここからプレイ、マップをテスト](/novelworks-docs/ja/testing/play/)を参照してください。
 
-**警告はどういう意味ですか？** [問題一覧](/novelworks-docs/ja/testing/problems/)を参照してください。警告が出ても、プレイや書き出しはできます。
+**警告はどういう意味ですか？** [問題: すべての警告](/novelworks-docs/ja/testing/problems/)を参照してください。警告が出ても、プレイや書き出しはできます。
 
-**プレイヤーは何かをインストールする必要がありますか？** いいえ。ウェブ書き出しのゲームは、パソコンでもスマートフォンでも、どのブラウザでも遊べます。[ウェブ書き出し](/novelworks-docs/ja/publish/web-export/)を参照してください。
+**プレイヤーは何かをインストールする必要がありますか？** いいえ。ウェブ書き出しのゲームは、パソコンでもスマートフォンでも、どのブラウザでも遊べます。[Web書き出し](/novelworks-docs/ja/publish/web-export/)を参照してください。
 
 **プレイヤーのセーブデータはどこに保存されますか？** あなたのゲーム用に、プレイヤーのブラウザの中に保存されます。ゲームをアップデートしても残ります。[セーブとロード](/novelworks-docs/ja/player/save-and-load/)を参照してください。
 
@@ -47,4 +47,4 @@ description: よく聞かれる質問への、短い答え。
 
 **書き出しがロックされています。** フル版では、NovelWorks を認証してください。**{ui.native.role.help} → NovelWorks を認証…** です。[トラブルシューティング](/novelworks-docs/ja/reference/troubleshooting/)を参照してください。
 
-**ほかにおかしいことがあります。** [トラブルシューティングとメッセージ](/novelworks-docs/ja/reference/troubleshooting/)を見るか、[不具合を報告](/novelworks-docs/ja/reference/report-a-bug/)してください。
+**ほかにおかしいことがあります。** [トラブルシューティングとメッセージ](/novelworks-docs/ja/reference/troubleshooting/)を見るか、[不具合を報告する](/novelworks-docs/ja/reference/report-a-bug/)してください。

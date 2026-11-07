@@ -33,4 +33,4 @@ El propio editor habla siete idiomas: inglés, francés, español, portugués de
 - ¿Eres nuevo? Sigue [Tu primera novela visual](/novelworks-docs/es/getting-started/first-visual-novel/).
 - ¿Quieres echar un vistazo rápido antes? Lee la [visita guiada por el editor](/novelworks-docs/es/getting-started/tour-of-the-editor/), o repite el [recorrido guiado](/novelworks-docs/es/getting-started/guided-tour/) de la aplicación.
 - ¿Aún no lo has instalado? Consulta [Instalar y activar](/novelworks-docs/es/getting-started/install-and-activate/) y la [demo gratuita](/novelworks-docs/es/getting-started/demo-edition/).
-- La idea que más sorprende a quien empieza: [los personajes se quedan en escena](/novelworks-docs/es/concepts/stage/) de un momento al siguiente.
+- La idea que más sorprende a quien empieza: [los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/) de un momento al siguiente.

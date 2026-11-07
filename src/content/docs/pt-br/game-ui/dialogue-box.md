@@ -15,7 +15,7 @@ A **{ui.gameUI.dialogueBox}** é a caixa que mostra o nome de quem fala e o text
 
 Escolha **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
-- **{ui.gameUIInspector.color}**: uma cor e uma **{ui.gameUIInspector.opacity}** (0 a 100 %, padrão 80). Essa cor também é a cor padrão dos botões de escolha, do menu de pausa e de outros painéis ("{tx.gameUIInspector.sameAsTheDialogueBox}"), e da aba do nome. Isso continua valendo quando a própria caixa usa uma imagem: a cor e a opacidade deixam de aparecer na caixa, mas ainda colorem esses botões e painéis.
+- **{ui.gameUIInspector.color}**: uma cor e uma **{ui.gameUIInspector.opacity}** (0 a 100 %, padrão 80). Essa cor também é a cor padrão dos botões de escolha, do menu de pausa e de outros painéis (“{tx.gameUIInspector.sameAsTheDialogueBox}”), e da aba do nome. Isso continua valendo quando a própria caixa usa uma imagem: a cor e a opacidade deixam de aparecer na caixa, mas ainda colorem esses botões e painéis.
 - **{ui.gameUIInspector.image}**: qualquer imagem. As partes transparentes continuam transparentes, então você pode usar balões, pergaminhos ou qualquer forma. Escolha como ela se ajusta:
   - **{ui.gameUIInspector.stretch}**: preenche a caixa toda (a imagem pode parecer amassada);
   - **{ui.gameUIInspector.fit}**: a imagem inteira, mantendo a forma;
@@ -23,7 +23,7 @@ Escolha **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
 ## Texto e nome
 
-- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" por padrão.
+- **{ui.gameUIInspector.textColor}**: “{tx.gameUIInspector.sameAsTheTextColor}” por padrão.
 - **{ui.gameUIInspector.nameColor}**: **{ui.gameUIInspector.characterColors}** (a [cor do nome](/novelworks-docs/pt-br/writing/characters/) de cada personagem, o padrão) ou **{ui.gameUIInspector.oneColor}** (uma só **{ui.gameUIInspector.colorOfEveryName}** para todos).
 - **{ui.gameUIInspector.textPadding}**: espaço entre a borda da caixa e o texto (0 a 15 %, padrão 4).
 - **{ui.gameUIInspector.speakerName}**: **{ui.gameUIInspector.insideTheBox}** (padrão) ou **{ui.gameUIInspector.tabAbove}** (uma aba acima da caixa).

@@ -16,18 +16,18 @@ NovelWorks utilise les menus natifs de votre ordinateur. **Cmd** correspond à *
 | {ui.native.menu.newProject} | **Cmd+N** | Ouvre l’écran de nouveau projet. |
 | {ui.native.menu.openProject} | **Cmd+O** | Ouvre le dossier d’un projet. |
 | {ui.native.menu.save} | **Cmd+S** | Enregistre le projet. |
-| {ui.native.menu.restoreFromBackup} | | Revient à une version plus ancienne. Voir [Enregistrement, sauvegardes et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/). |
+| {ui.native.menu.restoreFromBackup} | | Revient à une version plus ancienne. Voir [Enregistrement, sauvegardes de secours et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/). |
 | {ui.native.menu.importScript} | | Ajoute un fichier texte à vos scènes. Voir [Importer et exporter un script](/novelworks-docs/fr/writing/import-a-script/). |
 | {ui.native.menu.exportScript} | | Enregistre tout votre jeu dans un fichier texte. |
 | {ui.native.menu.exportForWeb} | **Cmd+E** | Exporte votre jeu pour le web. Voir [Export web](/novelworks-docs/fr/publish/web-export/). |
-| {ui.native.menu.closeProject} | **Cmd+Shift+W** | Revient à l’écran des projets. |
+| {ui.native.menu.closeProject} | **Cmd+Maj+W** | Revient à l’écran des projets. |
 
 ## Édition
 
 | Élément | Raccourci |
 |---|---|
 | {ui.native.menu.undo} | **Cmd+Z** |
-| {ui.native.menu.redo} | **Shift+Cmd+Z** (Windows : **Ctrl+Shift+Z**, et **Ctrl+Y** dans l’éditeur) |
+| {ui.native.menu.redo} | **Maj+Cmd+Z** (Windows : **Ctrl+Maj+Z**, et **Ctrl+Y** dans l’éditeur) |
 | {ui.native.menu.findAndReplace} | **Cmd+F** |
 | Couper, Copier, Coller, Tout sélectionner | **Cmd+X**, **Cmd+C**, **Cmd+V**, **Cmd+A** |
 | {ui.native.spelling.spellingLanguage} | Sous Windows : les langues de votre ordinateur, plus l’anglais, ou une autre langue. Sur Mac, macOS détecte la langue de votre texte. Enregistrée dans le projet. |

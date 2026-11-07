@@ -3,7 +3,7 @@ title: Poner en escena una escena
 description: Elige el fondo, coloca personajes en la pantalla y sitúalos, cambia su tamaño, voltéalos y ordénalos.
 ---
 
-Poner en escena es decidir qué ve el jugador detrás del texto: el fondo y los personajes. Todo se hace en la pantalla del juego, en el modo **{ui.topBar.story}**, vista Visual. Antes de empezar, lee [El escenario](/novelworks-docs/es/concepts/stage/): lo que defines en un momento continúa en los siguientes.
+Poner en escena es decidir qué ve el jugador detrás del texto: el fondo y los personajes. Todo se hace en la pantalla del juego, en el modo **{ui.topBar.story}**, vista Visual. Antes de empezar, lee [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/): lo que defines en un momento continúa en los siguientes.
 
 ## Elegir hasta dónde llega un cambio
 
@@ -42,13 +42,13 @@ En la barra de herramientas sobre el personaje, o en el inspector (**{ui.stageCh
 
 El inspector también tiene un control deslizante de **{ui.stageCharacterInspector.size}** y un botón para editar el nombre y las expresiones del personaje.
 
-También puedes hacer clic derecho en un personaje para ver los mismos controles más **{ui.contextMenus.stayUntil}**, **{ui.contextMenus.onlyThisMoment}**, **{ui.contextMenus.backToBefore}** y **{ui.contextMenus.leavesHere}**; se explican en [El escenario](/novelworks-docs/es/concepts/stage/).
+También puedes hacer clic derecho en un personaje para ver los mismos controles más **{ui.contextMenus.stayUntil}**, **{ui.contextMenus.onlyThisMoment}**, **{ui.contextMenus.backToBefore}** y **{ui.contextMenus.leavesHere}**; se explican en [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 
 Para quitar un personaje seleccionado también puedes pulsar `Delete` o `Backspace`. Las teclas de flecha no mueven a los personajes: te mueven entre momentos.
 
 ## Empezar una escena como terminó otra
 
-En el primer momento de una escena a la que llevan otras escenas, un aviso puede ofrecerte empezar con lo que había en pantalla al final de la escena anterior. Consulta [El escenario](/novelworks-docs/es/concepts/stage/).
+En el primer momento de una escena a la que llevan otras escenas, un aviso puede ofrecerte empezar con lo que había en pantalla al final de la escena anterior. Consulta [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 
 ## Mientras editas
 

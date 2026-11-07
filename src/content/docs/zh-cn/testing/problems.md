@@ -45,7 +45,7 @@ description: 编辑器会在哪些地方提醒你出了问题，以及完整的�
 | 请选择条件成立时要前往的场景。 | 选择一个场景。 |
 | 条件成立时，要前往的场景已被删除。/ 否则，这里要前往的场景已被删除。 | 另选一个场景。 |
 
-请记住，条件有问题的“如果…”会被游戏跳过。见[“如果…”条件](/novelworks-docs/zh-cn/branching/conditions/)。
+请记住，条件有问题的“如果…”会被游戏跳过。见[如果… 条件](/novelworks-docs/zh-cn/branching/conditions/)。
 
 ## 跳转
 

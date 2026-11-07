@@ -59,7 +59,7 @@ Une ligne qui commence par `//` est une note privée attachée au moment suivant
 
 ## Lignes de mise en scène
 
-Ces lignes ne forment pas un moment à elles seules : elles changent la scène à partir de la ligne suivante.
+Ces lignes ne forment pas un moment à elles seules : elles changent le plateau à partir de la ligne suivante.
 
 ```
 background : Station
@@ -70,7 +70,7 @@ hide : everyone
 
 - **`background : Name`** change le décor pour l’image appelée Nom. `background : none`, ou rien après les deux-points, l’enlève.
 - **`show : Mia happy left`** fait apparaître un personnage, ou change son expression ou sa place. Après le nom, vous pouvez ajouter une expression et une place : `left`, `center` ou `right`, ou `placed by hand` pour garder un placement libre. Sans place, un personnage déjà en scène garde la sienne, et un nouveau va au centre. Un nom de personnage peut contenir des espaces.
-- **`hide : Mia`** fait partir un personnage. `hide : everyone`, ou rien après les deux-points, vide la scène.
+- **`hide : Mia`** fait partir un personnage. `hide : everyone`, ou rien après les deux-points, vide le plateau.
 
 Une ligne de mise en scène a besoin d’une ligne après elle. Sinon, elle est signalée.
 

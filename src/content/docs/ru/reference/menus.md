@@ -7,7 +7,7 @@ NovelWorks использует обычные меню вашего компь�
 
 ## Меню приложения (только на Mac)
 
-**About Novelworks**, Services, **Hide Novelworks** (**Cmd+H**), **{ui.native.role.hideOthers}**, **{ui.native.role.unhide}**, **Quit Novelworks** (**Cmd+Q**). В Windows пункт «Выход» находится в конце меню «Файл», а «О программе» — в меню «Справка».
+«О программе Novelworks», «Службы», «Скрыть Novelworks» (**Cmd+H**), **{ui.native.role.hideOthers}**, **{ui.native.role.unhide}**, «Завершить Novelworks» (**Cmd+Q**). В Windows пункт «Завершить» находится в конце меню «Файл», а «О программе» — в меню «Справка».
 
 ## Файл
 
@@ -29,7 +29,7 @@ NovelWorks использует обычные меню вашего компь�
 | {ui.native.menu.undo} | **Cmd+Z** |
 | {ui.native.menu.redo} | **Shift+Cmd+Z** (в Windows: **Ctrl+Shift+Z**, а в редакторе ещё и **Ctrl+Y**) |
 | {ui.native.menu.findAndReplace} | **Cmd+F** |
-| Cut, Copy, Paste, Select All | **Cmd+X**, **Cmd+C**, **Cmd+V**, **Cmd+A** |
+| Вырезать, Копировать, Вставить, Выбрать всё | **Cmd+X**, **Cmd+C**, **Cmd+V**, **Cmd+A** |
 | {ui.native.spelling.spellingLanguage} | В Windows: языки вашего компьютера плюс английский или другой язык. На Mac macOS сама определяет язык вашего текста. Сохраняется в проекте. |
 
 «Отменить» и «Повторить» действуют на проект, кроме поля названия на экране нового проекта.
@@ -44,7 +44,7 @@ NovelWorks использует обычные меню вашего компь�
 
 ## Окно
 
-Minimize, Zoom и Bring All to Front на Mac; Minimize и Close в Windows.
+На Mac: «Свернуть», «Масштаб» и «Все окна — на передний план»; в Windows: «Свернуть» и «Закрыть окно».
 
 ## Справка
 
@@ -55,7 +55,7 @@ Minimize, Zoom и Bring All to Front на Mac; Minimize и Close в Windows.
 | {ui.native.menu.keyboardShortcuts} (**Cmd+/**) | Показывает список сочетаний клавиш. |
 | {ui.native.menu.activateNovelWorks} | Только в полной версии с itch.io. См. [Установка и активация](/novelworks-docs/ru/getting-started/install-and-activate/). |
 | {ui.native.menu.reportABug} | Открывает форму обратной связи. См. [Сообщить об ошибке](/novelworks-docs/ru/reference/report-a-bug/). |
-| About Novelworks | Только в Windows: окно «О программе». |
+| О программе Novelworks | Только в Windows: окно «О программе». |
 
 ## Меню экрана проектов
 

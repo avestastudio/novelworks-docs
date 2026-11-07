@@ -38,7 +38,7 @@ O `project.json` tem uma **versão de formato**. Esta versão do NovelWorks grav
 - O NovelWorks atualiza o projeto **só na memória**. Antes de entregá-lo ao editor, ele salva uma **cópia exata** do `project.json` original em `backups`, com um nome como `project-2026-11-07_17-15-04-migration.json`, e confere se a cópia é idêntica.
 - Se a cópia não puder ser feita, o projeto **não é aberto** e nada é alterado.
 - Uma barra diz onde está a cópia (com **{ui.store.showCopy}**) e que você precisa salvar para manter a atualização. O projeto conta como não salvo.
-- Se você abrir de novo sem salvar, a mesma cópia é reutilizada. Estas cópias "{tx.restoreBackupDialog.beforeUpgrade}" nunca são apagadas.
+- Se você abrir de novo sem salvar, a mesma cópia é reutilizada. Estas cópias “{tx.restoreBackupDialog.beforeUpgrade}” nunca são apagadas.
 - Você pode voltar ao original com **{ui.native.menu.file} → Restaurar do backup…**.
 
 Os saves dos jogadores nos seus jogos continuam legíveis: os saves apontam para cenas e momentos pela identidade deles.

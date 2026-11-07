@@ -7,9 +7,9 @@ A tela **{ui.gameUI.mapButton}** define a aparência do botão que abre o [mapa]
 
 ## O que você pode mudar
 
-- **{ui.gameUIInspector.label}**: o texto do botão e da entrada no menu de pausa. Padrão "{tx.theme.map}".
+- **{ui.gameUIInspector.label}**: o texto do botão e da entrada no menu de pausa. Padrão “{tx.theme.map}”.
 - **{ui.gameUIInspector.cornerOfTheScreen}**: no alto à esquerda (padrão), no alto à direita, embaixo à esquerda ou embaixo à direita.
-- **{ui.gameUIInspector.buttonStyle}**: "{tx.gameUIInspector.sameAsFontsColors}" por padrão.
+- **{ui.gameUIInspector.buttonStyle}**: “{tx.gameUIInspector.sameAsFontsColors}” por padrão.
 
 O botão usa as cores da caixa de diálogo, e a cor dele não pode ser definida separadamente.
 

@@ -31,7 +31,7 @@ O modo **{ui.topBar.gameUI}** muda a aparência do seu jogo: a fonte e as cores,
 | {ui.gameUI.theEnd} | Aparece quando a história termina. | [Tela final](/novelworks-docs/pt-br/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | O botão e o painel de itens (recurso Inventário). | [Tela de inventário](/novelworks-docs/pt-br/game-ui/inventory-ui/) |
 | {ui.gameUI.mapButton} | O botão que abre o mapa (recurso Mapa). | [Botão do mapa](/novelworks-docs/pt-br/game-ui/map-button/) |
-| {ui.gameUI.notices} | Mensagens curtas como "Você recebeu: Chave". | [Notificações](/novelworks-docs/pt-br/game-ui/notifications/) |
+| {ui.gameUI.notices} | Mensagens curtas como “Você recebeu: Chave”. | [Notificações](/novelworks-docs/pt-br/game-ui/notifications/) |
 
 ## Texto longo e avatar
 
@@ -39,8 +39,8 @@ Em Fontes e cores, Caixa de diálogo, Escolhas e Menu de pausa, o botão **{ui.g
 
 ## Configurações que funcionam igual em todo lugar
 
-- **Cores.** Uma amostra abre um seletor de cores, e uma caixa aceita um código (`#rgb` ou `#rrggbb`). Quando uma cor é "Igual a …" (por exemplo "{tx.gameUIInspector.sameAsTheTextColor}"), nada é guardado: ela acompanha a outra cor. Depois que você escolhe uma cor, uma pequena seta circular ao lado dela volta para "Igual a …".
-- **Estilo do botão.** Uma lista com **{ui.gameUIInspector.sameAsFontsColors}**, **{ui.gameUIInspector.pill}**, **{ui.gameUIInspector.rounded}**, **{ui.gameUIInspector.square}** e **{ui.gameUIInspector.text}** (sem caixa, só as palavras). "{tx.gameUIInspector.sameAsFontsColors}" acompanha o estilo global.
+- **Cores.** Uma amostra abre um seletor de cores, e uma caixa aceita um código (`#rgb` ou `#rrggbb`). Quando uma cor é “Igual a …” (por exemplo “{tx.gameUIInspector.sameAsTheTextColor}”), nada é guardado: ela acompanha a outra cor. Depois que você escolhe uma cor, uma pequena seta circular ao lado dela volta para “Igual a …”.
+- **Estilo do botão.** Uma lista com **{ui.gameUIInspector.sameAsFontsColors}**, **{ui.gameUIInspector.pill}**, **{ui.gameUIInspector.rounded}**, **{ui.gameUIInspector.square}** e **{ui.gameUIInspector.text}** (sem caixa, só as palavras). “{tx.gameUIInspector.sameAsFontsColors}” acompanha o estilo global.
 - **Controles deslizantes** mostram o valor com a unidade, em geral %. As porcentagens são relativas à tela, então o seu visual se mantém em qualquer tamanho.
 - **Imagens.** Um campo de imagem mostra uma miniatura com **{ui.gameUIInspector.choose_c7f937}** ou **{ui.gameUIInspector.change}**, e um X para removê-la. Em geral você pode escolher qualquer uma das suas imagens ou importar uma nova na hora. (O fundo da tela de título só oferece cenários, CGs e imagens de interface.) Se uma imagem for excluída, o jogo volta para a cor lisa ou para o texto.
 - **{ui.gameUIInspector.resetToDefault}.** O botão no fim de uma tela pede confirmação e depois devolve **só aquela tela** ao visual de um jogo novo. As outras telas não mudam.

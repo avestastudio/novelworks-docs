@@ -14,6 +14,6 @@ description: 直接前往另一个场景，例如让两条分支重新汇合。
 - 跳转是所在场景的**出口**。放在它后面的片段永远无法到达，编辑器会对此发出警告（“玩家永远看不到这个片段……”）。
 - 如果目标场景已被删除，或者没有选择场景，编辑器会提醒你。在游戏中，这样的跳转会继续执行场景的下一个片段。
 - 一个场景只能以一个跳转结尾。在[剧情地图](/novelworks-docs/zh-cn/branching/story-map/)上，如果要连接的场景最后一个跳转已经指定了场景，连接会被拒绝；如果跳转还没有场景，则会直接填入。
-- 只在彼此之间来回跳转，会形成无限循环：游戏在自动执行 1000 步后会停止，并显示结束画面。参见[如果…条件](/novelworks-docs/zh-cn/branching/conditions/)。
+- 只在彼此之间来回跳转，会形成无限循环：游戏在自动执行 1000 步后会停止，并显示结束画面。参见[如果… 条件](/novelworks-docs/zh-cn/branching/conditions/)。
 - 在剧情地图上，跳转是一条标有“{tx.storyMap.jump}”的箭头。
 - 跳转在[剧本模式](/novelworks-docs/zh-cn/writing/script-mode-conditions/)中也可以使用，写作 `-> Park`。

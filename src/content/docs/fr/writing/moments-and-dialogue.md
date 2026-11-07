@@ -7,9 +7,9 @@ Un **moment** est une étape d’une scène : une réplique, un choix, un saut�
 
 ## Écrire une réplique
 
-Cliquez sur la boîte de dialogue de l’écran de jeu et tapez. Le texte se tape directement dans la boîte, et vous pouvez aussi utiliser **{ui.momentInspector.text}** dans l’inspecteur.
+Cliquez sur la boîte de dialogue de l’écran du jeu et tapez. Le texte se tape directement dans la boîte, et vous pouvez aussi utiliser **{ui.momentInspector.text}** dans l’inspecteur.
 
-- **Entrée** commence la **ligne suivante** : un nouveau moment de dialogue après celui-ci, avec la même scène et le même personnage qui parle, prêt à taper.
+- **Entrée** commence la **ligne suivante** : un nouveau moment de dialogue après celui-ci, avec le même plateau et le même personnage qui parle, prêt à taper.
 - **Maj+Entrée** ajoute une nouvelle ligne **dans la même boîte**.
 - Un texte trop long pour tenir dans la boîte affiche un avertissement : appuyez sur **Entrée** pour continuer dans un nouveau moment.
 
@@ -26,7 +26,7 @@ Une nouvelle ligne garde le personnage de la ligne précédente. Si vous supprim
 
 Dans la chronologie, les boutons au-dessus des cartes ajoutent un moment de chaque sorte **après celui qui est sélectionné** : {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} et, quand ces fonctionnalités sont activées, {ui.moments.item} et {ui.moments.showMap}. Le **+** au bout de la bande ajoute une réplique. Dans une scène vide, **{ui.timeline.writeTheFirstLine}** fait la même chose.
 
-Un nouveau moment ne change rien à l’écran : il montre ce que montrait le moment précédent (voir [La scène](/novelworks-docs/fr/concepts/stage/)).
+Un nouveau moment ne change rien à l’écran : il montre ce que montrait le moment précédent (voir [Le plateau](/novelworks-docs/fr/concepts/stage/)).
 
 ## Réorganiser les moments
 

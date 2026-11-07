@@ -9,7 +9,7 @@ Los atajos se ignoran mientras se mantiene pulsada la tecla **Ctrl**, **Cmd** o 
 
 | Tecla | Qué hace |
 |---|---|
-| **Espacio**, **Enter** | Termina el texto y después avanza. En un botón con el foco, lo pulsa. En una zona con el foco, la usa. |
+| **Espacio**, **Intro** | Termina el texto y después avanza. En un botón con el foco, lo pulsa. En una zona con el foco, la usa. |
 | **1** a **6** | Elige la opción número N en pantalla. La primera pulsación mientras el texto aparece lo termina. |
 | **Esc** | Abre o cierra el menú de pausa. Cierra el inventario, el Historial, las Opciones y Guardar/Cargar. |
 | **H** | Abre o cierra el Historial. |

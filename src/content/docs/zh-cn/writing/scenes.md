@@ -3,7 +3,7 @@ title: "场景"
 description: "创建、重命名、重新排序、复制和删除场景，并选择游戏从哪里开始。"
 ---
 
-场景是你故事的一章：由一系列依次播放的[片段](/novelworks-docs/zh-cn/writing/moments-and-dialogue/)组成。场景都在{ui.leftPanel.scenes}标签页里。想了解整体概念，请看[场景、片段和时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
+场景是你故事的一章：由一系列依次播放的[片段](/novelworks-docs/zh-cn/writing/moments-and-dialogue/)组成。场景都在{ui.leftPanel.scenes}标签页里。想了解整体概念，请看[场景、片段与时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 
 ## 创建场景
 

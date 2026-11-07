@@ -26,7 +26,7 @@ description: NovelWorks のメッセージの意味と、プロジェクトを�
 
 ## 書き出し
 
-[ウェブ書き出し](/novelworks-docs/ja/publish/web-export/)の表を参照してください。いちばん多いのは次の場合です。別のフォルダ（書類やデスクトップ）を選ぶ、ディスクの空き容量を増やす、または NovelWorks を認証する。
+[Web書き出し](/novelworks-docs/ja/publish/web-export/)の表を参照してください。いちばん多いのは次の場合です。別のフォルダ（書類やデスクトップ）を選ぶ、ディスクの空き容量を増やす、または NovelWorks を認証する。
 
 ## ゲームでの保存
 
@@ -34,10 +34,10 @@ description: NovelWorks のメッセージの意味と、プロジェクトを�
 
 ## ストーリーの様子がおかしいとき
 
-- {ui.scenesTab.unreachable} と表示されたシーン、カードの三角形、または「{tx.branchInspectors.thisMomentNeedsYourAttention}」という枠：[問題一覧](/novelworks-docs/ja/testing/problems/)を参照してください。
-- キャラクターが画面にいない：キャラクターは、何かが変えるまで舞台に残り、カットが指示すると去ります。[舞台](/novelworks-docs/ja/concepts/stage/)を参照してください。
+- {ui.scenesTab.unreachable} と表示されたシーン、カードの三角形、または「{tx.branchInspectors.thisMomentNeedsYourAttention}」という枠：[問題: すべての警告](/novelworks-docs/ja/testing/problems/)を参照してください。
+- キャラクターが画面にいない：キャラクターは、何かが変えるまでステージに残り、カットが指示すると去ります。[ステージ](/novelworks-docs/ja/concepts/stage/)を参照してください。
 - 選択肢が表示されない：条件が付いているのかもしれません。[選択肢](/novelworks-docs/ja/branching/choices/)を参照してください。
-- ストーリーが「もし…」を飛ばす：条件が、削除されたものを調べています。[「もし…」の条件](/novelworks-docs/ja/branching/conditions/)を参照してください。
+- ストーリーが「もし…」を飛ばす：条件が、削除されたものを調べています。[「もし…」条件](/novelworks-docs/ja/branching/conditions/)を参照してください。
 
 ## まだ解決しないときは
 

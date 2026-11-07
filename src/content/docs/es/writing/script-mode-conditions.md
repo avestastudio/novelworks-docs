@@ -40,7 +40,7 @@ Las líneas con sangría bajo una opción son lo que esta cambia:
 | Línea | Significado |
 |---|---|
 | `+ Affection 1` | Suma 1 a la Puntuación llamada Affection. |
-| `= MetMia true` | Fija MetMia. El valor es un número, o `true` / `false` (también sirven `yes` / `no`). |
+| `= MetMia true` | Establece MetMia. El valor es un número, o `true` / `false` (también sirven `yes` / `no`). |
 | `give : Key` (`give : Key x3`) | Da un objeto al jugador. |
 | `remove : Key` | Quita un objeto. |
 

@@ -34,11 +34,11 @@ Le projet s’ouvre avec une scène, « {tx.shared.project.firstScene} », et 
 
 ## 5. Ajouter un choix
 
-1. Dans la timeline, ajoutez un moment {ui.moments.choice}.
+1. Dans la chronologie, ajoutez un moment {ui.moments.choice}.
 2. Dans l’inspecteur, écrivez la question et le texte de deux options.
 3. Pour chaque option, choisissez la scène vers laquelle elle mène dans {ui.branchInspectors.then}. Créez d’abord les scènes avec {ui.scenesTab.newScene} dans l’onglet Scènes.
 
-Vous pouvez déjà faire en sorte qu’un choix compte : voir [Comment une histoire bifurque](/novelworks-docs/fr/concepts/how-stories-branch/).
+Vous pouvez déjà faire en sorte qu’un choix compte : voir [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/).
 
 ## 6. Ajouter une fin
 

@@ -20,11 +20,11 @@ NovelWorks では、初めてプロジェクトを開くと短い**ガイドツ�
 3. {ui.tutorial.assets.title}：「{ui.assetsTab.import}」ボタンか、ウインドウへのドロップで画像を読み込み、それぞれに種類を選びます。
 4. {ui.tutorial.stage.title}：ゲーム画面には、プレイヤーに見えるものが表示されます。
 5. {ui.tutorial.background.title}：カットの背景を選び、「{ui.momentInspector.applyToTheFollowingMoments}」でシーンの残りにも引き継ぎます。
-6. {ui.tutorial.character.title}：キャラクターを舞台に立たせて、ドラッグで位置を決めます。
-7. {ui.tutorial.persist.title}：キャラクターは、変えるまでその場所に残ります。[舞台](/novelworks-docs/ja/concepts/stage/)をご覧ください。
+6. {ui.tutorial.character.title}：キャラクターをステージに立たせて、ドラッグで位置を決めます。
+7. {ui.tutorial.persist.title}：キャラクターは、変えるまでその場所に残ります。[ステージ](/novelworks-docs/ja/concepts/stage/)をご覧ください。
 8. {ui.tutorial.timeline.title}：シーンはカットの連なりです。[シーン、カット、タイムライン](/novelworks-docs/ja/concepts/scenes-moments-timeline/)をご覧ください。
 9. {ui.tutorial.inspector.title}：選んだものについてのすべて。
-10. {ui.tutorial.choices.title}：選択肢を追加し、ゲームに何かを覚えさせ、「{tx.leftPanel.condition}」で物語を別の場所へ送ります。[物語の分岐](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください。
+10. {ui.tutorial.choices.title}：選択肢を追加し、ゲームに何かを覚えさせ、「{tx.leftPanel.condition}」で物語を別の場所へ送ります。[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください。
 11. {ui.tutorial.endings.title}：ストーリーマップで、すべてのエンディングと、そこへつながるものを見ます。
 12. {ui.tutorial.play.title}：{ui.topBar.play} と {ui.topBar.playFromHere}。
 13. {ui.tutorial.script.title}：シーン全体をテキストで書きます。どちらの表示も、同じ物語を編集しています。

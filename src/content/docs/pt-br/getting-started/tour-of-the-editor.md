@@ -12,7 +12,7 @@ O editor tem uma **barra superior** e, no modo {ui.topBar.story}, mais três ár
 Da esquerda para a direita:
 
 - **A seta de voltar** leva de volta à [tela de projetos](/novelworks-docs/pt-br/getting-started/projects-screen/). Se houver alterações não salvas, ela pergunta se você quer salvá-las antes.
-- **O título do projeto** (ou "Projeto sem título"). Clique nele para mostrar as configurações do projeto no inspetor (veja [Configurações do editor e do projeto](/novelworks-docs/pt-br/getting-started/editor-settings/)).
+- **O título do projeto** (ou “Projeto sem título”). Clique nele para mostrar as configurações do projeto no inspetor (veja [Configurações do editor e do projeto](/novelworks-docs/pt-br/getting-started/editor-settings/)).
 - **O indicador de salvamento**: {ui.topBar.unsavedChanges}, {ui.topBar.savedAuto} ou {ui.topBar.saved}.
 - **Três modos**:
   - **{ui.topBar.story}**: cenas, momentos e personagens. É aqui que você escreve.
@@ -23,7 +23,7 @@ Da esquerda para a direita:
 - **{ui.topBar.playFromHere}** joga a partir do momento selecionado. No espaço de trabalho do Mapa, ele vira **{ui.topBar.testMap}**.
 - **{ui.topBar.play}** joga a partir da tela de título.
 
-Em uma janela estreita, os nomes dos modos e o texto "{tx.leftPanel.playFromHere}" encolhem e viram ícones.
+Em uma janela estreita, os nomes dos modos e o texto “{tx.leftPanel.playFromHere}” encolhem e viram ícones.
 
 ## O painel esquerdo
 

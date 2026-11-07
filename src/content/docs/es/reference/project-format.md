@@ -51,7 +51,7 @@ Si una carpeta no tiene `project.json`, o el archivo está dañado (no es un JSO
 
 ## Copias de seguridad
 
-Mira [Guardado, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/): una copia antes de cada guardado manual, como máximo una cada 15 minutos con el autoguardado, las 20 más recientes más la más reciente de cada uno de los últimos 7 días.
+Mira [Guardar, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/): una copia antes de cada guardado manual, como máximo una cada 15 minutos con el autoguardado, las 20 más recientes más la más reciente de cada uno de los últimos 7 días.
 
 ## Editar el archivo a mano
 

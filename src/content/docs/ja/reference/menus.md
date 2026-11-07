@@ -19,7 +19,7 @@ NovelWorks は、お使いのコンピュータ標準のメニューを使いま
 | {ui.native.menu.restoreFromBackup} | | 以前のバージョンに戻します。[保存、バックアップ、取り消し](/novelworks-docs/ja/getting-started/saving-and-undo/)を参照してください。 |
 | {ui.native.menu.importScript} | | テキストファイルをシーンに追加します。[スクリプトの読み込みと書き出し](/novelworks-docs/ja/writing/import-a-script/)を参照してください。 |
 | {ui.native.menu.exportScript} | | ゲーム全体をテキストファイルとして保存します。 |
-| {ui.native.menu.exportForWeb} | **Cmd+E** | ゲームをウェブ向けに書き出します。[ウェブ書き出し](/novelworks-docs/ja/publish/web-export/)を参照してください。 |
+| {ui.native.menu.exportForWeb} | **Cmd+E** | ゲームをウェブ向けに書き出します。[Web書き出し](/novelworks-docs/ja/publish/web-export/)を参照してください。 |
 | {ui.native.menu.closeProject} | **Cmd+Shift+W** | プロジェクト一覧の画面に戻ります。 |
 
 ## 編集
@@ -27,7 +27,7 @@ NovelWorks は、お使いのコンピュータ標準のメニューを使いま
 | 項目 | ショートカット |
 |---|---|
 | {ui.native.menu.undo} | **Cmd+Z** |
-| {ui.native.menu.redo} | **Shift+Cmd+Z**（Windows では **Ctrl+Shift+Z**。エディタ内では **Ctrl+Y** も使えます） |
+| {ui.native.menu.redo} | **Shift+Cmd+Z**（Windows では **Ctrl+Shift+Z**。エディター内では **Ctrl+Y** も使えます） |
 | {ui.native.menu.findAndReplace} | **Cmd+F** |
 | 切り取り、コピー、ペースト、すべてを選択 | **Cmd+X**、**Cmd+C**、**Cmd+V**、**Cmd+A** |
 | {ui.native.spelling.spellingLanguage} | Windows では、お使いのコンピュータの言語に英語を加えたもの、または別の言語を選べます。Mac では、macOS が文章の言語を判別します。設定はプロジェクトに保存されます。 |

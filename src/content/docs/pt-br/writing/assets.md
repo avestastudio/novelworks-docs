@@ -16,12 +16,12 @@ Toda imagem do seu jogo é um **recurso** do seu projeto: cenários, imagens de 
 De três maneiras:
 
 - Clique em **{ui.assetsTab.import}** na aba Recursos (você pode escolher vários arquivos).
-- **Arraste imagens para a janela do editor.** Uma camada mostra "{tx.dropOverlay.dropYourImagesHere}". Depois de soltar, a aba Recursos abre.
+- **Arraste imagens para a janela do editor.** Uma camada mostra “{tx.dropOverlay.dropYourImagesHere}”. Depois de soltar, a aba Recursos abre.
 - Use o atalho de importação de um seletor, por exemplo quando você escolhe um cenário ou uma expressão.
 
 Uma janela pede então que você confira **{ui.importDialog.name}** e **{ui.importDialog.type}** de cada imagem. O NovelWorks adivinha o tipo para poupar o seu tempo: uma imagem com transparência é considerada um sprite, uma imagem paisagem ou quadrada, um cenário, e uma imagem retrato, um sprite. Você pode mudar cada palpite. **{ui.dialogs.cancel}** não copia nada.
 
-Para um **sprite de personagem**, você também pode escolher **{ui.importDialog.addToCharacter}**: um personagem existente ou **{ui.importDialog.newCharacter}**, e o **{ui.importDialog.expressionName}**. Se um arquivo se chamar `mia_happy` e um personagem se chamar Mia, o NovelWorks propõe Mia e "happy" sozinho. Com várias imagens, você pode definir o tipo ou o personagem de todas de uma vez.
+Para um **sprite de personagem**, você também pode escolher **{ui.importDialog.addToCharacter}**: um personagem existente ou **{ui.importDialog.newCharacter}**, e o **{ui.importDialog.expressionName}**. Se um arquivo se chamar `mia_happy` e um personagem se chamar Mia, o NovelWorks propõe Mia e “happy” sozinho. Com várias imagens, você pode definir o tipo ou o personagem de todas de uma vez.
 
 ## Tipos de imagem
 
@@ -42,7 +42,7 @@ Etiquetas filtram a lista por tipo, com o número de imagens em cada um. Selecio
 
 - **{ui.assetInspector.name}**: o nome exibido no NovelWorks. Mudá-lo não renomeia o arquivo;
 - **{ui.assetInspector.type}**: você pode mudá-lo a qualquer momento;
-- **{ui.assetInspector.usedIn}**: onde a imagem é usada, ou "{tx.assetInspector.notUsedYet}";
+- **{ui.assetInspector.usedIn}**: onde a imagem é usada, ou “{tx.assetInspector.notUsedYet}”;
 - **{ui.assetInspector.file}**: o arquivo dela na pasta `assets`.
 
 Clique com o botão direito em uma imagem para **{ui.contextMenus.rename}**, **{ui.contextMenus.showUsages}** e **{ui.contextMenus.delete}**.
@@ -55,4 +55,4 @@ Uma imagem em si não pode ser substituída no lugar. Para um personagem, clique
 
 ## Excluir uma imagem
 
-Clique em **{ui.assetInspector.deleteImage}**. O NovelWorks pergunta antes. Se a imagem for usada, ele lista onde e avisa que esses lugares ficarão sem imagem. O arquivo não é apagado na hora: quando você salva, ele é movido para `backups/deleted-assets`, e volta se você desfizer ou restaurar um backup. Veja [Salvamento, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).
+Clique em **{ui.assetInspector.deleteImage}**. O NovelWorks pergunta antes. Se a imagem for usada, ele lista onde e avisa que esses lugares ficarão sem imagem. O arquivo não é apagado na hora: quando você salva, ele é movido para `backups/deleted-assets`, e volta se você desfizer ou restaurar um backup. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).

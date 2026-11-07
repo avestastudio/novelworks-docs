@@ -23,7 +23,7 @@ Sous **{ui.gameUIInspector.screen}** :
 | Police adaptée à la dyslexie | Activé, Désactivé |
 | Contraste élevé | Activé, Désactivé |
 
-Une ligne d’exemple montre le texte tel qu’il apparaîtra, et **{rt.optionsScreen.defaults}** remet tout à zéro. Les changements s’appliquent tout de suite. Ils s’appliquent **par-dessus** votre interface du jeu, pour ce joueur seulement, et sont gardés pour votre jeu dans son navigateur.
+Une ligne d’exemple montre le texte tel qu’il apparaîtra, et **{rt.optionsScreen.defaults}** remet tout aux réglages par défaut. Les changements s’appliquent tout de suite. Ils s’appliquent **par-dessus** votre interface du jeu, pour ce joueur seulement, et sont gardés pour votre jeu dans son navigateur.
 
 Si un joueur n’a pas choisi de vitesse du texte et que son système demande de réduire les animations, le texte apparaît instantanément.
 

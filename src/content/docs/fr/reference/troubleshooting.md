@@ -28,14 +28,14 @@ description: Ce que signifient les messages de NovelWorks et ce qu’il faut fai
 
 Voir le tableau de [Export web](/novelworks-docs/fr/publish/web-export/). Les cas les plus courants : choisissez un autre dossier (Documents ou Bureau), libérez de l’espace disque, ou activez NovelWorks.
 
-## Enregistrer dans vos jeux
+## Sauvegardes dans vos jeux
 
-Les messages que voient les joueurs quand le navigateur bloque le stockage sont dans [Enregistrer et charger](/novelworks-docs/fr/player/save-and-load/).
+Les messages que voient les joueurs quand le navigateur bloque le stockage sont dans [Sauvegarder et charger](/novelworks-docs/fr/player/save-and-load/).
 
 ## Quand quelque chose semble anormal dans l’histoire
 
-- Une scène marquée **{ui.scenesTab.unreachable}**, un triangle sur une carte, ou un encadré « {tx.branchInspectors.thisMomentNeedsYourAttention} » : voir [Problèmes : chaque avertissement](/novelworks-docs/fr/testing/problems/).
-- Un personnage manque à l’écran : les personnages restent en scène jusqu’à ce que quelque chose les change, et partent quand un moment le demande. Voir [La scène](/novelworks-docs/fr/concepts/stage/).
+- Une scène marquée **{ui.scenesTab.unreachable}**, un triangle sur une carte, ou un encadré « {tx.branchInspectors.thisMomentNeedsYourAttention} » : voir [Problèmes : tous les avertissements](/novelworks-docs/fr/testing/problems/).
+- Un personnage manque à l’écran : les personnages restent sur le plateau jusqu’à ce que quelque chose les change, et partent quand un moment le demande. Voir [Le plateau](/novelworks-docs/fr/concepts/stage/).
 - Une option de choix n’apparaît pas : elle a peut-être une condition. Voir [Choix](/novelworks-docs/fr/branching/choices/).
 - L’histoire saute un Si… : une condition vérifie quelque chose qui a été supprimé. Voir [Conditions Si…](/novelworks-docs/fr/branching/conditions/).
 

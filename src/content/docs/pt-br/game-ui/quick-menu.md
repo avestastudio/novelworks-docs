@@ -3,7 +3,7 @@ title: Menu rápido
 description: "Os controles de leitura mostrados sobre a história: posição, aparência e quais botões exibir."
 ---
 
-O **{ui.quickMenu.title}** é uma barra pequena de "controles de leitura sobre a história". Os jogadores podem clicar nos botões dela em vez de usar teclas.
+O **{ui.quickMenu.title}** é uma barra pequena de “controles de leitura sobre a história”. Os jogadores podem clicar nos botões dela em vez de usar teclas.
 
 ![As configurações do menu rápido, com a prévia da barra no alto do jogo.](/novelworks-docs/screenshots/game-ui-quick-menu.png)
 
@@ -18,7 +18,7 @@ O **{ui.quickMenu.title}** é uma barra pequena de "controles de leitura sobre a
 - **{ui.gameUIInspector.buttonStyle}**: Pílula por padrão.
 - **{ui.quickMenu.textSize}**: 60 a 140 % do tamanho base do texto (padrão 80).
 - **{ui.quickMenu.buttonColor}**: por padrão, um fundo escuro translúcido. Um link restaura o padrão.
-- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" por padrão.
+- **{ui.gameUIInspector.textColor}**: “{tx.gameUIInspector.sameAsTheTextColor}” por padrão.
 
 ## Botões visíveis
 

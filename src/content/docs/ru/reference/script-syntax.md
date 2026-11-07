@@ -54,4 +54,4 @@ description: Слова формата сценария на каждом язы
 
 ## Где узнать о формате
 
-Сами строки объяснены в статьях [Режим сценария: каждая строка](/novelworks-docs/ru/writing/script-mode-lines/) и [Режим сценария: условия и выборы](/novelworks-docs/ru/writing/script-mode-conditions/).
+Сами строки объяснены в статьях [Режим «Сценарий»: все виды строк](/novelworks-docs/ru/writing/script-mode-lines/) и [Режим «Сценарий»: условия и выбор](/novelworks-docs/ru/writing/script-mode-conditions/).

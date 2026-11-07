@@ -14,7 +14,7 @@ description: Все горячие клавиши редактора и игр, 
 |---|---|---|
 | {ui.shortcuts.save} | ⌘S | Ctrl+S |
 | {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
-| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y или Ctrl+Shift+Z |
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
 | {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |

@@ -17,7 +17,7 @@ description: "Respuestas rápidas a las preguntas más habituales."
 
 **¿Dónde está mi proyecto?** En la carpeta que elegiste al crearlo. Los ajustes del proyecto la muestran en «{tx.projectSettings.savedIn}». Para copiar un proyecto, copia la carpeta entera.
 
-**He perdido un cambio.** Prueba **{ui.topBar.undo}** (hasta 200 pasos), y después **{ui.native.menu.file} → Restaurar desde copia de seguridad…**. Mira [Guardado, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/).
+**He perdido un cambio.** Prueba **{ui.topBar.undo}** (hasta 200 pasos), y después **{ui.native.menu.file} → Restaurar desde copia de seguridad…**. Mira [Guardar, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/).
 
 **He borrado una imagen, una escena o una variable por error.** Pulsa **{ui.topBar.undo}**. Una imagen borrada se guarda en `backups/deleted-assets` y vuelve con Deshacer. Una escena o una variable borrada se puede deshacer, y mientras tanto los lugares que la usaban muestran avisos.
 
@@ -25,7 +25,7 @@ description: "Respuestas rápidas a las preguntas más habituales."
 
 ## Escritura
 
-**¿Por qué un personaje sigue en pantalla en el momento siguiente?** Los personajes se quedan en el escenario hasta que los cambias. Mira [El escenario](/novelworks-docs/es/concepts/stage/).
+**¿Por qué un personaje sigue en pantalla en el momento siguiente?** Los personajes se quedan en el escenario hasta que los cambias. Mira [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 
 **¿Cómo hago que una elección importe?** Haz que el juego recuerde algo en una opción, y luego usa un Si… o una condición en una opción. Mira [Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/).
 
@@ -45,6 +45,6 @@ description: "Respuestas rápidas a las preguntas más habituales."
 
 ## Problemas
 
-**La exportación está bloqueada.** En la versión completa, activa NovelWorks: **{ui.native.role.help} → Activar NovelWorks…**. Mira [Solución de problemas](/novelworks-docs/es/reference/troubleshooting/).
+**La exportación está bloqueada.** En la versión completa, activa NovelWorks: **{ui.native.role.help} → Activar NovelWorks…**. Mira [Solución de problemas y mensajes](/novelworks-docs/es/reference/troubleshooting/).
 
 **Algo más va mal.** Mira [Solución de problemas y mensajes](/novelworks-docs/es/reference/troubleshooting/), o [informa de un error](/novelworks-docs/es/reference/report-a-bug/).

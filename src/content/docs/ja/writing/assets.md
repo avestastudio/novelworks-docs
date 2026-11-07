@@ -30,7 +30,7 @@ description: 画像を読み込み、タイプを選び、素材タブで管理�
 | {ui.assetTypes.background} | キャラクターの後ろで、画面いっぱいに表示されます。 |
 | {ui.assetTypes.characterSprite} | キャラクターの画像で、表情に使われます。 |
 | {ui.assetTypes.cG} | 特別なできごとのための、全画面のイラストです。 |
-| {ui.assetTypes.prop} | 物(鍵、手紙など)の画像で、探索カットの舞台に置かれます。 |
+| {ui.assetTypes.prop} | 物(鍵、手紙など)の画像で、探索カットのステージに置かれます。 |
 | {ui.assetTypes.uI} | ゲーム自体の画面のための画像です: ダイアログボックス、ロゴ、ボタンなど。 |
 | {ui.assetTypes.avatar} | 話者の名前の横に表示される、小さな肖像です。 |
 

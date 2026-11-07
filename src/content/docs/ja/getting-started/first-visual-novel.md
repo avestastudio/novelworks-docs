@@ -28,8 +28,8 @@ description: 空のプロジェクトから、プレイできるゲームまで�
 
 1. 「{ui.leftPanel.scenes}」タブを開き、シーンを選びます。
 2. ゲーム画面の上にある背景ボタン（「{ui.stage.chooseTheBackgroundOfThisMoment}」）で、カットの背景を選びます。
-3. 「{ui.stageControls.putACharacterOnStage}」ボタンでキャラクターを舞台に立たせ、好きな位置までドラッグします。
-4. 画面のダイアログボックスをクリックして入力します。**Enter** を押すと次の行に進みます。新しいカットが始まり、**同じ舞台**のままです。[キャラクターは舞台に残る](/novelworks-docs/ja/concepts/stage/)からです。同じボックスの中で改行するには **Shift+Enter** を押します。
+3. 「{ui.stageControls.putACharacterOnStage}」ボタンでキャラクターをステージに立たせ、好きな位置までドラッグします。
+4. 画面のダイアログボックスをクリックして入力します。**Enter** を押すと次の行に進みます。新しいカットが始まり、**同じステージ**のままです。[ステージ：キャラクターはその場に残る](/novelworks-docs/ja/concepts/stage/)からです。同じボックスの中で改行するには **Shift+Enter** を押します。
 5. あとのカットで表情を変えたいときは、画面上のキャラクターをクリックします。
 
 ## 5. 選択肢を追加する
@@ -38,7 +38,7 @@ description: 空のプロジェクトから、プレイできるゲームまで�
 2. インスペクターで、質問と2つの選択肢の文を書きます。
 3. 選択肢ごとに、「{ui.branchInspectors.then}」で行き先のシーンを選びます。先に、シーンタブの「{ui.scenesTab.newScene}」でシーンを作っておきましょう。
 
-選択に意味を持たせることもすぐにできます。[物語の分岐](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください。
+選択に意味を持たせることもすぐにできます。[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください。
 
 ## 6. エンディングを追加する
 
@@ -55,5 +55,5 @@ description: 空のプロジェクトから、プレイできるゲームまで�
 ## 次は何をする？
 
 - [変数](/novelworks-docs/ja/branching/variables/)と[条件](/novelworks-docs/ja/branching/conditions/)で、選択に意味を持たせましょう。
-- [ゲームUIエディター](/novelworks-docs/ja/game-ui/game-ui-editor/)で、ゲームの見た目を変えましょう。
+- [ゲームUIの概要](/novelworks-docs/ja/game-ui/game-ui-editor/)で、ゲームの見た目を変えましょう。
 - [書き出して](/novelworks-docs/ja/publish/web-export/)、みんなに公開しましょう。

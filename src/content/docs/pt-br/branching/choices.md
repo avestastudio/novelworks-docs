@@ -33,13 +33,13 @@ Os jogadores clicam em uma opção ou apertam a tecla do número dela, de 1 a 6.
 - uma cena, em **{ui.linkSelects.orGoToScene}**: o jogo entra nessa cena no primeiro momento dela.
 - **{ui.linkSelects.newScene}** cria uma cena vazia e a liga.
 
-Se a cena foi excluída, a lista mostra **{ui.linkSelects.deletedScenePickAnother}** e um aviso explica. No jogo, uma cena que falta se comporta como "continuar".
+Se a cena foi excluída, a lista mostra **{ui.linkSelects.deletedScenePickAnother}** e um aviso explica. No jogo, uma cena que falta se comporta como “continuar”.
 
 Quando o jogador escolhe uma opção, o jogo primeiro aplica as mudanças dela e depois segue o link.
 
 ## O que uma opção muda
 
-Em **{ui.branchInspectors.changes}**, cada opção lista o que o jogo lembra se ela for escolhida. O primeiro botão é **{ui.memory.remember}**: ele cria uma [Pontuação ou um Fato](/novelworks-docs/pt-br/concepts/game-memory/) se você precisar de um e adiciona a mudança de uma só vez. Uma Pontuação começa com "somar 1", um Fato com "definir como Sim".
+Em **{ui.branchInspectors.changes}**, cada opção lista o que o jogo lembra se ela for escolhida. O primeiro botão é **{ui.memory.remember}**: ele cria uma [Pontuação ou um Fato](/novelworks-docs/pt-br/concepts/game-memory/) se você precisar de um e adiciona a mudança de uma só vez. Uma Pontuação começa com “somar 1”, um Fato com “definir como Sim”.
 
 Cada mudança é uma linha:
 
@@ -71,7 +71,7 @@ Uma condição que verifica uma variável ou item excluído ou não escolhido co
 
 ## Avisos
 
-Um momento com problema mostra um triângulo no cartão e uma caixa "{tx.branchInspectors.thisMomentNeedsYourAttention}" no inspetor. Para uma escolha:
+Um momento com problema mostra um triângulo no cartão e uma caixa “{tx.branchInspectors.thisMomentNeedsYourAttention}” no inspetor. Para uma escolha:
 
 - Esta escolha não tem opções.
 - Uma opção não tem texto.

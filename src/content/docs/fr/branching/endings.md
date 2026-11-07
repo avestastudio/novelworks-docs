@@ -7,7 +7,7 @@ Un moment **{ui.moments.ending}** affiche le nom de la fin, puis ramène le joue
 
 ## Ajouter une fin
 
-Dans la ligne du temps, ajoutez un moment **{ui.moments.ending}** à la fin d’une scène. Dans l’inspecteur :
+Dans la chronologie, ajoutez un moment **{ui.moments.ending}** à la fin d’une scène. Dans l’inspecteur :
 
 - **{ui.branchInspectors.endingName}** : les nouvelles fins s’appellent « {tx.shared.scenes.goodEnding} ». Si vous laissez le nom vide, le jeu affiche « Fin ».
 - Un **court texte** (facultatif) affiché sous le nom.

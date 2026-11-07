@@ -17,7 +17,7 @@ Sans carte pour l’instant, **{ui.mapMode.createYourMap}** dit : « {tx.mapMo
 
 ## Ajouter des lieux
 
-Cliquez sur **{ui.mapMode.addLocation}** et faites glisser sur la carte pour dessiner un lieu. Pour une **{ui.explorationCanvas.shape}** personnalisée, choisissez **forme**, cliquez sur ses coins, puis appuyez sur **Entrée**. Faites glisser un lieu pour le déplacer, ou ses poignées pour le redimensionner. Sélectionnez un lieu pour le modifier.
+Cliquez sur **{ui.mapMode.addLocation}** et faites glisser sur la carte pour dessiner un lieu. Pour une forme personnalisée, choisissez **{ui.explorationCanvas.shape}**, cliquez sur ses coins, puis appuyez sur **Entrée**. Faites glisser un lieu pour le déplacer, ou ses poignées pour le redimensionner. Sélectionnez un lieu pour le modifier.
 
 ### Ce qu’a un lieu
 
@@ -54,7 +54,7 @@ Le jeu va à la scène du lieu. Si **{ui.mapMode.returnToMapWhenFinished}** est 
 ## Tester
 
 - Dans l’espace de travail Carte, **{ui.topBar.testMap}** de la barre du haut (et le bouton du même nom dans les réglages de la carte) lance le jeu à partir de la carte.
-- En mode Jeu, **{ui.playOverlay.openMap}** ouvre la carte même si les joueurs ne pouvaient pas encore l’ouvrir à ce stade ; Retour ramène là où vous étiez.
+- En mode Jouer, **{ui.playOverlay.openMap}** ouvre la carte même si les joueurs ne pouvaient pas encore l’ouvrir à ce stade ; Retour ramène là où vous étiez.
 
 ## Avertissements
 

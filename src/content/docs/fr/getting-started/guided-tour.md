@@ -22,9 +22,9 @@ NovelWorks montre une courte **visite guidée** la première fois que vous ouvre
 5. {ui.tutorial.background.title} : choisissez le décor du moment, et gardez-le pour le reste de la scène avec {ui.momentInspector.applyToTheFollowingMoments}.
 6. {ui.tutorial.character.title} : mettez un personnage en scène et glissez-le à sa place.
 7. {ui.tutorial.persist.title} : les personnages restent en place jusqu’à ce que vous les changiez. Voir [Le plateau](/novelworks-docs/fr/concepts/stage/).
-8. {ui.tutorial.timeline.title} : une scène est une suite de moments. Voir [Scènes, moments et timeline](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
+8. {ui.tutorial.timeline.title} : une scène est une suite de moments. Voir [Scènes, moments et chronologie](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
 9. {ui.tutorial.inspector.title} : tout sur l’élément sélectionné.
-10. {ui.tutorial.choices.title} : ajoutez un choix, faites retenir quelque chose au jeu, et envoyez l’histoire ailleurs avec une « {tx.leftPanel.condition} ». Voir [Comment une histoire bifurque](/novelworks-docs/fr/concepts/how-stories-branch/).
+10. {ui.tutorial.choices.title} : ajoutez un choix, faites retenir quelque chose au jeu, et envoyez l’histoire ailleurs avec une « {tx.leftPanel.condition} ». Voir [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/).
 11. {ui.tutorial.endings.title} : dans la carte de l’histoire, voyez toutes les fins et ce qui y mène.
 12. {ui.tutorial.play.title} : {ui.topBar.play} et {ui.topBar.playFromHere}.
 13. {ui.tutorial.script.title} : écrivez une scène entière sous forme de texte. Les deux vues modifient la même histoire.

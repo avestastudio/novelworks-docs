@@ -85,6 +85,6 @@ NovelWorks 希望你检查的行会带黄色下划线。把鼠标指向它，就
 
 ## 接下来
 
-- [剧本模式：每一行](/novelworks-docs/zh-cn/writing/script-mode-lines/)
+- [剧本模式：每一种行](/novelworks-docs/zh-cn/writing/script-mode-lines/)
 - [剧本模式：条件和选择](/novelworks-docs/zh-cn/writing/script-mode-conditions/)
 - [导入和导出剧本](/novelworks-docs/zh-cn/writing/import-a-script/)

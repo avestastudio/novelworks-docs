@@ -5,7 +5,7 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 
 エディターには**上部バー**があり、「{ui.topBar.story}」モードでは、さらに3つの領域があります。**左パネル**、中央、下部です。右側には**インスペクター**があります。
 
-![NovelWorks のエディター。左にシーン一覧、中央にゲーム画面、下にタイムラインと舞台に誰がいるかを示すチャート、右にインスペクター。](/novelworks-docs/screenshots/editor-overview.png)
+![NovelWorks のエディター。左にシーン一覧、中央にゲーム画面、下にタイムラインとステージに誰がいるかを示すチャート、右にインスペクター。](/novelworks-docs/screenshots/editor-overview.png)
 
 ## 上部バー
 
@@ -44,19 +44,19 @@ description: NovelWorks のウインドウの各領域と、それぞれの操�
 プレイヤーに見えるとおりのゲーム画面で、ウインドウに合わせて拡大縮小されます。画面の上では、カットの背景を選んだり、キャラクターを追加したり、次の2つを切り替えたりできます。
 
 - {ui.topBar.visual} と {ui.topBar.script}：シーンを、タイムライン付きのゲーム画面として表示するか、脚本のように入力できるテキストとして表示するかを切り替えます。
-- {ui.stage.scopeLabel}：{ui.stage.scopeFollowing} または {ui.stage.scopeOnlyHere}。これは[舞台](/novelworks-docs/ja/concepts/stage/)で説明しています。
+- {ui.stage.scopeLabel}：{ui.stage.scopeFollowing} または {ui.stage.scopeOnlyHere}。これは[ステージ](/novelworks-docs/ja/concepts/stage/)で説明しています。
 
-画面の上には小さなボタンが並び、選んだカットがどこへつながるかを示します（[物語の分岐](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください）。
+画面の上には小さなボタンが並び、選んだカットがどこへつながるかを示します（[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください）。
 
 ウインドウの高さが低いとき（約780ピクセル未満）は、ゲーム画面の上の各行が1行にまとまって横にスクロールし、ゲーム画面の下にあるキー操作の案内は非表示になります。ゲーム画面の場所を空けるためです。
 
 ## 下部：タイムライン
 
-現在のシーンのカットが、並べ替えられるカードとして並びます。ボタンで、選んだカットのあとに各種類のカットを追加でき、2つのアイコンで選んだカットの複製や削除ができます。カードの下には、舞台に誰がいるかを示すチャートと、物語が分岐する場所を示す行があります。[シーン、カット、タイムライン](/novelworks-docs/ja/concepts/scenes-moments-timeline/)をご覧ください。
+現在のシーンのカットが、並べ替えられるカードとして並びます。ボタンで、選んだカットのあとに各種類のカットを追加でき、2つのアイコンで選んだカットの複製や削除ができます。カードの下には、ステージに誰がいるかを示すチャートと、物語が分岐する場所を示す行があります。[シーン、カット、タイムライン](/novelworks-docs/ja/concepts/scenes-moments-timeline/)をご覧ください。
 
 ## 右：インスペクター
 
-選んだもののプロパティが表示されます。カット、シーン、画像、キャラクター、変数、アイテム、舞台にいるキャラクターのどれかです。タイトルは選択に合わせて変わります。何も選んでいないときは「{ui.inspector.projectSettings}」が表示されます。
+選んだもののプロパティが表示されます。カット、シーン、画像、キャラクター、変数、アイテム、ステージにいるキャラクターのどれかです。タイトルは選択に合わせて変わります。何も選んでいないときは「{ui.inspector.projectSettings}」が表示されます。
 
 ## メニュー
 

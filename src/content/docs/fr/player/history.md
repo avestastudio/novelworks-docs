@@ -13,7 +13,7 @@ L’**{rt.game.history}** montre ce qui a été dit jusqu’ici : les réplique
 
 ## L’utiliser
 
-Il s’ouvre défilé jusqu’à la dernière réplique. Faites défiler avec la molette, en faisant glisser (sur un écran tactile), ou avec les touches : les flèches avancent un peu, **Page préc.** / **Page suiv.** ou **Espace** d’un écran, **Origine** et **Fin** jusqu’aux extrémités. Quand rien n’a encore été dit, il affiche « {tx.historyScreen.nothingHasBeenSaidYet} »
+Il s’ouvre sur la dernière réplique. Faites défiler avec la molette, en faisant glisser (sur un écran tactile), ou avec les touches : les flèches avancent un peu, **Page précédente** / **Page suivante** ou **Espace** d’un écran, **Début** et **Fin** jusqu’aux extrémités. Quand rien n’a encore été dit, il affiche « {tx.historyScreen.nothingHasBeenSaidYet} »
 
 ## Limites
 

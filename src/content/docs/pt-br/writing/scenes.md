@@ -7,11 +7,11 @@ Uma cena é um capítulo da sua história: uma série de [momentos](/novelworks-
 
 ## Criar uma cena
 
-Clique em **{ui.scenesTab.newScene}**. A cena se chama "Cena N", em que N é o número de cenas que você já tem mais um (ou o próximo número, se esse nome já existir), contém uma linha de diálogo vazia e fica selecionada. Se o seu projeto não tinha cena inicial, a nova cena vira a cena inicial.
+Clique em **{ui.scenesTab.newScene}**. A cena se chama “Cena N”, em que N é o número de cenas que você já tem mais um (ou o próximo número, se esse nome já existir), contém uma linha de diálogo vazia e fica selecionada. Se o seu projeto não tinha cena inicial, a nova cena vira a cena inicial.
 
 ## Renomear uma cena
 
-Dê dois cliques na cena da lista, digite o nome e aperte **Enter**. **Esc** cancela, e um nome vazio mantém o nome antigo. Você também pode usar **{ui.sceneInspector.name}** no inspetor, ou clicar com o botão direito na cena e escolher **{ui.contextMenus.rename}**. Uma cena sem nome aparece como "Cena sem título".
+Dê dois cliques na cena da lista, digite o nome e aperte **Enter**. **Esc** cancela, e um nome vazio mantém o nome antigo. Você também pode usar **{ui.sceneInspector.name}** no inspetor, ou clicar com o botão direito na cena e escolher **{ui.contextMenus.rename}**. Uma cena sem nome aparece como “Cena sem título”.
 
 ## Reordenar cenas
 
@@ -19,7 +19,7 @@ Arraste uma cena para cima ou para baixo na lista. A ordem da lista não muda co
 
 ## Duplicar uma cena
 
-Use **{ui.scenesTab.duplicateScene}** na linha, ou **{ui.contextMenus.duplicate}** no menu do botão direito, ou **Cmd+D** / **Ctrl+D** com a cena selecionada. A cópia vai logo depois do original e se chama algo como "Uma mãozinha (cópia)". Ela mantém o resumo e o status de escrita, os momentos dela recebem novas identidades, e o lugar dela no mapa da história é escolhido de novo.
+Use **{ui.scenesTab.duplicateScene}** na linha, ou **{ui.contextMenus.duplicate}** no menu do botão direito, ou **Cmd+D** / **Ctrl+D** com a cena selecionada. A cópia vai logo depois do original e se chama algo como “Uma mãozinha (cópia)”. Ela mantém o resumo e o status de escrita, os momentos dela recebem novas identidades, e o lugar dela no mapa da história é escolhido de novo.
 
 ## Excluir uma cena
 
@@ -33,11 +33,11 @@ Escolhas, condições, saltos e zonas que levavam a uma cena excluída **não** 
 
 ## A cena inicial
 
-O jogo começa na **cena inicial**. Ela tem uma estrela e o rótulo "Cena inicial". Para mudá-la, clique no botão de estrela de outra cena (**{ui.scenesTab.makeStartScene}**), use **{ui.contextMenus.setAsStartScene}** no menu do botão direito, ou use o botão no inspetor da cena.
+O jogo começa na **cena inicial**. Ela tem uma estrela e o rótulo “Cena inicial”. Para mudá-la, clique no botão de estrela de outra cena (**{ui.scenesTab.makeStartScene}**), use **{ui.contextMenus.setAsStartScene}** no menu do botão direito, ou use o botão no inspetor da cena.
 
 ## O que a lista mostra
 
-Cada linha de cena mostra quantos momentos ela tem. Uma pequena bifurcação com "Ramificações: N" mostra em quantos momentos a história pode ir para outro lugar (veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/)). Uma etiqueta vermelha **{ui.scenesTab.unreachable}** significa que os jogadores ainda não conseguem chegar lá: nenhuma escolha, condição, salto ou zona leva até ela a partir da cena inicial.
+Cada linha de cena mostra quantos momentos ela tem. Uma pequena bifurcação com “Ramificações: N” mostra em quantos momentos a história pode ir para outro lugar (veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/)). Uma etiqueta vermelha **{ui.scenesTab.unreachable}** significa que os jogadores ainda não conseguem chegar lá: nenhuma escolha, condição, salto ou zona leva até ela a partir da cena inicial.
 
 ## O inspetor da cena
 
@@ -45,7 +45,7 @@ Selecione uma cena para ver:
 
 - **{ui.sceneInspector.name}**;
 - **{ui.sceneInspector.summary}**: uma ou duas frases, só para você. Ele aparece no mapa da história e acima da linha do tempo, e nunca no jogo;
-- **{ui.sceneInspector.writingStatus}**: **{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** ou **{ui.shared.outline.done}**. Se você nunca o definir, será "Por escrever" até a cena ter algum texto, e depois "{tx.shared.outline.draft}";
+- **{ui.sceneInspector.writingStatus}**: **{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** ou **{ui.shared.outline.done}**. Se você nunca o definir, será “A escrever” até a cena ter algum texto, e depois “{tx.shared.outline.draft}”;
 - o botão de cena inicial;
 - **{ui.branches.entriesTitle}**: os lugares que levam a esta cena, nos quais você pode clicar;
 - os botões **{ui.sceneInspector.deleteScene}** e de duplicar.

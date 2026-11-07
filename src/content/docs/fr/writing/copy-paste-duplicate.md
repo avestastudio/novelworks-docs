@@ -23,7 +23,7 @@ Le menu du clic droit propose **{ui.contextMenus.duplicate}** pour un moment et 
 | Une **scène** (dans la liste des scènes) | La scène entière. Couper demande de confirmer la suppression. | Ajoute la copie à la fin de la liste, sélectionnée. |
 | Un **personnage en scène** sur l’écran du jeu | Le personnage, tel qu’il est placé à ce moment : expression, place, taille, direction. Couper le fait sortir de scène. | Met le personnage en scène au moment sélectionné, avec l’apparence copiée. Si le personnage y est déjà, il prend l’apparence collée. |
 
-Un moment collé emporte ses propres changements de scène : si c’était le moment où Mia arrivait, elle arrive de nouveau. Un collage compte pour une seule étape d’annulation.
+Un moment collé emporte ses propres changements de plateau : si c’était le moment où Mia arrivait, elle arrive de nouveau. Un collage compte pour une seule étape d’annulation.
 
 ### Quand ça marche
 
@@ -39,7 +39,7 @@ Voici ce que vous voyez quand l’autre projet ne les a pas (vérifié en collan
 
 - un personnage qui parle et qui n’existe pas là-bas devient le **{ui.stageControls.narrator}** ;
 - un décor qui n’existe pas là-bas est abandonné (le moment affiche « {tx.stage.noBackground} ») ;
-- un personnage qui n’existe pas là-bas n’est pas dessiné, et peut apparaître comme une ligne « Sans nom » dans le diagramme de la scène, ou comme `?` dans le [mode Script](/novelworks-docs/fr/writing/script-mode-lines/) ;
+- un personnage qui n’existe pas là-bas n’est pas dessiné, et peut apparaître comme une ligne « Sans nom » dans le graphique de la scène, ou comme `?` dans le [mode Script](/novelworks-docs/fr/writing/script-mode-lines/) ;
 - **aucun avertissement n’est affiché**, donc vérifiez vous-même le moment collé.
 
 Collez dans un projet qui a les mêmes personnages, images, scènes et variables pour un meilleur résultat.

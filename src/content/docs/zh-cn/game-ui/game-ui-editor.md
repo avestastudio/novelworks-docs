@@ -31,7 +31,7 @@ description: 逐个画面地修改游戏的外观，并实时预览。
 | {ui.gameUI.theEnd} | 故事结束时显示。 | [结束画面](/novelworks-docs/zh-cn/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | 它的按钮和物品面板（物品栏功能）。 | [物品栏画面](/novelworks-docs/zh-cn/game-ui/inventory-ui/) |
 | {ui.gameUI.mapButton} | 打开地图的按钮（地图功能）。 | [地图按钮](/novelworks-docs/zh-cn/game-ui/map-button/) |
-| {ui.gameUI.notices} | 类似“你获得了：钥匙”的短消息。 | [提示](/novelworks-docs/zh-cn/game-ui/notifications/) |
+| {ui.gameUI.notices} | 类似“你获得了：钥匙”的短消息。 | [提示（通知）](/novelworks-docs/zh-cn/game-ui/notifications/) |
 
 ## 长文本和头像
 
@@ -51,4 +51,4 @@ description: 逐个画面地修改游戏的外观，并实时预览。
 
 ## 保存的内容
 
-外观会和项目的其他内容一起保存在你的项目里。玩家自己的选择（文字大小、适合阅读障碍的字体、高对比度）会覆盖你的设计，而且只对他们自己生效。请参阅[选项和无障碍](/novelworks-docs/zh-cn/player/options-and-accessibility/)。
+外观会和项目的其他内容一起保存在你的项目里。玩家自己的选择（文字大小、适合阅读障碍的字体、高对比度）会覆盖你的设计，而且只对他们自己生效。请参阅[选项与无障碍](/novelworks-docs/zh-cn/player/options-and-accessibility/)。

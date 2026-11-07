@@ -24,7 +24,7 @@ Quand vous jouez dans l’éditeur, une barre en haut contient les outils de tes
 Avec **{ui.playOverlay.variablesItems}** (ou **{ui.leftPanel.variables}**, quand la fonctionnalité Inventaire est désactivée), un panneau affiche :
 
 - **{ui.leftPanel.variables}** : chacune avec sa valeur actuelle. Une valeur différente de celle de départ est mise en évidence. Sur l’écran-titre et l’écran Fin, il affiche « {tx.playOverlay.startingValues} ». Vous ne pouvez pas modifier une variable ici : jouez pour la changer, afin de vérifier ce que vos choix modifient.
-- **{ui.gameUI.inventory}** (avec la fonctionnalité Inventaire) : tous les objets de votre jeu, avec un **−** et un **+** pour en retirer ou en donner un pendant le test, sans notification. Un objet empilable affiche sa quantité, un objet unique Oui ou Non. Avant le début de la partie, il indique « {tx.playOverlay.startPlayingToGiveOrRemoveItems} » Le panneau reste ouvert ou fermé d’un test à l’autre.
+- **{ui.gameUI.inventory}** (avec la fonctionnalité Inventaire) : tous les objets de votre jeu, avec un **−** et un **+** pour en retirer ou en donner un pendant le test, sans notification. Un objet cumulable affiche sa quantité, un objet unique Oui ou Non. Avant le début de la partie, il indique « {tx.playOverlay.startPlayingToGiveOrRemoveItems} » Le panneau reste ouvert ou fermé d’un test à l’autre.
 
 ## Sauvegardes de test et répliques lues
 

@@ -1,5 +1,5 @@
 ---
-title: "O palco: os personagens ficam no lugar"
+title: "O palco: os personagens ficam em cena"
 description: Por que um personagem que você coloca na tela continua lá nos momentos seguintes, e como controlar isso.
 ---
 
@@ -15,7 +15,7 @@ Um momento não guarda uma imagem completa da tela. Ele guarda só **o que muda*
 
 Você não precisa pensar nisso para começar: adicione um personagem no momento 1 e ele estará na tela em todos os momentos seguintes. Isso importa quando você **muda** algo no meio.
 
-## "{tx.stage.scopeFollowing}" ou "{tx.stage.scopeOnlyHere}"
+## “{tx.stage.scopeFollowing}” ou “{tx.stage.scopeOnlyHere}”
 
 Acima da tela do jogo, a chave **{ui.stage.scopeLabel}** decide até onde a sua próxima mudança alcança:
 
@@ -26,13 +26,13 @@ Na primeira vez que uma mudança alcança outros momentos, uma mensagem curta av
 
 ## Veja quem está em cena
 
-### A barra "Em cena"
+### A barra “Em cena”
 
 Acima da tela do jogo, a barra **{ui.stage.castTitle}** mostra uma imagem redonda para cada personagem que está em cena em algum momento da cena, na ordem em que chegam. Uma imagem acesa significa que o personagem está em cena **neste momento**. Clique em uma imagem para tirar o personagem de cena ou trazê-lo, conforme a chave acima. A barra só aparece quando a cena tem pelo menos um personagem.
 
 ### O gráfico embaixo das miniaturas
 
-Embaixo da linha do tempo, uma fileira mostra o **{ui.timeline.chartBackground}** e há uma fileira por personagem. Uma barra cobre os momentos em que a coisa está na tela. Uma nova barra começa onde o visual muda: outra expressão, outra posição ou tamanho, uma imagem espelhada ou outra imagem de cenário. Aponte para uma barra para ler, por exemplo, "Mia fica em cena até o momento 7", "…até o fim da cena" ou "…só neste momento".
+Embaixo da linha do tempo, uma fileira mostra o **{ui.timeline.chartBackground}** e há uma fileira por personagem. Uma barra cobre os momentos em que a coisa está na tela. Uma nova barra começa onde o visual muda: outra expressão, outra posição ou tamanho, uma imagem espelhada ou outra imagem de cenário. Aponte para uma barra para ler, por exemplo, “Mia fica em cena até o momento 7”, “…até o fim da cena” ou “…só neste momento”.
 
 O gráfico mostra até 5 fileiras e rola além disso (menos em uma janela pequena).
 
@@ -40,7 +40,7 @@ O gráfico mostra até 5 fileiras e rola além disso (menos em uma janela pequen
 
 ### Pequenas etiquetas em cada momento
 
-Embaixo de cada cartão de momento, pequenas etiquetas listam o que aquele momento muda: o cenário, um personagem que chega, sai, muda de expressão ou é posicionado de outro jeito, ou uma mudança na ordem de desenho. No máximo quatro são mostradas, depois "+N".
+Embaixo de cada cartão de momento, pequenas etiquetas listam o que aquele momento muda: o cenário, um personagem que chega, sai, muda de expressão ou é posicionado de outro jeito, ou uma mudança na ordem de desenho. No máximo quatro são mostradas, depois “+N”.
 
 ### No inspetor
 
@@ -48,7 +48,7 @@ Com um momento selecionado, a seção **{ui.momentInspector.onStage}** mostra um
 
 - **{ui.momentInspector.originNew}**: ele chega neste momento.
 - **{ui.momentInspector.originChanged}**: este momento o muda.
-- "Desde o momento N": ele vem de um momento anterior.
+- “Desde o momento N”: ele vem de um momento anterior.
 
 Cada cartão tem um botão para voltar a **como era** antes de este momento mudá-lo. Um personagem que sai neste momento aparece na lista com **{ui.momentInspector.bringBack}**. **{ui.momentInspector.add}** coloca alguém em cena.
 
@@ -58,14 +58,14 @@ Clique com o botão direito em um personagem na tela do jogo para ver estas opç
 
 - **{ui.contextMenus.expression}** e **{ui.contextMenus.position}**.
 - **{ui.contextMenus.flipHorizontally}**, **{ui.contextMenus.resetSize}**, **{ui.contextMenus.bringForward}**, **{ui.contextMenus.sendBackward}**.
-- **{ui.contextMenus.stayUntil}**: escolha "Até o momento N" (um dos próximos momentos) ou **{ui.contextMenus.untilEnd}**. O personagem mantém o visual atual até lá, mesmo nos momentos que antes o mudavam.
+- **{ui.contextMenus.stayUntil}**: escolha “Até o momento N” (um dos próximos momentos) ou **{ui.contextMenus.untilEnd}**. O personagem mantém o visual atual até lá, mesmo nos momentos que antes o mudavam.
 - **{ui.contextMenus.onlyThisMoment}**: o que este momento mudou não continua. Fica cinza se este momento não muda nada para o personagem, ou se é o último momento.
 - **{ui.contextMenus.backToBefore}**: desfaz a mudança deste momento para este personagem.
 - **{ui.contextMenus.leavesHere}**: o personagem sai a partir deste momento, qualquer que seja a chave.
 
 ## Comece uma cena como outra terminou
 
-Quando outras cenas levam a uma cena, e a tela no fim da cena anterior é diferente de como esta começa, aparece um aviso no **primeiro momento** desta cena: "Esta cena começa vazia." ou "Esta cena começa com: Mia, Leo." Para cada cena que leva até aqui, um botão **Começar como o fim de “…”** coloca em cena o que estava na tela no momento que leva até aqui. Os momentos seguintes acompanham, e é um passo só para o Desfazer.
+Quando outras cenas levam a uma cena, e a tela no fim da cena anterior é diferente de como esta começa, aparece um aviso no **primeiro momento** desta cena: “Esta cena começa vazia.” ou “Esta cena começa com: Mia, Leo.” Para cada cena que leva até aqui, um botão **Começar como o fim de “…”** coloca em cena o que estava na tela no momento que leva até aqui. Os momentos seguintes acompanham, e é um passo só para o Desfazer.
 
 ## O que acontece quando você apaga, move, copia ou insere um momento
 

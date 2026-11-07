@@ -40,9 +40,9 @@ Um **{ui.moments.jump}** precisa só de uma cena para onde ir. Um **{ui.moments.
 
 ## Ver para onde a história vai
 
-### A barra "{tx.branches.whereTitle}"
+### A barra “{tx.branches.whereTitle}”
 
-Acima da tela do jogo, um botão pequeno para cada saída do momento selecionado mostra para onde ela leva, até quatro e depois "+N". Uma frase longa demais termina com "…" (o texto completo está na dica). Clique em um deles para ir para essa cena. Um botão "Voltar" leva você ao ponto onde estava (os últimos 20 passos são lembrados). No primeiro momento de uma cena, uma lista mostra o que leva **até** a cena.
+Acima da tela do jogo, um botão pequeno para cada saída do momento selecionado mostra para onde ela leva, até quatro e depois “+N”. Uma frase longa demais termina com “…” (o texto completo está na dica). Clique em um deles para ir para essa cena. Um botão “Voltar” leva você ao ponto onde estava (os últimos 20 passos são lembrados). No primeiro momento de uma cena, uma lista mostra o que leva **até** a cena.
 
 ### A linha Ramificações
 
@@ -56,7 +56,7 @@ Abaixo das miniaturas e do gráfico de palco, a linha **{ui.branches.rowTitle}**
 - uma bandeira: um final, com o nome dele;
 - um ícone de mapa: um momento Mostrar mapa.
 
-Ao lado do ícone está o nome da primeira cena para onde ele leva, e "+N" se houver mais saídas. Uma marca fica vermelha se faltar uma cena. Aponte para uma marca para listar todas as saídas e clique nela para selecionar o momento. Um botão recolhe a linha.
+Ao lado do ícone está o nome da primeira cena para onde ele leva, e “+N” se houver mais saídas. Uma marca fica vermelha se faltar uma cena. Aponte para uma marca para listar todas as saídas e clique nela para selecionar o momento. Um botão recolhe a linha.
 
 A aba Cenas também mostra quantas ramificações cada cena tem.
 

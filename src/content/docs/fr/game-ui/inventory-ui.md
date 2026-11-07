@@ -22,4 +22,4 @@ Ces deux couleurs s’appliquent **à la fois au panneau et au bouton** :
 
 ## Ce que les joueurs obtiennent
 
-Les joueurs l’ouvrent avec le bouton, le menu pause ou la touche **I**. C’est un panneau au milieu du jeu avec une grille des objets qu’ils possèdent : une image, le nom, et pour les objets empilables un compteur comme « ×3 ». Sélectionner un objet affiche sa description (ou son nom s’il n’en a pas). Il affiche « Rien ici pour l’instant. » quand il est vide. Échap, **I**, le bouton × ou un clic à l’extérieur le ferment. L’histoire est en pause tant qu’il est ouvert.
+Les joueurs l’ouvrent avec le bouton, le menu pause ou la touche **I**. C’est un panneau au milieu du jeu avec une grille des objets qu’ils possèdent : une image, le nom, et pour les objets cumulables un compteur comme « ×3 ». Sélectionner un objet affiche sa description (ou son nom s’il n’en a pas). Il affiche « Rien ici pour l’instant. » quand il est vide. Échap, **I**, le bouton × ou un clic à l’extérieur le ferment. L’histoire est en pause tant qu’il est ouvert.

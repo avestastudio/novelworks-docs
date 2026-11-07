@@ -32,11 +32,11 @@ Au-dessus de l’écran du jeu, la barre {ui.stage.castTitle} montre une image r
 
 ### Le graphique sous les miniatures
 
-Sous la timeline, une rangée montre le {ui.timeline.chartBackground} et une rangée par personnage. Une barre couvre les moments où l’élément est à l’écran. Une nouvelle barre commence là où l’aspect change : une autre expression, une autre position ou taille, une image retournée, ou une autre image de décor. Pointez une barre pour lire, par exemple, « Mia reste en scène jusqu’au moment 7 », « … jusqu’à la fin de la scène » ou « … pour ce moment seulement ».
+Sous la chronologie, une rangée montre le {ui.timeline.chartBackground} et une rangée par personnage. Une barre couvre les moments où l’élément est à l’écran. Une nouvelle barre commence là où l’aspect change : une autre expression, une autre position ou taille, une image retournée, ou une autre image de décor. Pointez une barre pour lire, par exemple, « Mia reste en scène jusqu’au moment 7 », « … jusqu’à la fin de la scène » ou « … pour ce moment seulement ».
 
 Le graphique montre jusqu’à 5 rangées et défile au-delà (moins sur une petite fenêtre).
 
-![Sous les cartes de la timeline, le graphique montre une barre pour chaque personnage, aussi longue que sa présence en scène.](/novelworks-docs/screenshots/stage-chart.png)
+![Sous les cartes de la chronologie, le graphique montre une barre pour chaque personnage, aussi longue que sa présence en scène.](/novelworks-docs/screenshots/stage-chart.png)
 
 ### De petites pastilles sur chaque moment
 

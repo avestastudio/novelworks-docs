@@ -3,7 +3,7 @@ title: "如果… 条件"
 description: 根据游戏记住的内容，把故事送往不同的场景，情况可以按需添加。
 ---
 
-一个 {ui.moments.condition} 片段会检查游戏记住的内容，并把故事送往某个场景。**玩家永远看不到它**：游戏检查完就立刻继续。用图来理解这个想法，请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
+一个 {ui.moments.condition} 片段会检查游戏记住的内容，并把故事送往某个场景。**玩家永远看不到它**：游戏检查完就立刻继续。用图来理解这个想法，请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 情况
 

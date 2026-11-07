@@ -42,7 +42,7 @@ Un moment **{ui.moments.jump}** a seulement besoin d’une scène où aller. Un 
 
 ### La barre « {tx.branches.whereTitle} »
 
-Au-dessus de l’écran de jeu, un petit bouton par sortie du moment sélectionné montre où elle mène, quatre au plus, puis « +N ». Une phrase trop longue se termine par « … » (le texte complet est dans l’info-bulle). Cliquez sur un bouton pour aller à cette scène. Un bouton « Retour » vous ramène là où vous étiez (les 20 dernières étapes sont retenues). Sur le premier moment d’une scène, une liste montre ce qui mène **vers** la scène.
+Au-dessus de l’écran du jeu, un petit bouton par sortie du moment sélectionné montre où elle mène, quatre au plus, puis « +N ». Une phrase trop longue se termine par « … » (le texte complet est dans l’info-bulle). Cliquez sur un bouton pour aller à cette scène. Un bouton « Retour » vous ramène là où vous étiez (les 20 dernières étapes sont retenues). Sur le premier moment d’une scène, une liste montre ce qui mène **vers** la scène.
 
 ### La ligne Branches
 

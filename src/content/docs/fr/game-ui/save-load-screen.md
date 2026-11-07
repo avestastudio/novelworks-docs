@@ -23,7 +23,7 @@ Sous **{ui.gameUIInspector.slots}** :
 - Chaque emplacement montre une petite image du moment (décor, accessoires et personnages, sans le dialogue), le nom de la scène, la date et le temps de jeu. Un emplacement vide affiche « Vide ».
 - L’écran **{rt.game.load}** liste d’abord la Sauvegarde auto et la Sauvegarde rapide, puis les emplacements 1 à 12. L’écran **{rt.game.save}** liste les emplacements 1 à 12.
 - Sauvegarder sur un emplacement demande confirmation (« {tx.savesScreen.overwrite} ») ; supprimer un emplacement (le × sur un emplacement rempli) en demande aussi ; charger une sauvegarde pendant une partie demande « {tx.game.loadThisSaveUnsavedProgressWillBe} »
-- Au clavier : les flèches se déplacent entre les emplacements, **Entrée** ou **Espace** choisit, `Delete` ou `Backspace` supprime, **Origine** et **Fin** sautent au premier et au dernier emplacement de la liste, **Échap** revient en arrière.
+- Au clavier : les flèches se déplacent entre les emplacements, **Entrée** ou **Espace** choisit, `Delete` ou `Backspace` supprime, **Début** et **Fin** sautent au premier et au dernier emplacement de la liste, **Échap** revient en arrière.
 
 ## Où les joueurs la trouvent
 

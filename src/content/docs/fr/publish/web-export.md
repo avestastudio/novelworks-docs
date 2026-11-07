@@ -9,7 +9,7 @@ Dans la **démo**, l’export est limité aux jeux de 5 scènes ou moins : voir 
 
 ## Les étapes
 
-1. **Vérifiez les avertissements.** Si NovelWorks trouve quelque chose à vérifier, il le liste : « N points à vérifier d’abord. Le jeu reste jouable, mais les joueurs pourraient le remarquer. » Chaque ligne dit où (« Parc, moment 3 — … »). Le bouton devient alors **{ui.exportDialog.exportAnyway}**. Voir [Problèmes](/novelworks-docs/fr/testing/problems/).
+1. **Vérifiez les avertissements.** Si NovelWorks trouve quelque chose à vérifier, il le liste : « N points à vérifier d’abord. Le jeu reste jouable, mais les joueurs pourraient le remarquer. » Chaque ligne dit où (« Parc, moment 3 — … »). Le bouton devient alors **{ui.exportDialog.exportAnyway}**. Voir [Problèmes : tous les avertissements](/novelworks-docs/fr/testing/problems/).
 2. **Choisissez où enregistrer.** **{ui.exportDialog.saveTo}** affiche un dossier. NovelWorks retient le dernier dossier que vous avez utilisé pour ce projet, et propose sinon le dossier qui contient votre projet. **{ui.exportDialog.change}** permet d’en choisir un autre.
 3. Cliquez sur **{ui.exportDialog.export}**. Le bouton affiche « {tx.exportDialog.exporting} » jusqu’à la fin.
 4. Quand la fenêtre indique « {tx.exportDialog.yourWebGameIsReady} », elle affiche le nom du .zip (à partager ou à téléverser ; le dossier à côté contient le même jeu décompressé) et trois boutons :
@@ -61,7 +61,7 @@ Vos données d’écriture privées sont effacées avant l’export : les **note
 | Un dossier nommé « … » est déjà présent et ne provient pas d’un export précédent. | Choisissez un autre dossier. |
 | Activez NovelWorks pour exporter des jeux. | Ouvrez **{ui.native.role.help} → Activer NovelWorks…** |
 | La démo exporte des jeux de 5 scènes au plus, et votre projet en compte N. | Dans la démo seulement. Supprimez des scènes, ou procurez-vous la version complète. |
-| Le jeu n’a pas pu être exporté : … | La raison suit. Voir [Dépannage](/novelworks-docs/fr/reference/troubleshooting/). |
+| Le jeu n’a pas pu être exporté : … | La raison suit. Voir [Dépannage et messages](/novelworks-docs/fr/reference/troubleshooting/). |
 
 ## Publier
 

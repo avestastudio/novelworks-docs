@@ -9,7 +9,7 @@ Chaque image de votre jeu est une **image** de votre projet : décors, images d
 
 - **PNG, JPG et WebP** uniquement (aussi `.jpeg`).
 - Jusqu’à **50 Mo** par fichier. Les autres fichiers sont ignorés, et NovelWorks les liste.
-- Rien n’est redimensionné ni converti. Un décor plus petit que l’écran de jeu est étiré et peut paraître flou, et la fenêtre d’importation vous en avertit.
+- Rien n’est redimensionné ni converti. Un décor plus petit que l’écran du jeu est étiré et peut paraître flou, et la fenêtre d’importation vous en avertit.
 
 ## Importer des images
 
@@ -55,4 +55,4 @@ Une image ne peut pas être remplacée sur place. Pour un personnage, cliquez su
 
 ## Supprimer une image
 
-Cliquez sur **{ui.assetInspector.deleteImage}**. NovelWorks demande d’abord. Si l’image est utilisée, il liste où, et vous prévient que ces endroits n’auront plus d’image. Le fichier n’est pas effacé tout de suite : quand vous enregistrez, il est déplacé dans `backups/deleted-assets`, et il revient si vous annulez ou restaurez une sauvegarde de secours. Voir [Enregistrer, sauvegardes et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/).
+Cliquez sur **{ui.assetInspector.deleteImage}**. NovelWorks demande d’abord. Si l’image est utilisée, il liste où, et vous prévient que ces endroits n’auront plus d’image. Le fichier n’est pas effacé tout de suite : quand vous enregistrez, il est déplacé dans `backups/deleted-assets`, et il revient si vous annulez ou restaurez une sauvegarde de secours. Voir [Enregistrement, sauvegardes de secours et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/).

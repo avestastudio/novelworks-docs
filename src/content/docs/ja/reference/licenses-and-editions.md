@@ -11,11 +11,11 @@ NovelWorks のバージョン情報のウインドウには、こう書かれて
 
 | | 体験版 | フル版 |
 |---|---|---|
-| エディタ全体、プレイモード、スクリプトモード、ゲームUI | 使える | 使える |
+| エディター全体、プレイモード、スクリプトモード、ゲームUI | 使える | 使える |
 | ウェブ向けの書き出し | 最大 5 シーンまで。書き出したゲームにマークが入ります | 大きさの制限なし、マークなし |
 | ダウンロードキーが必要 | いいえ | はい。書き出しに必要（itch.io のフル版） |
 
-[無料の体験版](/novelworks-docs/ja/getting-started/demo-edition/)と[インストールと認証](/novelworks-docs/ja/getting-started/install-and-activate/)を参照してください。どちらのエディションも、同じプロジェクト形式を読み書きします。
+[無料体験版](/novelworks-docs/ja/getting-started/demo-edition/)と[インストールと認証](/novelworks-docs/ja/getting-started/install-and-activate/)を参照してください。どちらのエディションも、同じプロジェクト形式を読み書きします。
 
 ## 認証
 

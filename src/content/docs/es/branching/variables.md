@@ -33,7 +33,7 @@ Si la variable ya se usa, NovelWorks te pide confirmar y lista dónde. Los valor
 
 - el valor inicial pasa a 0 para una Puntuación, o a No para un Hecho;
 - cada cambio y cada prueba sobre esta variable se reinicia: a 0 para una Puntuación, a Sí para un Hecho;
-- un Hecho solo se puede fijar, así que un «{tx.branchInspectors.add}» pasa a «{tx.branchInspectors.setTo}», y una comparación que no encaja con el tipo nuevo pasa a «es».
+- un Hecho solo se puede establecer, así que un «{tx.branchInspectors.add}» pasa a «{tx.branchInspectors.setTo}», y una comparación que no encaja con el tipo nuevo pasa a «es».
 
 Si la variable no se usa, el tipo cambia al instante.
 

@@ -46,7 +46,7 @@ Sobre la vista previa, la fila **{ui.branches.whereTitle}** muestra adónde llev
 ## Ayuda mientras escribes
 
 - Escribe `/` al principio de una línea para elegir un comando de una lista. Los nombres de personajes, imágenes, escenas, variables y objetos se sugieren mientras escribes, y después de `background :`, `show :`, `hide :`, `give`, `remove`, `->`, `+`, `=` y `if` la lista contiene el tipo de nombre que corresponde.
-- **Tab** sangra y **Shift+Tab** quita la sangría.
+- **Tab** sangra y **Mayús+Tab** quita la sangría.
 - Los nombres de los personajes se colorean con el color de nombre del personaje.
 - El botón **?** (**{ui.scriptMode.help}**) abre un panel «{tx.script.help.title}» con el formato.
 
@@ -61,7 +61,7 @@ Una expresión creada aún no tiene imagen. Una variable se crea como Hecho cuan
 
 ## Jugar desde el cursor
 
-**{ui.scriptMode.playFromCursor}** juega desde la línea que está bajo el cursor (**Cmd+Enter** / **Ctrl+Enter**).
+**{ui.scriptMode.playFromCursor}** juega desde la línea que está bajo el cursor (**Cmd+Intro** / **Ctrl+Intro**).
 
 ## Advertencias en el modo Guion
 

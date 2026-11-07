@@ -31,7 +31,7 @@ El modo **{ui.topBar.gameUI}** cambia el aspecto de tu juego: su fuente y sus co
 | {ui.gameUI.theEnd} | Se muestra cuando la historia termina. | [Pantalla final](/novelworks-docs/es/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | Su botón y el panel de objetos (función Inventario). | [Pantalla de inventario](/novelworks-docs/es/game-ui/inventory-ui/) |
 | {ui.gameUI.mapButton} | El botón que abre el mapa (función Mapa). | [Botón del mapa](/novelworks-docs/es/game-ui/map-button/) |
-| {ui.gameUI.notices} | Mensajes cortos como «Has conseguido: Llave». | [Avisos](/novelworks-docs/es/game-ui/notifications/) |
+| {ui.gameUI.notices} | Mensajes cortos como «Has conseguido: Llave». | [Avisos (notificaciones)](/novelworks-docs/es/game-ui/notifications/) |
 
 ## Texto largo y avatar
 

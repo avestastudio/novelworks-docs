@@ -19,13 +19,13 @@ Os salvamentos feitos enquanto você testa no editor são separados (veja [Ferra
 
 - **12 espaços manuais**, um **salvamento rápido** e um **salvamento automático**.
 - A tela **{rt.game.save}** mostra os espaços de 1 a 12. A tela **{rt.game.load}** mostra primeiro o Salvamento automático e o Salvamento rápido, depois os espaços de 1 a 12.
-- Cada espaço mostra uma imagem do momento, o nome da cena, a data e o tempo de jogo ("12:34" ou "1:02:03").
-- Salvar sobre um espaço usado pergunta "Sobrescrever …?". Excluir um espaço pergunta "Excluir …? Isso não pode ser desfeito."
+- Cada espaço mostra uma imagem do momento, o nome da cena, a data e o tempo de jogo (“12:34” ou “1:02:03”).
+- Salvar sobre um espaço usado pergunta “Sobrescrever …?”. Excluir um espaço pergunta “Excluir …? Isso não pode ser desfeito.”
 
 ## Salvamento rápido e carregamento rápido
 
-- **F5** faz um salvamento rápido durante o jogo ("{tx.game.quickSaved}"): a página não recarrega.
-- **F9** faz um carregamento rápido, até mesmo da tela de título. Se não houver salvamento rápido, o jogo diz "{tx.game.noQuickSaveYetPressF5To}" Carregar durante o jogo pergunta "{tx.game.loadThisSaveUnsavedProgressWillBe}"
+- **F5** faz um salvamento rápido durante o jogo (“{tx.game.quickSaved}”): a página não recarrega.
+- **F9** faz um carregamento rápido, até mesmo da tela de título. Se não houver salvamento rápido, o jogo diz “{tx.game.noQuickSaveYetPressF5To}” Carregar durante o jogo pergunta “{tx.game.loadThisSaveUnsavedProgressWillBe}”
 - As mesmas ações são botões do menu de pausa e, se você os mostrar, do menu rápido.
 
 ## Salvamento automático
@@ -51,6 +51,6 @@ Os salvamentos apontam para cenas e momentos pela identidade deles, então conti
 
 ## Quando o navegador não permite salvar
 
-Em navegação privada, ou com os dados de sites desativados, o navegador pode bloquear o armazenamento. A tela de salvar então diz "{tx.savesScreen.savingIsNotAvailableInThisBrowser}", e a tela de carregar diz que não há nada para carregar. Um salvamento rápido explica que "Você pode continuar jogando, mas seu progresso não será mantido." Se o armazenamento estiver cheio: "Não foi possível gravar o salvamento: o armazenamento do navegador está cheio. Exclua um salvamento antigo e tente de novo."
+Em navegação privada, ou com os dados de sites desativados, o navegador pode bloquear o armazenamento. A tela de salvar então diz “{tx.savesScreen.savingIsNotAvailableInThisBrowser}”, e a tela de carregar diz que não há nada para carregar. Um salvamento rápido explica que “Você pode continuar jogando, mas seu progresso não será mantido.” Se o armazenamento estiver cheio: “Não foi possível gravar o salvamento: o armazenamento do navegador está cheio. Exclua um salvamento antigo e tente de novo.”
 
 As opções dos jogadores e as falas lidas duram então só a sessão.

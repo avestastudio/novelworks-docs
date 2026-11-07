@@ -13,7 +13,7 @@ description: Baixe o NovelWorks, abra pela primeira vez e libere a exportação 
 
 A demo gratuita tem os mesmos três arquivos, com `-demo` depois do número da versão (por exemplo `Novelworks-<version>-demo-win-x64.exe`). Veja [a demo gratuita](/novelworks-docs/pt-br/getting-started/demo-edition/).
 
-Não sabe qual Mac você tem? Abra o menu Apple → **Sobre este Mac**. "Chip: Apple M…" significa Apple Silicon.
+Não sabe qual Mac você tem? Abra o menu Apple → **Sobre este Mac**. “Chip: Apple M…” significa Apple Silicon.
 
 ## Na primeira vez que você abrir
 

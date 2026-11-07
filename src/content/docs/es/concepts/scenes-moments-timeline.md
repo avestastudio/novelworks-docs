@@ -33,7 +33,7 @@ En la parte de abajo de la ventana, la línea de tiempo muestra los momentos de 
 - Haz clic en una tarjeta para seleccionarla y editarla en la pantalla del juego y en el inspector. Arrastra las tarjetas para reordenarlas.
 - Unos botones añaden un momento **después del seleccionado**, uno por tipo. Una tarjeta **+** al final añade una línea de diálogo.
 - Dos iconos duplican y borran el momento seleccionado. Borrar pide confirmación, salvo que el momento sea una línea de diálogo vacía.
-- Bajo las tarjetas, un gráfico muestra quién está en escena ([El escenario](/novelworks-docs/es/concepts/stage/)) y una fila muestra dónde se ramifica la historia ([Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
+- Bajo las tarjetas, un gráfico muestra quién está en escena ([El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/)) y una fila muestra dónde se ramifica la historia ([Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
 
 ### La forma rápida de escribir
 

@@ -15,6 +15,6 @@ Les **{ui.gameUI.notices}** sont des messages courts comme « Vous avez obtenu�
 ## Ce qu’elles disent
 
 - « Vous avez obtenu : Clé » et « Vous avez perdu : Clé » ;
-- pour un objet empilable dont la quantité change de plus d’une unité : « 3 × Pièce ».
+- pour un objet cumulable dont la quantité change de plus d’une unité : « 3 × Pièce ».
 
 Une seule notification est affichée pour tous les objets qui changent en même temps. La même boîte affiche aussi de petits messages du système, par exemple « {tx.game.quickSaved} ».

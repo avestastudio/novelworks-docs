@@ -40,7 +40,7 @@ Letras maiúsculas, acentos e espaços extras não importam quando uma palavra-c
 
 Sempre entendidos, em qualquer idioma: `bg` para a palavra de cenário, `centre` para centro, `take` para remover, `ending` para fim, `yes` para verdadeiro e `no` para falso.
 
-Algumas dessas palavras têm várias partes, como "à gauche": elas são lidas como palavras inteiras.
+Algumas dessas palavras têm várias partes, como “à gauche”: elas são lidas como palavras inteiras.
 
 ## Os símbolos
 
@@ -50,7 +50,7 @@ As comparações usam `=` (ou `==`), `!=` (ou `≠`), `>`, `>=` (ou `≥`), `<` 
 
 ## Um personagem com o nome de uma palavra-chave
 
-Se um personagem se chama, por exemplo, "Fim", uma linha `End : Hello` é uma linha de diálogo, e o editor avisa que o comando não pode ser usado. Escreva o comando entre colchetes para que ele seja um comando: `[end : Good ending]`. Os colchetes são opcionais em todos os outros casos.
+Se um personagem se chama, por exemplo, “Fim”, uma linha `End : Hello` é uma linha de diálogo, e o editor avisa que o comando não pode ser usado. Escreva o comando entre colchetes para que ele seja um comando: `[end : Good ending]`. Os colchetes são opcionais em todos os outros casos.
 
 ## Onde aprender o formato
 

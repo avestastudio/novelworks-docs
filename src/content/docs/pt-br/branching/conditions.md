@@ -10,13 +10,13 @@ Um momento **{ui.moments.condition}** verifica o que o jogo lembra e manda a his
 Um Se… é uma lista de **casos**, verificados **de cima para baixo**. Vale o primeiro caso que for verdadeiro. Cada caso tem:
 
 - uma ou mais **condições**;
-- a cena para onde ir ("ir para").
+- a cena para onde ir (“ir para”).
 
 Depois do último caso vem o *senão*: para onde a história vai quando nenhum caso é verdadeiro.
 
-Um novo Se… tem um caso com uma condição vazia. Com um único caso, ele aparece de forma simples. Com dois ou mais, cada caso é um cartão com o título "Caso 1", "Caso 2"…
+Um novo Se… tem um caso com uma condição vazia. Com um único caso, ele aparece de forma simples. Com dois ou mais, cada caso é um cartão com o título “Caso 1”, “Caso 2”…
 
-![O inspetor de um momento Se…, com uma condição, "ir para" e "senão".](/novelworks-docs/screenshots/if-conditions.png)
+![O inspetor de um momento Se…, com uma condição, “ir para” e “senão”.](/novelworks-docs/screenshots/if-conditions.png)
 
 - **{ui.conditionCases.addCase}** adiciona um caso no fim.
 - As setas de um cartão movem o caso para cima ou para baixo. A ordem importa, porque vale o primeiro caso que for verdadeiro.
@@ -26,7 +26,7 @@ Um novo Se… tem um caso com uma condição vazia. Com um único caso, ele apar
 
 ## Condições
 
-Uma condição começa com a palavra "Se" e verifica uma variável ou um item. A opção **{ui.branchInspectors.whatToCheck}** (Variável ou Item) aparece quando o recurso Inventário está ligado.
+Uma condição começa com a palavra “Se” e verifica uma variável ou um item. A opção **{ui.branchInspectors.whatToCheck}** (Variável ou Item) aparece quando o recurso Inventário está ligado.
 
 ### Uma variável
 
@@ -41,20 +41,20 @@ Embaixo de um teste de Pontuação, uma linha diz a que total as suas escolhas p
 
 ### Um item
 
-"Se o jogador" **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** ou (para um item acumulável) **{ui.conditionTests.hasAtLeast}** uma quantidade daquele item.
+“Se o jogador” **{ui.conditionTests.has}**, **{ui.conditionTests.doesnTHave}** ou (para um item acumulável) **{ui.conditionTests.hasAtLeast}** uma quantidade daquele item.
 
 ### Várias condições em um caso
 
 Clique em **{ui.conditionCases.addTest}**. Depois escolha como elas se combinam:
 
-- **{ui.conditionCases.matchAll}**: todas as condições precisam ser verdadeiras ("{tx.conditionCases.and}");
-- **{ui.conditionCases.matchAny}**: basta uma ("ou").
+- **{ui.conditionCases.matchAll}**: todas as condições precisam ser verdadeiras (“{tx.conditionCases.and}”);
+- **{ui.conditionCases.matchAny}**: basta uma (“ou”).
 
 A seleção aparece quando um caso tem duas ou mais condições. Para remover uma, use **{ui.conditionCases.removeTest}**, que só aparece quando há mais de uma. Com uma condição só, a opção de combinação some.
 
 ## Para onde ir
 
-Embaixo de cada caso: a cena para onde ir. Um caso precisa de uma cena (o editor avisa quando ele não tem). Depois vem o *senão*, que também pode ser "{tx.linkSelects.continueNextMoment}". Se você não escolher cena para o *senão*, a história simplesmente continua com o próximo momento.
+Embaixo de cada caso: a cena para onde ir. Um caso precisa de uma cena (o editor avisa quando ele não tem). Depois vem o *senão*, que também pode ser “{tx.linkSelects.continueNextMoment}”. Se você não escolher cena para o *senão*, a história simplesmente continua com o próximo momento.
 
 ## O que o jogo faz
 
@@ -66,21 +66,21 @@ Embaixo de cada caso: a cena para onde ir. Um caso precisa de uma cena (o editor
 
 ## Laços
 
-Se Ses e saltos só levam de volta uns aos outros (a cena A vai para B, e B volta direto para A), o jogo não consegue seguir. Depois de 1000 passos automáticos seguidos ele para e mostra a tela final, e o editor não avisa você. Garanta que todo laço contenha algo que o jogador faz, como uma fala de diálogo ou uma escolha.
+Se vários Se… e saltos só levam de volta uns aos outros (a cena A vai para B, e B volta direto para A), o jogo não consegue seguir. Depois de 1000 passos automáticos seguidos ele para e mostra a tela final, e o editor não avisa você. Garanta que todo laço contenha algo que o jogador faz, como uma fala de diálogo ou uma escolha.
 
 ## Experimentar
 
 Embaixo dos casos, **{ui.memory.tryTitle}** permite conferir o seu Se… sem jogar. Imagine que uma Pontuação tem um valor, ou que o jogador tem uma quantidade de um item, e o NovelWorks diz para onde a história iria:
 
-- "O caso 2 é verdadeiro: vai para …";
-- "Senão: vai para …", ou "{tx.memory.tryContinue}";
-- "{tx.memory.tryPickFirst}" quando uma condição não está terminada.
+- “O caso 2 é verdadeiro: vai para …”;
+- “Senão: vai para …”, ou “{tx.memory.tryContinue}”;
+- “{tx.memory.tryPickFirst}” quando uma condição não está terminada.
 
 Ele usa as mesmas regras do jogo. Com um caso e uma condição, há uma caixa; senão, há uma caixa para cada variável ou item usado.
 
 ## Na linha do tempo
 
-Um cartão mostra o primeiro caso ("Se Affection ≥ 2 → Park") e a tela do jogo lista uma linha por caso, depois o *senão*.
+Um cartão mostra o primeiro caso (“Se Affection ≥ 2 → Park”) e a tela do jogo lista uma linha por caso, depois o *senão*.
 
 ## Avisos
 

@@ -9,12 +9,12 @@ A **{ui.gameUI.titleScreen}** é a primeira tela que os jogadores veem (depois d
 
 Escolha **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
-- **{ui.gameUIInspector.color}**: o padrão é um azul bem escuro. Ele "brilha com a cor principal no alto": o jogo desenha um brilho suave da sua [cor principal](/novelworks-docs/pt-br/game-ui/fonts-and-colors/) por cima.
+- **{ui.gameUIInspector.color}**: o padrão é um azul bem escuro. Ele “brilha com a cor principal no alto”: o jogo desenha um brilho suave da sua [cor principal](/novelworks-docs/pt-br/game-ui/fonts-and-colors/) por cima.
 - **{ui.gameUIInspector.image}**: escolha um cenário, uma CG ou uma imagem de interface. Até você escolher uma, a cor é mostrada.
 
 ## Logotipo
 
-**{ui.gameUIInspector.logoImage}**: qualquer imagem. Ela é desenhada na parte de cima da tela, mantendo as proporções. Sem logotipo, o jogo escreve o **título do seu jogo** (definido nas [configurações do projeto](/novelworks-docs/pt-br/getting-started/editor-settings/)), ou "{tx.export.untitled}" se estiver vazio.
+**{ui.gameUIInspector.logoImage}**: qualquer imagem. Ela é desenhada na parte de cima da tela, mantendo as proporções. Sem logotipo, o jogo escreve o **título do seu jogo** (definido nas [configurações do projeto](/novelworks-docs/pt-br/getting-started/editor-settings/)), ou “{tx.export.untitled}” se estiver vazio.
 
 ## Menu
 

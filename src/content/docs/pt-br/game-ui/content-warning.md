@@ -11,7 +11,7 @@ Ligue **{ui.contentWarning.enabled}**. Ele vem desativado por padrão.
 
 ## O que ele diz
 
-- **{ui.contentWarning.topics}**: marque quantos quiser entre onze temas: Violência, Sangue, Morte, Suicídio, Automutilação, Abuso, Terror, Conteúdo sexual, Drogas, Linguagem forte, Luzes piscando. A tela do jogador lista os marcados sob "{tx.contentWarning.contains}", sempre nesta ordem.
+- **{ui.contentWarning.topics}**: marque quantos quiser entre onze temas: Violência, Sangue, Morte, Suicídio, Automutilação, Abuso, Terror, Conteúdo sexual, Drogas, Linguagem forte, Luzes piscando. A tela do jogador lista os marcados sob “{tx.contentWarning.contains}”, sempre nesta ordem.
 - **{ui.contentWarning.message}**: texto livre mostrado embaixo da lista, por exemplo uma palavra gentil ou uma indicação de ajuda. Opcional.
 
 ## Quando ele aparece

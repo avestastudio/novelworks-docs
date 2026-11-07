@@ -33,11 +33,11 @@ description: NovelWorks 如何组织一个故事，从场景到片段。
 - 点击一张卡片就能选中它，并在游戏画面和检查器里编辑它。拖动卡片可以重新排序。
 - 按钮会在**所选片段之后**添加一个片段，每种各一个。末尾的 **+** 卡片会添加一句对话。
 - 两个图标分别用来复制和删除所选片段。删除时会要求确认，除非这个片段是一句空的对话。
-- 在卡片下方，一张图表显示谁在台上（[舞台](/novelworks-docs/zh-cn/concepts/stage/)），一行显示故事在哪里分支（[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。
+- 在卡片下方，一张图表显示谁在台上（[舞台](/novelworks-docs/zh-cn/concepts/stage/)），一行显示故事在哪里分支（[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。
 
 ### 快速写作的方法
 
-在对话框里，**Enter** 会开始一个舞台相同的新片段。**Shift+Enter** 会在同一个框里换行。
+在对话框里，**Enter** 会开始一个画面相同的新片段。**Shift+Enter** 会在同一个框里换行。
 
 ## 起始场景
 

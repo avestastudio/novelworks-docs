@@ -7,7 +7,7 @@ Um personagem é uma pessoa da sua história. Cada personagem tem um nome, uma c
 
 ## Criar um personagem
 
-Clique em **{ui.charactersTab.newCharacter}**. O personagem se chama "Personagem N", em que N é o número de personagens que você já tem mais um (dois personagens podem acabar com o mesmo nome, então renomeie-os) e recebe uma cor de nome de um conjunto de oito. Selecione-o para editá-lo no inspetor.
+Clique em **{ui.charactersTab.newCharacter}**. O personagem se chama “Personagem N”, em que N é o número de personagens que você já tem mais um (dois personagens podem acabar com o mesmo nome, então renomeie-os) e recebe uma cor de nome de um conjunto de oito. Selecione-o para editá-lo no inspetor.
 
 Você também pode criar um personagem ao importar imagens: veja [Recursos](/novelworks-docs/pt-br/writing/assets/).
 
@@ -20,7 +20,7 @@ Você também pode criar um personagem ao importar imagens: veja [Recursos](/nov
 
 Em **{ui.characterInspector.expressions}**, adicione uma imagem para cada humor (feliz, triste, bravo…).
 
-- Clique em **{ui.characterInspector.addExpression}** e escolha uma imagem do tipo "{tx.assetTypes.characterSprite}", ou importe uma nova pelo seletor. A expressão recebe o nome da imagem.
+- Clique em **{ui.characterInspector.addExpression}** e escolha uma imagem do tipo “{tx.assetTypes.characterSprite}”, ou importe uma nova pelo seletor. A expressão recebe o nome da imagem.
 - Digite outro nome em **{ui.characterInspector.expressionName}**, se quiser.
 - Clique na estrela para **{ui.characterInspector.makeThisTheDefaultExpression}**. A primeira expressão que você adiciona é a padrão. Ela é a que aparece quando um personagem chega sem expressão.
 - Clique na imagem para **{ui.characterInspector.changeImage}**. A imagem antiga continua nos seus recursos.
@@ -34,7 +34,7 @@ Um avatar é um pequeno retrato exibido na caixa de diálogo ao lado do nome. Em
 - **{ui.characterInspector.fixed}**: o mesmo retrato toda vez que este personagem fala;
 - **{ui.characterInspector.perExpression}**: um retrato para cada expressão. Expressões sem retrato usam o avatar padrão.
 
-Os avatares podem ser imagens do tipo "{tx.assetTypes.avatar}", "{tx.assetTypes.characterSprite}" ou "Interface".
+Os avatares podem ser imagens do tipo “{tx.assetTypes.avatar}”, “{tx.assetTypes.characterSprite}” ou “Interface”.
 
 ## Colocar um personagem em cena
 

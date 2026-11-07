@@ -13,4 +13,4 @@ Elige **{ui.native.role.help} → {ui.native.menu.reportABug}**. Se abre el form
 - Si hay un **aviso** de por medio, su texto (mira [Problemas](/novelworks-docs/es/testing/problems/)).
 - Tu ordenador: Mac o Windows.
 
-Si tu proyecto está implicado, guarda una copia de su carpeta antes de probar cualquier otra cosa. Mira [Guardado, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/).
+Si tu proyecto está implicado, guarda una copia de su carpeta antes de probar cualquier otra cosa. Mira [Guardar, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/).

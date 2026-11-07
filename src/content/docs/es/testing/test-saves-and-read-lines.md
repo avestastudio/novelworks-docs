@@ -3,7 +3,7 @@ title: Herramientas del modo Jugar
 description: "La barra sobre el juego cuando juegas: variables y objetos, pantalla inicial, reinicio, partidas de prueba y líneas leídas."
 ---
 
-Cuando juegas en el editor, una barra en la parte superior reúne las herramientas de prueba. Los botones de la barra nunca toman el foco del teclado, así que **Espacio** y **Enter** siguen yendo al juego.
+Cuando juegas en el editor, una barra en la parte superior reúne las herramientas de prueba. Los botones de la barra nunca toman el foco del teclado, así que **Espacio** y **Intro** siguen yendo al juego.
 
 ![Modo Jugar: la barra de herramientas arriba, y el panel de variables y objetos a la derecha.](/novelworks-docs/screenshots/play-bar.png)
 

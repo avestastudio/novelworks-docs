@@ -7,9 +7,9 @@ A tela **{ui.gameUI.choices}** define a aparência dos botões de uma [escolha](
 
 ## Botões
 
-- **{ui.gameUIInspector.buttonStyle}**: "{tx.gameUIInspector.sameAsFontsColors}" por padrão.
-- **{ui.gameUIInspector.buttonColor}**: "{tx.gameUIInspector.sameAsTheDialogueBox}" por padrão (a cor da caixa com a opacidade dela).
-- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" por padrão.
+- **{ui.gameUIInspector.buttonStyle}**: “{tx.gameUIInspector.sameAsFontsColors}” por padrão.
+- **{ui.gameUIInspector.buttonColor}**: “{tx.gameUIInspector.sameAsTheDialogueBox}” por padrão (a cor da caixa com a opacidade dela).
+- **{ui.gameUIInspector.textColor}**: “{tx.gameUIInspector.sameAsTheTextColor}” por padrão.
 
 O texto das opções vem da sua história. Os jogadores clicam em uma opção ou apertam a tecla com o número dela.
 

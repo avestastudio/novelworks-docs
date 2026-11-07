@@ -7,7 +7,7 @@ Un moment **{ui.moments.exploration}** n’a **pas de boîte de texte** : le jo
 
 ## En ajouter un
 
-Dans la ligne du temps, ajoutez un moment **{ui.moments.exploration}**. Il est d’abord vide et utilise l’arrière-plan du moment précédent. Sélectionnez-le : l’inspecteur affiche **{ui.explorationInspectors.zones}** et **{ui.explorationInspectors.props}** avec **+ Zone** et **+ Accessoire**.
+Dans la chronologie, ajoutez un moment **{ui.moments.exploration}**. Il est d’abord vide et utilise le décor du moment précédent. Sélectionnez-le : l’inspecteur affiche **{ui.explorationInspectors.zones}** et **{ui.explorationInspectors.props}** avec **+ Zone** et **+ Accessoire**.
 
 ![Un moment Exploration : les zones dessinées sur l’image, et la liste des zones et des accessoires dans l’inspecteur.](/novelworks-docs/screenshots/exploration-editor.png)
 
@@ -49,7 +49,7 @@ Les **{ui.explorationInspectors.props}** sont des images d’objets (une clé, u
 - Faites glisser un accessoire pour le déplacer, ou un coin pour le redimensionner. Dans l’inspecteur, **{ui.explorationInspectors.size}** est une largeur de 2 à 100 % de l’écran.
 - **{ui.explorationInspectors.hiddenWithZone}** : quand cette zone est masquée par sa condition, l’accessoire l’est aussi. **{ui.explorationInspectors.addAZoneAroundIt}** ajoute une zone autour de l’accessoire.
 - **{ui.explorationInspectors.forward}** et **{ui.explorationInspectors.backward}** changent l’accessoire qui est devant. **{ui.explorationInspectors.removeProp}** le supprime.
-- Les accessoires sont dessinés derrière les personnages et au-dessus de l’arrière-plan.
+- Les accessoires sont dessinés derrière les personnages et au-dessus du décor.
 
 ## Ce que voient les joueurs
 

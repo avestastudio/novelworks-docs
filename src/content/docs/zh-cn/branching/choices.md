@@ -3,7 +3,7 @@ title: 选择
 description: 让玩家挑选一个选项，改变游戏记住的内容，并通往另一个场景。
 ---
 
-一个 {ui.moments.choice} 片段会向玩家显示两到六个按钮。每个选项都可以改变游戏记住的内容，并把故事送往另一个场景。关于它和其他部分如何配合，请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
+一个 {ui.moments.choice} 片段会向玩家显示两到六个按钮。每个选项都可以改变游戏记住的内容，并把故事送往另一个场景。关于它和其他部分如何配合，请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 添加选择
 
@@ -43,7 +43,7 @@ description: 让玩家挑选一个选项，改变游戏记住的内容，并通�
 
 每个改变是一行：
 
-- **一个变量**。选择变量。对于分数，选 {ui.branchInspectors.add} 或 {ui.branchInspectors.setTo} 并输入一个数字。对于事实，始终是 {ui.branchInspectors.setTo} 是或否。点 X 删除这个改变。
+- 修改变量：选择变量。对于分数，选 {ui.branchInspectors.add} 或 {ui.branchInspectors.setTo} 并输入一个数字。对于事实，始终是 {ui.branchInspectors.setTo} 是或否。点 X 删除这个改变。
 - **给予或移除物品**，在物品栏功能开启时：{ui.branchInspectors.giveRemoveAnItem}。选择物品，{ui.branchInspectors.give_0895a5} 或 {ui.branchInspectors.remove_7e5608}，可叠加的物品还要选数量。
 
 游戏应用这些改变时，会按顺序进行。指向已删除或未选择的变量或物品的改变会被跳过（编辑器会警告你）。对事实做加法不会有任何作用。单个物品永远不会超过一个，可叠加的物品永远不会低于零。

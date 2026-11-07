@@ -38,7 +38,7 @@ Les avatars peuvent être des images de type « {tx.assetTypes.avatar} », «�
 
 ## Mettre un personnage en scène
 
-Voir [Mettre en scène une scène](/novelworks-docs/fr/writing/staging/). En bref : dans un moment, utilisez **{ui.momentInspector.add}** sous **{ui.momentInspector.onStage}** (ou le bouton **{ui.stageControls.character}** au-dessus de l’écran de jeu), puis faites glisser le personnage où vous voulez.
+Voir [Mettre en scène une scène](/novelworks-docs/fr/writing/staging/). En bref : dans un moment, utilisez **{ui.momentInspector.add}** sous **{ui.momentInspector.onStage}** (ou le bouton **{ui.stageControls.character}** au-dessus de l’écran du jeu), puis faites glisser le personnage où vous voulez.
 
 ## Supprimer un personnage
 

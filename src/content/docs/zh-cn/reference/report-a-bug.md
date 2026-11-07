@@ -13,4 +13,4 @@ description: 出了问题请告诉我们，以及要附上哪些信息。
 - 如果涉及**警告**，请附上它的文字（见[问题](/novelworks-docs/zh-cn/testing/problems/)）。
 - 你的电脑：Mac 还是 Windows。
 
-如果涉及你的项目，在尝试其他办法之前，请先保留它的文件夹副本。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
+如果涉及你的项目，在尝试其他办法之前，请先保留它的文件夹副本。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。

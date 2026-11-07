@@ -29,7 +29,7 @@ El proyecto se abre con una escena, «{tx.shared.project.firstScene}», y una l�
 1. Abre la pestaña **{ui.leftPanel.scenes}** y selecciona tu escena.
 2. Elige el fondo del momento con el botón de fondo que está encima de la pantalla del juego («{ui.stage.chooseTheBackgroundOfThisMoment}»).
 3. Pon a tu personaje en escena con el botón **{ui.stageControls.putACharacterOnStage}** y arrastra al personaje adonde quieras.
-4. Haz clic en el cuadro de diálogo de la pantalla y escribe. Pulsa **Intro** para empezar la línea siguiente: empieza un momento nuevo, con el **mismo escenario**, porque [los personajes se quedan en escena](/novelworks-docs/es/concepts/stage/). Pulsa **Mayús+Intro** para una línea nueva dentro del mismo cuadro.
+4. Haz clic en el cuadro de diálogo de la pantalla y escribe. Pulsa **Intro** para empezar la línea siguiente: empieza un momento nuevo, con el **mismo escenario**, porque [los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/). Pulsa **Mayús+Intro** para una línea nueva dentro del mismo cuadro.
 5. Haz clic en el personaje de la pantalla para cambiar su expresión en un momento posterior.
 
 ## 5. Añade una elección

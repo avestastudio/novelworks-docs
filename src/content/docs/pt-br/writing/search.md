@@ -20,12 +20,12 @@ Não são pesquisados: quem fala uma linha, nomes de variáveis, nomes de imagen
 
 ## Buscar
 
-Digite em **{ui.searchPanel.find}**. Uma linha abaixo diz "3 de 12" ou "Nenhum resultado". Embaixo dela, os resultados ficam agrupados por cena (depois personagens, depois itens). Cada linha mostra onde está a ocorrência ("Momento 4 · Diálogo", "{tx.characterInspector.characterName}"…) e um trecho curto com a ocorrência destacada. No máximo 500 resultados são listados: digite mais palavras para refinar a busca.
+Digite em **{ui.searchPanel.find}**. Uma linha abaixo diz “3 de 12” ou “Nenhum resultado”. Embaixo dela, os resultados ficam agrupados por cena (depois personagens, depois itens). Cada linha mostra onde está a ocorrência (“Momento 4 · Diálogo”, “{tx.characterInspector.characterName}”…) e um trecho curto com a ocorrência destacada. No máximo 500 resultados são listados: digite mais palavras para refinar a busca.
 
 Duas opções refinam a busca:
 
-- **{ui.searchPanel.matchCase}**: "Aa" não é "aa". Desligada por padrão.
-- **{ui.searchPanel.wholeWordsOnly}**: "{tx.gameUIPreview.mia}" mas não "Miami". Desligada por padrão.
+- **{ui.searchPanel.matchCase}**: “Aa” não é “aa”. Desligada por padrão.
+- **{ui.searchPanel.wholeWordsOnly}**: “{tx.gameUIPreview.mia}” mas não “Miami”. Desligada por padrão.
 
 O texto que você digita é procurado exatamente como foi escrito. Não há padrões.
 
@@ -39,4 +39,4 @@ Digite o novo texto em **{ui.searchPanel.replaceWith}**.
 - O ícone na linha de um resultado (**{ui.searchPanel.replaceThisOne}**) substitui só aquele, e não avança.
 - **{ui.searchPanel.replaceAll}** substitui todas as ocorrências no seu jogo. O NovelWorks primeiro pede que você confirme, dizendo quantas ocorrências há e que você pode desfazer. Uma substituição vazia remove o texto.
 
-Uma substituição é ignorada se o texto mudou depois que a ocorrência foi encontrada. Substituir no jogo inteiro é feito em uma única ação, e um só **{ui.native.menu.undo}** desfaz tudo. Uma mensagem diz quantas ocorrências foram substituídas ("31 ocorrências substituídas.").
+Uma substituição é ignorada se o texto mudou depois que a ocorrência foi encontrada. Substituir no jogo inteiro é feito em uma única ação, e um só **{ui.native.menu.undo}** desfaz tudo. Uma mensagem diz quantas ocorrências foram substituídas (“31 ocorrências substituídas.”).

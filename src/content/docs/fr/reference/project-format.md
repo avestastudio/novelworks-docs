@@ -25,7 +25,7 @@ Un projet est un **dossier** que vous pouvez copier, déplacer ou sauvegarder co
 | 6 | Les objets et les fonctionnalités facultatives. |
 | 7 | Le placement libre des personnages. |
 | 8 | La fonctionnalité Carte. |
-| 9 | Un identifiant de jeu, pour les sauvegardes des joueurs, et l’apparence des écrans Enregistrer et Charger. |
+| 9 | Un identifiant de jeu, pour les sauvegardes des joueurs, et l’apparence des écrans Sauvegarder et Charger. |
 | 10, 12, 13 | L’apparence des écrans Historique, menu rapide et Options. |
 | 11 | La carte dans son propre espace. |
 | 14 | Les images d’intro et l’avertissement de contenu. |
@@ -51,7 +51,7 @@ Si un dossier n’a pas de `project.json`, ou si le fichier est endommagé (ce n
 
 ## Sauvegardes
 
-Voir [Enregistrement, sauvegardes et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/) : une sauvegarde avant chaque enregistrement manuel, au plus une toutes les 15 minutes pour l’enregistrement automatique, les 20 plus récentes plus la plus récente de chacun des 7 derniers jours.
+Voir [Enregistrement, sauvegardes de secours et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/) : une sauvegarde avant chaque enregistrement manuel, au plus une toutes les 15 minutes pour l’enregistrement automatique, les 20 plus récentes plus la plus récente de chacun des 7 derniers jours.
 
 ## Modifier le fichier à la main
 

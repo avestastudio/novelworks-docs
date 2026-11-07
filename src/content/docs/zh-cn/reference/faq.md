@@ -17,7 +17,7 @@ description: 对大家最常问的问题的快速解答。
 
 **我的项目在哪里？** 在你创建它时选择的文件夹里。项目设置会在“{tx.projectSettings.savedIn}”下显示它。要复制项目，请复制整个文件夹。
 
-**我丢了一处更改。** 先试试 {ui.topBar.undo}（最多 200 步），再试 **{ui.native.menu.file} → 从备份恢复…**。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
+**我丢了一处更改。** 先试试 {ui.topBar.undo}（最多 200 步），再试 **{ui.native.menu.file} → 从备份恢复…**。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
 
 **我误删了一张图片、一个场景或一个变量。** 按 {ui.topBar.undo}。删除的图片会保存在 `backups/deleted-assets` 里，撤销后就会回来。删除的场景或变量也可以撤销，在此期间，用到它们的地方会显示警告。
 
@@ -41,7 +41,7 @@ description: 对大家最常问的问题的快速解答。
 
 **玩家需要安装什么吗？** 不需要。网页导出的游戏可以在任何浏览器里玩，电脑和手机都行。见[网页导出](/novelworks-docs/zh-cn/publish/web-export/)。
 
-**玩家的存档保存在哪里？** 保存在他们的浏览器里，对应你的游戏。你更新游戏时，存档会保留。见[保存和读取](/novelworks-docs/zh-cn/player/save-and-load/)。
+**玩家的存档保存在哪里？** 保存在他们的浏览器里，对应你的游戏。你更新游戏时，存档会保留。见[存档和读档](/novelworks-docs/zh-cn/player/save-and-load/)。
 
 ## 遇到问题
 

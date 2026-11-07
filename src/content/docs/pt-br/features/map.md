@@ -49,7 +49,7 @@ Um mapa aberto com o botão dele tem um botão **{rt.game.back}** que leva o jog
 
 ## O que acontece quando um jogador escolhe um local
 
-O jogo vai para a cena do local. Se **{ui.mapMode.returnToMapWhenFinished}** está ativado, o jogador volta ao mapa quando a história acaba. Um local sem cena não faz nada. Veja também [Botão Mapa](/novelworks-docs/pt-br/game-ui/map-button/) para a aparência do botão, e a tecla **M** e a entrada do menu de pausa, que também abrem o mapa.
+O jogo vai para a cena do local. Se **{ui.mapMode.returnToMapWhenFinished}** está ativado, o jogador volta ao mapa quando a história acaba. Um local sem cena não faz nada. Veja também [Botão do mapa](/novelworks-docs/pt-br/game-ui/map-button/) para a aparência do botão, e a tecla **M** e a entrada do menu de pausa, que também abrem o mapa.
 
 ## Testes
 

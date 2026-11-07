@@ -31,7 +31,7 @@ Um `# heading` na visão de uma única cena é ignorado e sinalizado.
 
 ## A prévia
 
-O lado direito mostra o **momento sob o cursor**, como ele aparece no jogo ("Momento 3 de 12"). Mover o cursor seleciona esse momento, e selecionar um momento em outro lugar move o cursor para a linha dele. Uma linha que continua a de cima pertence ao mesmo momento. A coluna da prévia pode ser redimensionada arrastando a borda dela; dê dois cliques na borda para restaurá-la.
+O lado direito mostra o **momento sob o cursor**, como ele aparece no jogo (“Momento 3 de 12”). Mover o cursor seleciona esse momento, e selecionar um momento em outro lugar move o cursor para a linha dele. Uma linha que continua a de cima pertence ao mesmo momento. A coluna da prévia pode ser redimensionada arrastando a borda dela; dê dois cliques na borda para restaurá-la.
 
 Acima da prévia, a linha **{ui.branches.whereTitle}** mostra para onde o momento selecionado leva, como na visão Visual (veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/)). Um botão a oculta.
 
@@ -48,7 +48,7 @@ Acima da prévia, a linha **{ui.branches.whereTitle}** mostra para onde o moment
 - Digite `/` no começo de uma linha para escolher um comando em uma lista. Nomes de personagens, imagens, cenas, variáveis e itens são sugeridos enquanto você digita e, depois de `background :`, `show :`, `hide :`, `give`, `remove`, `->`, `+`, `=` e `if`, a lista traz o tipo de nome correspondente.
 - **Tab** recua o texto e **Shift+Tab** remove o recuo.
 - Os nomes dos personagens são coloridos com a cor de nome do personagem.
-- O botão **?** (**{ui.scriptMode.help}**) abre um painel "{tx.script.help.title}" com o formato.
+- O botão **?** (**{ui.scriptMode.help}**) abre um painel “{tx.script.help.title}” com o formato.
 
 ## Nomes que ainda não existem
 

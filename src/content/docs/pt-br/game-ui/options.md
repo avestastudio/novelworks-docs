@@ -10,7 +10,7 @@ A tela **{ui.gameUI.options}** é onde os jogadores adaptam o jogo a si mesmos. 
 Em **{ui.gameUIInspector.screen}**:
 
 - **{ui.gameUIInspector.backgroundColor}**: por padrão, a cor da tela de título, um pouco transparente;
-- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" por padrão;
+- **{ui.gameUIInspector.textColor}**: “{tx.gameUIInspector.sameAsTheTextColor}” por padrão;
 - **{ui.gameUIInspector.buttonStyle}**: o estilo dos botões.
 
 ## O que os jogadores podem escolher

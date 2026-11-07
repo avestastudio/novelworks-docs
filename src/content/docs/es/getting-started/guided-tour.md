@@ -21,7 +21,7 @@ NovelWorks muestra un breve **recorrido guiado** la primera vez que abres un pro
 4. **{ui.tutorial.stage.title}**: la pantalla del juego muestra lo que verán los jugadores.
 5. **{ui.tutorial.background.title}**: elige el fondo del momento, y mantenlo el resto de la escena con **{ui.momentInspector.applyToTheFollowingMoments}**.
 6. **{ui.tutorial.character.title}**: pon un personaje en escena y arrástralo a su sitio.
-7. **{ui.tutorial.persist.title}**: los personajes se quedan en su sitio hasta que los cambies. Consulta [El escenario](/novelworks-docs/es/concepts/stage/).
+7. **{ui.tutorial.persist.title}**: los personajes se quedan en su sitio hasta que los cambies. Consulta [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 8. **{ui.tutorial.timeline.title}**: una escena es una serie de momentos. Consulta [Escenas, momentos y la línea de tiempo](/novelworks-docs/es/concepts/scenes-moments-timeline/).
 9. **{ui.tutorial.inspector.title}**: todo sobre el elemento seleccionado.
 10. **{ui.tutorial.choices.title}**: añade una elección, haz que el juego recuerde algo y envía la historia a otro sitio con una «{tx.leftPanel.condition}». Consulta [Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/).

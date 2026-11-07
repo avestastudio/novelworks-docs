@@ -35,7 +35,7 @@ Los mensajes que ven los jugadores cuando el navegador bloquea el almacenamiento
 ## Cuando algo parece ir mal en la historia
 
 - Una escena marcada como **{ui.scenesTab.unreachable}**, un triángulo en una tarjeta o un cuadro «{tx.branchInspectors.thisMomentNeedsYourAttention}»: mira [Problemas: todos los avisos](/novelworks-docs/es/testing/problems/).
-- Falta un personaje en la pantalla: los personajes se quedan en el escenario hasta que algo los cambia, y se van cuando un momento lo indica. Mira [El escenario](/novelworks-docs/es/concepts/stage/).
+- Falta un personaje en la pantalla: los personajes se quedan en el escenario hasta que algo los cambia, y se van cuando un momento lo indica. Mira [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 - No aparece una opción de una elección: puede tener una condición. Mira [Elecciones](/novelworks-docs/es/branching/choices/).
 - La historia se salta un Si…: una condición comprueba algo que se borró. Mira [Condiciones Si…](/novelworks-docs/es/branching/conditions/).
 

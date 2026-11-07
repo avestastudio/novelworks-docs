@@ -3,7 +3,7 @@ title: Histórico
 description: A lista das falas que o jogador já leu, e como abri-la.
 ---
 
-O **{rt.game.history}** mostra o que já foi dito até agora: as falas de diálogo com o nome de quem fala na sua cor, as perguntas das escolhas, as falas mostradas pelas zonas de exploração e "Você escolheu: …" com a opção que o jogador escolheu. Ele não serve para voltar no tempo: é só para leitura.
+O **{rt.game.history}** mostra o que já foi dito até agora: as falas de diálogo com o nome de quem fala na sua cor, as perguntas das escolhas, as falas mostradas pelas zonas de exploração e “Você escolheu: …” com a opção que o jogador escolheu. Ele não serve para voltar no tempo: é só para leitura.
 
 ## Abra e feche
 
@@ -13,7 +13,7 @@ O **{rt.game.history}** mostra o que já foi dito até agora: as falas de diálo
 
 ## Como usar
 
-Ele abre já rolado até a última fala. Role com a roda do mouse, arrastando (em uma tela de toque) ou com as teclas: as setas movem um pouco, **Page Up** / **Page Down** ou **Espaço** movem uma tela, **Home** e **End** vão até as pontas. Quando nada foi dito ainda, ele diz "{tx.historyScreen.nothingHasBeenSaidYet}"
+Ele abre já rolado até a última fala. Role com a roda do mouse, arrastando (em uma tela de toque) ou com as teclas: as setas movem um pouco, **Page Up** / **Page Down** ou **Espaço** movem uma tela, **Home** e **End** vão até as pontas. Quando nada foi dito ainda, ele diz “{tx.historyScreen.nothingHasBeenSaidYet}”
 
 ## Limites
 

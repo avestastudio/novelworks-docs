@@ -7,7 +7,7 @@ Una elección solo importa si el juego la **recuerda**. NovelWorks guarda lo que
 
 | Tipo | Qué guarda | Ejemplo |
 |---|---|---|
-| **{ui.variables.number}** | Un número que el juego puede subir o bajar. | El cariño de Mia, el dinero |
+| **{ui.variables.number}** | Un número que el juego puede subir o bajar. | El afecto de Mia, el dinero |
 | **{ui.variables.yesNo}** | Si algo ocurrió o no: **{ui.variables.yes}** o **{ui.variables.no}**. | «{tx.memory.factExample}», «Tiene la llave» |
 
 Los objetos que lleva el jugador (llaves, cartas, monedas…) son una parte aparte y opcional del juego: consulta [Inventario](/novelworks-docs/es/features/inventory/).
@@ -22,11 +22,11 @@ Si borras una variable que se usa en algún sitio, NovelWorks te avisa. Los luga
 
 Casi nunca necesitas empezar por la pestaña Variables. En una **{ui.moments.choice}**, cada opción tiene una zona **{ui.branchInspectors.changes}**. Haz clic en **{ui.memory.remember}** y el panel pregunta **{ui.memory.rememberTitle}**:
 
-1. Elige **{ui.memory.scoreTitle}** (un número que sube o baja, como «el cariño de Mia») o **{ui.memory.factTitle}** (algo que ocurrió: sí o no, como «{tx.memory.factExample}») y escribe un nombre en **{ui.memory.nameLabel}**.
+1. Elige **{ui.memory.scoreTitle}** (un número que sube o baja, como «el afecto de Mia») o **{ui.memory.factTitle}** (algo que ocurrió: sí o no, como «{tx.memory.factExample}») y escribe un nombre en **{ui.memory.nameLabel}**.
 2. O elige una variable que ya tengas con **{ui.memory.orPick}**.
 3. Haz clic en **{ui.memory.createAndUse}**.
 
-NovelWorks crea la variable si es nueva y añade el cambio a la opción en un solo paso. Una Puntuación empieza con «sumar +1» y un Hecho con «poner en Sí». Después puedes editar la cantidad.
+NovelWorks crea la variable si es nueva y añade el cambio a la opción en un solo paso. Una Puntuación empieza con «sumar +1» y un Hecho con «establecer en Sí». Después puedes editar la cantidad.
 
 ## Usar lo que recuerda el juego
 
@@ -36,10 +36,10 @@ Un momento **{ui.moments.condition}** envía la historia a escenas distintas seg
 
 Bajo una prueba de Puntuación, NovelWorks te dice qué es posible, para que no tengas que contar a mano:
 
-- «Tus elecciones pueden sumar hasta +5 a Cariño en total.»
-- «En total, tus elecciones pueden llevar Cariño de 0 a 5.»
-- «Nada cambia todavía Cariño: se queda en 0.»
+- «Tus elecciones pueden sumar hasta +5 a Afecto en total.»
+- «En total, tus elecciones pueden llevar Afecto de 0 a 5.»
+- «Nada cambia todavía Afecto: se queda en 0.»
 
-Cuando escribes un número para comparar, te dice «Esto puede ocurrir» o te avisa «Esto nunca será cierto: Cariño se queda entre 0 y 5». No dice nada cuando NovelWorks no puede saber hasta dónde sube o baja una Puntuación (por ejemplo cuando una escena se repite en bucle, o una zona funciona siempre), porque el total no tiene límite.
+Cuando escribes un número para comparar, te dice «Esto puede ocurrir» o te avisa «Esto nunca será cierto: Afecto se queda entre 0 y 5». No dice nada cuando NovelWorks no puede saber hasta dónde sube o baja una Puntuación (por ejemplo cuando una escena se repite en bucle, o una zona funciona siempre), porque el total no tiene límite.
 
 Prueba un momento **{ui.moments.condition}** con el cuadro **{ui.memory.tryTitle}**: elige un valor para simularlo y verás qué caso se cumple y adónde iría la historia, sin jugar.

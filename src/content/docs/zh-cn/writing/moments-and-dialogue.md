@@ -3,7 +3,7 @@ title: "片段与对话"
 description: "写对话台词、添加片段、重新排序，并使用片段菜单。"
 ---
 
-**片段**是场景的一个步骤：一句对话、一个选择、一次跳转……本页讲的是最常见的一种，{ui.moments.dialogue}片段。其他种类见[场景、片段和时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
+**片段**是场景的一个步骤：一句对话、一个选择、一次跳转……本页讲的是最常见的一种，{ui.moments.dialogue}片段。其他种类见[场景、片段与时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 
 ## 写一句台词
 

@@ -61,7 +61,7 @@ Tus datos privados de escritura se vacían antes de exportar: las **notas** de l
 | Ya hay una carpeta llamada «…» y no es una exportación anterior. | Elige otra carpeta. |
 | Activa NovelWorks para exportar juegos. | Abre **{ui.native.role.help} → Activar NovelWorks…** |
 | La demo exporta juegos de hasta 5 escenas, y tu proyecto tiene N. | Solo en la demo. Borra escenas, o consigue la versión completa. |
-| No se pudo exportar el juego: … | Sigue el motivo. Mira [Solución de problemas](/novelworks-docs/es/reference/troubleshooting/). |
+| No se pudo exportar el juego: … | Sigue el motivo. Mira [Solución de problemas y mensajes](/novelworks-docs/es/reference/troubleshooting/). |
 
 ## Publicar
 

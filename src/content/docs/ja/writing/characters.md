@@ -36,7 +36,7 @@ description: キャラクターを作り、表情とアバターを設定しま�
 
 アバターには、「{tx.assetTypes.avatar}」、「{tx.assetTypes.characterSprite}」、「UI」タイプの画像が使えます。
 
-## キャラクターを舞台に出す
+## キャラクターをステージに出す
 
 [シーンの演出](/novelworks-docs/ja/writing/staging/)を見てください。簡単に言うと、カットの中で、「{ui.momentInspector.onStage}」の下にある「{ui.momentInspector.add}」を使います(またはゲーム画面の上にある「{ui.stageControls.character}」ボタンを使います)。そのあと、キャラクターを好きな場所へドラッグします。
 

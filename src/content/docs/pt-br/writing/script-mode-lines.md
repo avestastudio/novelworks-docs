@@ -21,7 +21,7 @@ Uma linha `Name : text` é uma fala daquele personagem. Os espaços em volta dos
 Mia (happy) : Hello!
 ```
 
-Mia fala com a expressão "happy". Se ela já está em cena, troca de expressão e continua onde está. Se não está em cena, aparece no centro.
+Mia fala com a expressão “happy”. Se ela já está em cena, troca de expressão e continua onde está. Se não está em cena, aparece no centro.
 
 ### Texto em várias linhas
 
@@ -100,7 +100,7 @@ end : Good ending
   You understood everything.
 ```
 
-Um final, com o nome depois dos dois-pontos. As linhas recuadas embaixo dele são um texto curto opcional. `ending :` também funciona. Um personagem que por acaso se chame "End" vence a palavra-chave, a menos que você escreva o comando entre colchetes.
+Um final, com o nome depois dos dois-pontos. As linhas recuadas embaixo dele são um texto curto opcional. `ending :` também funciona. Um personagem que por acaso se chame “End” vence a palavra-chave, a menos que você escreva o comando entre colchetes.
 
 ## Momentos de exploração
 
@@ -120,7 +120,7 @@ No texto do jogo inteiro, uma linha que começa com `#` inicia uma cena com aque
 
 ## Colchetes
 
-Uma linha de comando pode vir entre colchetes: `[background : Station]` é o mesmo que `background : Station`. Colchetes sempre significam "isto é um comando". Você só precisa deles quando um personagem tem o mesmo nome de um comando: se você tem um personagem chamado Background, escreva `[background : Station]` para o comando e `Background : Hi!` para o personagem.
+Uma linha de comando pode vir entre colchetes: `[background : Station]` é o mesmo que `background : Station`. Colchetes sempre significam “isto é um comando”. Você só precisa deles quando um personagem tem o mesmo nome de um comando: se você tem um personagem chamado Background, escreva `[background : Station]` para o comando e `Background : Hi!` para o personagem.
 
 ## Referência rápida
 

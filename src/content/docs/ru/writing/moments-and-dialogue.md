@@ -24,9 +24,9 @@ description: Пишите реплики, добавляйте моменты, �
 
 ## Добавить моменты
 
-На таймлайне кнопки над карточками добавляют момент каждого вида **после выбранного**: {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} и, когда эти функции включены, {ui.moments.item} и {ui.moments.showMap}. Кнопка **+** в конце ленты добавляет реплику. В пустой сцене то же делает **{ui.timeline.writeTheFirstLine}**.
+На таймлайне кнопки над карточками добавляют момент каждого вида **после выбранного**: {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} и, когда эти функции включены, {ui.moments.item} и {ui.moments.showMap}. Кнопка **+** в конце таймлайна добавляет реплику. В пустой сцене то же делает **{ui.timeline.writeTheFirstLine}**.
 
-Новый момент ничего не меняет на экране: он показывает то же, что показывал предыдущий момент (см. [Сцена](/novelworks-docs/ru/concepts/stage/)).
+Новый момент ничего не меняет на экране: он показывает то же, что показывал предыдущий момент (см. [Персонажи остаются на сцене](/novelworks-docs/ru/concepts/stage/)).
 
 ## Переставить моменты
 

@@ -5,7 +5,7 @@ description: Como o NovelWorks salva seu trabalho, guarda versões anteriores e 
 
 ## Salvar
 
-- Clique em **{ui.topBar.save}**, escolha **{ui.native.menu.file} → {ui.native.menu.save}** ou aperte **Cmd+S** (Mac) / **Ctrl+S** (Windows). Uma mensagem "{tx.store.projectSaved}" confirma.
+- Clique em **{ui.topBar.save}**, escolha **{ui.native.menu.file} → {ui.native.menu.save}** ou aperte **Cmd+S** (Mac) / **Ctrl+S** (Windows). Uma mensagem “{tx.store.projectSaved}” confirma.
 - O NovelWorks também **salva automaticamente**: a cada 2 minutos e sempre que a janela perde o foco, mas só se houver alterações não salvas. A barra superior então mostra **{ui.topBar.savedAuto}**.
 - O indicador de salvamento mostra **{ui.topBar.unsavedChanges}** até o próximo salvamento.
 - Se você fechar a janela ou o projeto com alterações não salvas, o NovelWorks pergunta se deve salvar, não salvar ou cancelar.

@@ -29,7 +29,7 @@ description: 一步一步的教程，从空项目到一个可以试玩的游戏�
 1. 打开{ui.leftPanel.scenes}标签页，选中你的场景。
 2. 用游戏画面上方的背景按钮（“{ui.stage.chooseTheBackgroundOfThisMoment}”）选择这个片段的背景。
 3. 用按钮{ui.stageControls.putACharacterOnStage}把你的角色放到台上，然后把角色拖到你想要的位置。
-4. 点击画面上的对话框并输入文字。按 **Enter** 开始下一句：会开始一个新片段，它有**相同的舞台**，因为[角色会留在台上](/novelworks-docs/zh-cn/concepts/stage/)。按 **Shift+Enter** 可以在同一个框里换行。
+4. 点击画面上的对话框并输入文字。按 **Enter** 开始下一句：会开始一个新片段，它有**相同的舞台**，原因见[舞台](/novelworks-docs/zh-cn/concepts/stage/)。按 **Shift+Enter** 可以在同一个框里换行。
 5. 点击画面上的角色，可以在之后的片段里更换它的表情。
 
 ## 5. 添加选择
@@ -38,7 +38,7 @@ description: 一步一步的教程，从空项目到一个可以试玩的游戏�
 2. 在检查器里，写下问题和两个选项的文字。
 3. 为每个选项，在{ui.branchInspectors.then}里选择它通向的场景。请先在场景标签页里用{ui.scenesTab.newScene}创建这些场景。
 
-你已经可以让选择产生影响了：请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
+你已经可以让选择产生影响了：请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 6. 添加结局
 
@@ -55,5 +55,5 @@ description: 一步一步的教程，从空项目到一个可以试玩的游戏�
 ## 接下来做什么？
 
 - 用[变量](/novelworks-docs/zh-cn/branching/variables/)和[条件](/novelworks-docs/zh-cn/branching/conditions/)让选择产生影响。
-- 在[游戏界面编辑器](/novelworks-docs/zh-cn/game-ui/game-ui-editor/)里改变游戏的外观。
+- 在[游戏界面](/novelworks-docs/zh-cn/game-ui/game-ui-editor/)里改变游戏的外观。
 - [导出](/novelworks-docs/zh-cn/publish/web-export/)并分享它。

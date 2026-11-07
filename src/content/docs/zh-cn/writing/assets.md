@@ -55,4 +55,4 @@ description: "导入图片，选择它们的类型，并在素材标签页里管
 
 ## 删除图片
 
-点击{ui.assetInspector.deleteImage}。NovelWorks 会先询问你。如果图片正在被使用，它会列出在哪里，并警告这些地方将没有图片。文件不会立刻被删除：保存时，它会被移到 `backups/deleted-assets`，如果你撤销或恢复备份，它就会回来。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
+点击{ui.assetInspector.deleteImage}。NovelWorks 会先询问你。如果图片正在被使用，它会列出在哪里，并警告这些地方将没有图片。文件不会立刻被删除：保存时，它会被移到 `backups/deleted-assets`，如果你撤销或恢复备份，它就会回来。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。

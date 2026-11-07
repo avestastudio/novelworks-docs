@@ -30,14 +30,14 @@ description: NovelWorks 的各种提示信息是什么意思，以及遇到时�
 
 ## 在你的游戏中保存
 
-浏览器阻止存储时玩家看到的信息，见[保存和读取](/novelworks-docs/zh-cn/player/save-and-load/)。
+浏览器阻止存储时玩家看到的信息，见[存档和读档](/novelworks-docs/zh-cn/player/save-and-load/)。
 
 ## 剧情看起来不对劲时
 
 - 标有 {ui.scenesTab.unreachable} 的场景、卡片上的三角形，或者一个写着“{tx.branchInspectors.thisMomentNeedsYourAttention}”的框：见[问题：所有警告](/novelworks-docs/zh-cn/testing/problems/)。
 - 画面上缺了一个角色：角色会一直留在舞台上，直到有什么更改了他们，并在某个片段指示时离开。见[舞台](/novelworks-docs/zh-cn/concepts/stage/)。
 - 某个选择选项没有显示：它可能带有条件。见[选择](/novelworks-docs/zh-cn/branching/choices/)。
-- 剧情跳过了一个“如果…”：某个条件检查的东西已被删除。见[“如果…”条件](/novelworks-docs/zh-cn/branching/conditions/)。
+- 剧情跳过了一个“如果…”：某个条件检查的东西已被删除。见[如果… 条件](/novelworks-docs/zh-cn/branching/conditions/)。
 
 ## 还是解决不了？
 

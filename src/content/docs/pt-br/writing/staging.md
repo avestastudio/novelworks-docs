@@ -11,14 +11,14 @@ Acima da tela do jogo, **{ui.stage.scopeLabel}** tem duas opções: **{ui.stage.
 
 ## O cenário
 
-- Clique no botão de cenário acima da tela do jogo ("{ui.stage.chooseTheBackgroundOfThisMoment}"), ou em **{ui.momentInspector.change}** no inspetor. O seletor oferece os seus cenários e CGs, e um jeito de importar uma nova imagem na hora. **{ui.momentInspector.noneBlackScreen}** deixa a tela preta.
+- Clique no botão de cenário acima da tela do jogo (“{ui.stage.chooseTheBackgroundOfThisMoment}”), ou em **{ui.momentInspector.change}** no inspetor. O seletor oferece os seus cenários e CGs, e um jeito de importar uma nova imagem na hora. **{ui.momentInspector.noneBlackScreen}** deixa a tela preta.
 - **{ui.stage.applyToTheFollowingMoments}** dá o cenário deste momento a todos os momentos seguintes da cena, depois de pedir a sua confirmação. Fica desativado no último momento.
 
 Uma cena vazia mostra **{ui.stage.chooseBackground}** na tela do jogo.
 
 ## Colocar um personagem em cena
 
-Clique em **{ui.stageControls.character}** acima da tela do jogo ("{ui.stageControls.putACharacterOnStage}"), ou em **{ui.momentInspector.add}** na seção **{ui.momentInspector.onStage}** do inspetor. A lista mostra os seus personagens; os que já estão em cena ficam desativados. Se você não tiver nenhum, **{ui.stageControls.newCharacter}** cria um.
+Clique em **{ui.stageControls.character}** acima da tela do jogo (“{ui.stageControls.putACharacterOnStage}”), ou em **{ui.momentInspector.add}** na seção **{ui.momentInspector.onStage}** do inspetor. A lista mostra os seus personagens; os que já estão em cena ficam desativados. Se você não tiver nenhum, **{ui.stageControls.newCharacter}** cria um.
 
 O personagem vai para o primeiro lugar livre entre centro, esquerda e direita, na borda inferior. Se os três lugares estiverem ocupados, o novo personagem é colocado perto do meio, um pouco ao lado dos outros, e os personagens podem se sobrepor: arraste-os para onde quiser. A barra **{ui.stage.castTitle}** acima da tela do jogo também coloca e tira personagens de cena com um clique.
 
@@ -52,7 +52,7 @@ No primeiro momento de uma cena para a qual outras cenas levam, um aviso pode of
 
 ## Enquanto você edita
 
-- A tela do jogo é sempre ajustada para caber na janela. Um selo mostra a porcentagem ("Ajustar · 65 %").
-- Um personagem sem imagem é desenhado como um contorno tracejado com "(sem imagem)", para você poder posicioná-lo mesmo assim. No jogo, esse personagem não é desenhado.
+- A tela do jogo é sempre ajustada para caber na janela. Um selo mostra a porcentagem (“Ajustar · 65 %”).
+- Um personagem sem imagem é desenhado como um contorno tracejado com “(sem imagem)”, para você poder posicioná-lo mesmo assim. No jogo, esse personagem não é desenhado.
 - A caixa de diálogo é substituída por campos editáveis enquanto você edita, e as zonas ficam ocultas.
 - Em uma janela estreita, algumas ferramentas da barra de ferramentas ficam reunidas em um menu **{ui.stage.more}**.

@@ -15,6 +15,6 @@ Los **{ui.gameUI.notices}** son mensajes cortos como «Has conseguido: Llave». 
 ## Qué dicen
 
 - «Has conseguido: Llave» y «Has perdido: Llave»;
-- para un objeto apilable que cambia en más de uno: «3 × Moneda».
+- para un objeto acumulable que cambia en más de uno: «3 × Moneda».
 
 Se muestra un solo aviso para todos los objetos que cambian a la vez. El mismo cuadro también muestra pequeños mensajes del sistema, por ejemplo «{tx.game.quickSaved}».

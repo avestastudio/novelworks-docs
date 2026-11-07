@@ -23,7 +23,7 @@ Lenta, Normal ou Rápida. Muda o intervalo do [Auto](/novelworks-docs/pt-br/play
 
 ### Fonte adaptada para dislexia
 
-Troca a fonte de **o jogo inteiro** por uma fonte feita para ser mais fácil de ler por pessoas com dislexia, **qualquer que seja a fonte que você escolheu**. Para os caracteres que ela não tem (como chinês ou japonês), são usadas as fontes do sistema.
+Troca a fonte do **jogo inteiro** por uma fonte feita para ser mais fácil de ler por pessoas com dislexia, **qualquer que seja a fonte que você escolheu**. Para os caracteres que ela não tem (como chinês ou japonês), são usadas as fontes do sistema.
 
 ### Alto contraste
 

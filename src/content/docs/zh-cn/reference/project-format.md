@@ -51,7 +51,7 @@ description: 项目文件夹里有什么，新旧项目如何处理，以及你�
 
 ## 备份
 
-见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)：每次手动保存前都会备份，自动保存最多每 15 分钟备份一次，保留最新的 20 份，再加上最近 7 天里每天最新的一份。
+见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)：每次手动保存前都会备份，自动保存最多每 15 分钟备份一次，保留最新的 20 份，再加上最近 7 天里每天最新的一份。
 
 ## 手动编辑文件
 

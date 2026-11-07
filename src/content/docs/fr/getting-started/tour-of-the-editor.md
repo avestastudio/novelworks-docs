@@ -5,7 +5,7 @@ description: Les zones de la fenêtre de NovelWorks et le rôle de chaque comman
 
 L’éditeur a une **barre du haut** et, en mode {ui.topBar.story}, trois autres zones : le **panneau de gauche**, le centre et le bas, plus l’**inspecteur** à droite.
 
-![L’éditeur NovelWorks : la liste des scènes à gauche, l’écran du jeu au milieu, la timeline et le graphique de qui est en scène en bas, et l’inspecteur à droite.](/novelworks-docs/screenshots/editor-overview.png)
+![L’éditeur NovelWorks : la liste des scènes à gauche, l’écran du jeu au milieu, la chronologie et le graphique de qui est en scène en bas, et l’inspecteur à droite.](/novelworks-docs/screenshots/editor-overview.png)
 
 ## La barre du haut
 
@@ -43,16 +43,16 @@ Vous pouvez glisser le bord entre les panneaux pour les redimensionner ; double
 
 Le jeu tel que les joueurs le verront, mis à l’échelle pour tenir. Au-dessus, vous pouvez choisir le décor du moment, ajouter des personnages, et basculer entre deux choses :
 
-- {ui.topBar.visual} et {ui.topBar.script} : afficher la scène comme l’écran du jeu avec une timeline, ou comme un texte que vous tapez comme un scénario.
+- {ui.topBar.visual} et {ui.topBar.script} : afficher la scène comme l’écran du jeu avec une chronologie, ou comme un texte que vous tapez comme un scénario.
 - {ui.stage.scopeLabel} : {ui.stage.scopeFollowing} ou {ui.stage.scopeOnlyHere}. C’est expliqué dans [Le plateau](/novelworks-docs/fr/concepts/stage/).
 
-Au-dessus de l’écran, une rangée de petits boutons montre où mène le moment sélectionné (voir [Comment une histoire bifurque](/novelworks-docs/fr/concepts/how-stories-branch/)).
+Au-dessus de l’écran, une rangée de petits boutons montre où mène le moment sélectionné (voir [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/)).
 
 Sur une fenêtre peu haute (moins de 780 pixels environ), chacune des rangées au-dessus de l’écran du jeu reste sur une seule ligne qui défile sur le côté, et le rappel des touches sous l’écran du jeu est masqué, pour laisser de la place à l’écran du jeu.
 
-## Le bas : la timeline
+## Le bas : la chronologie
 
-Les moments de la scène en cours, sous forme de cartes que vous pouvez réordonner. Des boutons ajoutent un moment de chaque type après celui qui est sélectionné, et deux icônes dupliquent ou suppriment le moment sélectionné. Sous les cartes, un graphique montre qui est en scène et une rangée montre où l’histoire bifurque. Voir [Scènes, moments et timeline](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
+Les moments de la scène en cours, sous forme de cartes que vous pouvez réordonner. Des boutons ajoutent un moment de chaque type après celui qui est sélectionné, et deux icônes dupliquent ou suppriment le moment sélectionné. Sous les cartes, un graphique montre qui est en scène et une rangée montre où l’histoire bifurque. Voir [Scènes, moments et chronologie](/novelworks-docs/fr/concepts/scenes-moments-timeline/).
 
 ## La droite : l’inspecteur
 

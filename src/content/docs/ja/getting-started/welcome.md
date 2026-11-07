@@ -33,4 +33,4 @@ NovelWorks は**ビジュアルノベル**のエディターです。ビジュ�
 - 初めての方は、[はじめてのビジュアルノベル](/novelworks-docs/ja/getting-started/first-visual-novel/)に沿って進めてください。
 - まず全体をざっと見たい方は、[エディターの紹介](/novelworks-docs/ja/getting-started/tour-of-the-editor/)を読むか、アプリ内の[ガイドツアー](/novelworks-docs/ja/getting-started/guided-tour/)をもう一度見てください。
 - まだインストールしていない方は、[インストールと認証](/novelworks-docs/ja/getting-started/install-and-activate/)と[無料体験版](/novelworks-docs/ja/getting-started/demo-edition/)をご覧ください。
-- 初心者の多くが驚くポイント：[キャラクターは舞台に残ります](/novelworks-docs/ja/concepts/stage/)。次のカットになっても、そのままです。
+- 初心者の多くが驚くポイント：[ステージ：キャラクターはその場に残る](/novelworks-docs/ja/concepts/stage/)。次のカットになっても、そのままです。

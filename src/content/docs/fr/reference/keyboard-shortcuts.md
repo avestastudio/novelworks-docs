@@ -60,7 +60,7 @@ Notes :
 - Les raccourcis de panneaux passent en mode Histoire, sauf Interface du jeu (**Cmd+5**) et Carte de l’histoire (**Cmd+6**), qui passent à ces modes.
 - Tous les raccourcis sont ignorés pendant que vous jouez, et tant qu’une fenêtre, un menu ou une fenêtre contextuelle est ouvert.
 - Dans l’espace de travail Carte, `Delete` et **Cmd+D** agissent sur le lieu sélectionné.
-- Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Enter** / **Ctrl+Enter** est « {tx.scriptMode.playFromCursor} » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
+- Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Entrée** / **Ctrl+Entrée** est « {tx.scriptMode.playFromCursor} » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
 
 ## Dans un jeu
 

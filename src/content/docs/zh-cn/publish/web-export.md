@@ -48,7 +48,7 @@ NovelWorks 会在你选择的文件夹中创建：
 - 首先是一段简短的 **NovelWorks 启动画面**：标志和“{tx.splash.tagline}”，约 3 秒，可以跳过。（编辑器把它叫作“Made with NovelWorks”画面。）
 - 页面标题就是你游戏的标题，页面语言就是你的游戏语言。页面图标是标题的第一个字母，底色是你的主色。
 - 游戏会按窗口大小缩放，保持原有比例，四周留有黑边，电脑和手机上都是如此。浏览器允许时有一个{rt.player.fullscreen}按钮，触屏上有一个{ui.gameUIInspector.menu}按钮。见[按键与触屏](/novelworks-docs/zh-cn/player/keys-and-touch/)。
-- 存档保存在玩家的浏览器里，更新游戏后仍会保留。见[存档与读档](/novelworks-docs/zh-cn/player/save-and-load/)。
+- 存档保存在玩家的浏览器里，更新游戏后仍会保留。见[存档和读档](/novelworks-docs/zh-cn/player/save-and-load/)。
 - 它需要 JavaScript。没有 JavaScript 时，页面会显示“{tx.export.javascriptRequired}”
 
 ## 如果导出失败

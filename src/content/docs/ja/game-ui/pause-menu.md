@@ -20,7 +20,7 @@ description: ゲーム中に右クリックまたは Esc で開くメニュー�
 - インベントリのボタン([インベントリ画面](/novelworks-docs/ja/game-ui/inventory-ui/)で変更していなければ「{rt.theme.inventory}」と表示されます):インベントリ機能がオンのときに表示されます。
 - 「{rt.game.history}」(H)。
 - 「{rt.game.options}」。
-- マップのボタン([マップボタン画面](/novelworks-docs/ja/game-ui/map-button/)で変更していなければ「{rt.theme.map}」と表示されます):そのときにマップを開けるとき(常に、またはストーリーで最初にマップが表示されたあと)に表示されます。
+- マップのボタン([マップボタン](/novelworks-docs/ja/game-ui/map-button/)で変更していなければ「{rt.theme.map}」と表示されます):そのときにマップを開けるとき(常に、またはストーリーで最初にマップが表示されたあと)に表示されます。
 - 「{rt.game.backToTitle}」。
 
 パネルのタイトルは「{tx.game.paused}」です。

@@ -22,4 +22,4 @@ Estos dos colores pintan **tanto el panel como el botón**:
 
 ## Qué obtienen los jugadores
 
-Los jugadores lo abren con el botón, el menú de pausa o la tecla **I**. Es un panel en medio del juego con una cuadrícula de los objetos que poseen: una imagen, el nombre y, para los objetos apilables, una cantidad como «×3». Al seleccionar un objeto se muestra su descripción (o su nombre si no tiene). Dice «Aún no hay nada aquí.» cuando está vacío. Esc, **I**, el botón × o un clic fuera lo cierran. La historia queda en pausa mientras está abierto.
+Los jugadores lo abren con el botón, el menú de pausa o la tecla **I**. Es un panel en medio del juego con una cuadrícula de los objetos que poseen: una imagen, el nombre y, para los objetos acumulables, una cantidad como «×3». Al seleccionar un objeto se muestra su descripción (o su nombre si no tiene). Dice «Aún no hay nada aquí.» cuando está vacío. Esc, **I**, el botón × o un clic fuera lo cierran. La historia queda en pausa mientras está abierto.

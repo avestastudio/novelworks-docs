@@ -15,7 +15,7 @@ description: "Кнопки управления чтением поверх ис
 
 ## Внешний вид
 
-- **{ui.gameUIInspector.buttonStyle}**: по умолчанию «Таблетка».
+- **{ui.gameUIInspector.buttonStyle}**: по умолчанию «Капсула».
 - **{ui.quickMenu.textSize}**: от 60 до 140 % от базового размера текста (по умолчанию 80).
 - **{ui.quickMenu.buttonColor}**: по умолчанию полупрозрачный тёмный фон. Ссылка возвращает значение по умолчанию.
 - **{ui.gameUIInspector.textColor}**: по умолчанию «{tx.gameUIInspector.sameAsTheTextColor}».

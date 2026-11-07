@@ -7,7 +7,7 @@ description: Respostas rápidas para as perguntas mais comuns.
 
 **Preciso saber programar?** Não. O NovelWorks foi feito para quem não programa: você monta o jogo do jeito que ele aparece e aperta Jogar.
 
-**A quem pertencem meus jogos?** A você: "Seus jogos são seus, sem royalties", diz a janela Sobre. As fontes gratuitas incluídas nos seus jogos mantêm suas próprias licenças abertas.
+**A quem pertencem meus jogos?** A você: “Seus jogos são seus, sem royalties”, diz a janela Sobre. As fontes gratuitas incluídas nos seus jogos mantêm suas próprias licenças abertas.
 
 **Em quais idiomas o editor funciona?** Inglês, francês, espanhol, português do Brasil, chinês simplificado, russo e japonês. Mude em **{ui.menu.view} → Idioma**. Sua história continua no idioma em que você a escreve.
 
@@ -15,7 +15,7 @@ description: Respostas rápidas para as perguntas mais comuns.
 
 ## Seu trabalho
 
-**Onde está meu projeto?** Na pasta que você escolheu ao criá-lo. As configurações do projeto mostram o local em "{tx.projectSettings.savedIn}". Para copiar um projeto, copie a pasta inteira.
+**Onde está meu projeto?** Na pasta que você escolheu ao criá-lo. As configurações do projeto mostram o local em “{tx.projectSettings.savedIn}”. Para copiar um projeto, copie a pasta inteira.
 
 **Perdi uma alteração.** Tente **{ui.topBar.undo}** (até 200 passos) e depois **{ui.native.menu.file} → Restaurar do backup…**. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).
 
@@ -25,7 +25,7 @@ description: Respostas rápidas para as perguntas mais comuns.
 
 ## Escrita
 
-**Por que um personagem ainda está na tela no momento seguinte?** Os personagens ficam em cena até você mudá-los. Veja [Em cena](/novelworks-docs/pt-br/concepts/stage/).
+**Por que um personagem ainda está na tela no momento seguinte?** Os personagens ficam em cena até você mudá-los. Veja [O palco: os personagens ficam em cena](/novelworks-docs/pt-br/concepts/stage/).
 
 **Como faço uma escolha importar?** Faça o jogo lembrar de algo em uma opção e depois use um Se… ou uma condição em uma opção. Veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/).
 
@@ -35,11 +35,11 @@ description: Respostas rápidas para as perguntas mais comuns.
 
 ## Testar e publicar
 
-**Como testo a partir do meio?** Selecione um momento e use **{ui.leftPanel.playFromHere}**. Veja [Jogar, Jogar daqui, Testar o mapa](/novelworks-docs/pt-br/testing/play/).
+**Como testo a partir do meio?** Selecione um momento e use **{ui.leftPanel.playFromHere}**. Veja [Jogar, Jogar daqui, Testar mapa](/novelworks-docs/pt-br/testing/play/).
 
 **O que significam os avisos?** Veja [Problemas: todos os avisos](/novelworks-docs/pt-br/testing/problems/). Um aviso nunca impede você de jogar ou exportar.
 
-**Os jogadores precisam instalar alguma coisa?** Não. Uma exportação para a web roda em qualquer navegador, em computadores e celulares. Veja [Exportação para a web](/novelworks-docs/pt-br/publish/web-export/).
+**Os jogadores precisam instalar alguma coisa?** Não. Uma exportação para a web roda em qualquer navegador, em computadores e celulares. Veja [Exportação para web](/novelworks-docs/pt-br/publish/web-export/).
 
 **Para onde vão os saves dos jogadores?** Para o navegador deles, para o seu jogo. Eles são mantidos quando você atualiza o jogo. Veja [Salvar e carregar](/novelworks-docs/pt-br/player/save-and-load/).
 

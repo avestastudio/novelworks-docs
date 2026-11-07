@@ -24,7 +24,7 @@ description: 介绍编辑器的 14 步教程，以及如何重新播放。
 7. {ui.tutorial.persist.title}：角色会一直留在原位，直到你改变它们。请看[舞台](/novelworks-docs/zh-cn/concepts/stage/)。
 8. {ui.tutorial.timeline.title}：一个场景是一连串的片段。请看[场景、片段与时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 9. {ui.tutorial.inspector.title}：关于所选内容的一切。
-10. {ui.tutorial.choices.title}：添加选择，让游戏记住某件事，并用“{tx.leftPanel.condition}”把故事带向别处。请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
+10. {ui.tutorial.choices.title}：添加选择，让游戏记住某件事，并用“{tx.leftPanel.condition}”把故事带向别处。请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 11. {ui.tutorial.endings.title}：在剧情地图里，查看每个结局以及通向它的路径。
 12. {ui.tutorial.play.title}：{ui.topBar.play}和{ui.topBar.playFromHere}。
 13. {ui.tutorial.script.title}：把整个场景写成文字。两种视图编辑的是同一个故事。

@@ -17,7 +17,7 @@ description: Des réponses rapides aux questions les plus fréquentes.
 
 **Où est mon projet ?** Dans le dossier que vous avez choisi en le créant. Les réglages du projet l’indiquent sous « {tx.projectSettings.savedIn} ». Pour copier un projet, copiez tout le dossier.
 
-**J’ai perdu une modification.** Essayez **{ui.topBar.undo}** (jusqu’à 200 étapes), puis **{ui.native.menu.file} → Restaurer depuis une sauvegarde de secours…**. Voir [Enregistrement, sauvegardes et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/).
+**J’ai perdu une modification.** Essayez **{ui.topBar.undo}** (jusqu’à 200 étapes), puis **{ui.native.menu.file} → Restaurer depuis une sauvegarde de secours…**. Voir [Enregistrement, sauvegardes de secours et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/).
 
 **J’ai supprimé une image, une scène ou une variable par erreur.** Appuyez sur **{ui.topBar.undo}**. Une image supprimée est conservée dans `backups/deleted-assets` et revient avec Annuler. Une scène ou une variable supprimée peut être annulée, et en attendant, les endroits qui l’utilisaient affichent des avertissements.
 
@@ -25,7 +25,7 @@ description: Des réponses rapides aux questions les plus fréquentes.
 
 ## Écrire
 
-**Pourquoi un personnage est-il encore à l’écran au moment suivant ?** Les personnages restent en scène tant que vous ne les changez pas. Voir [La scène](/novelworks-docs/fr/concepts/stage/).
+**Pourquoi un personnage est-il encore à l’écran au moment suivant ?** Les personnages restent sur le plateau tant que vous ne les changez pas. Voir [Le plateau](/novelworks-docs/fr/concepts/stage/).
 
 **Comment faire pour qu’un choix compte ?** Faites retenir quelque chose au jeu dans une option, puis utilisez un Si… ou une condition sur une option. Voir [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/).
 
@@ -35,16 +35,16 @@ description: Des réponses rapides aux questions les plus fréquentes.
 
 ## Tester et publier
 
-**Comment tester à partir du milieu ?** Sélectionnez un moment et utilisez **{ui.leftPanel.playFromHere}**. Voir [Jouer, Jouer à partir d’ici, tester la carte](/novelworks-docs/fr/testing/play/).
+**Comment tester à partir du milieu ?** Sélectionnez un moment et utilisez **{ui.leftPanel.playFromHere}**. Voir [Jouer, Jouer à partir d’ici, Tester la carte](/novelworks-docs/fr/testing/play/).
 
-**Que signifient les avertissements ?** Voir [Problèmes : chaque avertissement](/novelworks-docs/fr/testing/problems/). Un avertissement ne vous empêche jamais de jouer ni d’exporter.
+**Que signifient les avertissements ?** Voir [Problèmes : tous les avertissements](/novelworks-docs/fr/testing/problems/). Un avertissement ne vous empêche jamais de jouer ni d’exporter.
 
 **Les joueurs doivent-ils installer quelque chose ?** Non. Un export web se joue dans n’importe quel navigateur, sur ordinateur et sur téléphone. Voir [Export web](/novelworks-docs/fr/publish/web-export/).
 
-**Où vont les sauvegardes des joueurs ?** Dans leur navigateur, pour votre jeu. Elles sont conservées quand vous mettez le jeu à jour. Voir [Enregistrer et charger](/novelworks-docs/fr/player/save-and-load/).
+**Où vont les sauvegardes des joueurs ?** Dans leur navigateur, pour votre jeu. Elles sont conservées quand vous mettez le jeu à jour. Voir [Sauvegarder et charger](/novelworks-docs/fr/player/save-and-load/).
 
 ## Problèmes
 
-**L’export est verrouillé.** Dans la version complète, activez NovelWorks : **{ui.native.role.help} → Activer NovelWorks…**. Voir [Dépannage](/novelworks-docs/fr/reference/troubleshooting/).
+**L’export est verrouillé.** Dans la version complète, activez NovelWorks : **{ui.native.role.help} → Activer NovelWorks…**. Voir [Dépannage et messages](/novelworks-docs/fr/reference/troubleshooting/).
 
 **Autre chose ne va pas.** Voir [Dépannage et messages](/novelworks-docs/fr/reference/troubleshooting/), ou [signalez un bug](/novelworks-docs/fr/reference/report-a-bug/).

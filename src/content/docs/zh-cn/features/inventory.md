@@ -25,7 +25,7 @@ description: "玩家携带的物品：创建它们、给予和拿走、在条件
 
 ## 给予和拿走物品
 
-- **物品片段**：它给予或拿走物品，玩家看不到这个片段本身。选择{ui.branchInspectors.give}或{ui.branchInspectors.remove}、物品，以及可叠加物品的数量。一个复选框决定是否显示提示（“你获得了：……”）。参见[场景、片段和时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
+- **物品片段**：它给予或拿走物品，玩家看不到这个片段本身。选择{ui.branchInspectors.give}或{ui.branchInspectors.remove}、物品，以及可叠加物品的数量。一个复选框决定是否显示提示（“你获得了：……”）。参见[场景、片段与时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 - 选择的选项：{ui.branchInspectors.giveRemoveAnItem}会给选项添加一项更改。提示总是会显示。参见[选择](/novelworks-docs/zh-cn/branching/choices/)。
 - 探索区域：{ui.explorationInspectors.pickUpAnItem}（该区域及其道具会永久消失）或{ui.shared.exploration.useAnItem}。参见[探索](/novelworks-docs/zh-cn/features/exploration/)。
 
@@ -41,7 +41,7 @@ description: "玩家携带的物品：创建它们、给予和拿走、在条件
 
 - 屏幕角落的一个按钮（默认在右上角，可在[物品栏画面](/novelworks-docs/zh-cn/game-ui/inventory-ui/)中设置）、暂停菜单中的一个菜单项，以及 **I** 键。
 - 一个面板，用网格显示他们拥有的物品，可叠加物品会显示数量。点击某个物品会显示它的说明。没有“使用”按钮：使用物品是由区域来检查的。
-- {ui.gameUI.notices}，例如“你获得了：钥匙”和“你失去了：钥匙”（参见[通知](/novelworks-docs/zh-cn/game-ui/notifications/)）。
+- {ui.gameUI.notices}，例如“你获得了：钥匙”和“你失去了：钥匙”（参见[提示（通知）](/novelworks-docs/zh-cn/game-ui/notifications/)）。
 - 物品会保存在玩家的存档中。加载旧存档时，已不存在的物品会被丢弃。
 
 ## 测试

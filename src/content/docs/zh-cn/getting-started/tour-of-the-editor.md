@@ -46,7 +46,7 @@ description: NovelWorks 窗口的各个区域，以及每个控件的作用。
 - {ui.topBar.visual}和{ui.topBar.script}：把场景显示为带时间线的游戏画面，或者显示为可以像剧本那样输入的文字。
 - {ui.stage.scopeLabel}：{ui.stage.scopeFollowing}或{ui.stage.scopeOnlyHere}。详见[舞台](/novelworks-docs/zh-cn/concepts/stage/)。
 
-画面上方有一排小按钮，显示所选片段通向哪里（请看[故事如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。
+画面上方有一排小按钮，显示所选片段通向哪里（请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)）。
 
 在较矮的窗口里（高度不到约 780 像素），游戏画面上方的每一行都保持在一行内并可横向滚动，游戏画面下方的按键提示也会隐藏，给游戏画面腾出空间。
 

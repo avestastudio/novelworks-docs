@@ -10,10 +10,10 @@ Vous pouvez jouer à votre jeu à tout moment, dans l’éditeur. Il joue **ce q
 | Comment | Où ça démarre |
 |---|---|
 | **{ui.topBar.play}** (barre du haut, **Cmd+P** / **Ctrl+P**) | L’écran-titre. |
-| **{ui.topBar.playFromHere}** (barre du haut, **Cmd+Shift+P** / **Ctrl+Shift+P**) | Le moment sélectionné, sans l’écran-titre. Désactivé tant qu’aucun moment n’est sélectionné. |
+| **{ui.topBar.playFromHere}** (barre du haut, **Cmd+Maj+P** / **Ctrl+Maj+P**) | Le moment sélectionné, sans l’écran-titre. Désactivé tant qu’aucun moment n’est sélectionné. |
 | **{ui.contextMenus.playFromHere}** dans le menu du clic droit d’un moment ou d’une scène | Ce moment, ou le premier moment de cette scène. |
-| **{ui.scriptMode.playFromCursor}** dans le [mode Script](/novelworks-docs/fr/writing/script-mode/) (**Cmd+Enter** / **Ctrl+Enter**) | La ligne sous le curseur. |
-| **{ui.topBar.testMap}** dans l’espace de travail Carte (et dans les réglages de la carte) | La carte. Dans l’espace de travail Carte, le bouton **{ui.topBar.playFromHere}** et **Cmd+Shift+P** / **Ctrl+Shift+P** deviennent « Tester la carte ». Voir [Carte](/novelworks-docs/fr/features/map/). |
+| **{ui.scriptMode.playFromCursor}** dans le [mode Script](/novelworks-docs/fr/writing/script-mode/) (**Cmd+Entrée** / **Ctrl+Entrée**) | La ligne sous le curseur. |
+| **{ui.topBar.testMap}** dans l’espace de travail Carte (et dans les réglages de la carte) | La carte. Dans l’espace de travail Carte, le bouton **{ui.topBar.playFromHere}** et **Cmd+Maj+P** / **Ctrl+Maj+P** deviennent « Tester la carte ». Voir [Carte](/novelworks-docs/fr/features/map/). |
 
 Chaque partie démarre avec les valeurs de départ de vos variables et de vos objets : rien n’est conservé d’un test précédent.
 

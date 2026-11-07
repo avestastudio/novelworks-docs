@@ -26,11 +26,11 @@ NovelWorks 是一款**视觉小说**编辑器：视觉小说就是用背景、�
 
 ## 语言
 
-编辑器本身支持七种语言：英语、法语、西班牙语、巴西葡萄牙语、简体中文、俄语和日语。第一次打开时，编辑器会请你选择一种语言，之后可以随时更改。你的故事仍然使用你写作时的语言。游戏自带的按钮和菜单（保存、读取……）另有设置，那就是项目的游戏语言。
+编辑器本身支持七种语言：英语、法语、西班牙语、巴西葡萄牙语、简体中文、俄语和日语。第一次打开时，编辑器会请你选择一种语言，之后可以随时更改。你的故事仍然使用你写作时的语言。游戏自带的按钮和菜单（存档、读档……）另有设置，那就是项目的游戏语言。
 
 ## 从哪里开始
 
 - 刚接触？请跟着[你的第一部视觉小说](/novelworks-docs/zh-cn/getting-started/first-visual-novel/)做一遍。
 - 想先大致看一圈？请阅读[编辑器导览](/novelworks-docs/zh-cn/getting-started/tour-of-the-editor/)，或重新播放应用内的[引导教程](/novelworks-docs/zh-cn/getting-started/guided-tour/)。
-- 还没安装？请看[安装与激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)和[免费试玩版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。
-- 最让初学者意外的一点：[角色会留在台上](/novelworks-docs/zh-cn/concepts/stage/)，从一个片段延续到下一个片段。
+- 还没安装？请看[安装与激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)和[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。
+- 最让初学者意外的一点：[舞台](/novelworks-docs/zh-cn/concepts/stage/)里的内容会从一个片段延续到下一个片段。

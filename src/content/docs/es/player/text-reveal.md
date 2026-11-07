@@ -15,9 +15,9 @@ El texto aparece letra a letra, como una máquina de escribir. La velocidad la e
 
 Un cambio se aplica al instante, incluso en medio de una línea.
 
-## Clic, Espacio o Enter
+## Clic, Espacio o Intro
 
-- **Mientras el texto aparece**, el primer clic, **Espacio**, **Enter** o una tecla de elección **termina la línea** y no hace nada más.
+- **Mientras el texto aparece**, el primer clic, **Espacio**, **Intro** o una tecla de elección **termina la línea** y no hace nada más.
 - **Cuando ya está completa**, el siguiente clic pasa a la línea siguiente.
 
 Los botones de una elección aparecen cuando la pregunta ya ha aparecido entera, así que la primera pulsación de **1** a **6** solo termina el texto.
@@ -25,7 +25,7 @@ Los botones de una elección aparecen cuando la pregunta ya ha aparecido entera,
 ## Siempre instantáneo
 
 - la velocidad «{tx.optionsScreen.speedInstant}»;
-- el modo Skip;
+- el modo Saltar;
 - una línea después de cargar una partida;
 - cuando el jugador no ha elegido una velocidad y su sistema pide **reducir el movimiento**. Si elige una velocidad él mismo, se usa esa.
 

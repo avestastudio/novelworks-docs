@@ -3,7 +3,7 @@ title: Variables
 description: Créez et gérez les Scores et les Faits dont se souvient votre jeu, et voyez où chacun est utilisé.
 ---
 
-Une **variable** est quelque chose dont le jeu se souvient. Il y en a de deux sortes, expliquées dans [La mémoire du jeu](/novelworks-docs/fr/concepts/game-memory/) : un **{ui.variables.number}** (un nombre qui monte ou descend, comme l’affection de Mia ou l’argent) et un **{ui.variables.yesNo}** (quelque chose s’est-il passé : oui ou non, comme « {tx.memory.factExample} » ou « A la clé »).
+Une **variable** est quelque chose dont le jeu se souvient. Il y en a de deux sortes, expliquées dans [La mémoire du jeu](/novelworks-docs/fr/concepts/game-memory/) : un **{ui.variables.number}** (un nombre qui monte ou descend, comme l’affection de Mia ou l’argent) et un **{ui.variables.yesNo}** (quelque chose s’est-il passé : oui ou non, comme « {tx.memory.factExample} » ou « Possède la clé »).
 
 Les choses que le joueur porte (clés, pièces…) ne sont pas des variables. Ce sont des **objets**, qui font partie de la fonctionnalité [Inventaire](/novelworks-docs/fr/features/inventory/).
 
@@ -20,7 +20,7 @@ Vous pouvez aussi créer une variable au moment où vous en avez besoin, avec **
 - **{ui.variableInspector.name}** : par exemple « {tx.variablesTab.miaAffection} ». Renommer est sans risque : tout ce qui utilise la variable suit le nouveau nom.
 - **{ui.variableInspector.type}** : Score ou Fait.
 - **{ui.variableInspector.startsAt}** : la valeur avec laquelle commence chaque nouvelle partie.
-- Pour un Score, une phrase sur ce que vos choix peuvent totaliser. Voir [Où vos choix peuvent mener](/novelworks-docs/fr/branching/reach/).
+- Pour un Score, une phrase sur ce que vos choix peuvent totaliser. Voir [Où vos choix peuvent mener (jusqu’à +5)](/novelworks-docs/fr/branching/reach/).
 - **{ui.memory.changedBy}** et **{ui.memory.checkedBy}** : les listes en dessous.
 
 ### Où une variable est utilisée
@@ -29,7 +29,7 @@ Les deux listes montrent où la variable est utilisée, avec la scène et le num
 
 ## Changer le type
 
-Si la variable est déjà utilisée, NovelWorks vous demande de confirmer, et liste où. Les valeurs à ces endroits sont remises à zéro pour correspondre au nouveau type :
+Si la variable est déjà utilisée, NovelWorks vous demande de confirmer, et liste où. Les valeurs à ces endroits sont réinitialisées pour correspondre au nouveau type :
 
 - la valeur de départ devient 0 pour un Score, ou Non pour un Fait ;
 - chaque changement et chaque test sur cette variable est réinitialisé : à 0 pour un Score, à Oui pour un Fait ;

@@ -28,11 +28,11 @@ Los jugadores hacen clic en una opción o pulsan su número, del 1 al 6. Una ele
 
 Un momento **{ui.moments.condition}** tiene uno o más **casos**, que se comprueban **de arriba abajo**. Gana el primer caso que se cumple.
 
-![Un Si… comprueba el caso 1, luego el caso 2 y después va a «en otro caso».](/novelworks-docs/diagrams/if-order.svg)
+![Un Si… comprueba el caso 1, luego el caso 2 y después va a «si no».](/novelworks-docs/diagrams/if-order.svg)
 
 - Cada caso tiene una o más condiciones. Elige si se cumple **{ui.conditionCases.matchAll}** o **{ui.conditionCases.matchAny}**, y haz clic en **{ui.conditionCases.addTest}** para añadir más.
 - Cada caso tiene una escena a la que ir. Usa **{ui.conditionCases.addCase}** para otro caso, y las flechas para cambiar el orden.
-- *En otro caso* es adónde va la historia cuando no se cumple ningún caso. Si no eliges ninguna escena, la historia continúa con el siguiente momento.
+- *Si no* es adónde va la historia cuando no se cumple ningún caso. Si no eliges ninguna escena, la historia continúa con el siguiente momento.
 
 ## Saltos y finales
 

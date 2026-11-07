@@ -27,7 +27,7 @@ description: 玩家选择文字大小、速度、字体和对比度的画面，�
 
 如果玩家没有选择文字速度，而他们的系统要求减少动态效果，文字会立即显示。
 
-关于每个选项的更多内容，以及玩家如何进入这个画面，请见[选项和无障碍](/novelworks-docs/zh-cn/player/options-and-accessibility/)。
+关于每个选项的更多内容，以及玩家如何进入这个画面，请见[选项与无障碍](/novelworks-docs/zh-cn/player/options-and-accessibility/)。
 
 ## 玩家在哪里找到它
 

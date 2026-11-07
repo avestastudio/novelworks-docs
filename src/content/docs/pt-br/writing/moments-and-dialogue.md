@@ -34,7 +34,7 @@ Arraste um cartão para a esquerda ou para a direita. As setas **←** e **→**
 
 ## O que um cartão mostra
 
-Um cartão mostra o nome do falante na cor dele (ou "Narrador", ou o tipo do momento com uma faixa colorida), o começo do texto e o número dele no canto. Ele também pode mostrar:
+Um cartão mostra o nome do falante na cor dele (ou “Narrador”, ou o tipo do momento com uma faixa colorida), o começo do texto e o número dele no canto. Ele também pode mostrar:
 
 - um ícone de nota adesiva, se o momento tiver uma [nota](/novelworks-docs/pt-br/writing/notes/);
 - um triângulo de aviso: aponte para ele para ler o que precisa de atenção, por exemplo uma escolha sem opções, um link para uma cena excluída, ou um momento que os jogadores nunca podem ver porque um final ou um salto vem antes dele;

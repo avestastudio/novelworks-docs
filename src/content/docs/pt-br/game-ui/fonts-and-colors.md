@@ -18,7 +18,7 @@ description: A fonte, a cor do texto, a cor principal e o estilo de botão que t
 
   Os arquivos das fontes e os textos das licenças vão em todo jogo exportado.
 
-- **{ui.gameUIInspector.textColor}**: a cor do texto do jogo inteiro. O padrão é branco. As telas que dizem "{tx.gameUIInspector.sameAsTheTextColor}" acompanham essa cor.
+- **{ui.gameUIInspector.textColor}**: a cor do texto do jogo inteiro. O padrão é branco. As telas que dizem “{tx.gameUIInspector.sameAsTheTextColor}” acompanham essa cor.
 
 ### Idiomas e fontes
 
@@ -30,8 +30,8 @@ Os jogadores que ativam a fonte adaptada para dislexia nas opções do jogador r
 
 ## Cores e botões
 
-- **{ui.gameUIInspector.primaryColor}**: "Botões, destaques e a seta de 'continuar'." Ela também dá à tela de título o seu brilho. O padrão é um rosa.
-- **{ui.gameUIInspector.buttonStyle}**: **{ui.gameUIInspector.pill}** (totalmente arredondado, o padrão), **{ui.gameUIInspector.rounded}** (cantos suaves), **{ui.gameUIInspector.square}** (cantos retos) ou **{ui.gameUIInspector.text}** (sem caixa, só as palavras). Ele é "usado por todos os menus e escolhas, a menos que uma tela escolha o seu próprio".
+- **{ui.gameUIInspector.primaryColor}**: “Botões, destaques e a seta de 'continuar'.” Ela também dá à tela de título o seu brilho. O padrão é um rosa.
+- **{ui.gameUIInspector.buttonStyle}**: **{ui.gameUIInspector.pill}** (totalmente arredondado, o padrão), **{ui.gameUIInspector.rounded}** (cantos suaves), **{ui.gameUIInspector.square}** (cantos retos) ou **{ui.gameUIInspector.text}** (sem caixa, só as palavras). Ele é “usado por todos os menus e escolhas, a menos que uma tela escolha o seu próprio”.
 
 Não existe uma cor de fundo global: os fundos são definidos em cada tela.
 

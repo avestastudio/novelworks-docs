@@ -9,9 +9,9 @@ Un **momento** es un paso de una escena: una línea de diálogo, una elección, 
 
 Haz clic en el cuadro de diálogo de la pantalla del juego y escribe. El texto se escribe directamente en el cuadro, y también puedes usar **{ui.momentInspector.text}** en el inspector.
 
-- **Enter** empieza la **línea siguiente**: un nuevo momento de diálogo después de este, con lo mismo en escena y el mismo personaje que habla, listo para escribir.
-- **Shift+Enter** añade una línea nueva **dentro del mismo cuadro**.
-- Un texto largo que no cabe en el cuadro muestra una advertencia: pulsa **Enter** para continuar en un momento nuevo.
+- **Intro** empieza la **línea siguiente**: un nuevo momento de diálogo después de este, con lo mismo en escena y el mismo personaje que habla, listo para escribir.
+- **Mayús+Intro** añade una línea nueva **dentro del mismo cuadro**.
+- Un texto largo que no cabe en el cuadro muestra una advertencia: pulsa **Intro** para continuar en un momento nuevo.
 
 ## Quién habla
 
@@ -26,11 +26,11 @@ Una línea nueva conserva el personaje de la línea anterior. Si borras un perso
 
 En la línea de tiempo, los botones sobre las tarjetas añaden un momento de cada tipo **después del seleccionado**: {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} y, cuando esas funciones están activadas, {ui.moments.item} y {ui.moments.showMap}. El **+** al final de la tira añade una línea de diálogo. En una escena vacía, **{ui.timeline.writeTheFirstLine}** hace lo mismo.
 
-Un momento nuevo no cambia nada en pantalla: muestra lo que mostraba el momento anterior (consulta [El escenario](/novelworks-docs/es/concepts/stage/)).
+Un momento nuevo no cambia nada en pantalla: muestra lo que mostraba el momento anterior (consulta [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/)).
 
 ## Reordenar momentos
 
-Arrastra una tarjeta a la izquierda o a la derecha. Las flechas **←** y **→** mueven la selección al momento anterior y al siguiente, **Home** y **End** al primero y al último, y **Cmd+[** / **Cmd+]** (**Ctrl+[** / **Ctrl+]**) hacen lo mismo mientras escribes.
+Arrastra una tarjeta a la izquierda o a la derecha. Las flechas **←** y **→** mueven la selección al momento anterior y al siguiente, **Inicio** y **Fin** al primero y al último, y **Cmd+[** / **Cmd+]** (**Ctrl+[** / **Ctrl+]**) hacen lo mismo mientras escribes.
 
 ## Qué muestra una tarjeta
 
@@ -47,11 +47,11 @@ Haz clic derecho en una tarjeta:
 | Entrada | Qué hace |
 |---|---|
 | {ui.contextMenus.insertBefore} | Añade un momento de diálogo antes de este. Toma el personaje que habla del momento delante del cual se coloca, y muestra la pantalla del momento anterior. |
-| {ui.contextMenus.insertAfter} | Añade uno después (**Cmd+Enter** / **Ctrl+Enter**). |
+| {ui.contextMenus.insertAfter} | Añade uno después (**Cmd+Intro** / **Ctrl+Intro**). |
 | {ui.contextMenus.duplicate} | Copia el momento justo después de sí mismo, mostrando la misma pantalla (**Cmd+D** / **Ctrl+D**). |
 | {ui.contextMenus.changeType} | Convierte el momento en otro tipo. Se conserva el texto de un diálogo, una elección o un final; si algunos ajustes no se pueden conservar, NovelWorks pregunta y puedes deshacer. |
 | {ui.contextMenus.addNote} / {ui.contextMenus.editNote} | Abre la nota del momento. |
-| {ui.contextMenus.playFromHere} | Juega desde este momento (**Cmd+Shift+P** / **Ctrl+Shift+P**). |
+| {ui.contextMenus.playFromHere} | Juega desde este momento (**Cmd+Mayús+P** / **Ctrl+Mayús+P**). |
 | {ui.contextMenus.delete} | Borra el momento. |
 
 ## Borrar un momento

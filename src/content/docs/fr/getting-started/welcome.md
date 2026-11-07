@@ -19,14 +19,14 @@ Quand un projet est ouvert, la fenêtre a quatre zones. La [visite de l’édite
 
 - **À gauche** : vos scènes, vos images, vos personnages et vos variables.
 - **Au centre** : l’écran du jeu, exactement comme les joueurs le verront.
-- **En bas** : la timeline, c’est-à-dire les moments de la scène en cours.
+- **En bas** : la chronologie, c’est-à-dire les moments de la scène en cours.
 - **À droite** : les détails de ce que vous avez sélectionné.
 
 La barre du haut permet de passer d’une façon de travailler à une autre, parmi trois : {ui.topBar.story} (écrire), {ui.topBar.storyMap} (voir comment les scènes s’enchaînent) et {ui.topBar.gameUI} (changer l’apparence du jeu).
 
 ## Langues
 
-L’éditeur lui-même parle sept langues : anglais, français, espagnol, portugais brésilien, chinois simplifié, russe et japonais. L’éditeur vous demande d’en choisir une la première fois que vous l’ouvrez, et vous pourrez la changer plus tard. Votre histoire reste dans la langue où vous l’écrivez. Les boutons et les menus du jeu lui-même (Enregistrer, Charger…) ont un réglage à part : la langue du jeu de votre projet.
+L’éditeur lui-même parle sept langues : anglais, français, espagnol, portugais brésilien, chinois simplifié, russe et japonais. L’éditeur vous demande d’en choisir une la première fois que vous l’ouvrez, et vous pourrez la changer plus tard. Votre histoire reste dans la langue où vous l’écrivez. Les boutons et les menus du jeu lui-même (Sauvegarder, Charger…) ont un réglage à part : la langue du jeu de votre projet.
 
 ## Par où commencer
 

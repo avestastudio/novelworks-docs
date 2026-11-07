@@ -11,7 +11,7 @@ Haz clic en **{ui.scenesTab.newScene}**. La escena se llama «Escena N», donde 
 
 ## Renombrar una escena
 
-Haz doble clic en la escena de la lista, escribe el nombre y pulsa **Enter**. **Esc** cancela, y si el nombre queda vacío se conserva el anterior. También puedes usar **{ui.sceneInspector.name}** en el inspector, o hacer clic derecho en la escena y elegir **{ui.contextMenus.rename}**. Una escena sin nombre aparece como «Escena sin título».
+Haz doble clic en la escena de la lista, escribe el nombre y pulsa **Intro**. **Esc** cancela, y si el nombre queda vacío se conserva el anterior. También puedes usar **{ui.sceneInspector.name}** en el inspector, o hacer clic derecho en la escena y elegir **{ui.contextMenus.rename}**. Una escena sin nombre aparece como «Escena sin título».
 
 ## Reordenar escenas
 

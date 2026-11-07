@@ -14,9 +14,9 @@ En el editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (
 |---|---|---|
 | {ui.shortcuts.save} | ⌘S | Ctrl+S |
 | {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
-| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y o Ctrl+Mayús+Z |
 | {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
-| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
+| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Mayús+P |
 | {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
 | {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
 | {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
@@ -25,7 +25,7 @@ En el editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (
 
 | Acción | Mac | Windows |
 |---|---|---|
-| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Enter | Ctrl+Enter |
+| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Intro | Ctrl+Intro |
 | {ui.shortcuts.duplicateMomentOrTheSelectedZone} | ⌘D | Ctrl+D |
 | {ui.shortcuts.copySelected} | ⌘C | Ctrl+C |
 | {ui.shortcuts.cutSelected} | ⌘X | Ctrl+X |
@@ -33,7 +33,7 @@ En el editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (
 | {ui.shortcuts.deleteMomentOrTheSelectedCharacterZone} | Delete / Backspace | Delete / Backspace |
 | {ui.shortcuts.previousNextMoment} | ← / → | ← / → |
 | {ui.shortcuts.previousNextMomentAlsoWhileTyping} | ⌘[ / ⌘] | Ctrl+[ / Ctrl+] |
-| {ui.shortcuts.firstLastMoment} | Home / End | Home / End |
+| {ui.shortcuts.firstLastMoment} | Inicio / Fin | Inicio / Fin |
 
 ### Paneles
 
@@ -50,8 +50,8 @@ En el editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (
 
 | Acción | Mac | Windows |
 |---|---|---|
-| {ui.shortcuts.nextLineANewMomentWithThe} | Enter | Enter |
-| {ui.shortcuts.newLineInTheSameBox} | ⇧Enter | Shift+Enter |
+| {ui.shortcuts.nextLineANewMomentWithThe} | Intro | Intro |
+| {ui.shortcuts.newLineInTheSameBox} | ⇧Intro | Mayús+Intro |
 <!-- shortcuts:end -->
 
 Notas:
@@ -61,7 +61,7 @@ Notas:
 - Los atajos de los paneles cambian al modo Historia, salvo Interfaz del juego (**Cmd+5**) y Mapa de la historia (**Cmd+6**), que cambian a esos modos.
 - Todos los atajos se ignoran mientras juegas, y mientras hay una ventana, un menú o una ventana emergente abiertos.
 - En el espacio de trabajo Mapa, `Delete` y **Cmd+D** actúan sobre el lugar seleccionado.
-- En la vista Guion, copiar y pegar momentos no se aplica: el editor de texto conserva lo suyo. Allí, **Cmd+Enter** / **Ctrl+Enter** es «{tx.scriptMode.playFromCursor}» y **Cmd+.** / **Ctrl+.** crea todo lo que falta.
+- En la vista Guion, copiar y pegar momentos no se aplica: el editor de texto conserva lo suyo. Allí, **Cmd+Intro** / **Ctrl+Intro** es «{tx.scriptMode.playFromCursor}» y **Cmd+.** / **Ctrl+.** crea todo lo que falta.
 
 ## En un juego
 
@@ -69,7 +69,7 @@ Esto funciona en los juegos exportados y en el modo Jugar.
 
 | Acción | Teclas |
 |---|---|
-| Avanzar (primero termina el texto) | Clic, **Espacio** o **Enter** |
+| Avanzar (primero termina el texto) | Clic, **Espacio** o **Intro** |
 | Elegir una opción | **1** a **6** (la opción número N en pantalla) |
 | Menú de pausa | **Esc** o clic derecho |
 | Guardado rápido / carga rápida | **F5** / **F9** |

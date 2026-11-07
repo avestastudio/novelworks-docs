@@ -43,7 +43,7 @@ description: "ポイント&クリックのシーン:プレイヤーがクリッ�
 
 ## 小物
 
-{ui.explorationInspectors.props} は、舞台に置く物(鍵、手紙、花瓶)の絵です。クリックはできません。小物をエリアにひも付けると、一緒に非表示にできます。
+{ui.explorationInspectors.props} は、ステージに置く物(鍵、手紙、花瓶)の絵です。クリックはできません。小物をエリアにひも付けると、一緒に非表示にできます。
 
 - **+ 小物** で「{tx.explorationInspectors.chooseAProp}」が開きます(種類が小道具の画像で、読み込みもできます)。新しい小物は中央に置かれます。
 - 小物をドラッグして動かし、角をドラッグして大きさを変えます。インスペクターの {ui.explorationInspectors.size} は、画面の幅の 2 から 100 % です。

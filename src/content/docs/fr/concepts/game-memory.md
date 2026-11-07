@@ -14,7 +14,7 @@ Les objets que le joueur porte (clés, lettres, pièces…) forment une partie d
 
 ## L’onglet Variables
 
-L’onglet **{ui.leftPanel.variables}** liste vos variables, chacune avec sa sorte et sa valeur de départ (« Score · valeur de départ : 0 »). Cliquez sur **{ui.variablesTab.newVariable}** pour ajouter un Score nommé « Variable N » (N compte vos variables), puis renommez-le et choisissez sa valeur de départ dans l’inspecteur (**{ui.variableInspector.startsAt}**). Vous pouvez changer le **{ui.variableInspector.type}** : si la variable est déjà utilisée, NovelWorks demande une confirmation et remet les valeurs à zéro.
+L’onglet **{ui.leftPanel.variables}** liste vos variables, chacune avec sa sorte et sa valeur de départ (« Score · valeur de départ : 0 »). Cliquez sur **{ui.variablesTab.newVariable}** pour ajouter un Score nommé « Variable N » (N compte vos variables), puis renommez-le et choisissez sa valeur de départ dans l’inspecteur (**{ui.variableInspector.startsAt}**). Vous pouvez changer le **{ui.variableInspector.type}** : si la variable est déjà utilisée, NovelWorks demande une confirmation et réinitialise les valeurs.
 
 Si vous supprimez une variable utilisée quelque part, NovelWorks vous avertit. Les endroits qui l’utilisaient restent en place et affichent un avertissement.
 

@@ -37,7 +37,7 @@ Choisissez la variable, la comparaison et la valeur.
 | **{ui.variables.number}** | {ui.conditionTests.is}, {ui.moments.isNot}, {ui.moments.atLeast}, {ui.moments.atMost}, {ui.moments.moreThan}, {ui.moments.lessThan} |
 | **{ui.variables.yesNo}** | {ui.conditionTests.is}, {ui.moments.isNot} |
 
-Sous un test de Score, une ligne vous dit ce que vos choix peuvent totaliser, et si le test peut un jour être vrai. Voir [Où vos choix peuvent mener](/novelworks-docs/fr/branching/reach/). Si vous n’avez encore aucune variable, l’éditeur le dit et vous invite à en créer une dans l’onglet Variables.
+Sous un test de Score, une ligne vous dit ce que vos choix peuvent totaliser, et si le test peut un jour être vrai. Voir [Où vos choix peuvent mener (jusqu’à +5)](/novelworks-docs/fr/branching/reach/). Si vous n’avez encore aucune variable, l’éditeur le dit et vous invite à en créer une dans l’onglet Variables.
 
 ### Un objet
 
@@ -78,7 +78,7 @@ Sous les cas, **{ui.memory.tryTitle}** vous permet de vérifier votre Si… sans
 
 Il suit les mêmes règles que le jeu. Avec un cas et une condition, il y a une seule case ; sinon, il y a une case par variable ou objet utilisé.
 
-## Sur la frise
+## Sur la chronologie
 
 Une carte montre le premier cas (« Si Affection ≥ 2 → Park ») et l’écran du jeu liste une ligne par cas, puis *sinon*.
 

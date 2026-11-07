@@ -16,7 +16,7 @@ NovelWorks 使用你电脑的原生菜单。在 Windows 上，**Cmd** 对应 **C
 | {ui.native.menu.newProject} | **Cmd+N** | 打开新建项目画面。 |
 | {ui.native.menu.openProject} | **Cmd+O** | 打开一个项目文件夹。 |
 | {ui.native.menu.save} | **Cmd+S** | 保存项目。 |
-| {ui.native.menu.restoreFromBackup} | | 回到更早的版本。见[保存、备份和撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。 |
+| {ui.native.menu.restoreFromBackup} | | 回到更早的版本。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。 |
 | {ui.native.menu.importScript} | | 把一个文本文件添加到你的场景中。见[导入和导出剧本](/novelworks-docs/zh-cn/writing/import-a-script/)。 |
 | {ui.native.menu.exportScript} | | 把你的整个游戏保存为一个文本文件。 |
 | {ui.native.menu.exportForWeb} | **Cmd+E** | 把你的游戏导出为网页版。见[网页导出](/novelworks-docs/zh-cn/publish/web-export/)。 |
@@ -53,7 +53,7 @@ Mac 上有最小化、缩放和全部置于最前；Windows 上有最小化和�
 | {ui.menu.documentation} | 在浏览器中打开这份文档。 |
 | {ui.native.menu.replayTutorial} | 重新播放[引导教程](/novelworks-docs/zh-cn/getting-started/guided-tour/)。 |
 | {ui.native.menu.keyboardShortcuts}（**Cmd+/**） | 显示快捷键列表。 |
-| {ui.native.menu.activateNovelWorks} | 仅限 itch.io 完整版。见[安装和激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。 |
+| {ui.native.menu.activateNovelWorks} | 仅限 itch.io 完整版。见[安装与激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)。 |
 | {ui.native.menu.reportABug} | 打开联系表单。见[报告问题](/novelworks-docs/zh-cn/reference/report-a-bug/)。 |
 | 关于 Novelworks | 仅限 Windows：打开“关于”窗口。 |
 

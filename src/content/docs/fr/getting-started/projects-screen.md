@@ -9,7 +9,7 @@ L’**écran des projets** est la première chose que vous voyez au démarrage d
 
 La liste montre vos **projets récents**, du plus récent au plus ancien, jusqu’à 30. Chaque ligne affiche :
 
-- une image : le dernier écran de jeu enregistré, ou le premier décor, ou le logo NovelWorks pour un projet qui n’a pas encore d’images ;
+- une image : le dernier écran du jeu enregistré, ou le premier décor, ou le logo NovelWorks pour un projet qui n’a pas encore d’images ;
 - le nom du projet et le dossier où il se trouve ;
 - la date de sa dernière ouverture.
 

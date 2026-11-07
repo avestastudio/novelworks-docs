@@ -28,9 +28,9 @@ description: As palavras usadas no NovelWorks e nesta documentação.
 | {ui.topBar.storyMap} | A visão de todas as cenas e das ligações entre elas. |
 | {ui.topBar.gameUI} | O modo em que você muda a aparência do jogo. |
 | Modo Roteiro | A visão de uma cena como texto, como um roteiro de filme. |
-| Aviso | Uma mensagem curta no jogo, como "Você pegou: Chave". |
+| Aviso | Uma mensagem curta no jogo, como “Você pegou: Chave”. |
 | {ui.quickMenu.title} | A pequena barra de controles de leitura sobre a história. |
-| Modo de jogo | Jogar o seu jogo dentro do editor. |
+| Modo Jogar | Jogar o seu jogo dentro do editor. |
 | Backup | Uma cópia anterior do `project.json`, guardada na pasta `backups`. |
 | Idioma do jogo | O idioma dos botões e menus do próprio jogo. Sua história continua como você a escreveu. |
 | {ui.languageDialog.label} | O idioma do próprio editor. |

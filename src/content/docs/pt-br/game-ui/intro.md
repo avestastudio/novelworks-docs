@@ -3,7 +3,7 @@ title: Introdução
 description: Mostre o logotipo do seu estúdio ou outras imagens antes da tela de título.
 ---
 
-A **{ui.gameUI.creatorSplash}** mostra até três imagens, uma depois da outra, antes da tela de título. Use-a para o logotipo do seu estúdio ou para um crédito. Ela vem depois da tela fixa "Criado com NovelWorks" e antes do [aviso de conteúdo](/novelworks-docs/pt-br/game-ui/content-warning/).
+A **{ui.gameUI.creatorSplash}** mostra até três imagens, uma depois da outra, antes da tela de título. Use-a para o logotipo do seu estúdio ou para um crédito. Ela vem depois da tela fixa “Criado com NovelWorks” e antes do [aviso de conteúdo](/novelworks-docs/pt-br/game-ui/content-warning/).
 
 ## Imagens
 

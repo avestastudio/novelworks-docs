@@ -8,7 +8,7 @@ description: Copie momentos, cenas e personagens, cole em outro lugar e duplique
 **Cmd+D** / **Ctrl+D** duplica o que está selecionado, mesmo enquanto você digita:
 
 - um **momento**: a cópia vai logo depois do original, com uma nova identidade. Ela não muda nada na tela, então mostra a mesma imagem do original, e a nota dele é copiada;
-- uma **cena**: a cópia vai logo depois do original e se chama algo como "A helping hand (copy)" (veja [Cenas](/novelworks-docs/pt-br/writing/scenes/));
+- uma **cena**: a cópia vai logo depois do original e se chama algo como “Uma mãozinha (cópia)” (veja [Cenas](/novelworks-docs/pt-br/writing/scenes/));
 - uma **zona** de exploração.
 
 O menu de clique direito tem **{ui.contextMenus.duplicate}** para um momento e uma cena, e **{ui.contextMenus.duplicateZone}** para uma zona. O inspetor de um momento tem um botão **{ui.momentInspector.duplicate}**.
@@ -38,8 +38,8 @@ A cópia vai para a área de transferência do seu computador como texto, então
 O que você vê quando o outro projeto não tem essas coisas (verificado colando um momento de um projeto em outro):
 
 - um falante que não existe lá vira o **{ui.stageControls.narrator}**;
-- um cenário que não existe lá é descartado (o momento mostra "{tx.stage.noBackground}");
-- um personagem que não existe lá não é desenhado, e pode aparecer como uma linha "Sem nome" no quadro de cena, ou como `?` no [modo Roteiro](/novelworks-docs/pt-br/writing/script-mode-lines/);
+- um cenário que não existe lá é descartado (o momento mostra “{tx.stage.noBackground}”);
+- um personagem que não existe lá não é desenhado, e pode aparecer como uma linha “Sem nome” no quadro de cena, ou como `?` no [modo Roteiro](/novelworks-docs/pt-br/writing/script-mode-lines/);
 - **nenhum aviso é mostrado**, então confira você mesmo o momento colado.
 
 Cole em um projeto que tenha os mesmos personagens, imagens, cenas e variáveis para obter o melhor resultado.

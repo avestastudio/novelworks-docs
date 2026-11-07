@@ -13,7 +13,7 @@ Le menu rapide est une petite barre discrète par-dessus l’histoire. Vous choi
 | Sauvegarder, Charger | |
 | Sauvegarde rapide, Chargement rapide | F5, F9 |
 | Options | |
-| Menu | **Échap** |
+| Menu | Échap |
 
 - Les boutons sont estompés tant que le pointeur n’est pas dessus. Auto et Passer ont l’air enfoncés quand ils sont activés.
 - Cliquer sur un bouton ne fait pas avancer l’histoire. Appuyer sur un bouton autre qu’Auto ou Passer désactive le mode de lecture.

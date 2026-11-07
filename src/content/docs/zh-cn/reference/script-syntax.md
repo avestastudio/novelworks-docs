@@ -54,4 +54,4 @@ description: 剧本格式在每种编辑器语言中的用词，以及它们的�
 
 ## 在哪里学习这种格式
 
-每一行的写法在[剧本模式：每一行](/novelworks-docs/zh-cn/writing/script-mode-lines/)和[剧本模式：条件和选择](/novelworks-docs/zh-cn/writing/script-mode-conditions/)中有说明。
+每一行的写法在[剧本模式：每一种行](/novelworks-docs/zh-cn/writing/script-mode-lines/)和[剧本模式：条件和选择](/novelworks-docs/zh-cn/writing/script-mode-conditions/)中有说明。

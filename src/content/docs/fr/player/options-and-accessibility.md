@@ -3,7 +3,7 @@ title: Options et accessibilité
 description: Ce que fait chaque option du joueur, et comment le jeu prend en charge l’accessibilité.
 ---
 
-Les joueurs ouvrent **{rt.game.options}** depuis l’écran-titre, le menu pause ou le menu rapide (si vous affichez son bouton Options). **Échap** la ferme. Chaque changement s’applique tout de suite et est conservé **pour chaque jeu, dans le navigateur**. Si le navigateur bloque le stockage, le réglage ne dure que le temps de la session. Une réplique d’exemple montre le texte tel qu’il sera. Le bouton des **{rt.optionsScreen.defaults}** remet les cinq options à leur valeur d’origine.
+Les joueurs ouvrent **{rt.game.options}** depuis l’écran-titre, le menu pause ou le menu rapide (si vous affichez son bouton Options). **Échap** la ferme. Chaque changement s’applique tout de suite et est conservé **pour chaque jeu, dans le navigateur**. Si le navigateur bloque le stockage, le réglage ne dure que le temps de la session. Une réplique d’exemple montre le texte tel qu’il sera. Le bouton **{rt.optionsScreen.defaults}** remet les cinq options à leur valeur d’origine.
 
 L’apparence de l’écran, c’est vous qui la choisissez : [Options du joueur](/novelworks-docs/fr/game-ui/options/). Vous ne pouvez masquer aucune option.
 

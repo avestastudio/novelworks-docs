@@ -25,11 +25,11 @@ En el inspector:
 
 ## Da y quita objetos
 
-- **Un momento Objeto**: da objetos o los quita, y los jugadores no ven el momento en sí. Elige **{ui.branchInspectors.give}** o **{ui.branchInspectors.remove}**, el objeto y cuántos, si es un objeto apilable. Una casilla decide si se muestra un aviso («Has conseguido: …»). Consulta [Escenas, momentos y la línea de tiempo](/novelworks-docs/es/concepts/scenes-moments-timeline/).
+- **Un momento Objeto**: da objetos o los quita, y los jugadores no ven el momento en sí. Elige **{ui.branchInspectors.give}** o **{ui.branchInspectors.remove}**, el objeto y cuántos, si es un objeto acumulable. Una casilla decide si se muestra un aviso («Has conseguido: …»). Consulta [Escenas, momentos y la línea de tiempo](/novelworks-docs/es/concepts/scenes-moments-timeline/).
 - **Una opción de elección**: **{ui.branchInspectors.giveRemoveAnItem}** añade un cambio a una opción. Siempre se muestra un aviso. Consulta [Elecciones](/novelworks-docs/es/branching/choices/).
 - **Una zona de exploración**: **{ui.explorationInspectors.pickUpAnItem}** (la zona y sus objetos decorativos desaparecen para siempre) o **{ui.shared.exploration.useAnItem}**. Consulta [Exploración](/novelworks-docs/es/features/exploration/).
 
-Un objeto único nunca puede ser más de uno, y un objeto apilable nunca baja de cero. Si quitas más de lo que tiene el jugador, se quita lo que existe.
+Un objeto único nunca puede ser más de uno, y un objeto acumulable nunca baja de cero. Si quitas más de lo que tiene el jugador, se quita lo que existe.
 
 ## Comprueba objetos
 
@@ -40,8 +40,8 @@ Si desactivas la función Inventario, los jugadores pierden el botón, la entrad
 ## Qué ven los jugadores
 
 - Un botón en una esquina de la pantalla (arriba a la derecha por defecto, y se configura en la [pantalla Inventario](/novelworks-docs/es/game-ui/inventory-ui/)), una entrada en el menú de pausa, y la tecla **I**.
-- Un panel con una cuadrícula de los objetos que tienen, con cantidades para los objetos apilables. Al hacer clic en uno se muestra su descripción. No hay botón «usar»: usar un objeto es algo que comprueba una zona.
-- **{ui.gameUI.notices}** como «Has conseguido: Llave» y «Has perdido: Llave» (consulta [Notificaciones](/novelworks-docs/es/game-ui/notifications/)).
+- Un panel con una cuadrícula de los objetos que tienen, con cantidades para los objetos acumulables. Al hacer clic en uno se muestra su descripción. No hay botón «usar»: usar un objeto es algo que comprueba una zona.
+- **{ui.gameUI.notices}** como «Has conseguido: Llave» y «Has perdido: Llave» (consulta [Avisos (notificaciones)](/novelworks-docs/es/game-ui/notifications/)).
 - Los objetos se guardan en las partidas del jugador. Al cargar una partida antigua, se descartan los objetos que ya no existen.
 
 ## Pruebas

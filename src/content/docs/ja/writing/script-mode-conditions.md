@@ -53,7 +53,7 @@ Park というシーンへのジャンプです。プレイヤーにはこのカ
   if item Key, locked
 ```
 
-項目の下にインデントした `if` の行は、その項目が選べる条件を表します。`, locked` を付けると、選べないときに項目がグレー表示になります。付けない場合、項目は隠れます。[物語の分岐のしかた](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。プレイヤーには、いつも先へ進む道が残ります。
+項目の下にインデントした `if` の行は、その項目が選べる条件を表します。`, locked` を付けると、選べないときに項目がグレー表示になります。付けない場合、項目は隠れます。[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)を見てください。プレイヤーには、いつも先へ進む道が残ります。
 
 ## テスト
 
@@ -104,4 +104,4 @@ if MetMia = true or item Letter -> Library
 
 ## まだ存在しない名前
 
-存在しないシーン、変数、アイテムには下線が引かれます。クイック修正、または「{ui.scriptMode.createMissing_other}」で作成できます。[スクリプトモード：基本](/novelworks-docs/ja/writing/script-mode/)を見てください。
+存在しないシーン、変数、アイテムには下線が引かれます。クイック修正、または「{ui.scriptMode.createMissing_other}」で作成できます。[スクリプトモードの基本](/novelworks-docs/ja/writing/script-mode/)を見てください。

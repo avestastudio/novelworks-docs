@@ -39,7 +39,7 @@ Cuando el jugador elige una opción, el juego primero aplica sus cambios y despu
 
 ## Lo que cambia una opción
 
-Bajo **{ui.branchInspectors.changes}**, cada opción lista lo que el juego recuerda si se elige. El primer botón es **{ui.memory.remember}**: crea una [Puntuación o un Hecho](/novelworks-docs/es/concepts/game-memory/) si lo necesitas y añade el cambio en un solo paso. Una Puntuación empieza con «sumar 1», un Hecho con «fijar en Sí».
+Bajo **{ui.branchInspectors.changes}**, cada opción lista lo que el juego recuerda si se elige. El primer botón es **{ui.memory.remember}**: crea una [Puntuación o un Hecho](/novelworks-docs/es/concepts/game-memory/) si lo necesitas y añade el cambio en un solo paso. Una Puntuación empieza con «sumar 1», un Hecho con «establecer en Sí».
 
 Cada cambio es una fila:
 

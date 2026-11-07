@@ -3,7 +3,7 @@ title: "Mode Script : les bases"
 description: Écrire toute une scène en texte, comme un scénario, et la voir se mettre à jour pendant que vous tapez.
 ---
 
-Le **mode Script** montre une scène sous forme de texte, au lieu d’un écran de jeu et d’une chronologie. Vous écrivez une ligne par chose qui se passe, comme dans un scénario, et la scène se met à jour pendant que vous tapez. Les deux vues modifient la même histoire : vous pouvez passer de l’une à l’autre à tout moment.
+Le **mode Script** montre une scène sous forme de texte, au lieu d’un écran du jeu et d’une chronologie. Vous écrivez une ligne par chose qui se passe, comme dans un scénario, et la scène se met à jour pendant que vous tapez. Les deux vues modifient la même histoire : vous pouvez passer de l’une à l’autre à tout moment.
 
 ```
 Mia : Hello!
@@ -16,7 +16,7 @@ background : Station
 
 ## Passer en mode Script
 
-Au-dessus de l’écran de jeu, le sélecteur **{ui.topBar.storyView}** a deux boutons : **{ui.topBar.visual}** (l’écran de jeu et la chronologie) et **{ui.topBar.script}** (la scène en texte). Le même sélecteur se trouve dans la vue Script, pour que vous puissiez revenir en arrière.
+Au-dessus de l’écran du jeu, le sélecteur **{ui.topBar.storyView}** a deux boutons : **{ui.topBar.visual}** (l’écran du jeu et la chronologie) et **{ui.topBar.script}** (la scène en texte). Le même sélecteur se trouve dans la vue Script, pour que vous puissiez revenir en arrière.
 
 ![Mode Script : la scène en texte à gauche, le moment sous le curseur à droite.](/novelworks-docs/screenshots/script-mode.png)
 
@@ -85,6 +85,6 @@ Une ligne que NovelWorks veut vous faire vérifier reçoit un soulignement jaune
 
 ## La suite
 
-- [Mode Script : toutes les lignes](/novelworks-docs/fr/writing/script-mode-lines/)
+- [Mode Script : chaque ligne](/novelworks-docs/fr/writing/script-mode-lines/)
 - [Mode Script : conditions et choix](/novelworks-docs/fr/writing/script-mode-conditions/)
 - [Importer et exporter un script](/novelworks-docs/fr/writing/import-a-script/)
