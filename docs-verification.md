@@ -84,6 +84,37 @@ Les noms de boutons ne sont **jamais** recopiés : on écrit `{ui.clé}` ou `{rt
 | writing/notes | Une note par moment, icône sur la carte, `//` en Script, pas de note de scène (résumé) | `MomentInspector.tsx`, `Timeline.tsx:243`, `generate.ts:42`, `resolve.ts:106` | code |
 | writing/notes | Les notes sont retirées de l'export du jeu | `export.ts:55-72` lu seulement ; **non écrit dans la page** | **à vérifier** |
 
+| branching/choices | 2 à 6 options (X désactivé à 2, ajout désactivé à 6), pas de réordonnancement, « Puis » : continuer / scène / nouvelle scène / scène supprimée = continuer | `shared/src/scenes.ts:41-63`, `BranchInspectors.tsx:75-157`, `runtime/player.ts:103-106` | code |
+| branching/choices | Effets : ajout/fixer (Score), fixer (Fait), objets (si Inventaire) ; règles d'exécution (manquant ignoré, Fait + ignoré, objet unique ≤ 1, empilable ≥ 0) | `BI:160-230`, `shared/src/conditions.ts:100-130`, `variables.ts:31-39` | code |
+| branching/choices | Option conditionnelle : cacher/griser ; « toujours une issue » (si tout est masqué, tout s'affiche) ; test manquant = faux | `shared/src/conditions.ts:37-49,87-98`, `runtime/resolve.ts:143-151`, `player.ts:99` | code |
+| branching/choices | En jeu : boutons empilés, apparaissent après le texte, touches 1-6 = boutons visibles (un bouton grisé prend un numéro) | `runtime/layout.ts`, `game.ts:258-259,1006-1011`, `render.ts:349-375` | code |
+| branching/choices | Texte d'option trop long coupé par « … » | `render.ts:371-373` (style lu, non testé visuellement) | **non écrit** dans la page |
+| branching/choices | Avertissements des choix (liste) | `shared/src/problems.ts:18-38`, `reach.ts:47-65` | code |
+| branching/variables | Création « Variable N » (Score à 0) ; renommer suit partout ; changement de type : confirmation + valeurs remises à 0/Oui ; suppression : avertissements, références gardées | `shared/src/variables.ts:10-99,158-162`, `R/variables.ts:62-122` | code |
+| branching/variables | Listes « Modifiée par / Vérifiée par » | `memory.changedBy/checkedBy`, `shared/src/variables.ts:117-139` | code |
+| branching/variables | Sauvegardes des joueurs : valeurs restaurées si même id et même type, sinon abandonnées | `runtime/player.ts:476-492` | code |
+| branching/variables | Menu clic droit d'une variable, texte du bouton de confirmation de suppression | non lus | **non écrit** |
+| branching/conditions | Cas de haut en bas, tests, opérateurs Score/Fait, tests d'objet, tous/au moins un, « sinon » | `BI:236-414`, `shared/src/variables.ts:27-29`, `R/moments.ts:72-86` | code |
+| branching/conditions | Condition cassée (variable/objet supprimé ou non choisi) : le jeu **saute tout le Si…** et continue | `shared/src/conditions.ts:37-85`, `runtime/player.ts:244-258` | code (à confirmer en jouant) |
+| branching/conditions | « Essayer » (zone de test) | `BI:466-573`, `memoryTry.ts` | code |
+| branching/conditions | Au moins un cas ; pas d'avertissement « cas sans scène » en jeu (continue) | `moments.ts:202-204`, `problems.ts:39-55` | code |
+| branching/jumps | Saut sans « continuer » ; une scène ne finit que par un seul saut ; cible supprimée = continuer | `BI:577-586`, `player.ts:240-258`, `shared/src/linking.ts` | code |
+| branching/endings | Nom par défaut « Good ending » ; vide = « The End » en jeu ; texte court ; clic = retour au titre ; bouton Carte caché ; Auto/Skip s'arrêtent | `shared/src/scenes.ts:47`, `runtime/render.ts:382-413`, `resolve.ts:151`, `player.ts:89,407`, `reading.ts:114` | code |
+| branching/endings | Écran « The End » de Game UI = histoire épuisée sans moment Fin ; ce n'est pas le moment Fin | `gameUI.ts:18`, `runtime/game.ts:132-135,440`, `player.ts:224,269` | code |
+| branching/endings | Panneau « Fins du jeu » : visible quand **aucune scène n'est sélectionnée** dans la carte (résout le point « à vérifier ») | `StoryMap.tsx:64-71,915` | code |
+| branching/endings | Avertissement « rien ne mène » ; ne tient pas compte de l'accessibilité de la scène ; couleur « orange » | `EndingsList.tsx`, `shared/src/endings.ts`, `styles.css:2882` (couleur non lue) | code (couleur : non écrite) |
+| branching/endings | Une partie arrivée à une fin n'est pas sauvegardée | `saveOf` ne sauve que `playing` ; l'écran « end » n'est pas le moment Fin | **non écrit** (non prouvé pour le moment Fin) |
+| branching/story-map | Carte : cartes de scène, étiquettes, flèches fusionnées, boucles pointillées, flèche vers scène supprimée en pointillés | `StoryMap.tsx`, `storyMap.ts:84-150`, `styles.css:3870-3874` | code |
+| branching/story-map | Navigation (molette, pincer, Espace, Maj+1, Maj+0, +/-), zoom 20–200 %, vue gardée seulement pendant la session | `StoryMap.tsx:125-145`, `storyMap.ts` | code |
+| branching/story-map | Positions enregistrées (`mapPosition`) ; « Tidy up » les efface toutes ; désactivé si tout est auto | `scenes.ts:212`, `StoryMap.tsx` | code |
+| branching/story-map | Lier par la poignée : ce qui est ajouté en fin de scène (saut/choix/Si/zone), raisons de refus | `shared/src/linking.ts:34-116`, `StoryMap.tsx` | code |
+| branching/story-map | Clic droit : scène (7 entrées), flèche (aller au moment, retirer le lien, délier la zone) ; pas de menu sur le vide | `StoryMap.tsx:215-260`, `scenes.ts:166-188` | code (vide : non lu en détail) |
+| branching/story-map | Filtres Tout / À écrire / Fins / Problèmes ; progression en texte dans la barre | `StoryMap.tsx:77-82`, `outline.ts:22-26` | code |
+| branching/story-map | Panneau de droite : inspecteur d'une scène ou aide (fins, légende, plan, déplacement) | `StoryMap.tsx:64-71`, `SceneInspector.tsx` | code |
+| branching/reach | Calcul : meilleur/pire choix par moment, zones comptées une fois, « fixer » = plage large, boucles = côté ouvert → rien dit | `shared/src/scoreRange.ts:5-151` | code |
+| branching/reach | Limites : ordre et chemin ignorés ; options conditionnelles comptées | `scoreRange.ts` (commentaires en tête) | code |
+| branching/reach | Rendu de « ce test ne sera jamais vrai » quand un côté est ouvert | non vérifié | **non écrit** (la page ne dit pas ce cas) |
+
 
 Légende : tout est « code » : aucune de ces pages n'a encore été suivie pas à pas dans l'appli (étape D1, partie « contrôle à la main »).
 

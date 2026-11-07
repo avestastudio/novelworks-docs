@@ -175,37 +175,37 @@
         {
           "slug": "branching/choices",
           "title": "Choices",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/variables",
           "title": "Variables",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/conditions",
           "title": "If… conditions",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/jumps",
           "title": "Jumps",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/endings",
           "title": "Endings",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/story-map",
           "title": "The story map",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "branching/reach",
           "title": "Where your choices can lead (up to +5)",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },
