@@ -7,6 +7,7 @@ import { readdir, readFile } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { MARKER, labelOf, overlayEntry } from '../src/plugins/ui-names.mjs'
+import { stale as staleReference } from './gen-reference.mjs'
 
 const root = fileURLToPath(new URL('../src/content/docs/', import.meta.url))
 const data = (name) => JSON.parse(awaitedRead(fileURLToPath(new URL('../' + name, import.meta.url))))
@@ -99,11 +100,17 @@ for (const file of all) {
   }
 }
 
+// 3c. generated reference tables
+if (pages.find((page) => page.slug === 'reference/script-syntax')?.status !== 'stub') errors.push(...staleReference())
+
 // 4. shortcuts
 const shortcutsPage = pages.find((page) => page.slug === 'reference/keyboard-shortcuts')
 if (shortcutsPage && shortcutsPage.status !== 'old') {
   const text = await read(join(root, shortcutsPage.slug + '.md'))
-  for (const row of data('data/shortcuts.json')) if (!text.includes(`{ui.${row.label}}`)) errors.push(`Shortcuts page misses {ui.${row.label}}`)
+  for (const row of data('data/shortcuts.json')) {
+    const exportRow = row.label === 'shortcuts.exportForWebItchIo' // shown with the demo-build name «Export for Web…»
+    if (!text.includes(exportRow ? '{ui.native.menu.exportForWeb}' : `{ui.${row.label}}`)) errors.push(`Shortcuts page misses ${row.label}`)
+  }
 }
 
 if (pending.size) console.warn(`Pending merge (English text used as a fallback): ${[...pending].join(', ')}`)

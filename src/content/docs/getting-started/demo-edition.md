@@ -29,5 +29,4 @@ Your project file itself never changes, and games exported from the full version
 
 - Both editions use the **same project format**. A project made in the demo opens in the full version without any change, and the other way round.
 - The demo installs next to the full version, so you can keep both. It keeps its own settings and its own list of recent projects, and never touches the full version's license. Its window and About window are titled **NovelWorks Demo**.
-- The demo exists on itch.io and on Steam.
 - To remove the limit and the marks, get the full version and see [Install and activate](/novelworks-docs/getting-started/install-and-activate/).

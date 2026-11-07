@@ -442,47 +442,47 @@
         {
           "slug": "reference/keyboard-shortcuts",
           "title": "Keyboard shortcuts",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "reference/menus",
           "title": "All menus",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "reference/script-syntax",
           "title": "Script syntax in 7 languages",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "reference/glossary",
           "title": "Glossary",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "reference/project-format",
           "title": "Project format, compatibility and backups",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "reference/faq",
           "title": "FAQ",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "reference/troubleshooting",
           "title": "Troubleshooting and messages",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "reference/report-a-bug",
           "title": "Report a bug",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "reference/licenses-and-editions",
           "title": "Licenses and editions",
-          "status": "stub"
+          "status": "written"
         }
       ]
     }
