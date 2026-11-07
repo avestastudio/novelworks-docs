@@ -8,7 +8,8 @@
         "es": "Primeros pasos",
         "pt-BR": "Primeiros passos",
         "zh-CN": "入门指南",
-        "ru": "Начало работы"
+        "ru": "Начало работы",
+        "ja": "はじめに"
       },
       "pages": [
         {
@@ -65,7 +66,8 @@
         "es": "Ideas clave",
         "pt-BR": "Ideias-chave",
         "zh-CN": "核心概念",
-        "ru": "Ключевые идеи"
+        "ru": "Ключевые идеи",
+        "ja": "基本の考え方"
       },
       "pages": [
         {
@@ -97,7 +99,8 @@
         "es": "Escribir tu historia",
         "pt-BR": "Escrevendo sua história",
         "zh-CN": "编写故事",
-        "ru": "Написание истории"
+        "ru": "Написание истории",
+        "ja": "物語を書く"
       },
       "pages": [
         {
@@ -169,7 +172,8 @@
         "es": "Ramificaciones",
         "pt-BR": "Ramificações",
         "zh-CN": "故事分支",
-        "ru": "Ветвление"
+        "ru": "Ветвление",
+        "ja": "分岐"
       },
       "pages": [
         {
@@ -216,7 +220,8 @@
         "es": "Funciones del juego",
         "pt-BR": "Funcionalidades do jogo",
         "zh-CN": "游戏功能",
-        "ru": "Игровые возможности"
+        "ru": "Игровые возможности",
+        "ja": "ゲーム機能"
       },
       "pages": [
         {
@@ -248,7 +253,8 @@
         "es": "Interfaz del juego",
         "pt-BR": "Interface do jogo",
         "zh-CN": "游戏界面",
-        "ru": "Интерфейс игры"
+        "ru": "Интерфейс игры",
+        "ja": "ゲームUI"
       },
       "pages": [
         {
@@ -340,7 +346,8 @@
         "es": "Experiencia del jugador",
         "pt-BR": "Experiência do jogador",
         "zh-CN": "玩家体验",
-        "ru": "Возможности игрока"
+        "ru": "Возможности игрока",
+        "ja": "プレイヤー体験"
       },
       "pages": [
         {
@@ -387,7 +394,8 @@
         "es": "Pruebas",
         "pt-BR": "Testes",
         "zh-CN": "游戏测试",
-        "ru": "Тестирование"
+        "ru": "Тестирование",
+        "ja": "テスト"
       },
       "pages": [
         {
@@ -414,7 +422,8 @@
         "es": "Exportar y publicar",
         "pt-BR": "Exportar e publicar",
         "zh-CN": "导出与发布",
-        "ru": "Экспорт и публикация"
+        "ru": "Экспорт и публикация",
+        "ja": "書き出しと公開"
       },
       "pages": [
         {
@@ -436,7 +445,8 @@
         "es": "Referencia",
         "pt-BR": "Referência",
         "zh-CN": "参考资料",
-        "ru": "Справочник"
+        "ru": "Справочник",
+        "ja": "リファレンス"
       },
       "pages": [
         {

@@ -46,6 +46,8 @@ The game as players will see it, scaled to fit. Above it you can choose the mome
 
 Above the screen, a row of small buttons shows where the selected moment leads (see [How a story branches](/novelworks-docs/concepts/how-stories-branch/)).
 
+On a short window (under about 780 pixels high), the rows above the game screen each stay on one line that scrolls sideways, and the reminder of keys under the game screen is hidden, to leave room for the game screen.
+
 ## The bottom: the timeline
 
 The moments of the current scene, as cards you can reorder. Buttons add a moment of each kind after the selected one, and two icons duplicate or delete the selected moment. Under the cards a chart shows who is on stage and a row shows where the story branches. See [Scenes, moments and the timeline](/novelworks-docs/concepts/scenes-moments-timeline/).

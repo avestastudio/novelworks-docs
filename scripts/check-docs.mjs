@@ -90,6 +90,30 @@ for (const file of all) {
   }
 }
 
+// 3a. A translation marked current (`translated` in docs-structure.json) must have the same skeleton as its English page:
+// same {ui.}/{rt.} markers, same links and images, same code blocks, same number of headings, tables and list items.
+const skeleton = (text) => {
+  const body = text.replace(/^---[\s\S]*?\n---\n/, '')
+  const code = [...body.matchAll(/```[\s\S]*?```/g)].map((m) => m[0])
+  const noCode = body.replace(/```[\s\S]*?```/g, '')
+  return {
+    markers: [...noCode.matchAll(MARKER)].map((m) => m[0]).sort().join(' '),
+    links: [...noCode.matchAll(/\]\(\/novelworks-docs\/(?:(?:fr|es|pt-br|zh-cn|ru|ja)\/)?([^)#\s]*)/g)].map((m) => m[1]).sort().join(' '),
+    code: code.join('\n'),
+    headings: (noCode.match(/^#{2,4} /gm) ?? []).length,
+    rows: (noCode.match(/^\|/gm) ?? []).length,
+    items: (noCode.match(/^\s*(?:[-*]|\d+\.) /gm) ?? []).length
+  }
+}
+for (const page of pages) for (const lang of page.translated ?? []) {
+  const folder = lang.toLowerCase()
+  const en = join(root, page.slug + '.md'), tr = join(root, folder, page.slug + '.md')
+  let trText
+  try { trText = await read(tr) } catch { errors.push(`${lang}/${page.slug}: listed as translated but the file is missing`); continue }
+  const a = skeleton(await read(en)), b = skeleton(trText)
+  for (const key of Object.keys(a)) if (a[key] !== b[key]) errors.push(`${lang}/${page.slug}: ${key} differ from the English page (${key === 'code' || key === 'markers' || key === 'links' ? 'must be identical' : `${a[key]} vs ${b[key]}`})`)
+}
+
 // 3b. A published page never links to a stub (it would be a 404 on the live site).
 const stubRoutes = new Set(pages.filter((page) => page.status === 'stub').map((page) => page.slug))
 for (const file of all) {

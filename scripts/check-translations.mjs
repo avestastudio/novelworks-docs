@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 const root = fileURLToPath(new URL('../src/content/docs/', import.meta.url))
 const publicRoot = fileURLToPath(new URL('../public/', import.meta.url))
-const locales = ['fr', 'es', 'pt-br', 'zh-cn', 'ru']
+const locales = ['fr', 'es', 'pt-br', 'zh-cn', 'ru', 'ja']
 async function files(folder) {
   const result = []
   for (const entry of await readdir(folder, { withFileTypes: true })) {

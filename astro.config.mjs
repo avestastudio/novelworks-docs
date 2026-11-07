@@ -13,7 +13,7 @@ export default defineConfig({
   markdown: { processor: unified({ remarkPlugins: [uiNames] }) },
   integrations: [
     starlight({
-      title: {"en": "NovelWorks Docs", "fr": "Documentation NovelWorks", "es": "Documentación de NovelWorks", "pt-BR": "Documentação do NovelWorks", "zh-CN": "NovelWorks 使用文档", "ru": "Документация NovelWorks"},
+      title: {"en": "NovelWorks Docs", "fr": "Documentation NovelWorks", "es": "Documentación de NovelWorks", "pt-BR": "Documentação do NovelWorks", "zh-CN": "NovelWorks 使用文档", "ru": "Документация NovelWorks", "ja": "NovelWorks ドキュメント"},
       description: 'Learn to make visual novels with NovelWorks, no code needed.',
       logo: { light: './src/assets/logo-light.svg', dark: './src/assets/logo-dark.svg', replacesTitle: true },
       favicon: '/favicon.svg',
@@ -26,7 +26,8 @@ export default defineConfig({
         es: { label: 'Español', lang: 'es' },
         'pt-br': { label: 'Português (Brasil)', lang: 'pt-BR' },
         'zh-cn': { label: '简体中文', lang: 'zh-CN' },
-        ru: { label: 'Русский', lang: 'ru' }
+        ru: { label: 'Русский', lang: 'ru' },
+        ja: { label: '日本語', lang: 'ja' }
       },
       // Generated from docs-structure.json. Stub pages (drafts) are not published, so they are not listed.
       sidebar: structure.sections.map((section) => ({
