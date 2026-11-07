@@ -30,6 +30,7 @@ Limite honnête : les relecteurs n'ont pas tout lu ligne à ligne (es ≈ 60 %, 
 
 ## Doutes à trancher avec un natif
 - **Vocabulaire « stage »** : le catalogue de l'éditeur mélange deux mots dans plusieurs langues (es escenario/en escena, zh 舞台/在台上, ja ステージ/舞台 corrigé). Un mot par langue a été imposé aux pages ; vérifier que les pages « Les personnages restent en scène » sonnent juste.
+- **fr** : « plateau » (catalogue : « Sur le plateau ») vs « en scène » pour le stage ; « décor » vs « arrière-plan » (catalogue ≈ 21/32) ; « roman visuel » (docs) vs « visual novel » (app) ; le catalogue tutoie (« Tes choix… »), les pages vouvoient ; ton parfois formel (« Servez-vous-en »).
 - **es** : « Entrada » (élément de menu), « tira » (bande) peu usuels ; « recorrido guiado » (didacticiel) et « visita guiada por el editor » (page) très proches.
 - **pt-BR** : « recursos » désigne à la fois Assets et Fonctions (ambigu dans le catalogue) ; « Criado com » / « Feito com » pour le même écran, tels que dans le catalogue ; ton « te / seu » un peu familier ; « visual novel » au masculin.
 - **zh-CN** : 笔记 (prose) vs 备注 (messages du catalogue) mélangés ; 片段 vs 时刻 (messages cités tels quels) ; 玩家 vs 你 ; 游玩 vs 试玩.

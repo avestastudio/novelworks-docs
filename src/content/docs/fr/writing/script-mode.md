@@ -37,7 +37,7 @@ Au-dessus de l’aperçu, la ligne **{ui.branches.whereTitle}** montre où mène
 
 ## Modifier
 
-- Le texte est appliqué à votre projet **une demi-seconde après que vous avez cessé de taper**, et quand vous changez de portée, jouez, ou quittez le mode Script.
+- Le texte est appliqué à votre projet **une demi-seconde après que vous avez cessé de taper**, et quand vous changez ce que le texte montre, jouez, ou quittez le mode Script.
 - Une rafale de frappe forme **une seule étape d’annulation**. Une pause d’environ une seconde commence une nouvelle étape.
 - Un moment dont vous n’avez pas changé le texte est **conservé tel quel**, avec sa note, sa position sur la carte de l’histoire, ses répliques lues et les sauvegardes des joueurs. Ce que le texte ne peut pas exprimer (placement libre, taille, retournement, ordre des personnages, zones d’exploration et accessoires) est conservé aussi, et un moment dont l’écran n’a pas changé le garde exactement.
 - Si vous changez le projet ailleurs (l’inspecteur, la chronologie, l’annulation), le texte se met à jour sans déplacer votre curseur. Si vous êtes en train de taper à ce moment-là, c’est votre texte qui l’emporte.
@@ -57,7 +57,7 @@ Un nom inconnu est souligné, et une correction rapide propose de le créer en u
 - le bouton **{ui.scriptMode.createMissing_other}** dans la barre d’outils crée tous les personnages, expressions, scènes, variables et objets manquants nommés dans le texte (**Cmd+.** / **Ctrl+.**) ;
 - sur une ligne, la correction propose de créer seulement celui-là.
 
-Une expression créée n’a pas encore d’image. Une variable est créée comme un Fait quand la ligne la compare ou la met à vrai ou à faux, sinon comme un Score. Un objet est empilable quand la ligne a une quantité comme `x3`.
+Une expression créée n’a pas encore d’image. Une variable est créée comme un Fait quand la ligne la compare ou la met à vrai ou à faux, sinon comme un Score. Un objet est cumulable quand la ligne a une quantité comme `x3`.
 
 ## Jouer à partir du curseur
 

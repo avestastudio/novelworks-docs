@@ -38,7 +38,7 @@ Dans la barre d’outils au-dessus du personnage, ou dans l’inspecteur (**{ui.
 | Gauche / Centre / Droite | Met le personnage à l’une des trois places en bas de l’écran. Il garde sa taille et son sens. |
 | **{ui.stage.flipHorizontally}** | Tourne le personnage pour qu’il regarde de l’autre côté. |
 | **{ui.stage.bringForward}** / **{ui.stage.sendBackward}** | Met le personnage devant ou derrière un autre. La boîte de dialogue est toujours au-dessus. |
-| **{ui.stage.removeFromStage}** | Retire le personnage de la scène, à partir de ce moment. |
+| **{ui.stage.removeFromStage}** | Retire le personnage du plateau, à partir de ce moment. |
 
 L’inspecteur a aussi un curseur **{ui.stageCharacterInspector.size}** et un bouton pour modifier le nom et les expressions du personnage.
 
