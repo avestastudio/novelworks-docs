@@ -3,7 +3,7 @@ title: Keyboard shortcuts
 description: Every shortcut of the editor and of the games, on Mac and on Windows.
 ---
 
-In the editor, **Help → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** on a Mac, **Ctrl+/** on Windows) opens the same list. A shortcut marked "while typing" also works when a text box has the focus; the others do not.
+In the editor, **{ui.native.role.help} → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** on a Mac, **Ctrl+/** on Windows) opens the same list. A shortcut marked "while typing" also works when a text box has the focus; the others do not.
 
 ## In the editor
 
@@ -61,7 +61,7 @@ Notes:
 - The panel shortcuts switch to the Story mode, except Game UI (**Cmd+5**) and Story map (**Cmd+6**), which switch to those modes.
 - All shortcuts are ignored while you play, and while a window, a menu or a pop-up is open.
 - In the Map workspace, `Delete` and **Cmd+D** act on the selected location.
-- In the Script view, copy and paste of moments do not apply: the text editor keeps its own. There, **Cmd+Enter** / **Ctrl+Enter** is "Play from the cursor" and **Cmd+.** / **Ctrl+.** creates everything that is missing.
+- In the Script view, copy and paste of moments do not apply: the text editor keeps its own. There, **Cmd+Enter** / **Ctrl+Enter** is "{tx.scriptMode.playFromCursor}" and **Cmd+.** / **Ctrl+.** creates everything that is missing.
 
 ## In a game
 

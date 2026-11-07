@@ -38,8 +38,8 @@ Each time you save, NovelWorks writes the file safely (to a temporary file, then
 - NovelWorks upgrades the project **in memory** only. Before it hands the project to the editor, it saves an **exact copy** of the original `project.json` in `backups`, named like `project-2026-11-07_17-15-04-migration.json`, and checks that the copy is identical.
 - If the copy cannot be made, the project is **not opened** and nothing is changed.
 - A bar tells you where the copy is (with **{ui.store.showCopy}**) and that you must save to keep the upgrade. The project counts as unsaved.
-- Reopening it without saving reuses the same copy. These "Original, before the upgrade" copies are never deleted.
-- You can return to the original with **File → Restore from Backup…**.
+- Reopening it without saving reuses the same copy. These "{tx.restoreBackupDialog.beforeUpgrade}" copies are never deleted.
+- You can return to the original with **{ui.native.menu.file} → Restore from Backup…**.
 
 Players' saves of your games stay readable: saves point to scenes and moments by their identity.
 

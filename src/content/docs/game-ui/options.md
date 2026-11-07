@@ -10,7 +10,7 @@ The **{ui.gameUI.options}** screen is where players adapt the game to themselves
 Under **{ui.gameUIInspector.screen}**:
 
 - **{ui.gameUIInspector.backgroundColor}**: the title screen's color by default, slightly see-through;
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default;
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default;
 - **{ui.gameUIInspector.buttonStyle}**: the style of the buttons.
 
 ## What players can choose

@@ -14,7 +14,7 @@ description: Let the game read by itself, or skip lines already read.
 
 Auto turns to the next line by itself, after a delay that depends on the length of the line, **once the line has finished appearing**:
 
-- about 1 second plus 55 milliseconds per character, between 1.5 and 10 seconds. For example a short "Yes." waits 1.5 seconds, and a line of 100 characters about 6.5 seconds;
+- about 1 second plus 55 milliseconds per character, between 1.5 and 10 seconds. For example a short "{tx.numberInput.yes}" waits 1.5 seconds, and a line of 100 characters about 6.5 seconds;
 - then multiplied by the player's **Auto speed**: Slow (x1.5, so up to 15 seconds), Normal (x1), Fast (x0.6, so as little as 0.9 seconds).
 
 Auto stops at a moment that is not a line of dialogue: a choice, an exploration or an ending.

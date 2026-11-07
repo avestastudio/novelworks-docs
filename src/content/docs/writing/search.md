@@ -3,7 +3,7 @@ title: Find and replace
 description: Search your whole game, jump to each result and replace text everywhere.
 ---
 
-Open the search with **Edit → {ui.native.menu.findAndReplace}** or **Cmd+F** / **Ctrl+F**. The search panel replaces the tabs of the left panel, and the cursor is in the first box. Close it with the X, or press **Esc** in one of its boxes. It works in the whole project, never in a single scene.
+Open the search with **{ui.native.menu.edit} → {ui.native.menu.findAndReplace}** or **Cmd+F** / **Ctrl+F**. The search panel replaces the tabs of the left panel, and the cursor is in the first box. Close it with the X, or press **Esc** in one of its boxes. It works in the whole project, never in a single scene.
 
 ![The search panel, with the results grouped by scene.](/novelworks-docs/screenshots/search-panel.png)
 
@@ -20,12 +20,12 @@ Not searched: who speaks a line, variable names, picture names and expression na
 
 ## Search
 
-Type in **{ui.searchPanel.find}**. A line below says "3 of 12" or "No results". Under it, results are grouped by scene (then characters, then items). Each row shows where the match is ("Moment 4 · Dialogue", "Character name"…) and a short extract with the match highlighted. At most 500 results are listed: type more words to narrow the search.
+Type in **{ui.searchPanel.find}**. A line below says "3 of 12" or "No results". Under it, results are grouped by scene (then characters, then items). Each row shows where the match is ("Moment 4 · Dialogue", "{tx.characterInspector.characterName}"…) and a short extract with the match highlighted. At most 500 results are listed: type more words to narrow the search.
 
 Two options narrow the search:
 
 - **{ui.searchPanel.matchCase}**: "Aa" is not "aa". Off by default.
-- **{ui.searchPanel.wholeWordsOnly}**: "Mia" but not "Miami". Off by default.
+- **{ui.searchPanel.wholeWordsOnly}**: "{tx.gameUIPreview.mia}" but not "Miami". Off by default.
 
 The text you type is searched exactly as written. There are no patterns.
 

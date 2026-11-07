@@ -13,7 +13,7 @@ The **{rt.game.history}** shows what has been said so far: dialogue lines with t
 
 ## Using it
 
-It opens scrolled to the latest line. Scroll with the wheel, by dragging (on a touch screen), or with the keys: arrows move by a little, **Page Up** / **Page Down** or **Space** by a screen, **Home** and **End** to the ends. When nothing has been said yet, it says "Nothing has been said yet."
+It opens scrolled to the latest line. Scroll with the wheel, by dragging (on a touch screen), or with the keys: arrows move by a little, **Page Up** / **Page Down** or **Space** by a screen, **Home** and **End** to the ends. When nothing has been said yet, it says "{tx.historyScreen.nothingHasBeenSaidYet}"
 
 ## Limits
 

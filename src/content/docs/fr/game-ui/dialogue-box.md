@@ -15,7 +15,7 @@ La **{ui.gameUI.dialogueBox}** est la boîte qui affiche le nom de celui qui par
 
 Choisissez **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
-- **{ui.gameUIInspector.color}** : une couleur et une **{ui.gameUIInspector.opacity}** (0 à 100 %, 80 par défaut). Cette couleur est aussi la couleur par défaut des boutons de choix, du menu pause et des autres panneaux (« Comme la boîte de dialogue »), et de l’onglet du nom. C’est encore vrai quand la boîte elle-même utilise une image : la couleur et l’opacité ne se voient alors plus sur la boîte, mais elles colorent toujours ces boutons et ces panneaux.
+- **{ui.gameUIInspector.color}** : une couleur et une **{ui.gameUIInspector.opacity}** (0 à 100 %, 80 par défaut). Cette couleur est aussi la couleur par défaut des boutons de choix, du menu pause et des autres panneaux (« Identique à la boîte de dialogue »), et de l’onglet du nom. C’est encore vrai quand la boîte elle-même utilise une image : la couleur et l’opacité ne se voient alors plus sur la boîte, mais elles colorent toujours ces boutons et ces panneaux.
 - **{ui.gameUIInspector.image}** : n’importe quelle image. Les parties transparentes restent transparentes : vous pouvez donc utiliser des bulles, des parchemins ou toute autre forme. Choisissez comment elle s’ajuste :
   - **{ui.gameUIInspector.stretch}** : remplit toute la boîte (l’image peut sembler écrasée) ;
   - **{ui.gameUIInspector.fit}** : l’image entière, en gardant sa forme ;
@@ -23,7 +23,7 @@ Choisissez **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
 ## Texte et nom
 
-- **{ui.gameUIInspector.textColor}** : « Comme la couleur du texte » par défaut.
+- **{ui.gameUIInspector.textColor}** : « Identique à la couleur du texte » par défaut.
 - **{ui.gameUIInspector.nameColor}** : **{ui.gameUIInspector.characterColors}** (la [couleur du nom](/novelworks-docs/fr/writing/characters/) propre à chaque personnage, par défaut) ou **{ui.gameUIInspector.oneColor}** (une seule **{ui.gameUIInspector.colorOfEveryName}** pour tous).
 - **{ui.gameUIInspector.textPadding}** : l’espace entre le bord de la boîte et le texte (0 à 15 %, 4 par défaut).
 - **{ui.gameUIInspector.speakerName}** : **{ui.gameUIInspector.insideTheBox}** (par défaut) ou **{ui.gameUIInspector.tabAbove}** (un onglet au-dessus de la boîte).

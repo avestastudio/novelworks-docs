@@ -40,7 +40,7 @@ A **{ui.moments.jump}** needs only a scene to go to. An **{ui.moments.ending}** 
 
 ## See where the story goes
 
-### The "Where this leads" bar
+### The "{tx.branches.whereTitle}" bar
 
 Above the game screen, one small button per exit of the selected moment shows where it leads, up to four and then "+N". A sentence that is too long ends with "…" (the full text is in the tooltip). Click one to jump to that scene. A "Back" button takes you to where you were (the last 20 steps are remembered). On a scene's first moment, a list shows what leads **into** the scene.
 

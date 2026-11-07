@@ -7,7 +7,7 @@ You can write your story in any text editor and bring it into NovelWorks, or sav
 
 ## Import a script
 
-Choose **File → {ui.native.menu.importScript}**. (There is no keyboard shortcut. The menu needs an open project.) The **{ui.scriptImport.title}** window opens.
+Choose **{ui.native.menu.file} → {ui.native.menu.importScript}**. (There is no keyboard shortcut. The menu needs an open project.) The **{ui.scriptImport.title}** window opens.
 
 1. Paste your text into the box, or click **{ui.scriptImport.openFile}** and choose a `.txt` or `.md` file. Only plain text is read, not Word files.
 2. Click the button at the bottom:
@@ -31,7 +31,7 @@ The window says the import is one undo step. In practice, an import took **two**
 
 ## Export the script
 
-Choose **File → {ui.native.menu.exportScript}**. NovelWorks asks where to save, with the title **{ui.native.exportIpc.saveTheScript}**, and writes a `.txt` file.
+Choose **{ui.native.menu.file} → {ui.native.menu.exportScript}**. NovelWorks asks where to save, with the title **{ui.native.exportIpc.saveTheScript}**, and writes a `.txt` file.
 
 - The file holds the **whole game**: every scene under a `# Name` heading, with a blank line between scenes. The Map's hidden scene is not included. You cannot export one scene alone.
 - It is written in UTF-8, with the words of your current editor language.

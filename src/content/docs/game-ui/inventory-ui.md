@@ -9,7 +9,7 @@ The **{ui.gameUI.inventory}** screen is the button players use to open their ite
 
 - **{ui.gameUIInspector.label}**: the text of the button, the title of the panel and the name of the pause-menu entry. Default "Inventory".
 - **{ui.gameUIInspector.cornerOfTheScreen}**: top left, top right (default), bottom left or bottom right.
-- **{ui.gameUIInspector.buttonStyle}**: "Same as Fonts & colors" by default.
+- **{ui.gameUIInspector.buttonStyle}**: "{tx.gameUIInspector.sameAsFontsColors}" by default.
 
 The button is hidden on the title screen, the end screen and while paused.
 
@@ -17,8 +17,8 @@ The button is hidden on the title screen, the end screen and while paused.
 
 These two colors paint **both the panel and the button**:
 
-- **{ui.gameUIInspector.panelColor}**: "Same as the dialogue box" by default (with "Text" button style, the button has no background).
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default.
+- **{ui.gameUIInspector.panelColor}**: "{tx.gameUIInspector.sameAsTheDialogueBox}" by default (with "{tx.gameUIInspector.text}" button style, the button has no background).
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default.
 
 ## What players get
 

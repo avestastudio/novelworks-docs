@@ -39,13 +39,13 @@ Right-click a zone for **{ui.contextMenus.duplicateZone}** and **{ui.contextMenu
 | Use an item | Checks the inventory. Choose **{ui.explorationInspectors.itemToUse}**, whether it **uses it up**, and a result **{ui.explorationInspectors.whenThePlayerHasIt}** (Examine, Go to scene, Continue or Change a variable). **{ui.explorationInspectors.withoutItOptional}** is the line shown when the player does not have it; if empty, nothing happens. (Inventory feature.) |
 
 - **{ui.explorationInspectors.works}**: **{ui.explorationInspectors.everyTime}** or **{ui.explorationInspectors.onceOnly}** (after its first use the zone does nothing more, in this playthrough).
-- **A condition**: "Only available when a variable or an item says so". When it is not true, **{ui.explorationInspectors.otherwise}**: **Hidden** (the zone and its props cannot be seen or clicked) or **Locked** (it shows its label but cannot be used, with an optional line shown when clicked).
+- **A condition**: "{tx.explorationInspectors.onlyAvailableWhenAVariableOrAn}". When it is not true, **{ui.explorationInspectors.otherwise}**: **Hidden** (the zone and its props cannot be seen or clicked) or **Locked** (it shows its label but cannot be used, with an optional line shown when clicked).
 
 ## Props
 
 **{ui.explorationInspectors.props}** are pictures of objects (a key, a letter, a vase) placed on the stage. They are not clickable: link a prop to a zone to hide them together.
 
-- **+ Prop** opens "Choose a prop" (pictures of type Prop, with an import option). A new prop goes in the center.
+- **+ Prop** opens "{tx.explorationInspectors.chooseAProp}" (pictures of type Prop, with an import option). A new prop goes in the center.
 - Drag a prop to move it, or a corner to resize it. In the inspector, **{ui.explorationInspectors.size}** is a width of 2 to 100 % of the screen.
 - **{ui.explorationInspectors.hiddenWithZone}**: when that zone is hidden by its condition, the prop is hidden too. **{ui.explorationInspectors.addAZoneAroundIt}** adds a zone around the prop.
 - **{ui.explorationInspectors.forward}** and **{ui.explorationInspectors.backward}** change which prop is in front. **{ui.explorationInspectors.removeProp}** deletes it.
@@ -71,10 +71,10 @@ Right-click a zone for **{ui.contextMenus.duplicateZone}** and **{ui.contextMenu
 - A zone needs an item that players can never get, or can never be used because its condition is never true.
 - A prop has no picture, or is linked to a deleted zone.
 - Moments placed after an exploration with no Continue zone can never be reached.
-- On the map, "Add a background image in Map." and "Players can never open the map…" (see [Map](/novelworks-docs/features/map/)).
+- On the map, "{tx.shared.map.addABackgroundImageInMap}" and "Players can never open the map…" (see [Map](/novelworks-docs/features/map/)).
 
 ## Elsewhere
 
-- On the [story map](/novelworks-docs/branching/story-map/), zones that go to a scene (including the result of "Use an item") are arrows labeled with the zone's name. A zone that only continues stays inside the scene: no arrow.
+- On the [story map](/novelworks-docs/branching/story-map/), zones that go to a scene (including the result of "{tx.shared.exploration.useAnItem}") are arrows labeled with the zone's name. A zone that only continues stays inside the scene: no arrow.
 - In [Script mode](/novelworks-docs/writing/script-mode-lines/), an exploration is a single line `exploration : 3 zones`. Zones and props are edited only in the Visual view, and are kept when you edit the text.
 - The [Map](/novelworks-docs/features/map/) uses the same zones, as locations.

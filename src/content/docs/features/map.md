@@ -13,7 +13,7 @@ The map is stored as a hidden scene: it does not appear in the Scenes tab or on 
 
 ### Create the map
 
-With no map yet, **{ui.mapMode.createYourMap}** says: "Choose a picture of your world, then add the places players can visit." Click **{ui.mapMode.addAMapBackground}** and pick a background or a CG. Later, **{ui.mapMode.changeBackground}** changes it.
+With no map yet, **{ui.mapMode.createYourMap}** says: "{tx.mapMode.chooseAPictureOfYourWorldThen}" Click **{ui.mapMode.addAMapBackground}** and pick a background or a CG. Later, **{ui.mapMode.changeBackground}** changes it.
 
 ## Add locations
 
@@ -38,12 +38,12 @@ In the map settings (no location selected), **{ui.mapMode.mapButtonAvailable}**:
 | Setting | What it means |
 |---|---|
 | **{ui.map.fromTheStart}** | Players can open the map with its button from the start of the game. |
-| **{ui.map.afterFirstShown}** | The Map button appears after the story first reaches a "Show map" moment. |
-| **{ui.map.storyOnly}** | Only a "Show map" moment in your story opens the map. No Map button is shown. |
+| **{ui.map.afterFirstShown}** | The Map button appears after the story first reaches a "{tx.moments.showMap}" moment. |
+| **{ui.map.storyOnly}** | Only a "{tx.moments.showMap}" moment in your story opens the map. No Map button is shown. |
 
-### The "Show map" moment
+### The "{tx.moments.showMap}" moment
 
-Add a **{ui.moments.showMap}** moment to a scene to open the map right away. It also makes the Map button appear when the setting is "After first shown". Players do not see the moment itself, and moments placed after it in the same scene can never be reached. A map opened this way has no Back button: the player must choose a destination.
+Add a **{ui.moments.showMap}** moment to a scene to open the map right away. It also makes the Map button appear when the setting is "{tx.map.afterFirstShown}". Players do not see the moment itself, and moments placed after it in the same scene can never be reached. A map opened this way has no Back button: the player must choose a destination.
 
 A map opened with its button has a **{rt.game.back}** button that returns the player to the exact moment where they were.
 
@@ -58,9 +58,9 @@ The game goes to the location's scene. If **{ui.mapMode.returnToMapWhenFinished}
 
 ## Warnings
 
-- The Map feature is off: a "Show map" moment does nothing.
+- The Map feature is off: a "{tx.moments.showMap}" moment does nothing.
 - Create your map and add a background; the map moment was deleted or is no longer an exploration.
-- Players can never open the map: the game has no start scene, or the button is waiting for a "Show map" moment that cannot be reached.
+- Players can never open the map: the game has no start scene, or the button is waiting for a "{tx.moments.showMap}" moment that cannot be reached.
 - Add a background image in Map.
 - A location goes to a scene but none is picked, or to a scene that was deleted.
 - Draw at least one zone for the player to click.

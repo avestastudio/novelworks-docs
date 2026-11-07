@@ -39,8 +39,8 @@ For Fonts and colors, the Dialogue box, Choices and the Pause menu, the button *
 
 ## Settings that work the same everywhere
 
-- **Colors.** A swatch opens a color picker, and a box takes a code (`#rgb` or `#rrggbb`). When a color is "Same as …" (for example "Same as the text color"), nothing is stored: it follows the other color. Once you choose a color, a small circular arrow next to it goes back to "Same as …".
-- **Button style.** A drop-down with **{ui.gameUIInspector.sameAsFontsColors}**, **{ui.gameUIInspector.pill}**, **{ui.gameUIInspector.rounded}**, **{ui.gameUIInspector.square}** and **{ui.gameUIInspector.text}** (no box, just the words). "Same as Fonts & colors" follows the global style.
+- **Colors.** A swatch opens a color picker, and a box takes a code (`#rgb` or `#rrggbb`). When a color is "Same as …" (for example "{tx.gameUIInspector.sameAsTheTextColor}"), nothing is stored: it follows the other color. Once you choose a color, a small circular arrow next to it goes back to "Same as …".
+- **Button style.** A drop-down with **{ui.gameUIInspector.sameAsFontsColors}**, **{ui.gameUIInspector.pill}**, **{ui.gameUIInspector.rounded}**, **{ui.gameUIInspector.square}** and **{ui.gameUIInspector.text}** (no box, just the words). "{tx.gameUIInspector.sameAsFontsColors}" follows the global style.
 - **Sliders** show their value with its unit, usually %. Percentages are relative to the screen, so your design holds at any size.
 - **Pictures.** A picture field shows a thumbnail with **{ui.gameUIInspector.choose_c7f937}** or **{ui.gameUIInspector.change}**, and an X to remove it. You can usually pick any of your images, or import a new one on the spot. (The title screen's background only offers backgrounds, CGs and UI pictures.) If a picture is deleted, the game falls back to the plain color or text.
 - **{ui.gameUIInspector.resetToDefault}.** The button at the bottom of a screen asks you to confirm, then puts **that screen only** back to how a new game looks. The other screens are not changed.

@@ -15,5 +15,5 @@ Select the Jump moment. In the inspector, choose the scene in **{ui.branchInspec
 - If the target scene was deleted, or none is picked, the editor warns you. In the game, such a jump continues with the next moment of the scene.
 - A scene can end with only one jump. On the [story map](/novelworks-docs/branching/story-map/), linking a scene whose last jump already has a scene is refused, while a jump with no scene is simply filled in.
 - Jumps that only lead back to each other make an endless loop: the game stops after 1000 automatic steps and shows the end screen. See [If… conditions](/novelworks-docs/branching/conditions/).
-- On the story map, a jump is an arrow labeled "jump".
+- On the story map, a jump is an arrow labeled "{tx.storyMap.jump}".
 - Jumps also exist in [Script mode](/novelworks-docs/writing/script-mode-conditions/) as `-> Park`.

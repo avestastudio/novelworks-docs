@@ -12,7 +12,7 @@ When you test a **{ui.variables.number}** in an [If…](/novelworks-docs/branchi
 | "Your choices can add up to +5 to Affection in total." | The Score starts at its start value and your choices can only raise it, by 5 at most. |
 | "In total, your choices can bring Affection from 0 to 5." | Some choices also lower it, so there is a lowest and a highest value. |
 | "Nothing changes Affection yet: it stays at 0." | No choice changes this Score. |
-| "✓ This can happen." | For a number you typed to compare with: it is within what is possible. |
+| "{tx.reachHint.possible}" | For a number you typed to compare with: it is within what is possible. |
 | "⚠ This can never be true: Affection stays between 0 and 5." | The test needs a value the Score can never reach, so that case can never be chosen. |
 
 Nothing is said about a Fact (yes or no), since it has no range.
@@ -24,7 +24,7 @@ NovelWorks looks at **the whole project**, not at one path:
 - The Score starts at its start value.
 - For every **choice** moment, a player takes one option. NovelWorks adds the **best** option (the most it can add) to the highest value, and the **worst** option (the most it can remove) to the lowest value.
 - An exploration zone set to **{ui.explorationInspectors.onceOnly}** that changes the Score counts once. A zone set to **{ui.explorationInspectors.everyTime}** (the default) can be used again and again, so it leaves that side without limit: see "When nothing is said".
-- A **"set to"** change makes the range wide on purpose: the lowest value is the smaller of the start value and the values it can be set to, and the highest is the larger one. Additions that come later still count.
+- A **"{tx.branchInspectors.setTo}"** change makes the range wide on purpose: the lowest value is the smaller of the start value and the values it can be set to, and the highest is the larger one. Additions that come later still count.
 
 ## When nothing is said
 

@@ -5,7 +5,7 @@ description: How NovelWorks saves your work, keeps earlier versions and lets you
 
 ## Saving
 
-- Click **{ui.topBar.save}**, choose **File → {ui.native.menu.save}**, or press **Cmd+S** (Mac) / **Ctrl+S** (Windows). A "Project saved." message confirms it.
+- Click **{ui.topBar.save}**, choose **{ui.native.menu.file} → {ui.native.menu.save}**, or press **Cmd+S** (Mac) / **Ctrl+S** (Windows). A "{tx.store.projectSaved}" message confirms it.
 - NovelWorks also **autosaves**: every 2 minutes, and whenever the window loses focus, but only if you have unsaved changes. The top bar then shows **{ui.topBar.savedAuto}**.
 - The save indicator reads **{ui.topBar.unsavedChanges}** until the next save.
 - If you close the window or the project with unsaved changes, NovelWorks asks whether to save, not to save, or to cancel.
@@ -23,7 +23,7 @@ Backups are earlier copies of `project.json`, kept in the `backups` folder insid
 
 ### Go back to a backup
 
-1. Choose **File → {ui.native.menu.restoreFromBackup}**.
+1. Choose **{ui.native.menu.file} → {ui.native.menu.restoreFromBackup}**.
 2. Pick a version in the list. Each row shows its date, its kind (**{ui.restoreBackupDialog.saved}**, **{ui.restoreBackupDialog.autosave}**, **{ui.restoreBackupDialog.beforeRestoringABackup}** or **{ui.restoreBackupDialog.beforeUpgrade}**) and how many scenes and moments it has.
 3. Click **{ui.restoreBackupDialog.restoreThisVersion}** (or double-click the row).
 
@@ -31,7 +31,7 @@ Your current version is kept as a backup too, and **{ui.native.menu.undo}** brin
 
 ## Undo and redo
 
-**Edit → {ui.native.menu.undo}** (**Cmd+Z** / **Ctrl+Z**) and **{ui.native.menu.redo}** (**Shift+Cmd+Z** on a Mac, **Ctrl+Y** or **Ctrl+Shift+Z** on Windows) go back and forward through your changes. The top bar has the same two arrows.
+**{ui.native.menu.edit} → {ui.native.menu.undo}** (**Cmd+Z** / **Ctrl+Z**) and **{ui.native.menu.redo}** (**Shift+Cmd+Z** on a Mac, **Ctrl+Y** or **Ctrl+Shift+Z** on Windows) go back and forward through your changes. The top bar has the same two arrows.
 
 - NovelWorks remembers the last **200** steps.
 - Typing in one text box is grouped: a burst of typing is one step, ended by a pause of about one second.

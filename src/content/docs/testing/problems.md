@@ -8,9 +8,9 @@ The editor warns you when something in your story is incomplete or can never wor
 ## Where warnings appear
 
 - **On a moment card** in the timeline, a warning triangle. Point at it to read all the problems of that moment.
-- **In the inspector** of the moment, a box "This moment needs your attention" lists them.
+- **In the inspector** of the moment, a box "{tx.branchInspectors.thisMomentNeedsYourAttention}" lists them.
 - **In the Scenes tab**, a red **{ui.scenesTab.unreachable}** tag on a scene nothing leads to.
-- **On the [story map](/novelworks-docs/branching/story-map/)**, a warning badge with a count on a scene card, and the **Unreachable** tag. The **{ui.storyMap.problems}** filter highlights the scenes that have warnings or are unreachable. The tag "Game ends here" is information, not a warning.
+- **On the [story map](/novelworks-docs/branching/story-map/)**, a warning badge with a count on a scene card, and the **Unreachable** tag. The **{ui.storyMap.problems}** filter highlights the scenes that have warnings or are unreachable. The tag "{tx.storyMap.gameEndsHere}" is information, not a warning.
 - **In the Map workspace**, a "Check your map" box.
 - **When you export**, a list of "things to check first" for the whole game. See [Web export](/novelworks-docs/publish/web-export/).
 - **In [Script mode](/novelworks-docs/writing/script-mode/)**, a separate set of yellow underlines on lines.
@@ -21,7 +21,7 @@ There is no counter of problems in the top bar and no panel that lists everythin
 
 | Warning | What it means and what to do |
 |---|---|
-| Players never see this moment: an ending, a jump, a "Show map" moment or an exploration with no Continue zone comes before it in this scene. | A moment placed after one that leaves the scene. Move or delete it. |
+| Players never see this moment: an ending, a jump, a "{tx.moments.showMap}" moment or an exploration with no Continue zone comes before it in this scene. | A moment placed after one that leaves the scene. Move or delete it. |
 
 ## Choice
 
@@ -82,11 +82,11 @@ Remember that an Ifâ€¦ with a broken condition is skipped by the game. See [Ifâ€
 
 | Warning | What to do |
 |---|---|
-| The Map feature is off: this moment does nothing. Turn it on in Features. | Turn Map on in Features (this is the warning of a "Show map" moment). |
-| Create your map in Map and add a background. / The map moment was deleted. Pick another exploration moment. / The map moment is no longer an exploration. Pick another one. | Create or fix the map. On a "Show map" moment, these end with "Until then, this moment does nothing." |
+| The Map feature is off: this moment does nothing. Turn it on in Features. | Turn Map on in Features (this is the warning of a "{tx.moments.showMap}" moment). |
+| Create your map in Map and add a background. / The map moment was deleted. Pick another exploration moment. / The map moment is no longer an exploration. Pick another one. | Create or fix the map. On a "{tx.moments.showMap}" moment, these end with "Until then, this moment does nothing." |
 | Add a background image in Map. | Choose a background. |
 | Players can never open the map: the game has no start scene. | Set a start scene. |
-| Players can never open the map: the Map button is off / waiting for a "Show map" moment, and no "Show map" moment can be reached. Add one, or make the map available always. | Add a "Show map" moment, or change the map's availability. |
+| Players can never open the map: the Map button is off / waiting for a "{tx.moments.showMap}" moment, and no "{tx.moments.showMap}" moment can be reached. Add one, or make the map available always. | Add a "{tx.moments.showMap}" moment, or change the map's availability. |
 
 ## Whole game (export window)
 

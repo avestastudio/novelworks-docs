@@ -10,7 +10,7 @@ When you play in the editor, a bar at the top holds the testing tools. Bar butto
 | Tool | What it does |
 |---|---|
 | **{ui.playOverlay.playing}** and where you are | The scene and the moment, kept up to date. |
-| "Right-click: game menu" | A reminder: a right-click opens the game's pause menu. |
+| "{tx.playOverlay.rightClickGameMenu}" | A reminder: a right-click opens the game's pause menu. |
 | **{ui.playOverlay.variablesItems}** | Shows or hides a panel with the live values of your variables and your items (see below). |
 | **{ui.playOverlay.openMap}** | Opens the map now, even if players could not open it yet at this point. **{rt.game.back}** returns to where you were. Only when your game has a map. |
 | **{ui.playOverlay.showSplash}** | Shows the "Made with NovelWorks" screen that an exported game opens with, at every start and on restart. Off by default. Switching it on restarts the test. |
@@ -23,8 +23,8 @@ When you play in the editor, a bar at the top holds the testing tools. Bar butto
 
 With **{ui.playOverlay.variablesItems}** (or **{ui.leftPanel.variables}**, when the Inventory feature is off) a panel shows:
 
-- **{ui.leftPanel.variables}**: each with its value now. A value that differs from where it started is highlighted. On the title screen and The End screen, it shows "(starting values)". You cannot edit a variable here: play to change it, so you can check what your choices change.
-- **{ui.gameUI.inventory}** (with the Inventory feature): all the items of your game, with a **−** and a **+** to remove or give one while testing, without a notice. A stackable item shows its count, a single item Yes or No. Before the game starts, it says "Start playing to give or remove items." The panel stays open or closed from one test to the next.
+- **{ui.leftPanel.variables}**: each with its value now. A value that differs from where it started is highlighted. On the title screen and The End screen, it shows "{tx.playOverlay.startingValues}". You cannot edit a variable here: play to change it, so you can check what your choices change.
+- **{ui.gameUI.inventory}** (with the Inventory feature): all the items of your game, with a **−** and a **+** to remove or give one while testing, without a notice. A stackable item shows its count, a single item Yes or No. Before the game starts, it says "{tx.playOverlay.startPlayingToGiveOrRemoveItems}" The panel stays open or closed from one test to the next.
 
 ## Test saves and read lines
 

@@ -7,9 +7,9 @@ Le **{ui.gameUI.pauseMenu}** « s’ouvre par un clic droit ou avec Esc ». Sur 
 
 ## Ce que vous pouvez changer
 
-- **{ui.gameUIInspector.buttonStyle}** : « Comme Polices et couleurs » par défaut.
-- **{ui.gameUIInspector.panelColor}** : « Comme la boîte de dialogue » par défaut.
-- **{ui.gameUIInspector.textColor}** : « Comme la couleur du texte » par défaut.
+- **{ui.gameUIInspector.buttonStyle}** : « Identique à Polices et couleurs » par défaut.
+- **{ui.gameUIInspector.panelColor}** : « Identique à la boîte de dialogue » par défaut.
+- **{ui.gameUIInspector.textColor}** : « Identique à la couleur du texte » par défaut.
 
 ## Les boutons
 
@@ -23,4 +23,4 @@ Ils ne se modifient pas ici, et ils suivent la langue du jeu :
 - le bouton Carte (intitulé « {rt.theme.map} » sauf si vous l’avez changé sur l’écran du [bouton de carte](/novelworks-docs/fr/game-ui/map-button/)), quand la carte peut être ouverte à ce moment-là (toujours, ou après que l’histoire l’a montrée une première fois) ;
 - **{rt.game.backToTitle}**.
 
-Le titre du panneau est « Paused ».
+Le titre du panneau est « Pause ».

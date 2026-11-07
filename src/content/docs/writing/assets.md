@@ -16,7 +16,7 @@ Every picture of your game is an **image** in your project: backgrounds, charact
 Three ways:
 
 - Click **{ui.assetsTab.import}** in the Assets tab (you can choose several files).
-- **Drag pictures onto the editor window.** An overlay says "Drop your images here". After a drop, the Assets tab opens.
+- **Drag pictures onto the editor window.** An overlay says "{tx.dropOverlay.dropYourImagesHere}". After a drop, the Assets tab opens.
 - Use the import shortcut of a picker, for example when you choose a background or an expression.
 
 A window then asks you to check **{ui.importDialog.name}** and **{ui.importDialog.type}** for each picture. NovelWorks guesses the type to save you time: a picture with transparency is guessed as a sprite, a landscape or square picture as a background, a portrait picture as a sprite. You can change every guess. **{ui.dialogs.cancel}** copies nothing.
@@ -42,7 +42,7 @@ Chips filter the list by type, with the number of pictures in each. Select a pic
 
 - **{ui.assetInspector.name}**: the name shown in NovelWorks. Changing it does not rename the file;
 - **{ui.assetInspector.type}**: you can change it at any time;
-- **{ui.assetInspector.usedIn}**: where the picture is used, or "Not used yet";
+- **{ui.assetInspector.usedIn}**: where the picture is used, or "{tx.assetInspector.notUsedYet}";
 - **{ui.assetInspector.file}**: its file in the `assets` folder.
 
 Right-click a picture for **{ui.contextMenus.rename}**, **{ui.contextMenus.showUsages}** and **{ui.contextMenus.delete}**.

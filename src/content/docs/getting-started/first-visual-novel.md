@@ -10,7 +10,7 @@ You will make a tiny story with a background, one character with two expressions
 1. Open NovelWorks. On the [projects screen](/novelworks-docs/getting-started/projects-screen/), click **{ui.projectHub.newProject}**.
 2. Type a name, check the location (or click **{ui.newProjectScreen.browse}**), leave the features unticked and click **{ui.newProjectScreen.createProject}**.
 
-The project opens with one scene, "Scene 1", and one empty line of dialogue.
+The project opens with one scene, "{tx.shared.project.firstScene}", and one empty line of dialogue.
 
 ## 2. Add your pictures
 
@@ -22,7 +22,7 @@ The project opens with one scene, "Scene 1", and one empty line of dialogue.
 
 1. Open the **{ui.leftPanel.characters}** tab and click **{ui.charactersTab.newCharacter}**.
 2. In the inspector, type the **{ui.characterInspector.characterName}** and choose a **{ui.characterInspector.nameColor}**.
-3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** for each picture (only pictures of type "Character sprite" are offered), give it a name ("Happy", "Surprised") and choose its image. The expression with the star is the one shown by default.
+3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** for each picture (only pictures of type "{tx.assetTypes.characterSprite}" are offered), give it a name ("Happy", "Surprised") and choose its image. The expression with the star is the one shown by default.
 
 ## 4. Write the first scene
 
@@ -42,7 +42,7 @@ You can already make a choice matter: see [How a story branches](/novelworks-doc
 
 ## 6. Add an ending
 
-At the end of each branch, add an **{ui.moments.ending}** moment. It is called "Good ending" at first: change the name if you like. After an ending, the player goes back to the title screen.
+At the end of each branch, add an **{ui.moments.ending}** moment. It is called "{tx.shared.scenes.goodEnding}" at first: change the name if you like. After an ending, the player goes back to the title screen.
 
 ## 7. Press Play
 

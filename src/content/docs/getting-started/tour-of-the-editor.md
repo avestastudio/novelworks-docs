@@ -23,7 +23,7 @@ From left to right:
 - **{ui.topBar.playFromHere}** plays from the selected moment. In the Map workspace it becomes **{ui.topBar.testMap}**.
 - **{ui.topBar.play}** plays from the title screen.
 
-On a narrow window the mode names and the "Play from here" label shrink to icons.
+On a narrow window the mode names and the "{tx.leftPanel.playFromHere}" label shrink to icons.
 
 ## The left panel
 
@@ -35,7 +35,7 @@ Tabs:
 - **{ui.leftPanel.variables}**: what your game remembers.
 - **{ui.leftPanel.items}**: only when the Inventory feature is on.
 
-At the bottom: **{ui.leftPanel.map}** (only when the Map feature is on), **{ui.leftPanel.features}** (opens the list of optional parts of your game) and a tip that changes every 30 seconds. While you search (**Edit → {ui.native.menu.findAndReplace}**), the search panel replaces the tabs.
+At the bottom: **{ui.leftPanel.map}** (only when the Map feature is on), **{ui.leftPanel.features}** (opens the list of optional parts of your game) and a tip that changes every 30 seconds. While you search (**{ui.native.menu.edit} → {ui.native.menu.findAndReplace}**), the search panel replaces the tabs.
 
 You can drag the edge between panels to resize them; double-click the edge to go back to the default width. Your widths are remembered on this computer.
 

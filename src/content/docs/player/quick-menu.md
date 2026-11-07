@@ -18,4 +18,4 @@ The quick menu is a small, discreet bar over the story. You choose its place, lo
 - The buttons are faint until the pointer is over them. Auto and Skip look pressed while on.
 - Clicking a button does not move the story forward. Pressing any button other than Auto or Skip turns the reading mode off.
 - The bar is hidden on the title screen and the end screen, and while a screen or menu is open. **{rt.game.quickLoad}** is greyed out until a quick save exists (in the pause menu it is hidden instead). If the browser cannot save, the Save and Load screens say so.
-- Hiding a button keeps its key. Screen readers announce the group as "Reading controls".
+- Hiding a button keeps its key. Screen readers announce the group as "{tx.quickMenu.label}".

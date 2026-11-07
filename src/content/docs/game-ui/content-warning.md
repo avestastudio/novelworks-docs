@@ -11,7 +11,7 @@ Switch on **{ui.contentWarning.enabled}**. It is off by default.
 
 ## What it says
 
-- **{ui.contentWarning.topics}**: tick any of eleven topics: Violence, Blood, Death, Suicide, Self-harm, Abuse, Horror, Sexual content, Drugs, Strong language, Flashing lights. The player's screen lists the ticked ones under "This game contains:", always in this order.
+- **{ui.contentWarning.topics}**: tick any of eleven topics: Violence, Blood, Death, Suicide, Self-harm, Abuse, Horror, Sexual content, Drugs, Strong language, Flashing lights. The player's screen lists the ticked ones under "{tx.contentWarning.contains}", always in this order.
 - **{ui.contentWarning.message}**: free text shown under the list, for example a kind word or a pointer to help. Optional.
 
 ## When it appears

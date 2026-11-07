@@ -11,7 +11,7 @@ description: What the messages of NovelWorks mean and what to do, for opening pr
 | "project.json is damaged: it is not valid JSON." | The file was changed or cut short. Open a backup: copy a file from `backups` over `project.json` (keep the damaged one aside). |
 | "This project was saved by a newer version of Novelworks (format N). Please update Novelworks to open it." | Install the latest NovelWorks. Nothing was changed. |
 | "Novelworks could not save a safety copy of this project before upgrading it, so it was not opened. Your project has not been changed." | The folder cannot be written to. Check its permissions and the free space, then open it again. |
-| "Folder not found" (projects screen) | The project's folder was moved or deleted. Click **{ui.projectHub.locate}** and pick its new place. |
+| "{tx.projectHub.folderNotFound}" (projects screen) | The project's folder was moved or deleted. Click **{ui.projectHub.locate}** and pick its new place. |
 
 ## Activation
 
@@ -34,7 +34,7 @@ The messages players see when the browser blocks storage are in [Saving and load
 
 ## When something looks wrong in the story
 
-- A scene marked **{ui.scenesTab.unreachable}**, a triangle on a card, or a box "This moment needs your attention": see [Problems: every warning](/novelworks-docs/testing/problems/).
+- A scene marked **{ui.scenesTab.unreachable}**, a triangle on a card, or a box "{tx.branchInspectors.thisMomentNeedsYourAttention}": see [Problems: every warning](/novelworks-docs/testing/problems/).
 - A character is missing from the screen: characters stay on stage until something changes them, and leave when a moment says so. See [The stage](/novelworks-docs/concepts/stage/).
 - A choice option does not show: it may have a condition. See [Choices](/novelworks-docs/branching/choices/).
 - The story skips an If…: a condition checks something that was deleted. See [If… conditions](/novelworks-docs/branching/conditions/).

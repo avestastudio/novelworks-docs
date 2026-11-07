@@ -21,7 +21,7 @@ If your game has no start scene, or the start scene has no moments, **Play** doe
 
 ## While you play
 
-A bar at the top shows where you are ("The classroom · Moment 2 of 5", with "Choice", "Ending" or "Paused" added when that applies, or "Title screen" or "The End"). It also has the tools described in [Play mode tools](/novelworks-docs/testing/test-saves-and-read-lines/).
+A bar at the top shows where you are ("The classroom · Moment 2 of 5", with "Choice", "{tx.moments.ending}" or "{tx.game.paused}" added when that applies, or "{tx.playOverlay.titleScreen}" or "The End"). It also has the tools described in [Play mode tools](/novelworks-docs/testing/test-saves-and-read-lines/).
 
 You play like a player: click or press **Space** / **Enter** to advance, **1** to **6** to pick an option, **A** for Auto, **S** for Skip, **H** for History, **F5** and **F9** for quick save and load. **Right-click** opens the game's pause menu. See [Keys and touch screens](/novelworks-docs/player/keys-and-touch/).
 

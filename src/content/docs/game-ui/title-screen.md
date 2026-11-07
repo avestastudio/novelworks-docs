@@ -14,7 +14,7 @@ Choose **{ui.gameUIInspector.color}** or **{ui.gameUIInspector.image}**.
 
 ## Logo
 
-**{ui.gameUIInspector.logoImage}**: any picture. It is drawn in the upper part of the screen, kept in proportion. With no logo, the game writes the **title of your game** (set in the [project settings](/novelworks-docs/getting-started/editor-settings/)), or "Untitled game" if it is empty.
+**{ui.gameUIInspector.logoImage}**: any picture. It is drawn in the upper part of the screen, kept in proportion. With no logo, the game writes the **title of your game** (set in the [project settings](/novelworks-docs/getting-started/editor-settings/)), or "{tx.export.untitled}" if it is empty.
 
 ## Menu
 

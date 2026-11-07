@@ -24,7 +24,7 @@ The buttons of a choice appear when the question has fully appeared, so the firs
 
 ## Always instant
 
-- the speed "Instant";
+- the speed "{tx.optionsScreen.speedInstant}";
 - Skip mode;
 - a line after loading a save;
 - when the player has not chosen a speed and their system asks for **reduced motion**. If they pick a speed themselves, it is used.

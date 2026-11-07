@@ -18,7 +18,7 @@ The **{ui.quickMenu.title}** is a small bar of "reading controls over the story"
 - **{ui.gameUIInspector.buttonStyle}**: Pill by default.
 - **{ui.quickMenu.textSize}**: 60 to 140 % of the base text size (default 80).
 - **{ui.quickMenu.buttonColor}**: a translucent dark background by default. A link brings back the default.
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default.
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default.
 
 ## Visible buttons
 

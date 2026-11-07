@@ -24,8 +24,8 @@ Saves made while you test in the editor are separate (see [Play mode tools](/nov
 
 ## Quick save and quick load
 
-- **F5** quick-saves while playing ("Quick saved"): it does not reload the page.
-- **F9** quick-loads, even from the title screen. If there is no quick save, the game says "No quick save yet. Press F5 to make one." Loading while playing asks "Load this save? Unsaved progress will be lost."
+- **F5** quick-saves while playing ("{tx.game.quickSaved}"): it does not reload the page.
+- **F9** quick-loads, even from the title screen. If there is no quick save, the game says "{tx.game.noQuickSaveYetPressF5To}" Loading while playing asks "{tx.game.loadThisSaveUnsavedProgressWillBe}"
 - The same actions are buttons of the pause menu and, if you show them, of the quick menu.
 
 ## Autosave
@@ -51,6 +51,6 @@ Saves point at scenes and moments by their identity, so they keep working when y
 
 ## When the browser does not allow saving
 
-In private browsing, or with site data turned off, the browser may block storage. The Save screen then says "Saving is not available in this browser (private browsing, or site data turned off).", and the Load screen says there is nothing to load. A quick save explains that "You can keep playing, but your progress will not be kept." If the storage is full: "The save could not be written: the browser storage is full. Delete an old save and try again."
+In private browsing, or with site data turned off, the browser may block storage. The Save screen then says "{tx.savesScreen.savingIsNotAvailableInThisBrowser}", and the Load screen says there is nothing to load. A quick save explains that "You can keep playing, but your progress will not be kept." If the storage is full: "The save could not be written: the browser storage is full. Delete an old save and try again."
 
 Players' options and read lines then only last for the session.

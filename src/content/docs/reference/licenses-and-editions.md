@@ -5,7 +5,7 @@ description: The editions of NovelWorks, what each can do, what your games inclu
 
 ## Your games are yours
 
-The About window of NovelWorks says: "Make visual novels without code. Your games belong to you, with no royalties." The fonts included in your games keep their own open licenses (see below).
+The About window of NovelWorks says: "{tx.aboutDialog.makeVisualNovelsWithoutCodeYourGames}" The fonts included in your games keep their own open licenses (see below).
 
 ## Editions
 

@@ -3,7 +3,7 @@ title: Intro
 description: Affichez le logo de votre studio ou d’autres images avant l’écran-titre.
 ---
 
-L’**{ui.gameUI.creatorSplash}** affiche jusqu’à trois images, l’une après l’autre, avant l’écran-titre. Utilisez-la pour le logo de votre studio ou un générique. Elle vient après l’écran d’accueil fixe « Created with NovelWorks », et avant l’[avertissement de contenu](/novelworks-docs/fr/game-ui/content-warning/).
+L’**{ui.gameUI.creatorSplash}** affiche jusqu’à trois images, l’une après l’autre, avant l’écran-titre. Utilisez-la pour le logo de votre studio ou un générique. Elle vient après l’écran d’accueil fixe « Créé avec NovelWorks », et avant l’[avertissement de contenu](/novelworks-docs/fr/game-ui/content-warning/).
 
 ## Images
 

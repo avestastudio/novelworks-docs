@@ -9,19 +9,19 @@ description: Quick answers to the questions people ask most.
 
 **Who owns my games?** You do: "Your games belong to you, with no royalties," says the About window. The free fonts included in your games keep their own open licenses.
 
-**Which languages does the editor speak?** English, French, Spanish, Brazilian Portuguese, Simplified Chinese, Russian and Japanese. Change it in **View → Language**. Your story stays in the language you write it in.
+**Which languages does the editor speak?** English, French, Spanish, Brazilian Portuguese, Simplified Chinese, Russian and Japanese. Change it in **{ui.menu.view} → Language**. Your story stays in the language you write it in.
 
 **Can I use the demo to make a full game?** Yes, you can build and play everything. Exporting is limited to games of 5 scenes or fewer. See [The free demo](/novelworks-docs/getting-started/demo-edition/).
 
 ## Your work
 
-**Where is my project?** In the folder you chose when you created it. The project settings show it under "Saved in". To copy a project, copy the whole folder.
+**Where is my project?** In the folder you chose when you created it. The project settings show it under "{tx.projectSettings.savedIn}". To copy a project, copy the whole folder.
 
-**I lost a change.** Try **{ui.topBar.undo}** (up to 200 steps), then **File → Restore from Backup…**. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).
+**I lost a change.** Try **{ui.topBar.undo}** (up to 200 steps), then **{ui.native.menu.file} → Restore from Backup…**. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).
 
 **I deleted a picture, a scene or a variable by mistake.** Press **{ui.topBar.undo}**. A deleted picture is kept in `backups/deleted-assets` and comes back with Undo. A deleted scene or variable can be undone, and meanwhile the places that used it show warnings.
 
-**Can I move my project to another computer?** Yes: copy its folder, then open it with **File → Open Project…**.
+**Can I move my project to another computer?** Yes: copy its folder, then open it with **{ui.native.menu.file} → Open Project…**.
 
 ## Writing
 
@@ -45,6 +45,6 @@ description: Quick answers to the questions people ask most.
 
 ## Problems
 
-**The export is locked.** In the full version, activate NovelWorks: **Help → Activate NovelWorks…**. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/).
+**The export is locked.** In the full version, activate NovelWorks: **{ui.native.role.help} → Activate NovelWorks…**. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/).
 
 **Something else is wrong.** See [Troubleshooting and messages](/novelworks-docs/reference/troubleshooting/), or [report a bug](/novelworks-docs/reference/report-a-bug/).

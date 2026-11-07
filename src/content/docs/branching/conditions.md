@@ -47,14 +47,14 @@ Under a Score test, a line tells you what your choices can add up to, and whethe
 
 Click **{ui.conditionCases.addTest}**. Then choose how they combine:
 
-- **{ui.conditionCases.matchAll}**: every condition must hold ("and");
+- **{ui.conditionCases.matchAll}**: every condition must hold ("{tx.conditionCases.and}");
 - **{ui.conditionCases.matchAny}**: one is enough ("or").
 
 The select appears when a case has two or more conditions. To remove one, use **{ui.conditionCases.removeTest}**, which only appears when there is more than one. With one condition left, the combining choice disappears.
 
 ## Where to go
 
-Under each case: the scene to go to. A case needs a scene (the editor warns when it has none). Then *otherwise*, which can also be "Continue (next moment)". If you pick no scene for *otherwise*, the story simply continues with the next moment.
+Under each case: the scene to go to. A case needs a scene (the editor warns when it has none). Then *otherwise*, which can also be "{tx.linkSelects.continueNextMoment}". If you pick no scene for *otherwise*, the story simply continues with the next moment.
 
 ## What the game does
 
@@ -73,8 +73,8 @@ If Ifs and jumps only lead back to each other (scene A goes to B, and B goes str
 Under the cases, **{ui.memory.tryTitle}** lets you check your If… without playing. Pretend that a Score has a value, or that the player has a number of an item, and NovelWorks tells you where the story would go:
 
 - "Case 2 holds: goes to …";
-- "Otherwise: goes to …", or "Otherwise: continues with the next moment";
-- "Pick what to check first." when a condition is not finished.
+- "Otherwise: goes to …", or "{tx.memory.tryContinue}";
+- "{tx.memory.tryPickFirst}" when a condition is not finished.
 
 It uses the same rules as the game. With one case and one condition, there is one box; otherwise there is one box per variable or item used.
 

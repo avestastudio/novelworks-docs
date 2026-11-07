@@ -3,7 +3,7 @@ title: Variables
 description: Create and manage the Scores and Facts your game remembers, and see where each one is used.
 ---
 
-A **variable** is something the game remembers. There are two kinds, explained in [The game's memory](/novelworks-docs/concepts/game-memory/): a **{ui.variables.number}** (a number that goes up or down, like Mia's affection or money) and a **{ui.variables.yesNo}** (did something happen: yes or no, like "Met Mia" or "Has the key").
+A **variable** is something the game remembers. There are two kinds, explained in [The game's memory](/novelworks-docs/concepts/game-memory/): a **{ui.variables.number}** (a number that goes up or down, like Mia's affection or money) and a **{ui.variables.yesNo}** (did something happen: yes or no, like "{tx.memory.factExample}" or "Has the key").
 
 Things the player carries (keys, coins…) are not variables. They are **items**, part of the [Inventory](/novelworks-docs/features/inventory/) feature.
 
@@ -17,7 +17,7 @@ You can also create a variable at the moment you need it, with **{ui.memory.reme
 
 ## The variable inspector
 
-- **{ui.variableInspector.name}**: for example "Mia affection". Renaming is safe: everything that uses the variable follows the new name.
+- **{ui.variableInspector.name}**: for example "{tx.variablesTab.miaAffection}". Renaming is safe: everything that uses the variable follows the new name.
 - **{ui.variableInspector.type}**: Score or Fact.
 - **{ui.variableInspector.startsAt}**: the value every new game starts with.
 - For a Score, a sentence about what your choices can add up to. See [Where your choices can lead](/novelworks-docs/branching/reach/).
@@ -33,13 +33,13 @@ If the variable is already used, NovelWorks asks you to confirm, and lists where
 
 - the start value becomes 0 for a Score, or No for a Fact;
 - every change and every test on this variable is reset: to 0 for a Score, to Yes for a Fact;
-- a Fact can only be set, so an "add" becomes "set to", and a comparison that does not fit the new type becomes "is".
+- a Fact can only be set, so an "{tx.branchInspectors.add}" becomes "{tx.branchInspectors.setTo}", and a comparison that does not fit the new type becomes "is".
 
 If the variable is not used, the type changes at once.
 
 ## Delete a variable
 
-NovelWorks asks you to confirm. If the variable is used, it lists where, and warns that **those places will show a warning until you pick another variable**. Only the variable is removed: the changes and tests that used it are kept, show a warning, and appear as "Deleted variable (pick another)".
+NovelWorks asks you to confirm. If the variable is used, it lists where, and warns that **those places will show a warning until you pick another variable**. Only the variable is removed: the changes and tests that used it are kept, show a warning, and appear as "{tx.linkSelects.deletedVariablePickAnother}".
 
 ## Variables and the player's saves
 

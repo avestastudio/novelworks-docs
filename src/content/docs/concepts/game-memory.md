@@ -8,7 +8,7 @@ A choice only matters if the game **remembers** it. NovelWorks stores what happe
 | Kind | What it holds | Example |
 |---|---|---|
 | **{ui.variables.number}** | A number the game can raise or lower. | Mia's affection, money |
-| **{ui.variables.yesNo}** | Did something happen or not: **{ui.variables.yes}** or **{ui.variables.no}**. | "Met Mia", "Has the key" |
+| **{ui.variables.yesNo}** | Did something happen or not: **{ui.variables.yes}** or **{ui.variables.no}**. | "{tx.memory.factExample}", "Has the key" |
 
 Items the player carries (keys, letters, coins…) are a separate, optional part of the game: see [Inventory](/novelworks-docs/features/inventory/).
 
@@ -22,7 +22,7 @@ If you delete a variable that is used somewhere, NovelWorks warns you. The place
 
 You rarely need the Variables tab first. In a **{ui.moments.choice}**, each option has a **{ui.branchInspectors.changes}** area. Click **{ui.memory.remember}** and the panel asks **{ui.memory.rememberTitle}**:
 
-1. Pick **{ui.memory.scoreTitle}** (a number that goes up or down, such as "Mia's affection") or **{ui.memory.factTitle}** (something that happened: yes or no, such as "Met Mia"), and type a name in **{ui.memory.nameLabel}**.
+1. Pick **{ui.memory.scoreTitle}** (a number that goes up or down, such as "Mia's affection") or **{ui.memory.factTitle}** (something that happened: yes or no, such as "{tx.memory.factExample}"), and type a name in **{ui.memory.nameLabel}**.
 2. Or choose a variable you already have with **{ui.memory.orPick}**.
 3. Click **{ui.memory.createAndUse}**.
 

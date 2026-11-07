@@ -15,10 +15,10 @@ Le **{ui.quickMenu.title}** est une petite barre de « commandes de lecture au-d
 
 ## Apparence
 
-- **{ui.gameUIInspector.buttonStyle}** : Pilule par défaut.
+- **{ui.gameUIInspector.buttonStyle}** : Capsule par défaut.
 - **{ui.quickMenu.textSize}** : 60 à 140 % de la taille de texte de base (80 par défaut).
 - **{ui.quickMenu.buttonColor}** : par défaut, un fond sombre translucide. Un lien rétablit la valeur par défaut.
-- **{ui.gameUIInspector.textColor}** : « Comme la couleur du texte » par défaut.
+- **{ui.gameUIInspector.textColor}** : « Identique à la couleur du texte » par défaut.
 
 ## Boutons visibles
 

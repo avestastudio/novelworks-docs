@@ -46,7 +46,7 @@ If you turn the Inventory feature off, players lose the button, the menu entry a
 
 ## Testing
 
-In Play mode, **{ui.playOverlay.variablesItems}** shows every item of your game with a **−** and a **+** to give or remove one while you test (without a notice). Before the game starts it says "Start playing to give or remove items."
+In Play mode, **{ui.playOverlay.variablesItems}** shows every item of your game with a **−** and a **+** to give or remove one while you test (without a notice). Before the game starts it says "{tx.playOverlay.startPlayingToGiveOrRemoveItems}"
 
 ## Warnings
 

@@ -18,7 +18,7 @@ description: La police, la couleur du texte, la couleur principale et le style d
 
   Les fichiers de police et les textes de leur licence sont inclus dans chaque jeu exporté.
 
-- **{ui.gameUIInspector.textColor}** : la couleur du texte de tout le jeu. Par défaut, c’est le blanc. Les écrans qui indiquent « Comme la couleur du texte » la suivent.
+- **{ui.gameUIInspector.textColor}** : la couleur du texte de tout le jeu. Par défaut, c’est le blanc. Les écrans qui indiquent « Identique à la couleur du texte » la suivent.
 
 ### Langues et polices
 

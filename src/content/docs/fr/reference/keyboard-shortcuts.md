@@ -1,42 +1,83 @@
 ---
-title: "Raccourcis clavier"
-description: "Les raccourcis de l’éditeur et des jeux."
+title: Raccourcis clavier
+description: Tous les raccourcis de l’éditeur et des jeux, sur Mac et sur Windows.
 ---
 
-Les touches Mac figurent ci-dessous. Sous Windows, remplacez **Cmd** par **Ctrl**. **Help → Keyboard Shortcuts** (**Cmd/Ctrl+/**) affiche aussi la liste.
+Dans l’éditeur, **Aide → {ui.native.menu.keyboardShortcuts}** (**Cmd+/** sur Mac, **Ctrl+/** sous Windows) ouvre la même liste. Un raccourci marqué « pendant la saisie » fonctionne aussi quand une zone de texte a le focus ; les autres non.
 
-## Éditeur
+## Dans l’éditeur
+
+<!-- shortcuts:start -->
+### Projet
+
+| Action | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.save} | ⌘S | Ctrl+S |
+| {ui.shortcuts.undo} | ⌘Z | Ctrl+Z |
+| {ui.shortcuts.redo} | ⇧⌘Z | Ctrl+Y or Ctrl+Shift+Z |
+| {ui.shortcuts.playFromTheTitleScreen} | ⌘P | Ctrl+P |
+| {ui.shortcuts.playFromTheSelectedMoment} | ⇧⌘P | Ctrl+Shift+P |
+| {ui.shortcuts.findAndReplace} | ⌘F | Ctrl+F |
+| {ui.native.menu.exportForWeb} | ⌘E | Ctrl+E |
+| {ui.shortcuts.keyboardShortcuts} | ⌘/ | Ctrl+/ |
+
+### Moments et scènes
+
+| Action | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.newDialogueMomentAfterThisOne} | ⌘Enter | Ctrl+Enter |
+| {ui.shortcuts.duplicateMomentOrTheSelectedZone} | ⌘D | Ctrl+D |
+| {ui.shortcuts.copySelected} | ⌘C | Ctrl+C |
+| {ui.shortcuts.cutSelected} | ⌘X | Ctrl+X |
+| {ui.shortcuts.pasteSelected} | ⌘V | Ctrl+V |
+| {ui.shortcuts.deleteMomentOrTheSelectedCharacterZone} | Delete / Backspace | Delete / Backspace |
+| {ui.shortcuts.previousNextMoment} | ← / → | ← / → |
+| {ui.shortcuts.previousNextMomentAlsoWhileTyping} | ⌘[ / ⌘] | Ctrl+[ / Ctrl+] |
+| {ui.shortcuts.firstLastMoment} | Home / End | Home / End |
+
+### Panneaux
+
+| Action | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.scenes} | ⌘1 | Ctrl+1 |
+| {ui.shortcuts.assets} | ⌘2 | Ctrl+2 |
+| {ui.shortcuts.characters} | ⌘3 | Ctrl+3 |
+| {ui.shortcuts.variables} | ⌘4 | Ctrl+4 |
+| {ui.shortcuts.gameUI} | ⌘5 | Ctrl+5 |
+| {ui.shortcuts.storyMap} | ⌘6 | Ctrl+6 |
+
+### Écriture
+
+| Action | Mac | Windows |
+|---|---|---|
+| {ui.shortcuts.nextLineANewMomentWithThe} | Enter | Enter |
+| {ui.shortcuts.newLineInTheSameBox} | ⇧Enter | Shift+Enter |
+<!-- shortcuts:end -->
+
+Notes :
+
+- **Couper, copier et coller** fonctionnent sur un moment, une scène (dans l’onglet Scènes) ou un personnage de l’écran du jeu, dans la vue Visuel. Voir [Copier, coller et dupliquer](/novelworks-docs/fr/writing/copy-paste-duplicate/).
+- Les raccourcis **jouer**, **dupliquer**, **nouveau moment**, **moment précédent/suivant** (avec **Cmd+[** / **Cmd+]**) et **panneaux** fonctionnent pendant la saisie. Supprimer, les flèches, **Home** et **End** non.
+- Les raccourcis des panneaux basculent vers le mode Histoire, sauf Interface du jeu (**Cmd+5**) et Carte de l’histoire (**Cmd+6**), qui basculent vers ces modes.
+- Tous les raccourcis sont ignorés pendant que vous jouez, et tant qu’une fenêtre, un menu ou une fenêtre contextuelle est ouvert.
+- Dans l’espace Carte, `Delete` et **Cmd+D** agissent sur le lieu sélectionné.
+- Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Enter** / **Ctrl+Enter** signifie « Jouer à partir du curseur » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
+
+## Dans un jeu
+
+Ces raccourcis fonctionnent dans les jeux exportés et dans le mode Jouer.
 
 | Action | Touches |
 |---|---|
-| Enregistrer | Cmd+S |
-| Annuler / rétablir | Cmd+Z / Shift+Cmd+Z (Windows : Ctrl+Y) |
-| Jouer depuis le titre | Cmd+P |
-| Jouer depuis le moment sélectionné | Shift+Cmd+P |
-| Rechercher et remplacer | Cmd+F |
-| Exporter pour le web | Cmd+E |
-| Nouveau projet / ouvrir | Cmd+N / Cmd+O |
-| Nouveau dialogue après ce moment | Cmd+Enter |
-| Dupliquer le moment | Cmd+D |
-| Supprimer moment, personnage, zone ou objet de décor | Delete ou Backspace |
-| Moment précédent / suivant | ← / → (Cmd+[ et Cmd+] fonctionnent aussi pendant la saisie) |
-| Premier / dernier moment | Home / End |
-| Scenes, Assets, Characters, Variables | Cmd+1, 2, 3, 4 |
-| Game UI | Cmd+5 |
-| Story map | Cmd+6 |
-| Réplique suivante pendant la saisie | Enter |
-| Retour à la ligne dans la même boîte | Shift+Enter |
+| Passer à la suite (termine d’abord le texte) | Clic, **Space** ou **Enter** |
+| Choisir une option | **1** à **6** (la Nᵉ option à l’écran) |
+| Menu pause | **Esc** ou clic droit |
+| Sauvegarde rapide / chargement rapide | **F5** / **F9** |
+| Historique | **H** ou molette vers le haut |
+| Auto | **A** |
+| Passer | **S**, ou maintenir **Ctrl** |
+| Inventaire | **I** (fonctionnalité Inventaire) |
+| Carte | **M** (quand le bouton Carte est affiché) |
+| Passer d’un bouton ou d’une zone à l’autre | **Tab** |
 
-## Dans le jeu
-
-| Action | Touches |
-|---|---|
-| Avancer | Clic, Space ou Enter |
-| Choisir une option | 1 à 6 |
-| Menu pause | Esc ou clic droit |
-| Sauvegarde / chargement rapides | F5 / F9 |
-| History | H ou molette vers le haut |
-| Auto | A |
-| Skip | S ou maintenir Ctrl |
-| Inventory | I |
-| Map | M |
+Plus de détails, avec les écrans tactiles : [Touches et écrans tactiles](/novelworks-docs/fr/player/keys-and-touch/).

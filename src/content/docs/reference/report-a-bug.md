@@ -3,7 +3,7 @@ title: Report a bug
 description: Tell us when something is wrong, and what to include.
 ---
 
-Choose **Help → {ui.native.menu.reportABug}**. It opens the NovelWorks contact form in your web browser. The same link is in the About window, and on the left of the projects screen.
+Choose **{ui.native.role.help} → {ui.native.menu.reportABug}**. It opens the NovelWorks contact form in your web browser. The same link is in the About window, and on the left of the projects screen.
 
 ## What to include
 

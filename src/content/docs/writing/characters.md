@@ -20,7 +20,7 @@ You can also create a character while importing pictures: see [Images](/novelwor
 
 Under **{ui.characterInspector.expressions}**, add one picture for each mood (happy, sad, angry…).
 
-- Click **{ui.characterInspector.addExpression}** and choose a picture of type "Character sprite", or import a new one from the picker. The expression takes the picture's name.
+- Click **{ui.characterInspector.addExpression}** and choose a picture of type "{tx.assetTypes.characterSprite}", or import a new one from the picker. The expression takes the picture's name.
 - Type a different name in **{ui.characterInspector.expressionName}** if you wish.
 - Click the star to **{ui.characterInspector.makeThisTheDefaultExpression}**. The first expression you add is the default. It is what shows when a character arrives without an expression.
 - Click the picture to **{ui.characterInspector.changeImage}**. The old picture stays in your images.
@@ -34,7 +34,7 @@ An avatar is a small portrait shown in the dialogue box next to the name. In **{
 - **{ui.characterInspector.fixed}**: the same portrait every time this character speaks;
 - **{ui.characterInspector.perExpression}**: a portrait for each expression. Expressions without one use the default avatar.
 
-Avatars can be pictures of type "Avatar", "Character sprite" or "UI".
+Avatars can be pictures of type "{tx.assetTypes.avatar}", "{tx.assetTypes.characterSprite}" or "UI".
 
 ## Put a character on stage
 

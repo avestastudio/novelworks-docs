@@ -10,19 +10,19 @@ The **{ui.gameUI.saveLoad}** screens are reached from the title screen and the p
 Under **{ui.gameUIInspector.screen}**:
 
 - **{ui.gameUIInspector.backgroundColor}**: the title screen's color by default;
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default;
-- **{ui.gameUIInspector.buttonStyle}**: the style of the Back button. (The confirmation questions, such as "Overwrite" and "Delete", take the button style of the [pause menu](/novelworks-docs/game-ui/pause-menu/).)
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default;
+- **{ui.gameUIInspector.buttonStyle}**: the style of the Back button. (The confirmation questions, such as "{tx.savesScreen.overwrite}" and "{tx.savesScreen.delete}", take the button style of the [pause menu](/novelworks-docs/game-ui/pause-menu/).)
 
 Under **{ui.gameUIInspector.slots}**:
 
-- **{ui.gameUIInspector.slotColor}**: the color of each slot tile ("Same as the dialogue box" by default).
+- **{ui.gameUIInspector.slotColor}**: the color of each slot tile ("{tx.gameUIInspector.sameAsTheDialogueBox}" by default).
 
 ## What players get
 
 - **12 save slots**, shown in a grid of three columns, a **quick save** and an **autosave** at the start of each new scene.
 - Each slot shows a small picture of the moment (background, props and characters, without the dialogue), the scene name, the date and the play time. An empty slot says "Empty".
 - The **{rt.game.load}** screen lists the Autosave and the Quick save first, then slots 1 to 12. The **{rt.game.save}** screen lists slots 1 to 12.
-- Saving over a slot asks to confirm ("Overwrite"); deleting a slot (the × on a filled slot) asks too; loading a save while a game is running asks "Load this save? Unsaved progress will be lost."
+- Saving over a slot asks to confirm ("{tx.savesScreen.overwrite}"); deleting a slot (the × on a filled slot) asks too; loading a save while a game is running asks "{tx.game.loadThisSaveUnsavedProgressWillBe}"
 - Keyboard: arrows move between slots, **Enter** or **Space** picks, `Delete` or `Backspace` deletes, **Home** and **End** jump to the first and last slot of the list, **Esc** goes back.
 
 ## Where players find it

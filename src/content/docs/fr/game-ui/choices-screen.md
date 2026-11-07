@@ -7,9 +7,9 @@ L’écran **{ui.gameUI.choices}** règle l’apparence des boutons d’un [choi
 
 ## Boutons
 
-- **{ui.gameUIInspector.buttonStyle}** : « Comme Polices et couleurs » par défaut.
-- **{ui.gameUIInspector.buttonColor}** : « Comme la boîte de dialogue » par défaut (la couleur de la boîte avec son opacité).
-- **{ui.gameUIInspector.textColor}** : « Comme la couleur du texte » par défaut.
+- **{ui.gameUIInspector.buttonStyle}** : « Identique à Polices et couleurs » par défaut.
+- **{ui.gameUIInspector.buttonColor}** : « Identique à la boîte de dialogue » par défaut (la couleur de la boîte avec son opacité).
+- **{ui.gameUIInspector.textColor}** : « Identique à la couleur du texte » par défaut.
 
 Le texte des options vient de votre histoire. Les joueurs cliquent sur une option ou appuient sur sa touche numérique.
 

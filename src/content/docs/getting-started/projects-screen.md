@@ -40,7 +40,7 @@ Click **{ui.projectHub.newProject}**.
 3. Optionally tick the **{ui.newProjectScreen.features}** your game needs: **{ui.shared.features.inventory}** and **{ui.shared.features.map}**. They are all off by default and you can switch them on or off later without losing anything.
 4. Click **{ui.newProjectScreen.createProject}** (or press **Enter**). **Esc** cancels.
 
-NovelWorks creates the folder, with a `project.json` file and an empty `assets` folder, and opens the project with one scene, "Scene 1", that holds one empty line of dialogue. A `backups` folder appears the first time a backup is made.
+NovelWorks creates the folder, with a `project.json` file and an empty `assets` folder, and opens the project with one scene, "{tx.shared.project.firstScene}", that holds one empty line of dialogue. A `backups` folder appears the first time a backup is made.
 
 ## What is in a project folder
 

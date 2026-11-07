@@ -71,7 +71,7 @@ A condition that checks a deleted or unpicked variable or item counts as false, 
 
 ## Warnings
 
-A moment with a problem shows a triangle on its card, and a box "This moment needs your attention" in the inspector. For a choice:
+A moment with a problem shows a triangle on its card, and a box "{tx.branchInspectors.thisMomentNeedsYourAttention}" in the inspector. For a choice:
 
 - This choice has no options.
 - An option has no text.

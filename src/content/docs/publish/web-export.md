@@ -3,7 +3,7 @@ title: Web export
 description: Turn your game into a folder and a .zip that play in any browser, on computers and phones.
 ---
 
-Choose **File → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). NovelWorks makes a version of your game that plays in any web browser, on computers and phones: **a folder, and a .zip** ready to share or upload. The command needs an open project and is not available while you are playing.
+Choose **{ui.native.menu.file} → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). NovelWorks makes a version of your game that plays in any web browser, on computers and phones: **a folder, and a .zip** ready to share or upload. The command needs an open project and is not available while you are playing.
 
 In the **demo**, exporting is limited to games of 5 scenes or fewer: see [The free demo](/novelworks-docs/getting-started/demo-edition/). In the full version, NovelWorks asks you to [activate it](/novelworks-docs/getting-started/install-and-activate/) each time you export, until you have.
 
@@ -11,8 +11,8 @@ In the **demo**, exporting is limited to games of 5 scenes or fewer: see [The fr
 
 1. **Check the warnings.** If NovelWorks finds something to check, it lists it: "N things to check first. The game still plays, but players might notice." Each line says where ("Park, moment 3 — …"). The button then reads **{ui.exportDialog.exportAnyway}**. See [Problems](/novelworks-docs/testing/problems/).
 2. **Choose where to save.** **{ui.exportDialog.saveTo}** shows a folder. NovelWorks remembers the last folder you used for this project, and otherwise proposes the folder that contains your project. **{ui.exportDialog.change}** picks another folder.
-3. Click **{ui.exportDialog.export}**. The button reads "Exporting…" until it is done.
-4. When it says "Your web game is ready", it shows the name of the .zip (to share or upload; the folder next to it holds the same game unzipped) and three buttons:
+3. Click **{ui.exportDialog.export}**. The button reads "{tx.exportDialog.exporting}" until it is done.
+4. When it says "{tx.exportDialog.yourWebGameIsReady}", it shows the name of the .zip (to share or upload; the folder next to it holds the same game unzipped) and three buttons:
    - **{ui.exportDialog.showInFinder}**, which reveals the file in your file manager (its name says "Finder" on every computer);
    - **{ui.exportDialog.testInBrowser}**, which plays the exported game from a local address in your default browser;
    - **{ui.exportDialog.done}**.
@@ -41,15 +41,15 @@ Your private writing data is blanked before export: moment **notes**, scene **su
 ## Open it
 
 - **On your computer**: double-click `index.html`. It works without a web server.
-- **On the web**: upload **every file**, with `index.html` at the root. If `project.js` is missing, the page says "The game data (project.js) is missing. Upload every file of the export, not only index.html."
+- **On the web**: upload **every file**, with `index.html` at the root. If `project.js` is missing, the page says "{tx.player.missingProject}"
 
 ## What your players get
 
-- A short **NovelWorks splash** first: the logo and "Created with NovelWorks · The no-code visual novel editor", about 3 seconds, skippable. (The editor calls it the "Made with NovelWorks" screen.)
+- A short **NovelWorks splash** first: the logo and "{tx.splash.tagline}", about 3 seconds, skippable. (The editor calls it the "Made with NovelWorks" screen.)
 - The page title is your game's title, and the page is in your game language. The page icon is the first letter of the title on your primary color.
 - A game that scales to the window, keeping its shape, with black bars around it, on computers and phones. A **Fullscreen** button where the browser allows it, and a **{ui.gameUIInspector.menu}** button on touch screens. See [Keys and touch screens](/novelworks-docs/player/keys-and-touch/).
 - Saves in their browser, kept when you update the game. See [Saving and loading](/novelworks-docs/player/save-and-load/).
-- It needs JavaScript. Without it, the page says "This game needs JavaScript to play."
+- It needs JavaScript. Without it, the page says "{tx.export.javascriptRequired}"
 
 ## If the export fails
 
@@ -59,7 +59,7 @@ Your private writing data is blanked before export: moment **notes**, scene **su
 | The disk is full. | Free some space, or pick a folder on another disk. |
 | This folder doesn't exist anymore. | Pick another folder. |
 | A folder named "…" is already there and isn't an earlier export. | Pick another folder. |
-| Activate NovelWorks to export games. | Open **Help → Activate NovelWorks…** |
+| Activate NovelWorks to export games. | Open **{ui.native.role.help} → Activate NovelWorks…** |
 | The demo exports games of up to 5 scenes, and your project has N. | In the demo only. Delete scenes, or get the full version. |
 | The game could not be exported: … | The reason follows. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/). |
 

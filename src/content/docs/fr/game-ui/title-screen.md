@@ -14,16 +14,16 @@ Choisissez **{ui.gameUIInspector.color}** ou **{ui.gameUIInspector.image}**.
 
 ## Logo
 
-**{ui.gameUIInspector.logoImage}** : n’importe quelle image. Elle est dessinée dans la partie haute de l’écran, en gardant ses proportions. Sans logo, le jeu écrit le **titre de votre jeu** (réglé dans les [paramètres du projet](/novelworks-docs/fr/getting-started/editor-settings/)), ou « Untitled game » s’il est vide.
+**{ui.gameUIInspector.logoImage}** : n’importe quelle image. Elle est dessinée dans la partie haute de l’écran, en gardant ses proportions. Sans logo, le jeu écrit le **titre de votre jeu** (réglé dans les [paramètres du projet](/novelworks-docs/fr/getting-started/editor-settings/)), ou « Jeu sans titre » s’il est vide.
 
 ## Menu
 
 Seul le **{ui.gameUIInspector.buttonStyle}** peut être changé. Les boutons et leurs mots sont fixes :
 
 - **{rt.game.continue}** : affiché seulement quand le joueur a une sauvegarde, il charge la plus récente ;
-- **New Game** ;
+- Nouvelle partie ;
 - **{rt.game.load}** : affiché quand la sauvegarde est possible ;
 - **{rt.game.options}** ;
-- **Quit** : seulement dans un hôte qui permet de quitter (pas dans le navigateur).
+- Quitter : seulement dans un hôte qui permet de quitter (pas dans le navigateur).
 
 Les mots de ces boutons suivent la [langue du jeu](/novelworks-docs/fr/getting-started/editor-settings/) de votre projet.

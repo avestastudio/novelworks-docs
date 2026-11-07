@@ -12,11 +12,11 @@ The **{ui.topBar.storyMap}** shows every scene of your game as a card, and every
 Each card shows:
 
 - the scene's name, and **★ Start** on the start scene;
-- its summary, or "No summary yet" (the [summary](/novelworks-docs/writing/scenes/) is for you only);
+- its summary, or "{tx.storyMap.noSummaryYet}" (the [summary](/novelworks-docs/writing/scenes/) is for you only);
 - its writing status (**{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** or **{ui.shared.outline.done}**) and its number of words, or "Empty". Point at the word count to see the number of moments;
 - a sticky-note badge with the number of moments that have a [note](/novelworks-docs/writing/notes/);
 - a warning badge with the number of problems. Point at it to read each one ("Moment 4: …");
-- tags: a flag with the name of each ending, **Unreachable** (nothing leads here from the start scene; it is not shown when the project has only one scene), "Game ends here" (nothing comes after this scene and it has no ending) and "Back to the map".
+- tags: a flag with the name of each ending, **Unreachable** (nothing leads here from the start scene; it is not shown when the project has only one scene), "{tx.storyMap.gameEndsHere}" (nothing comes after this scene and it has no ending) and "{tx.storyMap.backToTheMap}".
 
 An unreachable card has a dashed border and is dimmed.
 
@@ -27,11 +27,11 @@ An arrow goes from a scene to the scene one of its moments leads to. All the lin
 | Arrow label | Made by |
 |---|---|
 | The text of an option | An option of a choice that goes to a scene |
-| "if …" and "otherwise" | The cases and the otherwise of an If… |
-| "jump" | A jump |
+| "if …" and "{tx.storyMap.otherwise}" | The cases and the otherwise of an If… |
+| "{tx.storyMap.jump}" | A jump |
 | The name of a zone | A zone of an exploration that goes to a scene |
 
-A dotted loop under a scene means "the story continues in that scene": a choice option or an otherwise with no scene, which continues with the next moment. A dashed warning-colored arrow with "deleted scene" means a link goes to a scene that was deleted. Up to three labels are shown on an arrow, then "+N more": point at it to see all.
+A dotted loop under a scene means "the story continues in that scene": a choice option or an otherwise with no scene, which continues with the next moment. A dashed warning-colored arrow with "{tx.storyMap.deletedScene}" means a link goes to a scene that was deleted. Up to three labels are shown on an arrow, then "+N more": point at it to see all.
 
 The **{ui.storyMap.arrows}** legend in the right panel recalls these.
 

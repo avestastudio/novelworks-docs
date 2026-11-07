@@ -37,7 +37,7 @@ The very first time, NovelWorks asks **{ui.languageDialog.title}**. Pick a langu
 
 The full version asks for the **download key** that comes with your purchase. Without it you can still open, edit and play your projects. Only **exporting** is locked: the export command of the File menu opens the activation window instead.
 
-1. Open **Help → {ui.native.menu.activateNovelWorks}**. The same window opens from the projects screen and from the About window.
+1. Open **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}**. The same window opens from the projects screen and from the About window.
 2. Paste your download key in **{ui.activateDialog.downloadKey}**. You can also paste the whole address of your download page.
 3. Click **{ui.activateDialog.activate}**.
 

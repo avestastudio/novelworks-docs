@@ -9,15 +9,17 @@ const cache = {}
 const catalog = (kind, language) => (cache[kind + language] ??= JSON.parse(readFileSync(`${dataDir}${kind}-${language}.json`, 'utf8')))
 const overlay = JSON.parse(readFileSync(`${dataDir}overlay.json`, 'utf8'))
 export const overlayEntry = (key) => (key in overlay && key !== '_note' ? overlay[key] : null)
-export const MARKER = /\{(ui|rt)\.([A-Za-z0-9_.]+)\}/g
+export const MARKER = /\{(ui|rt|tx)\.([A-Za-z0-9_.]+)\}/g
 export const languageOfPath = (path) => {
   const match = /\/content\/docs\/([^/]+)\//.exec(path.replace(/\\/g, '/'))
   return (match && folderToLanguage[match[1]]) || 'en'
 }
 export const labelOf = (marker, key, language) => {
-  const kind = marker === 'ui' ? 'editor' : 'runtime'
-  const entry = marker === 'ui' ? overlayEntry(key) : null
-  const value = catalog(kind, language)[key] ?? entry?.[language] ?? entry?.en
+  // {ui.…}: editor catalog (bold), {rt.…}: game catalog (bold), {tx.…}: a message or word quoted as plain text, from either catalog.
+  const kind = marker === 'rt' ? 'runtime' : 'editor'
+  const entry = marker === 'rt' ? null : overlayEntry(key)
+  let value = catalog(kind, language)[key] ?? entry?.[language] ?? entry?.en
+  if (value === undefined && marker === 'tx') value = catalog('runtime', language)[key]
   if (typeof value !== 'string') throw new Error(`Unknown {${marker}.${key}} for ${language}`)
   // A label with a placeholder ({count}, {scene}…) is shown with … where the value goes; {part1}/{value} are inline
   // fragments of the interface (a number, an icon) and are dropped.
@@ -37,7 +39,7 @@ export default function uiNames() {
           if (match.index > last) parts.push({ type: 'text', value: child.value.slice(last, match.index) })
           const label = labelOf(match[1], match[2], language)
           // Inside **…** the label is plain text (no double bold); on its own it is bold.
-          parts.push(node.type === 'strong' ? { type: 'text', value: label } : { type: 'strong', children: [{ type: 'text', value: label }] })
+          parts.push(node.type === 'strong' || match[1] === 'tx' ? { type: 'text', value: label } : { type: 'strong', children: [{ type: 'text', value: label }] })
           last = match.index + match[0].length
         }
         if (!parts.length) return [child]

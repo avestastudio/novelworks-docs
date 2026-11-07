@@ -7,9 +7,9 @@ The **{ui.gameUI.mapButton}** screen is the look of the button that opens the [m
 
 ## What you can change
 
-- **{ui.gameUIInspector.label}**: the text of the button and of the pause-menu entry. Default "Map".
+- **{ui.gameUIInspector.label}**: the text of the button and of the pause-menu entry. Default "{tx.theme.map}".
 - **{ui.gameUIInspector.cornerOfTheScreen}**: top left (default), top right, bottom left or bottom right.
-- **{ui.gameUIInspector.buttonStyle}**: "Same as Fonts & colors" by default.
+- **{ui.gameUIInspector.buttonStyle}**: "{tx.gameUIInspector.sameAsFontsColors}" by default.
 
 The button uses the colors of the dialogue box, and its color cannot be set separately.
 

@@ -48,7 +48,7 @@ Above the preview, the **{ui.branches.whereTitle}** row shows where the selected
 - Type `/` at the start of a line to pick a command from a list. Names of characters, pictures, scenes, variables and items are suggested as you type, and after `background :`, `show :`, `hide :`, `give`, `remove`, `->`, `+`, `=` and `if` the list holds the matching kind of name.
 - **Tab** indents and **Shift+Tab** removes indentation.
 - Character names are colored with the character's name color.
-- The **?** button (**{ui.scriptMode.help}**) opens a "Writing a script" panel with the format.
+- The **?** button (**{ui.scriptMode.help}**) opens a "{tx.script.help.title}" panel with the format.
 
 ## Names that do not exist yet
 
@@ -76,7 +76,7 @@ A line NovelWorks wants you to check gets a yellow underline. Point at it to rea
 | No variable / item is called "…" | Fix: create it. |
 | This line under an option is not an effect | An indented line under an option that is not `+`, `=`, `give` or `remove`. It is ignored. |
 | This condition could not be read | An `if` line with a test that is not understood. |
-| Use either "and" or "or" in one condition | Both in the same condition: only the first kind is used. |
+| Use either "{tx.conditionCases.and}" or "or" in one condition | Both in the same condition: only the first kind is used. |
 | This line changes the stage, but no line follows it | A `background`, `show` or `hide` with no line after it. |
 | This note has no line to belong to | A `//` note at the end with nothing after it. |
 | "…" is not on stage here | A `hide :` for a character who is not on stage. |

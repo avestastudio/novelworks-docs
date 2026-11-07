@@ -18,7 +18,7 @@ description: The font, text color, primary color and button style every screen u
 
   The font files and their license texts are included in every exported game.
 
-- **{ui.gameUIInspector.textColor}**: the text color of the whole game. The default is white. Screens that say "Same as the text color" follow it.
+- **{ui.gameUIInspector.textColor}**: the text color of the whole game. The default is white. Screens that say "{tx.gameUIInspector.sameAsTheTextColor}" follow it.
 
 ### Languages and fonts
 

@@ -7,9 +7,9 @@ The **{ui.gameUI.pauseMenu}** is "opened with a right-click or Esc". On a touch 
 
 ## What you can change
 
-- **{ui.gameUIInspector.buttonStyle}**: "Same as Fonts & colors" by default.
-- **{ui.gameUIInspector.panelColor}**: "Same as the dialogue box" by default.
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default.
+- **{ui.gameUIInspector.buttonStyle}**: "{tx.gameUIInspector.sameAsFontsColors}" by default.
+- **{ui.gameUIInspector.panelColor}**: "{tx.gameUIInspector.sameAsTheDialogueBox}" by default.
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default.
 
 ## The buttons
 
@@ -23,4 +23,4 @@ They cannot be edited here, and they follow the game language:
 - the Map button (labeled "{rt.theme.map}" unless you changed it on the [Map button screen](/novelworks-docs/game-ui/map-button/)), when the map can be opened at that moment (always, or after the story has first shown it);
 - **{rt.game.backToTitle}**.
 
-The title of the panel is "Paused".
+The title of the panel is "{tx.game.paused}".

@@ -9,6 +9,6 @@ description: The screen shown when the story runs out, and how it differs from a
 
 - **{ui.gameUIInspector.text}**: the title shown in large letters. The default is "The End". If you empty it, no title is shown.
 - **{ui.gameUIInspector.backgroundColor}**: a plain color, black by default. There is no picture option.
-- **{ui.gameUIInspector.textColor}**: "Same as the text color" by default.
+- **{ui.gameUIInspector.textColor}**: "{tx.gameUIInspector.sameAsTheTextColor}" by default.
 
-Under the title, the game shows "Click to return to the title screen". This text cannot be changed, and a click takes the player back to the title screen.
+Under the title, the game shows "{tx.game.returnToTitle}". This text cannot be changed, and a click takes the player back to the title screen.

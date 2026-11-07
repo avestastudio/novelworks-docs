@@ -15,7 +15,7 @@ A moment does not store a full picture of the screen. It stores only **what it c
 
 You never have to think about this to start: add a character at moment 1 and they are on screen in every following moment. It matters when you **change** something halfway.
 
-## "From here on" or "This moment only"
+## "{tx.stage.scopeFollowing}" or "{tx.stage.scopeOnlyHere}"
 
 Above the game screen, the switch **{ui.stage.scopeLabel}** decides how far your next change reaches:
 

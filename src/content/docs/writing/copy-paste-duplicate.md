@@ -38,7 +38,7 @@ The copy goes to your computer's clipboard as text, so you can paste into **anot
 What you see when the other project does not have them (checked by pasting a moment from one project into another):
 
 - a speaker that does not exist there becomes the **{ui.stageControls.narrator}**;
-- a background that does not exist there is dropped (the moment shows "No background");
+- a background that does not exist there is dropped (the moment shows "{tx.stage.noBackground}");
 - a character who does not exist there is not drawn, and may show as an "Unnamed" row in the stage chart, or as `?` in [Script mode](/novelworks-docs/writing/script-mode-lines/);
 - **no warning is shown**, so check the pasted moment yourself.
 
