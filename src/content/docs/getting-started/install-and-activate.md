@@ -17,18 +17,17 @@ Not sure which Mac you have? Open the Apple menu → **About This Mac**. "Chip: 
 
 ## The first time you open it
 
-NovelWorks is not signed with a paid Apple Developer or Microsoft certificate yet, so your computer shows a warning once. This is expected.
-
 ### On a Mac
 
+The Mac app is **not signed with an Apple Developer ID** yet (it has only an ad-hoc signature), so macOS may refuse to open it the first time and show a warning. The exact steps depend on your version of macOS.
+
 1. Open the `.dmg` and drag **Novelworks** into **Applications**.
-2. Open it from Applications. If macOS says it can't check the app, click **Done**.
-3. On macOS 15 Sequoia and newer, open **System Settings → Privacy & Security**, scroll to the message about Novelworks and click **Open Anyway**. On older versions, right-click the app in Applications and choose **Open**.
+2. Open it from Applications.
+3. If macOS blocks it, look in **System Settings → Privacy & Security** for a message about Novelworks with a button to open it anyway. On older versions of macOS, right-clicking the app and choosing **Open** is the usual way.
 
 ### On Windows
 
-1. Run the `.exe`. The installer lets you change the install folder, installs for your user only and adds a desktop shortcut.
-2. If a blue **Windows protected your PC** window appears, click **More info**, then **Run anyway**.
+Run the `.exe`. The installer lets you choose the install folder, installs for your user only and adds a desktop shortcut. If Windows shows a security warning when you run it, it normally offers a way to run it anyway. The wording depends on your version of Windows.
 
 ## Choose the editor language
 
@@ -48,9 +47,8 @@ Where to find the key: open your purchase email in your browser, then open the N
 
 Good to know:
 
-- Activation needs an internet connection **once**. After that, NovelWorks works offline and you can export without internet.
-- One key works on up to **3 computers**. To free one (for example before you sell it), open the same window and click **{ui.activateDialog.deactivateThisDevice}**. This also needs an internet connection.
-- If the key is already on 3 computers, deactivate another one or use **{ui.activateDialog.contactUs}** in the window.
-- Editing the license file by hand breaks it. If something goes wrong, deactivate and activate again.
+- Activation contacts the activation server, so it needs an internet connection. Once activated, NovelWorks checks your license on your computer at every start, so you can export without internet.
+- The activation window says that **a key works on up to 3 computers**, and that you can deactivate one computer to use your key on another. To do that, open the same window and click **{ui.activateDialog.deactivateThisDevice}**. This also contacts the server, so it needs an internet connection.
+- If the window tells you the key is already activated on the maximum number of computers, deactivate NovelWorks on another computer, or use **{ui.activateDialog.contactUs}** in the window.
 
-If activation fails, see [Troubleshooting](/novelworks-docs/reference/faq/).
+If activation fails, the window shows a message that says what to do. See also the [FAQ](/novelworks-docs/reference/faq/).

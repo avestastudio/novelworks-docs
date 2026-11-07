@@ -6,7 +6,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { MARKER, labelOf } from '../src/plugins/ui-names.mjs'
+import { MARKER, labelOf, overlayEntry } from '../src/plugins/ui-names.mjs'
 
 const root = fileURLToPath(new URL('../src/content/docs/', import.meta.url))
 const data = (name) => JSON.parse(awaitedRead(fileURLToPath(new URL('../' + name, import.meta.url))))
@@ -15,8 +15,9 @@ const languages = ['en', 'fr', 'es', 'pt-BR', 'zh-CN', 'ru', 'ja']
 const localeFolders = ['fr', 'es', 'pt-br', 'zh-cn', 'ru', 'ja']
 // Bold words that are not editor buttons even if a catalog happens to contain the same word: keyboard keys and
 // the buttons of the operating system (macOS / Windows warnings) or plain words.
-const SYSTEM_WORDS = new Set(['Enter', 'Esc', 'Done', 'Open Anyway', 'Run anyway', 'More info', 'Open', 'Left', 'Right', 'Center', 'Bottom', 'Top'])
+const SYSTEM_WORDS = new Set(['Enter', 'Esc', 'Ctrl', 'Cmd', 'Shift', 'character', 'Done', 'Open Anyway', 'Run anyway', 'More info', 'Open', 'Left', 'Right', 'Center', 'Bottom', 'Top'])
 const errors = []
+const pending = new Set()
 
 import { readFileSync } from 'node:fs'
 function awaitedRead(path) { return readFileSync(path, 'utf8') }
@@ -72,6 +73,8 @@ for (const file of all) {
   for (const match of body.matchAll(MARKER)) {
     for (const language of languages) {
       try { labelOf(match[1], match[2], language) } catch { errors.push(`${name}: ${match[0]} does not exist in ${language}`) }
+      const entry = match[1] === 'ui' ? overlayEntry(match[2]) : null
+      if (entry && !entry[language]) pending.add(`${match[2]} (${language})`)
     }
   }
   const english = join(root, name.split('/').slice(localeFolders.includes(name.split('/')[0]) ? 1 : 0).join('/'))
@@ -103,5 +106,6 @@ if (shortcutsPage && shortcutsPage.status !== 'old') {
   for (const row of data('data/shortcuts.json')) if (!text.includes(`{ui.${row.label}}`)) errors.push(`Shortcuts page misses {ui.${row.label}}`)
 }
 
+if (pending.size) console.warn(`Pending merge (English text used as a fallback): ${[...pending].join(', ')}`)
 if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1 }
 else console.log(`Docs checks OK: ${pages.length} pages in the structure (${pages.filter((p) => p.status === 'stub').length} stubs), button names and shortcuts verified.`)

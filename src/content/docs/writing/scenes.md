@@ -1,27 +1,55 @@
 ---
 title: Scenes
-description: Organize your story into scenes.
+description: Create, rename, reorder, duplicate and delete scenes, and choose where the game starts.
 ---
 
-A **scene** is a part of your story, made of moments (lines, choices…). The **Scenes** tab lists them, with the number of moments in each.
+A scene is a chapter of your story: a series of [moments](/novelworks-docs/writing/moments-and-dialogue/) played one after another. Scenes live in the **{ui.leftPanel.scenes}** tab. For the big picture, see [Scenes, moments and the timeline](/novelworks-docs/concepts/scenes-moments-timeline/).
 
-## Add, rename, duplicate, delete
+## Create a scene
 
-- **New scene** adds one.
-- **Double-click** a scene to rename it.
-- Use the icons on a scene, or **right-click** it, to duplicate or delete it.
+Click **{ui.scenesTab.newScene}**. The scene is named "Scene 1", "Scene 2"… (the first number not used yet), contains one empty line of dialogue, and is selected. If your project had no start scene, the new scene becomes the start scene.
 
-## Start scene
+## Rename a scene
 
-Your game begins with the **start scene**: click the star on a scene, or select it and use **Start scene** in the inspector.
+Double-click the scene in the list, type the name and press **Enter**. **Esc** cancels, and an empty name keeps the old one. You can also use **{ui.sceneInspector.name}** in the inspector, or right-click the scene and choose **{ui.contextMenus.rename}**. A scene with no name shows as "Untitled scene".
 
-## Summary and writing status
+## Reorder scenes
 
-Select a scene to see its inspector:
+Drag a scene up or down in the list. The order of the list does not change how the story plays: scenes are linked by choices, conditions, jumps and zones.
 
-- **Summary**: a sentence or two about what happens. It shows on the [Story map](/novelworks-docs/branching/story-map/). It is for you only and never goes into the game.
-- **Writing status**: **To write**, **Draft** or **Done**. If you don't choose, it is automatic: To write until the scene has text, then Draft.
+## Duplicate a scene
 
-## Scenes players can't reach
+Use **{ui.scenesTab.duplicateScene}** on the row, or **{ui.contextMenus.duplicate}** in the right-click menu, or **Cmd+D** / **Ctrl+D** with the scene selected. The copy goes right after the original and is named "Copy of …". It keeps the summary and the writing status, its moments get new identities, and its place on the story map is chosen again.
 
-A scene that no choice, condition, jump or zone leads to (from the start scene) shows a warning. Players can't reach it yet. See [Problems](/novelworks-docs/testing/problems/).
+## Delete a scene
+
+Click **{ui.scenesTab.deleteScene}** (or **{ui.contextMenus.delete}** in the right-click menu). NovelWorks always asks first, and tells you:
+
+- how many moments will be deleted;
+- if it is the start scene, which scene will become the start scene (or that your game will have no scenes left);
+- if other scenes lead to it, which moments do so.
+
+Choices, conditions, jumps and zones that led to a deleted scene are **not** changed. They keep pointing at nothing and show a warning until you pick another scene. You can undo a deletion with **{ui.native.menu.undo}**.
+
+## The start scene
+
+The game begins at the **start scene**. It has a star and the label "Start scene". To change it, click the star button on another scene (**{ui.scenesTab.makeStartScene}**), use **{ui.contextMenus.setAsStartScene}** in the right-click menu, or use the button in the scene's inspector.
+
+## What the list shows
+
+Each scene row shows how many moments it has. A small fork with "Branches: N" shows how many moments let the story go elsewhere (see [How a story branches](/novelworks-docs/concepts/how-stories-branch/)). A red **{ui.scenesTab.unreachable}** tag means players cannot get there yet: no choice, condition, jump or zone leads to it from the start scene.
+
+## The scene inspector
+
+Select a scene to see:
+
+- **{ui.sceneInspector.name}**;
+- **{ui.sceneInspector.summary}**: a sentence or two, for you only. It is shown on the story map and above the timeline, and never in the game;
+- **{ui.sceneInspector.writingStatus}**: **{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** or **{ui.shared.outline.done}**. If you never set it, it is "To write" until the scene has some text, then "Draft";
+- the start-scene button;
+- **{ui.branches.entriesTitle}**: the places that lead to this scene, which you can click;
+- **{ui.sceneInspector.deleteScene}** and duplicate buttons.
+
+## Play from a scene
+
+Right-click a scene and choose **{ui.contextMenus.playFromHere}** to play from its first moment (disabled if the scene has no moments).

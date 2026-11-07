@@ -58,7 +58,7 @@ The properties of what you selected: a moment, a scene, an image, a character, a
 
 On a Mac the app menu holds About, Services, Hide and Quit; on Windows, Quit is in the File menu.
 
-- **{ui.native.menu.file}**: New Project, Open Project, Save, Restore from Backup, Import Script, Export the Script, Export for browser, Close Project.
+- **{ui.native.menu.file}**: New Project, Open Project, Save, Restore from Backup, Import Script, Export the Script, {ui.native.menu.exportForWeb}, Close Project.
 - **{ui.native.menu.edit}**: Undo, Redo, Find and Replace, Cut, Copy, Paste, Select All, Spelling Language.
 - **{ui.menu.view}**: Theme, Language, Toggle Full Screen.
 - **{ui.native.role.window}**.

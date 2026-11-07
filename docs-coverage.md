@@ -22,8 +22,8 @@ Copie à cocher de `NOUVEAUTES-A-DOCUMENTER.md` (dépôt de l'éditeur). On coch
 - [ ] Mode Script : syntaxe **inchangée** (crochets acceptés, 7 langues + alias anglais) ; un texte inchangé ne modifie rien ; limite connue : un choix sans aucune option se relit fusionné avec le choix suivant.
 
 ## Raccourcis clavier (branche feat-raccourcis)
-- [ ] ⌘/Ctrl+C, X, V : copier, couper, coller un **moment**, une **scène** (liste des scènes) ou un **personnage** (sur l'écran) ; fonctionne entre projets et fenêtres (texte dans le presse-papiers) ; les champs de texte gardent leur copier-coller.
-- [ ] ⌘/Ctrl+D duplique aussi une scène sélectionnée. Feuille « Keyboard shortcuts » mise à jour.
+- [x] ⌘/Ctrl+C, X, V : copier, couper, coller un **moment**, une **scène** (liste des scènes) ou un **personnage** (sur l'écran) ; fonctionne entre projets et fenêtres (texte dans le presse-papiers) ; les champs de texte gardent leur copier-coller. — **writing/copy-paste-duplicate** (D2)
+- [x] ⌘/Ctrl+D duplique aussi une scène sélectionnée. Feuille « Keyboard shortcuts » mise à jour. — **writing/copy-paste-duplicate** (D2)
 
 ## Confort de mise en scène (étape 6)
 - [x] **Barre « En scène »** (au-dessus de l'écran de jeu, à droite du réglage) : les personnages de la scène en pastilles rondes ; allumée = en scène à ce moment ; un clic fait entrer ou sortir le personnage (selon le réglage « À partir d'ici / Ce moment seulement »). N'apparaît que si la scène a au moins un personnage. — **concepts/stage** (D1, au niveau « idée » ; le détail viendra avec les pages dédiées)
@@ -59,11 +59,11 @@ Copie à cocher de `NOUVEAUTES-A-DOCUMENTER.md` (dépôt de l'éditeur). On coch
 - [ ] Étape 1 : seul le moteur et le format changent ; l'éditeur et le Mode Script montrent encore un seul cas (étapes suivantes).
 
 ## Mode Script : « et », « ou », « sinon si » (phase B, étape 2)
-- [ ] Plusieurs conditions dans un cas : `si Affection >= 3 et objet Clé -> Parc` (toutes) ou `si Vu = vrai ou Affection > 8 -> Gare` (une seule). Dans une même ligne, on ne mélange pas « et » et « ou » : le Mode Script prévient et ne garde que le premier.
-- [ ] Plusieurs cas, une ligne chacun, le premier qui est vrai gagne : `si Affection >= 5 -> Parc` / `sinon si Affection >= 2 -> Gare` / `sinon -> Fin`.
+- [x] Plusieurs conditions dans un cas : `si Affection >= 3 et objet Clé -> Parc` (toutes) ou `si Vu = vrai ou Affection > 8 -> Gare` (une seule). Dans une même ligne, on ne mélange pas « et » et « ou » : le Mode Script prévient et ne garde que le premier. — **writing/script-mode-conditions** (D2)
+- [x] Plusieurs cas, une ligne chacun, le premier qui est vrai gagne : `si Affection >= 5 -> Parc` / `sinon si Affection >= 2 -> Gare` / `sinon -> Fin`. — **writing/script-mode-conditions** (D2)
 - [ ] Les mots existent dans les 7 langues (et / ou : et·ou, and·or, y·o, e·ou, 并且·或者, и·или, かつ·または) ; les mots de toutes les langues sont compris en même temps.
 - [ ] Les anciens scripts se lisent et se réécrivent exactement pareil : `si X -> A, sinon -> B` reste sur une seule ligne tant qu'il n'y a qu'un cas. Les noms qui contiennent « et » (ex. « Rock et Roll ») restent compris.
-- [ ] Une ligne « sinon… » qui ne continue pas une condition reste du texte normal (ex. « Sinon, il pleuvait. »).
+- [x] Une ligne « sinon… » qui ne continue pas une condition reste du texte normal (ex. « Sinon, il pleuvait. »). — **writing/script-mode-conditions** (D2)
 
 ## Éditeur : un « Si… » à plusieurs cas (phase B, étape 3)
 - [ ] Dans l'inspecteur d'un moment « Si… » : chaque **cas** a ses conditions, un bouton « Ajouter une condition » (avec « et » / « ou » entre elles, et un choix « Toutes sont vraies » / « Au moins une est vraie »), et sa scène. Bouton « Ajouter un cas » ; avec plusieurs cas, chaque cas est une carte numérotée avec monter / descendre (l'ordre = la priorité) et supprimer (il en reste toujours un).
@@ -88,7 +88,7 @@ Copie à cocher de `NOUVEAUTES-A-DOCUMENTER.md` (dépôt de l'éditeur). On coch
 - [ ] Dans le jeu : l'option cachée n'apparaît pas (les touches 1 à 6 comptent les boutons visibles) ; l'option grisée ne répond pas au clic. **Les joueurs ne sont jamais bloqués** : si aucune option ne pouvait être choisie, elles s'affichent toutes.
 - [ ] Format 17 : l'option peut porter une « disponibilité ». Les projets existants s'ouvrent à l'identique (toutes les options restent toujours disponibles) ; copie de sécurité automatique avant conversion, comme d'habitude.
 - [ ] Les variables/objets utilisés par une option apparaissent dans leurs listes « Vérifiée par » ; changer le type d'un Score en Fait corrige aussi ces conditions ; une option qui vérifie quelque chose de supprimé est signalée dans les problèmes du moment.
-- [ ] Mode Script : sous l'option, une ligne `si objet Clé et Affection >= 2` (cachée) ou `si objet Clé, verrouillé` (grisée) — mot « verrouillé » traduit dans les 7 langues. La page d'aide du Script montre maintenant aussi « sinon si », « et / ou » et cette ligne.
+- [x] Mode Script : sous l'option, une ligne `si objet Clé et Affection >= 2` (cachée) ou `si objet Clé, verrouillé` (grisée) — mot « verrouillé » traduit dans les 7 langues. La page d'aide du Script montre maintenant aussi « sinon si », « et / ou » et cette ligne. — **writing/script-mode-conditions** (D2)
 
 ## Phase C, étape 4 : le tutoriel
 - [x] Deux nouvelles étapes de la visite guidée, après « Les détails » : **« Fais compter tes choix »** (faire retenir quelque chose dans une option, Score, « Si… » à plusieurs cas, option conditionnelle, « Essayer ») et **« Voir toutes les fins »** (le panneau « Fins du jeu » de la Carte de l'histoire). 7 langues, mots identiques à ceux des menus (Score, « Faire retenir quelque chose au jeu », « Essayer »). — **getting-started/guided-tour** (D1, au niveau « idée » ; le détail viendra avec les pages dédiées)

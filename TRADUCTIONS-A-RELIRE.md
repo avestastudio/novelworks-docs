@@ -19,4 +19,6 @@ Les **noms de boutons** ne sont pas traduits à la main : ils viennent des catal
 
 ## Journal (ajouter une ligne par lot traduit : date · langue · pages · ce qui est incertain)
 - 2026-11-07 · toutes langues · D1 : 13 pages anglaises réécrites (Premiers pas, Idées clés). **Les traductions des 5 pages déjà traduites** (install-and-activate, demo-edition, tour-of-the-editor, first-visual-novel, saving-and-undo) **sont maintenant périmées** (elles décrivent l'ancienne version) ; les 8 autres pages n'ont pas de traduction. Rien n'est à relire avant D7.
+- 2026-11-07 · toutes langues · D2 : 12 pages anglaises réécrites ou créées (Écrire). Traductions **périmées** : writing/scenes, moments-and-dialogue, characters, assets, import-a-script, search. Les 6 autres pages (staging, script-mode ×3, copy-paste-duplicate, notes) n'ont pas de traduction.
+- À décider avec les relecteurs en D7 : les mots du Script (`if`, `else`, `and`, `show`…) ne sont **pas** traduits dans les exemples de code des pages, parce que l'éditeur comprend tous les mots de toutes les langues en même temps ; seule la page « Script syntax in 7 languages » (D6) donnera les mots de chaque langue.
 - Titre de page ajouté par Claude : « Your first visual novel » (l'ancien titre était « Make your first visual novel in 15 minutes »).

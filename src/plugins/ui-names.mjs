@@ -7,6 +7,8 @@ const dataDir = fileURLToPath(new URL('../../data/ui/', import.meta.url))
 const folderToLanguage = { fr: 'fr', es: 'es', 'pt-br': 'pt-BR', 'zh-cn': 'zh-CN', ru: 'ru', ja: 'ja' }
 const cache = {}
 const catalog = (kind, language) => (cache[kind + language] ??= JSON.parse(readFileSync(`${dataDir}${kind}-${language}.json`, 'utf8')))
+const overlay = JSON.parse(readFileSync(`${dataDir}overlay.json`, 'utf8'))
+export const overlayEntry = (key) => (key in overlay && key !== '_note' ? overlay[key] : null)
 export const MARKER = /\{(ui|rt)\.([A-Za-z0-9_.]+)\}/g
 export const languageOfPath = (path) => {
   const match = /\/content\/docs\/([^/]+)\//.exec(path.replace(/\\/g, '/'))
@@ -14,7 +16,8 @@ export const languageOfPath = (path) => {
 }
 export const labelOf = (marker, key, language) => {
   const kind = marker === 'ui' ? 'editor' : 'runtime'
-  const value = catalog(kind, language)[key]
+  const entry = marker === 'ui' ? overlayEntry(key) : null
+  const value = catalog(kind, language)[key] ?? entry?.[language] ?? entry?.en
   if (typeof value !== 'string') throw new Error(`Unknown {${marker}.${key}} for ${language}`)
   return value.trim()
 }

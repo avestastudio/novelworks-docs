@@ -103,62 +103,62 @@
         {
           "slug": "writing/scenes",
           "title": "Scenes",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/moments-and-dialogue",
           "title": "Moments and dialogue",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/characters",
           "title": "Characters and expressions",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/assets",
           "title": "Images",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/staging",
           "title": "Staging a scene",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "writing/script-mode",
           "title": "Script mode: the basics",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "writing/script-mode-lines",
           "title": "Script mode: every line",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "writing/script-mode-conditions",
           "title": "Script mode: conditions and choices",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "writing/import-a-script",
           "title": "Import and export a script",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/search",
           "title": "Find and replace",
-          "status": "old"
+          "status": "written"
         },
         {
           "slug": "writing/copy-paste-duplicate",
           "title": "Copy, paste and duplicate",
-          "status": "stub"
+          "status": "written"
         },
         {
           "slug": "writing/notes",
           "title": "Notes",
-          "status": "stub"
+          "status": "written"
         }
       ]
     },

@@ -1,0 +1,4 @@
+{
+  "_note": "Keys that exist on the demo-build branch but not (yet) on docs-plan. Only the languages listed here are known; other languages fall back to English and are reported by npm run check:docs as 'pending merge'. Delete an entry once the branches are merged and `npm run sync:ui` brings the key in.",
+  "native.menu.exportForWeb": { "en": "Export for Web…" }
+}

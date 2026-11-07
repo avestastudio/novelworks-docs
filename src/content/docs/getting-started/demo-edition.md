@@ -9,7 +9,7 @@ description: What the NovelWorks Demo can and cannot do, and how it relates to t
 
 In the demo you can export your game, but **only if it has 5 scenes or fewer**. The scenes counted are the ones listed in the **{ui.leftPanel.scenes}** tab. (The Map workspace's own hidden scene does not count.)
 
-If your project has more, the export command opens a window titled **{ui.demoExportDialog.exportYourGame}**. It tells you how many scenes the demo allows and how many your project has, and offers two buttons:
+If your project has more, **{ui.native.menu.exportForWeb}** (in the File menu) opens a window titled **{ui.demoExportDialog.exportYourGame}**. It tells you how many scenes the demo allows and how many your project has, and offers two buttons:
 
 - **{ui.demoExportDialog.getTheFullVersion}** opens the NovelWorks page where you can get the full version.
 - **{ui.demoExportDialog.notNow}** closes the window.
