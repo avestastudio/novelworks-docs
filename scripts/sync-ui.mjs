@@ -1,11 +1,11 @@
 // Copies the editor's text catalogs (7 languages) and extracts the shortcut table, so the docs
 // can cite every button by key instead of by hand-typed name.
-// Usage: node scripts/sync-ui.mjs [path to the VN-Editor repo]   (default: ../VN-Editor)
+// Usage: node scripts/sync-ui.mjs [path to the NovelWorks repo]   (default: ../NovelWorks)
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import { join, resolve } from 'node:path'
 
-const editorRepo = resolve(process.argv[2] ?? fileURLToPath(new URL('../../VN-Editor', import.meta.url)))
+const editorRepo = resolve(process.argv[2] ?? fileURLToPath(new URL('../../NovelWorks', import.meta.url)))
 const out = fileURLToPath(new URL('../data/ui/', import.meta.url))
 const languages = ['en', 'fr', 'es', 'pt-BR', 'zh-CN', 'ru', 'ja']
 await mkdir(out, { recursive: true })
