@@ -7,7 +7,7 @@ Un moment **{ui.moments.choice}** montre au joueur de deux à six boutons. Chaqu
 
 ## Ajouter un choix
 
-Dans la chronologie, ajoutez un moment **{ui.moments.choice}**. Il commence avec deux options vides. Vous pouvez écrire dans l’inspecteur, ou directement sur l’écran du jeu.
+Dans l’en-tête de la chronologie, ouvrez **{ui.timeline.addOther}** et ajoutez un moment **{ui.moments.choice}**. Il commence avec deux options vides. Vous pouvez écrire dans l’onglet **{ui.inspectorTabs.text}** de l’inspecteur, ou directement sur l’écran du jeu.
 
 ![Un choix avec deux options : ce que chacune change, et la scène vers laquelle elle mène.](/novelworks-docs/screenshots/choice-options.png)
 

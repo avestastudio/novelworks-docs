@@ -38,7 +38,7 @@ Sur l’écran-titre, **{rt.game.continue}** charge la sauvegarde la plus récen
 
 ## Ce que contient une sauvegarde
 
-La scène et le moment, les valeurs des variables, l’inventaire, les zones déjà utilisées, l’état de la carte, le temps de jeu, et les 200 dernières répliques de l’[Historique](/novelworks-docs/fr/player/history/). Elle ne contient **pas** les répliques lues (elles sont conservées à part pour Passer), ni le texte en train de s’écrire : une réplique chargée apparaît en entier.
+La scène et le moment, les valeurs des variables, l’inventaire, les zones déjà utilisées, l’état de la carte, le temps de jeu, la musique et l’ambiance sonore en cours, et les 200 dernières répliques de l’[Historique](/novelworks-docs/fr/player/history/). Elle ne contient **pas** les répliques lues (elles sont conservées à part pour Passer), les [chapitres](/novelworks-docs/fr/game-ui/chapters/) atteints (conservés à part eux aussi), ni le texte en train de s’écrire : une réplique chargée apparaît en entier. Un moment chargé commence sur son dernier plan de caméra, et ses effets, sa voix et ses bruitages ne sont pas joués.
 
 ## Quand vous mettez votre jeu à jour
 

@@ -5,11 +5,21 @@ description: "名前とセリフが表示される場所です。位置、サイ
 
 「{ui.gameUI.dialogueBox}」は、話している人の名前とセリフを表示するボックスです。サイズと位置は画面に対するパーセント(主に高さに対する割合)で決まるので、どんな解像度でも見た目が保たれます。
 
+## テンプレート
+
+「{ui.templates.heading}」の下にある4枚のカードで、ボックスの配置を自動で決められます。「{ui.templates.dialogue.classic}」（下部）、「{ui.templates.dialogue.sidePanel}」（右側）、「{ui.templates.dialogue.centerCard}」、「{ui.templates.dialogue.topBanner}」です。クリックで変わるのは、位置、余白、幅、高さだけです。色、名札、アバター、画像、テキストは設定したままです。「{ui.topBar.undo}」を1回行うと、元の状態に戻ります。
+
+現在のテンプレートのカードは、これらの設定のどれかを変えるまで強調表示されます。
+
 ## 位置とサイズ
 
 - 「{ui.gameUIInspector.position}」:{ui.gameUIInspector.bottom}(初期設定)、{ui.gameUIInspector.top}、{ui.gameUIInspector.left}、{ui.gameUIInspector.right}、{ui.gameUIInspector.center}から選びます。選ぶと、幅と高さもちょうどよい初期サイズになります。上と下では横長の帯、左と右では縦長のパネル(画面の約3分の1)、中央では真ん中のボックスになります。
 - 「{ui.gameUIInspector.margin}」:画面の端との間隔です(0〜20 %、初期設定は3.5)。
 - 「{ui.gameUIInspector.width}」と「{ui.gameUIInspector.height}」:10〜100 %です。位置を選んだあとで調整できます。
+
+## 文字の色
+
+「{ui.richText.palette}」には、1〜5の番号が付いた5つの色があります。セリフの言葉を選択したときに使える色です。[リッチテキスト](/novelworks-docs/ja/writing/rich-text/)を見てください。ここで色を変えると、その色を使っている言葉もすべて変わります。
 
 ## 背景
 

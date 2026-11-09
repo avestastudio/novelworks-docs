@@ -21,7 +21,7 @@ Auto s’arrête à un moment qui n’est pas une réplique de dialogue : un ch
 
 ## Passer
 
-Passer accélère à travers les répliques **que le joueur a déjà lues**, en terminant le texte tout de suite et en raccourcissant les animations. Il s’arrête à la première réplique qu’il n’a pas lue, et à un choix, une exploration ou une fin.
+Passer accélère à travers les répliques **que le joueur a déjà lues**, en terminant le texte tout de suite et en raccourcissant les animations. Les [effets](/novelworks-docs/fr/writing/effects/), les voix et les bruitages des moments passés ne sont pas joués. Il s’arrête à la première réplique qu’il n’a pas lue, et à un choix, une exploration ou une fin.
 
 - Une réplique compte comme lue dès qu’elle apparaît, et le relevé est conservé **par jeu, dans le navigateur**, pas par sauvegarde. Il reste d’une nouvelle partie à l’autre.
 - Si vous changez le texte ou l’interlocuteur d’une réplique, elle compte de nouveau comme non lue.
@@ -33,4 +33,4 @@ Un clic ou une touche qui fait avancer l’histoire (**Espace**, **Entrée**, **
 
 ## Voix
 
-Un moment Dialogue n’a pas de réglage de voix ni de son, donc Auto n’attend que le texte.
+Si une réplique a une [voix](/novelworks-docs/fr/writing/sound/), Auto attend la fin de la voix, puis passe à la suite après 0,6 seconde, quelle que soit la valeur de **{rt.optionsScreen.autoSpeed}**. Passer à la réplique suivante coupe la voix.

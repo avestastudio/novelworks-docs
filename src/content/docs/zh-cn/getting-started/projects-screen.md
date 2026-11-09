@@ -45,7 +45,7 @@ NovelWorks 会创建文件夹，里面有一个 `project.json` 文件和一个�
 ## 项目文件夹里有什么
 
 - `project.json`：你的整个故事，都在这一个文件里。
-- `assets`：你导入的图片。
+- `assets`：你导入的图片、视频和声音。
 - `backups`：`project.json` 的早期版本（请看[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)）。
 
 要把项目复制到另一台电脑，请复制整个文件夹。之后你可以用{ui.projectHub.open}打开它。

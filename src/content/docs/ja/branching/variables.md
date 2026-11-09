@@ -5,7 +5,7 @@ description: ゲームが覚えるスコアとできごとを作って管理し�
 
 **変数**は、ゲームが覚えているものです。種類は2つあり、[ゲームの記憶](/novelworks-docs/ja/concepts/game-memory/)で説明しています。「{ui.variables.number}」（増えたり減ったりする数。Mia の好感度やお金など）と、「{ui.variables.yesNo}」（何かが起きたかどうか。はいかいいえ。「{tx.memory.factExample}」や「鍵を持っている」など）です。
 
-プレイヤーが持ち歩くもの（鍵、コインなど）は変数ではありません。それは「アイテム」で、[インベントリ](/novelworks-docs/ja/features/inventory/)機能の一部です。
+プレイヤーが持ち歩くもの（鍵、コインなど）は変数ではありません。それはアイテムで、[インベントリ](/novelworks-docs/ja/features/inventory/)機能の一部です。
 
 ## 変数タブ
 
@@ -53,4 +53,4 @@ NovelWorks が確認を求めます。変数が使われている場合は、使
 
 ## 変数が使える場所
 
-選択肢の項目の変更、項目の条件、[もし…](/novelworks-docs/ja/branching/conditions/)のテスト、探索のエリア（その条件と「変数を変更する」アクション）で使えます。
+選択肢の項目の変更、項目の条件、[もし…](/novelworks-docs/ja/branching/conditions/)のテスト、探索のエリア（その条件と「変数を変更する」アクション）で使えます。セリフの中で値を表示するためにも使えます（[リッチテキスト](/novelworks-docs/ja/writing/rich-text/)を見てください）。

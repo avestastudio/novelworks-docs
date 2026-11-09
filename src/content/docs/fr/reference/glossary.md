@@ -5,17 +5,24 @@ description: Les mots utilisés dans NovelWorks et dans cette documentation.
 
 | Mot | Sens |
 |---|---|
-| {ui.inspector.scene} | Un chapitre de votre histoire : une suite de moments joués l’un après l’autre. |
+| {ui.inspector.scene} | Une partie de votre histoire : une suite de moments joués l’un après l’autre. |
 | Moment | Une étape d’une scène : une réplique, un choix, un saut, une fin… |
 | {ui.timeline.timeline} | La rangée de cartes de moments en bas de l’éditeur. |
 | Plateau | Ce qui est affiché sur l’écran du jeu : le décor et les personnages. Cela se poursuit d’un moment à l’autre. |
 | Scène de départ | La scène où commence une nouvelle partie, marquée d’une étoile. |
 | Personnage | Une personne de votre histoire, avec une couleur de nom et des expressions. |
 | Expression | Une image d’un personnage pour une humeur (joyeux, triste…). Celle qui porte une étoile est celle par défaut. |
+| {ui.stageControls.outfit} | Un ensemble de pièces de garde-robe que porte un personnage. Elle reste jusqu’à ce que vous la changiez. |
 | {ui.gameUIInspector.avatar} | Un petit portrait affiché à côté du nom du personnage dans la boîte de dialogue. |
-| {ui.gameUIInspector.image} | Une image de votre projet : un décor, un sprite de personnage, une CG, un accessoire, une image d’interface ou un avatar. |
+| {ui.gameUIInspector.image} | Une image de votre projet : un décor, un sprite de personnage, une CG, un accessoire, une image d’interface, un avatar ou une pièce de vêtement. |
 | CG | Une illustration plein écran pour un événement spécial. |
 | Accessoire | Une image d’objet, placée sur une exploration ou utilisée comme image d’objet. |
+| {ui.ambience.title} | Une teinte d’ambiance sur l’image, comme Nuit ou Sépia. Elle reste d’un moment au suivant. |
+| {ui.camera.title} | La partie du plateau que voit le joueur, et la façon dont elle bouge. Un moment peut avoir plusieurs *plans*, jusqu’à 6. |
+| {ui.effects.title} | Une courte animation d’un personnage ou de tout l’écran, comme un tremblement, ou une transition. Ils se jouent une fois, au début d’un moment. |
+| {ui.effects.category.particles} | Pluie, neige, pétales et autres. Elles restent d’un moment au suivant jusqu’à ce que vous les arrêtiez. |
+| {ui.sound.ambience} | Un son qui tourne en boucle sous l’histoire, comme la pluie. |
+| Texte enrichi | Gras, italique, couleurs, tailles, lettres qui tremblent ou ondulent, pauses et variables à l’intérieur d’une ligne de dialogue. |
 | Variable | Quelque chose dont le jeu se souvient. Un *Score* est un nombre ; un *Fait* est oui ou non. |
 | {ui.moments.item} | Quelque chose que le joueur porte (fonctionnalité Inventaire). *Unique* (on l’a ou non) ou *Cumulable* (plusieurs). |
 | {ui.moments.choice} | Un moment où le joueur choisit une option parmi 2 à 6. |
@@ -28,6 +35,9 @@ description: Les mots utilisés dans NovelWorks et dans cette documentation.
 | {ui.topBar.storyMap} | La vue de toutes les scènes et des liens entre elles. |
 | {ui.topBar.gameUI} | Le mode où vous changez l’apparence du jeu. |
 | Mode Script | La vue d’une scène sous forme de texte, comme un scénario. |
+| {ui.gameUI.credits} | La liste déroulante de celles et ceux qui ont fait le jeu. |
+| {ui.gameUI.chapters} | Des scènes marquées comme débuts de chapitres, que les joueurs peuvent rejouer depuis l’écran-titre. |
+| {ui.templates.heading} | Des styles tout prêts pour l’écran-titre et des emplacements tout prêts pour la boîte de dialogue. |
 | Notification | Un court message dans le jeu, comme « Vous avez obtenu : Clé ». |
 | {ui.quickMenu.title} | La petite barre de contrôles de lecture au-dessus de l’histoire. |
 | Mode Jouer | Jouer à votre jeu dans l’éditeur. |

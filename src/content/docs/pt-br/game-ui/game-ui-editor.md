@@ -17,16 +17,18 @@ O modo **{ui.topBar.gameUI}** muda a aparência do seu jogo: a fonte e as cores,
 
 | Tela | O que é | Página |
 |---|---|---|
-| {ui.gameUI.fontsColors} | A fonte e as cores que todas as telas usam. | [Fontes e cores](/novelworks-docs/pt-br/game-ui/fonts-and-colors/) |
+| {ui.gameUI.fontsColors} | A fonte e as cores que todas as telas usam, e como os personagens chegam e saem. | [Fontes e cores](/novelworks-docs/pt-br/game-ui/fonts-and-colors/) |
 | {ui.gameUI.creatorSplash} | O logotipo do seu estúdio ou outras imagens, antes da tela de título. | [Introdução](/novelworks-docs/pt-br/game-ui/intro/) |
 | {ui.gameUI.contentWarning} | Avisa os jogadores sobre temas sensíveis antes da tela de título. | [Aviso de conteúdo](/novelworks-docs/pt-br/game-ui/content-warning/) |
-| {ui.gameUI.titleScreen} | A primeira tela do seu jogo. | [Tela de título](/novelworks-docs/pt-br/game-ui/title-screen/) |
+| {ui.gameUI.credits} | Créditos que rolam na tela. | [Créditos](/novelworks-docs/pt-br/game-ui/credits/) |
+| {ui.gameUI.chapters} | A tela onde os jogadores escolhem um capítulo. | [Capítulos](/novelworks-docs/pt-br/game-ui/chapters/) |
+| {ui.gameUI.titleScreen} | A primeira tela do seu jogo, e a música dela. | [Tela de título](/novelworks-docs/pt-br/game-ui/title-screen/) |
 | {ui.gameUI.dialogueBox} | Onde aparecem os nomes e as falas. | [Caixa de diálogo](/novelworks-docs/pt-br/game-ui/dialogue-box/) |
 | {ui.gameUI.choices} | Os botões de uma escolha. | [Escolhas](/novelworks-docs/pt-br/game-ui/choices-screen/) |
 | {ui.gameUI.pauseMenu} | Abre com o botão direito do mouse ou com Esc. | [Menu de pausa](/novelworks-docs/pt-br/game-ui/pause-menu/) |
 | {ui.gameUI.saveLoad} | As telas de salvar e de carregar. | [Tela de salvar e carregar](/novelworks-docs/pt-br/game-ui/save-load-screen/) |
 | {ui.gameUI.history} | A lista das falas já lidas. | [Tela de histórico](/novelworks-docs/pt-br/game-ui/history-screen/) |
-| {ui.gameUI.options} | Onde os jogadores escolhem o tamanho do texto, a velocidade, a fonte e o contraste. | [Opções do jogador](/novelworks-docs/pt-br/game-ui/options/) |
+| {ui.gameUI.options} | Onde os jogadores escolhem o tamanho do texto, a velocidade, a fonte, o contraste e os volumes. | [Opções do jogador](/novelworks-docs/pt-br/game-ui/options/) |
 | {ui.quickMenu.title} | Controles de leitura sobre a história. | [Menu rápido](/novelworks-docs/pt-br/game-ui/quick-menu/) |
 | {ui.gameUI.theEnd} | Aparece quando a história termina. | [Tela final](/novelworks-docs/pt-br/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | O botão e o painel de itens (recurso Inventário). | [Tela de inventário](/novelworks-docs/pt-br/game-ui/inventory-ui/) |

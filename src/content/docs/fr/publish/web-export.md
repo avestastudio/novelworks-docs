@@ -5,7 +5,7 @@ description: Transformez votre jeu en un dossier et un .zip qui se jouent dans n
 
 Choisissez **{ui.native.menu.file} → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). NovelWorks crée une version de votre jeu qui se joue dans n’importe quel navigateur web, sur ordinateur et sur téléphone : **un dossier et un .zip** prêts à partager ou à téléverser. La commande a besoin d’un projet ouvert et n’est pas disponible pendant que vous jouez.
 
-Dans la **démo**, l’export est limité aux jeux de 5 scènes ou moins : voir [La démo gratuite](/novelworks-docs/fr/getting-started/demo-edition/). Dans la version complète, NovelWorks vous demande de l’[activer](/novelworks-docs/fr/getting-started/install-and-activate/) à chaque export, tant que vous ne l’avez pas fait.
+Dans la **démo**, vous pouvez exporter les jeux de 5 scènes ou moins qui restent dans les [limites de la démo](/novelworks-docs/fr/reference/licenses-and-editions/) : voir [La démo gratuite](/novelworks-docs/fr/getting-started/demo-edition/). Dans la version complète, NovelWorks vous demande de l’[activer](/novelworks-docs/fr/getting-started/install-and-activate/) à chaque export, tant que vous ne l’avez pas fait.
 
 ## Les étapes
 
@@ -28,11 +28,17 @@ La fenêtre vous indique aussi la **taille de jeu recommandée** (la résolution
 NovelWorks crée, dans le dossier que vous avez choisi :
 
 - un dossier nommé d’après votre jeu, se terminant par `-web` (par exemple `The-Rainy-Day-web`), et un `.zip` du même nom. Les accents sont supprimés et tout autre caractère est remplacé par `-`. Un titre sans lettres latines ni chiffres (en chinois, russe ou japonais, par exemple) devient `Game-web` ;
-- à l’intérieur : `index.html`, `project.js` (les données de votre jeu), `game.js` (le lecteur), un dossier `assets` avec **seulement les images que votre jeu utilise**, et un dossier `fonts` avec les polices et leurs fichiers de licence.
+- à l’intérieur : `index.html`, `project.js` (les données de votre jeu), `game.js` (le lecteur), un dossier `assets` avec **seulement les images, vidéos et sons que votre jeu utilise**, et un dossier `fonts` avec les polices et leurs fichiers de licence.
 
-Les images sont copiées telles quelles, sans redimensionnement ni conversion. Les expressions et les avatars d’un personnage sont tous inclus quand le personnage apparaît ou parle.
+Les images, vidéos et sons sont copiés tels quels, sans redimensionnement ni conversion. Les expressions et les avatars d’un personnage sont tous inclus quand le personnage apparaît ou parle. Les pièces de la garde-robe ne sont incluses que si une tenue les porte.
 
 Si un dossier d’export du même nom existe déjà et qu’il s’agit d’un export précédent, il est remplacé. Si c’est autre chose, NovelWorks refuse et vous demande de choisir un autre dossier : il n’écrase donc jamais vos fichiers.
+
+### Vidéos et sons
+
+- NovelWorks ne refuse jamais une vidéo à cause de sa taille, mais vous prévient quand vous importez plus de 40 Mo de vidéo d’un coup : un jeu web avec de la vidéo met plus de temps à charger.
+- Les vidéos et les sons MP3 et OGG entrent dans le `.zip` sans compression : ils gardent donc tout leur poids. Les fichiers WAV sont compressés quand cela les rend plus petits.
+- Les navigateurs n’autorisent aucun son avant le premier clic ou la première touche du joueur. Ce qui devrait déjà être en train de jouer commence à ce moment-là.
 
 ### Ce qui est retiré
 
@@ -59,8 +65,9 @@ Vos données d’écriture privées sont effacées avant l’export : les **note
 | Le disque est plein. | Libérez de la place, ou choisissez un dossier sur un autre disque. |
 | Ce dossier n’existe plus. | Choisissez un autre dossier. |
 | Un dossier nommé « … » est déjà présent et ne provient pas d’un export précédent. | Choisissez un autre dossier. |
-| Activez NovelWorks pour exporter des jeux. | Ouvrez **{ui.native.role.help} → Activer NovelWorks…** |
+| Activez NovelWorks pour exporter des jeux. | Ouvrez **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** |
 | La démo exporte des jeux de 5 scènes au plus, et votre projet en compte N. | Dans la démo seulement. Supprimez des scènes, ou procurez-vous la version complète. |
+| Ce projet dépasse ce que la démo peut exporter : … | Dans la démo seulement. Retirez ce que le message liste, ou procurez-vous la version complète. |
 | Le jeu n’a pas pu être exporté : … | La raison suit. Voir [Dépannage et messages](/novelworks-docs/fr/reference/troubleshooting/). |
 
 ## Publier

@@ -8,14 +8,14 @@ description: Ce que contient un dossier de projet, comment les anciens et les no
 Un projet est un **dossier** que vous pouvez copier, déplacer ou sauvegarder comme n’importe quel autre :
 
 - `project.json` : tout votre jeu, dans un seul fichier (du texte au format JSON, avec une indentation de 2 espaces).
-- `assets` : les images que vous avez importées.
-- `backups` : les versions plus anciennes de `project.json`, et `backups/deleted-assets` pour les images que vous avez supprimées.
+- `assets` : les images, vidéos et sons que vous avez importés.
+- `backups` : les versions plus anciennes de `project.json`, et `backups/deleted-assets` pour les fichiers que vous avez supprimés.
 
 À chaque enregistrement, NovelWorks écrit le fichier en toute sécurité (dans un fichier temporaire, puis il le renomme) : un plantage pendant l’enregistrement ne l’abîme donc pas.
 
 ## La version du format
 
-`project.json` porte une **version de format**. Cette version de NovelWorks écrit le format **17**. Chaque fois que le format a changé, NovelWorks a gagné une mise à niveau automatique : tous les anciens projets s’ouvrent donc encore. Parmi les changements :
+`project.json` porte une **version de format**. Cette version de NovelWorks écrit le format **26**. Chaque fois que le format a changé, NovelWorks a gagné une mise à niveau automatique : tous les anciens projets s’ouvrent donc encore. Parmi les changements :
 
 | Format | Ce qu’il a ajouté |
 |---|---|
@@ -32,6 +32,15 @@ Un projet est un **dossier** que vous pouvez copier, déplacer ou sauvegarder co
 | 15 | Les personnages restent en scène : un moment ne garde que ce qu’il change. |
 | 16 | Un Si… avec plusieurs cas. |
 | 17 | Une option de choix qui n’apparaît que si une condition est remplie. |
+| 18 | [Crédits](/novelworks-docs/fr/game-ui/credits/). |
+| 19 | [Chapitres](/novelworks-docs/fr/game-ui/chapters/). |
+| 20 | [Tenues](/novelworks-docs/fr/writing/outfits/) et garde-robe. |
+| 21 | [Ambiances et décors animés](/novelworks-docs/fr/writing/ambience-and-animated-backgrounds/). |
+| 22 | La [caméra](/novelworks-docs/fr/writing/camera/), la profondeur et l’image de premier plan. |
+| 23 | Plusieurs plans de caméra par moment. |
+| 24 | [Texte enrichi](/novelworks-docs/fr/writing/rich-text/) dans les lignes de dialogue, et les cinq couleurs des mots. |
+| 25 | [Effets](/novelworks-docs/fr/writing/effects/) et particules. |
+| 26 | [Son](/novelworks-docs/fr/writing/sound/) : musique, ambiance sonore, bruitages et voix. |
 
 ## Ouvrir un projet plus ancien
 

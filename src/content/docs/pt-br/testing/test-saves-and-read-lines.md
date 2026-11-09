@@ -33,4 +33,4 @@ Os salvamentos, o salvamento rápido e o salvamento automático, as opções do 
 - **{ui.playOverlay.clearTestSaves}** pergunta antes: “Jogos exportados mantêm os próprios salvamentos.”
 - **{ui.playOverlay.resetReadLines}** age na hora, sem perguntar.
 
-As opções do próprio testador (tamanho do texto, velocidade…) são guardadas do mesmo jeito, mas não têm botão para limpar. A chave **{ui.playOverlay.showSplash}** dura até você fechar o editor.
+As opções do próprio testador (tamanho do texto, velocidade…) e os [capítulos](/novelworks-docs/pt-br/game-ui/chapters/) alcançados durante os testes são guardados do mesmo jeito, mas não têm botão para limpar. A chave **{ui.playOverlay.showSplash}** dura até você fechar o editor.

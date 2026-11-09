@@ -7,14 +7,33 @@ O **NovelWorks Demo** é a edição gratuita. Você recebe o editor inteiro e o 
 
 ## O limite: jogos exportados têm no máximo 5 cenas
 
-Na demo você pode exportar seu jogo, mas **só se ele tiver 5 cenas ou menos**. As cenas contadas são as listadas na aba **{ui.leftPanel.scenes}**. (A cena oculta do próprio espaço de trabalho do Mapa não conta.)
+Na demo você pode exportar seu jogo **se ele tiver 5 cenas ou menos** e ficar dentro dos limites abaixo. As cenas contadas são as listadas na aba **{ui.leftPanel.scenes}**. (A cena oculta do próprio espaço de trabalho do Mapa não conta.)
 
-Se o seu projeto tiver mais, **{ui.native.menu.exportForWeb}** (no menu Arquivo) abre uma janela chamada **{ui.demoExportDialog.exportYourGame}**. Ela diz quantas cenas a demo permite e quantas o seu projeto tem, e oferece dois botões:
+Se o seu projeto passar disso, **{ui.native.menu.exportForWeb}** (no menu Arquivo) abre uma janela chamada **{ui.demoExportDialog.exportYourGame}**. Ela diz o que passou do limite: o número de cenas e qualquer outra coisa que vá além da demo. Ela oferece dois botões:
 
-- **{ui.demoExportDialog.getTheFullVersion}** abre a página do NovelWorks onde você pode obter a versão completa.
+- **{ui.demoExportDialog.getTheFullVersion}** abre a página do NovelWorks onde você pode obter a versão completa. Na demo da Steam, este botão é **{ui.demoLimit.wishlist}**.
 - **{ui.demoExportDialog.notNow}** fecha a janela.
 
-Nada mais é limitado: cenas, momentos, personagens e imagens são ilimitados enquanto você edita e joga. Apague cenas, ou obtenha a versão completa, para exportar um jogo mais longo.
+Cenas, momentos e imagens são ilimitados enquanto você edita e joga. Apague cenas, ou obtenha a versão completa, para exportar um jogo mais longo.
+
+## O que você pode adicionar na demo
+
+A demo abre tudo, mas impede que você adicione mais do que isto:
+
+| O quê | A demo permite |
+|---|---|
+| Personagens | 3 |
+| Roupas por personagem | 2 |
+| Efeitos | 10 dos 25: duas entradas, duas saídas, duas reações, dois efeitos de tela e duas transições |
+| Partículas | 2 das 5: chuva e neve |
+| Planos de câmera por momento | 2 |
+| Arquivos de som | 5 |
+| Variáveis | 5 |
+| Itens | 3 |
+
+Quando você atinge um limite, uma janela avisa, com **{ui.demoLimit.continue}** e um botão para a versão completa. Nada se perde. Um efeito com cadeado ainda pode ser experimentado na janela de efeitos, mas não pode ser adicionado a um momento.
+
+Um projeto que já vai além desses limites (por exemplo, um feito com a versão completa) abre normalmente, e você pode continuar trabalhando nele. Ele não pode ser exportado pela demo até caber nos limites.
 
 ## O que um jogo exportado da demo mostra
 
@@ -29,4 +48,4 @@ O arquivo do seu projeto nunca muda, e os jogos exportados da versão completa n
 
 - As duas edições usam o **mesmo formato de projeto**. Um projeto feito na demo abre na versão completa sem nenhuma alteração, e vice-versa.
 - A demo se instala ao lado da versão completa, então você pode ter as duas. Ela guarda as próprias configurações e a própria lista de projetos recentes, e nunca mexe na licença da versão completa. A janela dela e a janela Sobre se chamam **NovelWorks Demo**.
-- Para remover o limite e as marcas, obtenha a versão completa e veja [Instalar e ativar](/novelworks-docs/pt-br/getting-started/install-and-activate/).
+- Para remover os limites e as marcas, obtenha a versão completa e veja [Instalar e ativar](/novelworks-docs/pt-br/getting-started/install-and-activate/).

@@ -11,8 +11,9 @@ El editor tiene una **barra superior** y, en el modo {ui.topBar.story}, tres zon
 
 De izquierda a derecha:
 
+- En Windows, **{ui.appMenuButton.menu}** va primero y abre el menú de la aplicación (Archivo, Edición, Ver, Ayuda).
 - **La flecha atrás** vuelve a la [pantalla de proyectos](/novelworks-docs/es/getting-started/projects-screen/). Si tienes cambios sin guardar, pregunta antes si quieres guardarlos.
-- **El título del proyecto** (o «Proyecto sin título»). Haz clic para mostrar los ajustes del proyecto en el inspector (consulta [Ajustes del editor y del proyecto](/novelworks-docs/es/getting-started/editor-settings/)).
+- **El título del proyecto** (o «{tx.topBar.untitledProject}»). Haz clic para mostrar los ajustes del proyecto en el inspector (consulta [Ajustes del editor y del proyecto](/novelworks-docs/es/getting-started/editor-settings/)).
 - **El indicador de guardado**: {ui.topBar.unsavedChanges}, {ui.topBar.savedAuto} o {ui.topBar.saved}.
 - **Tres modos**:
   - **{ui.topBar.story}**: escenas, momentos y personajes. Aquí es donde escribes.
@@ -30,7 +31,7 @@ En una ventana estrecha, los nombres de los modos y la etiqueta «{tx.leftPanel.
 Pestañas:
 
 - **{ui.leftPanel.scenes}**: tus escenas. Arrastra para reordenarlas; la estrella marca la escena inicial.
-- **{ui.leftPanel.assets}**: tus imágenes, con un botón **{ui.assetsTab.import}** y filtros por tipo.
+- **{ui.leftPanel.assets}**: tus imágenes, vídeos y sonidos, con un botón **{ui.assetsTab.import}** y filtros por tipo.
 - **{ui.leftPanel.characters}**: tus personajes y cuántas expresiones tiene cada uno.
 - **{ui.leftPanel.variables}**: lo que recuerda tu juego.
 - **{ui.leftPanel.items}**: solo cuando la función Inventario está activada.
@@ -41,31 +42,42 @@ Puedes arrastrar el borde entre paneles para cambiar su tamaño; haz doble clic 
 
 ## El centro: la pantalla del juego
 
-El juego tal como lo verán los jugadores, escalado para encajar. Encima puedes elegir el fondo del momento, añadir personajes y cambiar entre dos cosas:
+El juego tal como lo verán los jugadores, escalado para encajar. Encima solo encuentras estos controles:
 
+- el botón del fondo, que elige el fondo del momento;
+- **{ui.stageControls.character}**, que pone un personaje en escena;
+- en un momento {ui.moments.exploration}, la herramienta para dibujar zonas (consulta [Exploración](/novelworks-docs/es/features/exploration/));
 - **{ui.topBar.visual}** y **{ui.topBar.script}**: muestran la escena como la pantalla del juego con una línea de tiempo, o como texto que puedes escribir como un guion de cine.
-- **{ui.stage.scopeLabel}**: **{ui.stage.scopeFollowing}** o **{ui.stage.scopeOnlyHere}**. Se explica en [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/).
 
-Encima de la pantalla, una fila de botones pequeños muestra adónde lleva el momento seleccionado (consulta [Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
+Haz clic en un personaje de la pantalla del juego: una pequeña barra sobre él cambia su expresión y su atuendo. Todo lo demás del personaje está en el inspector. Consulta [Poner en escena una escena](/novelworks-docs/es/writing/staging/).
 
-En una ventana baja (de menos de unos 780 píxeles de alto), las filas de encima de la pantalla del juego se quedan cada una en una sola línea que se desplaza hacia los lados, y el recordatorio de teclas bajo la pantalla del juego se oculta, para dejar sitio a la pantalla del juego.
+En una ventana baja (de menos de unos 780 píxeles de alto), el gráfico bajo la línea de tiempo muestra menos filas, para dejar sitio a la pantalla del juego.
 
 ## Abajo: la línea de tiempo
 
-Los momentos de la escena actual, como tarjetas que puedes reordenar. Unos botones añaden un momento de cada tipo después del seleccionado, y dos iconos duplican o borran el momento seleccionado. Bajo las tarjetas, un gráfico muestra quién está en escena y una fila muestra dónde se ramifica la historia. Consulta [Escenas, momentos y la línea de tiempo](/novelworks-docs/es/concepts/scenes-moments-timeline/).
+Los momentos de la escena actual, como tarjetas que puedes reordenar. En la cabecera de la línea de tiempo, **{ui.moments.dialogue}** añade una línea de diálogo después del momento seleccionado, y **{ui.timeline.addOther}** enumera los demás tipos de momento, cada uno con una frase que lo explica. Dos iconos duplican o borran el momento seleccionado. Estas dos acciones también están en el menú del clic derecho de una tarjeta. Bajo las tarjetas, un gráfico muestra quién está en escena, unas filas muestran hasta dónde llega cada sonido (cuando la escena tiene sonidos) y una fila muestra dónde se ramifica la historia. Consulta [Escenas, momentos y la línea de tiempo](/novelworks-docs/es/concepts/scenes-moments-timeline/).
 
 ## La derecha: el inspector
 
 Las propiedades de lo que seleccionaste: un momento, una escena, una imagen, un personaje, una variable, un objeto, un personaje en escena. Su título cambia con la selección. Si no hay nada seleccionado, muestra los **{ui.inspector.projectSettings}**.
 
+Un momento tiene cuatro pestañas:
+
+- **{ui.inspectorTabs.text}**: quién habla y qué se dice (o la elección, la condición…), adónde lleva el momento, qué lleva a él y tu nota.
+- **{ui.inspectorTabs.image}**: hasta dónde llega un cambio, el fondo, el ambiente y quién está en escena.
+- **{ui.inspectorTabs.effects}**: la cámara y los efectos.
+- **{ui.sound.tab}**: música, sonido ambiente, efectos de sonido y voz.
+
+Consulta [El panel del momento](/novelworks-docs/es/writing/moment-panel/). Cuando haces clic en un personaje de la pantalla del juego, el inspector muestra **{ui.inspector.characterOnStage}**: su posición, tamaño, dirección, orden y atuendo.
+
 ## Los menús
 
 En un Mac, el menú de la app contiene Acerca de, Servicios, Ocultar y Salir; en Windows, Salir está en el menú Archivo.
 
-- **{ui.native.menu.file}**: Nuevo proyecto…, Abrir proyecto…, Guardar, Restaurar desde copia de seguridad…, Importar guion…, Exportar el guion…, {ui.native.menu.exportForWeb}, Cerrar proyecto.
-- **{ui.native.menu.edit}**: Deshacer, Rehacer, Buscar y reemplazar…, Cortar, Copiar, Pegar, Seleccionar todo, Idioma de ortografía.
-- **{ui.menu.view}**: Tema, Idioma, Pantalla completa.
+- **{ui.native.menu.file}**: {tx.native.menu.newProject}, {tx.native.menu.openProject}, {tx.native.menu.save}, {tx.native.menu.restoreFromBackup}, {tx.native.menu.importScript}, {tx.native.menu.exportScript}, {ui.native.menu.exportForWeb}, {tx.native.menu.closeProject}.
+- **{ui.native.menu.edit}**: {tx.native.menu.undo}, {tx.native.menu.redo}, {tx.native.menu.findAndReplace}, Cortar, Copiar, Pegar, Seleccionar todo, Idioma de ortografía.
+- **{ui.menu.view}**: {tx.native.menu.theme}, Idioma, Pantalla completa.
 - **{ui.native.role.window}**.
-- **{ui.native.role.help}**: Documentación, Repetir el tutorial, Atajos de teclado, Activar NovelWorks… (solo versión completa), Informar de un error… y, en Windows, Acerca de.
+- **{ui.native.role.help}**: Documentación, {tx.native.menu.replayTutorial}, {tx.native.menu.keyboardShortcuts}, {tx.native.menu.activateNovelWorks} (solo versión completa), {tx.native.menu.reportABug} y, en Windows, Acerca de.
 
 Encontrarás una lista completa de atajos en [Atajos de teclado](/novelworks-docs/es/reference/keyboard-shortcuts/).

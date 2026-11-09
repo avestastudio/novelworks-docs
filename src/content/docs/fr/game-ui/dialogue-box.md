@@ -5,11 +5,21 @@ description: "L’endroit où apparaissent les noms et les répliques : positio
 
 La **{ui.gameUI.dialogueBox}** est la boîte qui affiche le nom de celui qui parle et le texte. Sa taille et sa place sont en pourcentages de l’écran (surtout de sa hauteur), donc elle garde son aspect à toutes les résolutions.
 
+## Modèles
+
+Sous {ui.templates.heading}, quatre cartes placent la boîte pour vous : {ui.templates.dialogue.classic} (en bas), {ui.templates.dialogue.sidePanel} (à droite), {ui.templates.dialogue.centerCard} et {ui.templates.dialogue.topBanner}. Un clic change seulement la position, la marge, la largeur et la hauteur. Les couleurs, l’étiquette du nom, l’avatar, les images et le texte restent comme vous les avez réglés. Un seul {ui.topBar.undo} ramène ce que vous aviez.
+
+La carte du modèle actuel est mise en évidence jusqu’à ce que vous changiez l’un de ces réglages.
+
 ## Position et taille
 
 - **{ui.gameUIInspector.position}** : {ui.gameUIInspector.bottom} (par défaut), {ui.gameUIInspector.top}, {ui.gameUIInspector.left}, {ui.gameUIInspector.right} ou {ui.gameUIInspector.center}. Choisir une position règle aussi la largeur et la hauteur sur une bonne taille de départ : une large bande en haut et en bas, un grand panneau (environ un tiers de l’écran) à gauche et à droite, et une boîte au milieu pour le centre.
 - **{ui.gameUIInspector.margin}** : l’espace jusqu’aux bords de l’écran (de 0 à 20 %, 3,5 par défaut).
 - **{ui.gameUIInspector.width}** et **{ui.gameUIInspector.height}** : de 10 à 100 %. Après avoir choisi une position, vous pouvez les ajuster.
+
+## Couleurs des mots
+
+{ui.richText.palette} contient cinq couleurs, numérotées de 1 à 5. Ce sont les couleurs proposées quand vous sélectionnez des mots dans une ligne. Voir [Texte enrichi](/novelworks-docs/fr/writing/rich-text/). Si vous changez une couleur ici, tous les mots qui l’utilisent changent aussi.
 
 ## Fond
 

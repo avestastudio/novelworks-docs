@@ -106,4 +106,4 @@ Cuando arrastras un enlace en el mapa de la historia, un tipo de enlace que no s
 
 ## Qué no se comprueba
 
-Un momento de diálogo no tiene aviso propio: una línea de diálogo vacía no se señala.
+Un momento de diálogo no tiene aviso propio: una línea de diálogo vacía no se señala. Los atuendos, los ambientes, la cámara, los efectos y los sonidos tampoco tienen avisos.

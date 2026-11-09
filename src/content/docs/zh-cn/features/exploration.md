@@ -7,13 +7,13 @@ description: "点选式场景：玩家点击区域来四处查看、收集物品
 
 ## 添加探索
 
-在时间线中，添加一个{ui.moments.exploration}片段。它一开始是空的，使用前一个片段的背景。选中它：检查器会显示{ui.explorationInspectors.zones}和{ui.explorationInspectors.props}，以及 **+ 区域** 和 **+ 道具**。
+在时间线顶部打开{ui.timeline.addOther}，添加一个{ui.moments.exploration}片段。它一开始是空的，使用前一个片段的背景。选中它：检查器的{ui.inspectorTabs.text}标签页会显示{ui.explorationInspectors.zones}和{ui.explorationInspectors.props}，以及 **+ 区域** 和 **+ 道具**。
 
 ![一个探索片段：画在图片上的区域，以及检查器中的区域和道具列表。](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## 绘制区域
 
-在游戏画面上方，选择{ui.explorationCanvas.drawZonesAs}：{ui.explorationCanvas.rectangle}或{ui.explorationCanvas.shape}。（窗口较窄时，它们在{ui.stage.more}菜单里。）
+在游戏画面上方，选择{ui.explorationCanvas.drawZonesAs}：{ui.explorationCanvas.rectangle}或{ui.explorationCanvas.shape}。
 
 - {ui.explorationCanvas.rectangle}：在图片上拖动。只点一下不会创建任何东西，小于画面 2 % 的区域也不会被创建。
 - {ui.explorationCanvas.shape}：围绕一个物体逐点点击。再次点击第一个点，或按 **Enter**，即可封闭形状。按 **Esc** 取消。至少需要三个点。

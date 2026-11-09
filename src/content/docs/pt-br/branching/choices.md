@@ -7,7 +7,7 @@ Um momento **{ui.moments.choice}** mostra ao jogador de dois a seis botões. Cad
 
 ## Adicionar uma escolha
 
-Na linha do tempo, adicione um momento **{ui.moments.choice}**. Ele começa com duas opções vazias. Você pode escrever no inspetor ou direto na tela do jogo.
+No cabeçalho da linha do tempo, abra **{ui.timeline.addOther}** e adicione um momento **{ui.moments.choice}**. Ele começa com duas opções vazias. Você pode escrever na aba **{ui.inspectorTabs.text}** do inspetor ou direto na tela do jogo.
 
 ![Uma escolha com duas opções: o que cada uma muda e a cena para onde ela leva.](/novelworks-docs/screenshots/choice-options.png)
 

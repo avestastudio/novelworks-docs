@@ -23,6 +23,8 @@ Estes passos descrevem o site do próprio itch.io, não o NovelWorks, e o itch.i
 - Não envie só o `index.html`: todos os arquivos da exportação são necessários.
 - Seu jogo roda dentro de um quadro. Se você der à página um tamanho maior que o tamanho de jogo recomendado, o jogo é ajustado para caber, com faixas pretas.
 - Os jogos do NovelWorks sempre começam com a breve tela “Feito com NovelWorks”.
+- Os navegadores não permitem som antes do primeiro clique ou do primeiro toque de tecla do jogador, então a música de título começa nesse instante. Veja [Exportação para web](/novelworks-docs/pt-br/publish/web-export/).
+- Vídeos deixam a página mais lenta para carregar, e o `.zip` mantém o peso total deles.
 
 ## Teste antes de publicar
 

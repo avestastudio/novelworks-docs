@@ -237,13 +237,27 @@
           "slug": "writing/moment-panel",
           "title": "The moment panel",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/rich-text",
           "title": "Styling your text",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/characters",
@@ -262,7 +276,14 @@
           "slug": "writing/outfits",
           "title": "Outfits and the wardrobe",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/assets",
@@ -294,25 +315,53 @@
           "slug": "writing/ambience-and-animated-backgrounds",
           "title": "Ambience and animated backgrounds",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/camera",
           "title": "The camera",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/effects",
           "title": "Effects",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/sound",
           "title": "Sound and music",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "writing/script-mode",
@@ -682,13 +731,27 @@
           "slug": "game-ui/credits",
           "title": "Credits",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/chapters",
           "title": "Chapters",
           "status": "written",
-          "translated": []
+          "translated": [
+            "fr",
+            "es",
+            "pt-BR",
+            "zh-CN",
+            "ru",
+            "ja"
+          ]
         },
         {
           "slug": "game-ui/history-screen",

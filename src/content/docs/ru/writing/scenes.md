@@ -45,6 +45,7 @@ description: Создавайте, переименовывайте, перес�
 
 - **{ui.sceneInspector.name}**;
 - **{ui.sceneInspector.summary}**: одно-два предложения только для вас. Оно показывается на карте истории и над таймлайном и никогда не появляется в игре;
+- **{ui.sceneInspector.startsChapter}**: делает эту сцену началом главы, с необязательным названием. Главы идут в порядке списка сцен. См. [Главы](/novelworks-docs/ru/game-ui/chapters/);
 - **{ui.sceneInspector.writingStatus}**: **{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** или **{ui.shared.outline.done}**. Если вы его не задавали, это «Нужно написать», пока в сцене не появится текст, а затем «{tx.shared.outline.draft}»;
 - кнопку начальной сцены;
 - **{ui.branches.entriesTitle}**: места, которые ведут в эту сцену, на них можно нажать;

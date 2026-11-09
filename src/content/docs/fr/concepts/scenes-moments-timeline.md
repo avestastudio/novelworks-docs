@@ -31,9 +31,9 @@ En bas de la fenêtre, la chronologie montre les moments de la scène sélection
 - L’en-tête contient le nom de la scène, le nombre de moments et de mots, et le résumé de la scène si vous en avez écrit un. Cliquez sur le résumé pour le modifier dans l’inspecteur.
 - Chaque carte montre sa sorte, la personne qui parle (ou « Narrateur ») et un court résumé de ce qu’elle dit ou fait. Une carte peut porter une note ou un avertissement.
 - Cliquez sur une carte pour la sélectionner et la modifier sur l’écran du jeu et dans l’inspecteur. Glissez les cartes pour les réordonner.
-- Des boutons ajoutent un moment **après celui qui est sélectionné**, un par sorte. Une carte **+** à la fin ajoute une ligne de dialogue.
-- Deux icônes dupliquent et suppriment le moment sélectionné. La suppression demande confirmation, sauf si le moment est une ligne de dialogue vide.
-- Sous les cartes, un graphique montre qui est en scène ([Le plateau](/novelworks-docs/fr/concepts/stage/)) et une rangée montre où l’histoire bifurque ([Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/)).
+- Dans l’en-tête, **{ui.moments.dialogue}** ajoute une ligne de dialogue **après le moment sélectionné**, et **{ui.timeline.addOther}** liste les autres sortes de moments, chacune avec une phrase qui l’explique. Une carte **+** à la fin ajoute une ligne de dialogue.
+- Deux icônes dupliquent et suppriment le moment sélectionné. Ces deux actions se trouvent aussi dans le menu du clic droit d’une carte. La suppression demande confirmation, sauf si le moment est une ligne de dialogue vide.
+- Sous les cartes, un graphique montre qui est en scène ([Le plateau](/novelworks-docs/fr/concepts/stage/)), des rangées montrent jusqu’où va chaque [son](/novelworks-docs/fr/writing/sound/) quand la scène a des sons, et une rangée montre où l’histoire bifurque ([Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/)).
 
 ### La façon rapide d’écrire
 

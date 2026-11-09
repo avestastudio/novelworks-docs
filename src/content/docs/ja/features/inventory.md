@@ -3,7 +3,7 @@ title: インベントリ
 description: "プレイヤーが持ち歩くアイテム:作成し、渡し、取り上げ、条件で確認し、ゲームで表示します。"
 ---
 
-{ui.shared.features.inventory} 機能をオンにすると、プレイヤーは鍵、手紙、コイン、手がかりなどの「アイテム」を集められます。アイテムはインベントリメニューで確認できます。[機能ライブラリ](/novelworks-docs/ja/features/features-panel/)でオンにします。アイテムは[変数](/novelworks-docs/ja/branching/variables/)とは違います。アイテムは、プレイヤーが持ち歩くものです。
+{ui.shared.features.inventory} 機能をオンにすると、プレイヤーは鍵、手紙、コイン、手がかりなどのアイテムを集められます。アイテムはインベントリメニューで確認できます。[機能ライブラリ](/novelworks-docs/ja/features/features-panel/)でオンにします。アイテムは[変数](/novelworks-docs/ja/branching/variables/)とは違います。アイテムは、プレイヤーが持ち歩くものです。
 
 ## アイテムのタブ
 

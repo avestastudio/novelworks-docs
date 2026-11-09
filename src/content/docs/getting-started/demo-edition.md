@@ -9,7 +9,7 @@ description: What the NovelWorks Demo can and cannot do, and how it relates to t
 
 In the demo you can export your game **if it has 5 scenes or fewer** and stays within the limits below. The scenes counted are the ones listed in the **{ui.leftPanel.scenes}** tab. (The Map workspace's own hidden scene does not count.)
 
-If your project goes beyond that, **{ui.native.menu.exportForWeb}** (in the File menu) opens a window titled **{ui.demoExportDialog.exportYourGame}**. It says what is over the limit: the number of scenes, and anything else that goes beyond the demo. It also lists anything else that goes beyond the demo (see below). It offers two buttons:
+If your project goes beyond that, **{ui.native.menu.exportForWeb}** (in the File menu) opens a window titled **{ui.demoExportDialog.exportYourGame}**. It says what is over the limit: the number of scenes, and anything else that goes beyond the demo. It offers two buttons:
 
 - **{ui.demoExportDialog.getTheFullVersion}** opens the NovelWorks page where you can get the full version. In the Steam demo, this button is **{ui.demoLimit.wishlist}**.
 - **{ui.demoExportDialog.notNow}** closes the window.

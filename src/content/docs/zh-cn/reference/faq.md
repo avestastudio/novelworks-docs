@@ -11,17 +11,17 @@ description: 对大家最常问的问题的快速解答。
 
 **编辑器支持哪些语言？** 英语、法语、西班牙语、巴西葡萄牙语、简体中文、俄语和日语。在 **{ui.menu.view} → 语言** 中更改。你的剧情保持你写它时用的语言。
 
-**我能用演示版做一个完整的游戏吗？** 可以，你可以制作和试玩所有内容。导出仅限 5 个场景或更少的游戏。见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。
+**我能用演示版做一个完整的游戏吗？** 你可以在编辑器里试用并试玩所有内容，但演示版对某些内容有限制，比如角色和声音的数量，而且只能导出 5 个场景或更少的游戏。见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)和[许可证与版本](/novelworks-docs/zh-cn/reference/licenses-and-editions/)。
 
 ## 你的作品
 
 **我的项目在哪里？** 在你创建它时选择的文件夹里。项目设置会在“{tx.projectSettings.savedIn}”下显示它。要复制项目，请复制整个文件夹。
 
-**我丢了一处更改。** 先试试 {ui.topBar.undo}（最多 200 步），再试 **{ui.native.menu.file} → 从备份恢复…**。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
+**我丢了一处更改。** 先试试 {ui.topBar.undo}（最多 200 步），再试 {ui.native.menu.file} → {ui.native.menu.restoreFromBackup}。见[保存、备份与撤销](/novelworks-docs/zh-cn/getting-started/saving-and-undo/)。
 
 **我误删了一张图片、一个场景或一个变量。** 按 {ui.topBar.undo}。删除的图片会保存在 `backups/deleted-assets` 里，撤销后就会回来。删除的场景或变量也可以撤销，在此期间，用到它们的地方会显示警告。
 
-**我可以把项目搬到另一台电脑上吗？** 可以：复制它的文件夹，然后用 **{ui.native.menu.file} → 打开项目…** 打开。
+**我可以把项目搬到另一台电脑上吗？** 可以：复制它的文件夹，然后用 {ui.native.menu.file} → {ui.native.menu.openProject} 打开。
 
 ## 写作
 
@@ -30,6 +30,16 @@ description: 对大家最常问的问题的快速解答。
 **怎样让一个选择产生影响？** 在某个选项中让游戏记住某件事，然后使用“如果…”或选项上的条件。见[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 **我能把整个故事写成文本吗？** 可以：[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)，以及[导入和导出剧本](/novelworks-docs/zh-cn/writing/import-a-script/)。
+
+**我可以添加音乐、音效或配音吗？** 可以：导入 MP3、OGG 或 WAV 文件。见[声音和音乐](/novelworks-docs/zh-cn/writing/sound/)。
+
+**背景可以动吗？** 可以：动态 GIF 和 WebP 图片，以及 MP4 或 WebM 视频（循环播放，没有声音）。见[氛围与动态背景](/novelworks-docs/zh-cn/writing/ambience-and-animated-backgrounds/)。
+
+**我的角色可以换衣服吗？** 可以。见[服装](/novelworks-docs/zh-cn/writing/outfits/)。
+
+**我可以给一些文字上色或让它们抖动吗？** 可以。见[富文本](/novelworks-docs/zh-cn/writing/rich-text/)。
+
+**我可以添加制作人员名单或章节吗？** 可以：[制作人员名单](/novelworks-docs/zh-cn/game-ui/credits/)和[章节](/novelworks-docs/zh-cn/game-ui/chapters/)。
 
 **我能使用自己的字体吗？** 暂时不能。你可以从四种字体中选择。见[字体和颜色](/novelworks-docs/zh-cn/game-ui/fonts-and-colors/)。
 
@@ -45,6 +55,6 @@ description: 对大家最常问的问题的快速解答。
 
 ## 遇到问题
 
-**导出被锁定了。** 在完整版中，请激活 NovelWorks：**{ui.native.role.help} → 激活 NovelWorks…**。见[故障排除](/novelworks-docs/zh-cn/reference/troubleshooting/)。
+**导出被锁定了。** 在完整版中，请激活 NovelWorks：{ui.native.role.help} → {ui.native.menu.activateNovelWorks}。见[故障排除](/novelworks-docs/zh-cn/reference/troubleshooting/)。
 
 **还有其他问题。** 见[故障排除和提示信息](/novelworks-docs/zh-cn/reference/troubleshooting/)，或者[报告问题](/novelworks-docs/zh-cn/reference/report-a-bug/)。

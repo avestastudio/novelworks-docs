@@ -11,6 +11,8 @@ description: 玩家已读台词的列表，以及如何打开它。
 - 用 **Esc**、**H** 或 {rt.game.back} 按钮关闭它。
 - 在标题画面、暂停时，或者另一个画面（存档、选项、物品栏）打开时，它不可用。打开它会关闭自动和快进。
 
+[富文本](/novelworks-docs/zh-cn/writing/rich-text/)在这里显示为普通文字，不带颜色或效果。
+
 ## 使用它
 
 它打开时会滚动到最新的一行。可以用滚轮滚动、拖动（在触摸屏上），或者用按键：方向键移动一点点，**Page Up** / **Page Down** 或 **空格** 移动一屏，**Home** 和 **End** 跳到两端。当还没有人说过话时，它会显示“{tx.historyScreen.nothingHasBeenSaidYet}”

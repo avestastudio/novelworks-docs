@@ -61,6 +61,8 @@ Notes :
 - Tous les raccourcis sont ignorés pendant que vous jouez, et tant qu’une fenêtre, un menu ou une fenêtre contextuelle est ouvert.
 - Dans l’espace de travail Carte, `Delete` et **Cmd+D** agissent sur le lieu sélectionné.
 - Dans la vue Script, le copier-coller de moments ne s’applique pas : l’éditeur de texte garde le sien. Là, **Cmd+Entrée** / **Ctrl+Entrée** est « {tx.scriptMode.playFromCursor} » et **Cmd+.** / **Ctrl+.** crée tout ce qui manque.
+- Dans une ligne de dialogue, **Cmd+B** / **Ctrl+B** met les mots sélectionnés en gras et **Cmd+I** / **Ctrl+I** les met en italique. Voir [Texte enrichi](/novelworks-docs/fr/writing/rich-text/).
+- Dans la garde-robe, les flèches du clavier déplacent par petits pas la pièce sélectionnée. Voir [Tenues et garde-robe](/novelworks-docs/fr/writing/outfits/).
 
 ## Dans un jeu
 
@@ -68,7 +70,7 @@ Ces raccourcis fonctionnent dans les jeux exportés et en mode Jouer.
 
 | Action | Touches |
 |---|---|
-| Passer à la suite (termine d’abord le texte) | Clic, **Espace** ou **Entrée** |
+| Passer à la suite (termine d’abord le texte, les effets et le mouvement de caméra) | Clic, **Espace** ou **Entrée** |
 | Choisir une option | **1** à **6** (la Nᵉ option à l’écran) |
 | Menu pause | **Échap** ou clic droit |
 | Sauvegarde rapide / chargement rapide | **F5** / **F9** |

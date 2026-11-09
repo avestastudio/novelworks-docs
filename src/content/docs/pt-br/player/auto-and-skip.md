@@ -21,7 +21,7 @@ O Auto para em um momento que não é uma fala de diálogo: uma escolha, uma exp
 
 ## Pular
 
-O Pular passa depressa pelas falas **que o jogador já leu**, terminando o texto de uma vez e encurtando as animações. Ele para na primeira fala que o jogador não leu, e em uma escolha, uma exploração ou um final.
+O Pular passa depressa pelas falas **que o jogador já leu**, terminando o texto de uma vez e encurtando as animações. Os [efeitos](/novelworks-docs/pt-br/writing/effects/), as vozes e os efeitos sonoros dos momentos pulados não são reproduzidos. Ele para na primeira fala que o jogador não leu, e em uma escolha, uma exploração ou um final.
 
 - Uma fala conta como lida assim que aparece, e o registro é guardado **por jogo, no navegador**, não por salvamento. Ele continua entre jogos novos.
 - Se você mudar o texto ou quem fala em uma fala, ela volta a contar como não lida.
@@ -33,4 +33,4 @@ Um clique ou uma tecla que avança a história (**Espaço**, **Enter**, **1** a 
 
 ## Voz
 
-Um momento de diálogo não tem configuração de voz nem de som, então o Auto espera só pelo texto.
+Se uma fala tiver [voz](/novelworks-docs/pt-br/writing/sound/), o Auto espera a voz terminar e avança depois de 0,6 segundo, qualquer que seja a **{rt.optionsScreen.autoSpeed}**. Passar para a próxima fala corta a voz.

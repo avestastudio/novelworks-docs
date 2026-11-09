@@ -31,9 +31,9 @@ En la parte de abajo de la ventana, la línea de tiempo muestra los momentos de 
 - La cabecera tiene el nombre de la escena, el número de momentos y de palabras, y el resumen de la escena si escribiste uno. Haz clic en el resumen para editarlo en el inspector.
 - Cada tarjeta muestra su tipo, quién habla (o «Narrador») y un breve resumen de lo que dice o hace. Una tarjeta puede llevar una nota o una advertencia.
 - Haz clic en una tarjeta para seleccionarla y editarla en la pantalla del juego y en el inspector. Arrastra las tarjetas para reordenarlas.
-- Unos botones añaden un momento **después del seleccionado**, uno por tipo. Una tarjeta **+** al final añade una línea de diálogo.
-- Dos iconos duplican y borran el momento seleccionado. Borrar pide confirmación, salvo que el momento sea una línea de diálogo vacía.
-- Bajo las tarjetas, un gráfico muestra quién está en escena ([El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/)) y una fila muestra dónde se ramifica la historia ([Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
+- En la cabecera, **{ui.moments.dialogue}** añade una línea de diálogo **después del momento seleccionado**, y **{ui.timeline.addOther}** enumera los demás tipos, cada uno con una frase que lo explica. Una tarjeta **+** al final añade una línea de diálogo.
+- Dos iconos duplican y borran el momento seleccionado. Las dos acciones también están en el menú del clic derecho de una tarjeta. Borrar pide confirmación, salvo que el momento sea una línea de diálogo vacía.
+- Bajo las tarjetas, un gráfico muestra quién está en escena ([El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/)), unas filas muestran hasta dónde llega cada [sonido](/novelworks-docs/es/writing/sound/) cuando la escena tiene sonidos, y una fila muestra dónde se ramifica la historia ([Cómo se ramifica una historia](/novelworks-docs/es/concepts/how-stories-branch/)).
 
 ### La forma rápida de escribir
 

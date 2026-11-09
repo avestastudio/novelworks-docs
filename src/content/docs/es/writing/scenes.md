@@ -45,6 +45,7 @@ Selecciona una escena para ver:
 
 - **{ui.sceneInspector.name}**;
 - **{ui.sceneInspector.summary}**: una o dos frases, solo para ti. Se muestra en el mapa de la historia y sobre la línea de tiempo, y nunca en el juego;
+- **{ui.sceneInspector.startsChapter}**: hace de esta escena el inicio de un capítulo, con un nombre opcional. Los capítulos siguen el orden de la lista de escenas. Consulta [Capítulos](/novelworks-docs/es/game-ui/chapters/);
 - **{ui.sceneInspector.writingStatus}**: **{ui.shared.outline.toWrite}**, **{ui.shared.outline.draft}** o **{ui.shared.outline.done}**. Si nunca lo defines, es «Por escribir» hasta que la escena tiene algún texto, y luego «{tx.shared.outline.draft}»;
 - el botón de escena inicial;
 - **{ui.branches.entriesTitle}**: los lugares que llevan a esta escena, en los que puedes hacer clic;

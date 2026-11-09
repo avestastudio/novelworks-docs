@@ -11,6 +11,8 @@ El **{rt.game.history}** muestra lo que se ha dicho hasta ahora: las líneas de 
 - Ciérralo con **Esc**, **H** o el botón **{rt.game.back}**.
 - No está disponible en la pantalla de título, ni en pausa, ni mientras hay otra pantalla abierta (Guardar, Opciones, el inventario). Al abrirlo se desactivan Auto y Saltar.
 
+El [texto enriquecido](/novelworks-docs/es/writing/rich-text/) se muestra aquí como palabras sencillas, sin colores ni efectos.
+
 ## Usarlo
 
 Se abre desplazado hasta la última línea. Desplázate con la rueda, arrastrando (en una pantalla táctil) o con las teclas: las flechas se mueven un poco, **Re Pág** / **Av Pág** o **Espacio** una pantalla, **Inicio** y **Fin** hasta los extremos. Cuando aún no se ha dicho nada, dice «{tx.historyScreen.nothingHasBeenSaidYet}»

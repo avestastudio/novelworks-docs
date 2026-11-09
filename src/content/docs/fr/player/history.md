@@ -11,6 +11,8 @@ L’**{rt.game.history}** montre ce qui a été dit jusqu’ici : les réplique
 - Fermez-le avec **Échap**, **H** ou le bouton **{rt.game.back}**.
 - Il n’est pas disponible sur l’écran-titre, en pause, ni quand un autre écran (Sauvegarde, Options, l’inventaire) est ouvert. L’ouvrir désactive Auto et Passer.
 
+Le [texte enrichi](/novelworks-docs/fr/writing/rich-text/) s’affiche ici en mots simples, sans couleurs ni effets.
+
 ## L’utiliser
 
 Il s’ouvre sur la dernière réplique. Faites défiler avec la molette, en faisant glisser (sur un écran tactile), ou avec les touches : les flèches avancent un peu, **Page précédente** / **Page suivante** ou **Espace** d’un écran, **Début** et **Fin** jusqu’aux extrémités. Quand rien n’a encore été dit, il affiche « {tx.historyScreen.nothingHasBeenSaidYet} »

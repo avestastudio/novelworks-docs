@@ -45,6 +45,7 @@ description: シーンの作成、名前の変更、並べ替え、複製、削�
 
 - 「{ui.sceneInspector.name}」。
 - 「{ui.sceneInspector.summary}」: 1〜2 文の、自分用のメモです。ストーリーマップとタイムラインの上に表示され、ゲームには表示されません。
+- 「{ui.sceneInspector.startsChapter}」: このシーンをチャプターの始まりにします。名前は任意です。チャプターの順番はシーン一覧の順番に従います。[チャプター](/novelworks-docs/ja/game-ui/chapters/)を見てください。
 - 「{ui.sceneInspector.writingStatus}」: 「{ui.shared.outline.toWrite}」、「{ui.shared.outline.draft}」、「{ui.shared.outline.done}」のどれかです。一度も設定していなければ、シーンに文章が入るまでは「未執筆」で、入ると「{tx.shared.outline.draft}」になります。
 - 開始シーンのボタン。
 - 「{ui.branches.entriesTitle}」: このシーンへつながる場所で、クリックできます。

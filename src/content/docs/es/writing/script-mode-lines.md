@@ -32,6 +32,8 @@ Mia : I looked for you everywhere.
 
 Una línea con dos espacios de sangría continúa la línea de arriba, como una línea nueva **dentro del mismo cuadro**.
 
+Para dar formato a las palabras o añadir una pausa dentro de una línea, consulta [Texto enriquecido](/novelworks-docs/es/writing/rich-text/).
+
 ## Narración
 
 ```
@@ -69,7 +71,7 @@ hide : everyone
 ```
 
 - **`background : Name`** cambia el fondo por la imagen llamada Nombre. `background : none`, o nada después de los dos puntos, quita el fondo.
-- **`show : Mia happy left`** hace aparecer a un personaje, o cambia su expresión o su lugar. Después del nombre puedes añadir una expresión y un lugar: `left`, `center` o `right`, o `placed by hand` para conservar una colocación libre. Sin lugar, un personaje que ya está en escena conserva el suyo, y uno nuevo va al centro. El nombre de un personaje puede tener espacios.
+- **`show : Mia happy left`** hace aparecer a un personaje, o cambia su expresión o su lugar. Después del nombre puedes añadir una expresión, `outfit` seguido del nombre de un atuendo (`outfit default` vuelve al primer atuendo; consulta [Atuendos y vestuario](/novelworks-docs/es/writing/outfits/)) y un lugar: `left`, `center` o `right`, o `placed by hand` para conservar una colocación libre. Sin lugar, un personaje que ya está en escena conserva el suyo, y uno nuevo va al centro. El nombre de un personaje puede tener espacios.
 - **`hide : Mia`** hace que un personaje se vaya. `hide : everyone`, o nada después de los dos puntos, deja la escena vacía.
 
 Una línea de escena necesita otra línea después. Si no, se marca.

@@ -45,7 +45,7 @@ NovelWorks crea la carpeta, con un archivo `project.json` y una carpeta `assets`
 ## Qué hay en la carpeta de un proyecto
 
 - `project.json`: toda tu historia, en un solo archivo.
-- `assets`: las imágenes que importaste.
+- `assets`: las imágenes, los vídeos y los sonidos que importaste.
 - `backups`: versiones anteriores de `project.json` (consulta [Guardar, copias de seguridad y deshacer](/novelworks-docs/es/getting-started/saving-and-undo/)).
 
 Para copiar un proyecto a otro ordenador, copia la carpeta entera. Después puedes abrirlo con **{ui.projectHub.open}**.

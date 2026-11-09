@@ -3,7 +3,7 @@ title: 物品栏
 description: "玩家携带的物品：创建它们、给予和拿走、在条件中检查，以及在游戏中查看。"
 ---
 
-开启{ui.shared.features.inventory}功能后，玩家可以收集**物品**：钥匙、信件、硬币、线索。他们可以在物品栏菜单中查看这些物品。你可以在[功能库](/novelworks-docs/zh-cn/features/features-panel/)中开启它。物品不是[变量](/novelworks-docs/zh-cn/branching/variables/)：物品是玩家随身携带的东西。
+开启{ui.shared.features.inventory}功能后，玩家可以收集物品：钥匙、信件、硬币、线索。他们可以在物品栏菜单中查看这些物品。你可以在[功能库](/novelworks-docs/zh-cn/features/features-panel/)中开启它。物品不是[变量](/novelworks-docs/zh-cn/branching/variables/)：物品是玩家随身携带的东西。
 
 ## 物品标签页
 

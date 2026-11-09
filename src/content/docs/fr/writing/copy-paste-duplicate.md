@@ -11,7 +11,7 @@ description: Copiez des moments, des scènes et des personnages, collez-les aill
 - une **scène** : la copie se place juste après l’original et s’appelle par exemple « A helping hand (copie) » (voir [Scènes](/novelworks-docs/fr/writing/scenes/)) ;
 - une **zone** d’exploration.
 
-Le menu du clic droit propose **{ui.contextMenus.duplicate}** pour un moment et une scène, et **{ui.contextMenus.duplicateZone}** pour une zone. L’inspecteur d’un moment a un bouton **{ui.momentInspector.duplicate}**.
+Le menu du clic droit propose **{ui.contextMenus.duplicate}** pour un moment et une scène, et **{ui.contextMenus.duplicateZone}** pour une zone. L’en-tête de la chronologie a une icône de duplication pour le moment sélectionné.
 
 ## Copier, couper et coller
 
@@ -33,7 +33,7 @@ Les menus du clic droit n’ont pas d’entrées Copier ou Coller : utilisez les
 
 ### Entre projets et fenêtres
 
-La copie va dans le presse-papiers de votre ordinateur sous forme de texte, donc vous pouvez coller dans **un autre projet ou une autre fenêtre**. La copie contient le moment, la scène ou le personnage lui-même et les **noms** des personnages, expressions, images, variables, objets et scènes auxquels il fait référence, mais pas ces éléments.
+La copie va dans le presse-papiers de votre ordinateur sous forme de texte, donc vous pouvez coller dans **un autre projet ou une autre fenêtre**. La copie contient le moment, la scène ou le personnage lui-même et les **noms** des personnages, expressions, tenues, images, variables, objets et scènes auxquels il fait référence, mais pas ces éléments.
 
 Quand vous collez, NovelWorks cherche chaque référence dans le projet où vous collez :
 

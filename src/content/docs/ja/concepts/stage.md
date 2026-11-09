@@ -7,7 +7,7 @@ NovelWorks は**劇場のステージ**のように動きます。キャラク�
 
 ![6つのカットでできたシーン。背景はシーン全体で続き、レオはカット2と3でステージにいて、ミアはカット4で登場して最後まで残ります。](/novelworks-docs/diagrams/stage-persistence.svg)
 
-カットからカットへ引き継がれるのは**画面**だけです。背景とキャラクターです。セリフは引き継がれません。セリフはカットごとに別々です。
+カットからカットへ引き継がれるのは**画面**だけです。背景、キャラクター、[雰囲気](/novelworks-docs/ja/writing/ambience-and-animated-backgrounds/)、[カメラ](/novelworks-docs/ja/writing/camera/)、[パーティクル](/novelworks-docs/ja/writing/effects/)です。セリフは引き継がれません。セリフはカットごとに別々です。
 
 ## カットが記憶するもの
 
@@ -17,7 +17,7 @@ NovelWorks は**劇場のステージ**のように動きます。キャラク�
 
 ## 「{tx.stage.scopeFollowing}」か「{tx.stage.scopeOnlyHere}」か
 
-ゲーム画面の上にあるスイッチ「{ui.stage.scopeLabel}」で、次の変更がどこまで届くかが決まります。
+カットの「{ui.inspectorTabs.image}」タブと「{ui.inspectorTabs.effects}」タブ、そしてステージ上のキャラクターのパネルにあるスイッチ「{ui.stage.scopeLabel}」で、次の変更がどこまで届くかが決まります。
 
 - {ui.stage.scopeFollowing}（初期設定）：変更は、このカットと、あとのカットに残ります。別のカットがもう一度変えるまで続きます。ステージと同じです。
 - {ui.stage.scopeOnlyHere}：変更はこのカットだけに適用されます。あとのカットは、前に表示していたままです。
@@ -26,13 +26,13 @@ NovelWorks は**劇場のステージ**のように動きます。キャラク�
 
 ## ステージにいる人を見る
 
-### 「ステージ」バー
+### 「{tx.stage.castTitle}」バー
 
-ゲーム画面の上にある「{ui.stage.castTitle}」バーには、シーンのどこかのカットでステージにいるキャラクターごとに、丸い画像が登場する順に並びます。画像が明るいときは、そのキャラクターが**このカットで**ステージにいるということです。画像をクリックすると、上のスイッチに従って、キャラクターをステージから降ろしたり、登場させたりできます。このバーは、シーンにキャラクターが1人以上いるときだけ表示されます。
+「{ui.inspectorTabs.image}」タブの「{ui.momentInspector.onStage}」セクションの一番上にある「{ui.stage.castTitle}」バーには、シーンのどこかのカットでステージにいるキャラクターごとに、丸い画像が登場する順に並びます。画像が明るいときは、そのキャラクターが**このカットで**ステージにいるということです。画像をクリックすると、上のスイッチに従って、キャラクターをステージから降ろしたり、登場させたりできます。このバーは、シーンにキャラクターが1人以上いるときだけ表示されます。
 
 ### サムネイルの下のチャート
 
-タイムラインの下には、「{ui.timeline.chartBackground}」の行と、キャラクターごとに1行が表示されます。バーは、それが画面にあるカットの範囲を示します。見た目が変わるところで、新しいバーが始まります。別の表情、別の位置やサイズ、反転した画像、別の背景画像などです。バーにポインターを合わせると、たとえば「ミアはカット7までステージに残る」「ミアはシーンの最後までステージに残る」「ミアはこのカットだけステージにいる」のように読めます。
+タイムラインの下には、「{ui.timeline.chartBackground}」の行と、キャラクターごとに1行が表示されます。バーは、それが画面にあるカットの範囲を示します。見た目が変わるところで、新しいバーが始まります。別の表情や衣装、別の位置やサイズ、反転した画像、別の背景画像、別の雰囲気などです。バーにポインターを合わせると、たとえば「ミアはカット7までステージに残る」「ミアはシーンの最後までステージに残る」「ミアはこのカットだけステージにいる」のように読めます。
 
 チャートには最大5行が表示され、それより多いときはスクロールします（小さいウインドウではもっと少なくなります）。
 
@@ -44,28 +44,28 @@ NovelWorks は**劇場のステージ**のように動きます。キャラク�
 
 ### インスペクターで
 
-カットを選ぶと、「{ui.momentInspector.onStage}」セクションにキャラクターごとのカードが表示され、バッジが付きます。
+カットを選ぶと、「{ui.inspectorTabs.image}」タブの「{ui.momentInspector.onStage}」セクションにキャラクターごとのカードが表示され、バッジが付きます。
 
 - {ui.momentInspector.originNew}：このカットで登場します。
 - {ui.momentInspector.originChanged}：このカットが変えています。
-- 「カットNから」：前のカットから引き継がれています。
+- 「{tx.momentInspector.originFrom}」：前のカットから引き継がれています。
 
-各カードには、このカットが変える前の**元の状態に戻す**ボタンがあります。このカットで退場するキャラクターは、「{ui.momentInspector.bringBack}」と一緒に一覧に表示されます。「{ui.momentInspector.add}」を押すと、誰かをステージに立たせられます。
+「{ui.momentInspector.originNew}」または「{ui.momentInspector.originChanged}」の付いたカードには「{ui.momentInspector.revert}」ボタンがあり、このカットで変えた内容を取り消せます。このカットで退場するキャラクターは、「{ui.momentInspector.bringBack}」と一緒に一覧に表示されます。「{ui.momentInspector.add}」を押すと、誰かをステージに立たせられます。
 
 ## キャラクターを右クリックする
 
 ゲーム画面でキャラクターを右クリックすると、次の項目が出ます。
 
-- {ui.contextMenus.expression} と {ui.contextMenus.position}。
+- {ui.contextMenus.expression}、{ui.contextMenus.outfit}（キャラクターに衣装があるとき）、{ui.contextMenus.position}。
 - {ui.contextMenus.flipHorizontally}、{ui.contextMenus.resetSize}、{ui.contextMenus.bringForward}、{ui.contextMenus.sendBackward}。
-- {ui.contextMenus.stayUntil}：「カットNまで」（あとのカットのどれか）か、{ui.contextMenus.untilEnd} を選びます。キャラクターは、そこまで今の見た目を保ちます。以前は見た目が変わっていたカットをまたいでも同じです。
+- {ui.contextMenus.stayUntil}：「{tx.contextMenus.untilMoment}」（あとのカットのどれか）か、{ui.contextMenus.untilEnd} を選びます。キャラクターは、そこまで今の見た目を保ちます。以前は見た目が変わっていたカットをまたいでも同じです。
 - {ui.contextMenus.onlyThisMoment}：このカットで変えたことは、続きません。このカットがそのキャラクターについて何も変えていないとき、または最後のカットのときは、グレーになります。
 - {ui.contextMenus.backToBefore}：このカットでの、このキャラクターへの変更を取り消します。
 - {ui.contextMenus.leavesHere}：スイッチの設定に関係なく、キャラクターはこのカットから退場します。
 
 ## ほかのシーンの終わりと同じ状態でシーンを始める
 
-あるシーンへほかのシーンから話がつながっていて、その前のシーンの終わりの画面が、このシーンの始まりと違うとき、このシーンの**最初のカット**にバナーが表示されます。「このシーンは空の状態から始まります。」または「このシーンの開始時の登場人物：ミア、レオ。」です。ここへつながるシーンごとに、「「…」の最後と同じ状態で始める」ボタンがあり、ここへつながるカットの時点で画面にあったものがステージに立ちます。あとのカットも続いて変わり、取り消しでは1ステップです。
+あるシーンへほかのシーンから話がつながっていて、その前のシーンの終わりの画面が、このシーンの始まりと違うとき、このシーンの**最初のカット**の「{ui.inspectorTabs.image}」タブにバナーが表示されます。「{tx.scene.startEmpty}」または「{tx.scene.startWith}」です。ここへつながるシーンごとに、「{ui.scene.startLike}」ボタンがあり、ここへつながるカットの時点で画面にあったものがステージに立ちます。あとのカットも続いて変わり、取り消しでは1ステップです。
 
 ## カットを削除、移動、コピー、挿入するとどうなるか
 

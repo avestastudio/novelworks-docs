@@ -11,7 +11,7 @@ description: Copie momentos, cenas e personagens, cole em outro lugar e duplique
 - uma **cena**: a cópia vai logo depois do original e se chama algo como “Uma mãozinha (cópia)” (veja [Cenas](/novelworks-docs/pt-br/writing/scenes/));
 - uma **zona** de exploração.
 
-O menu de clique direito tem **{ui.contextMenus.duplicate}** para um momento e uma cena, e **{ui.contextMenus.duplicateZone}** para uma zona. O inspetor de um momento tem um botão **{ui.momentInspector.duplicate}**.
+O menu de clique direito tem **{ui.contextMenus.duplicate}** para um momento e uma cena, e **{ui.contextMenus.duplicateZone}** para uma zona. O cabeçalho da linha do tempo tem um ícone de duplicar para o momento selecionado.
 
 ## Copiar, recortar e colar
 
@@ -33,7 +33,7 @@ Os menus de clique direito não têm entradas Copiar ou Colar: use as teclas, ou
 
 ### Entre projetos e janelas
 
-A cópia vai para a área de transferência do seu computador como texto, então você pode colar em **outro projeto ou outra janela**. A cópia leva o próprio momento, cena ou personagem e os **nomes** dos personagens, expressões, imagens, variáveis, itens e cenas a que ele se refere, mas não essas coisas.
+A cópia vai para a área de transferência do seu computador como texto, então você pode colar em **outro projeto ou outra janela**. A cópia leva o próprio momento, cena ou personagem e os **nomes** dos personagens, expressões, roupas, imagens, variáveis, itens e cenas a que ele se refere, mas não essas coisas.
 
 Quando você cola, o NovelWorks procura cada referência no projeto em que você cola:
 

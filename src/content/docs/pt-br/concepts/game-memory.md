@@ -3,7 +3,7 @@ title: A memória do jogo
 description: "Pontuações e fatos: como o seu jogo lembra o que o jogador fez."
 ---
 
-Uma escolha só importa se o jogo **lembrar** dela. O NovelWorks guarda o que aconteceu em **variáveis**. Existem dois tipos.
+Uma escolha só importa se o jogo **lembrar** dela. O NovelWorks guarda o que aconteceu em variáveis. Existem dois tipos.
 
 | Tipo | O que guarda | Exemplo |
 |---|---|---|

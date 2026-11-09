@@ -45,7 +45,7 @@ NovelWorks crée le dossier, avec un fichier `project.json` et un dossier `asset
 ## Ce que contient un dossier de projet
 
 - `project.json` : toute votre histoire, dans un seul fichier.
-- `assets` : les images que vous avez importées.
+- `assets` : les images, vidéos et sons que vous avez importés.
 - `backups` : les versions précédentes de `project.json` (voir [Enregistrement, sauvegardes de secours et annulation](/novelworks-docs/fr/getting-started/saving-and-undo/)).
 
 Pour copier un projet sur un autre ordinateur, copiez le dossier entier. Vous pourrez ensuite l’ouvrir avec {ui.projectHub.open}.

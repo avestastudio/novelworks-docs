@@ -45,7 +45,7 @@ O NovelWorks cria a pasta, com um arquivo `project.json` e uma pasta `assets` va
 ## O que há em uma pasta de projeto
 
 - `project.json`: toda a sua história, em um só arquivo.
-- `assets`: as imagens que você importou.
+- `assets`: as imagens, os vídeos e os sons que você importou.
 - `backups`: versões anteriores do `project.json` (veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/)).
 
 Para copiar um projeto para outro computador, copie a pasta inteira. Depois você pode abri-lo com **{ui.projectHub.open}**.

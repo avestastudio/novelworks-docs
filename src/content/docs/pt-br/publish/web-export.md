@@ -5,7 +5,7 @@ description: Transforme seu jogo em uma pasta e um .zip que rodam em qualquer na
 
 Escolha **{ui.native.menu.file} → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). O NovelWorks cria uma versão do seu jogo que roda em qualquer navegador, no computador e no celular: **uma pasta e um .zip** prontos para compartilhar ou enviar. O comando precisa de um projeto aberto e não está disponível enquanto você joga.
 
-Na **demo**, a exportação é limitada a jogos de 5 cenas ou menos: veja [A demo gratuita](/novelworks-docs/pt-br/getting-started/demo-edition/). Na versão completa, o NovelWorks pede que você [a ative](/novelworks-docs/pt-br/getting-started/install-and-activate/) a cada exportação, até você ativar.
+Na **demo**, você pode exportar jogos de 5 cenas ou menos que fiquem dentro dos [limites da demo](/novelworks-docs/pt-br/reference/licenses-and-editions/): veja [A demo gratuita](/novelworks-docs/pt-br/getting-started/demo-edition/). Na versão completa, o NovelWorks pede que você [a ative](/novelworks-docs/pt-br/getting-started/install-and-activate/) a cada exportação, até você ativar.
 
 ## Os passos
 
@@ -28,11 +28,17 @@ A janela também informa o **tamanho de jogo recomendado** (a resolução do seu
 O NovelWorks cria, dentro da pasta que você escolheu:
 
 - uma pasta com o nome do seu jogo, terminando em `-web` (por exemplo `The-Rainy-Day-web`), e um `.zip` com o mesmo nome. Os acentos são removidos e qualquer outro caractere é trocado por `-`. Um título sem letras latinas nem dígitos (em chinês, russo ou japonês, por exemplo) vira `Game-web`;
-- dentro: `index.html`, `project.js` (os dados do seu jogo), `game.js` (o player), uma pasta `assets` com **só as imagens que o seu jogo usa** e uma pasta `fonts` com as fontes e os arquivos de licença delas.
+- dentro: `index.html`, `project.js` (os dados do seu jogo), `game.js` (o player), uma pasta `assets` com **só as imagens, os vídeos e os sons que o seu jogo usa** e uma pasta `fonts` com as fontes e os arquivos de licença delas.
 
-As imagens são copiadas como estão, sem redimensionar nem converter. As expressões e os avatares de um personagem são todos incluídos quando o personagem aparece ou fala.
+As imagens, os vídeos e os sons são copiados como estão, sem redimensionar nem converter. As expressões e os avatares de um personagem são todos incluídos quando o personagem aparece ou fala. As peças do guarda-roupa só são incluídas se alguma roupa as usar.
 
 Se já existe uma pasta de exportação com o mesmo nome e ela é uma exportação anterior, ela é substituída. Se for outra coisa, o NovelWorks recusa e pede que você escolha outra pasta, para nunca sobrescrever seus arquivos.
+
+### Vídeos e sons
+
+- O NovelWorks nunca recusa um vídeo por causa do tamanho, mas avisa quando você importa mais de 40 MB de vídeo de uma vez: um jogo web com vídeo demora mais para carregar.
+- Vídeos e sons MP3 e OGG entram no `.zip` sem compressão, então mantêm o peso total. Os arquivos WAV são comprimidos quando isso os deixa menores.
+- Os navegadores não permitem som antes do primeiro clique ou do primeiro toque de tecla do jogador. O que já deveria estar tocando começa nesse instante.
 
 ### O que é removido
 
@@ -59,8 +65,9 @@ Seus dados de escrita privados são apagados antes da exportação: as **notas**
 | O disco está cheio. | Libere espaço ou escolha uma pasta em outro disco. |
 | Esta pasta não existe mais. | Escolha outra pasta. |
 | Já existe uma pasta chamada “…” aí e ela não é uma exportação anterior. | Escolha outra pasta. |
-| Ative o NovelWorks para exportar jogos. | Abra **{ui.native.role.help} → Ativar o NovelWorks…** |
+| Ative o NovelWorks para exportar jogos. | Abra **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** |
 | A demo exporta jogos de até 5 cenas, e o seu projeto tem N. | Só na demo. Exclua cenas ou adquira a versão completa. |
+| Este projeto ultrapassa o que a demo pode exportar: … | Só na demo. Remova o que a mensagem lista, ou obtenha a versão completa. |
 | Não foi possível exportar o jogo: … | O motivo vem em seguida. Veja [Solução de problemas](/novelworks-docs/pt-br/reference/troubleshooting/). |
 
 ## Publicar

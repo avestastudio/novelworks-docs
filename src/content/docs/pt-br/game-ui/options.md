@@ -3,7 +3,7 @@ title: Opções do jogador
 description: A tela em que os jogadores escolhem o tamanho do texto, a velocidade, a fonte e o contraste, e o que você controla.
 ---
 
-A tela **{ui.gameUI.options}** é onde os jogadores adaptam o jogo a si mesmos. Você controla a **aparência** dela. As opções em si são as mesmas em todo jogo, e você não pode esconder nenhuma.
+A tela **{ui.gameUI.options}** é onde os jogadores adaptam o jogo a si mesmos. Você controla a **aparência** dela. As opções em si são as mesmas em todo jogo, e você não pode esconder nenhuma. Os três volumes só aparecem se o seu jogo tiver sons.
 
 ## O que você pode mudar
 
@@ -22,6 +22,7 @@ Em **{ui.gameUIInspector.screen}**:
 | Velocidade do modo Auto | Lenta, Normal, Rápida |
 | Fonte adaptada para dislexia | Ativado, Desativado |
 | Alto contraste | Ativado, Desativado |
+| {rt.optionsScreen.musicVolume}, {rt.optionsScreen.soundVolume}, {rt.optionsScreen.voiceVolume} (só se o jogo tiver sons) | 0 a 100, de 5 em 5 |
 
 Uma fala de exemplo mostra como o texto vai ficar, e o botão **{rt.optionsScreen.defaults}** devolve tudo ao início. As mudanças valem na hora. Elas valem **por cima** da sua interface do jogo, só para aquele jogador, e ficam guardadas para o seu jogo no navegador dele.
 

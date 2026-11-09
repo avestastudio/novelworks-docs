@@ -3,7 +3,7 @@ title: La mémoire du jeu
 description: "Scores et faits : comment votre jeu retient ce que le joueur a fait."
 ---
 
-Un choix n’a de poids que si le jeu s’en **souvient**. NovelWorks garde en mémoire ce qui s’est passé dans des **variables**. Il en existe deux sortes.
+Un choix n’a de poids que si le jeu s’en **souvient**. NovelWorks garde en mémoire ce qui s’est passé dans des variables. Il en existe deux sortes.
 
 | Sorte | Ce qu’elle contient | Exemple |
 |---|---|---|

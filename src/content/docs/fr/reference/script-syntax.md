@@ -3,7 +3,7 @@ title: Syntaxe du script en 7 langues
 description: Les mots du format Script dans chaque langue de l’éditeur, et ce qu’ils signifient.
 ---
 
-Le [mode Script](/novelworks-docs/fr/writing/script-mode/) lit un script avec les mots de **toutes les langues de l’éditeur à la fois**, plus quelques formes courtes en anglais. Un script écrit avec des mots français fonctionne donc dans un éditeur anglais, et l’inverse aussi. Quand NovelWorks **écrit** un script (en mode Script, ou avec **{ui.native.menu.file} → Exporter le script…**), il utilise les mots de la langue actuelle de votre éditeur.
+Le [mode Script](/novelworks-docs/fr/writing/script-mode/) lit un script avec les mots de **toutes les langues de l’éditeur à la fois**, plus quelques formes courtes en anglais. Un script écrit avec des mots français fonctionne donc dans un éditeur anglais, et l’inverse aussi. Quand NovelWorks **écrit** un script (en mode Script, ou avec **{ui.native.menu.file} → {ui.native.menu.exportScript}**), il utilise les mots de la langue actuelle de votre éditeur.
 
 Les majuscules, les accents et les espaces en trop n’ont pas d’importance quand un mot-clé est lu : `Decor` se lit comme `décor`.
 
@@ -41,6 +41,35 @@ Les majuscules, les accents et les espaces en trop n’ont pas d’importance qu
 Toujours compris, dans n’importe quelle langue : `bg` pour le mot du décor, `centre` pour center, `take` pour remove, `ending` pour end, `yes` pour true et `no` pour false.
 
 Certains de ces mots comptent plusieurs parties, comme « à gauche » : ils sont lus comme des mots entiers.
+
+## Tenues
+
+Le mot pour une tenue se place dans une ligne `show`, après l’expression : `show : Mia happy outfit Uniform left`. Avec le mot pour « de départ » à la place d’un nom, le personnage revient à sa première tenue : `show : Mia outfit default`. Une tenue qui n’existe pas est soulignée. Voir [Tenues et garde-robe](/novelworks-docs/fr/writing/outfits/).
+
+| Mot pour | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| Une tenue | `outfit` | `tenue` | `atuendo` | `roupa` | `服装` | `наряд` | `衣装` |
+| La première tenue | `default` | `de départ` | `inicial` | `inicial` | `默认` | `начальный` | `最初` |
+
+## Texte enrichi
+
+À l’intérieur d’une ligne de dialogue, des balises entre accolades changent les mots qu’elles entourent, par exemple `{b}word{/b}` ou `{color=1}word{/color}`. Voir [Texte enrichi](/novelworks-docs/fr/writing/rich-text/). Comme les mots-clés, les balises s’écrivent dans la langue de votre éditeur et sont lues dans les sept langues.
+
+| Balise pour | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| Gras | `b` | `g` | `n` | `neg` | `粗` | `ж` | `太` |
+| Italique | `i` | `i` | `c` | `ita` | `斜` | `к` | `斜` |
+| Couleur | `color` | `couleur` | `color` | `cor` | `颜色` | `цвет` | `色` |
+| Grand | `big` | `grand` | `grande` | `maior` | `大` | `крупно` | `大` |
+| Petit | `small` | `petit` | `pequeno` | `menor` | `小` | `мелко` | `小` |
+| Tremblement | `shake` | `tremble` | `tiembla` | `treme` | `抖动` | `дрожь` | `震え` |
+| Vague | `wave` | `vague` | `ola` | `onda` | `波浪` | `волна` | `波` |
+| Pause | `pause` | `pause` | `pausa` | `pausa` | `停顿` | `пауза` | `ポーズ` |
+
+- Une couleur est un nombre de 1 à 5 (les [couleurs des mots](/novelworks-docs/fr/game-ui/dialogue-box/)) ou un code comme `#ff8800`.
+- `{pause}` attend une demi-seconde. `{pause=2}` attend 2 secondes, de 0,1 à 5.
+- Le nom d’une variable entre accolades, comme `{Affection}`, affiche sa valeur.
+- Pour écrire une vraie accolade, tapez `{{`.
 
 ## Les symboles
 

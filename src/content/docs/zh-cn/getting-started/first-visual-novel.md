@@ -22,27 +22,27 @@ description: 一步一步的教程，从空项目到一个可以试玩的游戏�
 
 1. 打开{ui.leftPanel.characters}标签页，点击{ui.charactersTab.newCharacter}。
 2. 在检查器里输入{ui.characterInspector.characterName}，并选择一种{ui.characterInspector.nameColor}。
-3. 在{ui.characterInspector.expressions}下，为每张图片点击一次{ui.characterInspector.addExpression}（只有类型为“{tx.assetTypes.characterSprite}”的图片可选），给它起个名字（“开心”、“惊讶”），再选择它的图片。带星标的表情就是默认显示的那个。
+3. 在{ui.characterInspector.expressions}下，点击{ui.characterInspector.addExpression}并选择一张图片，每张图片各做一次（只有类型为“{tx.assetTypes.characterSprite}”的图片可选）。然后，如果你愿意，可以给每个表情改名（“开心”、“惊讶”）。带星标的表情就是默认显示的那个。
 
 ## 4. 写第一个场景
 
 1. 打开{ui.leftPanel.scenes}标签页，选中你的场景。
 2. 用游戏画面上方的背景按钮（“{ui.stage.chooseTheBackgroundOfThisMoment}”）选择这个片段的背景。
-3. 用按钮{ui.stageControls.putACharacterOnStage}把你的角色放到台上，然后把角色拖到你想要的位置。
+3. 用游戏画面上方的按钮{ui.stageControls.character}把你的角色放到台上，然后把角色拖到你想要的位置。
 4. 点击画面上的对话框并输入文字。按 **Enter** 开始下一句：会开始一个新片段，它有**相同的舞台**，原因见[舞台](/novelworks-docs/zh-cn/concepts/stage/)。按 **Shift+Enter** 可以在同一个框里换行。
-5. 点击画面上的角色，可以在之后的片段里更换它的表情。
+5. 想在之后更换表情，请在时间线中选中后面的某个片段，点击画面上的角色，然后在角色上方的小栏里选择另一个表情。
 
 ## 5. 添加选择
 
-1. 在时间线里，添加一个{ui.moments.choice}片段。
-2. 在检查器里，写下问题和两个选项的文字。
+1. 在时间线顶部打开{ui.timeline.addOther}，选择{ui.moments.choice}。
+2. 在检查器的{ui.inspectorTabs.text}标签页里，写下问题和两个选项的文字。
 3. 为每个选项，在{ui.branchInspectors.then}里选择它通向的场景。请先在场景标签页里用{ui.scenesTab.newScene}创建这些场景。
 
 你已经可以让选择产生影响了：请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。
 
 ## 6. 添加结局
 
-在每个分支的末尾，添加一个{ui.moments.ending}片段。它一开始叫“{tx.shared.scenes.goodEnding}”：你想改的话可以改名。结局之后，玩家会回到标题画面。
+在每个分支的末尾，打开{ui.timeline.addOther}并添加一个{ui.moments.ending}片段。它一开始叫“{tx.shared.scenes.goodEnding}”：你想改的话可以改名。结局之后，玩家会回到标题画面。
 
 ## 7. 点击试玩
 

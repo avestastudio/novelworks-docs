@@ -19,9 +19,9 @@ O NovelWorks mostra um **tour guiado** curto na primeira vez que você abre um p
 2. **{ui.tutorial.scenes.title}**: sua história é feita de cenas, como capítulos. O painel esquerdo as guarda, junto com abas para imagens, personagens e variáveis.
 3. **{ui.tutorial.assets.title}**: importe imagens com o botão **{ui.assetsTab.import}** ou soltando-as sobre a janela, e depois escolha um tipo para cada uma.
 4. **{ui.tutorial.stage.title}**: a tela do jogo mostra o que os jogadores vão ver.
-5. **{ui.tutorial.background.title}**: escolha o cenário do momento e mantenha-o pelo resto da cena com **{ui.momentInspector.applyToTheFollowingMoments}**.
+5. **{ui.tutorial.background.title}**: escolha o cenário do momento. A janela lista os seus cenários e permite importar uma nova imagem.
 6. **{ui.tutorial.character.title}**: coloque um personagem em cena e arraste-o para o lugar.
-7. **{ui.tutorial.persist.title}**: os personagens ficam no lugar até você mudá-los. Veja [O palco](/novelworks-docs/pt-br/concepts/stage/).
+7. **{ui.tutorial.persist.title}**: os personagens ficam no lugar até você mudá-los. Para que uma mudança fique em um só momento, escolha **{ui.stage.scopeOnlyHere}**. Veja [O palco](/novelworks-docs/pt-br/concepts/stage/).
 8. **{ui.tutorial.timeline.title}**: uma cena é uma série de momentos. Veja [Cenas, momentos e a linha do tempo](/novelworks-docs/pt-br/concepts/scenes-moments-timeline/).
 9. **{ui.tutorial.inspector.title}**: tudo sobre o item selecionado.
 10. **{ui.tutorial.choices.title}**: adicione uma escolha, faça o jogo lembrar de algo e leve a história para outro lugar com uma “{tx.leftPanel.condition}”. Veja [Como uma história se ramifica](/novelworks-docs/pt-br/concepts/how-stories-branch/).

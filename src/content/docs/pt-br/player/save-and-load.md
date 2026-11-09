@@ -38,7 +38,7 @@ Na tela de título, **{rt.game.continue}** carrega o salvamento mais novo de qua
 
 ## O que um salvamento contém
 
-A cena e o momento, os valores das variáveis, o inventário, as zonas já usadas, o estado do mapa, o tempo de jogo e as últimas 200 falas do [Histórico](/novelworks-docs/pt-br/player/history/). Ele **não** contém quais falas foram lidas (isso é guardado à parte, para o modo Pular), nem o texto que estava sendo digitado: uma fala carregada aparece inteira.
+A cena e o momento, os valores das variáveis, o inventário, as zonas já usadas, o estado do mapa, o tempo de jogo, a música e o som ambiente que estão tocando e as últimas 200 falas do [Histórico](/novelworks-docs/pt-br/player/history/). Ele **não** contém quais falas foram lidas (isso é guardado à parte, para o modo Pular), os [capítulos](/novelworks-docs/pt-br/game-ui/chapters/) alcançados (também guardados à parte), nem o texto que estava sendo digitado: uma fala carregada aparece inteira. Um momento carregado começa no último plano da câmera, e os efeitos, a voz e os efeitos sonoros dele não são reproduzidos.
 
 ## Quando você atualiza o jogo
 

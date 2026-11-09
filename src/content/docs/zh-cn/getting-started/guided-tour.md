@@ -19,9 +19,9 @@ description: 介绍编辑器的 14 步教程，以及如何重新播放。
 2. {ui.tutorial.scenes.title}：你的故事由场景组成，就像章节。左侧面板里有它们，还有图片、角色和变量的标签页。
 3. {ui.tutorial.assets.title}：用{ui.assetsTab.import}按钮或把图片拖到窗口上来导入图片，然后为每张图片选择类型。
 4. {ui.tutorial.stage.title}：游戏画面显示玩家将看到的内容。
-5. {ui.tutorial.background.title}：选择片段的背景，并用{ui.momentInspector.applyToTheFollowingMoments}在场景的其余部分保留它。
+5. {ui.tutorial.background.title}：选择片段的背景。窗口会列出你的背景，也可以导入新图片。
 6. {ui.tutorial.character.title}：把角色放到台上，并拖到位置上。
-7. {ui.tutorial.persist.title}：角色会一直留在原位，直到你改变它们。请看[舞台](/novelworks-docs/zh-cn/concepts/stage/)。
+7. {ui.tutorial.persist.title}：角色会一直留在原位，直到你改变它们。想让某个更改只影响一个片段，请选择{ui.stage.scopeOnlyHere}。请看[舞台](/novelworks-docs/zh-cn/concepts/stage/)。
 8. {ui.tutorial.timeline.title}：一个场景是一连串的片段。请看[场景、片段与时间线](/novelworks-docs/zh-cn/concepts/scenes-moments-timeline/)。
 9. {ui.tutorial.inspector.title}：关于所选内容的一切。
 10. {ui.tutorial.choices.title}：添加选择，让游戏记住某件事，并用“{tx.leftPanel.condition}”把故事带向别处。请看[剧情如何分支](/novelworks-docs/zh-cn/concepts/how-stories-branch/)。

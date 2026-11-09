@@ -28,6 +28,10 @@ description: すべての画面で使うフォント、文字色、メインカ�
 
 プレイヤーオプションでディスレクシア対応フォントをオンにしたプレイヤーには、ここでの選択に関係なく、専用のフォントが使われます。
 
+## キャラクターの登場と退場
+
+「{ui.effects.defaultsTitle}」：ゲーム全体で使う「{ui.effects.defaultEnter}」と「{ui.effects.defaultExit}」を1つずつ選びます。カットにそのキャラクター専用の[エフェクト](/novelworks-docs/ja/writing/effects/)がないときに使われます。初期設定は「{tx.effects.defaultNone}」です。
+
 ## 色とボタン
 
 - 「{ui.gameUIInspector.primaryColor}」:「ボタン、ハイライト、「続ける」矢印に使われます。」タイトル画面の光にも使われます。初期設定はピンクです。
@@ -41,4 +45,4 @@ description: すべての画面で使うフォント、文字色、メインカ�
 
 ## リセット
 
-このページの「{ui.gameUIInspector.resetToDefault}」は、フォントと色だけをリセットします。ほかの画面の設定はそのままです。
+このページの「{ui.gameUIInspector.resetToDefault}」は、このページの設定だけをリセットします。ほかの画面の設定はそのままです。

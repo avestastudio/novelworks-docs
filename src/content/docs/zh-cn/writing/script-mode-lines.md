@@ -32,6 +32,8 @@ Mia : I looked for you everywhere.
 
 缩进两个空格的一行会接着上一行，作为**同一个框内**的新一行。
 
+要在台词里设置文字格式或加入停顿，请看[富文本](/novelworks-docs/zh-cn/writing/rich-text/)。
+
 ## 旁白
 
 ```
@@ -69,7 +71,7 @@ hide : everyone
 ```
 
 - **`background : Name`** 把背景换成名为 Name 的图片。`background : none`，或冒号后什么都不写，会移除背景。
-- **`show : Mia happy left`** 让角色出现，或改变其表情或位置。名字后面可以加上表情和位置：`left`、`center` 或 `right`，或者用 `placed by hand` 保留自由摆放的位置。不写位置时，已在台上的角色保持原位，新角色会站到中间。角色名可以包含空格。
+- **`show : Mia happy left`** 让角色出现，或改变其表情或位置。名字后面可以加上表情、`outfit` 加服装名称（`outfit default` 回到第一套服装；请看[服装](/novelworks-docs/zh-cn/writing/outfits/)），以及位置：`left`、`center` 或 `right`，或者用 `placed by hand` 保留自由摆放的位置。不写位置时，已在台上的角色保持原位，新角色会站到中间。角色名可以包含空格。
 - **`hide : Mia`** 让角色离开。`hide : everyone`，或冒号后什么都不写，会清空舞台。
 
 舞台行后面需要再有一行。否则它会被标出。

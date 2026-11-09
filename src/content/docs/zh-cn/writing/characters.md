@@ -26,6 +26,10 @@ description: "创建角色，给他们设置表情和头像，并了解删除角
 - 点击图片来{ui.characterInspector.changeImage}。旧图片仍然保留在你的素材里。
 - 点击 X 来移除这个表情。如果有片段用到了它，NovelWorks 会告诉你它们将改用默认表情。如果你移除的是默认表情，剩下的第一个表情会成为默认表情。
 
+## 服装
+
+在{ui.outfits.heading}下，{ui.wardrobe.open}会打开衣橱，你可以在那里把服饰单品组合成服装。请看[服装](/novelworks-docs/zh-cn/writing/outfits/)。
+
 ## 头像
 
 头像是显示在对话框里、名字旁边的小肖像。在{ui.characterInspector.avatar}里选择：
@@ -38,7 +42,7 @@ description: "创建角色，给他们设置表情和头像，并了解删除角
 
 ## 让角色登场
 
-见[布置场景](/novelworks-docs/zh-cn/writing/staging/)。简单说：在片段里，用{ui.momentInspector.onStage}下的{ui.momentInspector.add}（或游戏画面上方的{ui.stageControls.character}按钮），然后把角色拖到你想要的位置。
+见[布置场景](/novelworks-docs/zh-cn/writing/staging/)。简单说：在片段里，用{ui.inspectorTabs.image}标签页中{ui.momentInspector.onStage}下的{ui.momentInspector.add}（或游戏画面上方的{ui.stageControls.character}按钮），然后把角色拖到你想要的位置。
 
 ## 删除角色
 

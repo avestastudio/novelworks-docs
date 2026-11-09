@@ -106,4 +106,4 @@ Quando você arrasta um link no mapa da história, um tipo de link que não pode
 
 ## O que não é verificado
 
-Um momento de diálogo não tem aviso próprio: uma fala de diálogo vazia não é sinalizada.
+Um momento de diálogo não tem aviso próprio: uma fala de diálogo vazia não é sinalizada. Roupas, ambientes, a câmera, efeitos e sons também não têm avisos.

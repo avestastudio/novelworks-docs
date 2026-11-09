@@ -5,11 +5,21 @@ description: "Onde aparecem os nomes e as falas: posição, tamanho, fundo, text
 
 A **{ui.gameUI.dialogueBox}** é a caixa que mostra o nome de quem fala e o texto. O tamanho e o lugar dela são dados em porcentagem da tela (na maioria, da altura), então ela mantém o visual em qualquer resolução.
 
+## Modelos
+
+Em **{ui.templates.heading}**, quatro cartões posicionam a caixa para você: **{ui.templates.dialogue.classic}** (embaixo), **{ui.templates.dialogue.sidePanel}** (à direita), **{ui.templates.dialogue.centerCard}** e **{ui.templates.dialogue.topBanner}**. Um clique muda só a posição, a margem, a largura e a altura. Cores, etiqueta de nome, avatar, imagens e texto ficam como você os definiu. Um único **{ui.topBar.undo}** traz de volta o que você tinha.
+
+O cartão do modelo atual fica destacado até você mudar uma dessas configurações.
+
 ## Posição e tamanho
 
 - **{ui.gameUIInspector.position}**: {ui.gameUIInspector.bottom} (padrão), {ui.gameUIInspector.top}, {ui.gameUIInspector.left}, {ui.gameUIInspector.right} ou {ui.gameUIInspector.center}. Ao escolher uma, a largura e a altura também ganham um bom tamanho inicial: uma faixa larga para o alto e para baixo, um painel alto (cerca de um terço da tela) para esquerda e direita, e uma caixa no meio para o centro.
 - **{ui.gameUIInspector.margin}**: espaço até as bordas da tela (0 a 20 %, padrão 3,5).
 - **{ui.gameUIInspector.width}** e **{ui.gameUIInspector.height}**: 10 a 100 %. Depois de escolher uma posição, você pode ajustá-las.
+
+## Cores das palavras
+
+**{ui.richText.palette}** guarda cinco cores, numeradas de 1 a 5. São as cores oferecidas quando você seleciona palavras em uma fala. Veja [Formatar o seu texto](/novelworks-docs/pt-br/writing/rich-text/). Se você mudar uma cor aqui, todas as palavras que a usam mudam também.
 
 ## Fundo
 

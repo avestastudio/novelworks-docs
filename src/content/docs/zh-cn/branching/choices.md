@@ -7,7 +7,7 @@ description: 让玩家挑选一个选项，改变游戏记住的内容，并通�
 
 ## 添加选择
 
-在时间线中，添加一个 {ui.moments.choice} 片段。它一开始有两个空选项。你可以在检查器中写，也可以直接在游戏画面上写。
+在时间线顶部打开{ui.timeline.addOther}，添加一个{ui.moments.choice}片段。它一开始有两个空选项。你可以在检查器的{ui.inspectorTabs.text}标签页中写，也可以直接在游戏画面上写。
 
 ![一个有两个选项的选择：每个选项会改变什么，以及它通往哪个场景。](/novelworks-docs/screenshots/choice-options.png)
 

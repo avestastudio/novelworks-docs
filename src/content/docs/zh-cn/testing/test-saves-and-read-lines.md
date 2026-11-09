@@ -33,4 +33,4 @@ description: "试玩时游戏上方的工具栏：变量和物品、启动画面
 - {ui.playOverlay.clearTestSaves}会先询问：“导出的游戏有各自独立的存档。”
 - {ui.playOverlay.resetReadLines}会立即执行，不会询问。
 
-测试者自己的玩家选项（文字大小、速度等）也会以同样的方式保存，但没有清除它们的按钮。{ui.playOverlay.showSplash}开关会一直保持到你关闭编辑器为止。
+测试者自己的玩家选项（文字大小、速度等）和测试时到达的[章节](/novelworks-docs/zh-cn/game-ui/chapters/)也会以同样的方式保存，但没有清除它们的按钮。{ui.playOverlay.showSplash}开关会一直保持到你关闭编辑器为止。

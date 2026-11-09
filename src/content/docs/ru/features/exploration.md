@@ -7,13 +7,13 @@ description: "Сцены в стиле point-and-click: зоны, на кото�
 
 ## Как добавить
 
-На таймлайне добавьте момент **{ui.moments.exploration}**. Он создаётся пустым и использует фон предыдущего момента. Выберите его: в инспекторе появятся **{ui.explorationInspectors.zones}** и **{ui.explorationInspectors.props}** с кнопками **+ Зона** и **+ Предмет декора**.
+В заголовке таймлайна откройте «{ui.timeline.addOther}» и добавьте момент **{ui.moments.exploration}**. Он создаётся пустым и использует фон предыдущего момента. Выберите его: на вкладке «{ui.inspectorTabs.text}» инспектора появятся **{ui.explorationInspectors.zones}** и **{ui.explorationInspectors.props}** с кнопками **+ Зона** и **+ Предмет декора**.
 
 ![Момент «Исследование»: зоны, нарисованные на картинке, и список зон и предметов декора в инспекторе.](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## Как рисовать зоны
 
-Над экраном игры выберите **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** или **{ui.explorationCanvas.shape}**. (В узком окне они находятся в меню **{ui.stage.more}**.)
+Над экраном игры выберите **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** или **{ui.explorationCanvas.shape}**.
 
 - **{ui.explorationCanvas.rectangle}**: протяните мышь по картинке. Простой щелчок ничего не создаёт, а зона меньше 2 % экрана не создаётся.
 - **{ui.explorationCanvas.shape}**: щёлкайте точку за точкой вокруг предмета. Замкните контур, щёлкнув первую точку ещё раз или нажав **Enter**. **Esc** отменяет. Нужно не меньше трёх точек.

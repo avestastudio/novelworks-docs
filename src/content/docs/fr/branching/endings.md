@@ -7,12 +7,12 @@ Un moment **{ui.moments.ending}** affiche le nom de la fin, puis ramène le joue
 
 ## Ajouter une fin
 
-Dans la chronologie, ajoutez un moment **{ui.moments.ending}** à la fin d’une scène. Dans l’inspecteur :
+Dans l’en-tête de la chronologie, ouvrez **{ui.timeline.addOther}** et ajoutez un moment **{ui.moments.ending}** à la fin d’une scène. Dans l’onglet **{ui.inspectorTabs.text}** de l’inspecteur :
 
 - **{ui.branchInspectors.endingName}** : les nouvelles fins s’appellent « {tx.shared.scenes.goodEnding} ». Si vous laissez le nom vide, le jeu affiche « Fin ».
 - Un **court texte** (facultatif) affiché sous le nom.
 
-Après la fin, le joueur retourne à l’écran-titre.
+Après la fin, le joueur retourne à l’écran-titre. Si vous avez activé les [crédits](/novelworks-docs/fr/game-ui/credits/) avec **{ui.credits.afterEnding}**, ils défilent d’abord.
 
 ## Ce que voient les joueurs
 

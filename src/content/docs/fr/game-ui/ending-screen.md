@@ -12,3 +12,7 @@ description: L’écran affiché quand l’histoire est terminée, et en quoi il
 - **{ui.gameUIInspector.textColor}** : « {tx.gameUIInspector.sameAsTheTextColor} » par défaut.
 
 Sous le titre, le jeu affiche « {tx.game.returnToTitle} ». Ce texte ne peut pas être changé, et un clic ramène le joueur à l’écran-titre.
+
+## Crédits après la fin
+
+Si vous avez activé les [crédits](/novelworks-docs/fr/game-ui/credits/) et {ui.credits.afterEnding}, les crédits défilent quand le joueur clique pour quitter une fin. Cela vaut pour cet écran et pour un [moment de fin](/novelworks-docs/fr/branching/endings/). Quand les crédits se ferment, le jeu revient à l’écran-titre.

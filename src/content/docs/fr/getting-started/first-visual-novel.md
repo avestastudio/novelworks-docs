@@ -22,27 +22,27 @@ Le projet s’ouvre avec une scène, « {tx.shared.project.firstScene} », et 
 
 1. Ouvrez l’onglet {ui.leftPanel.characters} et cliquez sur {ui.charactersTab.newCharacter}.
 2. Dans l’inspecteur, tapez le {ui.characterInspector.characterName} et choisissez une {ui.characterInspector.nameColor}.
-3. Sous {ui.characterInspector.expressions}, cliquez sur {ui.characterInspector.addExpression} pour chaque image (seules les images de type « {tx.assetTypes.characterSprite} » sont proposées), donnez-lui un nom (« Content », « Surpris ») et choisissez son image. L’expression qui porte l’étoile est celle qui s’affiche par défaut.
+3. Sous {ui.characterInspector.expressions}, cliquez sur {ui.characterInspector.addExpression} et choisissez une image, une fois pour chaque image (seules les images de type « {tx.assetTypes.characterSprite} » sont proposées). Renommez ensuite chaque expression (« Content », « Surpris ») si vous voulez. L’expression qui porte l’étoile est celle qui s’affiche par défaut.
 
 ## 4. Écrire la première scène
 
 1. Ouvrez l’onglet {ui.leftPanel.scenes} et sélectionnez votre scène.
 2. Choisissez le décor du moment avec le bouton de décor au-dessus de l’écran du jeu (« {ui.stage.chooseTheBackgroundOfThisMoment} »).
-3. Mettez votre personnage en scène avec le bouton {ui.stageControls.putACharacterOnStage}, puis glissez le personnage où vous voulez.
+3. Mettez votre personnage en scène avec le bouton {ui.stageControls.character} au-dessus de l’écran du jeu, puis glissez le personnage où vous voulez.
 4. Cliquez sur la boîte de dialogue à l’écran et tapez. Appuyez sur **Entrée** pour commencer la ligne suivante : un nouveau moment démarre, avec **les mêmes personnages sur le plateau**, car [les personnages restent sur le plateau](/novelworks-docs/fr/concepts/stage/). Appuyez sur **Maj+Entrée** pour aller à la ligne dans la même boîte.
-5. Cliquez sur le personnage à l’écran pour changer son expression dans un moment suivant.
+5. Pour changer l’expression plus tard, sélectionnez un moment suivant dans la chronologie, cliquez sur le personnage à l’écran, et choisissez une autre expression dans la petite barre au-dessus de lui.
 
 ## 5. Ajouter un choix
 
-1. Dans la chronologie, ajoutez un moment {ui.moments.choice}.
-2. Dans l’inspecteur, écrivez la question et le texte de deux options.
+1. Dans l’en-tête de la chronologie, ouvrez {ui.timeline.addOther} et choisissez {ui.moments.choice}.
+2. Dans l’onglet {ui.inspectorTabs.text} de l’inspecteur, écrivez la question et le texte de deux options.
 3. Pour chaque option, choisissez la scène vers laquelle elle mène dans {ui.branchInspectors.then}. Créez d’abord les scènes avec {ui.scenesTab.newScene} dans l’onglet Scènes.
 
 Vous pouvez déjà faire en sorte qu’un choix compte : voir [Comment une histoire se ramifie](/novelworks-docs/fr/concepts/how-stories-branch/).
 
 ## 6. Ajouter une fin
 
-Au bout de chaque branche, ajoutez un moment {ui.moments.ending}. Il s’appelle d’abord « {tx.shared.scenes.goodEnding} » : changez le nom si vous voulez. Après une fin, le joueur revient à l’écran-titre.
+Au bout de chaque branche, ouvrez {ui.timeline.addOther} et ajoutez un moment {ui.moments.ending}. Il s’appelle d’abord « {tx.shared.scenes.goodEnding} » : changez le nom si vous voulez. Après une fin, le joueur revient à l’écran-titre.
 
 ## 7. Cliquer sur Jouer
 

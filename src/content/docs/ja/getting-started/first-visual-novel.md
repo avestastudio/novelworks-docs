@@ -22,27 +22,27 @@ description: 空のプロジェクトから、プレイできるゲームまで�
 
 1. 「{ui.leftPanel.characters}」タブを開き、「{ui.charactersTab.newCharacter}」をクリックします。
 2. インスペクターで「{ui.characterInspector.characterName}」を入力し、「{ui.characterInspector.nameColor}」を選びます。
-3. 「{ui.characterInspector.expressions}」の下で、画像ごとに「{ui.characterInspector.addExpression}」をクリックします（候補に出るのは「{tx.assetTypes.characterSprite}」の種類の画像だけです）。名前（「うれしい」「驚き」など）を付けて、画像を選びます。星印の付いた表情が、初期状態で表示されるものです。
+3. 「{ui.characterInspector.expressions}」の下で、「{ui.characterInspector.addExpression}」をクリックして画像を選びます。画像ごとに1回ずつ行います（候補に出るのは「{tx.assetTypes.characterSprite}」の種類の画像だけです）。そのあと、必要なら各表情の名前（「うれしい」「驚き」など）を変えます。星印の付いた表情が、初期状態で表示されるものです。
 
 ## 4. 最初のシーンを書く
 
 1. 「{ui.leftPanel.scenes}」タブを開き、シーンを選びます。
 2. ゲーム画面の上にある背景ボタン（「{ui.stage.chooseTheBackgroundOfThisMoment}」）で、カットの背景を選びます。
-3. 「{ui.stageControls.putACharacterOnStage}」ボタンでキャラクターをステージに立たせ、好きな位置までドラッグします。
+3. ゲーム画面の上の「{ui.stageControls.character}」ボタンでキャラクターをステージに立たせ、好きな位置までドラッグします。
 4. 画面のダイアログボックスをクリックして入力します。**Enter** を押すと次の行に進みます。新しいカットが始まり、**同じステージ**のままです。[ステージ：キャラクターはその場に残る](/novelworks-docs/ja/concepts/stage/)からです。同じボックスの中で改行するには **Shift+Enter** を押します。
-5. あとのカットで表情を変えたいときは、画面上のキャラクターをクリックします。
+5. あとで表情を変えたいときは、タイムラインであとのカットを選び、画面上のキャラクターをクリックして、その上に出る小さなバーで別の表情を選びます。
 
 ## 5. 選択肢を追加する
 
-1. タイムラインに「{ui.moments.choice}」のカットを追加します。
-2. インスペクターで、質問と2つの選択肢の文を書きます。
+1. タイムラインのヘッダーで「{ui.timeline.addOther}」を開き、「{ui.moments.choice}」を選びます。
+2. インスペクターの「{ui.inspectorTabs.text}」タブで、質問と2つの選択肢の文を書きます。
 3. 選択肢ごとに、「{ui.branchInspectors.then}」で行き先のシーンを選びます。先に、シーンタブの「{ui.scenesTab.newScene}」でシーンを作っておきましょう。
 
 選択に意味を持たせることもすぐにできます。[ストーリーの分岐のしくみ](/novelworks-docs/ja/concepts/how-stories-branch/)をご覧ください。
 
 ## 6. エンディングを追加する
 
-それぞれの分岐の最後に、「{ui.moments.ending}」のカットを追加します。最初は「{tx.shared.scenes.goodEnding}」という名前です。お好みで名前を変えてください。エンディングのあと、プレイヤーはタイトル画面に戻ります。
+それぞれの分岐の最後で、「{ui.timeline.addOther}」を開いて「{ui.moments.ending}」のカットを追加します。最初は「{tx.shared.scenes.goodEnding}」という名前です。お好みで名前を変えてください。エンディングのあと、プレイヤーはタイトル画面に戻ります。
 
 ## 7. プレイを押す
 

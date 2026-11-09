@@ -33,4 +33,4 @@ description: "プレイ中にゲームの上に表示されるバー: 変数と�
 - {ui.playOverlay.clearTestSaves}は、先に確認が出ます。「書き出したゲームのセーブは別に保持されます。」
 - {ui.playOverlay.resetReadLines}は、確認なしですぐに実行されます。
 
-テスターのオプション（文字サイズ、速度など）も同じように保持されますが、削除するボタンはありません。{ui.playOverlay.showSplash}のスイッチは、エディターを閉じるまで有効です。
+テスターのオプション（文字サイズ、速度など）と、テスト中に到達した[チャプター](/novelworks-docs/ja/game-ui/chapters/)も同じように保持されますが、削除するボタンはありません。{ui.playOverlay.showSplash}のスイッチは、エディターを閉じるまで有効です。

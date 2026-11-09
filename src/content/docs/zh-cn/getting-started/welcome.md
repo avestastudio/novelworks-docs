@@ -7,17 +7,18 @@ NovelWorks 是一款**视觉小说**编辑器：视觉小说就是用背景、�
 
 ## 你在 NovelWorks 里做什么
 
-1. 导入你的图片：背景、角色（包括他们的表情）和其他图片。
+1. 导入你的图片和声音：背景、角色（包括他们的表情）、其他图片和音乐。
 2. **编写场景**：选一个背景，把角色放到屏幕上，输入对话。
 3. **让故事分支**：添加选择，让游戏记住玩家的选择，再把故事带向不同的场景或结局。
-4. 随时**点击{ui.topBar.play}**，从标题画面开始试玩你的游戏。
-5. 导出做好的网页版游戏并发布，例如发布到 itch.io。
+4. 如果你愿意，可以**让它生动起来**：[服装](/novelworks-docs/zh-cn/writing/outfits/)、[氛围和动态背景](/novelworks-docs/zh-cn/writing/ambience-and-animated-backgrounds/)、[运镜](/novelworks-docs/zh-cn/writing/camera/)、[效果](/novelworks-docs/zh-cn/writing/effects/)、[声音](/novelworks-docs/zh-cn/writing/sound/)和[富文本](/novelworks-docs/zh-cn/writing/rich-text/)。
+5. 随时**点击{ui.topBar.play}**，从标题画面开始试玩你的游戏。
+6. 导出做好的网页版游戏并发布，例如发布到 itch.io。
 
 ## 窗口的四个区域
 
 打开项目后，窗口分为四个区域。[编辑器导览](/novelworks-docs/zh-cn/getting-started/tour-of-the-editor/)会逐一介绍。
 
-- **左侧**：你的场景、图片、角色和变量。
+- **左侧**：你的场景、图片和声音、角色和变量。
 - **中间**：游戏画面，和玩家看到的完全一样。
 - **底部**：时间线，也就是当前场景的各个片段。
 - **右侧**：你所选内容的详细信息。

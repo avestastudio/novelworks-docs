@@ -3,7 +3,7 @@ title: 七种语言的剧本语法
 description: 剧本格式在每种编辑器语言中的用词，以及它们的含义。
 ---
 
-[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)会**同时**读取**所有编辑器语言**的词，另外还有几种简短的英文写法。所以用法语词写的剧本可以在中文编辑器里使用，反过来也一样。当 NovelWorks **写出**剧本时（在剧本模式中，或使用 **{ui.native.menu.file} → 导出剧本…**），它使用你当前编辑器语言的词。
+[剧本模式](/novelworks-docs/zh-cn/writing/script-mode/)会**同时**读取**所有编辑器语言**的词，另外还有几种简短的英文写法。所以用法语词写的剧本可以在中文编辑器里使用，反过来也一样。当 NovelWorks **写出**剧本时（在剧本模式中，或使用 {ui.native.menu.file} → {ui.native.menu.exportScript}），它使用你当前编辑器语言的词。
 
 读取关键词时，大小写、重音符号和多余的空格都不影响：`Decor` 会被读成 `décor`。
 
@@ -41,6 +41,35 @@ description: 剧本格式在每种编辑器语言中的用词，以及它们的�
 任何语言下都能识别的写法：`bg` 表示背景一词，`centre` 表示 center，`take` 表示 remove，`ending` 表示 end，`yes` 表示 true，`no` 表示 false。
 
 其中有些词由几个部分组成，例如 “à gauche”：它们会被当作一个整词来读取。
+
+## 服装
+
+表示服装的词写在 `show` 行里，放在表情后面：`show : Mia happy outfit Uniform left`。如果把名称换成表示“默认”的词，角色就会回到第一套服装：`show : Mia outfit default`。不存在的服装会被加上下划线。请看[服装](/novelworks-docs/zh-cn/writing/outfits/)。
+
+| 含义 | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| 一套服装 | `outfit` | `tenue` | `atuendo` | `roupa` | `服装` | `наряд` | `衣装` |
+| 第一套服装 | `default` | `de départ` | `inicial` | `inicial` | `默认` | `начальный` | `最初` |
+
+## 富文本
+
+在对话台词里，花括号中的标签会改变它们之间的文字，例如 `{b}word{/b}` 或 `{color=1}word{/color}`。请看[富文本](/novelworks-docs/zh-cn/writing/rich-text/)。和关键词一样，标签用你的编辑器语言写出，并且七种语言都能读取。
+
+| 标签含义 | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| 粗体 | `b` | `g` | `n` | `neg` | `粗` | `ж` | `太` |
+| 斜体 | `i` | `i` | `c` | `ita` | `斜` | `к` | `斜` |
+| 颜色 | `color` | `couleur` | `color` | `cor` | `颜色` | `цвет` | `色` |
+| 大 | `big` | `grand` | `grande` | `maior` | `大` | `крупно` | `大` |
+| 小 | `small` | `petit` | `pequeno` | `menor` | `小` | `мелко` | `小` |
+| 抖动 | `shake` | `tremble` | `tiembla` | `treme` | `抖动` | `дрожь` | `震え` |
+| 波浪 | `wave` | `vague` | `ola` | `onda` | `波浪` | `волна` | `波` |
+| 停顿 | `pause` | `pause` | `pausa` | `pausa` | `停顿` | `пауза` | `ポーズ` |
+
+- 颜色是 1 到 5 的数字（[文字的颜色](/novelworks-docs/zh-cn/game-ui/dialogue-box/)），或者像 `#ff8800` 这样的代码。
+- `{pause}` 等待半秒。`{pause=2}` 等待 2 秒，范围是 0.1 到 5。
+- 花括号里的变量名称，比如 `{Affection}`，会显示它的值。
+- 要写出真正的花括号，请输入 `{{`。
 
 ## 符号
 
