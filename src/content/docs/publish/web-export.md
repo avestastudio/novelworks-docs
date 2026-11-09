@@ -38,7 +38,6 @@ If an export folder with the same name already exists and is an earlier export, 
 
 - NovelWorks never refuses a video because of its size, but it tells you when you import more than 40 MB of video at once: a web game with video takes longer to load.
 - Videos, MP3 and OGG sounds go into the `.zip` without compression, so they keep their full weight. WAV files are compressed when that makes them smaller.
-- The `.zip` NovelWorks writes cannot hold more than 4 GB.
 - Browsers do not allow sound before the player's first click or key press. Whatever should already be playing starts at that moment.
 
 ### What is removed
