@@ -118,5 +118,21 @@
   "contentWarning.topic.sexualContent": "Сексуальный контент",
   "contentWarning.topic.drugs": "Наркотики",
   "contentWarning.topic.strongLanguage": "Нецензурная лексика",
-  "contentWarning.topic.flashingLights": "Мигающий свет"
+  "contentWarning.topic.flashingLights": "Мигающий свет",
+  "game.credits": "Авторы",
+  "credits.credits": "Авторы",
+  "credits.back": "Назад",
+  "credits.createdBy": "Игра от {author}",
+  "credits.madeWith": "Сделано в NovelWorks",
+  "game.chapters": "Главы",
+  "chapters.chapters": "Главы",
+  "chapters.back": "Назад",
+  "chapters.chapterNumber": "Глава {number}",
+  "chapters.locked": "???",
+  "chapters.lockedLabel": "Глава {number}, ещё не открыта",
+  "game.yes": "Да",
+  "game.no": "Нет",
+  "optionsScreen.musicVolume": "Музыка",
+  "optionsScreen.soundVolume": "Звуки",
+  "optionsScreen.voiceVolume": "Озвучка"
 }

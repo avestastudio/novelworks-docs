@@ -7,7 +7,7 @@ A **moment** is one step of a scene: a line of dialogue, a choice, a jump… Thi
 
 ## Write a line
 
-Click the dialogue box on the game screen and type. The text is typed directly in the box, and you can also use **{ui.momentInspector.text}** in the inspector.
+Click the dialogue box on the game screen and type. The text is typed directly in the box, and you can also use **{ui.momentInspector.text}** in the **{ui.inspectorTabs.text}** tab of the inspector. Select words to format them: see [Rich text](/novelworks-docs/writing/rich-text/).
 
 - **Enter** starts the **next line**: a new dialogue moment after this one, with the same stage and the same speaker, ready to type.
 - **Shift+Enter** adds a new line **inside the same box**.
@@ -15,7 +15,7 @@ Click the dialogue box on the game screen and type. The text is typed directly i
 
 ## Who is speaking
 
-Above the text, on the name plate, or with **{ui.momentInspector.speaker}** in the inspector, choose:
+Above the text, on the name plate, or with **{ui.momentInspector.speaker}** in the **{ui.inspectorTabs.text}** tab, choose:
 
 - **{ui.stageControls.narrator}**: no speaker, just text;
 - a character. Characters on stage are listed first, then the others.
@@ -24,7 +24,7 @@ A new line keeps the previous line's speaker. If you delete a character, the lin
 
 ## Add moments
 
-In the timeline, the buttons above the cards add a moment of each kind **after the selected one**: {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration}, and, when those features are on, {ui.moments.item} and {ui.moments.showMap}. The **+** at the end of the strip adds a line of dialogue. In an empty scene, **{ui.timeline.writeTheFirstLine}** does the same.
+In the header of the timeline, above the cards, **{ui.moments.dialogue}** adds a line of dialogue **after the selected moment**. **{ui.timeline.addOther}** lists the other kinds, each with a sentence that explains it: {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration}, and, when those features are on, {ui.moments.item} and {ui.moments.showMap}. The **+** at the end of the strip adds a line of dialogue. In an empty scene, **{ui.timeline.writeTheFirstLine}** does the same.
 
 A new moment changes nothing on screen: it shows what the moment before it showed (see [The stage](/novelworks-docs/concepts/stage/)).
 
@@ -56,8 +56,15 @@ Right-click a card:
 
 ## Delete a moment
 
-Use the bin icon above the timeline, **{ui.momentInspector.delete}** in the inspector, **{ui.contextMenus.delete}** in the menu, or the `Delete` key. NovelWorks asks for confirmation, except for an empty line of dialogue. What the deleted moment changed on stage passes to the next one, so the other moments keep showing the same thing.
+Use the bin icon in the header of the timeline, **{ui.contextMenus.delete}** in the right-click menu, or the `Delete` key. NovelWorks asks for confirmation, except for an empty line of dialogue. What the deleted moment changed on stage passes to the next one, so the other moments keep showing the same thing.
 
 ## The inspector of a dialogue moment
 
-From top to bottom: any warnings, the **{ui.momentInspector.speaker}** and **{ui.momentInspector.text}**, the **{ui.momentInspector.background}**, who is **{ui.momentInspector.onStage}**, the **{ui.momentInspector.note}**, and **{ui.momentInspector.script}**, which shows how this moment is written in [Script mode](/novelworks-docs/writing/script-mode/) so you can copy it. A dialogue moment has no sound, music or transition setting.
+Any warnings are at the top. Below them are four tabs:
+
+- **{ui.inspectorTabs.text}**: the **{ui.momentInspector.speaker}** and **{ui.momentInspector.text}**, where the moment leads, the **{ui.momentInspector.note}**, and **{ui.momentInspector.script}**, which shows how this moment is written in [Script mode](/novelworks-docs/writing/script-mode/) so you can copy it.
+- **{ui.inspectorTabs.image}**: how far a change reaches, the **{ui.momentInspector.background}**, the **{ui.ambience.title}**, and who is **{ui.momentInspector.onStage}**.
+- **{ui.inspectorTabs.effects}**: the [camera](/novelworks-docs/writing/camera/) and the [effects](/novelworks-docs/writing/effects/).
+- **{ui.sound.tab}**: [music, ambient sound, sound effects and voice](/novelworks-docs/writing/sound/).
+
+See [The moment panel](/novelworks-docs/writing/moment-panel/).

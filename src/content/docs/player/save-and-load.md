@@ -38,7 +38,7 @@ On the title screen, **{rt.game.continue}** loads the newest save of any kind (m
 
 ## What a save contains
 
-The scene and the moment, the values of variables, the inventory, the zones already used, the map state, the play time, and the last 200 lines of the [History](/novelworks-docs/player/history/). It does **not** contain which lines were read (that is kept separately for Skip), or the text being typed: a loaded line appears whole.
+The scene and the moment, the values of variables, the inventory, the zones already used, the map state, the play time, the music and ambient sound playing, and the last 200 lines of the [History](/novelworks-docs/player/history/). It does **not** contain which lines were read (that is kept separately for Skip), the [chapters](/novelworks-docs/game-ui/chapters/) reached (also kept separately), or the text being typed: a loaded line appears whole. A loaded moment starts on its last camera shot, and its effects, voice and sound effects do not play.
 
 ## When you update your game
 

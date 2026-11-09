@@ -42,6 +42,35 @@ Always understood, in any language: `bg` for the background word, `centre` for c
 
 Some of these words have several parts, such as "à gauche": they are read as whole words.
 
+## Outfits
+
+The word for an outfit goes in a `show` line, after the expression: `show : Mia happy outfit Uniform left`. With the word for "default" in place of a name, the character goes back to their first outfit: `show : Mia outfit default`. An outfit that does not exist is underlined. See [Outfits](/novelworks-docs/writing/outfits/).
+
+| Word for | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| An outfit | `outfit` | `tenue` | `atuendo` | `roupa` | `服装` | `наряд` | `衣装` |
+| The first outfit | `default` | `de départ` | `inicial` | `inicial` | `默认` | `начальный` | `最初` |
+
+## Rich text
+
+Inside a line of dialogue, tags in curly braces change the words between them, for example `{b}word{/b}` or `{color=1}word{/color}`. See [Rich text](/novelworks-docs/writing/rich-text/). Like the keywords, the tags are written in your editor's language and read in all seven.
+
+| Tag for | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| Bold | `b` | `g` | `n` | `neg` | `粗` | `ж` | `太` |
+| Italic | `i` | `i` | `c` | `ita` | `斜` | `к` | `斜` |
+| Color | `color` | `couleur` | `color` | `cor` | `颜色` | `цвет` | `色` |
+| Big | `big` | `grand` | `grande` | `maior` | `大` | `крупно` | `大` |
+| Small | `small` | `petit` | `pequeno` | `menor` | `小` | `мелко` | `小` |
+| Shake | `shake` | `tremble` | `tiembla` | `treme` | `抖动` | `дрожь` | `震え` |
+| Wave | `wave` | `vague` | `ola` | `onda` | `波浪` | `волна` | `波` |
+| Pause | `pause` | `pause` | `pausa` | `pausa` | `停顿` | `пауза` | `ポーズ` |
+
+- A color is a number from 1 to 5 (the [colors of the words](/novelworks-docs/game-ui/dialogue-box/)) or a code like `#ff8800`.
+- `{pause}` waits half a second. `{pause=2}` waits 2 seconds, from 0.1 to 5.
+- The name of a variable in braces, like `{Affection}`, shows its value.
+- To write a real brace, type `{{`.
+
 ## The symbols
 
 These are the same in every language: `?` (a choice question), `-` (an option), `->` (a jump or a destination), `+` and `=` (a change under an option), `//` (a note), `>` (a line kept as written), `#` (a scene), `:` (after a command) and `x` or `×` (a quantity).

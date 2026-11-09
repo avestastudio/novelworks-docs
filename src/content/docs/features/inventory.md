@@ -3,7 +3,7 @@ title: Inventory
 description: "Items players carry: create them, give and take them, check them in conditions, and see them in the game."
 ---
 
-With the **{ui.shared.features.inventory}** feature on, players can collect **items**: keys, letters, coins, clues. They see them in an Inventory menu. Turn it on in the [Features library](/novelworks-docs/features/features-panel/). Items are not [variables](/novelworks-docs/branching/variables/): an item is something the player carries.
+With the **{ui.shared.features.inventory}** feature on, players can collect items: keys, letters, coins, clues. They see them in an Inventory menu. Turn it on in the [Features library](/novelworks-docs/features/features-panel/). Items are not [variables](/novelworks-docs/branching/variables/): an item is something the player carries.
 
 ## The Items tab
 

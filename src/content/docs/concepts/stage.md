@@ -7,7 +7,7 @@ NovelWorks works like a **theater stage**. When a character walks on, they **sta
 
 ![A scene of six moments: the background lasts the whole scene, Leo is on stage for moments 2 and 3, Mia arrives at moment 4 and stays until the end.](/novelworks-docs/diagrams/stage-persistence.svg)
 
-Only the **screen** carries over from one moment to the next: the background and the characters. The **lines of dialogue** do not. Each moment has its own text.
+Only the **screen** carries over from one moment to the next: the background, the characters, the [ambience](/novelworks-docs/writing/ambience-and-animated-backgrounds/), the [camera](/novelworks-docs/writing/camera/) and the [particles](/novelworks-docs/writing/effects/). The **lines of dialogue** do not. Each moment has its own text.
 
 ## What a moment stores
 
@@ -17,7 +17,7 @@ You never have to think about this to start: add a character at moment 1 and the
 
 ## "{tx.stage.scopeFollowing}" or "{tx.stage.scopeOnlyHere}"
 
-Above the game screen, the switch **{ui.stage.scopeLabel}** decides how far your next change reaches:
+In the **{ui.inspectorTabs.image}** and **{ui.inspectorTabs.effects}** tabs of a moment, and in the panel of a character on stage, the switch **{ui.stage.scopeLabel}** decides how far your next change reaches:
 
 - **{ui.stage.scopeFollowing}** (the default): the change stays for this moment and the next ones, until a moment changes it again. Like on a stage.
 - **{ui.stage.scopeOnlyHere}**: the change applies to this moment only. The following moments keep what they showed before.
@@ -28,11 +28,11 @@ The first time a change reaches other moments, a short message tells you so. The
 
 ### The "On stage" bar
 
-Above the game screen, the **{ui.stage.castTitle}** bar shows a round picture for each character who is on stage at some moment of the scene, in the order they arrive. A lit picture means the character is on stage **at this moment**. Click a picture to take the character off stage or bring them on, following the switch above. The bar only appears when the scene has at least one character.
+In the **{ui.inspectorTabs.image}** tab, at the top of the **{ui.momentInspector.onStage}** section, the **{ui.stage.castTitle}** bar shows a round picture for each character who is on stage at some moment of the scene, in the order they arrive. A lit picture means the character is on stage **at this moment**. Click a picture to take the character off stage or bring them on, following the switch above. The bar only appears when the scene has at least one character.
 
 ### The chart under the thumbnails
 
-Under the timeline, one row shows the **{ui.timeline.chartBackground}** and one row per character. A bar covers the moments where the thing is on screen. A new bar starts wherever the look changes: another expression, another position or size, a flipped picture, or another background image. Point at a bar to read, for example, "Mia stays on stage until moment 7", "…until the end of the scene" or "…for this moment only".
+Under the timeline, one row shows the **{ui.timeline.chartBackground}** and one row per character. A bar covers the moments where the thing is on screen. A new bar starts wherever the look changes: another expression or outfit, another position or size, a flipped picture, another background image or another ambience. Point at a bar to read, for example, "Mia stays on stage until moment 7", "…until the end of the scene" or "…for this moment only".
 
 The chart shows up to 5 rows and scrolls beyond that (fewer on a small window).
 
@@ -44,7 +44,7 @@ Under each moment card, small chips list what that moment changes: the backgroun
 
 ### In the inspector
 
-With a moment selected, the **{ui.momentInspector.onStage}** section shows one card per character, with a badge:
+With a moment selected, the **{ui.momentInspector.onStage}** section of the **{ui.inspectorTabs.image}** tab shows one card per character, with a badge:
 
 - **{ui.momentInspector.originNew}**: they arrive at this moment.
 - **{ui.momentInspector.originChanged}**: this moment changes them.
@@ -56,7 +56,7 @@ Each card has a button to go **back to how it was** before this moment changed t
 
 Right-click a character on the game screen for these entries:
 
-- **{ui.contextMenus.expression}** and **{ui.contextMenus.position}**.
+- **{ui.contextMenus.expression}**, **{ui.contextMenus.outfit}** (when the character has outfits) and **{ui.contextMenus.position}**.
 - **{ui.contextMenus.flipHorizontally}**, **{ui.contextMenus.resetSize}**, **{ui.contextMenus.bringForward}**, **{ui.contextMenus.sendBackward}**.
 - **{ui.contextMenus.stayUntil}**: choose "Until moment N" (one of the next moments) or **{ui.contextMenus.untilEnd}**. The character keeps their current look until then, even across moments that used to change them.
 - **{ui.contextMenus.onlyThisMoment}**: what this moment changed does not continue. It is greyed out if this moment changes nothing for the character, or if it is the last moment.
@@ -65,7 +65,7 @@ Right-click a character on the game screen for these entries:
 
 ## Start a scene like another one ended
 
-When other scenes lead to a scene, and the screen at the end of the scene before differs from how this one starts, a banner appears on this scene's **first moment**: "This scene starts empty" or "This scene starts with: Mia, Leo". For each scene that leads here, a button **Start like the end of "…"** puts on stage what was on screen at the moment that leads here. The next moments follow, and it is one step for Undo.
+When other scenes lead to a scene, and the screen at the end of the scene before differs from how this one starts, a banner appears in the **{ui.inspectorTabs.image}** tab of this scene's **first moment**: "This scene starts empty" or "This scene starts with: Mia, Leo". For each scene that leads here, a button **Start like the end of "…"** puts on stage what was on screen at the moment that leads here. The next moments follow, and it is one step for Undo.
 
 ## What happens when you delete, move, copy or insert a moment
 

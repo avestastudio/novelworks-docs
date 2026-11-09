@@ -234,6 +234,18 @@
           ]
         },
         {
+          "slug": "writing/moment-panel",
+          "title": "The moment panel",
+          "status": "written",
+          "translated": []
+        },
+        {
+          "slug": "writing/rich-text",
+          "title": "Styling your text",
+          "status": "written",
+          "translated": []
+        },
+        {
           "slug": "writing/characters",
           "title": "Characters and expressions",
           "status": "written",
@@ -245,6 +257,12 @@
             "ru",
             "ja"
           ]
+        },
+        {
+          "slug": "writing/outfits",
+          "title": "Outfits and the wardrobe",
+          "status": "written",
+          "translated": []
         },
         {
           "slug": "writing/assets",
@@ -271,6 +289,30 @@
             "ru",
             "ja"
           ]
+        },
+        {
+          "slug": "writing/ambience-and-animated-backgrounds",
+          "title": "Ambience and animated backgrounds",
+          "status": "written",
+          "translated": []
+        },
+        {
+          "slug": "writing/camera",
+          "title": "The camera",
+          "status": "written",
+          "translated": []
+        },
+        {
+          "slug": "writing/effects",
+          "title": "Effects",
+          "status": "written",
+          "translated": []
+        },
+        {
+          "slug": "writing/sound",
+          "title": "Sound and music",
+          "status": "written",
+          "translated": []
         },
         {
           "slug": "writing/script-mode",
@@ -635,6 +677,18 @@
             "ru",
             "ja"
           ]
+        },
+        {
+          "slug": "game-ui/credits",
+          "title": "Credits",
+          "status": "written",
+          "translated": []
+        },
+        {
+          "slug": "game-ui/chapters",
+          "title": "Chapters",
+          "status": "written",
+          "translated": []
         },
         {
           "slug": "game-ui/history-screen",

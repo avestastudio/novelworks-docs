@@ -26,6 +26,10 @@ Under **{ui.characterInspector.expressions}**, add one picture for each mood (ha
 - Click the picture to **{ui.characterInspector.changeImage}**. The old picture stays in your images.
 - Click the X to remove the expression. If moments use it, NovelWorks tells you they will use the default expression instead. If you remove the default one, the first remaining expression becomes the default.
 
+## Outfits
+
+Under **{ui.outfits.heading}**, **{ui.wardrobe.open}** opens the wardrobe, where you combine clothing pieces into outfits. See [Outfits](/novelworks-docs/writing/outfits/).
+
 ## Avatar
 
 An avatar is a small portrait shown in the dialogue box next to the name. In **{ui.characterInspector.avatar}**, choose:
@@ -38,7 +42,7 @@ Avatars can be pictures of type "{tx.assetTypes.avatar}", "{tx.assetTypes.charac
 
 ## Put a character on stage
 
-See [Staging a scene](/novelworks-docs/writing/staging/). In short: in a moment, use **{ui.momentInspector.add}** under **{ui.momentInspector.onStage}** (or the **{ui.stageControls.character}** button above the game screen), then drag the character where you want.
+See [Staging a scene](/novelworks-docs/writing/staging/). In short: in a moment, use **{ui.momentInspector.add}** under **{ui.momentInspector.onStage}** in the **{ui.inspectorTabs.image}** tab (or the **{ui.stageControls.character}** button above the game screen), then drag the character where you want.
 
 ## Delete a character
 

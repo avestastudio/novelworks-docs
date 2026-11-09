@@ -118,5 +118,21 @@
   "contentWarning.topic.sexualContent": "性内容",
   "contentWarning.topic.drugs": "毒品",
   "contentWarning.topic.strongLanguage": "粗俗语言",
-  "contentWarning.topic.flashingLights": "闪烁的光线"
+  "contentWarning.topic.flashingLights": "闪烁的光线",
+  "game.credits": "制作人员",
+  "credits.credits": "制作人员",
+  "credits.back": "返回",
+  "credits.createdBy": "{author} 的游戏",
+  "credits.madeWith": "使用 NovelWorks 制作",
+  "game.chapters": "章节",
+  "chapters.chapters": "章节",
+  "chapters.back": "返回",
+  "chapters.chapterNumber": "第 {number} 章",
+  "chapters.locked": "???",
+  "chapters.lockedLabel": "第 {number} 章，尚未解锁",
+  "game.yes": "是",
+  "game.no": "否",
+  "optionsScreen.musicVolume": "音乐",
+  "optionsScreen.soundVolume": "声音",
+  "optionsScreen.voiceVolume": "配音"
 }

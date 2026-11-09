@@ -28,6 +28,10 @@ You cannot import your own font yet.
 
 Players who turn on the dyslexia-friendly font in the player options get a dedicated font, whatever you chose here.
 
+## Characters arriving and leaving
+
+**{ui.effects.defaultsTitle}**: choose one **{ui.effects.defaultEnter}** and one **{ui.effects.defaultExit}** for the whole game. They are used whenever a moment has no [effect](/novelworks-docs/writing/effects/) of its own for that character. The default is "{tx.effects.defaultNone}".
+
 ## Colors and buttons
 
 - **{ui.gameUIInspector.primaryColor}**: "Buttons, highlights and the 'continue' arrow." It also gives the title screen its glow. The default is a pink.
@@ -41,4 +45,4 @@ The preview of this page shows the dialogue box over your first background. Use 
 
 ## Reset
 
-**{ui.gameUIInspector.resetToDefault}** on this page only resets the fonts and colors. The other screens keep their settings.
+**{ui.gameUIInspector.resetToDefault}** on this page only resets the settings of this page. The other screens keep their settings.

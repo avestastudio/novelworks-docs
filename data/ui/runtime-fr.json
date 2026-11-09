@@ -118,5 +118,21 @@
   "contentWarning.topic.sexualContent": "Contenu sexuel",
   "contentWarning.topic.drugs": "Drogues",
   "contentWarning.topic.strongLanguage": "Langage grossier",
-  "contentWarning.topic.flashingLights": "Lumières clignotantes"
+  "contentWarning.topic.flashingLights": "Lumières clignotantes",
+  "game.credits": "Crédits",
+  "credits.credits": "Crédits",
+  "credits.back": "Retour",
+  "credits.createdBy": "Jeu créé par {author}",
+  "credits.madeWith": "Fait avec NovelWorks",
+  "game.chapters": "Chapitres",
+  "chapters.chapters": "Chapitres",
+  "chapters.back": "Retour",
+  "chapters.chapterNumber": "Chapitre {number}",
+  "chapters.locked": "???",
+  "chapters.lockedLabel": "Chapitre {number}, pas encore atteint",
+  "game.yes": "Oui",
+  "game.no": "Non",
+  "optionsScreen.musicVolume": "Musique",
+  "optionsScreen.soundVolume": "Sons",
+  "optionsScreen.voiceVolume": "Voix"
 }

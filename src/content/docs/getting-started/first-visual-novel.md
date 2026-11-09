@@ -28,21 +28,21 @@ The project opens with one scene, "{tx.shared.project.firstScene}", and one empt
 
 1. Open the **{ui.leftPanel.scenes}** tab and select your scene.
 2. Choose the moment's background with the background button above the game screen ("{ui.stage.chooseTheBackgroundOfThisMoment}").
-3. Put your character on stage with the button **{ui.stageControls.putACharacterOnStage}**, then drag the character where you want it.
+3. Put your character on stage with the button **{ui.stageControls.character}** above the game screen, then drag the character where you want it.
 4. Click the dialogue box on the screen and type. Press **Enter** to start the next line: a new moment starts, with the **same stage**, because [characters stay on the stage](/novelworks-docs/concepts/stage/). Press **Shift+Enter** for a new line in the same box.
 5. Click the character on the screen to change its expression in a later moment.
 
 ## 5. Add a choice
 
-1. In the timeline, add a **{ui.moments.choice}** moment.
-2. In the inspector, write the question and the text of two options.
+1. In the header of the timeline, open **{ui.timeline.addOther}** and pick **{ui.moments.choice}**.
+2. In the **{ui.inspectorTabs.text}** tab of the inspector, write the question and the text of two options.
 3. For each option, pick the scene it leads to in **{ui.branchInspectors.then}**. Create the scenes first with **{ui.scenesTab.newScene}** in the Scenes tab.
 
 You can already make a choice matter: see [How a story branches](/novelworks-docs/concepts/how-stories-branch/).
 
 ## 6. Add an ending
 
-At the end of each branch, add an **{ui.moments.ending}** moment. It is called "{tx.shared.scenes.goodEnding}" at first: change the name if you like. After an ending, the player goes back to the title screen.
+At the end of each branch, open **{ui.timeline.addOther}** and add an **{ui.moments.ending}** moment. It is called "{tx.shared.scenes.goodEnding}" at first: change the name if you like. After an ending, the player goes back to the title screen.
 
 ## 7. Press Play
 

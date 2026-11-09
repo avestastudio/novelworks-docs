@@ -106,4 +106,4 @@ When you drag a link on the story map, a kind of link that cannot apply is greye
 
 ## What is not checked
 
-A dialogue moment has no warning of its own: an empty line of dialogue is not flagged.
+A dialogue moment has no warning of its own: an empty line of dialogue is not flagged. Outfits, ambiences, the camera, effects and sounds have no warnings either.

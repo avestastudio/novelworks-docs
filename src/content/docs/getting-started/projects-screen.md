@@ -45,7 +45,7 @@ NovelWorks creates the folder, with a `project.json` file and an empty `assets` 
 ## What is in a project folder
 
 - `project.json`: your whole story, in one file.
-- `assets`: the pictures you imported.
+- `assets`: the pictures, videos and sounds you imported.
 - `backups`: earlier versions of `project.json` (see [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/)).
 
 To copy a project to another computer, copy the whole folder. You can then open it with **{ui.projectHub.open}**.

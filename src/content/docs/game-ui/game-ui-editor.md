@@ -17,16 +17,18 @@ The **{ui.topBar.gameUI}** mode changes how your game looks: its font and colors
 
 | Screen | What it is | Page |
 |---|---|---|
-| {ui.gameUI.fontsColors} | The font and colors every screen uses. | [Fonts and colors](/novelworks-docs/game-ui/fonts-and-colors/) |
+| {ui.gameUI.fontsColors} | The font and colors every screen uses, and how characters arrive and leave. | [Fonts and colors](/novelworks-docs/game-ui/fonts-and-colors/) |
 | {ui.gameUI.creatorSplash} | Your studio logo or other pictures, before the title screen. | [Intro](/novelworks-docs/game-ui/intro/) |
 | {ui.gameUI.contentWarning} | Warns players about sensitive topics before the title screen. | [Content warning](/novelworks-docs/game-ui/content-warning/) |
-| {ui.gameUI.titleScreen} | The first screen of your game. | [Title screen](/novelworks-docs/game-ui/title-screen/) |
+| {ui.gameUI.credits} | Rolling credits. | [Credits](/novelworks-docs/game-ui/credits/) |
+| {ui.gameUI.chapters} | The screen where players pick a chapter. | [Chapters](/novelworks-docs/game-ui/chapters/) |
+| {ui.gameUI.titleScreen} | The first screen of your game, and its music. | [Title screen](/novelworks-docs/game-ui/title-screen/) |
 | {ui.gameUI.dialogueBox} | Where names and lines appear. | [Dialogue box](/novelworks-docs/game-ui/dialogue-box/) |
 | {ui.gameUI.choices} | The buttons of a choice. | [Choices](/novelworks-docs/game-ui/choices-screen/) |
 | {ui.gameUI.pauseMenu} | Opened with a right-click or Esc. | [Pause menu](/novelworks-docs/game-ui/pause-menu/) |
 | {ui.gameUI.saveLoad} | The Save and Load screens. | [Save and load screen](/novelworks-docs/game-ui/save-load-screen/) |
 | {ui.gameUI.history} | The list of lines already read. | [History screen](/novelworks-docs/game-ui/history-screen/) |
-| {ui.gameUI.options} | Where players choose their text size, speed, font and contrast. | [Player options](/novelworks-docs/game-ui/options/) |
+| {ui.gameUI.options} | Where players choose their text size, speed, font, contrast and volumes. | [Player options](/novelworks-docs/game-ui/options/) |
 | {ui.quickMenu.title} | Reading controls over the story. | [Quick menu](/novelworks-docs/game-ui/quick-menu/) |
 | {ui.gameUI.theEnd} | Shown when the story is over. | [Ending screen](/novelworks-docs/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | Its button and the panel of items (Inventory feature). | [Inventory screen](/novelworks-docs/game-ui/inventory-ui/) |

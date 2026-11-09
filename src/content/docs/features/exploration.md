@@ -7,13 +7,13 @@ An **{ui.moments.exploration}** moment has **no text box**: the player looks at 
 
 ## Add one
 
-In the timeline, add an **{ui.moments.exploration}** moment. It starts empty and uses the background of the moment before it. Select it: the inspector shows **{ui.explorationInspectors.zones}** and **{ui.explorationInspectors.props}** with **+ Zone** and **+ Prop**.
+In the header of the timeline, open **{ui.timeline.addOther}** and add an **{ui.moments.exploration}** moment. It starts empty and uses the background of the moment before it. Select it: the **{ui.inspectorTabs.text}** tab of the inspector shows **{ui.explorationInspectors.zones}** and **{ui.explorationInspectors.props}** with **+ Zone** and **+ Prop**.
 
 ![An Exploration moment: the zones drawn on the picture, and the list of zones and props in the inspector.](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## Draw zones
 
-Above the game screen, choose **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** or **{ui.explorationCanvas.shape}**. (On a narrow window, they are in the **{ui.stage.more}** menu.)
+Above the game screen, choose **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** or **{ui.explorationCanvas.shape}**.
 
 - **{ui.explorationCanvas.rectangle}**: drag on the picture. A plain click makes nothing, and a zone smaller than 2 % of the screen is not created.
 - **{ui.explorationCanvas.shape}**: click point by point around an object. Close the shape by clicking the first point again, or by pressing **Enter**. **Esc** cancels. At least three points are needed.

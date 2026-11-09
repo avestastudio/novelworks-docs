@@ -17,7 +17,7 @@ You can play your game at any time, inside the editor. It plays **what is in the
 
 Each play starts with fresh starting values for your variables and items: nothing is carried over from a previous test.
 
-If your game has no start scene, or the start scene has no moments, **Play** does not start and tells you what to do: set a start scene with the star in the Scenes tab.
+If your game has no start scene, or the start scene has no moments, **{ui.topBar.play}** does not start and tells you what to do: set a start scene with the star in the Scenes tab.
 
 ## While you play
 
@@ -27,7 +27,7 @@ You play like a player: click or press **Space** / **Enter** to advance, **1** t
 
 ## Stop
 
-- Click **{ui.playOverlay.stop}**, or press **Esc**. If the pause menu, Save, Load, History, Options, the intro or the content warning is open, **Esc** closes that first. **Esc** does not close the inventory in Play mode: press **I** for that.
+- Click **{ui.playOverlay.stop}**, or press **Esc**. If the pause menu, Save, Load, History, Options, Credits, Chapters, the intro or the content warning is open, **Esc** closes that first. **Esc** does not close the inventory in Play mode: press **I** for that.
 - When you stop, the editor selects the scene and the moment where you were.
 
 ## What this does not test

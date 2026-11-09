@@ -21,7 +21,7 @@ Auto stops at a moment that is not a line of dialogue: a choice, an exploration 
 
 ## Skip
 
-Skip speeds through lines **the player has already read**, finishing text at once and shortening animations. It stops on the first line they have not read, and at a choice, an exploration or an ending.
+Skip speeds through lines **the player has already read**, finishing text at once and shortening animations. [Effects](/novelworks-docs/writing/effects/), voices and sound effects of skipped moments do not play. It stops on the first line they have not read, and at a choice, an exploration or an ending.
 
 - A line counts as read as soon as it appears, and the record is kept **per game, in the browser**, not per save. It stays across new games.
 - If you change the text or the speaker of a line, that line counts as unread again.
@@ -33,4 +33,4 @@ A click or a key that moves the story (**Space**, **Enter**, **1** to **6**), op
 
 ## Voice
 
-A dialogue moment has no voice or sound setting, so Auto waits only for the text.
+If a line has a [voice](/novelworks-docs/writing/sound/), Auto waits for the voice to end, then moves on after 0.6 seconds, whatever the **{rt.optionsScreen.autoSpeed}**. Moving to the next line cuts the voice.

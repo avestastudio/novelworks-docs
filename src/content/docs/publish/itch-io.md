@@ -23,6 +23,8 @@ These steps describe itch.io's own web site, not NovelWorks, and itch.io may cha
 - Do not upload only `index.html`: every file of the export is needed.
 - Your game plays inside a frame. If you give the page a larger size than the recommended game size, the game is scaled to fit, with black bars.
 - NovelWorks games always start with the short "Made with NovelWorks" screen.
+- Browsers do not allow sound before the player's first click or key press, so your title music starts at that moment. See [Web export](/novelworks-docs/publish/web-export/).
+- Videos make the page longer to load, and the `.zip` keeps their full weight.
 
 ## Test before you publish
 

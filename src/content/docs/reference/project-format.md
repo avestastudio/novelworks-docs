@@ -8,14 +8,14 @@ description: What is in a project folder, how old and new projects are handled, 
 A project is a **folder** that you can copy, move or back up like any other:
 
 - `project.json`: your whole game, in one file (text in the JSON format, with 2-space indentation).
-- `assets`: the pictures you imported.
-- `backups`: earlier versions of `project.json`, and `backups/deleted-assets` for pictures you deleted.
+- `assets`: the pictures, videos and sounds you imported.
+- `backups`: earlier versions of `project.json`, and `backups/deleted-assets` for files you deleted.
 
 Each time you save, NovelWorks writes the file safely (to a temporary file, then renames it), so a crash while saving does not damage it.
 
 ## The format version
 
-`project.json` has a **format version**. This version of NovelWorks writes format **17**. Each time the format changed, NovelWorks gained an automatic upgrade, so every older project still opens. Among the changes:
+`project.json` has a **format version**. This version of NovelWorks writes format **26**. Each time the format changed, NovelWorks gained an automatic upgrade, so every older project still opens. Among the changes:
 
 | Format | What it added |
 |---|---|
@@ -32,6 +32,15 @@ Each time you save, NovelWorks writes the file safely (to a temporary file, then
 | 15 | Characters stay on the stage: a moment stores only what it changes. |
 | 16 | An If… with several cases. |
 | 17 | A choice option that appears only when a condition holds. |
+| 18 | [Credits](/novelworks-docs/game-ui/credits/). |
+| 19 | [Chapters](/novelworks-docs/game-ui/chapters/). |
+| 20 | [Outfits](/novelworks-docs/writing/outfits/) and the wardrobe. |
+| 21 | [Ambiences and animated backgrounds](/novelworks-docs/writing/ambience-and-animated-backgrounds/). |
+| 22 | The [camera](/novelworks-docs/writing/camera/), depth and the foreground picture. |
+| 23 | Several camera shots per moment. |
+| 24 | [Rich text](/novelworks-docs/writing/rich-text/) in lines of dialogue, and the five colors of the words. |
+| 25 | [Effects](/novelworks-docs/writing/effects/) and particles. |
+| 26 | [Sound](/novelworks-docs/writing/sound/): music, ambient sound, sound effects and voices. |
 
 ## Opening an older project
 

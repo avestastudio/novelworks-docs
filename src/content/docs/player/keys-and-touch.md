@@ -9,9 +9,9 @@ Shortcuts are ignored while **Ctrl**, **Cmd** or **Alt** is held (except holding
 
 | Key | What it does |
 |---|---|
-| **Space**, **Enter** | Finishes the text, then moves on. On a focused button, presses it. On a focused zone, uses it. |
+| **Space**, **Enter** | Finishes the text, the effects and the camera move, then moves on. On a focused button, presses it. On a focused zone, uses it. |
 | **1** to **6** | Picks the Nth option on screen. The first press while text is appearing finishes it. |
-| **Esc** | Opens or closes the pause menu. Closes the inventory, History, Options and Save/Load. |
+| **Esc** | Opens or closes the pause menu. Closes the inventory, History, Options, Save/Load, Credits and Chapters. |
 | **H** | Opens or closes the History. |
 | **A** | Turns Auto on or off. |
 | **S** | Turns Skip on or off. |
@@ -21,14 +21,16 @@ Shortcuts are ignored while **Ctrl**, **Cmd** or **Alt** is held (except holding
 | **I** | Opens or closes the inventory (with the Inventory feature). |
 | **M** | Opens the map (when the Map button is shown). |
 | **Tab** | Moves between buttons and exploration zones. It stays inside Save, History, Options and the content warning while they are open. |
-| Arrows, **Home**, **End**, **Page Up**, **Page Down** | In the History: scroll. In Save and Load: arrows, **Home** and **End** move between slots. In Options: the arrows change the value. They do not move the story. |
+| Arrows, **Home**, **End**, **Page Up**, **Page Down** | In the History: scroll. In Save and Load: arrows, **Home** and **End** move between slots. In Options: the arrows change the value. In Chapters: up and down move between chapters. They do not move the story. |
 | `Delete` / `Backspace` on a slot | Asks to delete the save. |
+
+In the Credits, **Enter** and **Space** also close the screen.
 
 There is no fullscreen key in the game: the browser's own (**F11**) works, or the fullscreen button of the page.
 
 ## Mouse
 
-- **Left click** on the story: finishes the text, moves on, picks a choice, or uses a zone.
+- **Left click** on the story: finishes the text, the effects and the camera move, moves on, picks a choice, or uses a zone.
 - **Right click**: opens or closes the pause menu (the browser's menu never shows over the game). It does nothing while Save, Load, History, Options or a question is open.
 - **Wheel up**: opens the History. Wheel down does nothing.
 - **Hover** over an exploration zone: shows its highlight and label.
