@@ -34,7 +34,7 @@ Drag a card left or right. The arrows **←** and **→** move the selection to 
 
 ## What a card shows
 
-A card shows the speaker's name in their color (or "Narrator", or the kind of moment with a color stripe), the beginning of the text, and its number in the corner. It can also show:
+A card shows the speaker's name in their color (or "{tx.timeline.narrator}", or the kind of moment with a color stripe), the beginning of the text, and its number in the corner. It can also show:
 
 - a sticky-note icon if the moment has a [note](/novelworks-docs/writing/notes/);
 - a warning triangle: point at it to read what needs attention, for example a choice with no options, a link to a deleted scene, or a moment players can never see because an ending or a jump comes before it;

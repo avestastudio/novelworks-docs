@@ -61,7 +61,7 @@ Under **{ui.camera.wholeMoment}**:
 
 **{ui.camera.foreground}** puts a picture in front of the characters, like branches or a window pane. It covers the whole screen, so use a picture with transparent areas. With depth, it moves more than the characters. Clicks go through it.
 
-**{ui.camera.reset}** removes the framing.
+**{ui.camera.reset}** removes the camera of this moment: all its shots and the settings of the whole moment. The foreground stays.
 
 ## How long it lasts
 

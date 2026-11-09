@@ -31,7 +31,7 @@ You can have up to 30 lines. The arrows change their order, and a line left empt
 
 ## The look
 
-You can set **{ui.gameUIInspector.backgroundColor}**, **{ui.gameUIInspector.textColor}** and **{ui.gameUIInspector.buttonStyle}**. **{ui.gameUIInspector.resetToDefault}** puts this screen back as it was.
+You can set **{ui.gameUIInspector.backgroundColor}**, **{ui.gameUIInspector.textColor}** and **{ui.gameUIInspector.buttonStyle}**. **{ui.gameUIInspector.resetToDefault}** resets the whole page, not only the look: your lines are removed and the credits are turned off. NovelWorks asks first, and {ui.topBar.undo} brings them back.
 
 ## In the game
 

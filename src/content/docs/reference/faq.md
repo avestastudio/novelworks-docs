@@ -17,11 +17,11 @@ description: Quick answers to the questions people ask most.
 
 **Where is my project?** In the folder you chose when you created it. The project settings show it under "{tx.projectSettings.savedIn}". To copy a project, copy the whole folder.
 
-**I lost a change.** Try **{ui.topBar.undo}** (up to 200 steps), then **{ui.native.menu.file} → Restore from Backup…**. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).
+**I lost a change.** Try **{ui.topBar.undo}** (up to 200 steps), then **{ui.native.menu.file} → {ui.native.menu.restoreFromBackup}**. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).
 
 **I deleted a picture, a scene or a variable by mistake.** Press **{ui.topBar.undo}**. A deleted picture is kept in `backups/deleted-assets` and comes back with Undo. A deleted scene or variable can be undone, and meanwhile the places that used it show warnings.
 
-**Can I move my project to another computer?** Yes: copy its folder, then open it with **{ui.native.menu.file} → Open Project…**.
+**Can I move my project to another computer?** Yes: copy its folder, then open it with **{ui.native.menu.file} → {ui.native.menu.openProject}**.
 
 ## Writing
 
@@ -55,6 +55,6 @@ description: Quick answers to the questions people ask most.
 
 ## Problems
 
-**The export is locked.** In the full version, activate NovelWorks: **{ui.native.role.help} → Activate NovelWorks…**. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/).
+**The export is locked.** In the full version, activate NovelWorks: **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}**. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/).
 
 **Something else is wrong.** See [Troubleshooting and messages](/novelworks-docs/reference/troubleshooting/), or [report a bug](/novelworks-docs/reference/report-a-bug/).

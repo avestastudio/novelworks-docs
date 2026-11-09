@@ -66,7 +66,7 @@ Your private writing data is blanked before export: moment **notes**, scene **su
 | The disk is full. | Free some space, or pick a folder on another disk. |
 | This folder doesn't exist anymore. | Pick another folder. |
 | A folder named "…" is already there and isn't an earlier export. | Pick another folder. |
-| Activate NovelWorks to export games. | Open **{ui.native.role.help} → Activate NovelWorks…** |
+| Activate NovelWorks to export games. | Open **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** |
 | The demo exports games of up to 5 scenes, and your project has N. | In the demo only. Delete scenes, or get the full version. |
 | This project goes beyond what the demo can export: … | In the demo only. Remove what the message lists, or get the full version. |
 | The game could not be exported: … | The reason follows. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/). |

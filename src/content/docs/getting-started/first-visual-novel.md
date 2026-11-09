@@ -22,7 +22,7 @@ The project opens with one scene, "{tx.shared.project.firstScene}", and one empt
 
 1. Open the **{ui.leftPanel.characters}** tab and click **{ui.charactersTab.newCharacter}**.
 2. In the inspector, type the **{ui.characterInspector.characterName}** and choose a **{ui.characterInspector.nameColor}**.
-3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** for each picture (only pictures of type "{tx.assetTypes.characterSprite}" are offered), give it a name ("Happy", "Surprised") and choose its image. The expression with the star is the one shown by default.
+3. Under **{ui.characterInspector.expressions}**, click **{ui.characterInspector.addExpression}** and choose a picture, once for each picture (only pictures of type "{tx.assetTypes.characterSprite}" are offered). Then rename each expression ("Happy", "Surprised") if you like. The expression with the star is the one shown by default.
 
 ## 4. Write the first scene
 
@@ -30,7 +30,7 @@ The project opens with one scene, "{tx.shared.project.firstScene}", and one empt
 2. Choose the moment's background with the background button above the game screen ("{ui.stage.chooseTheBackgroundOfThisMoment}").
 3. Put your character on stage with the button **{ui.stageControls.character}** above the game screen, then drag the character where you want it.
 4. Click the dialogue box on the screen and type. Press **Enter** to start the next line: a new moment starts, with the **same stage**, because [characters stay on the stage](/novelworks-docs/concepts/stage/). Press **Shift+Enter** for a new line in the same box.
-5. Click the character on the screen to change its expression in a later moment.
+5. To change the expression later on, select a later moment in the timeline, click the character on the screen, and choose another expression in the small bar over them.
 
 ## 5. Add a choice
 

@@ -13,7 +13,7 @@ From left to right:
 
 - On Windows, **{ui.appMenuButton.menu}** comes first and opens the application menu (File, Edit, View, Help).
 - **The back arrow** returns to the [projects screen](/novelworks-docs/getting-started/projects-screen/). If you have unsaved changes it asks whether to save them first.
-- **The project title** (or "Untitled project"). Click it to show the project settings in the inspector (see [Editor and project settings](/novelworks-docs/getting-started/editor-settings/)).
+- **The project title** (or "{tx.topBar.untitledProject}"). Click it to show the project settings in the inspector (see [Editor and project settings](/novelworks-docs/getting-started/editor-settings/)).
 - **The save indicator**: {ui.topBar.unsavedChanges}, {ui.topBar.savedAuto} or {ui.topBar.saved}.
 - **Three modes**:
   - **{ui.topBar.story}**: scenes, moments and characters. This is where you write.
@@ -74,10 +74,10 @@ See [The moment panel](/novelworks-docs/writing/moment-panel/). When you click a
 
 On a Mac the app menu holds About, Services, Hide and Quit; on Windows, Quit is in the File menu.
 
-- **{ui.native.menu.file}**: New Project, Open Project, Save, Restore from Backup, Import Script, Export the Script, {ui.native.menu.exportForWeb}, Close Project.
-- **{ui.native.menu.edit}**: Undo, Redo, Find and Replace, Cut, Copy, Paste, Select All, Spelling Language.
-- **{ui.menu.view}**: Theme, Language, Toggle Full Screen.
+- **{ui.native.menu.file}**: {tx.native.menu.newProject}, {tx.native.menu.openProject}, {tx.native.menu.save}, {tx.native.menu.restoreFromBackup}, {tx.native.menu.importScript}, {tx.native.menu.exportScript}, {ui.native.menu.exportForWeb}, {tx.native.menu.closeProject}.
+- **{ui.native.menu.edit}**: {tx.native.menu.undo}, {tx.native.menu.redo}, {tx.native.menu.findAndReplace}, Cut, Copy, Paste, Select All, Spelling Language.
+- **{ui.menu.view}**: {tx.native.menu.theme}, Language, Toggle Full Screen.
 - **{ui.native.role.window}**.
-- **{ui.native.role.help}**: Documentation, Replay the Tutorial, Keyboard Shortcuts, Activate NovelWorks (full version only), Report a Bug, and About on Windows.
+- **{ui.native.role.help}**: Documentation, {tx.native.menu.replayTutorial}, {tx.native.menu.keyboardShortcuts}, {tx.native.menu.activateNovelWorks} (full version only), {tx.native.menu.reportABug}, and About on Windows.
 
 A complete list of shortcuts is in [Keyboard shortcuts](/novelworks-docs/reference/keyboard-shortcuts/).

@@ -36,7 +36,7 @@ The bar over the character keeps only the expression and the outfit (the outfit 
 |---|---|
 | **{ui.stageCharacterInspector.expression}** | Changes the expression. The default one has a star. If the character has no expressions, a button takes you to the Characters tab. |
 | **{ui.stageControls.outfit}** | Changes the outfit. See [Outfits](/novelworks-docs/writing/outfits/). |
-| Left / Center / Right | Puts the character on one of three places at the bottom of the screen. They keep their size and direction. |
+| {ui.scenes.left} / {ui.scenes.center} / {ui.scenes.right} | Puts the character on one of three places at the bottom of the screen. They keep their size and direction. |
 | **{ui.stageCharacterInspector.flippedHorizontallyFacingTheOtherWay}** | Turns the character to face the other way. |
 | **{ui.stageCharacterInspector.forward}** / **{ui.stageCharacterInspector.backward}** | Moves the character in front of or behind another one. The dialogue box is always on top. |
 | **{ui.stageCharacterInspector.removeFromStage}** | Takes the character off stage, following the **{ui.stage.scopeLabel}** switch. |
@@ -54,5 +54,5 @@ On the first moment of a scene that other scenes lead to, a banner in the **{ui.
 ## While you edit
 
 - The game screen is always scaled to fit the window.
-- A character with no picture is drawn as a dashed outline with "(no picture)", so you can still place them. In the game, such a character is not drawn.
+- A character with no picture is drawn as a dashed outline with "{tx.render.noPicture}", so you can still place them. In the game, such a character is not drawn.
 - The dialogue box is replaced by editable fields while you edit.

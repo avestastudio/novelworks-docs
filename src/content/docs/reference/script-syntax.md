@@ -3,7 +3,7 @@ title: Script syntax in 7 languages
 description: The words of the Script format in each editor language, and what they mean.
 ---
 
-[Script mode](/novelworks-docs/writing/script-mode/) reads a script with the words of **every editor language at the same time**, plus a few short English forms. So a script written with French words works in an English editor, and the other way round. When NovelWorks **writes** a script (in Script mode, or **{ui.native.menu.file} → Export the Script…**), it uses the words of your current editor language.
+[Script mode](/novelworks-docs/writing/script-mode/) reads a script with the words of **every editor language at the same time**, plus a few short English forms. So a script written with French words works in an English editor, and the other way round. When NovelWorks **writes** a script (in Script mode, or **{ui.native.menu.file} → {ui.native.menu.exportScript}**), it uses the words of your current editor language.
 
 Capital letters, accents and extra spaces do not matter when a keyword is read: `Decor` reads as `décor`.
 

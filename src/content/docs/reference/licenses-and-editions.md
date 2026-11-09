@@ -36,7 +36,7 @@ These limits only stop you from adding more. Nothing is lost, and your project g
 
 The full version asks for the **download key** that comes with your purchase. Without it, you can open, edit and play your projects. Only exporting is locked. The activation window says a key works on up to 3 computers, and can be deactivated to move to another. NovelWorks checks the license on your computer at every start, so exporting also works without internet.
 
-You can see the state of your license in the About window ("Activated · Manage" or "Not activated · Activate NovelWorks").
+You can see the state of your license in the About window ("{tx.aboutDialog.activated}{tx.aboutDialog.manage}" or "{tx.aboutDialog.notActivated}{tx.aboutDialog.activateNovelWorks}").
 
 ## What an exported game includes
 
@@ -47,4 +47,4 @@ You can see the state of your license in the About window ("Activated · Manage"
 
 ## Windows and macOS installers
 
-The Mac and Windows applications are not signed with a paid developer certificate yet. See [Install and activate](/novelworks-docs/getting-started/install-and-activate/).
+The Mac application is not signed with an Apple Developer ID yet. See [Install and activate](/novelworks-docs/getting-started/install-and-activate/).
