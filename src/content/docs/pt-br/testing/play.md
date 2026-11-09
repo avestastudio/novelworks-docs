@@ -17,7 +17,7 @@ Você pode jogar seu jogo a qualquer hora, dentro do editor. Ele joga **o que es
 
 Cada jogada começa com os valores iniciais das suas variáveis e itens: nada vem de um teste anterior.
 
-Se o seu jogo não tem cena inicial, ou a cena inicial não tem momentos, “Jogar” não começa e diz o que fazer: defina uma cena inicial com a estrela na aba Cenas.
+Se o seu jogo não tem cena inicial, ou a cena inicial não tem momentos, **{ui.topBar.play}** não começa e diz o que fazer: defina uma cena inicial com a estrela na aba Cenas.
 
 ## Enquanto você joga
 
@@ -27,7 +27,7 @@ Você joga como um jogador: clique ou aperte **Espaço** / **Enter** para avanç
 
 ## Parar
 
-- Clique em **{ui.playOverlay.stop}**, ou aperte **Esc**. Se o menu de pausa, Salvar, Carregar, o Histórico, as Opções, a introdução ou o aviso de conteúdo estiver aberto, **Esc** fecha isso primeiro. **Esc** não fecha o inventário no modo Jogar: aperte **I** para isso.
+- Clique em **{ui.playOverlay.stop}**, ou aperte **Esc**. Se o menu de pausa, Salvar, Carregar, o Histórico, as Opções, os Créditos, os Capítulos, a introdução ou o aviso de conteúdo estiver aberto, **Esc** fecha isso primeiro. **Esc** não fecha o inventário no modo Jogar: aperte **I** para isso.
 - Quando você para, o editor seleciona a cena e o momento em que você estava.
 
 ## O que isto não testa

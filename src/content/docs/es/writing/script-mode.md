@@ -39,7 +39,7 @@ Sobre la vista previa, la fila **{ui.branches.whereTitle}** muestra adónde llev
 
 - El texto se aplica a tu proyecto **medio segundo después de que dejes de escribir**, y cuando cambias de alcance, juegas o sales del modo Guion.
 - Una ráfaga de escritura es **un solo paso de deshacer**. Una pausa de alrededor de un segundo empieza un paso nuevo.
-- Un momento cuyo texto no cambiaste **se conserva como estaba**, con su nota, su posición en el mapa de la historia, sus líneas leídas y las partidas guardadas de los jugadores. Las cosas que el texto no puede expresar (colocación libre, tamaño, volteo, orden de los personajes, zonas de exploración y objetos decorativos) también se conservan, y un momento cuya pantalla no cambió la conserva exactamente.
+- Un momento cuyo texto no cambiaste **se conserva como estaba**, con su nota, su posición en el mapa de la historia, sus líneas leídas y las partidas guardadas de los jugadores. Las cosas que el texto no puede expresar (colocación libre, tamaño, volteo, orden de los personajes, zonas de exploración y objetos decorativos, ambiente, cámara, efectos y sonidos) también se conservan, y un momento cuya pantalla no cambió la conserva exactamente.
 - Si cambias el proyecto en otro sitio (el inspector, la línea de tiempo, deshacer), el texto se actualiza sin mover tu cursor. Si estás escribiendo en ese momento, gana tu texto.
 - Los nombres que aún no existen nunca bloquean nada. El momento se crea de todos modos y la línea se subraya.
 

@@ -118,5 +118,21 @@
   "contentWarning.topic.sexualContent": "性的な内容",
   "contentWarning.topic.drugs": "薬物",
   "contentWarning.topic.strongLanguage": "強い言葉遣い",
-  "contentWarning.topic.flashingLights": "点滅する光"
+  "contentWarning.topic.flashingLights": "点滅する光",
+  "game.credits": "クレジット",
+  "credits.credits": "クレジット",
+  "credits.back": "戻る",
+  "credits.createdBy": "{author} のゲーム",
+  "credits.madeWith": "NovelWorks で制作",
+  "game.chapters": "チャプター",
+  "chapters.chapters": "チャプター",
+  "chapters.back": "戻る",
+  "chapters.chapterNumber": "第{number}章",
+  "chapters.locked": "???",
+  "chapters.lockedLabel": "第{number}章、未到達",
+  "game.yes": "はい",
+  "game.no": "いいえ",
+  "optionsScreen.musicVolume": "音楽",
+  "optionsScreen.soundVolume": "効果音",
+  "optionsScreen.voiceVolume": "ボイス"
 }

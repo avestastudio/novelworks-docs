@@ -61,6 +61,8 @@ Notas:
 - Los atajos de los paneles cambian al modo Historia, salvo Interfaz del juego (**Cmd+5**) y Mapa de la historia (**Cmd+6**), que cambian a esos modos.
 - Todos los atajos se ignoran mientras juegas, y mientras hay una ventana, un menú o una ventana emergente abiertos.
 - En el espacio de trabajo Mapa, `Delete` y **Cmd+D** actúan sobre el lugar seleccionado.
+- En una línea de diálogo, **Cmd+B** / **Ctrl+B** pone en negrita las palabras seleccionadas y **Cmd+I** / **Ctrl+I** las pone en cursiva. Consulta [Dar estilo a tu texto](/novelworks-docs/es/writing/rich-text/).
+- En el vestuario, las teclas de flecha mueven poco a poco la prenda seleccionada. Consulta [Atuendos y vestuario](/novelworks-docs/es/writing/outfits/).
 - En la vista Guion, copiar y pegar momentos no se aplica: el editor de texto conserva lo suyo. Allí, **Cmd+Intro** / **Ctrl+Intro** es «{tx.scriptMode.playFromCursor}» y **Cmd+.** / **Ctrl+.** crea todo lo que falta.
 
 ## En un juego
@@ -69,7 +71,7 @@ Esto funciona en los juegos exportados y en el modo Jugar.
 
 | Acción | Teclas |
 |---|---|
-| Avanzar (primero termina el texto) | Clic, **Espacio** o **Intro** |
+| Avanzar (primero termina el texto, los efectos y el movimiento de cámara) | Clic, **Espacio** o **Intro** |
 | Elegir una opción | **1** a **6** (la opción número N en pantalla) |
 | Menú de pausa | **Esc** o clic derecho |
 | Guardado rápido / carga rápida | **F5** / **F9** |

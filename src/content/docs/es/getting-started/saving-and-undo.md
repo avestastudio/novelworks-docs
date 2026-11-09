@@ -19,7 +19,7 @@ Las copias de seguridad son copias anteriores de `project.json`, guardadas en la
 - No se hace ninguna copia si no ha cambiado nada desde la más reciente.
 - NovelWorks conserva las **20 más recientes**, más la **más reciente de cada uno de los últimos 7 días**. Las más antiguas se borran.
 - Las copias hechas al actualizar un proyecto antiguo (**{ui.restoreBackupDialog.beforeUpgrade}**) no se borran nunca.
-- Las imágenes que borras del proyecto se mueven a `backups/deleted-assets` en lugar de borrarse, para que una copia de seguridad aún pueda encontrarlas. Se limpian cuando ninguna copia conservada las necesita.
+- Las imágenes, los vídeos y los sonidos que borras del proyecto se mueven a `backups/deleted-assets` en lugar de borrarse, para que una copia de seguridad aún pueda encontrarlos. Se limpian cuando ninguna copia conservada los necesita.
 
 ### Vuelve a una copia de seguridad
 

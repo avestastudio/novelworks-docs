@@ -7,12 +7,12 @@ description: 为你的故事收尾，结局想设几个就设几个，并检查�
 
 ## 添加结局
 
-在时间线中，于场景的末尾添加一个{ui.moments.ending}片段。在检查器中：
+在时间线顶部打开{ui.timeline.addOther}，在场景的末尾添加一个{ui.moments.ending}片段。在检查器的{ui.inspectorTabs.text}标签页中：
 
 - {ui.branchInspectors.endingName}：新结局的名称是“{tx.shared.scenes.goodEnding}”。如果名称留空，游戏会显示“完”。
 - 一段**简短文字**（可选），显示在名称下方。
 
-结局结束后，玩家会回到标题画面。
+结局结束后，玩家会回到标题画面。如果你用{ui.credits.afterEnding}开启了[制作人员名单](/novelworks-docs/zh-cn/game-ui/credits/)，名单会先滚动播放。
 
 ## 玩家看到什么
 

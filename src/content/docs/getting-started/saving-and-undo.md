@@ -19,7 +19,7 @@ Backups are earlier copies of `project.json`, kept in the `backups` folder insid
 - No backup is made if nothing changed since the newest one.
 - NovelWorks keeps the **newest 20**, plus the **newest backup of each of the last 7 days**. Older ones are deleted.
 - Copies made when an older project is upgraded (**{ui.restoreBackupDialog.beforeUpgrade}**) are never deleted.
-- Pictures you delete from the project are moved to `backups/deleted-assets` instead of being erased, so a backup can still find them. They are cleaned up once no kept backup needs them.
+- Pictures, videos and sounds you delete from the project are moved to `backups/deleted-assets` instead of being erased, so a backup can still find them. They are cleaned up once no kept backup needs them.
 
 ### Go back to a backup
 

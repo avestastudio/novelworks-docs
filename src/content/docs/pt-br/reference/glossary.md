@@ -5,17 +5,24 @@ description: As palavras usadas no NovelWorks e nesta documentação.
 
 | Palavra | Significado |
 |---|---|
-| {ui.inspector.scene} | Um capítulo da sua história: uma série de momentos jogados um após o outro. |
+| {ui.inspector.scene} | Uma parte da sua história: uma série de momentos jogados um após o outro. |
 | Momento | Uma etapa de uma cena: uma fala, uma escolha, um salto, um final… |
 | {ui.timeline.timeline} | A fileira de cartões de momentos na parte de baixo do editor. |
 | Em cena | O que está na tela do jogo: o cenário e os personagens. Passa de um momento para o seguinte. |
 | Cena inicial | A cena em que um novo jogo começa, marcada com uma estrela. |
 | Personagem | Uma pessoa da sua história, com uma cor de nome e expressões. |
 | Expressão | Uma imagem de um personagem para um humor (feliz, triste…). A que tem uma estrela é a padrão. |
+| {ui.stageControls.outfit} | Um conjunto de peças do guarda-roupa que um personagem usa. Fica até você mudar. |
 | {ui.gameUIInspector.avatar} | Um pequeno retrato mostrado ao lado do nome do personagem na caixa de diálogo. |
-| {ui.gameUIInspector.image} | Uma imagem do seu projeto: um cenário, um sprite de personagem, uma CG, um objeto de cena, uma imagem da interface ou um avatar. |
+| {ui.gameUIInspector.image} | Uma imagem do seu projeto: um cenário, um sprite de personagem, uma CG, um objeto de cena, uma imagem da interface, um avatar ou uma peça de roupa. |
 | CG | Uma ilustração em tela cheia para um evento especial. |
 | Objeto de cena | A imagem de um objeto, colocada em uma exploração ou usada como imagem de um item. |
+| {ui.ambience.title} | Um clima de cor sobre a imagem, como Noite ou Sépia. Continua de um momento para o outro. |
+| {ui.camera.title} | Que parte do palco o jogador vê, e como ela se move. Um momento pode ter vários *planos*, até 6. |
+| {ui.effects.title} | Uma animação curta de um personagem ou da tela inteira, como um tremor, ou uma transição. Os efeitos são reproduzidos uma vez, no início de um momento. |
+| {ui.effects.category.particles} | Chuva, neve, pétalas e coisas assim. Continuam de um momento para o outro até você pará-las. |
+| {ui.sound.ambience} | Um som em loop por baixo da história, como chuva. |
+| Texto formatado | Negrito, itálico, cores, tamanhos, letras que tremem ou ondulam, pausas e variáveis dentro de uma fala. |
 | Variável | Algo de que o jogo se lembra. Uma *Pontuação* é um número; um *Fato* é sim ou não. |
 | {ui.moments.item} | Algo que o jogador carrega (recurso Inventário). *Único* (tem ou não tem) ou *Acumulável* (vários). |
 | {ui.moments.choice} | Um momento em que o jogador escolhe uma opção entre 2 e 6. |
@@ -28,6 +35,9 @@ description: As palavras usadas no NovelWorks e nesta documentação.
 | {ui.topBar.storyMap} | A visão de todas as cenas e das ligações entre elas. |
 | {ui.topBar.gameUI} | O modo em que você muda a aparência do jogo. |
 | Modo Roteiro | A visão de uma cena como texto, como um roteiro de filme. |
+| {ui.gameUI.credits} | A lista que rola na tela com quem fez o jogo. |
+| {ui.gameUI.chapters} | Cenas marcadas como início de capítulo, que os jogadores podem rejogar a partir da tela de título. |
+| {ui.templates.heading} | Visuais prontos para a tela de título e posições prontas para a caixa de diálogo. |
 | Aviso | Uma mensagem curta no jogo, como “Você pegou: Chave”. |
 | {ui.quickMenu.title} | A pequena barra de controles de leitura sobre a história. |
 | Modo Jogar | Jogar o seu jogo dentro do editor. |

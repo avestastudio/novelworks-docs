@@ -5,7 +5,7 @@ description: Convierte tu juego en una carpeta y un .zip que funcionan en cualqu
 
 Elige **{ui.native.menu.file} → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). NovelWorks crea una versión de tu juego que funciona en cualquier navegador web, en ordenadores y móviles: **una carpeta y un .zip** listos para compartir o subir. El comando necesita un proyecto abierto y no está disponible mientras juegas.
 
-En la **demo**, la exportación se limita a juegos de 5 escenas o menos: mira [La demo gratuita](/novelworks-docs/es/getting-started/demo-edition/). En la versión completa, NovelWorks te pide [activarla](/novelworks-docs/es/getting-started/install-and-activate/) cada vez que exportas, hasta que lo hagas.
+En la **demo**, puedes exportar juegos de 5 escenas o menos que no superen los [límites de la demo](/novelworks-docs/es/reference/licenses-and-editions/): mira [La demo gratuita](/novelworks-docs/es/getting-started/demo-edition/). En la versión completa, NovelWorks te pide [activarla](/novelworks-docs/es/getting-started/install-and-activate/) cada vez que exportas, hasta que lo hagas.
 
 ## Los pasos
 
@@ -28,11 +28,17 @@ La ventana también te indica el **tamaño de juego recomendado** (la resolució
 NovelWorks crea, dentro de la carpeta que elegiste:
 
 - una carpeta con el nombre de tu juego, terminada en `-web` (por ejemplo `The-Rainy-Day-web`), y un `.zip` con el mismo nombre. Se quitan los acentos y cualquier otro carácter se sustituye por `-`. Un título sin letras latinas ni dígitos (en chino, ruso o japonés, por ejemplo) pasa a ser `Game-web`;
-- dentro: `index.html`, `project.js` (los datos de tu juego), `game.js` (el reproductor), una carpeta `assets` con **solo las imágenes que usa tu juego**, y una carpeta `fonts` con las fuentes y sus archivos de licencia.
+- dentro: `index.html`, `project.js` (los datos de tu juego), `game.js` (el reproductor), una carpeta `assets` con **solo las imágenes, los vídeos y los sonidos que usa tu juego**, y una carpeta `fonts` con las fuentes y sus archivos de licencia.
 
-Las imágenes se copian tal cual, sin cambiar su tamaño ni convertirlas. Todas las expresiones y avatares de un personaje se incluyen cuando el personaje aparece o habla.
+Las imágenes, los vídeos y los sonidos se copian tal cual, sin cambiar su tamaño ni convertirlos. Todas las expresiones y avatares de un personaje se incluyen cuando el personaje aparece o habla. Las prendas del vestuario solo se incluyen si algún atuendo las lleva.
 
 Si ya existe una carpeta de exportación con el mismo nombre y es una exportación anterior, se reemplaza. Si es otra cosa, NovelWorks se niega y te pide elegir otra carpeta, así que nunca sobrescribe tus archivos.
+
+### Vídeos y sonidos
+
+- NovelWorks nunca rechaza un vídeo por su tamaño, pero te avisa cuando importas más de 40 MB de vídeo de una vez: un juego web con vídeo tarda más en cargar.
+- Los vídeos y los sonidos MP3 y OGG entran en el `.zip` sin compresión, así que conservan todo su peso. Los archivos WAV se comprimen cuando eso los hace más pequeños.
+- Los navegadores no permiten el sonido antes del primer clic o de la primera pulsación de tecla del jugador. Lo que ya debería estar sonando empieza en ese instante.
 
 ### Qué se quita
 
@@ -59,8 +65,9 @@ Tus datos privados de escritura se vacían antes de exportar: las **notas** de l
 | El disco está lleno. | Libera espacio, o elige una carpeta en otro disco. |
 | Esta carpeta ya no existe. | Elige otra carpeta. |
 | Ya hay una carpeta llamada «…» y no es una exportación anterior. | Elige otra carpeta. |
-| Activa NovelWorks para exportar juegos. | Abre **{ui.native.role.help} → Activar NovelWorks…** |
+| Activa NovelWorks para exportar juegos. | Abre **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** |
 | La demo exporta juegos de hasta 5 escenas, y tu proyecto tiene N. | Solo en la demo. Borra escenas, o consigue la versión completa. |
+| Este proyecto supera lo que la demo puede exportar: … | Solo en la demo. Quita lo que indica el mensaje, o consigue la versión completa. |
 | No se pudo exportar el juego: … | Sigue el motivo. Mira [Solución de problemas y mensajes](/novelworks-docs/es/reference/troubleshooting/). |
 
 ## Publicar

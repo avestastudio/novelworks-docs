@@ -32,6 +32,8 @@ Mia : I looked for you everywhere.
 
 Une ligne décalée de deux espaces prolonge la ligne du dessus, comme une nouvelle ligne **dans la même boîte**.
 
+Pour mettre en forme des mots ou ajouter une pause dans une ligne, voir [Mettre en forme votre texte](/novelworks-docs/fr/writing/rich-text/).
+
 ## Narration
 
 ```
@@ -69,7 +71,7 @@ hide : everyone
 ```
 
 - **`background : Name`** change le décor pour l’image appelée Nom. `background : none`, ou rien après les deux-points, l’enlève.
-- **`show : Mia happy left`** fait apparaître un personnage, ou change son expression ou sa place. Après le nom, vous pouvez ajouter une expression et une place : `left`, `center` ou `right`, ou `placed by hand` pour garder un placement libre. Sans place, un personnage déjà en scène garde la sienne, et un nouveau va au centre. Un nom de personnage peut contenir des espaces.
+- **`show : Mia happy left`** fait apparaître un personnage, ou change son expression ou sa place. Après le nom, vous pouvez ajouter une expression, `outfit` suivi du nom d’une tenue (`outfit default` revient à la première tenue ; voir [Tenues et garde-robe](/novelworks-docs/fr/writing/outfits/)) et une place : `left`, `center` ou `right`, ou `placed by hand` pour garder un placement libre. Sans place, un personnage déjà en scène garde la sienne, et un nouveau va au centre. Un nom de personnage peut contenir des espaces.
 - **`hide : Mia`** fait partir un personnage. `hide : everyone`, ou rien après les deux-points, vide le plateau.
 
 Une ligne de mise en scène a besoin d’une ligne après elle. Sinon, elle est signalée.

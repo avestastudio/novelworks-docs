@@ -39,7 +39,7 @@ Acima da prévia, a linha **{ui.branches.whereTitle}** mostra para onde o moment
 
 - O texto é aplicado ao seu projeto **meio segundo depois de você parar de digitar**, e quando você muda o escopo, joga ou sai do modo Roteiro.
 - Uma sequência de digitação é **um único passo de desfazer**. Uma pausa de cerca de um segundo começa um novo passo.
-- Um momento cujo texto você não mudou é **mantido como estava**, com a nota, a posição dele no mapa da história, as falas lidas e os saves dos jogadores. As coisas que o texto não consegue expressar (posicionamento livre, tamanho, espelhamento, ordem dos personagens, zonas de exploração e objetos) também são mantidas, e um momento cuja tela não mudou a mantém exatamente igual.
+- Um momento cujo texto você não mudou é **mantido como estava**, com a nota, a posição dele no mapa da história, as falas lidas e os saves dos jogadores. As coisas que o texto não consegue expressar (posicionamento livre, tamanho, espelhamento, ordem dos personagens, zonas de exploração e objetos, ambiente, câmera, efeitos e sons) também são mantidas, e um momento cuja tela não mudou a mantém exatamente igual.
 - Se você mudar o projeto em outro lugar (o inspetor, a linha do tempo, desfazer), o texto se atualiza sem mover o seu cursor. Se você estiver digitando nesse instante, o seu texto prevalece.
 - Nomes que ainda não existem nunca bloqueiam nada. O momento é criado mesmo assim e a linha fica sublinhada.
 

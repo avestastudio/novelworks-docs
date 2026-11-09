@@ -1,25 +1,27 @@
 ---
 title: Images
-description: Import pictures, choose their type, and manage them in the Assets tab.
+description: Import pictures, videos and sounds, choose their type, and manage them in the Assets tab.
 ---
 
-Every picture of your game is an **image** in your project: backgrounds, character pictures, illustrations, objects and pictures for the game's own screens. They live in the **{ui.leftPanel.assets}** tab and are copied into the `assets` folder of your project.
+Every picture of your game is an **image** in your project: backgrounds, character pictures, illustrations, objects and pictures for the game's own screens. They live in the **{ui.leftPanel.assets}** tab and are copied into the `assets` folder of your project. Videos for [animated backgrounds](/novelworks-docs/writing/ambience-and-animated-backgrounds/) and [sounds](/novelworks-docs/writing/sound/) live there too.
 
 ## Formats and limits
 
-- **PNG, JPG and WebP** only (also `.jpeg`).
-- Up to **50 MB** per file. Other files are skipped, and NovelWorks lists them.
+- Pictures: **PNG, JPG, WebP and GIF** (also `.jpeg`). GIF and animated WebP files move in the game.
+- Videos: **MP4 and WebM**, accepted in the Assets tab, when you drop files on the window, and where you choose a moment's background.
+- Sounds: **MP3, OGG and WAV**.
+- Up to **50 MB** per picture. Other files are skipped, and NovelWorks lists them. Videos and sounds are never refused for their size, but above 40 MB of video a message warns that a web game with video takes longer to load.
 - Nothing is resized or converted. A background smaller than the game screen is stretched and may look blurry, and the import window warns you.
 
 ## Import pictures
 
 Three ways:
 
-- Click **{ui.assetsTab.import}** in the Assets tab (you can choose several files).
-- **Drag pictures onto the editor window.** An overlay says "{tx.dropOverlay.dropYourImagesHere}". After a drop, the Assets tab opens.
-- Use the import shortcut of a picker, for example when you choose a background or an expression.
+- Click **{ui.assetsTab.import}** in the Assets tab (you can choose several files, pictures, videos or sounds).
+- **Drag files onto the editor window.** An overlay says "{tx.dropOverlay.dropYourImagesHere}". After a drop, the Assets tab opens.
+- Use the import shortcut of a picker, for example when you choose a background or an expression, or the import button of the [Sound tab](/novelworks-docs/writing/sound/).
 
-A window then asks you to check **{ui.importDialog.name}** and **{ui.importDialog.type}** for each picture. NovelWorks guesses the type to save you time: a picture with transparency is guessed as a sprite, a landscape or square picture as a background, a portrait picture as a sprite. You can change every guess. **{ui.dialogs.cancel}** copies nothing.
+A window then asks you to check **{ui.importDialog.name}** and **{ui.importDialog.type}** for each picture. NovelWorks guesses the type to save you time: a picture with transparency is guessed as a sprite, a landscape or square picture as a background, a portrait picture as a sprite. A video starts as a background, and can only be a Background or a CG. A sound under 1 MB is guessed as a sound effect, a larger one as music. You can change every guess. **{ui.dialogs.cancel}** copies nothing.
 
 For a **character sprite** you can also choose **{ui.importDialog.addToCharacter}**: an existing character, or **{ui.importDialog.newCharacter}**, and the **{ui.importDialog.expressionName}**. If a file is named like `mia_happy` and a character is called Mia, NovelWorks proposes Mia and "happy" by itself. With several pictures, you can set the type or the character of all of them at once.
 
@@ -33,12 +35,16 @@ For a **character sprite** you can also choose **{ui.importDialog.addToCharacter
 | {ui.assetTypes.prop} | A picture of an object (a key, a letter…), placed on the stage of exploration moments. |
 | {ui.assetTypes.uI} | A picture for the game's own screens: dialogue box, logo, buttons. |
 | {ui.assetTypes.avatar} | A small portrait shown next to the speaker's name. |
+| {ui.assetTypes.clothing} | {tx.assetTypes.clothingHelp} See [Outfits](/novelworks-docs/writing/outfits/). |
+| {ui.assetTypes.music} | {tx.assetTypes.musicHelp} |
+| {ui.assetTypes.sound} | {tx.assetTypes.soundHelp} |
+| {ui.assetTypes.voice} | {tx.assetTypes.voiceHelp} |
 
-The background picker offers backgrounds and CGs.
+The background picker offers backgrounds and CGs. The expression picker offers only character sprites, never clothing.
 
 ## The Assets tab
 
-Chips filter the list by type, with the number of pictures in each. Select a picture to see it in the inspector:
+Chips filter the list by type, with the number of files in each. All sounds are under **{ui.assetsTab.sounds}**. Select a file to see it in the inspector (a sound has a small player):
 
 - **{ui.assetInspector.name}**: the name shown in NovelWorks. Changing it does not rename the file;
 - **{ui.assetInspector.type}**: you can change it at any time;
@@ -55,4 +61,4 @@ An image itself cannot be replaced in place. For a character, click the picture 
 
 ## Delete a picture
 
-Click **{ui.assetInspector.deleteImage}**. NovelWorks asks first. If the picture is used, it lists where, and warns that those places will have no image. The file is not erased at once: when you save, it is moved to `backups/deleted-assets`, and it comes back if you undo or restore a backup. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).
+Click **{ui.assetInspector.deleteImage}** (**{ui.assetInspector.deleteSound}** for a sound). NovelWorks asks first. If the picture is used, it lists where, and warns that those places will have no image. The file is not erased at once: when you save, it is moved to `backups/deleted-assets`, and it comes back if you undo or restore a backup. See [Saving, backups and undo](/novelworks-docs/getting-started/saving-and-undo/).

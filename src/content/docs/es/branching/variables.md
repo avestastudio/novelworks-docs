@@ -5,7 +5,7 @@ description: Crea y gestiona las Puntuaciones y los Hechos que recuerda tu juego
 
 Una **variable** es algo que el juego recuerda. Hay dos tipos, explicados en [La memoria del juego](/novelworks-docs/es/concepts/game-memory/): un **{ui.variables.number}** (un número que sube o baja, como el afecto de Mia o el dinero) y un **{ui.variables.yesNo}** (si algo ha pasado o no: sí o no, como «{tx.memory.factExample}» o «Tiene la llave»).
 
-Las cosas que el jugador lleva (llaves, monedas…) no son variables. Son **objetos**, parte de la función [Inventario](/novelworks-docs/es/features/inventory/).
+Las cosas que el jugador lleva (llaves, monedas…) no son variables. Son objetos, parte de la función [Inventario](/novelworks-docs/es/features/inventory/).
 
 ## La pestaña Variables
 
@@ -53,4 +53,4 @@ Así puedes actualizar tu juego sin romper las partidas guardadas antiguas.
 
 ## Dónde se pueden usar las variables
 
-En los cambios de una opción de elección, en las condiciones de una opción, en las pruebas de un [Si…](/novelworks-docs/es/branching/conditions/), y en las zonas de exploración (sus condiciones y la acción «cambiar una variable»).
+En los cambios de una opción de elección, en las condiciones de una opción, en las pruebas de un [Si…](/novelworks-docs/es/branching/conditions/), en las zonas de exploración (sus condiciones y la acción «cambiar una variable») y dentro de una línea de diálogo, para mostrar su valor (consulta [Texto enriquecido](/novelworks-docs/es/writing/rich-text/)).

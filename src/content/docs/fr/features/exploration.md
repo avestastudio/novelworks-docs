@@ -7,13 +7,13 @@ Un moment **{ui.moments.exploration}** n’a **pas de boîte de texte** : le jo
 
 ## En ajouter un
 
-Dans la chronologie, ajoutez un moment **{ui.moments.exploration}**. Il est d’abord vide et utilise le décor du moment précédent. Sélectionnez-le : l’inspecteur affiche **{ui.explorationInspectors.zones}** et **{ui.explorationInspectors.props}** avec **+ Zone** et **+ Accessoire**.
+Dans l’en-tête de la chronologie, ouvrez **{ui.timeline.addOther}** et ajoutez un moment **{ui.moments.exploration}**. Il est d’abord vide et utilise le décor du moment précédent. Sélectionnez-le : l’onglet **{ui.inspectorTabs.text}** de l’inspecteur affiche **{ui.explorationInspectors.zones}** et **{ui.explorationInspectors.props}** avec **+ Zone** et **+ Accessoire**.
 
 ![Un moment Exploration : les zones dessinées sur l’image, et la liste des zones et des accessoires dans l’inspecteur.](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## Dessiner des zones
 
-Au-dessus de l’écran du jeu, choisissez **{ui.explorationCanvas.drawZonesAs}** : **{ui.explorationCanvas.rectangle}** ou **{ui.explorationCanvas.shape}**. (Dans une fenêtre étroite, ils se trouvent dans le menu **{ui.stage.more}**.)
+Au-dessus de l’écran du jeu, choisissez **{ui.explorationCanvas.drawZonesAs}** : **{ui.explorationCanvas.rectangle}** ou **{ui.explorationCanvas.shape}**.
 
 - **{ui.explorationCanvas.rectangle}** : faites glisser sur l’image. Un simple clic ne crée rien, et une zone de moins de 2 % de l’écran n’est pas créée.
 - **{ui.explorationCanvas.shape}** : cliquez point par point autour d’un objet. Fermez la forme en cliquant de nouveau sur le premier point, ou en appuyant sur **Entrée**. **Échap** annule. Il faut au moins trois points.

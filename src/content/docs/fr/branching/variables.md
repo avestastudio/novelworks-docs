@@ -5,7 +5,7 @@ description: Créez et gérez les Scores et les Faits dont se souvient votre jeu
 
 Une **variable** est quelque chose dont le jeu se souvient. Il y en a de deux sortes, expliquées dans [La mémoire du jeu](/novelworks-docs/fr/concepts/game-memory/) : un **{ui.variables.number}** (un nombre qui monte ou descend, comme l’affection de Mia ou l’argent) et un **{ui.variables.yesNo}** (quelque chose s’est-il passé : oui ou non, comme « {tx.memory.factExample} » ou « Possède la clé »).
 
-Les choses que le joueur porte (clés, pièces…) ne sont pas des variables. Ce sont des **objets**, qui font partie de la fonctionnalité [Inventaire](/novelworks-docs/fr/features/inventory/).
+Les choses que le joueur porte (clés, pièces…) ne sont pas des variables. Ce sont des objets, qui font partie de la fonctionnalité [Inventaire](/novelworks-docs/fr/features/inventory/).
 
 ## L’onglet Variables
 
@@ -53,4 +53,4 @@ Vous pouvez donc mettre à jour votre jeu sans casser les anciennes sauvegardes.
 
 ## Où on peut utiliser les variables
 
-Dans les changements d’une option de choix, dans les conditions d’une option, dans les tests d’un [Si…](/novelworks-docs/fr/branching/conditions/), et dans les zones d’exploration (leurs conditions et l’action « modifier une variable »).
+Dans les changements d’une option de choix, dans les conditions d’une option, dans les tests d’un [Si…](/novelworks-docs/fr/branching/conditions/), dans les zones d’exploration (leurs conditions et l’action « modifier une variable »), et à l’intérieur d’une ligne de dialogue, pour afficher sa valeur (voir [Texte enrichi](/novelworks-docs/fr/writing/rich-text/)).

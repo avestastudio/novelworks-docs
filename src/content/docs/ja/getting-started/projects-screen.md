@@ -45,7 +45,7 @@ NovelWorks はフォルダーを作り、その中に `project.json` ファイ�
 ## プロジェクトフォルダーの中身
 
 - `project.json`：物語のすべてが入った1つのファイル。
-- `assets`：読み込んだ画像。
+- `assets`：読み込んだ画像、動画、サウンド。
 - `backups`：`project.json` の以前のバージョン（[保存、バックアップ、取り消し](/novelworks-docs/ja/getting-started/saving-and-undo/)をご覧ください）。
 
 プロジェクトを別のコンピューターにコピーするには、フォルダーごとコピーします。そのあと「{ui.projectHub.open}」で開けます。

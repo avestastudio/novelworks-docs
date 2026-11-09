@@ -17,7 +17,7 @@ Puedes jugar tu juego en cualquier momento, dentro del editor. Se juega **lo que
 
 Cada partida empieza con los valores iniciales de tus variables y objetos: no se arrastra nada de una prueba anterior.
 
-Si tu juego no tiene escena inicial, o la escena inicial no tiene momentos, «Jugar» no se inicia y te dice qué hacer: define una escena inicial con la estrella en la pestaña Escenas.
+Si tu juego no tiene escena inicial, o la escena inicial no tiene momentos, **{ui.topBar.play}** no se inicia y te dice qué hacer: define una escena inicial con la estrella en la pestaña Escenas.
 
 ## Mientras juegas
 
@@ -27,7 +27,7 @@ Juegas como un jugador: haz clic o pulsa **Espacio** / **Intro** para avanzar, *
 
 ## Detener
 
-- Haz clic en **{ui.playOverlay.stop}**, o pulsa **Esc**. Si el menú de pausa, Guardar, Cargar, el Historial, las Opciones, la introducción o la advertencia de contenido están abiertos, **Esc** cierra primero eso. **Esc** no cierra el inventario en el modo Jugar: pulsa **I** para eso.
+- Haz clic en **{ui.playOverlay.stop}**, o pulsa **Esc**. Si el menú de pausa, Guardar, Cargar, el Historial, las Opciones, los Créditos, los Capítulos, la introducción o la advertencia de contenido están abiertos, **Esc** cierra primero eso. **Esc** no cierra el inventario en el modo Jugar: pulsa **I** para eso.
 - Al detener, el editor selecciona la escena y el momento donde estabas.
 
 ## Qué no se prueba aquí

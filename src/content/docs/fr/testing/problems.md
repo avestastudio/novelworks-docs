@@ -106,4 +106,4 @@ Quand vous faites glisser un lien sur la carte de l’histoire, un type de lien 
 
 ## Ce qui n’est pas vérifié
 
-Un moment de dialogue n’a pas d’avertissement propre : une réplique de dialogue vide n’est pas signalée.
+Un moment de dialogue n’a pas d’avertissement propre : une réplique de dialogue vide n’est pas signalée. Les tenues, les ambiances, la caméra, les effets et les sons n’ont pas non plus d’avertissements.

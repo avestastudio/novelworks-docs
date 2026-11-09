@@ -7,7 +7,7 @@ NovelWorks 的工作方式就像一个**戏剧舞台**。角色走上台后，�
 
 ![一个有六个片段的场景：背景持续整个场景，Leo 在第 2 和第 3 个片段里在台上，Mia 在第 4 个片段登场并一直留到结尾。](/novelworks-docs/diagrams/stage-persistence.svg)
 
-从一个片段延续到下一个片段的，只有**画面**：背景和角色。**对话的台词**不会延续。每个片段都有自己的文字。
+从一个片段延续到下一个片段的，只有**画面**：背景、角色、[氛围](/novelworks-docs/zh-cn/writing/ambience-and-animated-backgrounds/)、[镜头](/novelworks-docs/zh-cn/writing/camera/)和[粒子](/novelworks-docs/zh-cn/writing/effects/)。**对话的台词**不会延续。每个片段都有自己的文字。
 
 ## 片段保存什么
 
@@ -17,7 +17,7 @@ NovelWorks 的工作方式就像一个**戏剧舞台**。角色走上台后，�
 
 ## “{tx.stage.scopeFollowing}”或“{tx.stage.scopeOnlyHere}”
 
-在游戏画面上方，开关{ui.stage.scopeLabel}决定你的下一个更改影响到哪里：
+在片段的{ui.inspectorTabs.image}和{ui.inspectorTabs.effects}标签页中，以及台上角色的面板中，开关{ui.stage.scopeLabel}决定你的下一个更改影响到哪里：
 
 - {ui.stage.scopeFollowing}（默认）：更改会保留在这个片段和后面的片段里，直到某个片段再次改变它。就像在舞台上一样。
 - {ui.stage.scopeOnlyHere}：更改只应用到这个片段。后面的片段保持它们之前显示的样子。
@@ -26,13 +26,13 @@ NovelWorks 的工作方式就像一个**戏剧舞台**。角色走上台后，�
 
 ## 看看谁在台上
 
-### “在台上”栏
+### “{tx.stage.castTitle}”栏
 
-在游戏画面上方，{ui.stage.castTitle}栏会为场景中任何一个片段里上过台的每个角色显示一张圆形图片，按他们登场的顺序排列。图片亮着，表示这个角色**在这个片段**里在台上。点击一张图片，可以让角色下台或上台，范围取决于上方的开关。只有当场景里至少有一个角色时，这个栏才会出现。
+在{ui.inspectorTabs.image}标签页的{ui.momentInspector.onStage}部分顶部，{ui.stage.castTitle}栏会为场景中任何一个片段里上过台的每个角色显示一张圆形图片，按他们登场的顺序排列。图片亮着，表示这个角色**在这个片段**里在台上。点击一张图片，可以让角色下台或上台，范围取决于上方的开关。只有当场景里至少有一个角色时，这个栏才会出现。
 
 ### 缩略图下方的图表
 
-在时间线下方，一行显示{ui.timeline.chartBackground}，每个角色各占一行。一条横条覆盖该内容出现在屏幕上的那些片段。外观一有变化，就会开始一条新的横条：换了表情、换了位置或大小、图片翻转，或者换了背景图片。把鼠标指向一条横条，可以读到例如“Mia一直留在台上，直到第 7 个片段”、“Mia一直留在台上，直到场景结束”或“Mia只在这个片段里在台上”。
+在时间线下方，一行显示{ui.timeline.chartBackground}，每个角色各占一行。一条横条覆盖该内容出现在屏幕上的那些片段。外观一有变化，就会开始一条新的横条：换了表情或服装、换了位置或大小、图片翻转、换了背景图片或换了氛围。把鼠标指向一条横条，可以读到例如“Mia一直留在台上，直到第 7 个片段”、“Mia一直留在台上，直到场景结束”或“Mia只在这个片段里在台上”。
 
 图表最多显示 5 行，超出后可以滚动（窗口较小时更少）。
 
@@ -44,28 +44,28 @@ NovelWorks 的工作方式就像一个**戏剧舞台**。角色走上台后，�
 
 ### 在检查器里
 
-选中一个片段后，{ui.momentInspector.onStage}部分会为每个角色显示一张卡片，带一个徽章：
+选中一个片段后，{ui.inspectorTabs.image}标签页的{ui.momentInspector.onStage}部分会为每个角色显示一张卡片，带一个徽章：
 
 - {ui.momentInspector.originNew}：他们在这个片段登场。
 - {ui.momentInspector.originChanged}：这个片段改变了他们。
-- “来自第 N 个片段”：他们是从更早的片段延续下来的。
+- “{tx.momentInspector.originFrom}”：他们是从更早的片段延续下来的。
 
-每张卡片都有一个按钮，可以退回到这个片段改变他们**之前的样子**。在这个片段里离场的角色，会带着{ui.momentInspector.bringBack}列出来。{ui.momentInspector.add}可以让某个角色上台。
+标记为{ui.momentInspector.originNew}或{ui.momentInspector.originChanged}的卡片有一个{ui.momentInspector.revert}按钮，可以撤销这个片段所做的更改。在这个片段里离场的角色，会带着{ui.momentInspector.bringBack}列出来。{ui.momentInspector.add}可以让某个角色上台。
 
 ## 在角色上点右键
 
 在游戏画面上的角色上点右键，会看到这些条目：
 
-- {ui.contextMenus.expression}和{ui.contextMenus.position}。
+- {ui.contextMenus.expression}、{ui.contextMenus.outfit}（角色有服装时）和{ui.contextMenus.position}。
 - {ui.contextMenus.flipHorizontally}、{ui.contextMenus.resetSize}、{ui.contextMenus.bringForward}、{ui.contextMenus.sendBackward}。
-- {ui.contextMenus.stayUntil}：选择“直到第 N 个片段”（后面的某个片段）或{ui.contextMenus.untilEnd}。在那之前，角色会保持当前的样子，即使经过原本会改变他们的片段也一样。
+- {ui.contextMenus.stayUntil}：选择“{tx.contextMenus.untilMoment}”（后面的某个片段）或{ui.contextMenus.untilEnd}。在那之前，角色会保持当前的样子，即使经过原本会改变他们的片段也一样。
 - {ui.contextMenus.onlyThisMoment}：这个片段所做的更改不会继续下去。如果这个片段没有为该角色改变任何东西，或者它是最后一个片段，这一项会是灰色的。
 - {ui.contextMenus.backToBefore}：撤销这个片段对这个角色所做的更改。
 - {ui.contextMenus.leavesHere}：从这个片段起，角色离场，不管开关是怎么设的。
 
 ## 让一个场景像另一个场景的结尾那样开始
 
-当有其他场景通向某个场景，而前一个场景结尾时的画面与这个场景开始时的画面不同，这个场景的**第一个片段**上会出现一条横幅：“此场景以空白开始。”或“此场景以这些角色开始：Mia、Leo。”对于每个通向这里的场景，都有一个按钮**与“…”的结尾相同地开始**，它会把通向这里的那个片段所在的画面上的内容放到台上。后面的片段会跟着变化，对撤销来说这是一步。
+当有其他场景通向某个场景，而前一个场景结尾时的画面与这个场景开始时的画面不同，这个场景**第一个片段**的{ui.inspectorTabs.image}标签页里会出现一条横幅：“{tx.scene.startEmpty}”或“{tx.scene.startWith}”。对于每个通向这里的场景，都有一个按钮{ui.scene.startLike}，它会把通向这里的那个片段所在的画面上的内容放到台上。后面的片段会跟着变化，对撤销来说这是一步。
 
 ## 删除、移动、复制或插入片段时会发生什么
 

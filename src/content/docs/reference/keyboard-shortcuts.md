@@ -61,6 +61,8 @@ Notes:
 - The panel shortcuts switch to the Story mode, except Game UI (**Cmd+5**) and Story map (**Cmd+6**), which switch to those modes.
 - All shortcuts are ignored while you play, and while a window, a menu or a pop-up is open.
 - In the Map workspace, `Delete` and **Cmd+D** act on the selected location.
+- In a line of dialogue, **Cmd+B** / **Ctrl+B** makes the selected words bold and **Cmd+I** / **Ctrl+I** makes them italic. See [Rich text](/novelworks-docs/writing/rich-text/).
+- In the wardrobe, the arrow keys nudge the selected piece. See [Outfits](/novelworks-docs/writing/outfits/).
 - In the Script view, copy and paste of moments do not apply: the text editor keeps its own. There, **Cmd+Enter** / **Ctrl+Enter** is "{tx.scriptMode.playFromCursor}" and **Cmd+.** / **Ctrl+.** creates everything that is missing.
 
 ## In a game
@@ -69,7 +71,7 @@ These work in exported games and in Play mode.
 
 | Action | Keys |
 |---|---|
-| Move on (finishes the text first) | Click, **Space** or **Enter** |
+| Move on (finishes the text, effects and camera move first) | Click, **Space** or **Enter** |
 | Choose an option | **1** to **6** (the Nth option on screen) |
 | Pause menu | **Esc** or right-click |
 | Quick save / quick load | **F5** / **F9** |

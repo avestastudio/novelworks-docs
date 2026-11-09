@@ -7,12 +7,12 @@ An **{ui.moments.ending}** moment shows the ending's name, then takes the player
 
 ## Add an ending
 
-In the timeline, add an **{ui.moments.ending}** moment at the end of a scene. In the inspector:
+In the header of the timeline, open **{ui.timeline.addOther}** and add an **{ui.moments.ending}** moment at the end of a scene. In the **{ui.inspectorTabs.text}** tab of the inspector:
 
 - **{ui.branchInspectors.endingName}**: new endings are called "{tx.shared.scenes.goodEnding}". If you leave the name empty, the game shows "The End".
 - A **short text** (optional) shown under the name.
 
-After the ending, the player goes back to the title screen.
+After the ending, the player goes back to the title screen. If you turned on [credits](/novelworks-docs/game-ui/credits/) with **{ui.credits.afterEnding}**, they roll first.
 
 ## What players see
 

@@ -61,6 +61,8 @@ Observações:
 - Os atalhos de painel passam para o modo História, exceto Interface do jogo (**Cmd+5**) e Mapa da história (**Cmd+6**), que passam para esses modos.
 - Todos os atalhos são ignorados enquanto você joga, e enquanto uma janela, um menu ou um pop-up está aberto.
 - No espaço de trabalho Mapa, `Delete` e **Cmd+D** agem no local selecionado.
+- Em uma fala, **Cmd+B** / **Ctrl+B** deixa as palavras selecionadas em negrito e **Cmd+I** / **Ctrl+I** as deixa em itálico. Veja [Formatar o seu texto](/novelworks-docs/pt-br/writing/rich-text/).
+- No guarda-roupa, as setas do teclado movem aos poucos a peça selecionada. Veja [Roupas](/novelworks-docs/pt-br/writing/outfits/).
 - Na visão Roteiro, copiar e colar momentos não se aplicam: o editor de texto mantém os seus. Ali, **Cmd+Enter** / **Ctrl+Enter** é “{tx.scriptMode.playFromCursor}” e **Cmd+.** / **Ctrl+.** cria tudo o que estiver faltando.
 
 ## Em um jogo
@@ -69,7 +71,7 @@ Estes valem nos jogos exportados e no modo Jogar.
 
 | Ação | Teclas |
 |---|---|
-| Avançar (termina o texto primeiro) | Clique, **Espaço** ou **Enter** |
+| Avançar (termina primeiro o texto, os efeitos e o movimento de câmera) | Clique, **Espaço** ou **Enter** |
 | Escolher uma opção | **1** a **6** (a opção de número N na tela) |
 | Menu de pausa | **Esc** ou clique direito |
 | Salvamento rápido / carregamento rápido | **F5** / **F9** |

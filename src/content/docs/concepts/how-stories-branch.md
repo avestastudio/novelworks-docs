@@ -16,7 +16,7 @@ An **{ui.moments.exploration}** moment can also lead to scenes, through the zone
 
 ## Choices
 
-In the inspector, write an optional question, then the text of each option. For each option:
+In the **{ui.inspectorTabs.text}** tab of the inspector, write an optional question, then the text of each option. For each option:
 
 - **{ui.branchInspectors.changes}**: what the game remembers if the player picks it (see [The game's memory](/novelworks-docs/concepts/game-memory/)).
 - **{ui.branchInspectors.then}**: the scene it leads to. You can also let the story continue with the next moment.
@@ -42,7 +42,7 @@ A **{ui.moments.jump}** needs only a scene to go to. An **{ui.moments.ending}** 
 
 ### The "{tx.branches.whereTitle}" bar
 
-Above the game screen, one small button per exit of the selected moment shows where it leads, up to four and then "+N". A sentence that is too long ends with "…" (the full text is in the tooltip). Click one to jump to that scene. A "Back" button takes you to where you were (the last 20 steps are remembered). On a scene's first moment, a list shows what leads **into** the scene.
+In the **{ui.inspectorTabs.text}** tab of the inspector, one small button per exit of the selected moment shows where it leads, up to four and then "+N". A sentence that is too long ends with "…" (the full text is in the tooltip). Click one to jump to that scene. A "Back" button takes you to where you were (the last 20 steps are remembered). On a scene's first moment, a list shows what leads **into** the scene. In Script view, the same bar is above the preview.
 
 ### The Branches row
 

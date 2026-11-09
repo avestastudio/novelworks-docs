@@ -5,7 +5,7 @@ description: 把你的游戏变成一个文件夹和一个 .zip，可在任何�
 
 选择**{ui.native.menu.file} → {ui.native.menu.exportForWeb}**（**Cmd+E** / **Ctrl+E**）。NovelWorks 会生成一个可在任何网页浏览器中玩的游戏版本，电脑和手机都能玩：**一个文件夹，和一个 .zip**，可以直接分享或上传。这个命令需要先打开一个项目，试玩期间不可用。
 
-在**演示版**中，导出仅限于 5 个场景或更少的游戏：见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。在完整版中，每次导出时 NovelWorks 都会要求你[激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)，直到你激活为止。
+在**演示版**中，你可以导出 5 个场景或更少、并且不超出[演示版限制](/novelworks-docs/zh-cn/reference/licenses-and-editions/)的游戏：见[免费演示版](/novelworks-docs/zh-cn/getting-started/demo-edition/)。在完整版中，每次导出时 NovelWorks 都会要求你[激活](/novelworks-docs/zh-cn/getting-started/install-and-activate/)，直到你激活为止。
 
 ## 步骤
 
@@ -28,11 +28,17 @@ description: 把你的游戏变成一个文件夹和一个 .zip，可在任何�
 NovelWorks 会在你选择的文件夹中创建：
 
 - 一个以你的游戏命名、以 `-web` 结尾的文件夹（例如 `The-Rainy-Day-web`），以及一个同名的 `.zip`。重音符号会被去掉，其他任何字符都会被替换为 `-`。如果标题中没有拉丁字母或数字（例如中文、俄文或日文的标题），就会变成 `Game-web`；
-- 里面有：`index.html`、`project.js`（你游戏的数据）、`game.js`（播放器）、一个 `assets` 文件夹（**只放你的游戏用到的图片**），以及一个 `fonts` 文件夹（放字体和它们的许可文件）。
+- 里面有：`index.html`、`project.js`（你游戏的数据）、`game.js`（播放器）、一个 `assets` 文件夹（**只放你的游戏用到的图片、视频和声音**），以及一个 `fonts` 文件夹（放字体和它们的许可文件）。
 
-图片会原样复制，不会缩放或转换。角色出现或说话时，他的所有表情和头像都会被包含进去。
+图片、视频和声音会原样复制，不会缩放或转换。角色出现或说话时，他的所有表情和头像都会被包含进去。衣橱单品只有被某套服装穿戴时才会被包含。
 
 如果已经有一个同名的导出文件夹，并且它是之前的导出结果，就会被替换。如果它是别的东西，NovelWorks 会拒绝，并请你另选一个文件夹，所以绝不会覆盖你的文件。
+
+### 视频和声音
+
+- NovelWorks 绝不会因为大小而拒绝视频，但一次导入超过 40 MB 的视频时，它会提醒你：带视频的网页游戏加载时间更长。
+- 视频以及 MP3 和 OGG 声音进入 `.zip` 时不会压缩，所以会保留全部大小。WAV 文件在压缩后能变小时会被压缩。
+- 在玩家第一次点击或按键之前，浏览器不允许播放声音。本该已经在播放的内容会在那一刻开始。
 
 ### 会被移除的内容
 
@@ -59,8 +65,9 @@ NovelWorks 会在你选择的文件夹中创建：
 | 磁盘已满。请释放一些空间，或选择另一个磁盘上的文件夹。 | 释放一些空间，或选择另一个磁盘上的文件夹。 |
 | 此文件夹已不存在，请选择另一个。 | 选择另一个文件夹。 |
 | 那里已有名为“…”的文件夹，而且它不是之前的导出结果。 | 选择另一个文件夹。 |
-| 激活 NovelWorks 后才能导出游戏。 | 打开**{ui.native.role.help} → 激活 NovelWorks…** |
+| 激活 NovelWorks 后才能导出游戏。 | 打开{ui.native.role.help} → {ui.native.menu.activateNovelWorks} |
 | 演示版最多导出 5 个场景的游戏，而你的项目有 N 个。 | 仅限演示版。删除一些场景，或购买完整版。 |
+| 此项目超出了演示版的导出范围：…。 | 仅限演示版。删除消息中列出的内容，或者获取完整版。 |
 | 无法导出游戏：… | 后面会给出原因。见[故障排除](/novelworks-docs/zh-cn/reference/troubleshooting/)。 |
 
 ## 发布

@@ -12,3 +12,7 @@ description: 故事讲完时显示的画面，以及它和“结局”片段有�
 - {ui.gameUIInspector.textColor}：默认是“{tx.gameUIInspector.sameAsTheTextColor}”。
 
 在标题下方，游戏会显示“{tx.game.returnToTitle}”。这行文字不能修改，点击一下就会把玩家带回标题画面。
+
+## 结局之后的制作人员名单
+
+如果你开启了[制作人员名单](/novelworks-docs/zh-cn/game-ui/credits/)和{ui.credits.afterEnding}，玩家点击离开结局时，名单就会滚动播放。这对这个画面和[结局片段](/novelworks-docs/zh-cn/branching/endings/)都有效。名单关闭后，游戏会回到标题画面。

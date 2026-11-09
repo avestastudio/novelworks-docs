@@ -26,6 +26,10 @@ description: キャラクターを作り、表情とアバターを設定しま�
 - 画像をクリックすると「{ui.characterInspector.changeImage}」になります。古い画像は素材に残ります。
 - X をクリックすると、表情が削除されます。その表情を使っているカットがあれば、代わりにデフォルトの表情を使うことを NovelWorks が知らせます。デフォルトの表情を削除した場合は、残っている最初の表情がデフォルトになります。
 
+## 衣装
+
+「{ui.outfits.heading}」の下の「{ui.wardrobe.open}」でクローゼットが開きます。ここで衣服のアイテムを組み合わせて衣装を作ります。[衣装](/novelworks-docs/ja/writing/outfits/)を見てください。
+
 ## アバター
 
 アバターは、ダイアログボックスの名前の横に表示される小さな肖像です。「{ui.characterInspector.avatar}」で、次から選びます。
@@ -38,7 +42,7 @@ description: キャラクターを作り、表情とアバターを設定しま�
 
 ## キャラクターをステージに出す
 
-[シーンの演出](/novelworks-docs/ja/writing/staging/)を見てください。簡単に言うと、カットの中で、「{ui.momentInspector.onStage}」の下にある「{ui.momentInspector.add}」を使います(またはゲーム画面の上にある「{ui.stageControls.character}」ボタンを使います)。そのあと、キャラクターを好きな場所へドラッグします。
+[シーンの演出](/novelworks-docs/ja/writing/staging/)を見てください。簡単に言うと、カットの中で、「{ui.inspectorTabs.image}」タブの「{ui.momentInspector.onStage}」の下にある「{ui.momentInspector.add}」を使います(またはゲーム画面の上にある「{ui.stageControls.character}」ボタンを使います)。そのあと、キャラクターを好きな場所へドラッグします。
 
 ## キャラクターを削除する
 

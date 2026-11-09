@@ -5,7 +5,7 @@ description: Turn your game into a folder and a .zip that play in any browser, o
 
 Choose **{ui.native.menu.file} → {ui.native.menu.exportForWeb}** (**Cmd+E** / **Ctrl+E**). NovelWorks makes a version of your game that plays in any web browser, on computers and phones: **a folder, and a .zip** ready to share or upload. The command needs an open project and is not available while you are playing.
 
-In the **demo**, exporting is limited to games of 5 scenes or fewer: see [The free demo](/novelworks-docs/getting-started/demo-edition/). In the full version, NovelWorks asks you to [activate it](/novelworks-docs/getting-started/install-and-activate/) each time you export, until you have.
+In the **demo**, you can export games of 5 scenes or fewer that stay within the [demo limits](/novelworks-docs/reference/licenses-and-editions/): see [The free demo](/novelworks-docs/getting-started/demo-edition/). In the full version, NovelWorks asks you to [activate it](/novelworks-docs/getting-started/install-and-activate/) each time you export, until you have.
 
 ## The steps
 
@@ -28,11 +28,17 @@ The window also tells you the **recommended game size** (the resolution of your 
 NovelWorks creates, inside the folder you chose:
 
 - a folder named after your game, ending in `-web` (for example `The-Rainy-Day-web`), and a `.zip` with the same name. Accents are removed and any other character is replaced by `-`. A title with no Latin letters or digits (in Chinese, Russian or Japanese, for example) becomes `Game-web`;
-- inside: `index.html`, `project.js` (your game's data), `game.js` (the player), an `assets` folder with **only the pictures your game uses**, and a `fonts` folder with the fonts and their license files.
+- inside: `index.html`, `project.js` (your game's data), `game.js` (the player), an `assets` folder with **only the pictures, videos and sounds your game uses**, and a `fonts` folder with the fonts and their license files.
 
-Pictures are copied as they are, with no resizing or conversion. A character's expressions and avatars are all included when the character appears or speaks.
+Pictures, videos and sounds are copied as they are, with no resizing or conversion. A character's expressions and avatars are all included when the character appears or speaks. Wardrobe pieces are included only if an outfit wears them.
 
 If an export folder with the same name already exists and is an earlier export, it is replaced. If it is something else, NovelWorks refuses and asks you to pick another folder, so it never overwrites your files.
+
+### Videos and sounds
+
+- NovelWorks never refuses a video because of its size, but it tells you when you import more than 40 MB of video at once: a web game with video takes longer to load.
+- Videos, MP3 and OGG sounds go into the `.zip` without compression, so they keep their full weight. WAV files are compressed when that makes them smaller.
+- Browsers do not allow sound before the player's first click or key press. Whatever should already be playing starts at that moment.
 
 ### What is removed
 
@@ -59,8 +65,9 @@ Your private writing data is blanked before export: moment **notes**, scene **su
 | The disk is full. | Free some space, or pick a folder on another disk. |
 | This folder doesn't exist anymore. | Pick another folder. |
 | A folder named "…" is already there and isn't an earlier export. | Pick another folder. |
-| Activate NovelWorks to export games. | Open **{ui.native.role.help} → Activate NovelWorks…** |
+| Activate NovelWorks to export games. | Open **{ui.native.role.help} → {ui.native.menu.activateNovelWorks}** |
 | The demo exports games of up to 5 scenes, and your project has N. | In the demo only. Delete scenes, or get the full version. |
+| This project goes beyond what the demo can export: … | In the demo only. Remove what the message lists, or get the full version. |
 | The game could not be exported: … | The reason follows. See [Troubleshooting](/novelworks-docs/reference/troubleshooting/). |
 
 ## Publishing

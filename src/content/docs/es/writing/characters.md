@@ -26,6 +26,10 @@ En **{ui.characterInspector.expressions}**, añade una imagen para cada estado d
 - Haz clic en la imagen para **{ui.characterInspector.changeImage}**. La imagen anterior se queda en tus recursos.
 - Haz clic en la X para quitar la expresión. Si hay momentos que la usan, NovelWorks te avisa de que usarán la expresión predeterminada. Si quitas la predeterminada, la primera expresión que quede pasa a ser la predeterminada.
 
+## Atuendos
+
+En **{ui.outfits.heading}**, **{ui.wardrobe.open}** abre el vestuario, donde combinas prendas para formar atuendos. Consulta [Atuendos y vestuario](/novelworks-docs/es/writing/outfits/).
+
 ## Avatar
 
 Un avatar es un pequeño retrato que se muestra en el cuadro de diálogo junto al nombre. En **{ui.characterInspector.avatar}**, elige:
@@ -38,7 +42,7 @@ Los avatares pueden ser imágenes de tipo «{tx.assetTypes.avatar}», «{tx.asse
 
 ## Poner un personaje en escena
 
-Consulta [Poner en escena una escena](/novelworks-docs/es/writing/staging/). En resumen: en un momento, usa **{ui.momentInspector.add}** en **{ui.momentInspector.onStage}** (o el botón **{ui.stageControls.character}** sobre la pantalla del juego) y arrastra el personaje adonde quieras.
+Consulta [Poner en escena una escena](/novelworks-docs/es/writing/staging/). En resumen: en un momento, usa **{ui.momentInspector.add}** en **{ui.momentInspector.onStage}**, en la pestaña **{ui.inspectorTabs.image}** (o el botón **{ui.stageControls.character}** sobre la pantalla del juego), y arrastra el personaje adonde quieras.
 
 ## Borrar un personaje
 

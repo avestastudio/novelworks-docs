@@ -19,7 +19,7 @@ Backups são cópias anteriores do `project.json`, guardadas na pasta `backups` 
 - Nenhum backup é feito se nada mudou desde o mais recente.
 - O NovelWorks guarda os **20 mais recentes**, mais o **backup mais recente de cada um dos últimos 7 dias**. Os mais antigos são apagados.
 - As cópias feitas quando um projeto antigo é atualizado (**{ui.restoreBackupDialog.beforeUpgrade}**) nunca são apagadas.
-- As imagens que você apaga do projeto são movidas para `backups/deleted-assets` em vez de serem eliminadas, para que um backup ainda consiga encontrá-las. Elas são limpas quando nenhum backup guardado precisa mais delas.
+- As imagens, os vídeos e os sons que você apaga do projeto são movidas para `backups/deleted-assets` em vez de serem eliminadas, para que um backup ainda consiga encontrá-las. Elas são limpas quando nenhum backup guardado precisa mais delas.
 
 ### Voltar para um backup
 

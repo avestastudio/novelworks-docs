@@ -28,6 +28,10 @@ Todavía no puedes importar tu propia fuente.
 
 Los jugadores que activan la fuente adaptada a la dislexia en las opciones del jugador reciben una fuente propia, sea cual sea la que elegiste aquí.
 
+## Llegada y salida de los personajes
+
+**{ui.effects.defaultsTitle}**: elige una **{ui.effects.defaultEnter}** y una **{ui.effects.defaultExit}** para todo el juego. Se usan siempre que un momento no tiene un [efecto](/novelworks-docs/es/writing/effects/) propio para ese personaje. El valor predeterminado es «{tx.effects.defaultNone}».
+
 ## Colores y botones
 
 - **{ui.gameUIInspector.primaryColor}**: «Botones, elementos destacados y la flecha de “continuar”». También da a la pantalla de título su resplandor. Por defecto es un rosa.
@@ -41,4 +45,4 @@ La vista previa de esta página muestra el cuadro de diálogo sobre tu primer fo
 
 ## Restablecer
 
-**{ui.gameUIInspector.resetToDefault}** en esta página solo restablece las fuentes y los colores. Las demás pantallas conservan sus ajustes.
+**{ui.gameUIInspector.resetToDefault}** en esta página solo restablece los ajustes de esta página. Las demás pantallas conservan sus ajustes.

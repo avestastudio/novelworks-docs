@@ -7,7 +7,7 @@ description: Des notes privées sur les moments, et des résumés sur les scène
 
 Une **note** est pour vous seul : idées, choses à faire, rappels. Chaque moment peut en avoir une.
 
-- Sélectionnez le moment et tapez dans **{ui.momentInspector.note}** dans l’inspecteur (« {tx.momentInspector.ideasToDosReminders} »). L’inspecteur précise que vous seul voyez vos notes : elles ne sont jamais montrées dans le jeu.
+- Sélectionnez le moment et tapez dans **{ui.momentInspector.note}**, dans l’onglet **{ui.inspectorTabs.text}** de l’inspecteur (« {tx.momentInspector.ideasToDosReminders} »). L’inspecteur précise que vous seul voyez vos notes : elles ne sont jamais montrées dans le jeu.
 - Ou faites un clic droit sur le moment et choisissez **{ui.contextMenus.addNote}** (ou **{ui.contextMenus.editNote}**), ce qui vous amène à cette zone.
 
 Un moment qui a une note montre une icône de note adhésive sur sa carte ; pointez-la pour lire la note. La carte de l’histoire indique combien de moments de chaque scène ont une note. Les notes sont trouvées par [Rechercher et remplacer](/novelworks-docs/fr/writing/search/).

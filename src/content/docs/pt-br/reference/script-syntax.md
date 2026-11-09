@@ -3,7 +3,7 @@ title: Sintaxe do roteiro em 7 idiomas
 description: As palavras do formato de Roteiro em cada idioma do editor, e o que significam.
 ---
 
-O [modo Roteiro](/novelworks-docs/pt-br/writing/script-mode/) lê um roteiro com as palavras de **todos os idiomas do editor ao mesmo tempo**, mais algumas formas curtas em inglês. Assim, um roteiro escrito com palavras em francês funciona em um editor em inglês, e vice-versa. Quando o NovelWorks **escreve** um roteiro (no modo Roteiro, ou em **{ui.native.menu.file} → Exportar o roteiro…**), ele usa as palavras do idioma atual do seu editor.
+O [modo Roteiro](/novelworks-docs/pt-br/writing/script-mode/) lê um roteiro com as palavras de **todos os idiomas do editor ao mesmo tempo**, mais algumas formas curtas em inglês. Assim, um roteiro escrito com palavras em francês funciona em um editor em inglês, e vice-versa. Quando o NovelWorks **escreve** um roteiro (no modo Roteiro, ou em **{ui.native.menu.file} → {ui.native.menu.exportScript}**), ele usa as palavras do idioma atual do seu editor.
 
 Letras maiúsculas, acentos e espaços extras não importam quando uma palavra-chave é lida: `Decor` é lido como `décor`.
 
@@ -41,6 +41,35 @@ Letras maiúsculas, acentos e espaços extras não importam quando uma palavra-c
 Sempre entendidos, em qualquer idioma: `bg` para a palavra de cenário, `centre` para centro, `take` para remover, `ending` para fim, `yes` para verdadeiro e `no` para falso.
 
 Algumas dessas palavras têm várias partes, como “à gauche”: elas são lidas como palavras inteiras.
+
+## Roupas
+
+A palavra para roupa vai em uma linha `show`, depois da expressão: `show : Mia happy outfit Uniform left`. Com a palavra para “inicial” no lugar de um nome, o personagem volta à primeira roupa: `show : Mia outfit default`. Uma roupa que não existe fica sublinhada. Veja [Roupas](/novelworks-docs/pt-br/writing/outfits/).
+
+| Palavra para | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| Uma roupa | `outfit` | `tenue` | `atuendo` | `roupa` | `服装` | `наряд` | `衣装` |
+| A primeira roupa | `default` | `de départ` | `inicial` | `inicial` | `默认` | `начальный` | `最初` |
+
+## Texto formatado
+
+Dentro de uma fala, etiquetas entre chaves mudam as palavras que estão entre elas, por exemplo `{b}word{/b}` ou `{color=1}word{/color}`. Veja [Formatar o seu texto](/novelworks-docs/pt-br/writing/rich-text/). Como as palavras-chave, as etiquetas são escritas no idioma do seu editor e lidas nos sete idiomas.
+
+| Etiqueta para | English | Français | Español | Português (BR) | 简体中文 | Русский | 日本語 |
+|---|---|---|---|---|---|---|---|
+| Negrito | `b` | `g` | `n` | `neg` | `粗` | `ж` | `太` |
+| Itálico | `i` | `i` | `c` | `ita` | `斜` | `к` | `斜` |
+| Cor | `color` | `couleur` | `color` | `cor` | `颜色` | `цвет` | `色` |
+| Grande | `big` | `grand` | `grande` | `maior` | `大` | `крупно` | `大` |
+| Pequeno | `small` | `petit` | `pequeno` | `menor` | `小` | `мелко` | `小` |
+| Tremor | `shake` | `tremble` | `tiembla` | `treme` | `抖动` | `дрожь` | `震え` |
+| Onda | `wave` | `vague` | `ola` | `onda` | `波浪` | `волна` | `波` |
+| Pausa | `pause` | `pause` | `pausa` | `pausa` | `停顿` | `пауза` | `ポーズ` |
+
+- Uma cor é um número de 1 a 5 (as [cores das palavras](/novelworks-docs/pt-br/game-ui/dialogue-box/)) ou um código como `#ff8800`.
+- `{pause}` espera meio segundo. `{pause=2}` espera 2 segundos, de 0,1 a 5.
+- O nome de uma variável entre chaves, como `{Affection}`, mostra o valor dela.
+- Para escrever uma chave de verdade, digite `{{`.
 
 ## Os símbolos
 

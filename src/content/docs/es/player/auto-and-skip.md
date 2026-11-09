@@ -21,7 +21,7 @@ Auto se detiene en un momento que no es una línea de diálogo: una elección, u
 
 ## Saltar
 
-Saltar recorre a toda prisa las líneas **que el jugador ya ha leído**, terminando el texto de golpe y acortando las animaciones. Se detiene en la primera línea que no ha leído, y en una elección, una exploración o un final.
+Saltar recorre a toda prisa las líneas **que el jugador ya ha leído**, terminando el texto de golpe y acortando las animaciones. Los [efectos](/novelworks-docs/es/writing/effects/), las voces y los efectos de sonido de los momentos saltados no se reproducen. Se detiene en la primera línea que no ha leído, y en una elección, una exploración o un final.
 
 - Una línea cuenta como leída en cuanto aparece, y el registro se guarda **por juego, en el navegador**, no por partida. Se mantiene entre partidas nuevas.
 - Si cambias el texto o a quien habla de una línea, esa línea vuelve a contar como no leída.
@@ -33,4 +33,4 @@ Un clic o una tecla que hace avanzar la historia (**Espacio**, **Intro**, de **1
 
 ## Voz
 
-Un momento de diálogo no tiene ajuste de voz ni de sonido, así que Auto espera solo al texto.
+Si una línea tiene una [voz](/novelworks-docs/es/writing/sound/), Auto espera a que termine la voz y avanza 0,6 segundos después, sea cual sea **{rt.optionsScreen.autoSpeed}**. Pasar a la línea siguiente corta la voz.

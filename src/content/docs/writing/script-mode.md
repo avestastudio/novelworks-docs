@@ -39,7 +39,7 @@ Above the preview, the **{ui.branches.whereTitle}** row shows where the selected
 
 - The text is applied to your project **half a second after you stop typing**, and when you switch scope, play, or leave Script mode.
 - A burst of typing is **one undo step**. A pause of about a second starts a new step.
-- A moment whose text you did not change is **kept as it was**, with its note, its position on the story map, its read lines and the players' saves. Things the text cannot express (free placement, size, flip, order of characters, exploration zones and props) are kept too, and a moment whose screen did not change keeps it exactly.
+- A moment whose text you did not change is **kept as it was**, with its note, its position on the story map, its read lines and the players' saves. Things the text cannot express (free placement, size, flip, order of characters, exploration zones and props, ambience, camera, effects and sounds) are kept too, and a moment whose screen did not change keeps it exactly.
 - If you change the project somewhere else (the inspector, the timeline, undo), the text updates without moving your cursor. If you are typing at that moment, your text wins.
 - Names that do not exist yet never block anything. The moment is created anyway and the line is underlined.
 

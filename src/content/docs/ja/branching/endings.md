@@ -7,12 +7,12 @@ description: 好きな数のエンディングで物語を終わらせ、すべ�
 
 ## エンディングを追加する
 
-タイムラインで、シーンの最後に {ui.moments.ending} カットを追加します。インスペクターでは次の項目を設定します。
+タイムラインのヘッダーで「{ui.timeline.addOther}」を開き、シーンの最後に「{ui.moments.ending}」カットを追加します。インスペクターの「{ui.inspectorTabs.text}」タブでは次の項目を設定します。
 
 - {ui.branchInspectors.endingName}:新しいエンディングは「{tx.shared.scenes.goodEnding}」という名前になります。名前を空にすると、ゲームは「おわり」と表示します。
 - 名前の下に表示される**短いテキスト**(省略できます)。
 
-エンディングの後、プレイヤーはタイトル画面に戻ります。
+エンディングの後、プレイヤーはタイトル画面に戻ります。「{ui.credits.afterEnding}」で[クレジット](/novelworks-docs/ja/game-ui/credits/)をオンにしている場合は、先にクレジットが流れます。
 
 ## プレイヤーに見えるもの
 

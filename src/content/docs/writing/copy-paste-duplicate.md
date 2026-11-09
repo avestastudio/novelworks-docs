@@ -11,7 +11,7 @@ description: Copy moments, scenes and characters, paste them elsewhere, and dupl
 - a **scene**: the copy goes right after the original and is named like "A helping hand (copy)" (see [Scenes](/novelworks-docs/writing/scenes/));
 - an exploration **zone**.
 
-The right-click menu has **{ui.contextMenus.duplicate}** for a moment and a scene, and **{ui.contextMenus.duplicateZone}** for a zone. The inspector of a moment has a **{ui.momentInspector.duplicate}** button.
+The right-click menu has **{ui.contextMenus.duplicate}** for a moment and a scene, and **{ui.contextMenus.duplicateZone}** for a zone. The header of the timeline has a duplicate icon for the selected moment.
 
 ## Copy, cut and paste
 
@@ -33,7 +33,7 @@ The right-click menus have no Copy or Paste entries: use the keys, or the Cut, C
 
 ### Between projects and windows
 
-The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The copy carries the moment, scene or character itself and the **names** of the characters, expressions, pictures, variables, items and scenes it refers to, but not those things.
+The copy goes to your computer's clipboard as text, so you can paste into **another project or another window**. The copy carries the moment, scene or character itself and the **names** of the characters, expressions, outfits, pictures, variables, items and scenes it refers to, but not those things.
 
 When you paste, NovelWorks looks each reference up in the project you paste into:
 

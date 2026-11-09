@@ -17,16 +17,18 @@ description: 画面ごとにゲームの見た目を変えます。ライブプ�
 
 | 画面 | 内容 | ページ |
 |---|---|---|
-| {ui.gameUI.fontsColors} | すべての画面で使うフォントと色です。 | [フォントとカラー](/novelworks-docs/ja/game-ui/fonts-and-colors/) |
+| {ui.gameUI.fontsColors} | すべての画面で使うフォントと色、キャラクターの登場と退場のしかたです。 | [フォントとカラー](/novelworks-docs/ja/game-ui/fonts-and-colors/) |
 | {ui.gameUI.creatorSplash} | タイトル画面の前に出す、スタジオのロゴなどの画像です。 | [イントロ](/novelworks-docs/ja/game-ui/intro/) |
 | {ui.gameUI.contentWarning} | タイトル画面の前に、センシティブな内容についてプレイヤーに知らせます。 | [コンテンツに関する警告](/novelworks-docs/ja/game-ui/content-warning/) |
-| {ui.gameUI.titleScreen} | ゲームの最初の画面です。 | [タイトル画面](/novelworks-docs/ja/game-ui/title-screen/) |
+| {ui.gameUI.credits} | 流れるクレジットです。 | [クレジット](/novelworks-docs/ja/game-ui/credits/) |
+| {ui.gameUI.chapters} | プレイヤーがチャプターを選ぶ画面です。 | [チャプター](/novelworks-docs/ja/game-ui/chapters/) |
+| {ui.gameUI.titleScreen} | ゲームの最初の画面と、その音楽です。 | [タイトル画面](/novelworks-docs/ja/game-ui/title-screen/) |
 | {ui.gameUI.dialogueBox} | 名前とセリフが表示される場所です。 | [ダイアログボックス](/novelworks-docs/ja/game-ui/dialogue-box/) |
 | {ui.gameUI.choices} | 選択肢のボタンです。 | [選択肢](/novelworks-docs/ja/game-ui/choices-screen/) |
 | {ui.gameUI.pauseMenu} | 右クリックまたは Esc で開きます。 | [ポーズメニュー](/novelworks-docs/ja/game-ui/pause-menu/) |
 | {ui.gameUI.saveLoad} | セーブ画面とロード画面です。 | [セーブ・ロード画面](/novelworks-docs/ja/game-ui/save-load-screen/) |
 | {ui.gameUI.history} | すでに読んだセリフの一覧です。 | [履歴画面](/novelworks-docs/ja/game-ui/history-screen/) |
-| {ui.gameUI.options} | プレイヤーが文字サイズ、速度、フォント、コントラストを選ぶ画面です。 | [プレイヤーオプション](/novelworks-docs/ja/game-ui/options/) |
+| {ui.gameUI.options} | プレイヤーが文字サイズ、速度、フォント、コントラスト、音量を選ぶ画面です。 | [プレイヤーオプション](/novelworks-docs/ja/game-ui/options/) |
 | {ui.quickMenu.title} | ストーリー上に表示される読み進めの操作です。 | [クイックメニュー](/novelworks-docs/ja/game-ui/quick-menu/) |
 | {ui.gameUI.theEnd} | 物語が終わったときに表示されます。 | [終了画面](/novelworks-docs/ja/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | そのボタンとアイテムのパネルです(インベントリ機能)。 | [インベントリ画面](/novelworks-docs/ja/game-ui/inventory-ui/) |

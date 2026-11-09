@@ -5,11 +5,21 @@ description: "名字和台词出现的地方：位置、大小、背景、文字
 
 {ui.gameUI.dialogueBox} 是显示说话者名字和文字的方框。它的大小和位置都用屏幕的百分比表示（大多是相对于屏幕高度），所以在任何分辨率下外观都不变。
 
+## 模板
+
+在{ui.templates.heading}下，四张卡片会替你摆放对话框：{ui.templates.dialogue.classic}（在底部）、{ui.templates.dialogue.sidePanel}（在右侧）、{ui.templates.dialogue.centerCard}和{ui.templates.dialogue.topBanner}。点击一下只会改变位置、边距、宽度和高度。颜色、姓名牌、头像、图片和文字都保持你的设置。点一次{ui.topBar.undo}就能恢复原来的样子。
+
+当前模板的卡片会高亮显示，直到你更改了上述某项设置。
+
 ## 位置和大小
 
 - {ui.gameUIInspector.position}：{ui.gameUIInspector.bottom}（默认）、{ui.gameUIInspector.top}、{ui.gameUIInspector.left}、{ui.gameUIInspector.right} 或 {ui.gameUIInspector.center}。选择其中一项时，宽度和高度也会设成合适的起始大小：上、下是一条宽条，左、右是一个高面板（约占屏幕的三分之一），居中则是中间的一个方框。
 - {ui.gameUIInspector.margin}：与屏幕边缘的间距（0 到 20 %，默认 3.5）。
 - {ui.gameUIInspector.width} 和 {ui.gameUIInspector.height}：10 到 100 %。选好位置后，你可以再调整它们。
+
+## 文字的颜色
+
+{ui.richText.palette}里有五种颜色，编号 1 到 5。在台词中选中文字时，可选的就是这些颜色。请看[富文本](/novelworks-docs/zh-cn/writing/rich-text/)。如果你在这里更改某个颜色，所有使用它的文字也会跟着变。
 
 ## 背景
 

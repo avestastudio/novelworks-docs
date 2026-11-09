@@ -11,6 +11,8 @@ The **{rt.game.history}** shows what has been said so far: dialogue lines with t
 - Close it with **Esc**, **H** or the **{rt.game.back}** button.
 - It is not available on the title screen, while paused, or while another screen (Save, Options, the inventory) is open. Opening it turns Auto and Skip off.
 
+[Rich text](/novelworks-docs/writing/rich-text/) shows as plain words here, without colors or effects.
+
 ## Using it
 
 It opens scrolled to the latest line. Scroll with the wheel, by dragging (on a touch screen), or with the keys: arrows move by a little, **Page Up** / **Page Down** or **Space** by a screen, **Home** and **End** to the ends. When nothing has been said yet, it says "{tx.historyScreen.nothingHasBeenSaidYet}"

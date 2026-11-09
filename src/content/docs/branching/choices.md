@@ -7,7 +7,7 @@ A **{ui.moments.choice}** moment shows the player two to six buttons. Each optio
 
 ## Add a choice
 
-In the timeline, add a **{ui.moments.choice}** moment. It starts with two empty options. You can write in the inspector, or directly on the game screen.
+In the header of the timeline, open **{ui.timeline.addOther}** and add a **{ui.moments.choice}** moment. It starts with two empty options. You can write in the **{ui.inspectorTabs.text}** tab of the inspector, or directly on the game screen.
 
 ![A choice with two options: what each one changes, and the scene it leads to.](/novelworks-docs/screenshots/choice-options.png)
 

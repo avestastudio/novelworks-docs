@@ -17,7 +17,7 @@ Vous pouvez jouer à votre jeu à tout moment, dans l’éditeur. Il joue **ce q
 
 Chaque partie démarre avec les valeurs de départ de vos variables et de vos objets : rien n’est conservé d’un test précédent.
 
-Si votre jeu n’a pas de scène de départ, ou si la scène de départ n’a aucun moment, le jeu ne démarre pas et vous dit quoi faire : définissez une scène de départ avec l’étoile dans l’onglet Scènes.
+Si votre jeu n’a pas de scène de départ, ou si la scène de départ n’a aucun moment, **{ui.topBar.play}** ne démarre pas et vous dit quoi faire : définissez une scène de départ avec l’étoile dans l’onglet Scènes.
 
 ## Pendant que vous jouez
 
@@ -27,7 +27,7 @@ Vous jouez comme un joueur : cliquez ou appuyez sur **Espace** / **Entrée** pou
 
 ## Arrêter
 
-- Cliquez sur **{ui.playOverlay.stop}**, ou appuyez sur **Échap**. Si le menu pause, Sauvegarder, Charger, l’Historique, les Options, l’intro ou l’avertissement de contenu est ouvert, **Échap** ferme d’abord celui-ci. **Échap** ne ferme pas l’inventaire en mode Jouer : appuyez sur **I** pour cela.
+- Cliquez sur **{ui.playOverlay.stop}**, ou appuyez sur **Échap**. Si le menu pause, Sauvegarder, Charger, l’Historique, les Options, les Crédits, les Chapitres, l’intro ou l’avertissement de contenu est ouvert, **Échap** ferme d’abord celui-ci. **Échap** ne ferme pas l’inventaire en mode Jouer : appuyez sur **I** pour cela.
 - Quand vous arrêtez, l’éditeur sélectionne la scène et le moment où vous en étiez.
 
 ## Ce que cela ne teste pas

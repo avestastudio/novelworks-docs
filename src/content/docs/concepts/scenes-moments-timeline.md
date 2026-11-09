@@ -31,9 +31,9 @@ At the bottom of the window, the timeline shows the moments of the selected scen
 - The header has the scene name, the number of moments and words, and the scene's summary if you wrote one. Click the summary to edit it in the inspector.
 - Each card shows its kind, the speaker (or "Narrator") and a short summary of what it says or does. A card can carry a note or a warning.
 - Click a card to select it and edit it on the game screen and in the inspector. Drag cards to reorder them.
-- Buttons add a moment **after the selected one**, one per kind. A **+** card at the end adds a line of dialogue.
-- Two icons duplicate and delete the selected moment. Deleting asks for confirmation unless the moment is an empty line of dialogue.
-- Under the cards, a chart shows who is on stage ([The stage](/novelworks-docs/concepts/stage/)) and a row shows where the story branches ([How a story branches](/novelworks-docs/concepts/how-stories-branch/)).
+- In the header, **{ui.moments.dialogue}** adds a line of dialogue **after the selected moment**, and **{ui.timeline.addOther}** lists the other kinds, each with a sentence that explains it. A **+** card at the end adds a line of dialogue.
+- Two icons duplicate and delete the selected moment. Both are also in the right-click menu of a card. Deleting asks for confirmation unless the moment is an empty line of dialogue.
+- Under the cards, a chart shows who is on stage ([The stage](/novelworks-docs/concepts/stage/)), rows show how far each [sound](/novelworks-docs/writing/sound/) goes when the scene has sounds, and a row shows where the story branches ([How a story branches](/novelworks-docs/concepts/how-stories-branch/)).
 
 ### The fast way to write
 

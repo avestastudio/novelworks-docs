@@ -8,14 +8,14 @@ description: プロジェクトフォルダの中身、古いプロジェクト�
 プロジェクトは**フォルダ**です。ほかのフォルダと同じように、コピーしたり、移動したり、バックアップしたりできます。
 
 - `project.json`：ゲーム全体を 1 つにまとめたファイル（JSON 形式のテキストで、インデントは半角スペース 2 つ）。
-- `assets`：読み込んだ画像。
-- `backups`：`project.json` の以前のバージョン。削除した画像は `backups/deleted-assets` に入ります。
+- `assets`：読み込んだ画像、動画、サウンド。
+- `backups`：`project.json` の以前のバージョン。削除したファイルは `backups/deleted-assets` に入ります。
 
 保存するたびに、NovelWorks はファイルを安全に書き込みます（一時ファイルに書いてから名前を変えます）。そのため、保存中にクラッシュしてもファイルは壊れません。
 
 ## 形式のバージョン
 
-`project.json` には**形式のバージョン**があります。この NovelWorks が書き込む形式は**17**です。形式が変わるたびに、NovelWorks には自動アップグレードが加わったので、古いプロジェクトもすべて開けます。変更の例：
+`project.json` には**形式のバージョン**があります。この NovelWorks が書き込む形式は**26**です。形式が変わるたびに、NovelWorks には自動アップグレードが加わったので、古いプロジェクトもすべて開けます。変更の例：
 
 | 形式 | 追加されたもの |
 |---|---|
@@ -32,6 +32,15 @@ description: プロジェクトフォルダの中身、古いプロジェクト�
 | 15 | キャラクターはステージに残る：カットには、変えたものだけが保存されます。 |
 | 16 | 複数のケースを持つ「もし…」。 |
 | 17 | 条件が成り立つときだけ表示される選択肢。 |
+| 18 | [クレジット](/novelworks-docs/ja/game-ui/credits/)。 |
+| 19 | [チャプター](/novelworks-docs/ja/game-ui/chapters/)。 |
+| 20 | [衣装](/novelworks-docs/ja/writing/outfits/)とクローゼット。 |
+| 21 | [雰囲気とアニメーション背景](/novelworks-docs/ja/writing/ambience-and-animated-backgrounds/)。 |
+| 22 | [カメラ](/novelworks-docs/ja/writing/camera/)、奥行き、前景の画像。 |
+| 23 | カットごとの複数のカメラショット。 |
+| 24 | セリフの[リッチテキスト](/novelworks-docs/ja/writing/rich-text/)と、文字の5つの色。 |
+| 25 | [エフェクト](/novelworks-docs/ja/writing/effects/)とパーティクル。 |
+| 26 | [サウンド](/novelworks-docs/ja/writing/sound/)：音楽、環境音、効果音、ボイス。 |
 
 ## 古いプロジェクトを開く
 

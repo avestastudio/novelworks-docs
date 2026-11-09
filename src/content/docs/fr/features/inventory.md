@@ -3,7 +3,7 @@ title: Inventaire
 description: "Les objets que portent les joueurs : créez-les, donnez-les et retirez-les, vérifiez-les dans des conditions, et voyez-les dans le jeu."
 ---
 
-Avec la fonctionnalité **{ui.shared.features.inventory}** activée, les joueurs peuvent ramasser des **objets** : clés, lettres, pièces, indices. Ils les voient dans un menu Inventaire. Activez-la dans la [bibliothèque de fonctionnalités](/novelworks-docs/fr/features/features-panel/). Les objets ne sont pas des [variables](/novelworks-docs/fr/branching/variables/) : un objet est quelque chose que le joueur transporte.
+Avec la fonctionnalité **{ui.shared.features.inventory}** activée, les joueurs peuvent ramasser des objets : clés, lettres, pièces, indices. Ils les voient dans un menu Inventaire. Activez-la dans la [bibliothèque de fonctionnalités](/novelworks-docs/fr/features/features-panel/). Les objets ne sont pas des [variables](/novelworks-docs/fr/branching/variables/) : un objet est quelque chose que le joueur transporte.
 
 ## L’onglet Objets
 

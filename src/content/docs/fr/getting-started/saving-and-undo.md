@@ -19,7 +19,7 @@ Les sauvegardes de secours sont des copies précédentes de `project.json`, rang
 - Aucune sauvegarde n’est faite si rien n’a changé depuis la plus récente.
 - NovelWorks garde les **20 plus récentes**, plus **la plus récente de chacun des 7 derniers jours**. Les plus anciennes sont supprimées.
 - Les copies faites quand un ancien projet est mis à niveau ({ui.restoreBackupDialog.beforeUpgrade}) ne sont jamais supprimées.
-- Les images que vous supprimez du projet sont déplacées dans `backups/deleted-assets` au lieu d’être effacées, pour qu’une sauvegarde puisse encore les retrouver. Elles sont nettoyées dès qu’aucune sauvegarde conservée n’en a plus besoin.
+- Les images, vidéos et sons que vous supprimez du projet sont déplacés dans `backups/deleted-assets` au lieu d’être effacés, pour qu’une sauvegarde puisse encore les retrouver. Ils sont nettoyés dès qu’aucune sauvegarde conservée n’en a plus besoin.
 
 ### Revenir à une sauvegarde de secours
 

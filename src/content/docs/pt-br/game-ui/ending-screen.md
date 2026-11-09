@@ -12,3 +12,7 @@ description: A tela mostrada quando a história acaba, e como ela difere de um m
 - **{ui.gameUIInspector.textColor}**: “{tx.gameUIInspector.sameAsTheTextColor}” por padrão.
 
 Embaixo do título, o jogo mostra “{tx.game.returnToTitle}”. Esse texto não pode ser mudado, e um clique leva o jogador de volta à tela de título.
+
+## Créditos depois do final
+
+Se você ativou os [créditos](/novelworks-docs/pt-br/game-ui/credits/) e **{ui.credits.afterEnding}**, os créditos rolam quando o jogador clica para sair de um final. Isso vale para esta tela e para um [momento Final](/novelworks-docs/pt-br/branching/endings/). Quando os créditos se fecham, o jogo volta à tela de título.

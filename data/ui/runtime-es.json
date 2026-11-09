@@ -118,5 +118,21 @@
   "contentWarning.topic.sexualContent": "Contenido sexual",
   "contentWarning.topic.drugs": "Drogas",
   "contentWarning.topic.strongLanguage": "Lenguaje soez",
-  "contentWarning.topic.flashingLights": "Luces intermitentes"
+  "contentWarning.topic.flashingLights": "Luces intermitentes",
+  "game.credits": "Créditos",
+  "credits.credits": "Créditos",
+  "credits.back": "Atrás",
+  "credits.createdBy": "Un juego de {author}",
+  "credits.madeWith": "Hecho con NovelWorks",
+  "game.chapters": "Capítulos",
+  "chapters.chapters": "Capítulos",
+  "chapters.back": "Atrás",
+  "chapters.chapterNumber": "Capítulo {number}",
+  "chapters.locked": "???",
+  "chapters.lockedLabel": "Capítulo {number}, aún no alcanzado",
+  "game.yes": "Sí",
+  "game.no": "No",
+  "optionsScreen.musicVolume": "Música",
+  "optionsScreen.soundVolume": "Sonidos",
+  "optionsScreen.voiceVolume": "Voces"
 }

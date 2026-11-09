@@ -19,9 +19,9 @@ description: Экскурсия из 14 шагов, которая объясн�
 2. «{ui.tutorial.scenes.title}»: ваша история состоит из сцен, как из глав. Они лежат на левой панели, а рядом вкладки для картинок, персонажей и переменных.
 3. «{ui.tutorial.assets.title}»: импортируйте картинки кнопкой «{ui.assetsTab.import}» или перетащив их в окно, затем выберите тип для каждой.
 4. «{ui.tutorial.stage.title}»: экран игры показывает то, что увидят игроки.
-5. «{ui.tutorial.background.title}»: выберите фон момента и сохраните его до конца сцены с помощью «{ui.momentInspector.applyToTheFollowingMoments}».
+5. «{ui.tutorial.background.title}»: выберите фон момента. В окне перечислены ваши фоны, и там же можно импортировать новую картинку.
 6. «{ui.tutorial.character.title}»: поставьте персонажа на сцену и перетащите его на место.
-7. «{ui.tutorial.persist.title}»: персонажи остаются на месте, пока вы их не измените. Смотрите [Персонажи остаются на сцене](/novelworks-docs/ru/concepts/stage/).
+7. «{ui.tutorial.persist.title}»: персонажи остаются на месте, пока вы их не измените. Чтобы изменение касалось только одного момента, выберите «{ui.stage.scopeOnlyHere}». Смотрите [Персонажи остаются на сцене](/novelworks-docs/ru/concepts/stage/).
 8. «{ui.tutorial.timeline.title}»: сцена — это ряд моментов. Смотрите [Сцены, моменты и таймлайн](/novelworks-docs/ru/concepts/scenes-moments-timeline/).
 9. «{ui.tutorial.inspector.title}»: всё о выбранном элементе.
 10. «{ui.tutorial.choices.title}»: добавьте выбор, заставьте игру что-то запомнить и отправьте историю в другое место с помощью «{tx.leftPanel.condition}». Смотрите [Как ветвится история](/novelworks-docs/ru/concepts/how-stories-branch/).

@@ -39,7 +39,7 @@ Au-dessus de l’aperçu, la ligne **{ui.branches.whereTitle}** montre où mène
 
 - Le texte est appliqué à votre projet **une demi-seconde après que vous avez cessé de taper**, et quand vous changez ce que le texte montre, jouez, ou quittez le mode Script.
 - Une rafale de frappe forme **une seule étape d’annulation**. Une pause d’environ une seconde commence une nouvelle étape.
-- Un moment dont vous n’avez pas changé le texte est **conservé tel quel**, avec sa note, sa position sur la carte de l’histoire, ses répliques lues et les sauvegardes des joueurs. Ce que le texte ne peut pas exprimer (placement libre, taille, retournement, ordre des personnages, zones d’exploration et accessoires) est conservé aussi, et un moment dont l’écran n’a pas changé le garde exactement.
+- Un moment dont vous n’avez pas changé le texte est **conservé tel quel**, avec sa note, sa position sur la carte de l’histoire, ses répliques lues et les sauvegardes des joueurs. Ce que le texte ne peut pas exprimer (placement libre, taille, retournement, ordre des personnages, zones d’exploration et accessoires, ambiance, caméra, effets et sons) est conservé aussi, et un moment dont l’écran n’a pas changé le garde exactement.
 - Si vous changez le projet ailleurs (l’inspecteur, la chronologie, l’annulation), le texte se met à jour sans déplacer votre curseur. Si vous êtes en train de taper à ce moment-là, c’est votre texte qui l’emporte.
 - Les noms qui n’existent pas encore ne bloquent jamais rien. Le moment est créé quand même et la ligne est soulignée.
 

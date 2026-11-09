@@ -16,7 +16,7 @@ Un momento **{ui.moments.exploration}** también puede llevar a escenas, mediant
 
 ## Elecciones
 
-En el inspector, escribe una pregunta opcional y luego el texto de cada opción. Para cada opción:
+En la pestaña **{ui.inspectorTabs.text}** del inspector, escribe una pregunta opcional y luego el texto de cada opción. Para cada opción:
 
 - **{ui.branchInspectors.changes}**: lo que recuerda el juego si el jugador la elige (consulta [La memoria del juego](/novelworks-docs/es/concepts/game-memory/)).
 - **{ui.branchInspectors.then}**: la escena a la que lleva. También puedes dejar que la historia continúe con el siguiente momento.
@@ -42,7 +42,7 @@ Un **{ui.moments.jump}** solo necesita una escena a la que ir. Un **{ui.moments.
 
 ### La barra «{tx.branches.whereTitle}»
 
-Sobre la pantalla del juego, un botoncito por cada salida del momento seleccionado muestra adónde lleva, hasta cuatro y luego «+N». Una frase demasiado larga termina en «…» (el texto completo está en la información emergente). Haz clic en uno para saltar a esa escena. Un botón «Atrás» te lleva adonde estabas (se recuerdan los últimos 20 pasos). En el primer momento de una escena, una lista muestra qué lleva **a** esa escena.
+En la pestaña **{ui.inspectorTabs.text}** del inspector, un botoncito por cada salida del momento seleccionado muestra adónde lleva, hasta cuatro y luego «+N». Una frase demasiado larga termina en «…» (el texto completo está en la información emergente). Haz clic en uno para saltar a esa escena. Un botón «Atrás» te lleva adonde estabas (se recuerdan los últimos 20 pasos). En el primer momento de una escena, una lista muestra qué lleva **a** esa escena. En la vista Guion, la misma barra está encima de la vista previa.
 
 ### La fila Ramas
 

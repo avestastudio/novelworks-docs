@@ -16,7 +16,7 @@ Un moment **{ui.moments.exploration}** peut aussi mener à des scènes, par les 
 
 ## Les choix
 
-Dans l’inspecteur, écrivez une question facultative, puis le texte de chaque option. Pour chaque option :
+Dans l’onglet **{ui.inspectorTabs.text}** de l’inspecteur, écrivez une question facultative, puis le texte de chaque option. Pour chaque option :
 
 - **{ui.branchInspectors.changes}** : ce dont le jeu se souvient si le joueur la choisit (voir [La mémoire du jeu](/novelworks-docs/fr/concepts/game-memory/)).
 - **{ui.branchInspectors.then}** : la scène vers laquelle elle mène. Vous pouvez aussi laisser l’histoire continuer avec le moment suivant.
@@ -42,7 +42,7 @@ Un moment **{ui.moments.jump}** a seulement besoin d’une scène où aller. Un 
 
 ### La barre « {tx.branches.whereTitle} »
 
-Au-dessus de l’écran du jeu, un petit bouton par sortie du moment sélectionné montre où elle mène, quatre au plus, puis « +N ». Une phrase trop longue se termine par « … » (le texte complet est dans l’info-bulle). Cliquez sur un bouton pour aller à cette scène. Un bouton « Retour » vous ramène là où vous étiez (les 20 dernières étapes sont retenues). Sur le premier moment d’une scène, une liste montre ce qui mène **vers** la scène.
+Dans l’onglet **{ui.inspectorTabs.text}** de l’inspecteur, un petit bouton par sortie du moment sélectionné montre où elle mène, quatre au plus, puis « +N ». Une phrase trop longue se termine par « … » (le texte complet est dans l’info-bulle). Cliquez sur un bouton pour aller à cette scène. Un bouton « Retour » vous ramène là où vous étiez (les 20 dernières étapes sont retenues). Sur le premier moment d’une scène, une liste montre ce qui mène **vers** la scène. En vue Script, la même barre se trouve au-dessus de l’aperçu.
 
 ### La ligne Branches
 

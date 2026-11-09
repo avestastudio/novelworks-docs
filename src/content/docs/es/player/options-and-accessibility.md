@@ -3,11 +3,11 @@ title: Opciones y accesibilidad
 description: Qué hace cada opción del jugador y cómo ayuda el juego a la accesibilidad.
 ---
 
-Los jugadores abren **{rt.game.options}** desde la pantalla de título, el menú de pausa o el menú rápido (si muestras su botón Opciones). **Esc** la cierra. Cada cambio se aplica al instante y se conserva **por juego, en el navegador**. Si el navegador bloquea el almacenamiento, solo dura la sesión. Una línea de muestra enseña cómo se verá el texto. **{rt.optionsScreen.defaults}** devuelve las cinco opciones a su valor inicial.
+Los jugadores abren **{rt.game.options}** desde la pantalla de título, el menú de pausa o el menú rápido (si muestras su botón Opciones). **Esc** la cierra. Cada cambio se aplica al instante y se conserva **por juego, en el navegador**. Si el navegador bloquea el almacenamiento, solo dura la sesión. Una línea de muestra enseña cómo se verá el texto. **{rt.optionsScreen.defaults}** devuelve todas las opciones a su valor inicial.
 
 El aspecto de la pantalla lo decides tú: [Opciones del jugador](/novelworks-docs/es/game-ui/options/). No puedes ocultar ninguna opción.
 
-## Las cinco opciones
+## Las opciones
 
 ### Tamaño del texto
 
@@ -29,10 +29,14 @@ Cambia **todo el juego** a una fuente diseñada para que resulte más fácil de 
 
 El texto se vuelve blanco y el color principal, amarillo. El cuadro de texto, las elecciones, los menús, los botones y las ranuras tienen fondo negro con borde blanco, y se quitan las sombras y la transparencia. Los nombres de quien habla son amarillos. Los botones sobre los que está el puntero o que tienen el foco se vuelven amarillos con texto negro. Las pantallas de pausa, inventario, guardado, historial, opciones y final tienen fondo negro.
 
+### Volúmenes
+
+**{rt.optionsScreen.musicVolume}**, **{rt.optionsScreen.soundVolume}** (sonidos ambiente y efectos de sonido) y **{rt.optionsScreen.voiceVolume}**, de 0 a 100, con 100 como valor predeterminado. Estos tres controles deslizantes solo aparecen si el juego tiene sonidos. Consulta [Sonido y música](/novelworks-docs/es/writing/sound/).
+
 ## Otras funciones de accesibilidad
 
 - **Teclado**: se puede jugar entero sin ratón. Mira [Teclas y pantallas táctiles](/novelworks-docs/es/player/keys-and-touch/). A las zonas de una exploración se llega con **Tab**.
-- **Lectores de pantalla**: el texto de la historia se lee una vez por línea, las pantallas se anuncian como diálogos, los avisos se anuncian y los atajos de teclado se indican en los botones.
-- **Movimiento reducido**: el texto aparece de golpe por defecto cuando el sistema lo pide, y las diapositivas de introducción y la pantalla inicial se desvanecen de forma sencilla.
+- **Lectores de pantalla**: el texto de la historia se lee una vez por línea, como palabras sencillas, sin su formato; las pantallas se anuncian como diálogos, los avisos se anuncian y los atajos de teclado se indican en los botones.
+- **Movimiento reducido**: cuando el sistema lo pide, el texto aparece de golpe por defecto (se sigue usando la velocidad de texto que elija el jugador) y las letras del [texto enriquecido](/novelworks-docs/es/writing/rich-text/) no tiemblan ni ondulan. La cámara va directamente a su último plano, sin el temblor de la cámara en mano. Los [efectos](/novelworks-docs/es/writing/effects/) no se reproducen y las partículas se quedan quietas. Los [créditos](/novelworks-docs/es/game-ui/credits/) no se desplazan solos: se muestran como una lista que se puede recorrer. Las diapositivas de introducción y la pantalla inicial se desvanecen de forma sencilla.
 - **{rt.contentWarning.title}**: puedes avisar a los jugadores de temas delicados: [Advertencia de contenido](/novelworks-docs/es/game-ui/content-warning/).
 - **Seleccionar texto**: el juego no deja que los jugadores seleccionen ni copien su texto.

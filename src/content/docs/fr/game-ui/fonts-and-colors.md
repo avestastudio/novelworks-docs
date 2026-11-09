@@ -28,6 +28,10 @@ Vous ne pouvez pas encore importer votre propre police.
 
 Les joueurs qui activent la police adaptée à la dyslexie dans les options du joueur obtiennent une police dédiée, quel que soit votre choix ici.
 
+## Arrivée et départ des personnages
+
+{ui.effects.defaultsTitle} : choisissez une {ui.effects.defaultEnter} et une {ui.effects.defaultExit} pour tout le jeu. Elles servent chaque fois qu’un moment n’a pas d’[effet](/novelworks-docs/fr/writing/effects/) propre pour ce personnage. Le réglage par défaut est « {tx.effects.defaultNone} ».
+
 ## Couleurs et boutons
 
 - **{ui.gameUIInspector.primaryColor}** : « Boutons, éléments mis en valeur et flèche « continuer ». » Elle donne aussi son halo à l’écran-titre. Par défaut, c’est un rose.
@@ -41,4 +45,4 @@ L’aperçu de cette page montre la boîte de dialogue sur votre premier décor.
 
 ## Réinitialiser
 
-**{ui.gameUIInspector.resetToDefault}** sur cette page réinitialise seulement les polices et les couleurs. Les autres écrans gardent leurs réglages.
+**{ui.gameUIInspector.resetToDefault}** sur cette page réinitialise seulement les réglages de cette page. Les autres écrans gardent leurs réglages.

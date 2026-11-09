@@ -11,7 +11,7 @@ description: Copia momentos, escenas y personajes, pégalos en otro sitio y dupl
 - una **escena**: la copia va justo después del original y se llama, por ejemplo, «A helping hand (copia)» (mira [Escenas](/novelworks-docs/es/writing/scenes/));
 - una **zona** de exploración.
 
-El menú del clic derecho tiene **{ui.contextMenus.duplicate}** para un momento y una escena, y **{ui.contextMenus.duplicateZone}** para una zona. El inspector de un momento tiene un botón **{ui.momentInspector.duplicate}**.
+El menú del clic derecho tiene **{ui.contextMenus.duplicate}** para un momento y una escena, y **{ui.contextMenus.duplicateZone}** para una zona. La cabecera de la línea de tiempo tiene un icono de duplicar para el momento seleccionado.
 
 ## Copiar, cortar y pegar
 
@@ -33,7 +33,7 @@ Los menús del clic derecho no tienen entradas Copiar ni Pegar: usa las teclas, 
 
 ### Entre proyectos y ventanas
 
-La copia va al portapapeles de tu ordenador como texto, así que puedes pegar en **otro proyecto u otra ventana**. La copia lleva el momento, la escena o el personaje en sí y los **nombres** de los personajes, expresiones, imágenes, variables, objetos y escenas a los que hace referencia, pero no esas cosas.
+La copia va al portapapeles de tu ordenador como texto, así que puedes pegar en **otro proyecto u otra ventana**. La copia lleva el momento, la escena o el personaje en sí y los **nombres** de los personajes, expresiones, atuendos, imágenes, variables, objetos y escenas a los que hace referencia, pero no esas cosas.
 
 Al pegar, NovelWorks busca cada referencia en el proyecto donde pegas:
 

@@ -32,6 +32,8 @@ Mia : I looked for you everywhere.
 
 A line indented by two spaces continues the line above, as a new line **inside the same box**.
 
+To format words or add a pause inside a line, see [Rich text](/novelworks-docs/writing/rich-text/).
+
 ## Narration
 
 ```
@@ -69,7 +71,7 @@ hide : everyone
 ```
 
 - **`background : Name`** changes the background to the picture called Name. `background : none`, or nothing after the colon, removes it.
-- **`show : Mia happy left`** makes a character appear, or changes their expression or place. After the name you can add an expression and a place: `left`, `center` or `right`, or `placed by hand` to keep a free placement. With no place, a character who is already on stage keeps their place, and a new one goes to the center. A character name may contain spaces.
+- **`show : Mia happy left`** makes a character appear, or changes their expression or place. After the name you can add an expression, `outfit` followed by an outfit's name (`outfit default` goes back to the first outfit; see [Outfits](/novelworks-docs/writing/outfits/)), and a place: `left`, `center` or `right`, or `placed by hand` to keep a free placement. With no place, a character who is already on stage keeps their place, and a new one goes to the center. A character name may contain spaces.
 - **`hide : Mia`** makes a character leave. `hide : everyone`, or nothing after the colon, clears the stage.
 
 A stage line needs a line after it. Otherwise it is flagged.

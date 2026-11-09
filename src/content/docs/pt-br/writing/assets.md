@@ -1,25 +1,27 @@
 ---
 title: Recursos
-description: Importe imagens, escolha o tipo delas e gerencie-as na aba Recursos.
+description: Importe imagens, vídeos e sons, escolha o tipo delas e gerencie-as na aba Recursos.
 ---
 
-Toda imagem do seu jogo é um **recurso** do seu projeto: cenários, imagens de personagens, ilustrações, objetos e imagens para as telas do próprio jogo. Elas ficam na aba **{ui.leftPanel.assets}** e são copiadas para a pasta `assets` do seu projeto.
+Toda imagem do seu jogo é um **recurso** do seu projeto: cenários, imagens de personagens, ilustrações, objetos e imagens para as telas do próprio jogo. Elas ficam na aba **{ui.leftPanel.assets}** e são copiadas para a pasta `assets` do seu projeto. Os vídeos para [cenários animados](/novelworks-docs/pt-br/writing/ambience-and-animated-backgrounds/) e os [sons](/novelworks-docs/pt-br/writing/sound/) também ficam lá.
 
 ## Formatos e limites
 
-- Somente **PNG, JPG e WebP** (também `.jpeg`).
-- Até **50 MB** por arquivo. Outros arquivos são ignorados, e o NovelWorks lista quais.
+- Imagens: **PNG, JPG, WebP e GIF** (também `.jpeg`). Arquivos GIF e WebP animados se movem no jogo.
+- Vídeos: **MP4 e WebM**, aceitos na aba Recursos, quando você solta arquivos na janela e onde você escolhe o cenário de um momento.
+- Sons: **MP3, OGG e WAV**.
+- Até **50 MB** por imagem. Outros arquivos são ignorados, e o NovelWorks lista quais. Vídeos e sons nunca são recusados pelo tamanho, mas acima de 40 MB de vídeo uma mensagem avisa que um jogo web com vídeo demora mais para carregar.
 - Nada é redimensionado nem convertido. Um cenário menor que a tela do jogo é esticado e pode ficar borrado, e a janela de importação avisa você.
 
 ## Importar imagens
 
 De três maneiras:
 
-- Clique em **{ui.assetsTab.import}** na aba Recursos (você pode escolher vários arquivos).
-- **Arraste imagens para a janela do editor.** Uma camada mostra “{tx.dropOverlay.dropYourImagesHere}”. Depois de soltar, a aba Recursos abre.
-- Use o atalho de importação de um seletor, por exemplo quando você escolhe um cenário ou uma expressão.
+- Clique em **{ui.assetsTab.import}** na aba Recursos (você pode escolher vários arquivos: imagens, vídeos ou sons).
+- **Arraste arquivos para a janela do editor.** Uma camada mostra “{tx.dropOverlay.dropYourImagesHere}”. Depois de soltar, a aba Recursos abre.
+- Use o atalho de importação de um seletor, por exemplo quando você escolhe um cenário ou uma expressão, ou o botão de importação da [aba Som](/novelworks-docs/pt-br/writing/sound/).
 
-Uma janela pede então que você confira **{ui.importDialog.name}** e **{ui.importDialog.type}** de cada imagem. O NovelWorks adivinha o tipo para poupar o seu tempo: uma imagem com transparência é considerada um sprite, uma imagem paisagem ou quadrada, um cenário, e uma imagem retrato, um sprite. Você pode mudar cada palpite. **{ui.dialogs.cancel}** não copia nada.
+Uma janela pede então que você confira **{ui.importDialog.name}** e **{ui.importDialog.type}** de cada imagem. O NovelWorks adivinha o tipo para poupar o seu tempo: uma imagem com transparência é considerada um sprite, uma imagem paisagem ou quadrada, um cenário, e uma imagem retrato, um sprite. Um vídeo começa como cenário, e só pode ser Fundo ou CG. Um som com menos de 1 MB é considerado um efeito sonoro, e um maior, uma música. Você pode mudar cada palpite. **{ui.dialogs.cancel}** não copia nada.
 
 Para um **sprite de personagem**, você também pode escolher **{ui.importDialog.addToCharacter}**: um personagem existente ou **{ui.importDialog.newCharacter}**, e o **{ui.importDialog.expressionName}**. Se um arquivo se chamar `mia_happy` e um personagem se chamar Mia, o NovelWorks propõe Mia e “happy” sozinho. Com várias imagens, você pode definir o tipo ou o personagem de todas de uma vez.
 
@@ -33,12 +35,16 @@ Para um **sprite de personagem**, você também pode escolher **{ui.importDialog
 | {ui.assetTypes.prop} | Uma imagem de um objeto (uma chave, uma carta…), colocada no palco dos momentos de exploração. |
 | {ui.assetTypes.uI} | Uma imagem para as telas do próprio jogo: caixa de diálogo, logo, botões. |
 | {ui.assetTypes.avatar} | Um pequeno retrato exibido ao lado do nome do falante. |
+| {ui.assetTypes.clothing} | {tx.assetTypes.clothingHelp} Veja [Roupas](/novelworks-docs/pt-br/writing/outfits/). |
+| {ui.assetTypes.music} | {tx.assetTypes.musicHelp} |
+| {ui.assetTypes.sound} | {tx.assetTypes.soundHelp} |
+| {ui.assetTypes.voice} | {tx.assetTypes.voiceHelp} |
 
-O seletor de cenário oferece cenários e CGs.
+O seletor de cenário oferece cenários e CGs. O seletor de expressão oferece só sprites de personagem, nunca peças de roupa.
 
 ## A aba Recursos
 
-Etiquetas filtram a lista por tipo, com o número de imagens em cada um. Selecione uma imagem para vê-la no inspetor:
+Etiquetas filtram a lista por tipo, com o número de arquivos em cada um. Todos os sons ficam em **{ui.assetsTab.sounds}**. Selecione um arquivo para vê-lo no inspetor (um som tem um pequeno player):
 
 - **{ui.assetInspector.name}**: o nome exibido no NovelWorks. Mudá-lo não renomeia o arquivo;
 - **{ui.assetInspector.type}**: você pode mudá-lo a qualquer momento;
@@ -55,4 +61,4 @@ Uma imagem em si não pode ser substituída no lugar. Para um personagem, clique
 
 ## Excluir uma imagem
 
-Clique em **{ui.assetInspector.deleteImage}**. O NovelWorks pergunta antes. Se a imagem for usada, ele lista onde e avisa que esses lugares ficarão sem imagem. O arquivo não é apagado na hora: quando você salva, ele é movido para `backups/deleted-assets`, e volta se você desfizer ou restaurar um backup. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).
+Clique em **{ui.assetInspector.deleteImage}** (**{ui.assetInspector.deleteSound}** para um som). O NovelWorks pergunta antes. Se a imagem for usada, ele lista onde e avisa que esses lugares ficarão sem imagem. O arquivo não é apagado na hora: quando você salva, ele é movido para `backups/deleted-assets`, e volta se você desfizer ou restaurar um backup. Veja [Salvar, backups e desfazer](/novelworks-docs/pt-br/getting-started/saving-and-undo/).

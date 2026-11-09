@@ -8,14 +8,14 @@ description: 项目文件夹里有什么，新旧项目如何处理，以及你�
 项目是一个**文件夹**，你可以像复制、移动或备份其他文件夹一样处理它：
 
 - `project.json`：你的整个游戏，放在一个文件里（JSON 格式的文本，缩进为 2 个空格）。
-- `assets`：你导入的图片。
-- `backups`：`project.json` 的较早版本；`backups/deleted-assets` 里是你删除的图片。
+- `assets`：你导入的图片、视频和声音。
+- `backups`：`project.json` 的较早版本；`backups/deleted-assets` 里是你删除的文件。
 
 每次保存时，NovelWorks 都会安全地写入文件（先写入临时文件，再重命名），所以保存时即使崩溃也不会损坏它。
 
 ## 格式版本
 
-`project.json` 有一个**格式版本**。这个版本的 NovelWorks 写出的是格式 **17**。每当格式发生变化，NovelWorks 都会增加一个自动升级，所以每个较旧的项目仍然可以打开。其中的一些变化：
+`project.json` 有一个**格式版本**。这个版本的 NovelWorks 写出的是格式 **26**。每当格式发生变化，NovelWorks 都会增加一个自动升级，所以每个较旧的项目仍然可以打开。其中的一些变化：
 
 | 格式 | 新增了什么 |
 |---|---|
@@ -32,6 +32,15 @@ description: 项目文件夹里有什么，新旧项目如何处理，以及你�
 | 15 | 角色留在舞台上：一个片段只记录它所更改的内容。 |
 | 16 | 带有多个情况的“如果…”。 |
 | 17 | 只有在某个条件成立时才出现的选择选项。 |
+| 18 | [制作人员名单](/novelworks-docs/zh-cn/game-ui/credits/)。 |
+| 19 | [章节](/novelworks-docs/zh-cn/game-ui/chapters/)。 |
+| 20 | [服装](/novelworks-docs/zh-cn/writing/outfits/)和衣橱。 |
+| 21 | [氛围与动态背景](/novelworks-docs/zh-cn/writing/ambience-and-animated-backgrounds/)。 |
+| 22 | [镜头](/novelworks-docs/zh-cn/writing/camera/)、景深和前景图片。 |
+| 23 | 每个片段可以有多个镜头。 |
+| 24 | 对话台词中的[富文本](/novelworks-docs/zh-cn/writing/rich-text/)，以及文字的五种颜色。 |
+| 25 | [效果](/novelworks-docs/zh-cn/writing/effects/)和粒子。 |
+| 26 | [声音](/novelworks-docs/zh-cn/writing/sound/)：音乐、环境音、音效和配音。 |
 
 ## 打开较旧的项目
 

@@ -3,7 +3,7 @@ title: Player options
 description: The screen where players choose their text size, speed, font and contrast, and what you control.
 ---
 
-The **{ui.gameUI.options}** screen is where players adapt the game to themselves. You control its **look**. The options themselves are the same in every game, and you cannot hide any of them.
+The **{ui.gameUI.options}** screen is where players adapt the game to themselves. You control its **look**. The options themselves are the same in every game, and you cannot hide any of them. The three volumes only appear if your game has sounds.
 
 ## What you can change
 
@@ -22,6 +22,7 @@ Under **{ui.gameUIInspector.screen}**:
 | Auto speed | Slow, Normal, Fast |
 | Dyslexia-friendly font | On, Off |
 | High contrast | On, Off |
+| {rt.optionsScreen.musicVolume}, {rt.optionsScreen.soundVolume}, {rt.optionsScreen.voiceVolume} (only if the game has sounds) | 0 to 100, in steps of 5 |
 
 A sample line shows the text as it will look, and **{rt.optionsScreen.defaults}** puts everything back. Changes apply at once. They apply **over** your Game UI, only for that player, and are kept for your game in their browser.
 

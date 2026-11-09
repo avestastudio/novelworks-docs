@@ -3,7 +3,7 @@ title: The game's memory
 description: "Scores and facts: how your game remembers what the player did."
 ---
 
-A choice only matters if the game **remembers** it. NovelWorks stores what happened in **variables**. There are two kinds.
+A choice only matters if the game **remembers** it. NovelWorks stores what happened in variables. There are two kinds.
 
 | Kind | What it holds | Example |
 |---|---|---|

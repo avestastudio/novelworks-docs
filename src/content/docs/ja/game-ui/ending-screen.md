@@ -12,3 +12,7 @@ description: ストーリーが終わったときに表示される画面と、�
 - 「{ui.gameUIInspector.textColor}」:初期設定は「{tx.gameUIInspector.sameAsTheTextColor}」です。
 
 タイトルの下には「{tx.game.returnToTitle}」と表示されます。この文は変更できません。クリックすると、プレイヤーはタイトル画面に戻ります。
+
+## エンディングの後のクレジット
+
+[クレジット](/novelworks-docs/ja/game-ui/credits/)と「{ui.credits.afterEnding}」をオンにしている場合、プレイヤーがクリックしてエンディングを離れるときにクレジットが流れます。これはこの画面でも、[エンディングのカット](/novelworks-docs/ja/branching/endings/)でも同じです。クレジットが閉じると、ゲームはタイトル画面に戻ります。

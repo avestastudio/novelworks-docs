@@ -7,17 +7,18 @@ NovelWorks is an editor for **visual novels**: stories told with a background, c
 
 ## What you do in NovelWorks
 
-1. Import your pictures: backgrounds, characters (with their expressions) and other images.
+1. Import your pictures and sounds: backgrounds, characters (with their expressions), other images and music.
 2. **Write scenes**: pick a background, put characters on the screen, type the dialogue.
 3. **Branch the story**: add choices, make the game remember what the player picked, and send the story to different scenes or endings.
-4. **Press {ui.topBar.play}** at any time to play your game from the title screen.
-5. Export the finished game for the web and publish it, for example on itch.io.
+4. **Bring it to life** if you want: [outfits](/novelworks-docs/writing/outfits/), [ambiences and animated backgrounds](/novelworks-docs/writing/ambience-and-animated-backgrounds/), [camera moves](/novelworks-docs/writing/camera/), [effects](/novelworks-docs/writing/effects/), [sound](/novelworks-docs/writing/sound/) and [rich text](/novelworks-docs/writing/rich-text/).
+5. **Press {ui.topBar.play}** at any time to play your game from the title screen.
+6. Export the finished game for the web and publish it, for example on itch.io.
 
 ## The four areas of the window
 
 When a project is open, the window has four areas. The [tour of the editor](/novelworks-docs/getting-started/tour-of-the-editor/) explains each one.
 
-- **Left**: your scenes, pictures, characters and variables.
+- **Left**: your scenes, pictures and sounds, characters and variables.
 - **Center**: the game screen, exactly as players will see it.
 - **Bottom**: the timeline, the moments of the current scene.
 - **Right**: the details of whatever you selected.

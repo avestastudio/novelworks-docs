@@ -214,3 +214,276 @@ Quatre agents qui n'avaient pas vu l'écriture ont relu les 73 pages contre le c
 - **Inventaire désactivé** : l'avertissement existait déjà (panneau Problèmes, badges, fenêtre d'export) ; un test de non-régression de 16 cas a été ajouté ; le Script ne le souligne pas. Page features/inventory mise à jour.
 - **« Export for Web… »** : le même libellé anglais dans le menu, la liste des raccourcis et (sans points de suspension) le titre de la fenêtre, dans les 7 langues. demo-build est fusionné dans docs-plan ; `data/ui/overlay.json` est vide ; l'avertissement « pending merge » a disparu.
 - **Steam** : contenu de la démo reconstruit (Windows + Mac) depuis docs-plan, contrôle des fichiers interdits OK ; **envoi non fait** (steamcmd demande le mot de passe, pas de session mémorisée). À lancer par l'utilisateur.
+
+## Version 0.8 (2026-11-09)
+
+# Evidence for the new pages
+
+Paths: A = apps/editor/src/renderer/src, C = A/components, S = packages/shared/src, R = packages/runtime/src, M = apps/editor/src/main.
+
+| page | claim | proof (file:line or {ui.key}) | code |
+|---|---|---|---|
+| moment-panel | Four tabs Text, Image, Effects, Sound | C/MomentInspector.tsx tabs array; {ui.inspectorTabs.text} {ui.inspectorTabs.image} {ui.inspectorTabs.effects} {ui.sound.tab} | `tabs = [text,image,effects,sound]` |
+| moment-panel | Dot on Effects: camera, foreground, particles or effects | C/MomentInspector.tsx tabs array | `used: !!stage.camera \|\| !!stage.foreground \|\| !!stage.particles \|\| effects.length>0` |
+| moment-panel | Dot on Sound: moment's own sound; none on Text/Image | C/MomentInspector.tsx tabs array | `used: !!moment.sound`, `used: false` |
+| moment-panel | Problems box above the tabs | C/MomentInspector.tsx | `problems.length > 0 && <ProblemsBox>` before tablist |
+| moment-panel | Text tab: where it leads only in Visual view, then note and script sample | C/MomentInspector.tsx TextTab, ScriptLineSection; C/FlowStrip.tsx:13,24 | `storyView === 'visual' && <FlowStrip>` |
+| moment-panel | Image tab order: scope, background, ambience, on stage | C/MomentInspector.tsx ImageTab | sections in order |
+| moment-panel | Effects tab: scope, camera with preview, effects | C/MomentInspector.tsx EffectsTab; {ui.camera.open} {ui.effects.open} | |
+| moment-panel | + Dialogue adds after selected moment | C/Timeline.tsx:156-159; {ui.moments.dialogue} {ui.timeline.addedAfterTheSelectedMoment} | `MOMENT_KINDS.dialogue.label` |
+| moment-panel | Other lists other kinds, each with help; Item and Map need features | C/Timeline.tsx:27-54,161; A/moments.ts:65-67 | `type !== 'item' \|\| project.features.inventory` |
+| moment-panel | Duplicate/delete under timeline and right-click | C/Timeline.tsx:166-177; A/contextMenus.ts:140-145,168 | |
+| moment-panel | Above screen: background, Character, zone tools, Visual/Script | C/Stage.tsx:70-92 | `canvas-toolbar` |
+| moment-panel | Background and Character switch panel to Image | C/Stage.tsx:73-75,86 | `setInspectorTab('image')` |
+| moment-panel | Bar over character: expression and outfit only | C/Stage.tsx:386-393; C/StageControls.tsx:255-259 | `ExpressionPicker`, `OutfitPicker` (null without outfits) |
+| rich-text | Fields on game screen and Text tab | C/Stage.tsx:333; C/MomentInspector.tsx RichTextField | |
+| rich-text | Toolbar contents | C/RichTextField.tsx rich-bar; {ui.richText.bold} {ui.richText.italic} {ui.richText.customColor} {ui.richText.small} {ui.richText.big} {ui.richText.shake} {ui.richText.wave} {ui.richText.clear} | |
+| rich-text | Cmd/Ctrl+B and I | C/RichTextField.tsx onKeyDown | `event.metaKey \|\| event.ctrlKey` + b/i |
+| rich-text | One size, one movement; click again removes | S/richText.ts RichStyle; C/RichTextField.tsx toggle | `size?`, `effect?`, `rangeHasStyle ? null : wanted` |
+| rich-text | Palette in Game UI, Dialogue box | C/GameUIInspector.tsx:518-522; {ui.richText.palette} | `textColors` |
+| rich-text | Palette change reaches words; custom does not | R/resolve.ts:165-168; S/richText.ts validColor | slot '1'-'5' vs '#rrggbb' |
+| rich-text | Pause default 0.5, 0.1 to 5, click chip | S/richText.ts RICH_PAUSE; C/RichTextField.tsx onClick, rich-pause-pop | `{ min: 0.1, max: 5, default: 0.5 }` |
+| rich-text | Variable: name in editor, value in game, yes/no, nothing if deleted | C/RichTextField.tsx draw; R/resolve.ts:161-164; {rt.game.yes} | `current === undefined ? ''` |
+| rich-text | Typed letter by letter, stops at pauses | R/reading.ts:188-191; R/game.ts:341 | `richPauses` |
+| rich-text | First click whole line | R/game.ts completeMoment/onClick | `completeReveal()` |
+| rich-text | Reduced motion: letters do not move | R/game.ts:608; R/render.ts renderRichText | `liveText: interactive && !reduced`, `effect && live` |
+| rich-text | History and screen readers get words alone | R/resolve.ts:165; R/history.ts:24; R/game.ts:285 | `plainRich` |
+| rich-text | Script tags and English words | S/script/richTags.ts; {ui.script.tag.b} and siblings in editor-en.json | `script.tag.*` |
+| rich-text | Script: variable by name, `{{`, other languages | S/script/richTags.ts tagLookup, scriptTag; S/richText.ts escapeRich | all catalogs in `tagLookup` |
+| rich-text | Dialogue only | C/MomentInspector.tsx TextTab; R/resolve.ts:160-168 | `content.type === 'dialogue'` |
+| outfits | Open from Characters panel and stage panel | C/CharacterInspector.tsx:181-192; C/StageCharacterInspector.tsx:45-51; {ui.wardrobe.open} | |
+| outfits | Window content, undo while open | C/WardrobeWindow.tsx Modal | `projectUndo` |
+| outfits | Drop or plus; Clothing only | C/WardrobeWindow.tsx dropFiles, ImagePicker; {ui.wardrobe.addPiece} {ui.assetTypes.clothing} | `categories: ['clothing']` |
+| outfits | One piece per category | C/WardrobeWindow.tsx wear; S/characters.ts:81 | `draft[category.id]` |
+| outfits | Four categories at first | A/wardrobe.ts ensureWardrobe; {ui.wardrobe.category.shoes} | |
+| outfits | 12 categories | S/characters.ts:5 | `WARDROBE_MAX_CATEGORIES = 12` |
+| outfits | Delete category removes pieces, from outfits; pictures stay | A/wardrobe.ts removeCategory, comment above removePiece | |
+| outfits | Can't be taken off removes None | C/WardrobeWindow.tsx | `!category.required &&` |
+| outfits | Frame, drag, corner, arrows, Shift | C/WardrobeWindow.tsx PieceFrame | `event.shiftKey ? 2 : 0.25` |
+| outfits | 5 % to 400 % | S/characters.ts:8-9; A/wardrobe.ts clampScale | |
+| outfits | Placement per piece | A/wardrobe.ts setPiecePlacement | `piece.placement` |
+| outfits | Same shape lies over, other keeps own size | A/wardrobe.ts fittedPlacement | aspect ratio test |
+| outfits | Front on top; expression row moves | C/WardrobeWindow.tsx rows reverse, moveButtons; {ui.wardrobe.expressionLayer} | `wardrobeRows(wardrobe).reverse()` |
+| outfits | Try on without saving | C/WardrobeWindow.tsx wear | `setDraft` only |
+| outfits | Save, Update when changed | C/WardrobeWindow.tsx wardrobe-actions; {ui.wardrobe.saveAsNew} {ui.wardrobe.updateOutfit} | `selected && dirty` |
+| outfits | Default outfit has no pieces | S/characters.ts:89-93 | `outfit?.pieces` undefined |
+| outfits | Whole drawings replace layers | S/characters.ts:90-92; {ui.wardrobe.wholeDrawingsHelp} | |
+| outfits | Three ways in story | C/StageCharacterInspector.tsx:42-43; C/Stage.tsx:392; A/contextMenus.ts:191 | |
+| outfits | Lasts, scope applies | A/scenes.ts:625-631 | `editStage` |
+| outfits | Script form | S/script/generate.ts:28,57; {ui.script.kw.show} {ui.script.kw.outfit} {ui.script.kw.defaultOutfit} | `show : ...` |
+| outfits | Unknown outfit flagged, can create | {ui.script.problem.unknownOutfit} {ui.script.fix.createOutfit}; A/scriptProblems.ts | |
+| outfits | Delete outfit: wearers back to default | A/characters.ts:127-131 | `outfitId: _gone` |
+| outfits | Delete piece: out of outfits | A/wardrobe.ts removePiece | |
+| outfits | Paste finds by name, else default | A/clipboardRefs.ts:24,198-202 | |
+| outfits | Export only worn pieces | S/export.ts:43-45 | `worn.has(piece.id)` |
+| outfits | 20 outfits, 200 pieces | S/characters.ts:4,6 | |
+| outfits | Avatars do not change | S/characters.ts:26-32 | no outfit in `avatarCandidates` |
+| outfits | Demo 2 outfits | S/demoLimits.ts DEMO_LIMITS | `outfits: 2` |
+| ambience | Tiles and labels | C/StageControls.tsx:119-142; S/ambience.ts:3; {ui.ambience.none} {ui.ambience.memory} | |
+| ambience | Intensity 0-100, starts 100; characters checked | C/StageControls.tsx:126,150,153 | `intensity ?? 1`, `characters ?? true` |
+| ambience | Persistence and scope | A/scenes.ts:539-541 | `editStage` |
+| ambience | Script keeps | S/script/resolve.ts:111 | comment and code |
+| ambience | GIF, WebP as pictures | M/projectFiles.ts:77 | `IMAGE_EXTENSIONS` |
+| ambience | MP4, WebM | M/projectFiles.ts:78 | `VIDEO_EXTENSIONS` |
+| ambience | Three import routes | C/StageControls.tsx:92; C/AssetsTab.tsx:35; A/assets.ts:187 | `allowVideo: true` |
+| ambience | Background or CG | C/ImportDialog.tsx:130; A/assetTypes.ts:27-29; A/assets.ts:70 | `isFullScreenType` |
+| ambience | Play sign and hover | C/AssetPicture.tsx | `onMouseEnter`, `asset-video-mark` |
+| ambience | First picture in editor; loop, no sound in game | R/render.ts:526-543; C/MomentScreen.tsx:48 | `stillVideos`, `muted`, `loop` |
+| ambience | Stops during pause menu | R/game.ts show() | `position && !paused ? play : pause` |
+| ambience | 40 MB notice, never refused | A/assets.ts:13-14,114-117; M/projectFiles.ts:127; {ui.assets.heavyVideo} | |
+| ambience | Not recompressed in zip | M/zip.ts:19-20 | regex on mp4, webm |
+| ambience | Video only as a moment background | A: only C/StageControls.tsx passes `allowVideo` to ImagePicker; C/ImagePicker.tsx:30 | |
+| ambience | Picture over 50 MB refused | M/projectFiles.ts:120,136 | `MAX_IMAGE_BYTES` |
+| camera | Opened from Effects tab | C/MomentInspector.tsx EffectsTab | `setOpen(true)` |
+| camera | Editor screen shows whole scene; thumbnail shows camera | C/MomentScreen.tsx:48; C/MomentInspector.tsx EffectsTab | `noCamera: editing` |
+| camera | 6 shots | S/camera.ts CAMERA_SHOTS_MAX; C/CameraWindow.tsx:264 | |
+| camera | Drag frame, play, stop | C/CameraWindow.tsx:152-172; {ui.camera.play} {ui.camera.stop} | |
+| camera | Presets replace shots, keep look; first character | A/cameraEditing.ts applyPreset; C/CameraWindow.tsx:132 | `stage.characters[0]` |
+| camera | Each preset's description | A/cameraEditing.ts `shots` table | |
+| camera | Frame on face, no follow | S/camera.ts frameOnCharacter; C/CameraWindow.tsx:187 | writes x, y, zoom only |
+| camera | Zoom 100-400 | S/camera.ts CAMERA_ZOOM | |
+| camera | Moves and labels | S/camera.ts CAMERA_MOVES; {ui.camera.smooth} {ui.camera.steady} {ui.camera.quick} {ui.camera.cut} | |
+| camera | Duration 0.2-8; hold label | S/camera.ts CAMERA_SECONDS; C/CameraWindow.tsx:210-212 | `holds ? 'camera.hold'` |
+| camera | Blur on background only | R/render.ts:571 | `BLURRED_LAYERS` |
+| camera | Tilt 12 | S/camera.ts CAMERA_TILT_MAX | |
+| camera | First shot of first moment shows Start | C/CameraWindow.tsx:108,198,260; {ui.camera.start} | `arrives` |
+| camera | Whole-moment list | C/CameraWindow.tsx:18,225-235 | |
+| camera | Depth starts at 100 | A/cameraEditing.ts WIDE_CAMERA | `depth: 1` |
+| camera | Foreground covers, clicks through, moves more | R/render.ts renderForeground, CAMERA_PLANES; S/camera.ts DEPTH | `pointerEvents: 'none'`, `objectFit: 'cover'` |
+| camera | Lasts, scope in window | A/scenes.ts:573-580; C/CameraWindow.tsx:119 | |
+| camera | First click ends movement and line | R/game.ts completeMoment | `finishCamera(screen)` |
+| camera | Next moments keep last shot | R/render.ts renderCamera | `previous?.key === key` |
+| camera | Glide in scene; new scene direct | R/game.ts:608 | `animateCamera: cameraScene === sceneId` |
+| camera | Load on last shot | R/game.ts loadSave | `cameraRestored = true` |
+| camera | Dialogue box never moves | R/render.ts:553,562-569 | not in `CAMERA_PLANES` |
+| camera | Reduced motion | R/game.ts:608; R/render.ts renderCamera | `!playing` -> `place(last)`, `handheld`, fade need `playing` |
+| camera | Exploration ignores tilt, depth | R/render.ts renderCamera; {ui.camera.explorationNote} | `!view.exploration` |
+| camera | Script keeps | S/script/resolve.ts:111 | |
+| camera | Demo 2 shots | S/demoLimits.ts | `cameraShots: 2` |
+| effects | Six categories, five each | C/EffectsWindow.tsx:18; S/effects.ts:3-12 | 30 in all |
+| effects | Click plays | C/EffectsWindow.tsx chooseName | `tryEffect` |
+| effects | Character for three categories | S/effects.ts CHARACTER_EFFECTS | |
+| effects | Duration 0.2-3 | S/effects.ts EFFECT_SECONDS | |
+| effects | Intensity reactions, screen, particles 10-100 | S/effects.ts HAS_INTENSITY; C/EffectsWindow.tsx:225,237 | |
+| effects | Speed 20-200 | S/effects.ts PARTICLE_SPEED; C/EffectsWindow.tsx:220 | |
+| effects | 12 max, particles not counted | S/effects.ts EFFECTS_MAX; C/EffectsWindow.tsx:156 | `!isParticles && ...` |
+| effects | Play all | C/EffectsWindow.tsx:151-154; {ui.effects.playAll} | |
+| effects | One after another; transition first; only first | R/effects.ts playEffects | `effects.find(... 'transition')`, `at += seconds` |
+| effects | Exit removes; only plays if leaving | C/EffectsWindow.tsx:149; R/effects.ts | `leaving.includes` |
+| effects | Particles last, one kind, scope, stop | A/scenes.ts:544-546; C/EffectsWindow.tsx:249-253; {ui.effects.particlesLast} {ui.effects.stopParticles} | single `stage.particles` |
+| effects | Defaults in Fonts & colors | C/GameUIInspector.tsx:141-146; A/gameUI.ts:7; {ui.effects.defaultsTitle} {ui.effects.defaultNone} | screen `global` |
+| effects | Default none in new game | S/schema.ts:447-448; R/effects.ts | `.optional()` |
+| effects | Click ends; particles go on | R/effects.ts finishEffects; R/game.ts completeMoment | |
+| effects | Skip, load, reduced | R/game.ts show() | `reduced \|\| cameraRestored \|\| mode === 'skip'` |
+| effects | Reduced particles still | R/game.ts:608; R/render.ts renderParticles | `animationPlayState` |
+| effects | Script keeps | S/script/resolve.ts:122 | `...(old?.effects ...)` |
+| effects | Demo: try but not add | C/EffectsWindow.tsx:140-142; S/demoLimits.ts | `showDemoLimit` |
+| sound | MP3, OGG, WAV | S/sound.ts AUDIO_EXTENSIONS | |
+| sound | Import routes | C/AssetsTab.tsx:35; A/assets.ts:187; C/SoundTab.tsx SoundPicker | |
+| sound | Types, filter | A/assetTypes.ts; C/AssetsTab.tsx:17; {ui.assetTypes.music} {ui.assetsTab.sounds} | |
+| sound | Three choices | C/SoundTab.tsx ChannelSection; {ui.sound.continue} {ui.sound.chooseMusic} {ui.sound.stop} | |
+| sound | Fade 0-10 | S/sound.ts SOUND_FADE_MAX | |
+| sound | Picker kinds | C/SoundTab.tsx CHANNEL_KINDS | `ambience: ['sound','music']` |
+| sound | Up to 6; seen moments | S/sound.ts SOUND_EFFECTS_MAX; S/scenes.ts:172-173; C/SoundTab.tsx SoundTab | `momentIsSeen` |
+| sound | Voice on dialogue; stops at next | C/SoundTab.tsx SoundTab; R/game.ts playMomentSound; R/audio.ts setVoice | |
+| sound | Across scenes | S/sound.ts header; R/game.ts playMomentSound; {ui.sound.musicHelp} | |
+| sound | Not scoped | A/scenes.ts:549 | `editMoment` |
+| sound | Bands; dashes; click | C/SoundTab.tsx SoundRows; styles.css:6114; S/sound.ts soundBands | `is-inherited` |
+| sound | Editor follows list order | S/sound.ts soundAt comment | |
+| sound | Title music | C/GameUIInspector.tsx:474; R/game.ts playScreenSound | |
+| sound | Skip/load no one-shots | R/game.ts playMomentSound | `heard = !cameraRestored && mode !== 'skip'` |
+| sound | Auto waits for voice | R/game.ts:782 | `audio?.voiceBusy()` |
+| sound | Volumes only with sounds; ambience on Sounds | R/optionsScreen.ts:94; R/game.ts:139,206; R/audio.ts setChannel | `hasSound`, `channel === 'music' ? 'music' : 'sounds'` |
+| sound | Browser autoplay | R/audio.ts header, retryRefused | |
+| sound | Demo 5 sounds | S/demoLimits.ts | `sounds: 5` |
+| credits | Off by default; switches on | S/schema.ts CreditsThemeSchema | `enabled false`, `onTitleScreen true`, `afterEnding true`, `novelWorksMention true` |
+| credits | Button on title | R/game.ts:707-708; {rt.game.credits} | |
+| credits | After Ending moment or The End | R/game.ts:376-377 (commit 793b0a8) | `leavingAnEnding` |
+| credits | Title after | R/game.ts:231-236; R/player.ts:88,92 | `send advance` -> TITLE |
+| credits | Title, author, lines | R/creditsScreen.ts creditsLines | |
+| credits | 30 lines, empty ignored, arrows | S/contentWarning.ts:23; R/creditsScreen.ts; C/GameUIInspector.tsx:366-369 | |
+| credits | Colors, style, reset | C/GameUIInspector.tsx:389-400,109 | |
+| credits | Rolls, stops; Back, Esc, Enter, Space | R/creditsScreen.ts CSS, onKeyDown; {rt.credits.back} | |
+| credits | Reduced motion and preview still | R/creditsScreen.ts | `still = !interactive \|\| reducedMotion` |
+| chapters | Mark on a scene, optional name | C/SceneInspector.tsx:51-60; {ui.sceneInspector.startsChapter} | |
+| chapters | Default name | R/chaptersScreen.ts chapterTitle; {rt.chapters.chapterNumber} | |
+| chapters | Lasts to next, list order, 50 | S/chapters.ts; {ui.sceneInspector.chapterHelp} | `CHAPTERS_MAX = 50` |
+| chapters | Delete scene removes | S/scenes.ts:140-141 | |
+| chapters | Title button if at least one | R/game.ts:703-704 | `chapterList.length > 0` |
+| chapters | Locked shows ??? | R/chaptersScreen.ts refresh; {rt.chapters.locked} | |
+| chapters | Reached however | R/game.ts:396,446,506-510 | `markChapterReached` |
+| chapters | First moment, starting values | R/game.ts:249; R/player.ts:80-85,159-163 | `momentId: null`, `startingMemory` |
+| chapters | Kept per game, test apart | R/chaptersScreen.ts createChapterStore; packages/runtime/player/main.ts:122; C/PlayOverlay.tsx:109 | `'test'` space |
+| chapters | Look, reset | C/GameUIInspector.tsx:281-302,109 | |
+| chapters | Preview samples, last locked | A/gameUIPreview.ts:180-191 | |
+| page | claim | proof (file:line or {ui.key}) | code |
+|---|---|---|---|
+| tour-of-the-editor | Windows menu button first in top bar | components/AppMenuButton.tsx:8; TopBar.tsx:62 | `{ui.appMenuButton.menu}` |
+| tour-of-the-editor | Assets tab holds pictures, videos, sounds | AssetsTab.tsx:16-17,35 | `allowVideo: true, allowAudio: true` |
+| tour-of-the-editor, staging | Above game screen: background, + Character, zone tool on exploration, Visual/Script | Stage.tsx:70-93 | `canvas-toolbar` |
+| tour, staging | Floating bar keeps expression and outfit only | Stage.tsx:385-393 | `ExpressionPicker`, `OutfitPicker` |
+| staging | Outfit in the bar only with outfits | StageControls.tsx:259 | `outfitsOf(character).length === 0` returns null |
+| tour | Chart shows fewer rows on short window (780) | Timeline.tsx:356-364 | `height < 780 ? ... : 5` |
+| tour, timeline, moments, first-novel, choices, endings, exploration | Header has Dialogue and Other; Other lists kinds with help | Timeline.tsx:27-62,130,152-161 | `{ui.moments.dialogue}`, `{ui.timeline.addOther}` |
+| tour, timeline, moments | Duplicate and delete icons in timeline header and right-click | Timeline.tsx:163-180; contextMenus.ts:139-147,168 | `duplicateCurrentMoment`, `deleteMoment` |
+| tour, timeline | Sound rows under chart when the scene has sounds | Timeline.tsx:221; SoundTab.tsx:316-321 | `SoundRows`, `rows === 0 ? 0` |
+| tour, moments | Four tabs and their contents | MomentInspector.tsx:49-54,127-292 | `{ui.inspectorTabs.text}`, `{ui.inspectorTabs.image}`, `{ui.inspectorTabs.effects}`, `{ui.sound.tab}` |
+| tour, staging | Panel of a character on stage | Inspector.tsx:58-60; StageCharacterInspector.tsx:26-101 | `{ui.inspector.characterOnStage}` |
+| first-novel | + Character button label | StageControls.tsx:311,336 | `{ui.stageControls.character}` |
+| welcome, index | Feature list: outfits, ambience, camera, effects, sound, rich text | CHANGELOG.md 0.8.0-beta; MomentInspector.tsx:229,269,282 | release notes |
+| guided-tour | Step 5 text | {tx tutorial.background.text}; Tutorial.tsx:18 | `tutorial.background.text` |
+| guided-tour | Step 7 highlights the scope switch | Tutorial.tsx:20; `tutorial.persist.text` | `{ui.stage.scopeOnlyHere}` |
+| projects-screen, saving | assets folder holds pictures, videos, sounds; all deleted files moved | assets.ts:104,218 | `deletedFileNames` |
+| demo-edition | 5 scene export limit; other overruns listed in the window | NovelWorks-demo/packages/shared/src/demoLimits.ts:7,72-75; NovelWorks-demo/apps/editor/src/preload/edition.ts:61-66 | `exceedsDemoLimit`, `demoLimitMessage` |
+| demo-edition | Limits 3/2/2/5/5/3 | demoLimits.ts DEMO_LIMITS | `{ characters: 3, outfits: 2, cameraShots: 2, sounds: 5, variables: 5, items: 3 }` |
+| demo-edition | 10 of 25 effects, two per category | demoLimits.ts DEMO_EFFECTS; packages/shared/src/effects.ts:3-9 | `EFFECT_NAMES` 5x5 |
+| demo-edition | 2 of 5 particles: rain, snow | demoLimits.ts DEMO_PARTICLES; effects.ts:12 | `PARTICLE_IDS` |
+| demo-edition | Limit window buttons; Steam demo wishlist | NovelWorks-demo/.../DemoLimitDialog.tsx:12-26,46-52 | `{ui.demoLimit.continue}`, `{ui.demoLimit.wishlist}` |
+| demo-edition | Locked effect shows a padlock, can be tried, not added | NovelWorks-demo/.../EffectsWindow.tsx:134-143,202 | `Lock`, `showDemoLimit` |
+| demo-edition | Limits stop adding only; over-limit project opens, not exported | demoGate.ts:3; `demoLimit.body`; edition.ts:57 | `demoExportBlocked` |
+| concepts/stage | Ambience, camera, particles carry over | packages/shared/src/schema.ts:188-193; MomentInspector.tsx:284 | `StageChangeSchema` |
+| concepts/stage, staging | Scope switch in Image, Effects, character panel | StoryViewSwitch.tsx:28; MomentInspector.tsx:209,267; StageCharacterInspector.tsx:28 | `StageScopeSwitch` |
+| concepts/stage, staging | On stage bar in Image tab | MomentInspector.tsx:234-238 | `CastBar` |
+| concepts/stage | Chart bar breaks on outfit and ambience | packages/shared/src/stageChange.ts:318-320 | `c.outfitId`, `stage.ambience?.id` |
+| concepts/stage | Right-click Outfit when outfits exist | contextMenus.ts:188-203 | `{ui.contextMenus.outfit}` |
+| concepts/stage, staging | Start banner in Image tab | MomentInspector.tsx:210 | `SceneStartBanner` |
+| how-stories-branch | Where this leads in Text tab, above preview in Script | MomentInspector.tsx:171-175; ScriptMode.tsx:303 | `FlowStrip` |
+| staging | Apply to following in Image tab | MomentInspector.tsx:226 | `{ui.momentInspector.applyToTheFollowingMoments}` |
+| staging | Character controls and keys | StageCharacterInspector.tsx:27,56,66,80-94 | `{ui.stageCharacterInspector.forward}` etc. |
+| staging | Remove follows the scope switch | scenes.ts:671-672 | `mode?: StageScope` |
+| staging | Fit badge and More menu are gone | Stage.tsx:70-93; catalog has no stage.more | absence |
+| moments-and-dialogue | Text and speaker in Text tab | MomentInspector.tsx:135-155 | `{ui.momentInspector.speaker}` |
+| moments-and-dialogue | No Delete button in the moment panel | MomentInspector.tsx (none); Timeline.tsx:172-180 | absence |
+| characters | Wardrobe button under Outfits | CharacterInspector.tsx:177-193 | `{ui.outfits.heading}`, `{ui.wardrobe.open}` |
+| assets | Extensions | apps/editor/src/main/projectFiles.ts:77-78; packages/shared/src/sound.ts:10 | `IMAGE_EXTENSIONS`, `VIDEO_EXTENSIONS`, `AUDIO_EXTENSIONS` |
+| assets | 50 MB pictures, video and sound never refused for size | projectFiles.ts:120,127-138 | `MAX_IMAGE_BYTES` |
+| assets | 40 MB video message | assets.ts:14,116-118; `assets.heavyVideo` | `HEAVY_VIDEO_BYTES` |
+| assets | Video accepted where allowVideo | assets.ts:26,41; AssetsTab.tsx:35; StageControls.tsx:92,101; assets.ts:187 | `allowVideo` |
+| assets | Sound tab import | assets.ts:29-30 | `options.sound` |
+| assets | Video type limited to Background/CG; default background | ImportDialog.tsx:130; assets.ts:70; assetTypes.ts isFullScreenType | `isFullScreenType` |
+| assets | Sound guess at 1 MB | assets.ts:15,129-131 | `SHORT_SOUND_BYTES` |
+| assets | Clothing, Music, Sound, Voice types | assetTypes.ts ASSET_TYPES | `{ui.assetTypes.clothing}`, `{ui.assetTypes.music}`, `{ui.assetTypes.sound}`, `{ui.assetTypes.voice}` |
+| assets | Expression picker only sprites | ImagePicker.tsx default `categories = ['sprite']`; CharacterInspector.tsx:256-262 | default prop |
+| assets | Sounds filter, audio player, Delete sound | AssetsTab.tsx:17; AssetInspector.tsx:21,66 | `{ui.assetsTab.sounds}`, `{ui.assetInspector.deleteSound}` |
+| copy-paste | Duplicate icon in timeline; outfit names carried | Timeline.tsx:163-171; clipboardRefs.ts:11,135-139 | `outfits?: Record` |
+| scenes | Chapter switch and name; list order | SceneInspector.tsx:50-64; packages/shared/src/chapters.ts:16-20 | `{ui.sceneInspector.startsChapter}` |
+| notes | Note in Text tab | MomentInspector.tsx:177; scenes.ts:642-645 | `setInspectorTab('text')` |
+| script-mode | Ambience, camera, effects, sounds kept | packages/shared/src/script/resolve.ts:111-122 | `old?.effects`, `old?.sound` |
+| script-mode-lines | `outfit` word, `outfit default` | keywords.ts:18-19; generate.ts:57; catalog `script.kw.outfit`, `script.kw.defaultOutfit`, `script.help.ex.showOutfit` | `kw('outfit')` |
+| variables | Variable shown in a line | MomentInspector.tsx:83-124 | `insertInRichField` kind variable |
+| endings | Credits roll after an ending when on | packages/runtime/src/game.ts:375-378; schema.ts:620; GameUIInspector.tsx:336 | `{ui.credits.afterEnding}` |
+| page | claim | proof (file:line or {ui.key}) | code |
+|---|---|---|---|
+| game-ui/title-screen | Four templates; set only background color and button style | {ui.templates.heading}; packages/shared/src/templates.ts:8-17 | `TITLE_TEMPLATE_VALUES` |
+| game-ui/title-screen | One undo step; card highlighted while matching | apps/editor/src/renderer/src/components/GameUIInspector.tsx:422,429 | `set({ ...values })`, `aria-pressed={current === id}` |
+| game-ui/title-screen | Music section: choose, volume, remove | GameUIInspector.tsx:473-475; SoundTab.tsx:270-298; {ui.sound.chooseMusic} {ui.sound.volume} | `kinds={['music']}` |
+| game-ui/title-screen | Music waits for intro; moments take over | packages/runtime/src/game.ts:551,582-590,564-568 | `introPending`, `setChannel('music', cueOf(project.theme.title.music)…)` |
+| game-ui/title-screen, publish/* | Browsers block sound until first click or key | packages/runtime/src/audio.ts:7,34,75-80 | `UNLOCK_EVENTS` |
+| game-ui/title-screen | Chapters and Credits buttons and conditions | game.ts:703-709 | `chapterList.length > 0`; `theme.credits.enabled && theme.credits.onTitleScreen` |
+| game-ui/dialogue-box | Templates change only position, margin, width, height | packages/shared/src/templates.ts:22-29 | `Pick<DialogueTheme,'position'\|'margin'\|'width'\|'height'>` |
+| game-ui/dialogue-box | Five colors of the words | GameUIInspector.tsx:519-524; packages/shared/src/richText.ts:15-16; {ui.richText.palette} | `RICH_COLOR_SLOTS = 5` |
+| game-ui/game-ui-editor | Credits and Chapters in the list, before Title screen | apps/editor/src/renderer/src/gameUI.ts:10-12 | `GAME_UI_SCREENS` |
+| game-ui/fonts-and-colors | Arriving/leaving is on the Fonts & colors screen (code has no "General" screen) | GameUIInspector.tsx:143-147; {ui.gameUI.fontsColors} | `effects.defaultsTitle` in `GlobalSettings` |
+| game-ui/fonts-and-colors | Default is "At once" | GameUIInspector.tsx:1022-1023; packages/shared/src/schema.ts:447-448 | `.optional()` |
+| game-ui/ending-screen | Credits after The End and after an Ending moment, then title | game.ts:375-380,231-235 | `leavingAnEnding` |
+| game-ui/options, player/options-and-accessibility | Volumes only if the game has sounds; 0-100 step 5 | packages/runtime/src/optionsScreen.ts:94-96,191-194; game.ts:139,206 | `hasSound: soundFiles.size > 0` |
+| player/options-and-accessibility | Sounds = ambience + sound effects; default 100 | packages/runtime/src/playerOptions.ts:21,36-38 | `soundVolume` |
+| player/options-and-accessibility | Reduced motion: text instant, letters still | playerOptions.ts:52-54; game.ts:608; render.ts:253 | `liveText: interactive && !reduced` |
+| player/options-and-accessibility | Reduced motion: camera last shot, no handheld | game.ts:608; render.ts:670,680,742-743 | `if (!playing \|\| atEnd) place(last…)` |
+| player/options-and-accessibility | Reduced motion: no effects, particles still | game.ts:608,614; render.ts:790 | `if (reduced \|\| cameraRestored \|\| mode === 'skip') draw([])` |
+| player/options-and-accessibility | Reduced motion: credits do not roll | creditsScreen.ts:87 | `const still = !interactive \|\| options.reducedMotion` |
+| player/options-and-accessibility, text-reveal | Screen reader gets plain words | game.ts:~342 liveLine; resolve.ts:165 | `plainRich(content.text, value)` |
+| player/text-reveal | First click finishes text, effects, camera; particles continue | game.ts:1064-1069,1074,1212; effects.ts:32-43 | `completeMoment` |
+| player/text-reveal | Choice key only finishes the text | game.ts:1220 | `completeReveal()` |
+| player/text-reveal | Pauses stop the text; Instant ignores them | game.ts:341; reading.ts:208-214 | `richPauses`; `shown = instant ? graphemes.length : 0` |
+| player/text-reveal | Shake and wave move | render.ts:577-580,877 | `.vne-ch-shake`, `.vne-ch-wave` |
+| player/auto-and-skip | Skipped moments: no effects, voices, sound effects | game.ts:571,614 | `const heard = !cameraRestored && mode !== 'skip'…` |
+| player/auto-and-skip | Auto waits for voice, then 0.6 s, speed ignored | game.ts:782,789,1314 | `AUTO_AFTER_VOICE_MS = 600` |
+| player/auto-and-skip | Next line cuts the voice | game.ts:572-573; audio.ts:22 | `audio.setVoice(voice)` |
+| player/keys-and-touch | Esc closes Credits and Chapters; Enter/Space close Credits; up/down in Chapters | creditsScreen.ts:120-138; chaptersScreen.ts:141-153 | `onKeyDown` |
+| player/history | Plain words | history.ts:24; resolve.ts:165 | `dialogue.text` is `plainRich` |
+| player/save-and-load | Save holds music and ambient sound | packages/runtime/src/player.ts:481-482 | `sound?: SoundState` |
+| player/save-and-load | Chapters kept separately | game.ts:143; chaptersScreen.ts createChapterStore | `chapterStore` |
+| player/save-and-load | Loaded moment: last shot, no effects/voice/sfx | game.ts:445,571,614 | `cameraRestored = true` |
+| testing/play | Esc closes Credits and Chapters first | game.ts:256,1293; PlayOverlay.tsx:128-132 | `extraOpen()` in `menuOpen` |
+| testing/test-saves | Test chapters have no clear button | PlayOverlay.tsx:50-51,64,109 | only reads and saves are cleared |
+| testing/problems | No warnings for outfits, ambience, camera, effects, sound | packages/shared/src/problems.ts:12-70 | `findMomentProblems` covers none |
+| publish/web-export | Demo refuses projects over any limit | apps/editor/src/main/exportIpc.ts:68; preload/edition.ts:57-65; demoLimits.ts exceedsDemoLimit | {tx}`demoLimit.exportOver` |
+| publish/web-export | Used pictures, videos, sounds; worn pieces only | packages/shared/src/export.ts:11-59 | `usedAssetIds` |
+| publish/web-export | Files copied as is | apps/editor/src/main/webExport.ts:109-111 | `readFile` |
+| publish/web-export | 40 MB import warning, never refused | apps/editor/src/renderer/src/assets.ts:13-14; {tx}`assets.heavyVideo` | `HEAVY_VIDEO_BYTES` |
+| publish/web-export | mp4/webm/mp3/ogg not compressed; others if smaller | apps/editor/src/main/zip.ts:19-21 | regex |
+| publish/web-export | .zip max 4 GB | zip.ts:33-34 (32-bit sizes, no zip64) | `writeUInt32LE` |
+| reference/keyboard-shortcuts | Cmd+B, Cmd+I | RichTextField.tsx:269-271 | `toggleOnSelection` |
+| reference/keyboard-shortcuts | Arrows nudge a wardrobe piece | WardrobeWindow.tsx:145,163 | `keys` |
+| reference/script-syntax | Outfit words | packages/shared/src/script/keywords.ts:18; generate.ts:57; {ui.script.kw.outfit} | catalogs `script.kw.outfit`, `script.kw.defaultOutfit` |
+| reference/script-syntax | Rich tags in 7 languages, read in all | script/richTags.ts:7-16; catalogs `script.tag.*` | `tagLookup` |
+| reference/script-syntax | Color 1-5 or #rrggbb; pause 0.1-5, default 0.5; `{{` | richText.ts:14,19,21 | `RICH_PAUSE`, `validColor` |
+| reference/glossary | Up to 6 shots | packages/shared/src/camera.ts:6 | `CAMERA_SHOTS_MAX = 6` |
+| reference/project-format | Format 26; what 18-26 added | schema.ts:15; packages/shared/migrations/v17-to-v18.ts … v25-to-v26.ts (header comments) | `CURRENT_SCHEMA_VERSION = 26` |
+| reference/project-format | deleted-assets holds any deleted asset | apps/editor/src/main/backups.ts:171 | "Moves the files of deleted assets" |
+| reference/faq | MP3/OGG/WAV; GIF/WebP; MP4/WebM looping, muted | shared/src/sound.ts:10; main/projectFiles.ts:77-78; render.ts:536-537 | `AUDIO_EXTENSIONS` |
+| reference/licenses-and-editions | Limits and allowed effects | NovelWorks-demo/packages/shared/src/demoLimits.ts:DEMO_LIMITS, DEMO_EFFECTS, DEMO_PARTICLES | |
+| reference/licenses-and-editions | Limits only stop adding; over-limit project cannot export | demoLimits.ts comment, exceedsDemoLimit; {tx}`demoLimit.body` | |
+| reference/licenses-and-editions | Steam edition needs no key | apps/editor/src/preload/edition.ts:35-36,46-47 | `usesLicense = edition === 'full'` |
+| reference/licenses-and-editions | Demo splash and corner logo | packages/runtime/player/main.ts:85,94-100 | `DEMO_SPLASH_TEXT`, `DEMO_CORNER_TEXT` |

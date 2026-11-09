@@ -17,16 +17,18 @@ description: Меняйте внешний вид игры экран за эк�
 
 | Экран | Что это | Страница |
 |---|---|---|
-| {ui.gameUI.fontsColors} | Шрифт и цвета, которые используют все экраны. | [Шрифты и цвета](/novelworks-docs/ru/game-ui/fonts-and-colors/) |
+| {ui.gameUI.fontsColors} | Шрифт и цвета, которые используют все экраны, а также то, как персонажи появляются и уходят. | [Шрифты и цвета](/novelworks-docs/ru/game-ui/fonts-and-colors/) |
 | {ui.gameUI.creatorSplash} | Логотип вашей студии или другие картинки перед титульным экраном. | [Заставка](/novelworks-docs/ru/game-ui/intro/) |
 | {ui.gameUI.contentWarning} | Предупреждает игроков о чувствительных темах перед титульным экраном. | [Предупреждение о содержании](/novelworks-docs/ru/game-ui/content-warning/) |
-| {ui.gameUI.titleScreen} | Первый экран вашей игры. | [Титульный экран](/novelworks-docs/ru/game-ui/title-screen/) |
+| {ui.gameUI.credits} | Бегущие титры. | [Титры](/novelworks-docs/ru/game-ui/credits/) |
+| {ui.gameUI.chapters} | Экран, на котором игроки выбирают главу. | [Главы](/novelworks-docs/ru/game-ui/chapters/) |
+| {ui.gameUI.titleScreen} | Первый экран вашей игры и его музыка. | [Титульный экран](/novelworks-docs/ru/game-ui/title-screen/) |
 | {ui.gameUI.dialogueBox} | Место, где появляются имена и реплики. | [Текстовое окно](/novelworks-docs/ru/game-ui/dialogue-box/) |
 | {ui.gameUI.choices} | Кнопки выбора. | [Выбор](/novelworks-docs/ru/game-ui/choices-screen/) |
 | {ui.gameUI.pauseMenu} | Открывается правой кнопкой мыши или клавишей Esc. | [Меню паузы](/novelworks-docs/ru/game-ui/pause-menu/) |
 | {ui.gameUI.saveLoad} | Экраны сохранения и загрузки. | [Экран сохранения и загрузки](/novelworks-docs/ru/game-ui/save-load-screen/) |
 | {ui.gameUI.history} | Список уже прочитанных реплик. | [Экран истории реплик](/novelworks-docs/ru/game-ui/history-screen/) |
-| {ui.gameUI.options} | Здесь игроки выбирают размер текста, скорость, шрифт и контрастность. | [Настройки игрока](/novelworks-docs/ru/game-ui/options/) |
+| {ui.gameUI.options} | Здесь игроки выбирают размер текста, скорость, шрифт, контрастность и громкость. | [Настройки игрока](/novelworks-docs/ru/game-ui/options/) |
 | {ui.quickMenu.title} | Кнопки управления чтением поверх истории. | [Быстрое меню](/novelworks-docs/ru/game-ui/quick-menu/) |
 | {ui.gameUI.theEnd} | Показывается, когда история закончилась. | [Экран конца](/novelworks-docs/ru/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | Его кнопка и панель предметов (функция «Инвентарь»). | [Экран инвентаря](/novelworks-docs/ru/game-ui/inventory-ui/) |

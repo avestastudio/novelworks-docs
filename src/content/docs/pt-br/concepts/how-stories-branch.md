@@ -16,7 +16,7 @@ Um momento **{ui.moments.exploration}** também pode levar a cenas, pelas zonas 
 
 ## Escolhas
 
-No inspetor, escreva uma pergunta (opcional) e depois o texto de cada opção. Para cada opção:
+Na aba **{ui.inspectorTabs.text}** do inspetor, escreva uma pergunta (opcional) e depois o texto de cada opção. Para cada opção:
 
 - **{ui.branchInspectors.changes}**: o que o jogo lembra se o jogador a escolher (veja [A memória do jogo](/novelworks-docs/pt-br/concepts/game-memory/)).
 - **{ui.branchInspectors.then}**: a cena para onde ela leva. Você também pode deixar a história continuar com o momento seguinte.
@@ -42,7 +42,7 @@ Um **{ui.moments.jump}** precisa só de uma cena para onde ir. Um **{ui.moments.
 
 ### A barra “{tx.branches.whereTitle}”
 
-Acima da tela do jogo, um botão pequeno para cada saída do momento selecionado mostra para onde ela leva, até quatro e depois “+N”. Uma frase longa demais termina com “…” (o texto completo está na dica). Clique em um deles para ir para essa cena. Um botão “Voltar” leva você ao ponto onde estava (os últimos 20 passos são lembrados). No primeiro momento de uma cena, uma lista mostra o que leva **até** a cena.
+Na aba **{ui.inspectorTabs.text}** do inspetor, um botão pequeno para cada saída do momento selecionado mostra para onde ela leva, até quatro e depois “+N”. Uma frase longa demais termina com “…” (o texto completo está na dica). Clique em um deles para ir para essa cena. Um botão “Voltar” leva você ao ponto onde estava (os últimos 20 passos são lembrados). No primeiro momento de uma cena, uma lista mostra o que leva **até** a cena. Na visão Roteiro, a mesma barra fica acima da prévia.
 
 ### A linha Ramificações
 

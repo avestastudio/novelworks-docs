@@ -38,7 +38,7 @@ En la pantalla de título, **{rt.game.continue}** carga la partida más reciente
 
 ## Qué contiene una partida guardada
 
-La escena y el momento, los valores de las variables, el inventario, las zonas ya usadas, el estado del mapa, el tiempo de juego y las últimas 200 líneas del [Historial](/novelworks-docs/es/player/history/). **No** contiene qué líneas se han leído (eso se guarda aparte para Saltar), ni el texto que se estaba escribiendo: una línea cargada aparece entera.
+La escena y el momento, los valores de las variables, el inventario, las zonas ya usadas, el estado del mapa, el tiempo de juego, la música y el sonido ambiente que suenan, y las últimas 200 líneas del [Historial](/novelworks-docs/es/player/history/). **No** contiene qué líneas se han leído (eso se guarda aparte para Saltar), los [capítulos](/novelworks-docs/es/game-ui/chapters/) alcanzados (también se guardan aparte) ni el texto que se estaba escribiendo: una línea cargada aparece entera. Un momento cargado empieza en su último plano de cámara, y sus efectos, su voz y sus efectos de sonido no se reproducen.
 
 ## Cuando actualizas tu juego
 

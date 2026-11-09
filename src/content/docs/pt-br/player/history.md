@@ -11,6 +11,8 @@ O **{rt.game.history}** mostra o que já foi dito até agora: as falas de diálo
 - Feche com **Esc**, **H** ou o botão **{rt.game.back}**.
 - Ele não está disponível na tela de título, durante a pausa, nem enquanto outra tela (Salvar, Opções, o inventário) está aberta. Abri-lo desliga o Auto e o Pular.
 
+O [texto formatado](/novelworks-docs/pt-br/writing/rich-text/) aparece aqui como palavras simples, sem cores nem efeitos.
+
 ## Como usar
 
 Ele abre já rolado até a última fala. Role com a roda do mouse, arrastando (em uma tela de toque) ou com as teclas: as setas movem um pouco, **Page Up** / **Page Down** ou **Espaço** movem uma tela, **Home** e **End** vão até as pontas. Quando nada foi dito ainda, ele diz “{tx.historyScreen.nothingHasBeenSaidYet}”

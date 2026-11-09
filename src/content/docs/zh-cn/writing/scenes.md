@@ -45,6 +45,7 @@ description: "创建、重命名、重新排序、复制和删除场景，并选
 
 - {ui.sceneInspector.name}；
 - {ui.sceneInspector.summary}：一两句话，只给你自己看。它显示在剧情地图和时间线上方，不会出现在游戏里；
+- {ui.sceneInspector.startsChapter}：让这个场景成为一个章节的开头，名称可选。章节按场景列表的顺序排列。请看[章节](/novelworks-docs/zh-cn/game-ui/chapters/)；
 - {ui.sceneInspector.writingStatus}：{ui.shared.outline.toWrite}、{ui.shared.outline.draft}或{ui.shared.outline.done}。如果你从未设置过，在场景有文字之前是“待编写”，之后是“{tx.shared.outline.draft}”；
 - 起始场景按钮；
 - {ui.branches.entriesTitle}：通向这个场景的地方，你可以点击它们；

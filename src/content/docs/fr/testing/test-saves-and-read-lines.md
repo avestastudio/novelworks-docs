@@ -33,4 +33,4 @@ Les sauvegardes, la sauvegarde rapide et la sauvegarde automatique, les options 
 - **{ui.playOverlay.clearTestSaves}** demande d’abord confirmation : « Les jeux exportés gardent leurs propres sauvegardes. »
 - **{ui.playOverlay.resetReadLines}** agit tout de suite, sans poser de question.
 
-Les options du joueur propres au testeur (taille du texte, vitesse…) sont conservées de la même façon, mais n’ont pas de bouton pour les effacer. L’interrupteur **{ui.playOverlay.showSplash}** reste actif jusqu’à ce que vous fermiez l’éditeur.
+Les options du joueur propres au testeur (taille du texte, vitesse…) et les [chapitres](/novelworks-docs/fr/game-ui/chapters/) atteints pendant les tests sont conservés de la même façon, mais n’ont pas de bouton pour les effacer. L’interrupteur **{ui.playOverlay.showSplash}** reste actif jusqu’à ce que vous fermiez l’éditeur.

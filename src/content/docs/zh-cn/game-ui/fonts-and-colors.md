@@ -28,6 +28,10 @@ description: 所有画面共用的字体、文字颜色、主色和按钮样式�
 
 在玩家选项里打开适合阅读障碍的字体的玩家，会得到一款专用字体，不管你在这里选了什么。
 
+## 角色的登场与退场
+
+{ui.effects.defaultsTitle}：为整个游戏选择一种{ui.effects.defaultEnter}和一种{ui.effects.defaultExit}。只要某个片段没有为该角色单独设置[效果](/novelworks-docs/zh-cn/writing/effects/)，就会使用它们。默认值是“{tx.effects.defaultNone}”。
+
 ## 颜色和按钮
 
 - {ui.gameUIInspector.primaryColor}：“按钮、高亮和‘继续’箭头。”它还为标题画面带来光晕。默认是一种粉色。
@@ -41,4 +45,4 @@ description: 所有画面共用的字体、文字颜色、主色和按钮样式�
 
 ## 重置
 
-这一页上的 {ui.gameUIInspector.resetToDefault} 只会重置字体和颜色。其他画面保留各自的设置。
+这一页上的 {ui.gameUIInspector.resetToDefault} 只会重置这一页的设置。其他画面保留各自的设置。

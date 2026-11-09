@@ -3,7 +3,7 @@ title: Inventário
 description: "Itens que os jogadores carregam: crie-os, dê e tire, verifique em condições e veja-os no jogo."
 ---
 
-Com o recurso **{ui.shared.features.inventory}** ativado, os jogadores podem coletar **itens**: chaves, cartas, moedas, pistas. Eles os veem num menu Inventário. Ative-o na [biblioteca de recursos](/novelworks-docs/pt-br/features/features-panel/). Itens não são [variáveis](/novelworks-docs/pt-br/branching/variables/): um item é algo que o jogador carrega.
+Com o recurso **{ui.shared.features.inventory}** ativado, os jogadores podem coletar itens: chaves, cartas, moedas, pistas. Eles os veem num menu Inventário. Ative-o na [biblioteca de recursos](/novelworks-docs/pt-br/features/features-panel/). Itens não são [variáveis](/novelworks-docs/pt-br/branching/variables/): um item é algo que o jogador carrega.
 
 ## A aba Itens
 

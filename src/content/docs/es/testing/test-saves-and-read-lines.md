@@ -33,4 +33,4 @@ Las partidas guardadas, el guardado rápido y el autoguardado, las opciones del 
 - **{ui.playOverlay.clearTestSaves}** pregunta antes: «Los juegos exportados conservan sus propias partidas guardadas.»
 - **{ui.playOverlay.resetReadLines}** actúa al instante, sin preguntar.
 
-Las opciones del jugador del propio probador (tamaño del texto, velocidad…) se conservan del mismo modo, pero no tienen botón para borrarlas. El interruptor **{ui.playOverlay.showSplash}** dura hasta que cierras el editor.
+Las opciones del jugador del propio probador (tamaño del texto, velocidad…) y los [capítulos](/novelworks-docs/es/game-ui/chapters/) alcanzados durante las pruebas se conservan del mismo modo, pero no tienen botón para borrarlos. El interruptor **{ui.playOverlay.showSplash}** dura hasta que cierras el editor.

@@ -7,7 +7,7 @@ description: プレイヤーに項目を選ばせ、ゲームが覚えること�
 
 ## 選択肢を追加する
 
-タイムラインで「{ui.moments.choice}」カットを追加します。最初は空の項目が2つあります。インスペクターで書くことも、ゲーム画面に直接書くこともできます。
+タイムラインのヘッダーで「{ui.timeline.addOther}」を開き、「{ui.moments.choice}」カットを追加します。最初は空の項目が2つあります。インスペクターの「{ui.inspectorTabs.text}」タブで書くことも、ゲーム画面に直接書くこともできます。
 
 ![項目が2つある選択肢：各項目が変えるものと、向かうシーン。](/novelworks-docs/screenshots/choice-options.png)
 

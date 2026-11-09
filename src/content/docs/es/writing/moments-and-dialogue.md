@@ -7,7 +7,7 @@ Un **momento** es un paso de una escena: una línea de diálogo, una elección, 
 
 ## Escribir una línea
 
-Haz clic en el cuadro de diálogo de la pantalla del juego y escribe. El texto se escribe directamente en el cuadro, y también puedes usar **{ui.momentInspector.text}** en el inspector.
+Haz clic en el cuadro de diálogo de la pantalla del juego y escribe. El texto se escribe directamente en el cuadro, y también puedes usar **{ui.momentInspector.text}** en la pestaña **{ui.inspectorTabs.text}** del inspector. Selecciona palabras para darles formato: consulta [Texto enriquecido](/novelworks-docs/es/writing/rich-text/).
 
 - **Intro** empieza la **línea siguiente**: un nuevo momento de diálogo después de este, con lo mismo en escena y el mismo personaje que habla, listo para escribir.
 - **Mayús+Intro** añade una línea nueva **dentro del mismo cuadro**.
@@ -15,7 +15,7 @@ Haz clic en el cuadro de diálogo de la pantalla del juego y escribe. El texto s
 
 ## Quién habla
 
-Sobre el texto, en la placa del nombre, o con **{ui.momentInspector.speaker}** en el inspector, elige:
+Sobre el texto, en la placa del nombre, o con **{ui.momentInspector.speaker}** en la pestaña **{ui.inspectorTabs.text}**, elige:
 
 - **{ui.stageControls.narrator}**: nadie habla, solo hay texto;
 - un personaje. Primero aparecen los personajes en escena y después los demás.
@@ -24,7 +24,7 @@ Una línea nueva conserva el personaje de la línea anterior. Si borras un perso
 
 ## Añadir momentos
 
-En la línea de tiempo, los botones sobre las tarjetas añaden un momento de cada tipo **después del seleccionado**: {ui.moments.dialogue}, {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} y, cuando esas funciones están activadas, {ui.moments.item} y {ui.moments.showMap}. El **+** al final de la tira añade una línea de diálogo. En una escena vacía, **{ui.timeline.writeTheFirstLine}** hace lo mismo.
+En la cabecera de la línea de tiempo, sobre las tarjetas, **{ui.moments.dialogue}** añade una línea de diálogo **después del momento seleccionado**. **{ui.timeline.addOther}** enumera los demás tipos, cada uno con una frase que lo explica: {ui.moments.choice}, {ui.moments.condition}, {ui.moments.jump}, {ui.moments.ending}, {ui.moments.exploration} y, cuando esas funciones están activadas, {ui.moments.item} y {ui.moments.showMap}. El **+** al final de la tira añade una línea de diálogo. En una escena vacía, **{ui.timeline.writeTheFirstLine}** hace lo mismo.
 
 Un momento nuevo no cambia nada en pantalla: muestra lo que mostraba el momento anterior (consulta [El escenario: los personajes se quedan en su sitio](/novelworks-docs/es/concepts/stage/)).
 
@@ -34,7 +34,7 @@ Arrastra una tarjeta a la izquierda o a la derecha. Las flechas **←** y **→*
 
 ## Qué muestra una tarjeta
 
-Una tarjeta muestra el nombre del personaje que habla con su color (o «Narrador», o el tipo de momento con una franja de color), el comienzo del texto y su número en la esquina. También puede mostrar:
+Una tarjeta muestra el nombre del personaje que habla con su color (o «{tx.timeline.narrator}», o el tipo de momento con una franja de color), el comienzo del texto y su número en la esquina. También puede mostrar:
 
 - un icono de nota adhesiva si el momento tiene una [nota](/novelworks-docs/es/writing/notes/);
 - un triángulo de advertencia: apunta a él para leer qué necesita atención, por ejemplo una elección sin opciones, un enlace a una escena borrada o un momento que los jugadores nunca pueden ver porque un final o un salto va antes;
@@ -56,8 +56,15 @@ Haz clic derecho en una tarjeta:
 
 ## Borrar un momento
 
-Usa el icono de papelera sobre la línea de tiempo, **{ui.momentInspector.delete}** en el inspector, **{ui.contextMenus.delete}** en el menú, o la tecla `Delete`. NovelWorks pide confirmación, salvo para una línea de diálogo vacía. Lo que el momento borrado cambiaba en escena pasa al siguiente, así los demás momentos siguen mostrando lo mismo.
+Usa el icono de papelera en la cabecera de la línea de tiempo, **{ui.contextMenus.delete}** en el menú del clic derecho, o la tecla `Delete`. NovelWorks pide confirmación, salvo para una línea de diálogo vacía. Lo que el momento borrado cambiaba en escena pasa al siguiente, así los demás momentos siguen mostrando lo mismo.
 
 ## El inspector de un momento de diálogo
 
-De arriba abajo: las advertencias, si las hay; **{ui.momentInspector.speaker}** y **{ui.momentInspector.text}**; el **{ui.momentInspector.background}**; quién está **{ui.momentInspector.onStage}**; la **{ui.momentInspector.note}**; y **{ui.momentInspector.script}**, que muestra cómo se escribe este momento en el [modo Guion](/novelworks-docs/es/writing/script-mode/) para que puedas copiarlo. Un momento de diálogo no tiene ajustes de sonido, música ni transición.
+Las advertencias, si las hay, están arriba. Debajo hay cuatro pestañas:
+
+- **{ui.inspectorTabs.text}**: **{ui.momentInspector.speaker}** y **{ui.momentInspector.text}**, adónde lleva el momento, la **{ui.momentInspector.note}**, y **{ui.momentInspector.script}**, que muestra cómo se escribe este momento en el [modo Guion](/novelworks-docs/es/writing/script-mode/) para que puedas copiarlo.
+- **{ui.inspectorTabs.image}**: hasta dónde llega un cambio, el **{ui.momentInspector.background}**, el **{ui.ambience.title}** y quién está **{ui.momentInspector.onStage}**.
+- **{ui.inspectorTabs.effects}**: la [cámara](/novelworks-docs/es/writing/camera/) y los [efectos](/novelworks-docs/es/writing/effects/).
+- **{ui.sound.tab}**: [música, sonido ambiente, efectos de sonido y voz](/novelworks-docs/es/writing/sound/).
+
+Consulta [El panel del momento](/novelworks-docs/es/writing/moment-panel/).

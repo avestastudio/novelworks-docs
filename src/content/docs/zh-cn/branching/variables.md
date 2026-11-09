@@ -5,7 +5,7 @@ description: 创建和管理游戏记住的分数和事实，并查看每一个�
 
 **变量**是游戏记住的东西。有两种，在[游戏的记忆](/novelworks-docs/zh-cn/concepts/game-memory/)中有说明：{ui.variables.number}（会增加或减少的数字，比如 Mia 的好感度或金钱）和 {ui.variables.yesNo}（某件事有没有发生：是或否，比如“{tx.memory.factExample}”或“有钥匙”）。
 
-玩家携带的东西（钥匙、硬币……）不是变量。它们是**物品**，属于[物品栏](/novelworks-docs/zh-cn/features/inventory/)功能。
+玩家携带的东西（钥匙、硬币……）不是变量。它们是物品，属于[物品栏](/novelworks-docs/zh-cn/features/inventory/)功能。
 
 ## 变量标签页
 
@@ -53,4 +53,4 @@ NovelWorks 会请你确认。如果变量被使用，它会列出使用的位置
 
 ## 变量可以在哪里使用
 
-在选择选项的改变中、在选项的条件中、在[如果…](/novelworks-docs/zh-cn/branching/conditions/)的测试中，以及在探索区域中（它们的条件和“修改变量”动作）。
+在选择选项的改变中、在选项的条件中、在[如果…](/novelworks-docs/zh-cn/branching/conditions/)的测试中、在探索区域中（它们的条件和“修改变量”动作），以及在对话台词里用来显示变量的值（请看[富文本](/novelworks-docs/zh-cn/writing/rich-text/)）。

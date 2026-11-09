@@ -7,12 +7,12 @@ Um momento **{ui.moments.ending}** mostra o nome do final e depois leva o jogado
 
 ## Adicione um final
 
-Na linha do tempo, adicione um momento **{ui.moments.ending}** no fim de uma cena. No inspetor:
+No cabeçalho da linha do tempo, abra **{ui.timeline.addOther}** e adicione um momento **{ui.moments.ending}** no fim de uma cena. Na aba **{ui.inspectorTabs.text}** do inspetor:
 
 - **{ui.branchInspectors.endingName}**: os novos finais se chamam “{tx.shared.scenes.goodEnding}”. Se você deixar o nome vazio, o jogo mostra “Fim”.
 - Um **texto curto** (opcional) mostrado abaixo do nome.
 
-Depois do final, o jogador volta à tela de título.
+Depois do final, o jogador volta à tela de título. Se você ativou os [créditos](/novelworks-docs/pt-br/game-ui/credits/) com **{ui.credits.afterEnding}**, eles rolam primeiro.
 
 ## O que os jogadores veem
 

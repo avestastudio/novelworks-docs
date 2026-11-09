@@ -7,13 +7,13 @@ description: "ポイント&クリックのシーン:プレイヤーがクリッ�
 
 ## 追加する
 
-タイムラインで、{ui.moments.exploration} カットを追加します。最初は空で、その前のカットの背景を使います。選ぶと、インスペクターに {ui.explorationInspectors.zones} と {ui.explorationInspectors.props}、そして **+ エリア** と **+ 小物** が表示されます。
+タイムラインのヘッダーで「{ui.timeline.addOther}」を開き、「{ui.moments.exploration}」カットを追加します。最初は空で、その前のカットの背景を使います。選ぶと、インスペクターの「{ui.inspectorTabs.text}」タブに「{ui.explorationInspectors.zones}」と「{ui.explorationInspectors.props}」、そして **+ エリア** と **+ 小物** が表示されます。
 
 ![探索のカット。絵の上に描かれたエリアと、インスペクターのエリアと小物の一覧。](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## エリアを描く
 
-ゲーム画面の上で、{ui.explorationCanvas.drawZonesAs} を選びます。{ui.explorationCanvas.rectangle}か{ui.explorationCanvas.shape}です。(ウインドウが狭いときは、{ui.stage.more} メニューの中にあります。)
+ゲーム画面の上で、{ui.explorationCanvas.drawZonesAs} を選びます。{ui.explorationCanvas.rectangle}か{ui.explorationCanvas.shape}です。
 
 - {ui.explorationCanvas.rectangle}:絵の上をドラッグします。ただクリックしただけでは何も作られず、画面の 2 % より小さいエリアは作られません。
 - {ui.explorationCanvas.shape}:物のまわりを、点を1つずつクリックして囲みます。最初の点をもう一度クリックするか、**Enter** を押すと図形を閉じます。**Esc** でキャンセルします。少なくとも3つの点が必要です。

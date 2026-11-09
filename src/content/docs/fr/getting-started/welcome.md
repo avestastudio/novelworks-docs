@@ -7,17 +7,18 @@ NovelWorks est un éditeur de **romans visuels** : des histoires racontées ave
 
 ## Ce que vous faites dans NovelWorks
 
-1. Importez vos images : décors, personnages (avec leurs expressions) et autres images.
+1. Importez vos images et vos sons : décors, personnages (avec leurs expressions), autres images et musique.
 2. **Écrivez des scènes** : choisissez un décor, placez des personnages à l’écran, tapez les dialogues.
 3. **Faites bifurquer l’histoire** : ajoutez des choix, faites retenir au jeu ce que le joueur a choisi, et envoyez l’histoire vers d’autres scènes ou d’autres fins.
-4. **Cliquez sur {ui.topBar.play}** à tout moment pour jouer à votre jeu depuis l’écran-titre.
-5. Exportez le jeu terminé pour le web et publiez-le, par exemple sur itch.io.
+4. **Donnez-lui vie** si vous voulez : [tenues](/novelworks-docs/fr/writing/outfits/), [ambiances et décors animés](/novelworks-docs/fr/writing/ambience-and-animated-backgrounds/), [mouvements de caméra](/novelworks-docs/fr/writing/camera/), [effets](/novelworks-docs/fr/writing/effects/), [son](/novelworks-docs/fr/writing/sound/) et [texte enrichi](/novelworks-docs/fr/writing/rich-text/).
+5. **Cliquez sur {ui.topBar.play}** à tout moment pour jouer à votre jeu depuis l’écran-titre.
+6. Exportez le jeu terminé pour le web et publiez-le, par exemple sur itch.io.
 
 ## Les quatre zones de la fenêtre
 
 Quand un projet est ouvert, la fenêtre a quatre zones. La [visite de l’éditeur](/novelworks-docs/fr/getting-started/tour-of-the-editor/) les explique une par une.
 
-- **À gauche** : vos scènes, vos images, vos personnages et vos variables.
+- **À gauche** : vos scènes, vos images et vos sons, vos personnages et vos variables.
 - **Au centre** : l’écran du jeu, exactement comme les joueurs le verront.
 - **En bas** : la chronologie, c’est-à-dire les moments de la scène en cours.
 - **À droite** : les détails de ce que vous avez sélectionné.

@@ -33,4 +33,4 @@ Saves, quick save and autosave, the player options (text size, speed…), and th
 - **{ui.playOverlay.clearTestSaves}** asks first: "Exported games keep their own saves."
 - **{ui.playOverlay.resetReadLines}** acts at once, with no question.
 
-The tester's own player options (text size, speed…) are kept the same way but have no button to clear them. The **{ui.playOverlay.showSplash}** switch lasts until you close the editor.
+The tester's own player options (text size, speed…) and the [chapters](/novelworks-docs/game-ui/chapters/) reached while testing are kept the same way but have no button to clear them. The **{ui.playOverlay.showSplash}** switch lasts until you close the editor.

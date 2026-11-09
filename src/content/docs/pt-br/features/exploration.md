@@ -7,13 +7,13 @@ Um momento **{ui.moments.exploration}** **não tem caixa de texto**: o jogador o
 
 ## Adicione uma
 
-Na linha do tempo, adicione um momento **{ui.moments.exploration}**. Ele começa vazio e usa o cenário do momento anterior. Selecione-o: o inspetor mostra **{ui.explorationInspectors.zones}** e **{ui.explorationInspectors.props}** com **+ Zona** e **+ Objeto de cena**.
+No cabeçalho da linha do tempo, abra **{ui.timeline.addOther}** e adicione um momento **{ui.moments.exploration}**. Ele começa vazio e usa o cenário do momento anterior. Selecione-o: a aba **{ui.inspectorTabs.text}** do inspetor mostra **{ui.explorationInspectors.zones}** e **{ui.explorationInspectors.props}** com **+ Zona** e **+ Objeto de cena**.
 
 ![Um momento de Exploração: as zonas desenhadas sobre a imagem e a lista de zonas e objetos de cena no inspetor.](/novelworks-docs/screenshots/exploration-editor.png)
 
 ## Desenhe zonas
 
-Acima da tela do jogo, escolha **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** ou **{ui.explorationCanvas.shape}**. (Numa janela estreita, eles ficam no menu **{ui.stage.more}**.)
+Acima da tela do jogo, escolha **{ui.explorationCanvas.drawZonesAs}**: **{ui.explorationCanvas.rectangle}** ou **{ui.explorationCanvas.shape}**.
 
 - **{ui.explorationCanvas.rectangle}**: arraste sobre a imagem. Um simples clique não cria nada, e uma zona menor que 2 % da tela não é criada.
 - **{ui.explorationCanvas.shape}**: clique ponto por ponto ao redor de um objeto. Feche a forma clicando no primeiro ponto de novo, ou pressionando **Enter**. **Esc** cancela. São necessários pelo menos três pontos.

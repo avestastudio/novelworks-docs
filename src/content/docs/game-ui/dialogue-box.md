@@ -5,11 +5,21 @@ description: "Where names and lines appear: position, size, background, text and
 
 The **{ui.gameUI.dialogueBox}** is the box that shows the speaker's name and the text. Its size and place are in percentages of the screen (mostly of its height), so it keeps its look at any resolution.
 
+## Templates
+
+Under **{ui.templates.heading}**, four cards place the box for you: **{ui.templates.dialogue.classic}** (at the bottom), **{ui.templates.dialogue.sidePanel}** (on the right), **{ui.templates.dialogue.centerCard}** and **{ui.templates.dialogue.topBanner}**. A click changes only the position, the margin, the width and the height. Colors, name tag, avatar, pictures and text stay as you set them. One **{ui.topBar.undo}** brings back what you had.
+
+The card of the current template is highlighted until you change one of those settings.
+
 ## Position and size
 
 - **{ui.gameUIInspector.position}**: {ui.gameUIInspector.bottom} (default), {ui.gameUIInspector.top}, {ui.gameUIInspector.left}, {ui.gameUIInspector.right} or {ui.gameUIInspector.center}. Choosing one also sets width and height to a good starting size: a wide strip for top and bottom, a tall panel (about a third of the screen) for left and right, and a box in the middle for center.
 - **{ui.gameUIInspector.margin}**: space to the screen edges (0 to 20 %, default 3.5).
 - **{ui.gameUIInspector.width}** and **{ui.gameUIInspector.height}**: 10 to 100 %. After choosing a position you can adjust them.
+
+## Colors of the words
+
+**{ui.richText.palette}** holds five colors, numbered 1 to 5. They are the colors offered when you select words in a line. See [Rich text](/novelworks-docs/writing/rich-text/). If you change a color here, every word that uses it changes too.
 
 ## Background
 

@@ -3,7 +3,7 @@ title: Inventario
 description: "Los objetos que llevan los jugadores: créalos, dalos y quítalos, compruébalos en condiciones y velos en el juego."
 ---
 
-Con la función **{ui.shared.features.inventory}** activada, los jugadores pueden recoger **objetos**: llaves, cartas, monedas, pistas. Los ven en un menú Inventario. Actívala en la [biblioteca de funciones](/novelworks-docs/es/features/features-panel/). Los objetos no son [variables](/novelworks-docs/es/branching/variables/): un objeto es algo que el jugador lleva consigo.
+Con la función **{ui.shared.features.inventory}** activada, los jugadores pueden recoger objetos: llaves, cartas, monedas, pistas. Los ven en un menú Inventario. Actívala en la [biblioteca de funciones](/novelworks-docs/es/features/features-panel/). Los objetos no son [variables](/novelworks-docs/es/branching/variables/): un objeto es algo que el jugador lleva consigo.
 
 ## La pestaña Objetos
 

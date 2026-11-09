@@ -19,9 +19,9 @@ NovelWorks shows a short **guided tour** the first time you open a project. It h
 2. **{ui.tutorial.scenes.title}**: your story is made of scenes, like chapters. The left panel holds them, and tabs for pictures, characters and variables.
 3. **{ui.tutorial.assets.title}**: import pictures with the **{ui.assetsTab.import}** button or by dropping them on the window, then choose a type for each one.
 4. **{ui.tutorial.stage.title}**: the game screen shows what players will see.
-5. **{ui.tutorial.background.title}**: choose the moment's background, and keep it for the rest of the scene with **{ui.momentInspector.applyToTheFollowingMoments}**.
+5. **{ui.tutorial.background.title}**: choose the moment's background. The window lists your backgrounds and lets you import a new picture.
 6. **{ui.tutorial.character.title}**: put a character on stage and drag it into place.
-7. **{ui.tutorial.persist.title}**: characters stay in place until you change them. See [The stage](/novelworks-docs/concepts/stage/).
+7. **{ui.tutorial.persist.title}**: characters stay in place until you change them. To keep a change to one moment, choose **{ui.stage.scopeOnlyHere}**. See [The stage](/novelworks-docs/concepts/stage/).
 8. **{ui.tutorial.timeline.title}**: a scene is a series of moments. See [Scenes, moments and the timeline](/novelworks-docs/concepts/scenes-moments-timeline/).
 9. **{ui.tutorial.inspector.title}**: everything about the selected item.
 10. **{ui.tutorial.choices.title}**: add a choice, make the game remember something, and send the story elsewhere with an "{tx.leftPanel.condition}". See [How a story branches](/novelworks-docs/concepts/how-stories-branch/).

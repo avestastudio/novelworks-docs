@@ -17,16 +17,18 @@ description: 逐个画面地修改游戏的外观，并实时预览。
 
 | 画面 | 它是什么 | 页面 |
 |---|---|---|
-| {ui.gameUI.fontsColors} | 所有画面共用的字体和颜色。 | [字体和颜色](/novelworks-docs/zh-cn/game-ui/fonts-and-colors/) |
+| {ui.gameUI.fontsColors} | 所有画面共用的字体和颜色，以及角色登场和退场的方式。 | [字体和颜色](/novelworks-docs/zh-cn/game-ui/fonts-and-colors/) |
 | {ui.gameUI.creatorSplash} | 标题画面之前显示你的工作室标志或其他图片。 | [片头](/novelworks-docs/zh-cn/game-ui/intro/) |
 | {ui.gameUI.contentWarning} | 在标题画面之前提醒玩家有敏感内容。 | [内容提示](/novelworks-docs/zh-cn/game-ui/content-warning/) |
-| {ui.gameUI.titleScreen} | 游戏的第一个画面。 | [标题画面](/novelworks-docs/zh-cn/game-ui/title-screen/) |
+| {ui.gameUI.credits} | 滚动的制作人员名单。 | [制作人员名单](/novelworks-docs/zh-cn/game-ui/credits/) |
+| {ui.gameUI.chapters} | 玩家选择章节的画面。 | [章节](/novelworks-docs/zh-cn/game-ui/chapters/) |
+| {ui.gameUI.titleScreen} | 游戏的第一个画面，以及它的音乐。 | [标题画面](/novelworks-docs/zh-cn/game-ui/title-screen/) |
 | {ui.gameUI.dialogueBox} | 显示名字和台词的地方。 | [对话框](/novelworks-docs/zh-cn/game-ui/dialogue-box/) |
 | {ui.gameUI.choices} | 选择的按钮。 | [选择](/novelworks-docs/zh-cn/game-ui/choices-screen/) |
 | {ui.gameUI.pauseMenu} | 用鼠标右键或 Esc 打开。 | [暂停菜单](/novelworks-docs/zh-cn/game-ui/pause-menu/) |
 | {ui.gameUI.saveLoad} | 存档和读档画面。 | [存档和读档画面](/novelworks-docs/zh-cn/game-ui/save-load-screen/) |
 | {ui.gameUI.history} | 已读台词的列表。 | [历史记录画面](/novelworks-docs/zh-cn/game-ui/history-screen/) |
-| {ui.gameUI.options} | 玩家在这里选择文字大小、速度、字体和对比度。 | [玩家选项](/novelworks-docs/zh-cn/game-ui/options/) |
+| {ui.gameUI.options} | 玩家在这里选择文字大小、速度、字体、对比度和音量。 | [玩家选项](/novelworks-docs/zh-cn/game-ui/options/) |
 | {ui.quickMenu.title} | 叠在剧情之上的阅读控制。 | [快捷菜单](/novelworks-docs/zh-cn/game-ui/quick-menu/) |
 | {ui.gameUI.theEnd} | 故事结束时显示。 | [结束画面](/novelworks-docs/zh-cn/game-ui/ending-screen/) |
 | {ui.gameUI.inventory} | 它的按钮和物品面板（物品栏功能）。 | [物品栏画面](/novelworks-docs/zh-cn/game-ui/inventory-ui/) |
